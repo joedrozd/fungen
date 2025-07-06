@@ -41,10 +41,21 @@ export default function Home() {
     );
   }
   return (
-    <div className="min-h-screen flex items-center justify-center p-8">
-      <div className="text-center max-w-md">
-        <h1 className="text-3xl font-bold mb-6">One-Hour Activity Generator</h1>
-        <p className="text-lg mb-8">{activity}</p>
+    <div 
+      className="min-h-screen flex items-center justify-center p-8"
+      style={{
+        backgroundImage: "url('/background.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundAttachment: "fixed"
+      }}
+    >
+      <div className="text-center max-w-md bg-white bg-opacity-90 rounded-xl p-8 shadow-lg">
+        <h1 className="text-3xl text-black font-bold mb-4">One-Hour Activity Generator</h1>
+        <p className="text-black mb-6 max-w-md">
+          Need inspiration for your next hour? Click below for random leisure or productive activity ideas!
+        </p>
+        <p className="text-lg mb-8 text-black font-medium">{activity}</p>
         <div className="flex flex-row gap-4">
           <button
             onClick={() => {
