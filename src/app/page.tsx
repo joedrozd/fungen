@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center p-8">
       <div className="text-center max-w-md">
-        <h1 className="text-2xl font-bold mb-6">Activity Generator</h1>
+        <h1 className="text-3xl font-bold mb-6">One-Hour Activity Generator</h1>
         <p className="text-lg mb-8">{activity}</p>
         <div className="flex flex-row gap-4">
           <button
