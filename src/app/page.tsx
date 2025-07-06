@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   const [activity, setActivity] = useState("Click a button for an idea!");
@@ -49,7 +50,7 @@ export default function Home() {
         backgroundPosition: "center",
         backgroundAttachment: "fixed"
       }}
-    >
+    ><Analytics/>
       <div className="text-center max-w-md bg-white bg-opacity-90 rounded-xl p-8 shadow-lg">
         <img src="/logo.png" alt="Logo" className="mx-auto mb-4 h-16 w-auto" />
         <h1 className="text-3xl text-black font-bold mb-4">Activity Generator</h1>
