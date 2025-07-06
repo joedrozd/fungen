@@ -51,7 +51,8 @@ export default function Home() {
       }}
     >
       <div className="text-center max-w-md bg-white bg-opacity-90 rounded-xl p-8 shadow-lg">
-        <h1 className="text-3xl text-black font-bold mb-4">One-Hour Activity Generator</h1>
+        <img src="/logo.png" alt="Logo" className="mx-auto mb-4 h-16 w-auto" />
+        <h1 className="text-3xl text-black font-bold mb-4">Activity Generator</h1>
         <p className="text-black mb-6 max-w-md">
           Need inspiration for your next hour? Click below for random leisure or productive activity ideas!
         </p>
