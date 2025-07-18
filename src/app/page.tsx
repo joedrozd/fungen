@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Analytics } from "@vercel/analytics/next";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -15,7 +16,7 @@ export default function Home() {
   const [leisureCategories, setLeisureCategories] = useState<Category[]>([]);
   const [productiveCategories, setProductiveCategories] = useState<Category[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-  const [activeType, setActiveType] = useState<'leisure' | 'productive'>('leisure');
+  const [activeType] = useState<'leisure' | 'productive'>('leisure');
   const [showTable, setShowTable] = useState(false);
   const [loading, setLoading] = useState(true);
 
@@ -69,7 +70,7 @@ export default function Home() {
     ><Analytics/>
       <Card className="text-center max-w-md bg-white/90">
         <CardHeader>
-          <img src="/logo.png" alt="Logo" className="mx-auto mb-4 h-16 w-auto" />
+          <Image src="/logo.png" alt="Logo" className="mx-auto mb-4 h-16 w-auto" width={64} height={64} />
           <CardTitle className="text-3xl">Activity Generator</CardTitle>
           <p className="text-muted-foreground">
             Need inspiration for your next hour? Click below for random leisure or productive activity ideas!
