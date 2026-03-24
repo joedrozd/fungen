@@ -1,0 +1,129 @@
+{
+  "categories": [
+    {
+      "name": "Outdoor",
+      "activities": [
+        { "name": "Take a walk in a nearby park and observe nature", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Visit a local park you've never been to", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Visit a botanical garden", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Do some bird watching", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Visit a farmers market", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Go for a bike ride in your neighborhood", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Have a picnic in a scenic spot", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try geocaching in your area", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Watch the sunrise or sunset outdoors", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Explore a new hiking trail", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try outdoor yoga", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Go stargazing in a dark area", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Visit a nature reserve", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try outdoor photography", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" }
+      ]
+    },
+    {
+      "name": "Creative",
+      "activities": [
+        { "name": "Sketch or doodle something creative", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Do some finger painting", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Do some origami", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Learn basic calligraphy", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Do some people sketching in a public place", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Write a short poem or haiku", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Create a collage from magazine cutouts", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try your hand at watercolor painting", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Make a vision board", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Design your own greeting card", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try pottery or clay sculpting", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Create a DIY home decoration", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Write a short story", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try digital art on your phone/tablet", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" }
+      ]
+    },
+    {
+      "name": "Learning",
+      "activities": [
+        { "name": "Learn a new skill from a YouTube tutorial", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Learn basic phrases in a new language", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Learn to solve a Rubik's cube", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Learn about constellations and stargaze", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Learn about different types of tea", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Learn basic photography composition", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Learn to juggle three balls", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Learn about local history", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Learn basic first aid techniques", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Learn to tie different knots", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Learn about wine pairing basics", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Learn magic tricks", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Learn about astronomy", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Learn basic car maintenance", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" }
+      ]
+    },
+    {
+      "name": "Food & Drink",
+      "activities": [
+        { "name": "Try a new recipe with ingredients you have at home", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try a new type of tea or coffee", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try a new type of cuisine", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try a new cocktail or mocktail recipe", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try a new type of bread or pastry", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Bake cookies from scratch", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Make homemade ice cream", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try a new type of cheese", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Learn proper wine tasting techniques", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Make your own infused water", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try fermenting vegetables", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Make homemade pasta", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try molecular gastronomy basics", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Host a themed dinner party", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" }
+      ]
+    },
+    {
+      "name": "Mindfulness",
+      "activities": [
+        { "name": "Meditate for 10-15 minutes", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Do a digital detox for one hour", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Write down 10 things you're grateful for", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Practice mindfulness for focus", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Learn about different meditation techniques", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try a guided body scan meditation", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Practice deep breathing exercises", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Do a sensory awareness exercise", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try a walking meditation", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Write a letter of forgiveness (you don't have to send it)", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try sound bath meditation", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Practice progressive muscle relaxation", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Do a loving-kindness meditation", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try forest bathing (shinrin-yoku)", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" }
+      ]
+    },
+    {
+      "name": "Social",
+      "activities": [
+        { "name": "Call an old friend you haven't spoken to in a while", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Organize a game night with friends", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Join a local meetup group", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Volunteer at a community event", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Host a potluck dinner", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Start a book club", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Organize a neighborhood clean-up", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Visit a community center event", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Join a recreational sports league", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Attend a cultural festival", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" }
+      ]
+    },
+    {
+      "name": "Games",
+      "activities": [
+        { "name": "Learn a new card game", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try a new board game", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Play chess against a computer", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try escape room games", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Play word association games", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try puzzle games like Sudoku", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Play charades with friends", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try tabletop RPGs", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Play brain-training games", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
+        { "name": "Try geoguessr online", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" }
+      ]
+    }
+  ]
+}

@@ -6,9 +6,10 @@ import { SearchBar } from "./SearchBar";
 
 interface NavigationProps {
   onSearch: (query: string) => void;
+  breadcrumb?: { name: string; href?: string }[];
 }
 
-export function Navigation({ onSearch }: NavigationProps) {
+export function Navigation({ onSearch, breadcrumb }: NavigationProps) {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -90,10 +91,29 @@ export function Navigation({ onSearch }: NavigationProps) {
             <li>
               <Link href="/" className="hover:text-blue-600">Home</Link>
             </li>
-            <li aria-hidden="true">/</li>
-            <li>
-              <span className="text-gray-700 font-medium">Generator</span>
-            </li>
+            {breadcrumb ? (
+              breadcrumb.map((item, index) => (
+                <div key={index} className="flex items-center gap-1">
+                  <li aria-hidden="true">/</li>
+                  <li>
+                    {item.href ? (
+                      <Link href={item.href} className="hover:text-blue-600">
+                        {item.name}
+                      </Link>
+                    ) : (
+                      <span className="text-gray-700 font-medium">{item.name}</span>
+                    )}
+                  </li>
+                </div>
+              ))
+            ) : (
+              <>
+                <li aria-hidden="true">/</li>
+                <li>
+                  <span className="text-gray-700 font-medium">Generator</span>
+                </li>
+              </>
+            )}
           </ol>
         </nav>
 

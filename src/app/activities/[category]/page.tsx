@@ -3,13 +3,13 @@
 import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
-import { Analytics } from "@vercel/analytics/next";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { RatingWidget } from "@/components/RatingWidget";
 import { FavoritesList } from "@/components/FavoritesList";
 import { SocialShare } from "@/components/SocialShare";
 import { BackToTop } from "@/components/BackToTop";
+import { Navigation } from "@/components/Navigation";
 import { useToast } from "@/components/Toast";
 import { useUserPreferences } from "@/hooks/useUserPreferences";
 
@@ -43,8 +43,13 @@ export default function CategoryPage() {
   const [allCategories, setAllCategories] = useState<Category[]>([]);
   const [isLeisure, setIsLeisure] = useState<boolean | null>(null);
   const [loading, setLoading] = useState(true);
+  const [searchQuery, setSearchQuery] = useState("");
   const { addRecentActivity } = useUserPreferences();
   const { showToast } = useToast();
+
+  const handleSearch = (query: string) => {
+    setSearchQuery(query);
+  };
 
   useEffect(() => {
     const fetchData = async () => {
@@ -61,10 +66,10 @@ export default function CategoryPage() {
 
         // Find which type this category belongs to
         const foundLeisure = leisureCategories.find(
-          (c) => c.name.toLowerCase().replace(/[^a-z0-9]/g, "-") === categoryName.toLowerCase()
+          (c) => c.name.toLowerCase().replace(/[^a-z0-9]+/g, "-") === categoryName.toLowerCase()
         );
         const foundProductive = productiveCategories.find(
-          (c) => c.name.toLowerCase().replace(/[^a-z0-9]/g, "-") === categoryName.toLowerCase()
+          (c) => c.name.toLowerCase().replace(/[^a-z0-9]+/g, "-") === categoryName.toLowerCase()
         );
 
         if (foundLeisure) {
@@ -125,51 +130,13 @@ export default function CategoryPage() {
         backgroundAttachment: "fixed",
       }}
     >
-      <Analytics />
-
-      {/* Navigation */}
-      <nav
-        className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50"
-        role="navigation"
-        aria-label="Main navigation"
-      >
-        <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
-          <Link
-            href="/"
-            className="flex items-center gap-2 font-bold text-lg hover:text-blue-600 transition-colors"
-            aria-label="Activity Generator Home"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2}
-              aria-hidden="true"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M13 10V3L4 14h7v7l9-11h-7z"
-              />
-            </svg>
-            <span>Activity Generator</span>
-          </Link>
-
-          <nav aria-label="Breadcrumb" className="flex items-center text-sm text-gray-500">
-            <ol className="flex items-center gap-1">
-              <li>
-                <Link href="/" className="hover:text-blue-600">Home</Link>
-              </li>
-              <li aria-hidden="true">/</li>
-              <li>
-                <span className="text-gray-700 font-medium">{formattedCategoryName}</span>
-              </li>
-            </ol>
-          </nav>
-        </div>
-      </nav>
+      <Navigation
+        onSearch={handleSearch}
+        breadcrumb={[
+          { name: "Activities", href: "/activities" },
+          { name: formattedCategoryName }
+        ]}
+      />
 
       {/* Main content */}
       <main className="flex-1 p-8 pt-24">
@@ -184,12 +151,12 @@ export default function CategoryPage() {
 
           {/* Category tabs */}
           <div className="flex justify-center gap-2 mb-8">
-            <Link href="/">
+            <Link href="/activities">
               <Button variant={isLeisure === true ? "default" : "outline"} size="sm">
                 Leisure
               </Button>
             </Link>
-            <Link href="/">
+            <Link href="/activities">
               <Button variant={isLeisure === false ? "destructive" : "outline"} size="sm">
                 Productive
               </Button>
@@ -198,50 +165,52 @@ export default function CategoryPage() {
 
           {/* Activities list */}
           <div className="grid gap-4">
-            {category.activities.map((activity, index) => {
-              const activityName = getActivityName(activity);
-              const activityImage = getActivityImage(activity);
-              
-              return (
-                <Card key={index} className="hover:shadow-md transition-shadow overflow-hidden">
-                  <CardContent className="p-0">
-                    <div className="flex flex-col md:flex-row">
-                      {activityImage && (
-                        <div className="md:w-48 md:shrink-0">
-                          <img
-                            src={activityImage}
-                            alt={activityName}
-                            className="w-full h-40 md:h-full object-cover"
-                            loading="lazy"
-                          />
-                        </div>
-                      )}
-                      <div className="flex-1 p-4">
-                        <div className="flex items-center justify-between gap-4">
-                          <div className="flex-1">
-                            <p className="text-lg font-medium">{activityName}</p>
+            {category.activities
+              .filter(a => getActivityName(a).toLowerCase().includes(searchQuery.toLowerCase()))
+              .map((activity, index) => {
+                const activityName = getActivityName(activity);
+                const activityImage = getActivityImage(activity);
+
+                return (
+                  <Card key={index} className="hover:shadow-md transition-shadow overflow-hidden">
+                    <CardContent className="p-0">
+                      <div className="flex flex-col md:flex-row">
+                        {activityImage && (
+                          <div className="md:w-48 md:shrink-0">
+                            <img
+                              src={activityImage}
+                              alt={activityName}
+                              className="w-full h-40 md:h-full object-cover"
+                              loading="lazy"
+                            />
                           </div>
-                          <div className="flex items-center gap-2 shrink-0">
-                            <Button
-                              onClick={() => handleActivityClick(activityName)}
-                              size="sm"
-                              variant="outline"
-                            >
-                              Try it
-                            </Button>
+                        )}
+                        <div className="flex-1 p-4">
+                          <div className="flex items-center justify-between gap-4">
+                            <div className="flex-1">
+                              <p className="text-lg font-medium">{activityName}</p>
+                            </div>
+                            <div className="flex items-center gap-2 shrink-0">
+                              <Button
+                                onClick={() => handleActivityClick(activityName)}
+                                size="sm"
+                                variant="outline"
+                              >
+                                Try it
+                              </Button>
+                            </div>
                           </div>
-                        </div>
-                        <div className="mt-3 pt-3 border-t">
-                          <RatingWidget activity={activityName} />
-                          <FavoritesList currentActivity={activityName} onSelectFavorite={() => {}} />
-                          <SocialShare activity={activityName} />
+                          <div className="mt-3 pt-3 border-t">
+                            <RatingWidget activity={activityName} />
+                            <FavoritesList currentActivity={activityName} onSelectFavorite={() => { }} />
+                            <SocialShare activity={activityName} />
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              );
-            })}
+                    </CardContent>
+                  </Card>
+                );
+              })}
           </div>
 
           {/* Other categories */}
@@ -253,7 +222,7 @@ export default function CategoryPage() {
                 .map((cat) => (
                   <Link
                     key={cat.name}
-                    href={`/activities/${cat.name.toLowerCase().replace(/[^a-z0-9]/g, "-")}`}
+                    href={`/activities/${cat.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
                     className="block"
                   >
                     <Card className="hover:shadow-md transition-shadow h-full">

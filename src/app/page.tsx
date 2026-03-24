@@ -133,7 +133,7 @@ export default function Home() {
     setActivity(favorite);
   }, []);
 
-  const formatCategorySlug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]/g, "-");
+  const formatCategorySlug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
   const currentCategories = activeType === "leisure" ? leisureCategories : productiveCategories;
 
@@ -251,6 +251,12 @@ export default function Home() {
                   </Link>
                 ))}
               </div>
+              
+              <Link href="/activities" className="mt-4">
+                <Button variant="link" className="text-blue-600 hover:text-blue-800">
+                  Show All Activities
+                </Button>
+              </Link>
             </div>
 
             {/* Search results indicator */}
