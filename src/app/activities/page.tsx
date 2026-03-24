@@ -7,9 +7,14 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BackToTop } from "@/components/BackToTop";
 
+type Activity = {
+  name: string;
+  image?: string;
+} | string;
+
 type Category = {
   name: string;
-  activities: any[];
+  activities: Activity[];
 };
 
 export default function ActivitiesPage() {
