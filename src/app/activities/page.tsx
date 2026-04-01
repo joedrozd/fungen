@@ -70,7 +70,9 @@ export default function ActivitiesPage() {
 
       <main className="flex-1 p-8 pt-24">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-4xl font-bold mb-8 text-center text-white drop-shadow-lg">Browse All Activities</h1>
+          <div className="bg-white/80 backdrop-blur-md rounded-2xl p-6 shadow-xl border border-white/20 mb-12 text-center">
+            <h1 className="text-4xl font-bold text-gray-900">Browse All Activities</h1>
+          </div>
 
           <div className="grid md:grid-cols-2 gap-12">
             {/* Leisure Section */}

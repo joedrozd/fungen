@@ -148,14 +148,14 @@ export default function CategoryPage() {
       <main className="flex-1 p-8 pt-24">
         <div className="max-w-4xl mx-auto">
           {/* Category header */}
-          <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold mb-2">{formattedCategoryName}</h1>
+          <div className="text-center mb-8 bg-white/80 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-white/20">
+            <h1 className="text-4xl font-bold mb-3 text-gray-900">{formattedCategoryName}</h1>
             {category.description && (
-              <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-3">{category.description}</p>
+              <p className="text-xl text-gray-800 max-w-2xl mx-auto mb-4 leading-relaxed">{category.description}</p>
             )}
-            <p className="text-gray-500">
+            <div className="inline-block px-4 py-1.5 bg-indigo-100 text-indigo-700 rounded-full text-sm font-semibold">
               {category.activities.length} activities in this category
-            </p>
+            </div>
           </div>
 
           {/* Category tabs */}
