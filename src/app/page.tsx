@@ -16,12 +16,13 @@ import { useUserPreferences } from "@/hooks/useUserPreferences";
 
 type Category = {
   name: string;
-  activities: Array<{ name: string; image?: string } | string>;
+  activities: Array<{ name: string; description?: string; image?: string } | string>;
 };
 
 export default function Home() {
   const [activity, setActivity] = useState("Click a button for an idea!");
   const [activityImage, setActivityImage] = useState<string | null>(null);
+  const [activityDescription, setActivityDescription] = useState<string | null>(null);
   const [leisureCategories, setLeisureCategories] = useState<Category[]>([]);
   const [productiveCategories, setProductiveCategories] = useState<Category[]>([]);
   const [activeType, setActiveType] = useState<"leisure" | "productive">("leisure");
@@ -79,6 +80,7 @@ export default function Home() {
       const selectedActivity = searchResults[randomIndex];
       setActivity(selectedActivity);
       setActivityImage(null);
+      setActivityDescription(null);
       addRecentActivity(selectedActivity);
       setSearchResults(null);
       return;
@@ -98,14 +100,17 @@ export default function Home() {
       const randomFallback = fallback[Math.floor(Math.random() * fallback.length)];
       setActivity(randomFallback);
       setActivityImage(null);
+      setActivityDescription(null);
       addRecentActivity(randomFallback);
     } else {
       const randomIndex = Math.floor(Math.random() * activities.length);
       const selectedActivity = activities[randomIndex];
       const activityName = typeof selectedActivity === 'string' ? selectedActivity : selectedActivity.name;
       const activityImageUrl = typeof selectedActivity === 'string' ? null : selectedActivity.image;
+      const activityDesc = typeof selectedActivity === 'string' ? null : selectedActivity.description;
       setActivity(activityName);
       setActivityImage(activityImageUrl || null);
+      setActivityDescription(activityDesc || null);
       addRecentActivity(activityName);
     }
   }, [activeType, leisureCategories, productiveCategories, searchResults, addRecentActivity]);
@@ -221,6 +226,11 @@ export default function Home() {
               <p className="text-lg font-medium" aria-live="polite">
                 {activity}
               </p>
+              {activityDescription && (
+                <p className="text-sm text-muted-foreground mt-2">
+                  {activityDescription}
+                </p>
+              )}
             </div>
 
             {/* Generate button */}

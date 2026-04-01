@@ -15,11 +15,13 @@ import { useUserPreferences } from "@/hooks/useUserPreferences";
 
 type Activity = {
   name: string;
+  description?: string;
   image?: string;
 } | string;
 
 type Category = {
   name: string;
+  description?: string;
   activities: Activity[];
 };
 
@@ -33,6 +35,10 @@ const getActivityName = (activity: Activity): string => {
 
 const getActivityImage = (activity: Activity): string | undefined => {
   return typeof activity === "string" ? undefined : activity.image;
+};
+
+const getActivityDescription = (activity: Activity): string | undefined => {
+  return typeof activity === "string" ? undefined : activity.description;
 };
 
 export default function CategoryPage() {
@@ -144,7 +150,10 @@ export default function CategoryPage() {
           {/* Category header */}
           <div className="text-center mb-8">
             <h1 className="text-4xl font-bold mb-2">{formattedCategoryName}</h1>
-            <p className="text-gray-600">
+            {category.description && (
+              <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-3">{category.description}</p>
+            )}
+            <p className="text-gray-500">
               {category.activities.length} activities in this category
             </p>
           </div>
@@ -170,6 +179,7 @@ export default function CategoryPage() {
               .map((activity, index) => {
                 const activityName = getActivityName(activity);
                 const activityImage = getActivityImage(activity);
+                const activityDescription = getActivityDescription(activity);
 
                 return (
                   <Card key={index} className="hover:shadow-md transition-shadow overflow-hidden">
@@ -189,6 +199,9 @@ export default function CategoryPage() {
                           <div className="flex items-center justify-between gap-4">
                             <div className="flex-1">
                               <p className="text-lg font-medium">{activityName}</p>
+                              {activityDescription && (
+                                <p className="text-sm text-gray-500 mt-1">{activityDescription}</p>
+                              )}
                             </div>
                             <div className="flex items-center gap-2 shrink-0">
                               <Button

@@ -3,397 +3,134 @@
     {
       "name": "Career Development",
       "activities": [
-        {
-          "name": "Review and update your resume",
-          "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Update your LinkedIn profile",
-          "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Create a professional development plan",
-          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn about leadership principles",
-          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Create a career roadmap",
-          "image": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Research companies you'd like to work for",
-          "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Practice answering common interview questions",
-          "image": "https://images.unsplash.com/photo-1556155092-490a1ba16284?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Attend a virtual networking event",
-          "image": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn about salary negotiation techniques",
-          "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Create or update your professional portfolio",
-          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Research industry salary benchmarks",
-          "image": "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Create an elevator pitch for yourself",
-          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn about remote work best practices",
-          "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Develop your personal brand statement",
-          "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&auto=format&fit=crop&q=60"
-        }
-      ]
+        {"name": "Review and update your resume", "description": "Refresh your resume with recent achievements, updated skills, and stronger action verbs to stay interview-ready.", "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Update your LinkedIn profile", "description": "Polish your headline, summary, and experience sections to attract recruiters and grow your professional network.", "image": "https://images.unsplash.com/photo-1611944212129-29977ae1398c?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create a professional development plan", "description": "Map out the skills, certifications, and milestones you need to reach your next career goal within a clear timeline.", "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about leadership principles", "description": "Study foundational leadership frameworks and management styles to prepare yourself for guiding teams effectively.", "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create a career roadmap", "description": "Chart your long-term career trajectory with key milestones, alternative paths, and actionable next steps.", "image": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Research companies you'd like to work for", "description": "Investigate company culture, mission, and growth opportunities at organisations that align with your career values.", "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Practice answering common interview questions", "description": "Rehearse concise, compelling answers to behavioural and technical questions so you perform confidently under pressure.", "image": "https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Attend a virtual networking event", "description": "Join an online industry meetup or webinar to make new connections and stay current with trends in your field.", "image": "https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about salary negotiation techniques", "description": "Master strategies for anchoring, framing, and countering offers so you can advocate for fair compensation.", "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create or update your professional portfolio", "description": "Curate your best projects, case studies, and work samples into a polished showcase of your capabilities.", "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Research industry salary benchmarks", "description": "Use salary databases and reports to understand competitive pay ranges for your role, experience, and location.", "image": "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create an elevator pitch for yourself", "description": "Craft a concise 30-second introduction that communicates who you are, what you do, and the value you bring.", "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about remote work best practices", "description": "Discover proven strategies for staying productive, setting boundaries, and collaborating effectively from home.", "image": "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Develop your personal brand statement", "description": "Define what makes you unique professionally and distil it into a memorable brand that resonates across platforms.", "image": "https://images.unsplash.com/photo-1553484771-047a44eee27b?w=800&auto=format&fit=crop&q=60"}
+      ],
+      "description": "Invest in your professional future. These activities help you build skills, expand your network, and position yourself for new opportunities in your career."
     },
     {
       "name": "Organization",
       "activities": [
-        {
-          "name": "Organize your workspace",
-          "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Clean up your computer files",
-          "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Create a to-do list for the week",
-          "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Set up a filing system",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Organize your email inbox",
-          "image": "https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Declutter your digital workspace",
-          "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Create a document naming convention system",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Set up a password manager",
-          "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Organize your browser bookmarks",
-          "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Create a system for tracking important dates",
-          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Digitize important paper documents",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Create a meal planning system",
-          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Organize your phone apps into folders",
-          "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Set up a household inventory",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
-        }
-      ]
+        {"name": "Organize your workspace", "description": "Clear clutter, arrange essentials within reach, and create an environment that encourages focus and creativity.", "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Clean up your computer files", "description": "Sort through downloads, delete duplicates, and organise documents into a logical folder structure you can navigate quickly.", "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create a to-do list for the week", "description": "Plan your upcoming tasks by priority and deadline so nothing important slips through the cracks.", "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Set up a filing system", "description": "Design a consistent physical or digital filing structure that makes storing and retrieving documents effortless.", "image": "https://images.unsplash.com/photo-1544396821-4dd40b938ad3?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Organize your email inbox", "description": "Unsubscribe from noise, set up filters and labels, and reach inbox zero for a calmer digital workflow.", "image": "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Declutter your digital workspace", "description": "Remove unused apps, tidy your desktop, and consolidate scattered files into a streamlined digital environment.", "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create a document naming convention system", "description": "Establish clear, consistent naming rules for your files so you can find any document in seconds.", "image": "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Set up a password manager", "description": "Choose and configure a password manager to generate strong, unique passwords and keep all your accounts secure.", "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Organize your browser bookmarks", "description": "Sort saved links into themed folders, remove dead bookmarks, and create a curated library of your go-to resources.", "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create a system for tracking important dates", "description": "Set up calendar reminders and recurring events so you never miss birthdays, renewals, or key deadlines.", "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Digitize important paper documents", "description": "Scan and back up critical paperwork like contracts, receipts, and IDs for safe, searchable digital storage.", "image": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create a meal planning system", "description": "Build a weekly meal template that simplifies grocery shopping, reduces food waste, and supports healthier eating.", "image": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Organize your phone apps into folders", "description": "Group apps by purpose, remove ones you never use, and arrange your home screen for faster, distraction-free access.", "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Set up a household inventory", "description": "Catalogue valuable belongings with photos and serial numbers for insurance claims and peace of mind.", "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&auto=format&fit=crop&q=60"}
+      ],
+      "description": "Bring order to your world and free up mental energy. From decluttering your workspace to streamlining your digital life, these tasks help you work smarter and feel more in control."
     },
     {
       "name": "Skills",
       "activities": [
-        {
-          "name": "Learn a new Excel/Google Sheets function",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Practice typing speed exercises",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn keyboard shortcuts for your OS",
-          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn basic coding concepts",
-          "image": "https://images.unsplash.com/photo-1489389944381-3471b5b30f04?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Practice public speaking",
-          "image": "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn basic photo editing",
-          "image": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Improve your writing skills with exercises",
-          "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn to create effective presentations",
-          "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Practice active listening techniques",
-          "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn basic video editing",
-          "image": "https://images.unsplash.com/photo-1503551723145-6c040742065b?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn data visualization basics",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Practice speed reading techniques",
-          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn project management fundamentals",
-          "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Study design thinking principles",
-          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=60"
-        }
-      ]
+        {"name": "Learn a new Excel/Google Sheets function", "description": "Pick a powerful function like VLOOKUP, INDEX-MATCH, or QUERY and practise using it on real data.", "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Practice typing speed exercises", "description": "Use a typing trainer to boost your words-per-minute and accuracy, saving time on every task you type.", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn keyboard shortcuts for your OS", "description": "Memorise essential shortcuts for window management, navigation, and common actions to work faster without the mouse.", "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn basic coding concepts", "description": "Explore variables, loops, and functions through beginner-friendly tutorials to understand how software works.", "image": "https://images.unsplash.com/photo-1515879218367-8466d910auj7?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Practice public speaking", "description": "Record yourself delivering a short talk, review it for filler words and pacing, and rehearse until it feels natural.", "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn basic photo editing", "description": "Get comfortable with cropping, colour correction, and retouching using free tools like GIMP or Canva.", "image": "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Improve your writing skills with exercises", "description": "Practise concise writing, active voice, and clear structure through short daily exercises that sharpen your communication.", "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn to create effective presentations", "description": "Study slide design principles, storytelling techniques, and data visualisation to deliver presentations that persuade.", "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Practice active listening techniques", "description": "Train yourself to fully focus, reflect, and respond thoughtfully in conversations to build stronger relationships.", "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn basic video editing", "description": "Cut, trim, and add transitions to footage using free editors like DaVinci Resolve or CapCut.", "image": "https://images.unsplash.com/photo-1574717024453-354056aafa98?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn data visualization basics", "description": "Understand chart types, colour theory, and storytelling with data to turn numbers into compelling visuals.", "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Practice speed reading techniques", "description": "Try chunking, minimising sub-vocalisation, and using a pacer to increase your reading speed without losing comprehension.", "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn project management fundamentals", "description": "Explore methodologies like Agile, Scrum, and Kanban to plan, track, and deliver projects more efficiently.", "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Study design thinking principles", "description": "Learn the empathise–define–ideate–prototype–test framework to solve problems creatively and user-centrically.", "image": "https://images.unsplash.com/photo-1531498860502-7c67cf02f657?w=800&auto=format&fit=crop&q=60"}
+      ],
+      "description": "Develop practical abilities that pay off in everyday life. These hands-on activities build competence and confidence across a wide range of useful disciplines."
     },
     {
       "name": "Financial",
       "activities": [
-        {
-          "name": "Create a budget spreadsheet",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn about investing basics",
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn about financial planning",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn about business analytics",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Create a personal productivity system",
-          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Review your credit report",
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Set up automatic bill payments",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Research retirement savings options",
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn about tax deductions you may qualify for",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Create an emergency fund savings plan",
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Research side hustle opportunities",
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn about cryptocurrency basics",
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Create a debt repayment plan",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Research passive income streams",
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&auto=format&fit=crop&q=60"
-        }
-      ]
+        {"name": "Create a budget spreadsheet", "description": "Build a clear income-vs-expenses tracker that reveals exactly where your money goes each month.", "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about investing basics", "description": "Understand stocks, bonds, ETFs, and compound interest so you can start growing your wealth with confidence.", "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about financial planning", "description": "Explore goal-setting, savings strategies, and long-term planning to build a roadmap for financial security.", "image": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about business analytics", "description": "Discover how data-driven insights and KPIs are used to make smarter business decisions and measure success.", "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create a personal productivity system", "description": "Design a workflow combining task management, time blocking, and review cycles that keeps you consistently productive.", "image": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Review your credit report", "description": "Check your credit report for errors, understand your score factors, and take steps to improve your creditworthiness.", "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Set up automatic bill payments", "description": "Configure autopay for recurring bills to avoid late fees, protect your credit score, and simplify your finances.", "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Research retirement savings options", "description": "Compare pensions, ISAs, 401(k)s, and other retirement vehicles to find the best fit for your future goals.", "image": "https://images.unsplash.com/photo-1473186578172-c141e6798cf4?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about tax deductions you may qualify for", "description": "Identify deductions and credits you might be missing to legally reduce your tax burden and keep more of your income.", "image": "https://images.unsplash.com/photo-1554224155-3a58922a22c3?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create an emergency fund savings plan", "description": "Calculate your target amount, set a monthly savings goal, and automate contributions to build a financial safety net.", "image": "https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Research side hustle opportunities", "description": "Explore freelancing, online selling, or gig work that aligns with your skills and can supplement your main income.", "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about cryptocurrency basics", "description": "Understand blockchain technology, major coins, and the risks and opportunities of digital asset investing.", "image": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create a debt repayment plan", "description": "List your debts, choose the avalanche or snowball method, and build a realistic schedule to become debt-free.", "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Research passive income streams", "description": "Investigate dividend investing, rental income, digital products, and other ways to earn money with less active effort.", "image": "https://images.unsplash.com/photo-1553729459-uj7c2e215f3c?w=800&auto=format&fit=crop&q=60"}
+      ],
+      "description": "Take charge of your financial health. Whether you are budgeting, investing, or learning about money management, these activities help you build a more secure and intentional financial future."
     },
     {
       "name": "Personal Growth",
       "activities": [
-        {
-          "name": "Practice mindfulness for focus",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn about emotional intelligence",
-          "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Practice stress management",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn about business communication",
-          "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Create a professional growth plan",
-          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Read a personal development book",
-          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Practice positive self-talk",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn about cognitive biases",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Develop a morning routine",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Practice saying no to unnecessary commitments",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn time blocking techniques",
-          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Study personality type frameworks",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Practice journaling for self-reflection",
-          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn about habit formation science",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
-        }
-      ]
+        {"name": "Practice mindfulness for focus", "description": "Spend 10–15 minutes on guided meditation or breathing exercises to sharpen concentration and reduce mental noise.", "image": "https://images.unsplash.com/photo-1508672019048-805c876b67e2?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about emotional intelligence", "description": "Study the five pillars of EQ—self-awareness, self-regulation, motivation, empathy, and social skills—to navigate relationships better.", "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Practice stress management", "description": "Identify your stress triggers and experiment with coping techniques like deep breathing, exercise, or time in nature.", "image": "https://images.unsplash.com/photo-1545389336-cf090694435e?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about business communication", "description": "Improve your emails, meeting etiquette, and professional tone to communicate clearly and build credibility at work.", "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create a professional growth plan", "description": "Set quarterly goals for skills, knowledge, and experiences that move you closer to your ideal professional self.", "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Read a personal development book", "description": "Pick a highly-rated book on habits, mindset, or productivity and commit to reading at least one chapter today.", "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Practice positive self-talk", "description": "Replace negative inner dialogue with affirming, realistic statements to build resilience and a healthier self-image.", "image": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about cognitive biases", "description": "Explore common mental shortcuts like confirmation bias and anchoring so you can make more rational decisions.", "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Develop a morning routine", "description": "Design a consistent first-hour routine with movement, intention-setting, and focus to start every day with momentum.", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Practice saying no to unnecessary commitments", "description": "Learn to set healthy boundaries by declining requests that don't align with your priorities or values.", "image": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn time blocking techniques", "description": "Assign dedicated blocks of time to specific tasks to protect your focus and eliminate context-switching.", "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Study personality type frameworks", "description": "Explore MBTI, Big Five, or Enneagram systems to better understand your strengths, blind spots, and communication style.", "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Practice journaling for self-reflection", "description": "Write freely about your thoughts, goals, and experiences to gain clarity, process emotions, and track personal growth.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about habit formation science", "description": "Understand the cue–routine–reward loop and strategies like habit stacking to build lasting positive behaviours.", "image": "https://images.unsplash.com/photo-1504805572947-34fad45aed93?w=800&auto=format&fit=crop&q=60"}
+      ],
+      "description": "Become the best version of yourself. These activities push you to reflect, set meaningful goals, build better habits, and grow in wisdom and self-awareness."
     },
     {
       "name": "Home Improvement",
       "activities": [
-        {
-          "name": "Organize a closet or storage space",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Deep clean one room in your home",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn basic plumbing fixes",
-          "image": "https://images.unsplash.com/photo-1581578731522-7455ee538764?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Research energy efficiency upgrades",
-          "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Create a home maintenance checklist",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn to patch drywall",
-          "image": "https://images.unsplash.com/photo-1581578731522-7455ee538764?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Research smart home devices",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Plan a furniture rearrangement",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn basic electrical safety",
-          "image": "https://images.unsplash.com/photo-1581578731522-7455ee538764?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Start a home inventory for insurance",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
-        }
-      ]
+        {"name": "Organize a closet or storage space", "description": "Sort items into keep, donate, and discard piles, then arrange what remains with bins and labels for easy access.", "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Deep clean one room in your home", "description": "Go beyond surface tidying—scrub corners, wipe baseboards, and refresh soft furnishings for a truly spotless space.", "image": "https://images.unsplash.com/photo-1527515545081-5db817172677?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn basic plumbing fixes", "description": "Watch tutorials on fixing leaky taps, unclogging drains, and replacing washers to handle common issues yourself.", "image": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Research energy efficiency upgrades", "description": "Investigate LED lighting, smart thermostats, and insulation improvements that can lower your energy bills.", "image": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create a home maintenance checklist", "description": "Build a seasonal schedule for HVAC filters, gutter cleaning, and other tasks that prevent costly repairs.", "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn to patch drywall", "description": "Master filling small holes and cracks with spackle, sanding smooth, and touching up paint for a seamless finish.", "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Research smart home devices", "description": "Compare smart speakers, plugs, cameras, and locks to find devices that add convenience and security to your home.", "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Plan a furniture rearrangement", "description": "Sketch different layouts to improve traffic flow, maximise natural light, and give your room a fresh feel.", "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn basic electrical safety", "description": "Understand your breaker panel, safe wattage limits, and when to call a professional to avoid electrical hazards.", "image": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Start a home inventory for insurance", "description": "Document your possessions room-by-room with photos, values, and receipts so you're prepared if you need to file a claim.", "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&auto=format&fit=crop&q=60"}
+      ],
+      "description": "Transform your living space into somewhere you love. These projects range from quick fixes to satisfying upgrades that add comfort, beauty, and value to your home."
     },
     {
       "name": "Health & Fitness",
       "activities": [
-        {
-          "name": "Create a weekly workout plan",
-          "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Research healthy meal prep ideas",
-          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn proper stretching techniques",
-          "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Research ergonomic workspace setups",
-          "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Create a sleep improvement plan",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn about macro nutrition tracking",
-          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Research posture correction exercises",
-          "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Create a hydration tracking system",
-          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Learn about heart rate zone training",
-          "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&auto=format&fit=crop&q=60"
-        },
-        {
-          "name": "Research stress-reduction techniques",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
-        }
-      ]
+        {"name": "Create a weekly workout plan", "description": "Design a balanced training schedule mixing cardio, strength, and rest days tailored to your fitness level and goals.", "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Research healthy meal prep ideas", "description": "Find nutritious, batch-friendly recipes you can cook on Sunday to fuel your week with minimal daily effort.", "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn proper stretching techniques", "description": "Study dynamic warm-ups and static cool-downs to improve flexibility, prevent injury, and speed up recovery.", "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Research ergonomic workspace setups", "description": "Learn optimal desk height, monitor distance, and chair adjustments to reduce strain during long work sessions.", "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create a sleep improvement plan", "description": "Audit your sleep habits and set up a routine with consistent times, reduced screen exposure, and a restful environment.", "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about macro nutrition tracking", "description": "Understand proteins, carbs, and fats, and learn to log your intake to align your diet with your health goals.", "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Research posture correction exercises", "description": "Find targeted exercises for your upper back, core, and hip flexors to counteract the effects of sitting all day.", "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create a hydration tracking system", "description": "Set daily water goals and use a simple tracker or app to ensure you're drinking enough throughout the day.", "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about heart rate zone training", "description": "Understand the five heart rate zones and how training in each one targets fat burn, endurance, or peak performance.", "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Research stress-reduction techniques", "description": "Explore evidence-based methods like progressive muscle relaxation, box breathing, and nature walks to lower your stress levels.", "image": "https://images.unsplash.com/photo-1447452001602-7090c7ab2db3?w=800&auto=format&fit=crop&q=60"}
+      ],
+      "description": "Take care of the body that carries you through life. From workouts to wellness routines, these activities support your physical health, energy levels, and overall vitality."
     }
   ]
 }

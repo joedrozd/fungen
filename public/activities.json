@@ -3,127 +3,134 @@
     {
       "name": "Outdoor",
       "activities": [
-        { "name": "Take a walk in a nearby park and observe nature", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Visit a local park you've never been to", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Visit a botanical garden", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Do some bird watching", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Visit a farmers market", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Go for a bike ride in your neighborhood", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Have a picnic in a scenic spot", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try geocaching in your area", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Watch the sunrise or sunset outdoors", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Explore a new hiking trail", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try outdoor yoga", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Go stargazing in a dark area", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Visit a nature reserve", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try outdoor photography", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop&q=60" }
-      ]
+        {"name": "Take a walk in a nearby park and observe nature", "description": "Slow down and notice the trees, birds, and seasonal changes around you on a mindful stroll through your local park.", "image": "https://images.unsplash.com/photo-1476673160081-cf065607f449?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Visit a local park you've never been to", "description": "Explore a new green space in your area—you might discover hidden trails, playgrounds, or peaceful spots to relax.", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Visit a botanical garden", "description": "Wander through curated plant collections, learn about exotic species, and enjoy the tranquillity of a living museum.", "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Do some bird watching", "description": "Grab binoculars and a field guide, then quietly observe local bird species and learn to identify them by sight and sound.", "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Visit a farmers market", "description": "Browse seasonal produce, artisan goods, and local treats while supporting small farmers and makers in your community.", "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Go for a bike ride in your neighborhood", "description": "Hop on a bike and cruise through your streets—great exercise, zero fuel costs, and a fresh perspective on familiar surroundings.", "image": "https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Have a picnic in a scenic spot", "description": "Pack your favourite snacks and a blanket, find a beautiful outdoor setting, and enjoy a relaxing meal in the open air.", "image": "https://images.unsplash.com/photo-1526746323784-6bc814d79273?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try geocaching in your area", "description": "Use GPS coordinates to hunt for hidden containers outdoors—a real-world treasure hunt that combines tech and exploration.", "image": "https://images.unsplash.com/photo-1509822929063-6b6cfc9b42f2?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Watch the sunrise or sunset outdoors", "description": "Find a clear vantage point and take in the stunning colours as the sun rises or sets—a simple, unforgettable experience.", "image": "https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Explore a new hiking trail", "description": "Lace up your boots and tackle an unfamiliar trail to challenge your body, clear your head, and discover new scenery.", "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try outdoor yoga", "description": "Roll out your mat in a park or garden and practise yoga surrounded by fresh air, birdsong, and natural beauty.", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Go stargazing in a dark area", "description": "Head somewhere with minimal light pollution, look up, and marvel at constellations, planets, and the Milky Way.", "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Visit a nature reserve", "description": "Explore protected habitats, spot wildlife in their natural environment, and learn about local conservation efforts.", "image": "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try outdoor photography", "description": "Capture landscapes, wildlife, or street scenes outside—practice composition and lighting with nature as your studio.", "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=800&auto=format&fit=crop&q=60"}
+      ],
+      "description": "Step outside and reconnect with the natural world. From peaceful park walks to adventurous hikes, these activities help you breathe fresh air, clear your mind, and discover the beauty around you."
     },
     {
       "name": "Creative",
       "activities": [
-        { "name": "Sketch or doodle something creative", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Do some finger painting", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Do some origami", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Learn basic calligraphy", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Do some people sketching in a public place", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Write a short poem or haiku", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Create a collage from magazine cutouts", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try your hand at watercolor painting", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Make a vision board", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Design your own greeting card", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try pottery or clay sculpting", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Create a DIY home decoration", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Write a short story", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try digital art on your phone/tablet", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60" }
-      ]
+        {"name": "Sketch or doodle something creative", "description": "Grab a pencil and paper and let your imagination flow—no perfection needed, just free expression on the page.", "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Do some finger painting", "description": "Get messy and embrace playful creativity by painting with your hands—a fun, tactile way to create colourful art.", "image": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Do some origami", "description": "Fold a sheet of paper into intricate shapes like cranes, flowers, or boxes using step-by-step origami guides.", "image": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn basic calligraphy", "description": "Practice elegant lettering with a brush pen or nib to transform ordinary handwriting into beautiful art.", "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Do some people sketching in a public place", "description": "Sit in a café or park and quickly sketch passersby to improve your drawing speed and observational skills.", "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Write a short poem or haiku", "description": "Distil a feeling, moment, or idea into a few carefully chosen lines of verse—brevity makes every word count.", "image": "https://images.unsplash.com/photo-1473186505569-9c61870c11f9?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create a collage from magazine cutouts", "description": "Cut out images, textures, and words from old magazines and arrange them into a unique visual composition.", "image": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try your hand at watercolor painting", "description": "Experiment with watercolour washes, blending, and layering to create soft, flowing artwork with this forgiving medium.", "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Make a vision board", "description": "Collect images and quotes that represent your goals and dreams, then arrange them on a board for daily inspiration.", "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Design your own greeting card", "description": "Create a personalised card for someone special using hand-drawn art, stickers, or digital design tools.", "image": "https://images.unsplash.com/photo-1607344645866-009c320b63e0?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try pottery or clay sculpting", "description": "Shape clay into bowls, figures, or abstract forms—a tactile, meditative craft that produces tangible keepsakes.", "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Create a DIY home decoration", "description": "Upcycle materials or craft something new—like a candle holder, wall art, or plant pot—to personalise your space.", "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35ca?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Write a short story", "description": "Invent characters, a setting, and a plot to tell a brief but complete tale that flexes your storytelling muscles.", "image": "https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try digital art on your phone/tablet", "description": "Use a free drawing app like Procreate Pocket or Sketchbook to create illustrations with just your fingertip or stylus.", "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&auto=format&fit=crop&q=60"}
+      ],
+      "description": "Unleash your imagination and make something new. Whether you are sketching, writing, or crafting, creative activities offer a fulfilling outlet for self-expression and personal growth."
     },
     {
       "name": "Learning",
       "activities": [
-        { "name": "Learn a new skill from a YouTube tutorial", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Learn basic phrases in a new language", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Learn to solve a Rubik's cube", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Learn about constellations and stargaze", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Learn about different types of tea", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Learn basic photography composition", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Learn to juggle three balls", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Learn about local history", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Learn basic first aid techniques", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Learn to tie different knots", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Learn about wine pairing basics", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Learn magic tricks", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Learn about astronomy", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Learn basic car maintenance", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60" }
-      ]
+        {"name": "Learn a new skill from a YouTube tutorial", "description": "Pick something you've always wanted to try—from cooking to coding—and follow along with a free video lesson.", "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn basic phrases in a new language", "description": "Master greetings, numbers, and essential phrases in a language you're curious about using apps or online resources.", "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn to solve a Rubik's cube", "description": "Follow beginner algorithms to solve the classic puzzle layer by layer—a satisfying brain workout once it clicks.", "image": "https://images.unsplash.com/photo-1577401239170-897c3282db9c?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about constellations and stargaze", "description": "Study star charts or use a sky map app to identify constellations, then head outside to spot them for real.", "image": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about different types of tea", "description": "Explore the world of green, black, oolong, and herbal teas—their origins, flavour profiles, and brewing methods.", "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn basic photography composition", "description": "Study the rule of thirds, leading lines, and framing techniques to instantly improve the quality of your photos.", "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn to juggle three balls", "description": "Start with the cascade pattern and build coordination through repetition—a fun party trick and focus exercise.", "image": "https://images.unsplash.com/photo-1520962880247-cfaf541c8724?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about local history", "description": "Research the stories behind landmarks, street names, and events in your area—you'll see your neighbourhood differently.", "image": "https://images.unsplash.com/photo-1461360228754-6e81c478b882?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn basic first aid techniques", "description": "Study CPR, wound care, and choking response so you're prepared to help in an emergency situation.", "image": "https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn to tie different knots", "description": "Master useful knots like the bowline, clove hitch, and figure-eight for camping, sailing, or everyday use.", "image": "https://images.unsplash.com/photo-1520038410233-7141be7e6f97?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about wine pairing basics", "description": "Discover which wines complement different foods—understanding body, acidity, and tannins makes every meal better.", "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn magic tricks", "description": "Practice sleight-of-hand card tricks or coin illusions to entertain friends and sharpen your dexterity.", "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about astronomy", "description": "Dive into planets, galaxies, and cosmic phenomena—the universe is vast and endlessly fascinating to explore.", "image": "https://images.unsplash.com/photo-1462332420958-a05d1e002413?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn basic car maintenance", "description": "Understand how to check oil, change a tyre, and top up fluids to keep your vehicle running and save on mechanic visits.", "image": "https://images.unsplash.com/photo-1487754180451-c456f719f4bc?w=800&auto=format&fit=crop&q=60"}
+      ],
+      "description": "Feed your curiosity and expand your horizons. These activities challenge your mind with new skills, fascinating topics, and hands-on techniques you can explore at your own pace."
     },
     {
       "name": "Food & Drink",
       "activities": [
-        { "name": "Try a new recipe with ingredients you have at home", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try a new type of tea or coffee", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try a new type of cuisine", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try a new cocktail or mocktail recipe", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try a new type of bread or pastry", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Bake cookies from scratch", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Make homemade ice cream", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try a new type of cheese", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Learn proper wine tasting techniques", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Make your own infused water", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try fermenting vegetables", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Make homemade pasta", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try molecular gastronomy basics", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Host a themed dinner party", "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&auto=format&fit=crop&q=60" }
-      ]
+        {"name": "Try a new recipe with ingredients you have at home", "description": "Challenge yourself to cook something new using only what's already in your pantry—creativity meets resourcefulness.", "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try a new type of tea or coffee", "description": "Step outside your usual order and sample an unfamiliar blend, origin, or brewing method to expand your palate.", "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try a new type of cuisine", "description": "Pick a cuisine you've never cooked before—Thai, Ethiopian, Korean—and recreate a classic dish at home.", "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try a new cocktail or mocktail recipe", "description": "Mix up a refreshing drink you haven't tried before, experimenting with flavours, garnishes, and presentation.", "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try a new type of bread or pastry", "description": "Bake focaccia, croissants, or sourdough from scratch and enjoy the rewarding process of making fresh bread.", "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Bake cookies from scratch", "description": "Measure, mix, and bake a batch of homemade cookies—the smell alone makes it worth the effort.", "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Make homemade ice cream", "description": "Churn your own ice cream with simple ingredients and customise it with your favourite mix-ins and flavours.", "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try a new type of cheese", "description": "Visit a cheese counter and sample something you've never tasted—aged, smoked, soft, or blue—and pair it with crackers.", "image": "https://images.unsplash.com/photo-1452195100486-9cc805987862?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn proper wine tasting techniques", "description": "Practice the see-swirl-smell-sip method to appreciate a wine's colour, aroma, body, and finish like a sommelier.", "image": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Make your own infused water", "description": "Add fruits, herbs, and cucumbers to a jug of water for a refreshing, naturally flavoured drink with zero sugar.", "image": "https://images.unsplash.com/photo-1536935338788-846bb9981813?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try fermenting vegetables", "description": "Make sauerkraut, kimchi, or pickles at home using salt and time—a tasty introduction to the art of fermentation.", "image": "https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Make homemade pasta", "description": "Mix flour and eggs, knead the dough, and roll out fresh pasta—the taste and texture are incomparably better than dried.", "image": "https://images.unsplash.com/photo-1556761223-4c4282c73f77?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try molecular gastronomy basics", "description": "Experiment with techniques like spherification or foams to turn ordinary ingredients into extraordinary culinary creations.", "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Host a themed dinner party", "description": "Pick a theme—decade, country, or colour—and plan a menu, decorations, and playlist for a memorable evening with friends.", "image": "https://images.unsplash.com/photo-1530062845289-9109b2c9c868?w=800&auto=format&fit=crop&q=60"}
+      ],
+      "description": "Explore the world through taste. From baking fresh bread to experimenting with global cuisines, these culinary adventures turn mealtime into a delicious creative experience."
     },
     {
       "name": "Mindfulness",
       "activities": [
-        { "name": "Meditate for 10-15 minutes", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Do a digital detox for one hour", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Write down 10 things you're grateful for", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Practice mindfulness for focus", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Learn about different meditation techniques", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try a guided body scan meditation", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Practice deep breathing exercises", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Do a sensory awareness exercise", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try a walking meditation", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Write a letter of forgiveness (you don't have to send it)", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try sound bath meditation", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Practice progressive muscle relaxation", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Do a loving-kindness meditation", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try forest bathing (shinrin-yoku)", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60" }
-      ]
+        {"name": "Meditate for 10-15 minutes", "description": "Sit quietly, focus on your breath, and let thoughts pass without judgement—a short session can reset your entire day.", "image": "https://images.unsplash.com/photo-1508672019048-805c876b67e2?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Do a digital detox for one hour", "description": "Put all screens away for sixty minutes and notice how differently you think, feel, and engage with your surroundings.", "image": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Write down 10 things you're grateful for", "description": "Shift your focus to the positive by listing ten things—big or small—that you appreciate in your life right now.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Practice mindfulness for focus", "description": "Use a single-point focus technique—like watching a candle flame—to train sustained attention and present-moment awareness.", "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Learn about different meditation techniques", "description": "Explore styles like Vipassana, Zen, Transcendental, and mantra meditation to find the approach that resonates with you.", "image": "https://images.unsplash.com/photo-1545389336-cf090694435e?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try a guided body scan meditation", "description": "Follow an audio guide that directs your attention through each body part to release tension and deepen relaxation.", "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Practice deep breathing exercises", "description": "Try box breathing or 4-7-8 breathing to calm your nervous system, lower stress, and improve focus in minutes.", "image": "https://images.unsplash.com/photo-1474418397713-7ede21d49118?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Do a sensory awareness exercise", "description": "Use the 5-4-3-2-1 grounding technique to engage all five senses and anchor yourself firmly in the present moment.", "image": "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try a walking meditation", "description": "Walk slowly and deliberately, paying close attention to each step and sensation to blend movement with mindfulness.", "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Write a letter of forgiveness (you don't have to send it)", "description": "Express feelings of hurt or resentment on paper to process emotions and find closure—sending it is optional.", "image": "https://images.unsplash.com/photo-1579762714453-51d9b0fbb928?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try sound bath meditation", "description": "Listen to resonant singing bowls, gongs, or chimes and let the vibrations wash over you for deep, effortless relaxation.", "image": "https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Practice progressive muscle relaxation", "description": "Systematically tense and release each muscle group from head to toe to melt away physical tension and stress.", "image": "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Do a loving-kindness meditation", "description": "Silently repeat phrases of goodwill toward yourself and others to cultivate compassion, empathy, and inner warmth.", "image": "https://images.unsplash.com/photo-1529693662653-9d480530a697?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try forest bathing (shinrin-yoku)", "description": "Immerse yourself in a woodland setting, engaging all your senses to absorb the calming, restorative power of nature.", "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&auto=format&fit=crop&q=60"}
+      ],
+      "description": "Slow down, breathe, and be present. These practices help you reduce stress, sharpen focus, and cultivate a deeper sense of peace and well-being in everyday life."
     },
     {
       "name": "Social",
       "activities": [
-        { "name": "Call an old friend you haven't spoken to in a while", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Organize a game night with friends", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Join a local meetup group", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Volunteer at a community event", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Host a potluck dinner", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Start a book club", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Organize a neighborhood clean-up", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Visit a community center event", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Join a recreational sports league", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Attend a cultural festival", "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60" }
-      ]
+        {"name": "Call an old friend you haven't spoken to in a while", "description": "Reach out to someone you've lost touch with—a quick call can rekindle a meaningful connection and brighten both your days.", "image": "https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Organize a game night with friends", "description": "Gather your crew for board games, card games, or trivia—an easy, low-cost way to have a great time together.", "image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Join a local meetup group", "description": "Find a group that shares your interests—hiking, books, tech—and show up to meet new people in a relaxed setting.", "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Volunteer at a community event", "description": "Give your time to a local cause or charity event and make a positive impact while meeting like-minded people.", "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Host a potluck dinner", "description": "Invite friends to each bring a dish and share a communal meal—less work for you and a delicious variety for everyone.", "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Start a book club", "description": "Pick a book, invite a few friends, and schedule a discussion—it adds accountability and new perspectives to your reading.", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Organize a neighborhood clean-up", "description": "Rally neighbours to pick up litter and tidy shared spaces—a small effort that builds community pride and connection.", "image": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Visit a community center event", "description": "Check your local community centre for classes, markets, or performances—there's often more happening than you'd expect.", "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Join a recreational sports league", "description": "Sign up for a casual league—football, basketball, or volleyball—to stay active, have fun, and make new friends.", "image": "https://images.unsplash.com/photo-1461896836934-bd45ba53a0f7?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Attend a cultural festival", "description": "Experience music, food, dance, and traditions from different cultures at a local festival—a vibrant way to broaden your worldview.", "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&auto=format&fit=crop&q=60"}
+      ],
+      "description": "Strengthen your connections and create lasting memories. These activities are best enjoyed with friends, family, or new people who share your interests and energy."
     },
     {
       "name": "Games",
       "activities": [
-        { "name": "Learn a new card game", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try a new board game", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Play chess against a computer", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try escape room games", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Play word association games", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try puzzle games like Sudoku", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Play charades with friends", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try tabletop RPGs", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Play brain-training games", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" },
-        { "name": "Try geoguessr online", "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60" }
-      ]
+        {"name": "Learn a new card game", "description": "Pick up a game like Cribbage, Euchre, or Rummy—card games are portable, social, and endlessly replayable.", "image": "https://images.unsplash.com/photo-1529480780361-b3eba6e01c4c?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try a new board game", "description": "Explore modern board games beyond Monopoly—strategic, cooperative, or party games that offer fresh challenges every time.", "image": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Play chess against a computer", "description": "Sharpen your strategic thinking by playing chess online at your level—analyse your moves afterwards to improve.", "image": "https://images.unsplash.com/photo-1528819622765-d6bcf132f793?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try escape room games", "description": "Solve puzzles under a time limit with friends—whether in person or online, escape rooms test teamwork and lateral thinking.", "image": "https://images.unsplash.com/photo-1590402494610-2c378a9114c6?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Play word association games", "description": "Challenge friends to rapid-fire word connections—a quick, screen-free game that sparks laughter and creative thinking.", "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try puzzle games like Sudoku", "description": "Work through logic puzzles that exercise your reasoning and pattern recognition—satisfying to complete and great for focus.", "image": "https://images.unsplash.com/photo-1580541832626-2a7131ee809f?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Play charades with friends", "description": "Act out words or phrases without speaking while your team guesses—guaranteed laughs and a classic party favourite.", "image": "https://images.unsplash.com/photo-1543946207-39bd91e70ca7?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try tabletop RPGs", "description": "Dive into Dungeons & Dragons or other tabletop role-playing games for collaborative storytelling and epic adventures.", "image": "https://images.unsplash.com/photo-1563941402-4f4ee9baf5e2?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Play brain-training games", "description": "Use apps like Lumosity or Peak to challenge your memory, attention, and problem-solving skills with short daily games.", "image": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=800&auto=format&fit=crop&q=60"},
+        {"name": "Try geoguessr online", "description": "Guess your location on a map using Google Street View clues—a fun, addictive way to test your geography knowledge.", "image": "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&auto=format&fit=crop&q=60"}
+      ],
+      "description": "Challenge your mind and have fun doing it. From classic puzzles to interactive games, this category offers entertainment and mental stimulation for every mood."
     }
   ]
 }

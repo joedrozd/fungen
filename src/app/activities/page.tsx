@@ -14,6 +14,7 @@ type Activity = {
 
 type Category = {
   name: string;
+  description?: string;
   activities: Activity[];
 };
 
@@ -91,7 +92,10 @@ export default function ActivitiesPage() {
                         </CardTitle>
                       </CardHeader>
                       <CardContent className="p-4 pt-0">
-                        <p className="text-sm text-gray-500">{cat.activities.length} activities</p>
+                        {cat.description && (
+                          <p className="text-sm text-gray-600 mb-3 line-clamp-3">{cat.description}</p>
+                        )}
+                        <p className="text-sm text-gray-400">{cat.activities.length} activities</p>
                         <Button className="mt-4 w-full" variant="outline" size="sm">
                           Browse
                         </Button>
@@ -121,7 +125,10 @@ export default function ActivitiesPage() {
                         </CardTitle>
                       </CardHeader>
                       <CardContent className="p-4 pt-0">
-                        <p className="text-sm text-gray-500">{cat.activities.length} activities</p>
+                        {cat.description && (
+                          <p className="text-sm text-gray-600 mb-3 line-clamp-3">{cat.description}</p>
+                        )}
+                        <p className="text-sm text-gray-400">{cat.activities.length} activities</p>
                         <Button className="mt-4 w-full" variant="outline" size="sm">
                           Browse
                         </Button>
