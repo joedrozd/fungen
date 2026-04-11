@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://fungen.app"),
   title: "One-Hour Activity Generator | Find Fun Things to Do",
   description:
     "Get random ideas for leisure or productive activities. Discover outdoor adventures, creative projects, mindfulness exercises, and more.",

@@ -1,0 +1,39 @@
+# fungen.app
+
+> One-Hour Activity Generator — discover fun and productive things to do in an hour.
+
+## What is this?
+
+fungen.app is a free activity generator that helps people find ideas for leisure or productive one-hour activities. Users can spin a random activity, browse by category, or explore curated lists.
+
+## Pages
+
+- [Home](https://fungen.app/) — random activity generator
+- [All Activities](https://fungen.app/activities) — browse all categories
+
+### Leisure Categories
+
+- [Outdoor](https://fungen.app/activities/outdoor)
+- [Creative](https://fungen.app/activities/creative)
+- [Learning](https://fungen.app/activities/learning)
+- [Food & Drink](https://fungen.app/activities/food-drink)
+- [Mindfulness](https://fungen.app/activities/mindfulness)
+- [Social](https://fungen.app/activities/social)
+- [Games](https://fungen.app/activities/games)
+
+### Productive Categories
+
+- [Career Development](https://fungen.app/activities/career-development)
+- [Organization](https://fungen.app/activities/organization)
+- [Skills](https://fungen.app/activities/skills)
+- [Financial](https://fungen.app/activities/financial)
+- [Personal Growth](https://fungen.app/activities/personal-growth)
+- [Home Improvement](https://fungen.app/activities/home-improvement)
+- [Health & Fitness](https://fungen.app/activities/health-fitness)
+
+## Usage
+
+This site is free to use and does not require a login. Activity data is served as JSON.
+
+- Leisure activities: [/activities.json](https://fungen.app/activities.json)
+- Productive activities: [/productive-activities.json](https://fungen.app/productive-activities.json)
