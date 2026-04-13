@@ -5,59 +5,59 @@
       "activities": [
         {
           "name": "Review and update your resume",
-          "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/work-planning.png"
         },
         {
           "name": "Update your LinkedIn profile",
-          "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/work-planning.png"
         },
         {
           "name": "Create a professional development plan",
-          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71b?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/career-growth.png"
         },
         {
           "name": "Learn about leadership principles",
-          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/office-building.png"
         },
         {
           "name": "Create a career roadmap",
-          "image": "https://images.unsplash.com/photo-1526976675015-3f1a2d7e64fb?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/career-growth.png"
         },
         {
           "name": "Research companies you'd like to work for",
-          "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/office-building.png"
         },
         {
           "name": "Practice answering common interview questions",
-          "image": "https://images.unsplash.com/photo-1556155092-490a1ba16284?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/career-growth.png"
         },
         {
           "name": "Attend a virtual networking event",
-          "image": "https://images.unsplash.com/photo-1557838153-25935167882e?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/career-growth.png"
         },
         {
           "name": "Learn about salary negotiation techniques",
-          "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/office-building.png"
         },
         {
           "name": "Create or update your professional portfolio",
-          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71b?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/career-growth.png"
         },
         {
           "name": "Research industry salary benchmarks",
-          "image": "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/office-building.png"
         },
         {
           "name": "Create an elevator pitch for yourself",
-          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71b?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/career-growth.png"
         },
         {
           "name": "Learn about remote work best practices",
-          "image": "https://images.unsplash.com/photo-1496568816309-51d7c20e3b1a?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/remote-work.png"
         },
         {
           "name": "Develop your personal brand statement",
-          "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/career-growth.png"
         }
       ]
     },
@@ -66,59 +66,59 @@
       "activities": [
         {
           "name": "Organize your workspace",
-          "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/work-planning.png"
         },
         {
           "name": "Clean up your computer files",
-          "image": "https://images.unsplash.com/photo-1531297484455-bc4ccaac7568?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/coding.png"
         },
         {
           "name": "Create a to-do list for the week",
-          "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/organization.png"
         },
         {
           "name": "Set up a filing system",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/organization.png"
         },
         {
           "name": "Organize your email inbox",
-          "image": "https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/coding.png"
         },
         {
           "name": "Declutter your digital workspace",
-          "image": "https://images.unsplash.com/photo-1531297484455-bc4ccaac7568?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/coding.png"
         },
         {
           "name": "Create a document naming convention system",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/organization.png"
         },
         {
           "name": "Set up a password manager",
-          "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/coding.png"
         },
         {
           "name": "Organize your browser bookmarks",
-          "image": "https://images.unsplash.com/photo-1531297484455-bc4ccaac7568?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/coding.png"
         },
         {
           "name": "Create a system for tracking important dates",
-          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/organization.png"
         },
         {
           "name": "Digitize important paper documents",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/organization.png"
         },
         {
           "name": "Create a meal planning system",
-          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/organization.png"
         },
         {
           "name": "Organize your phone apps into folders",
-          "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/organization.png"
         },
         {
           "name": "Set up a household inventory",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/organization.png"
         }
       ]
     },
@@ -127,59 +127,59 @@
       "activities": [
         {
           "name": "Learn a new Excel/Google Sheets function",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/work-planning.png"
         },
         {
           "name": "Practice typing speed exercises",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/work-planning.png"
         },
         {
           "name": "Learn keyboard shortcuts for your OS",
-          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/coding.png"
         },
         {
           "name": "Learn basic coding concepts",
-          "image": "https://images.unsplash.com/photo-1489389944381-3471b5b30f04?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/coding.png"
         },
         {
           "name": "Practice public speaking",
-          "image": "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/skills-learning.png"
         },
         {
           "name": "Learn basic photo editing",
-          "image": "https://images.unsplash.com/photo-1503437383602-f17f154e43b5?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/remote-work.png"
         },
         {
           "name": "Improve your writing skills with exercises",
-          "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/skills-learning.png"
         },
         {
           "name": "Learn to create effective presentations",
-          "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/skills-learning.png"
         },
         {
           "name": "Practice active listening techniques",
-          "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/skills-learning.png"
         },
         {
           "name": "Learn basic video editing",
-          "image": "https://images.unsplash.com/photo-1503551723145-6c040742065b?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/remote-work.png"
         },
         {
           "name": "Learn data visualization basics",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/skills-learning.png"
         },
         {
           "name": "Practice speed reading techniques",
-          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/skills-learning.png"
         },
         {
           "name": "Learn project management fundamentals",
-          "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/skills-learning.png"
         },
         {
           "name": "Study design thinking principles",
-          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/skills-learning.png"
         }
       ]
     },
@@ -188,59 +188,59 @@
       "activities": [
         {
           "name": "Create a budget spreadsheet",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/finance-planning.png"
         },
         {
           "name": "Learn about investing basics",
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/finance-planning.png"
         },
         {
           "name": "Learn about financial planning",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/finance-planning.png"
         },
         {
           "name": "Learn about business analytics",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/finance-planning.png"
         },
         {
           "name": "Create a personal productivity system",
-          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71b?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/finance-planning.png"
         },
         {
           "name": "Review your credit report",
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/finance-planning.png"
         },
         {
           "name": "Set up automatic bill payments",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/finance-planning.png"
         },
         {
           "name": "Research retirement savings options",
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/finance-planning.png"
         },
         {
           "name": "Learn about tax deductions you may qualify for",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/finance-planning.png"
         },
         {
           "name": "Create an emergency fund savings plan",
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/finance-planning.png"
         },
         {
           "name": "Research side hustle opportunities",
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/finance-planning.png"
         },
         {
           "name": "Learn about cryptocurrency basics",
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/finance-planning.png"
         },
         {
           "name": "Create a debt repayment plan",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/finance-planning.png"
         },
         {
           "name": "Research passive income streams",
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/finance-planning.png"
         }
       ]
     },
@@ -249,59 +249,59 @@
       "activities": [
         {
           "name": "Practice mindfulness for focus",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/growth-zen.png"
         },
         {
           "name": "Learn about emotional intelligence",
-          "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/growth-zen.png"
         },
         {
           "name": "Practice stress management",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/growth-zen.png"
         },
         {
           "name": "Learn about business communication",
-          "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/growth-zen.png"
         },
         {
           "name": "Create a professional growth plan",
-          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71b?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/growth-zen.png"
         },
         {
           "name": "Read a personal development book",
-          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/growth-zen.png"
         },
         {
           "name": "Practice positive self-talk",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/growth-zen.png"
         },
         {
           "name": "Learn about cognitive biases",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/growth-zen.png"
         },
         {
           "name": "Develop a morning routine",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/growth-zen.png"
         },
         {
           "name": "Practice saying no to unnecessary commitments",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/growth-zen.png"
         },
         {
           "name": "Learn time blocking techniques",
-          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/growth-zen.png"
         },
         {
           "name": "Study personality type frameworks",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/growth-zen.png"
         },
         {
           "name": "Practice journaling for self-reflection",
-          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/growth-zen.png"
         },
         {
           "name": "Learn about habit formation science",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/growth-zen.png"
         }
       ]
     },
@@ -310,43 +310,43 @@
       "activities": [
         {
           "name": "Organize a closet or storage space",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/home-diy.png"
         },
         {
           "name": "Deep clean one room in your home",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/home-diy.png"
         },
         {
           "name": "Learn basic plumbing fixes",
-          "image": "https://images.unsplash.com/photo-1504148455328-c376907d2036?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/home-diy.png"
         },
         {
           "name": "Research energy efficiency upgrades",
-          "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/home-diy.png"
         },
         {
           "name": "Create a home maintenance checklist",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/home-diy.png"
         },
         {
           "name": "Learn to patch drywall",
-          "image": "https://images.unsplash.com/photo-1504148455328-c376907d2036?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/home-diy.png"
         },
         {
           "name": "Research smart home devices",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/coding.png"
         },
         {
           "name": "Plan a furniture rearrangement",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/home-diy.png"
         },
         {
           "name": "Learn basic electrical safety",
-          "image": "https://images.unsplash.com/photo-1504148455328-c376907d2036?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/home-diy.png"
         },
         {
           "name": "Start a home inventory for insurance",
-          "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/home-diy.png"
         }
       ]
     },
@@ -355,43 +355,43 @@
       "activities": [
         {
           "name": "Create a weekly workout plan",
-          "image": "https://images.unsplash.com/photo-1517836357463-2b3c90612e61?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/fitness-health.png"
         },
         {
           "name": "Research healthy meal prep ideas",
-          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/fitness-health.png"
         },
         {
           "name": "Learn proper stretching techniques",
-          "image": "https://images.unsplash.com/photo-1517836357463-2b3c90612e61?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/fitness-health.png"
         },
         {
           "name": "Research ergonomic workspace setups",
-          "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/fitness-health.png"
         },
         {
           "name": "Create a sleep improvement plan",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/fitness-health.png"
         },
         {
           "name": "Learn about macro nutrition tracking",
-          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/fitness-health.png"
         },
         {
           "name": "Research posture correction exercises",
-          "image": "https://images.unsplash.com/photo-1517836357463-2b3c90612e61?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/fitness-health.png"
         },
         {
           "name": "Create a hydration tracking system",
-          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/fitness-health.png"
         },
         {
           "name": "Learn about heart rate zone training",
-          "image": "https://images.unsplash.com/photo-1517836357463-2b3c90612e61?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/fitness-health.png"
         },
         {
           "name": "Research stress-reduction techniques",
-          "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60"
+          "image": "/activities/fitness-health.png"
         }
       ]
     }
