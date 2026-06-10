@@ -10,6 +10,7 @@ import { FavoritesList } from "@/components/FavoritesList";
 import { SocialShare } from "@/components/SocialShare";
 import { BackToTop } from "@/components/BackToTop";
 import { Navigation } from "@/components/Navigation";
+import { Footer } from "@/components/Footer";
 import { useToast } from "@/components/Toast";
 import { useUserPreferences } from "@/hooks/useUserPreferences";
 
@@ -253,9 +254,7 @@ export default function CategoryPage() {
 
       <BackToTop />
 
-      <footer className="bg-white/80 py-4 text-center text-sm text-gray-600">
-        <p>© {new Date().getFullYear()} Activity Generator. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

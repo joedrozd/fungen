@@ -5,7 +5,7 @@ import Link from "next/link";
 import { SearchBar } from "./SearchBar";
 
 interface NavigationProps {
-  onSearch: (query: string) => void;
+  onSearch?: (query: string) => void;
   breadcrumb?: { name: string; href?: string }[];
 }
 
@@ -120,7 +120,7 @@ export function Navigation({ onSearch, breadcrumb }: NavigationProps) {
         {/* Navigation items */}
         <div className="flex items-center gap-2">
           {/* Search */}
-          <SearchBar onSearch={onSearch} />
+          {onSearch && <SearchBar onSearch={onSearch} />}
 
           {/* Dropdown menus */}
           <div className="relative">

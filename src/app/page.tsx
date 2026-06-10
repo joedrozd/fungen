@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import { Analytics } from "@vercel/analytics/next";
 import Image from "next/image";
 import Link from "next/link";
@@ -12,6 +12,8 @@ import { FavoritesList } from "@/components/FavoritesList";
 import { SocialShare } from "@/components/SocialShare";
 import { BackToTop } from "@/components/BackToTop";
 import { Navigation } from "@/components/Navigation";
+import { Footer } from "@/components/Footer";
+import { useToast } from "@/components/Toast";
 import { useUserPreferences } from "@/hooks/useUserPreferences";
 
 type Category = {
@@ -26,10 +28,12 @@ export default function Home() {
   const [leisureCategories, setLeisureCategories] = useState<Category[]>([]);
   const [productiveCategories, setProductiveCategories] = useState<Category[]>([]);
   const [activeType, setActiveType] = useState<"leisure" | "productive">("leisure");
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [loading, setLoading] = useState(true);
   const [searchResults, setSearchResults] = useState<string[] | null>(null);
-  
+
   const { preferences, addRecentActivity } = useUserPreferences();
+  const { showToast } = useToast();
 
   useEffect(() => {
     const fetchActivities = async () => {
@@ -86,8 +90,11 @@ export default function Home() {
       return;
     }
 
-    // Use current activeType
+    // Use current activeType, narrowed to the selected category if one is chosen
     categories = activeType === "leisure" ? leisureCategories : productiveCategories;
+    if (selectedCategory !== "all") {
+      categories = categories.filter((c) => c.name === selectedCategory);
+    }
 
     // Get all activities from filtered categories
     const activities = categories.flatMap((c) => c.activities);
@@ -113,7 +120,38 @@ export default function Home() {
       setActivityDescription(activityDesc || null);
       addRecentActivity(activityName);
     }
-  }, [activeType, leisureCategories, productiveCategories, searchResults, addRecentActivity]);
+  }, [activeType, selectedCategory, leisureCategories, productiveCategories, searchResults, addRecentActivity]);
+
+  // Deterministic daily pick from the full activity pool
+  const activityOfTheDay = useMemo(() => {
+    const all = [...leisureCategories, ...productiveCategories].flatMap((c) => c.activities);
+    if (all.length === 0) return null;
+    const now = new Date();
+    const seed = now.getFullYear() * 372 + now.getMonth() * 31 + now.getDate();
+    const picked = all[seed % all.length];
+    return typeof picked === "string"
+      ? { name: picked, description: undefined, image: undefined }
+      : picked;
+  }, [leisureCategories, productiveCategories]);
+
+  const handleSelectActivity = useCallback(
+    (selected: { name: string; description?: string; image?: string }) => {
+      setActivity(selected.name);
+      setActivityImage(selected.image || null);
+      setActivityDescription(selected.description || null);
+      addRecentActivity(selected.name);
+    },
+    [addRecentActivity]
+  );
+
+  const handleCopyActivity = useCallback(async () => {
+    try {
+      await navigator.clipboard.writeText(activity);
+      showToast("Activity copied to clipboard!", "success");
+    } catch {
+      showToast("Couldn't copy to clipboard", "error");
+    }
+  }, [activity, showToast]);
 
   const handleSearch = useCallback(
     (query: string) => {
@@ -168,7 +206,7 @@ export default function Home() {
       <Navigation onSearch={handleSearch} />
 
       {/* Main content */}
-      <main className="flex-1 flex items-center justify-center p-8 pt-24">
+      <main className="flex-1 flex flex-col items-center justify-center gap-6 p-8 pt-24">
         <Card className="text-center max-w-md bg-white/90" role="main" aria-label="Activity Generator">
           <CardHeader>
             <Image
@@ -190,6 +228,7 @@ export default function Home() {
               <Button
                 onClick={() => {
                   setActiveType("leisure");
+                  setSelectedCategory("all");
                 }}
                 variant={activeType === "leisure" ? "default" : "outline"}
                 size="sm"
@@ -201,6 +240,7 @@ export default function Home() {
               <Button
                 onClick={() => {
                   setActiveType("productive");
+                  setSelectedCategory("all");
                 }}
                 variant={activeType === "productive" ? "destructive" : "outline"}
                 size="sm"
@@ -209,6 +249,27 @@ export default function Home() {
               >
                 Productive
               </Button>
+            </div>
+
+            {/* Category filter for the generator */}
+            <div className="flex items-center justify-center gap-2 mb-4">
+              <label htmlFor="category-filter" className="text-sm text-muted-foreground">
+                Category:
+              </label>
+              <select
+                id="category-filter"
+                value={selectedCategory}
+                onChange={(e) => setSelectedCategory(e.target.value)}
+                className="text-sm border rounded-md px-2 py-1.5 bg-white hover:border-gray-400 transition-colors"
+                aria-label="Filter generator by category"
+              >
+                <option value="all">All categories</option>
+                {currentCategories.map((category) => (
+                  <option key={category.name} value={category.name}>
+                    {category.name}
+                  </option>
+                ))}
+              </select>
             </div>
 
             {/* Activity display with image */}
@@ -223,9 +284,35 @@ export default function Home() {
                   />
                 </div>
               )}
-              <p className="text-lg font-medium" aria-live="polite">
-                {activity}
-              </p>
+              <div className="flex items-start justify-center gap-2">
+                <p className="text-lg font-medium" aria-live="polite">
+                  {activity}
+                </p>
+                {activity && activity !== "Click a button for an idea!" && activity !== "No activities found matching your search" && (
+                  <button
+                    onClick={handleCopyActivity}
+                    className="shrink-0 mt-1 p-1 text-gray-400 hover:text-gray-700 transition-colors"
+                    aria-label="Copy activity to clipboard"
+                    title="Copy to clipboard"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                      aria-hidden="true"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+                      />
+                    </svg>
+                  </button>
+                )}
+              </div>
               {activityDescription && (
                 <p className="text-sm text-muted-foreground mt-2">
                   {activityDescription}
@@ -278,6 +365,27 @@ export default function Home() {
               </div>
             )}
 
+            {/* Recently generated activities */}
+            {preferences.recentActivities.length > 0 && (
+              <div className="mt-4 text-left">
+                <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">
+                  Recently generated
+                </p>
+                <div className="flex flex-wrap gap-1.5" role="group" aria-label="Recently generated activities">
+                  {preferences.recentActivities.slice(0, 5).map((recent) => (
+                    <button
+                      key={recent}
+                      onClick={() => setActivity(recent)}
+                      className="text-xs px-2.5 py-1 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-full transition-colors max-w-full truncate"
+                      title={recent}
+                    >
+                      {recent}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {/* Rating widget */}
             {activity && activity !== "Click a button for an idea!" && activity !== "No activities found matching your search" && (
               <RatingWidget activity={activity} />
@@ -292,6 +400,29 @@ export default function Home() {
             <SocialShare activity={activity} />
           </CardContent>
         </Card>
+
+        {/* Activity of the Day */}
+        {activityOfTheDay && (
+          <Card className="max-w-md w-full bg-white/90" aria-label="Activity of the day">
+            <CardContent className="p-4 flex items-center gap-3">
+              <span className="text-2xl" aria-hidden="true">✨</span>
+              <div className="flex-1 text-left">
+                <p className="text-xs font-semibold text-indigo-600 uppercase tracking-wide">
+                  Activity of the Day
+                </p>
+                <p className="text-sm font-medium text-gray-900">{activityOfTheDay.name}</p>
+              </div>
+              <Button
+                onClick={() => handleSelectActivity(activityOfTheDay)}
+                size="sm"
+                variant="outline"
+                className="shrink-0"
+              >
+                Try it
+              </Button>
+            </CardContent>
+          </Card>
+        )}
       </main>
 
       {/* Back to top button */}
@@ -301,9 +432,7 @@ export default function Home() {
       <Tutorial />
 
       {/* Footer with links */}
-      <footer className="bg-white/80 py-4 text-center text-sm text-gray-600">
-        <p>© {new Date().getFullYear()} Activity Generator. All rights reserved.</p>
-      </footer>
+      <Footer />
 
       {/* PayPal link */}
       <a

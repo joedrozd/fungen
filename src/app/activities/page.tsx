@@ -6,6 +6,7 @@ import { Navigation } from "@/components/Navigation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BackToTop } from "@/components/BackToTop";
+import { Footer } from "@/components/Footer";
 
 type Activity = {
   name: string;
@@ -146,9 +147,7 @@ export default function ActivitiesPage() {
 
       <BackToTop />
 
-      <footer className="bg-white/80 py-6 text-center text-sm text-gray-600 mt-12">
-        <p>© {new Date().getFullYear()} Activity Generator. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
