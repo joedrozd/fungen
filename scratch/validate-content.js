@@ -167,7 +167,7 @@ for (const { activity, category } of targets) {
 
   // --- disclaimer ---
   if (DISCLAIMER_CATEGORIES.has(category.slug)) {
-    const hasDisclaimer = /not (?:financial|medical|professional|legal|tax) advice|a (?:financial|medical) professional|qualified (?:adviser|advisor|professional)|talk to (?:a|your) (?:doctor|GP|adviser|advisor|accountant)|check with (?:a|your) (?:doctor|adviser|advisor)/i.test(
+    const hasDisclaimer = /(?:not|rather than|and not)\s+(?:financial|medical|professional|legal|tax)\s+advice|a (?:financial|medical) professional|qualified (?:adviser|advisor|professional)|talk to (?:a|your) (?:doctor|GP|adviser|advisor|accountant)|check with (?:a|your) (?:doctor|adviser|advisor)/i.test(
       body
     );
     if (!hasDisclaimer)

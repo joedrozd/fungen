@@ -1,0 +1,1225 @@
+{
+  "create-a-budget-spreadsheet": {
+    "seo": {
+      "title": "Create a Budget Spreadsheet That Survives Month Two",
+      "metaDescription": "Build a budget spreadsheet from your actual bank statements rather than guesses, with categories coarse enough that you will still be using it in March.",
+      "primaryKeyword": "create a budget spreadsheet",
+      "secondaryKeywords": ["simple budget template", "how to budget monthly", "zero-based budgeting"]
+    },
+    "content": {
+      "intro": "Most attempts to create a budget spreadsheet die in week three. The usual cause is not laziness but resolution: thirty categories, each needing a decision every time you buy a coffee. An hour spent building something deliberately coarse, from real statement data rather than optimistic estimates, produces a budget you might still be using next year.",
+      "whyItWorks": "Working backwards from three months of statements removes the guesswork that sinks most budgets. Your estimate of what you spend on food is reliably wrong; your bank's record is not. Coarse categories then keep the maintenance cost low enough that the habit survives, and a budget you actually maintain at low precision beats a perfect one you abandon.",
+      "howTo": [
+        {
+          "step": "Export three months of transactions",
+          "detail": "Most banks offer CSV download. Three months smooths out the odd month with a holiday or an annual renewal in it."
+        },
+        {
+          "step": "Sort into six or seven categories",
+          "detail": "Housing, food, transport, bills, debt, everything else. Resist splitting further; granularity is what kills budgets."
+        },
+        {
+          "step": "Average each category",
+          "detail": "Divide by three. That average is your real baseline, and it is usually higher than the number you would have guessed."
+        },
+        {
+          "step": "Subtract from income and look at the gap",
+          "detail": "Whatever remains is what is genuinely available to save or redirect. This figure surprises almost everyone the first time."
+        },
+        {
+          "step": "Add one forward month and stop",
+          "detail": "Build next month's column with target numbers. Do not build twelve; you will change the design after the first month anyway."
+        }
+      ],
+      "tips": [
+        "Include annual costs as monthly twelfths. Insurance and car tax wreck budgets that only think in months.",
+        "Add a line called unallocated and fund it. Budgets with no slack break the first time something unexpected happens.",
+        "Review for ten minutes monthly, not daily. Daily checking produces anxiety without improving decisions."
+      ],
+      "variations": "If a spreadsheet feels like too much friction, the same hour works on a budgeting app that categorises automatically, at the cost of connecting your accounts. If you share finances, build it together in one sitting; separately built budgets rarely reconcile.",
+      "faq": [
+        {
+          "q": "How many budget categories should I use?",
+          "a": "Six or seven. Enough to see where money goes, few enough that categorising a transaction never requires thought."
+        },
+        {
+          "q": "What is the 50/30/20 rule?",
+          "a": "A guideline splitting income into needs, wants and savings. Useful as a sanity check, though it fits high-rent cities poorly."
+        },
+        {
+          "q": "Should I get professional advice?",
+          "a": "This is general information, not financial advice. For debt, tax or investment decisions specific to you, speak to a qualified adviser."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "three months of bank statements", "spreadsheet software"]
+    },
+    "related": [
+      "track-every-expense-for-one-day",
+      "create-an-emergency-fund-savings-plan",
+      "review-and-cancel-unused-subscriptions"
+    ]
+  },
+
+  "learn-about-investing-basics": {
+    "seo": {
+      "title": "Learn Investing Basics Without the Sales Pitch",
+      "metaDescription": "An hour on investing basics: what compounding actually does, why fees matter more than stock picking, and the vocabulary you need before deciding anything.",
+      "primaryKeyword": "investing basics",
+      "secondaryKeywords": ["index funds explained", "what are ETFs", "investment fees impact"]
+    },
+    "content": {
+      "intro": "Almost everything written about investing basics is trying to sell you something, which makes the first hour disproportionately hard. The genuinely foundational ideas are few and boring: time in the market, the arithmetic of fees, diversification, and your own tolerance for watching a number fall. Everything else is detail layered on top.",
+      "whyItWorks": "The concepts that matter most are also the ones that compound over decades, so understanding them early is worth far more than any particular investment choice. Fees are the clearest example: a percentage point of annual charges sounds trivial and is not, once you run the arithmetic over thirty years. An hour spent on that arithmetic changes decisions permanently.",
+      "howTo": [
+        {
+          "step": "Learn the vocabulary first",
+          "detail": "Index fund, ETF, expense ratio, diversification, volatility. Six terms unlock most beginner material and stop it sounding like code."
+        },
+        {
+          "step": "Understand compounding with real numbers",
+          "detail": "Put your own figures into a calculator. Abstract compounding is forgettable; seeing your own contribution grow is not."
+        },
+        {
+          "step": "Compare two funds on fees alone",
+          "detail": "Find the expense ratios of any two similar funds and project both over thirty years. The gap is usually startling."
+        },
+        {
+          "step": "Read one sceptical source",
+          "detail": "Deliberately find someone arguing against the popular position. It reveals which claims are settled and which are contested."
+        },
+        {
+          "step": "Write down your time horizon",
+          "detail": "Money needed within five years is a different problem from money for retirement. Confusing the two causes most beginner mistakes."
+        }
+      ],
+      "tips": [
+        "Prefer sources that do not sell products. Regulators, public broadcasters and university material carry far less conflict of interest.",
+        "Be sceptical of anything promising unusual returns with low risk. That combination does not exist reliably.",
+        "Learn what your workplace pension already invests in before adding anything new. Many people are invested without realising."
+      ],
+      "variations": "If you already understand the fundamentals, spend the hour reading the actual fund documents for what you hold, which almost nobody does. If you are helping someone else start, focus the hour on fees and time horizon; those two ideas prevent the most expensive mistakes.",
+      "faq": [
+        {
+          "q": "How much money do I need to start investing?",
+          "a": "Many platforms accept very small amounts. The bigger question is whether higher-interest debt and an emergency fund should come first."
+        },
+        {
+          "q": "What is an index fund?",
+          "a": "A fund tracking a whole market index rather than picking individual holdings. Low fees and broad diversification are the usual appeal."
+        },
+        {
+          "q": "Is this financial advice?",
+          "a": "No. This is general educational information, not financial advice. Speak to a qualified adviser about decisions specific to your circumstances."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "notebook"]
+    },
+    "related": [
+      "play-with-a-compound-interest-calculator",
+      "research-retirement-savings-options",
+      "learn-about-financial-planning"
+    ]
+  },
+
+  "learn-about-financial-planning": {
+    "seo": {
+      "title": "Learn Financial Planning: the Order Operations Go In",
+      "metaDescription": "Financial planning is mostly sequencing. Learn what order emergency fund, debt, pension and investing go in, and why order matters more than products.",
+      "primaryKeyword": "financial planning",
+      "secondaryKeywords": ["financial priorities order", "personal finance roadmap", "money management steps"]
+    },
+    "content": {
+      "intro": "Financial planning sounds like something requiring a professional and a large portfolio. At the personal level it is mostly sequencing: knowing which thing to do before which other thing. Get the order right and mediocre products still work out fine. Get it wrong and excellent products cannot compensate. An hour is enough to learn the order.",
+      "whyItWorks": "Sequencing dominates because the returns are so lopsided. Paying off a card charging twenty percent beats almost any investment available to you, and no fund selection compensates for skipping an employer pension match. Once you see the hierarchy laid out, a lot of anxious deliberation about which product to buy simply dissolves.",
+      "howTo": [
+        {
+          "step": "List what you owe and at what rate",
+          "detail": "Every debt with its interest rate. This single list determines most of what should happen next, in order."
+        },
+        {
+          "step": "Learn the standard priority order",
+          "detail": "Small buffer, employer pension match, high-interest debt, fuller emergency fund, then long-term investing. Terminology varies; the sequence rarely does."
+        },
+        {
+          "step": "Find where you actually are",
+          "detail": "Mark your current position in that sequence honestly. Most people are further back than they assume, and that is fine."
+        },
+        {
+          "step": "Identify the single next action",
+          "detail": "One step, not a restructuring. Financial plans fail from ambition far more often than from picking the wrong instrument."
+        },
+        {
+          "step": "Note what you do not understand",
+          "detail": "Write down the terms that stayed opaque. That list is what you take to an adviser or research next time."
+        }
+      ],
+      "tips": [
+        "Employer pension matching is the one thing with no real competition. Not taking it is declining part of your salary.",
+        "Ignore anything promising a shortcut past the sequence. The order exists because of arithmetic, not tradition.",
+        "Revisit annually or when income changes materially. Plans go stale quietly rather than obviously."
+      ],
+      "variations": "If you are self-employed, the same sequence applies but with tax set-aside and a private pension inserted early, since neither is handled for you. If you have dependants, add life insurance and a will to the front of the list; both are cheap and routinely postponed.",
+      "faq": [
+        {
+          "q": "Do I need a financial planner?",
+          "a": "Not for the basics. Consider one for complex tax situations, inheritance, business ownership, or when the sums become large enough that mistakes are costly."
+        },
+        {
+          "q": "Should I pay off debt or invest first?",
+          "a": "Generally clear high-interest debt first, after capturing any employer pension match. This is general information rather than financial advice."
+        },
+        {
+          "q": "How big should an emergency fund be?",
+          "a": "Commonly three to six months of essential spending, larger if your income is irregular. Start with one month; the first is the hardest."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["notebook", "a list of your debts and accounts"]
+    },
+    "related": [
+      "create-an-emergency-fund-savings-plan",
+      "create-a-debt-repayment-plan",
+      "learn-about-investing-basics"
+    ]
+  },
+
+  "review-your-credit-report": {
+    "seo": {
+      "title": "Review Your Credit Report and Fix What's Wrong",
+      "metaDescription": "Check your credit report for the errors that quietly cost you money, learn what actually moves the score, and dispute anything inaccurate in under an hour.",
+      "primaryKeyword": "review your credit report",
+      "secondaryKeywords": ["free credit report", "how to dispute credit report errors", "what affects your credit score"]
+    },
+    "content": {
+      "intro": "Errors on credit files are common and expensive, and almost nobody checks. When you review your credit report you are looking for two things: mistakes that are dragging your score down, and accounts you do not recognise. Both are fixable, both are free to fix, and an hour is more than enough to find them.",
+      "whyItWorks": "Credit files are assembled from data submitted by lenders, and that data is entered by people and systems that make errors. A closed account still showing as open, a late payment that was not late, an address you never lived at. Each can affect what you are offered on a mortgage or loan, and correcting one is a form letter rather than a legal battle.",
+      "howTo": [
+        {
+          "step": "Get all your reports, not one",
+          "detail": "Several agencies hold separate files and lenders use different ones. An error can appear on one and not the others."
+        },
+        {
+          "step": "Check the identity details first",
+          "detail": "Name, addresses, date of birth. Wrong addresses are the most common error and can suppress your score meaningfully."
+        },
+        {
+          "step": "Verify every open account",
+          "detail": "Confirm each is genuinely yours and genuinely open. Old closed accounts still showing open distort your apparent exposure."
+        },
+        {
+          "step": "Look for accounts you do not recognise",
+          "detail": "An unfamiliar account can indicate identity fraud. Report it immediately rather than assuming you forgot something."
+        },
+        {
+          "step": "Dispute anything wrong in writing",
+          "detail": "Each agency has a dispute process. They must investigate, and corrections are free; nobody needs to pay a repair service."
+        }
+      ],
+      "tips": [
+        "Checking your own report is a soft search and never affects your score, regardless of what the marketing implies.",
+        "Register on the electoral roll if you are eligible. It is one of the cheapest score improvements available.",
+        "Set a calendar reminder to recheck annually. Errors reappear, particularly after moving house."
+      ],
+      "variations": "If your report is clean, spend the rest of the hour on credit utilisation instead, since keeping balances well below your limits is usually the fastest lever available. If you are preparing for a mortgage application, do this six months ahead so any disputes have time to resolve.",
+      "faq": [
+        {
+          "q": "Does checking my credit report lower my score?",
+          "a": "No. Checking your own file is a soft search, visible only to you and with no effect on your score."
+        },
+        {
+          "q": "How do I fix an error on my credit report?",
+          "a": "Raise a dispute directly with the agency showing it. They are obliged to investigate, and the correction costs nothing."
+        },
+        {
+          "q": "Should I pay a credit repair company?",
+          "a": "Generally no. They do what you can do free. This is general information, not financial advice; a debt charity can help if you are struggling."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 45,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "proof of identity"]
+    },
+    "related": [
+      "create-a-debt-repayment-plan",
+      "review-your-insurance-policies-for-better-deals",
+      "digitize-important-paper-documents"
+    ]
+  },
+
+  "set-up-automatic-bill-payments": {
+    "seo": {
+      "title": "Set Up Automatic Bill Payments Without Losing Control",
+      "metaDescription": "Automate the bills that never change, keep manual control of the ones that do, and build the one safeguard that stops automation causing overdraft fees.",
+      "primaryKeyword": "set up automatic bill payments",
+      "secondaryKeywords": ["autopay pros and cons", "direct debit setup", "avoid late payment fees"]
+    },
+    "content": {
+      "intro": "Late payment fees are almost entirely an attention problem rather than a money problem. When you set up automatic bill payments you remove the attention requirement, which is why it is one of the highest-return hours in personal finance. The caveat is that automating the wrong bills replaces late fees with overdraft fees.",
+      "whyItWorks": "Fixed, predictable bills are ideal candidates because there is no decision to make each month; the payment is pure administrative overhead. Variable bills are different, because automation removes the moment where you would have noticed a charge doubling. Splitting your bills along that line captures the benefit without the failure mode.",
+      "howTo": [
+        {
+          "step": "List every recurring bill",
+          "detail": "Amount, due date, and whether it is fixed or variable. Three columns; this list is most of the work."
+        },
+        {
+          "step": "Automate only the fixed ones",
+          "detail": "Rent, insurance, subscriptions with stable pricing. These have no decision attached, so nothing is lost by automating them."
+        },
+        {
+          "step": "Keep variable bills manual or capped",
+          "detail": "Utilities and anything usage-based. Reviewing these monthly is how you catch a meter fault or a price rise."
+        },
+        {
+          "step": "Cluster the dates after payday",
+          "detail": "Move due dates to the days following your income arriving. Most providers will change a payment date on request."
+        },
+        {
+          "step": "Leave a deliberate buffer",
+          "detail": "Keep one month of bills sitting in the account. Automation without a buffer converts a timing slip into a fee."
+        }
+      ],
+      "tips": [
+        "Set a low-balance alert on the account bills leave from. It is the single safeguard that makes automation safe.",
+        "Review automated payments quarterly. Automation is exactly how subscriptions survive long after you stopped using them.",
+        "Prefer direct debit where consumer protection schemes apply, since disputed payments are easier to reclaim. This is general information and not financial advice."
+      ],
+      "variations": "If your income is irregular, automate only the essentials and keep a manual pass for the rest, since fixed outgoings against variable income is where automation hurts most. If your bills are already automated, spend the hour auditing what is actually leaving the account instead.",
+      "faq": [
+        {
+          "q": "Is autopay safe?",
+          "a": "For fixed bills, generally yes, provided you keep a buffer and a low-balance alert. The risk is an unexpected charge hitting an empty account."
+        },
+        {
+          "q": "Which bills should I not automate?",
+          "a": "Variable ones, and anything you might want to cancel. Automating those removes the moment you would have noticed a problem."
+        },
+        {
+          "q": "Can I change when a bill is due?",
+          "a": "Usually yes, by asking the provider. Aligning due dates with payday removes most timing problems in one call."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 45,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "online banking access", "a list of recurring bills"]
+    },
+    "related": [
+      "review-and-cancel-unused-subscriptions",
+      "create-a-budget-spreadsheet",
+      "create-a-system-for-tracking-important-dates"
+    ]
+  },
+
+  "research-retirement-savings-options": {
+    "seo": {
+      "title": "Research Retirement Savings Options in One Hour",
+      "metaDescription": "Work out what retirement savings you already have, what your employer will match, and what the fees are costing you, before choosing anything new.",
+      "primaryKeyword": "retirement savings options",
+      "secondaryKeywords": ["employer pension match", "pension fees", "how much to save for retirement"]
+    },
+    "content": {
+      "intro": "People research retirement savings options as though the task were choosing between products, when the first and most valuable step is finding out what you already have. Most workers have at least one pension they have never logged into, invested in a default fund they have never looked at, charging a fee they have never checked.",
+      "whyItWorks": "The three biggest levers are all available before you choose any new product: capturing the full employer match, knowing your fee, and knowing your contribution rate. Employer matching is an immediate uplift with no equivalent anywhere else. Fees compound against you over decades. Both are usually adjustable in a few clicks once you actually log in.",
+      "howTo": [
+        {
+          "step": "Find every pension you hold",
+          "detail": "Including ones from old employers. Most people have more than they remember, and small pots are easily lost entirely."
+        },
+        {
+          "step": "Check the employer match ceiling",
+          "detail": "Find the maximum your employer will match and whether you are hitting it. This is the highest-value number in the exercise."
+        },
+        {
+          "step": "Look up the annual charge",
+          "detail": "Expressed as a percentage. Compare against alternatives, and project the difference over the years you have remaining."
+        },
+        {
+          "step": "See what fund you are actually in",
+          "detail": "Almost everyone sits in the default. Check whether its risk profile suits your age and how long you have."
+        },
+        {
+          "step": "Write down what you did not understand",
+          "detail": "Take that list to your provider or an adviser. Pension documentation is dense and the questions are usually free to ask."
+        }
+      ],
+      "tips": [
+        "Increase contributions when you get a raise, before the higher income becomes normal. It is the least painful moment to do it.",
+        "Government tracing services exist for lost pensions in many countries and cost nothing to use.",
+        "Consolidating old pots can reduce fees, but check for exit penalties and lost guarantees before moving anything."
+      ],
+      "variations": "If you are self-employed, the hour goes on choosing a private pension and setting a realistic contribution, since nobody is doing it for you. If retirement is close, spend the time on what your provider offers at drawdown instead, where the decisions become harder to reverse.",
+      "faq": [
+        {
+          "q": "How much should I be saving for retirement?",
+          "a": "Common guidance is a low double-digit percentage of income including employer contributions, adjusted for when you started. A qualified adviser can model your situation properly."
+        },
+        {
+          "q": "What if I have several old pensions?",
+          "a": "Track them all down first. Consolidation may reduce fees, but check for exit charges and any guaranteed benefits you would forfeit."
+        },
+        {
+          "q": "Is the default fund a bad choice?",
+          "a": "Not necessarily; defaults are often reasonable. It is worth knowing what you are in rather than assuming. This is general information, not financial advice."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "pension account logins", "recent payslip"]
+    },
+    "related": [
+      "check-your-pension-contributions",
+      "learn-about-investing-basics",
+      "learn-about-financial-planning"
+    ]
+  },
+
+  "learn-about-tax-deductions-you-may-qualify-for": {
+    "seo": {
+      "title": "Find Tax Deductions You Probably Already Qualify For",
+      "metaDescription": "Spend an hour learning which tax deductions apply to your situation, what records you need to claim them, and how far back you can usually reclaim.",
+      "primaryKeyword": "tax deductions",
+      "secondaryKeywords": ["work from home tax relief", "claiming expenses", "tax deductible expenses list"]
+    },
+    "content": {
+      "intro": "Tax deductions you may qualify for are unclaimed largely because nobody tells you they exist. Work-from-home relief, professional subscriptions, uniform costs, charitable giving, study expenses. None require aggressive planning; they require knowing they apply and keeping a receipt. An hour of reading frequently pays for itself several times over.",
+      "whyItWorks": "Tax authorities publish the eligibility rules in full, for free, and the rules for employees are usually short. The barrier is that the information is organised by legislation rather than by the situation you are actually in. Reading it once, filtered against your own circumstances, converts a permanently vague sense that you might be missing something into a concrete list.",
+      "howTo": [
+        {
+          "step": "Start with the official source",
+          "detail": "Your tax authority's own site. Commercial guides are often out of date or written for a different jurisdiction entirely."
+        },
+        {
+          "step": "Filter by your actual situation",
+          "detail": "Employee, self-employed, landlord, student, carer. Deduction rules differ sharply between these and mixing them causes errors."
+        },
+        {
+          "step": "List the ones that plausibly apply",
+          "detail": "Do not judge eligibility precisely yet. Get the candidate list first, then check each against the detailed rules."
+        },
+        {
+          "step": "Check the evidence requirement",
+          "detail": "Most deductions need a record. Find out what counts before you need it, since reconstructing receipts later is painful."
+        },
+        {
+          "step": "Check how far back you can claim",
+          "detail": "Many jurisdictions allow backdated claims over several years. This is often where the meaningful money turns out to be."
+        }
+      ],
+      "tips": [
+        "Set up a folder now for the current tax year's receipts. Contemporaneous records are worth more than good intentions.",
+        "Professional body fees and mandatory training are commonly deductible and just as commonly forgotten.",
+        "If your situation is complex, an accountant's fee is frequently less than the deductions they identify."
+      ],
+      "variations": "If you are self-employed, spend the hour on the categories your business genuinely uses rather than the general list, since that is where the material amounts sit. If you are employed with simple affairs, focus specifically on backdated claims, which are usually the largest single opportunity.",
+      "faq": [
+        {
+          "q": "Can I claim for working from home?",
+          "a": "Often yes, though the rules and amounts vary considerably by country and by whether you are employed or self-employed. Check your own tax authority."
+        },
+        {
+          "q": "How far back can I claim?",
+          "a": "Many jurisdictions permit several years of backdated claims. Check the limit where you live, since it is frequently longer than people assume."
+        },
+        {
+          "q": "Do I need an accountant?",
+          "a": "This is general information, not tax advice. For anything beyond straightforward employment income, a qualified professional usually pays for themselves."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "last year's tax return", "payslips"]
+    },
+    "related": [
+      "digitize-important-paper-documents",
+      "check-your-pension-contributions",
+      "research-side-hustle-opportunities"
+    ]
+  },
+
+  "create-an-emergency-fund-savings-plan": {
+    "seo": {
+      "title": "Build an Emergency Fund Savings Plan That Works",
+      "metaDescription": "Work out what an emergency fund needs to cover in your situation, where to keep it, and how to reach the first month, which is the hardest part.",
+      "primaryKeyword": "emergency fund savings plan",
+      "secondaryKeywords": ["how much emergency fund", "where to keep emergency savings", "saving for unexpected expenses"]
+    },
+    "content": {
+      "intro": "The standard advice to hold three to six months of expenses is unhelpful when you have none, because the gap is so large it reads as impossible. A useful emergency fund savings plan starts from a much smaller and more achievable target, because the difference between zero and one month is where nearly all the benefit lives.",
+      "whyItWorks": "A small buffer changes the category of problem a broken boiler represents. With nothing saved, it becomes debt at a punitive rate; with one month saved, it is an annoyance. That first threshold delivers most of the practical protection, and reaching it is achievable in a timeframe short enough to stay motivating.",
+      "howTo": [
+        {
+          "step": "Calculate essential spending only",
+          "detail": "Housing, food, utilities, transport, minimum debt payments. Not your full budget; emergencies are lived at a reduced standard."
+        },
+        {
+          "step": "Set one month as the first target",
+          "detail": "Not six. The first month delivers most of the protection and is reachable soon enough to sustain the effort."
+        },
+        {
+          "step": "Pick where it lives",
+          "detail": "Separate from your current account, accessible within a day or two, earning some interest. Not invested; this money must not fluctuate."
+        },
+        {
+          "step": "Automate a transfer on payday",
+          "detail": "Any amount, same day the income lands. Consistency matters more than the size of each transfer."
+        },
+        {
+          "step": "Define what counts as an emergency",
+          "detail": "Write it down now, while calm. Undefined emergency funds quietly become holiday funds without anyone deciding they should."
+        }
+      ],
+      "tips": [
+        "Keep it far enough from daily spending to require a deliberate act, but not so far that a genuine emergency has to wait days.",
+        "Refill it immediately after use, before resuming other savings. The fund only works if it is there next time.",
+        "Increase the target if your income is irregular or you are a single earner. Three months is a floor, not a rule."
+      ],
+      "variations": "If you have high-interest debt, most guidance suggests a small buffer of a few hundred first, then debt, then the fuller fund; the arithmetic favours clearing expensive interest. If you already hold six months, consider whether some of it is over-provisioned and could work harder elsewhere.",
+      "faq": [
+        {
+          "q": "How much should be in an emergency fund?",
+          "a": "Three to six months of essential spending is the common range, more if your income is irregular. Start with one month."
+        },
+        {
+          "q": "Where should I keep it?",
+          "a": "An easy-access savings account separate from daily banking. It should not be invested, since it must hold its value when needed."
+        },
+        {
+          "q": "Emergency fund or pay off debt first?",
+          "a": "Commonly a small buffer, then high-interest debt, then the fuller fund. This is general information rather than financial advice for your situation."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 45,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "recent bank statements"]
+    },
+    "related": [
+      "create-a-budget-spreadsheet",
+      "set-a-savings-goal-for-something-specific",
+      "create-a-debt-repayment-plan"
+    ]
+  },
+
+  "research-side-hustle-opportunities": {
+    "seo": {
+      "title": "Research Side Hustle Opportunities Realistically",
+      "metaDescription": "Assess side hustle opportunities on hourly return, startup cost and whether they build anything lasting, before spending months on one that pays badly.",
+      "primaryKeyword": "side hustle opportunities",
+      "secondaryKeywords": ["side hustle ideas that pay", "freelancing to start", "extra income realistic"]
+    },
+    "content": {
+      "intro": "Content about side hustle opportunities is dominated by people whose actual income comes from telling you about side hustles. Filtering that out is most of the work. The useful hour is spent assessing a small number of options against honest criteria: what it pays per hour, what it costs to start, and whether it accumulates into anything.",
+      "whyItWorks": "Evaluating on hourly return exposes options that look attractive and are not. Many popular suggestions pay well below minimum wage once setup, admin and unpaid hours are counted. The accumulation question then separates work that ends when you stop from work that builds a skill, an audience or an asset you still hold in three years.",
+      "howTo": [
+        {
+          "step": "Start from what you can already do",
+          "detail": "An existing skill has no learning curve and commands a higher rate immediately. Novelty is the enemy of side income."
+        },
+        {
+          "step": "Estimate realistic hourly return",
+          "detail": "Include unpaid time: finding clients, admin, revisions. This calculation eliminates most options within minutes."
+        },
+        {
+          "step": "Check the true startup cost",
+          "detail": "Money, equipment, and the hours before the first payment arrives. Anything requiring significant upfront spend deserves scepticism."
+        },
+        {
+          "step": "Ask whether it accumulates",
+          "detail": "Does it build a portfolio, a skill, or repeat customers? Work that vanishes when you stop is worth less than the rate suggests."
+        },
+        {
+          "step": "Check your employment contract",
+          "detail": "Many contracts restrict outside work or claim ownership of what you create. Read it before you start, not afterwards."
+        }
+      ],
+      "tips": [
+        "Run one small paid job before committing. A real transaction teaches you more than a month of research.",
+        "Set aside money for tax from the first payment. Side income is usually taxable and the bill arrives later.",
+        "Be honest about available hours. Most side hustles fail on capacity, not on the idea being wrong."
+      ],
+      "variations": "If your goal is a career change rather than money, weight the accumulation criterion far above the hourly rate and accept poor early pay. If you have limited free time, look at options with no minimum commitment, since irregular availability kills client work fastest.",
+      "faq": [
+        {
+          "q": "What side hustles actually pay well?",
+          "a": "Generally ones using a skill you already have, sold directly to clients. Platform-mediated work pays less because the platform takes a share."
+        },
+        {
+          "q": "Do I need to declare side hustle income?",
+          "a": "Almost always, above a small threshold that varies by country. Check your tax authority; this is general information, not tax advice."
+        },
+        {
+          "q": "Can my employer stop me?",
+          "a": "Possibly, depending on your contract. Many restrict competing work or claim intellectual property. Read the terms before starting anything."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "your employment contract"]
+    },
+    "related": [
+      "research-passive-income-streams",
+      "identify-a-skill-gap-and-find-a-course-for-it",
+      "learn-about-tax-deductions-you-may-qualify-for"
+    ]
+  },
+
+  "learn-about-cryptocurrency-basics": {
+    "seo": {
+      "title": "Cryptocurrency Basics: How It Works, Not Whether to Buy",
+      "metaDescription": "Learn cryptocurrency basics as technology rather than investment tips: what a blockchain does, what a wallet is, and where the real risks sit.",
+      "primaryKeyword": "cryptocurrency basics",
+      "secondaryKeywords": ["how does blockchain work", "crypto wallet explained", "cryptocurrency risks"]
+    },
+    "content": {
+      "intro": "An hour on cryptocurrency basics is best spent understanding the technology rather than the price. What a blockchain actually does, why a wallet is a key rather than a container, and what makes transactions irreversible are all comprehensible in an hour. Whether any of it is a good investment is a separate question this does not answer.",
+      "whyItWorks": "Separating the mechanism from the speculation makes the whole subject legible. Most confusion comes from material that mixes a technical explanation with a sales pitch, so you finish knowing neither how it works nor why anyone disagrees. Understanding the mechanism first also makes the risks obvious, particularly the irreversibility that scams depend on.",
+      "howTo": [
+        {
+          "step": "Learn what a blockchain actually is",
+          "detail": "A shared append-only ledger that many parties can verify without trusting each other. That one sentence explains most of the design."
+        },
+        {
+          "step": "Understand keys, not accounts",
+          "detail": "A wallet holds a private key, not coins. Lose the key and the funds are permanently unreachable; there is no reset."
+        },
+        {
+          "step": "Learn why transactions are irreversible",
+          "detail": "There is no chargeback and no central authority to appeal to. This single property underpins nearly every crypto scam."
+        },
+        {
+          "step": "Read the regulatory position where you live",
+          "detail": "Consumer protections that cover bank deposits generally do not apply. Know what happens if a platform fails."
+        },
+        {
+          "step": "Read one serious critic",
+          "detail": "The technical criticisms are substantive and rarely appear in introductory material. Reading them is part of understanding the subject."
+        }
+      ],
+      "tips": [
+        "Treat anything guaranteeing returns as fraudulent. Guaranteed yield is the most reliable warning sign in the entire sector.",
+        "Never share a seed phrase with anyone, including support staff. Legitimate services never ask for it.",
+        "Understand the tax treatment before transacting. Many jurisdictions tax disposals, including crypto-to-crypto swaps."
+      ],
+      "variations": "If the technology interests you more than the currency, spend the hour on the underlying cryptography and distributed consensus instead, which is genuinely elegant. If you already hold crypto, spend it on custody and key security, since self-custody mistakes are unrecoverable.",
+      "faq": [
+        {
+          "q": "What is a blockchain in simple terms?",
+          "a": "A shared ledger that many independent parties can verify and append to, without any of them needing to trust a central authority."
+        },
+        {
+          "q": "Is cryptocurrency a good investment?",
+          "a": "This is general educational information, not financial advice. It is highly volatile, largely outside deposit protection schemes, and a qualified adviser is the right place for that question."
+        },
+        {
+          "q": "What happens if I lose my wallet key?",
+          "a": "The funds become permanently inaccessible. There is no recovery process, which is a deliberate consequence of the design."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "challenging",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "notebook"]
+    },
+    "related": [
+      "learn-about-investing-basics",
+      "set-up-a-password-manager",
+      "learn-about-financial-planning"
+    ]
+  },
+
+  "create-a-debt-repayment-plan": {
+    "seo": {
+      "title": "Create a Debt Repayment Plan and Pick Your Order",
+      "metaDescription": "Build a debt repayment plan in an hour: list every balance and rate, choose between the avalanche and snowball methods, and see your real payoff date.",
+      "primaryKeyword": "debt repayment plan",
+      "secondaryKeywords": ["debt avalanche vs snowball", "how to pay off debt faster", "debt payoff calculator"]
+    },
+    "content": {
+      "intro": "The hardest part of any debt repayment plan is the first ten minutes, when you write down every balance and add them up. People avoid that number for years. Once it exists on paper, the rest is arithmetic and a choice between two well-understood strategies, and the whole thing fits comfortably into an hour.",
+      "whyItWorks": "Debt feels unbounded when it is spread across cards, loans and overdrafts you never see together. Consolidating the picture converts a vague dread into a finite problem with a date attached. Seeing a specific payoff month, even a distant one, changes the psychology substantially, and the ordering choice then determines how quickly that date arrives.",
+      "howTo": [
+        {
+          "step": "List every debt with its rate",
+          "detail": "Balance, interest rate, minimum payment. Include overdrafts, family loans and buy-now-pay-later. Everything, including what you would rather forget."
+        },
+        {
+          "step": "Cover every minimum first",
+          "detail": "Missing a minimum triggers fees and credit damage that outweigh any acceleration elsewhere. This is non-negotiable before optimising."
+        },
+        {
+          "step": "Choose avalanche or snowball",
+          "detail": "Avalanche targets the highest rate and costs least. Snowball clears smallest balances first and sustains motivation better."
+        },
+        {
+          "step": "Direct every spare pound at one debt",
+          "detail": "Spreading extra payments across several debts feels productive and is measurably slower. Concentrate on one at a time."
+        },
+        {
+          "step": "Calculate the payoff date",
+          "detail": "Use a free calculator. A concrete date is what makes the plan psychologically durable through the months where nothing seems to change."
+        }
+      ],
+      "tips": [
+        "Check whether a lower-rate balance transfer or consolidation applies, but only if you will not re-spend the freed credit.",
+        "Call your lenders. Reduced rates and hardship arrangements exist far more often than people assume, and asking costs nothing.",
+        "Celebrate each debt cleared. The snowball method works precisely because those milestones sustain the effort."
+      ],
+      "variations": "If the minimums alone exceed what you can pay, stop optimising and contact a free debt charity today; that situation needs different help than a repayment plan. If your debt is mostly low-rate, model whether investing the surplus instead would leave you better off.",
+      "faq": [
+        {
+          "q": "Avalanche or snowball, which is better?",
+          "a": "Avalanche costs less in interest. Snowball is completed more often because early wins sustain motivation. The one you finish is the better one."
+        },
+        {
+          "q": "Should I consolidate my debts?",
+          "a": "Only if the rate is genuinely lower and you will not use the freed credit again. Consolidation without a spending change usually makes things worse."
+        },
+        {
+          "q": "What if I cannot afford the minimum payments?",
+          "a": "Contact a free debt charity rather than a commercial company. This is general information, not financial advice, and that situation needs proper support."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "all debt statements"]
+    },
+    "related": [
+      "create-a-budget-spreadsheet",
+      "review-your-credit-report",
+      "create-an-emergency-fund-savings-plan"
+    ]
+  },
+
+  "research-passive-income-streams": {
+    "seo": {
+      "title": "Research Passive Income Streams With Clear Eyes",
+      "metaDescription": "Assess passive income streams honestly: what each really requires upfront, how much maintenance is involved, and which ones are just selling courses.",
+      "primaryKeyword": "passive income streams",
+      "secondaryKeywords": ["is passive income real", "dividend income basics", "royalty income ideas"]
+    },
+    "content": {
+      "intro": "Passive income streams are mostly not passive. Almost every option requires either substantial capital you already have or substantial work you do upfront, and many require ongoing maintenance that quietly makes them a job. An hour of honest assessment saves months spent on something described as passive by people selling the description.",
+      "whyItWorks": "Sorting options by what they actually require makes the landscape legible immediately. Capital-based income is genuinely low-effort but needs capital. Creation-based income needs a large amount of work before any return. Platform-based income needs continuous feeding. Once you know which category you can realistically enter, most of the noise disappears.",
+      "howTo": [
+        {
+          "step": "Sort options by what they require",
+          "detail": "Capital you have, work you do first, or ongoing maintenance. Almost everything falls into one of those three."
+        },
+        {
+          "step": "Be honest about available capital",
+          "detail": "Dividend and rental income scale with what you can invest. Without capital, that entire category is not currently available."
+        },
+        {
+          "step": "Estimate the upfront work properly",
+          "detail": "A book, a course, a template library. Count the hours before any income, then divide the eventual return by them."
+        },
+        {
+          "step": "Find the maintenance requirement",
+          "detail": "Ask what happens if you ignore it for six months. Anything that collapses is not passive, whatever it is called."
+        },
+        {
+          "step": "Discount anyone selling the method",
+          "detail": "If someone's income comes from teaching the strategy rather than doing it, that tells you what actually works."
+        }
+      ],
+      "tips": [
+        "Ask what a realistic first-year return looks like, not the best case. The gap between them is where disappointment lives.",
+        "Understand the tax treatment before starting. Rental, dividend and royalty income are often taxed differently from each other.",
+        "Beware anything requiring recruitment of other participants. That structure has a name and it is not passive income."
+      ],
+      "variations": "If you have capital but no time, focus the hour on income-generating investments and their fees, which is the genuinely passive end. If you have time but no capital, focus on creating something once that can be sold repeatedly, and accept a long unpaid runway.",
+      "faq": [
+        {
+          "q": "Is passive income actually passive?",
+          "a": "Rarely. Most options need significant capital, significant upfront work, or ongoing maintenance. Genuinely hands-off income usually requires money you already have."
+        },
+        {
+          "q": "What is the most realistic passive income for a beginner?",
+          "a": "Usually interest or dividend income on savings you already hold, or something you create once and sell repeatedly. Both are slow."
+        },
+        {
+          "q": "How much can I realistically expect?",
+          "a": "Far less than marketing suggests, particularly in year one. This is general information, not financial advice about your circumstances."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "notebook"]
+    },
+    "related": [
+      "research-side-hustle-opportunities",
+      "learn-about-investing-basics",
+      "play-with-a-compound-interest-calculator"
+    ]
+  },
+
+  "review-your-insurance-policies-for-better-deals": {
+    "seo": {
+      "title": "Review Your Insurance Policies and Stop Overpaying",
+      "metaDescription": "Loyalty costs money in insurance. Review your policies for the coverage gaps and automatic price rises that renewal quotes rely on you not noticing.",
+      "primaryKeyword": "review your insurance policies",
+      "secondaryKeywords": ["insurance renewal price increase", "how to compare insurance", "am I over insured"]
+    },
+    "content": {
+      "intro": "Insurance is one of very few products where staying loyal reliably costs you money. When you review your insurance policies rather than letting them auto-renew, you are usually addressing two separate problems: a price that has crept up annually, and coverage that no longer matches your actual life.",
+      "whyItWorks": "Renewal pricing frequently assumes inertia, so the quote you receive is not the quote a new customer would get for the same policy. Meanwhile the coverage was set when you bought it, and circumstances have moved: a car worth less, possessions worth more, a policy still covering someone who moved out. Both are correctable in one sitting.",
+      "howTo": [
+        {
+          "step": "Gather every policy and its renewal date",
+          "detail": "Home, car, travel, life, pet, gadget. Note what each covers and what it costs now versus last year."
+        },
+        {
+          "step": "Check for duplicate cover",
+          "detail": "Bank accounts, credit cards and employers often bundle travel or gadget insurance. People routinely pay twice without knowing."
+        },
+        {
+          "step": "Recheck the sums insured",
+          "detail": "Contents cover set five years ago is probably wrong in one direction or the other. Both directions cost you money."
+        },
+        {
+          "step": "Compare before renewing, not after",
+          "detail": "Quote roughly three weeks ahead of renewal, which is often when pricing is most favourable. Auto-renewal is where the cost accumulates."
+        },
+        {
+          "step": "Use the quote as leverage",
+          "detail": "Existing insurers frequently match a cheaper offer if you call. That call is usually the highest hourly rate available anywhere."
+        }
+      ],
+      "tips": [
+        "Read what the excess actually is. A cheaper premium with a much higher excess is not necessarily cheaper.",
+        "Check the exclusions on anything you rely on. Discovering an exclusion at claim time is the expensive way to learn it.",
+        "Set calendar reminders three weeks before each renewal date so the comparison happens before auto-renewal does."
+      ],
+      "variations": "If your policies are already competitively priced, spend the hour on the coverage side instead and check whether income protection or life cover gaps exist, which matter far more than premium savings. If you have had a life change recently, prioritise updating those policies over shopping around.",
+      "faq": [
+        {
+          "q": "Why does my insurance go up every year?",
+          "a": "Partly claims inflation, partly renewal pricing that assumes you will not shop around. The second part is entirely within your control."
+        },
+        {
+          "q": "When is the best time to get quotes?",
+          "a": "Commonly around three weeks before renewal. Very early or very late quotes are often priced less favourably."
+        },
+        {
+          "q": "Is the cheapest policy the right one?",
+          "a": "Not necessarily. Check excess, exclusions and cover limits. This is general information, not financial advice about your specific needs."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "current policy documents"]
+    },
+    "related": [
+      "review-and-cancel-unused-subscriptions",
+      "start-a-home-inventory-for-insurance",
+      "review-your-credit-report"
+    ]
+  },
+
+  "set-a-savings-goal-for-something-specific": {
+    "seo": {
+      "title": "Set a Savings Goal Specific Enough to Actually Work",
+      "metaDescription": "Vague saving fails. Set a savings goal with a named thing, a real number and a date, then automate it so willpower stops being the mechanism.",
+      "primaryKeyword": "set a savings goal",
+      "secondaryKeywords": ["how to save for a specific purchase", "sinking fund", "savings goal calculator"]
+    },
+    "content": {
+      "intro": "\"Save more\" is not a goal, which is why it never happens. When you set a savings goal attached to a specific thing, a real price and a date, the monthly amount falls out as arithmetic rather than aspiration. That shift, from a vague intention to a named number, is most of what makes saving work.",
+      "whyItWorks": "A named goal competes successfully against present-day spending in a way that an abstract balance cannot. It also converts the question from \"should I save?\" to \"do I want this more than that?\", which is a much easier decision to make consistently. Naming the account after the goal turns out to matter more than it reasonably should.",
+      "howTo": [
+        {
+          "step": "Name the thing precisely",
+          "detail": "Not a holiday, but a specific trip. Not a car, but a model and a condition. Vagueness is what erodes the goal later."
+        },
+        {
+          "step": "Find the real total cost",
+          "detail": "Including the parts people forget: insurance, delivery, deposits, the first year of running costs. Underestimating guarantees failure."
+        },
+        {
+          "step": "Divide by the months available",
+          "detail": "That figure is the monthly requirement. If it is impossible, move the date rather than abandoning the goal."
+        },
+        {
+          "step": "Open a separate named account",
+          "detail": "Most banks allow sub-accounts or pots. Money labelled for a purpose is measurably less likely to be spent on something else."
+        },
+        {
+          "step": "Automate the transfer on payday",
+          "detail": "Same day as income arrives. Saving what remains at month end reliably produces nothing remaining at month end."
+        }
+      ],
+      "tips": [
+        "One goal at a time, or two at most. Parallel goals split the money and none of them arrive.",
+        "Route windfalls straight in: refunds, bonuses, cashback. Money you never budgeted for is the easiest to save.",
+        "Track it somewhere visible. Progress you can see is what keeps the goal alive through the boring middle."
+      ],
+      "variations": "If the goal is years away, split it into an annual milestone so progress stays visible, since multi-year targets lose their motivating power quickly. If you are saving for a recurring cost rather than a one-off, set up a sinking fund that refills automatically after each use.",
+      "faq": [
+        {
+          "q": "Where should I keep savings for a specific goal?",
+          "a": "An easy-access account separate from daily spending. For goals more than five years out, other options may suit better; a qualified adviser can help."
+        },
+        {
+          "q": "How many savings goals can I run at once?",
+          "a": "One or two. More than that splits contributions so thinly that nothing reaches completion, which is corrosive to the habit."
+        },
+        {
+          "q": "What if I cannot afford the monthly amount?",
+          "a": "Extend the deadline rather than dropping the goal. A slower goal is achievable; an abandoned one is not."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 30,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer or phone", "online banking access"]
+    },
+    "related": [
+      "create-an-emergency-fund-savings-plan",
+      "create-a-budget-spreadsheet",
+      "start-a-bucket-list-of-lifetime-goals"
+    ]
+  },
+
+  "track-every-expense-for-one-day": {
+    "seo": {
+      "title": "Track Every Expense for One Day and See What Happens",
+      "metaDescription": "A single day of tracking every expense reveals the spending your monthly statements average away. No app, no budget, no commitment beyond today.",
+      "primaryKeyword": "track every expense",
+      "secondaryKeywords": ["expense tracking method", "where does my money go", "spending awareness"]
+    },
+    "content": {
+      "intro": "Committing to track every expense for a month is how most people discover they will not. One day is different: it is short enough to actually complete, and it still produces the uncomfortable insight, because the spending that disappears into a monthly average is exactly the spending you make without deciding to.",
+      "whyItWorks": "Monthly statements smooth everything into categories. Recording each purchase at the moment it happens does something a statement cannot: it inserts a half-second of attention before the transaction. That observation effect is the entire mechanism, and it is why a single tracked day often changes behaviour more than a month of retrospective analysis.",
+      "howTo": [
+        {
+          "step": "Choose a completely ordinary day",
+          "detail": "Not a weekend away or a big shop. A typical Tuesday tells you far more about your actual pattern."
+        },
+        {
+          "step": "Record at the moment of purchase",
+          "detail": "Notes app, paper, anything. Reconstructing at bedtime loses precisely the small purchases you are trying to see."
+        },
+        {
+          "step": "Write the amount and the reason",
+          "detail": "Two words for why: bored, hungry, convenience, planned. The reason column is where the actual insight appears."
+        },
+        {
+          "step": "Include everything, however small",
+          "detail": "Parking, a coffee, an in-app purchase. Small amounts are the entire point; the large ones you already know about."
+        },
+        {
+          "step": "Total it and multiply by thirty",
+          "detail": "A crude annualisation, but the number is usually enough of a shock to change something without any further analysis."
+        }
+      ],
+      "tips": [
+        "Do not change your behaviour on the tracked day. A distorted sample tells you nothing useful.",
+        "Repeat on one weekend day too. Weekday and weekend patterns are often completely different.",
+        "Keep it to one day. The reason this works is that finishing it is realistic, unlike a month. This is general information and not financial advice."
+      ],
+      "variations": "If one day feels too small a sample, do three non-consecutive days across a fortnight, which captures more variety without becoming a chore. If you already budget, use the day specifically to test whether your assumed category amounts match what actually happens.",
+      "faq": [
+        {
+          "q": "Why only one day?",
+          "a": "Because it gets finished. A month of tracking has better data and a far worse completion rate, which makes it worth less overall."
+        },
+        {
+          "q": "Do I need an app for this?",
+          "a": "No. A notes app or paper works fine. Apps that categorise automatically remove the moment of attention that makes this effective."
+        },
+        {
+          "q": "What do I do with the result?",
+          "a": "Pick one pattern you disliked and change that one thing. Trying to fix everything at once reliably changes nothing."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 30,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": false,
+      "solo": true,
+      "equipment": ["phone or notebook"]
+    },
+    "related": [
+      "create-a-budget-spreadsheet",
+      "review-and-cancel-unused-subscriptions",
+      "do-one-task-slowly-with-full-attention"
+    ]
+  },
+
+  "play-with-a-compound-interest-calculator": {
+    "seo": {
+      "title": "Play With a Compound Interest Calculator for an Hour",
+      "metaDescription": "Put your own numbers into a compound interest calculator and watch what time, rate and fees actually do. It is more persuasive than any article about saving.",
+      "primaryKeyword": "compound interest calculator",
+      "secondaryKeywords": ["how compound interest works", "effect of fees on returns", "starting early investing"]
+    },
+    "content": {
+      "intro": "Reading that compound growth is powerful changes nothing. Spending an hour with a compound interest calculator and your own numbers changes quite a lot, because the curve does something counterintuitive that prose cannot convey. It is the cheapest financial education available and it takes one browser tab.",
+      "whyItWorks": "Three specific experiments account for most of the insight. Starting ten years earlier at a lower contribution usually beats starting later at a higher one, which is not intuitive. A single percentage point of fees consumes a startling share of the final figure. And extending the timeline by five years changes the total far more than increasing the monthly amount does.",
+      "howTo": [
+        {
+          "step": "Enter your real numbers first",
+          "detail": "Actual balance, actual monthly contribution, a conservative growth rate. Your own figures are far more persuasive than examples."
+        },
+        {
+          "step": "Run the ten-years-earlier experiment",
+          "detail": "Compare starting now at your amount against starting a decade ago at half. The result reframes what matters."
+        },
+        {
+          "step": "Add a one percent annual fee",
+          "detail": "Re-run with the rate reduced by one point. The difference over thirty years is the argument for low-cost funds."
+        },
+        {
+          "step": "Extend the timeline by five years",
+          "detail": "Change nothing else. Time affects the outcome more than contribution size, which is why starting matters more than optimising."
+        },
+        {
+          "step": "Write down the one change you will make",
+          "detail": "A slightly higher contribution, a lower-fee fund, an earlier start. One change, decided while the numbers are in front of you."
+        }
+      ],
+      "tips": [
+        "Use conservative growth assumptions. Optimistic rates make the graph exciting and the plan unreliable.",
+        "Adjust for inflation if the calculator offers it. A large nominal number decades out is smaller than it looks.",
+        "Run the same exercise for debt. Compounding works identically in the other direction and is more urgent."
+      ],
+      "variations": "Run it on a specific debt instead of savings to see what the interest is genuinely costing you per year, which is frequently more motivating than the savings version. If you have children, run it on a small monthly amount from birth; the timeline is long enough to be startling.",
+      "faq": [
+        {
+          "q": "What growth rate should I assume?",
+          "a": "Conservative rather than historical best case, and adjusted for inflation if possible. Optimistic assumptions produce plans that quietly fail."
+        },
+        {
+          "q": "Does one percent in fees really matter?",
+          "a": "Over decades, substantially. Run it yourself; the comparison is more convincing than any explanation of it."
+        },
+        {
+          "q": "Is it too late for me to start?",
+          "a": "Later is worse than earlier and much better than never. This is general information, not financial advice for your circumstances."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 30,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer or phone"]
+    },
+    "related": [
+      "learn-about-investing-basics",
+      "research-retirement-savings-options",
+      "create-a-debt-repayment-plan"
+    ]
+  },
+
+  "review-and-cancel-unused-subscriptions": {
+    "seo": {
+      "title": "Review and Cancel Unused Subscriptions Today",
+      "metaDescription": "Most people underestimate their subscription spending by a wide margin. Find every recurring charge in your statements and cancel what you no longer use.",
+      "primaryKeyword": "cancel unused subscriptions",
+      "secondaryKeywords": ["find recurring charges", "subscription audit", "how much am I spending on subscriptions"]
+    },
+    "content": {
+      "intro": "Subscription businesses are designed around the fact that cancelling requires an action and continuing requires none. When you review and cancel unused subscriptions you are correcting for that asymmetry, and the total is almost always higher than you would have guessed. An hour here has an unusually direct payoff.",
+      "whyItWorks": "Individually, each charge is small enough to escape attention, which is precisely the design. Collected onto one page and annualised, the same charges look entirely different. Reviewing three months of statements rather than one also catches the annual renewals and the free trials that converted quietly several months ago.",
+      "howTo": [
+        {
+          "step": "Search three months of statements",
+          "detail": "Look for identical amounts recurring on similar dates. Three months catches quarterly charges that a single month misses."
+        },
+        {
+          "step": "Check every payment route",
+          "detail": "Bank direct debits, card payments, app store subscriptions, PayPal. App store billing is the most commonly forgotten."
+        },
+        {
+          "step": "Annualise each one",
+          "detail": "Multiply monthly costs by twelve before deciding. Nine pounds a month and a hundred and eight a year feel different."
+        },
+        {
+          "step": "Sort into use, sometimes, never",
+          "detail": "Be honest about the middle column. \"Sometimes\" usually means an annual cost for a handful of uses."
+        },
+        {
+          "step": "Cancel immediately, do not plan to",
+          "detail": "Cancel while the list is open. A subscription you intend to cancel later renews at least once more."
+        }
+      ],
+      "tips": [
+        "Check whether cancelling triggers a retention discount. Many services offer a substantial reduction at the cancellation screen.",
+        "Note the renewal date of anything you keep and set a reminder a week before, so the next renewal is a decision.",
+        "Use a virtual card for free trials where your bank supports it. It removes the automatic conversion entirely. This is general information and not financial advice."
+      ],
+      "variations": "If your subscriptions are already lean, run the same audit on your household bills instead, where the same inertia pricing applies at larger amounts. If you share a household, do it together; duplicate streaming and storage subscriptions across two people are extremely common.",
+      "faq": [
+        {
+          "q": "How do I find all my subscriptions?",
+          "a": "Search three months of bank and card statements for repeating amounts, then separately check app store and PayPal recurring payments."
+        },
+        {
+          "q": "How much do people typically spend on subscriptions?",
+          "a": "Considerably more than they estimate. The reliable finding is the gap between the guess and the actual total, whatever your own number turns out to be."
+        },
+        {
+          "q": "What if cancelling loses my old data?",
+          "a": "Export first. Most services offer a download, and doing it before cancelling avoids resubscribing purely to retrieve something."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 45,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "bank and card statements"]
+    },
+    "related": [
+      "set-up-automatic-bill-payments",
+      "review-your-insurance-policies-for-better-deals",
+      "create-a-budget-spreadsheet"
+    ]
+  },
+
+  "check-your-pension-contributions": {
+    "seo": {
+      "title": "Check Your Pension Contributions Actually Went In",
+      "metaDescription": "Log in and verify what you and your employer are really paying into your pension, what it is invested in, and what the annual charge is costing you.",
+      "primaryKeyword": "check your pension contributions",
+      "secondaryKeywords": ["employer pension contribution rate", "pension charges explained", "am I saving enough for retirement"]
+    },
+    "content": {
+      "intro": "Enrolment happens automatically in many countries, which means a lot of people have never logged in at all. When you check your pension contributions you are verifying three things: that the money is arriving, that your employer is paying what it promised, and that the charge is not quietly consuming the growth.",
+      "whyItWorks": "Payroll errors happen and go unnoticed for years because nobody looks. Beyond error-checking, the login exposes the two numbers that matter most: the employer match ceiling, which is the highest-value figure in personal finance, and the annual charge, which compounds against you for decades. Both are visible in about ten minutes.",
+      "howTo": [
+        {
+          "step": "Log in to the provider directly",
+          "detail": "Not the payslip. The provider's records show what actually arrived, which is occasionally not what payroll deducted."
+        },
+        {
+          "step": "Verify the last twelve payments",
+          "detail": "Check both your contribution and the employer's landed each month. Gaps after a job or salary change are common."
+        },
+        {
+          "step": "Find the employer match ceiling",
+          "detail": "Ask HR what the maximum matched contribution is. If you are below it, you are declining part of your compensation."
+        },
+        {
+          "step": "Look up the annual charge",
+          "detail": "As a percentage. Compare against alternatives; the difference between a low and a high charge is substantial over decades."
+        },
+        {
+          "step": "Check what fund holds the money",
+          "detail": "Almost everyone is in the default. Confirm the risk profile matches how long you have until you need it."
+        }
+      ],
+      "tips": [
+        "Nominate a beneficiary while you are logged in. Pensions usually sit outside a will and this is routinely left blank.",
+        "Increase your contribution at the same moment as a pay rise, before the extra income becomes your normal.",
+        "Save the login details somewhere findable. The main reason people never check is that they cannot get in."
+      ],
+      "variations": "If you have pensions from previous employers, spend the hour tracking those down instead, since forgotten pots are common and often poorly invested. If you are self-employed, use the time to check your private pension's charges against current alternatives.",
+      "faq": [
+        {
+          "q": "How do I find out my employer's contribution rate?",
+          "a": "Your payslip shows what was paid; HR or your pension scheme documents state the maximum they will match. Ask for both."
+        },
+        {
+          "q": "What is a reasonable pension charge?",
+          "a": "Lower is better and the range varies by country and scheme type. Compare yours against widely available alternatives before deciding it is fine."
+        },
+        {
+          "q": "Should I change my pension fund?",
+          "a": "Possibly, but this is general information rather than financial advice. A qualified adviser can assess your risk profile and timeline properly."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 30,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "pension provider login", "recent payslip"]
+    },
+    "related": [
+      "research-retirement-savings-options",
+      "research-industry-salary-benchmarks",
+      "learn-about-financial-planning"
+    ]
+  }
+}
