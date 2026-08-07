@@ -1,0 +1,1361 @@
+{
+  "review-and-update-your-resume": {
+    "seo": {
+      "title": "How to Update Your Resume in One Hour",
+      "metaDescription": "A focused one-hour method to update your resume: harvest last year's wins, rewrite bullets around outcomes, and cut the filler recruiters skim past.",
+      "primaryKeyword": "update your resume",
+      "secondaryKeywords": ["resume bullet points", "resume achievements", "how long should a resume be"]
+    },
+    "content": {
+      "intro": "Most resumes rot quietly. You update your resume the week you need it, panic, and pad it with whatever you can remember from the last three years. An hour spent now, with no job on the line, produces a far better document because you are editing calmly instead of writing under deadline pressure.",
+      "whyItWorks": "Recruiters spend well under a minute on a first pass. That pass rewards specificity: numbers, scope, and outcomes. When you edit without urgency you notice the vague verbs, the duties nobody asked about, and the two-line role from 2016 that could be one line. You also capture recent wins while you still remember the details that make them credible.",
+      "howTo": [
+        {
+          "step": "Dump every recent win first",
+          "detail": "Open a blank page and list what you shipped, fixed, or led in the last twelve months. Do not edit yet. Volume first."
+        },
+        {
+          "step": "Rewrite bullets as outcome plus method",
+          "detail": "Turn \"responsible for reporting\" into \"cut monthly close from nine days to four.\" State the result, then the method."
+        },
+        {
+          "step": "Attach a number to half your bullets",
+          "detail": "Money, time, headcount, volume, percentage. If you truly cannot measure it, describe scope instead: how many teams, markets, or systems."
+        },
+        {
+          "step": "Prune backwards through time",
+          "detail": "Give the last two roles the most space. Compress anything older than ten years to one line, and delete roles that no longer fit your direction."
+        },
+        {
+          "step": "Fix the top third last",
+          "detail": "Your name, title line, and first three bullets carry most of the weight. Rewrite them once the rest of the page is settled."
+        }
+      ],
+      "tips": [
+        "Keep a master resume with everything on it, then cut a shorter tailored copy per application rather than editing one file forever.",
+        "Read it aloud. Any sentence you stumble over is a sentence a recruiter will skim.",
+        "Save as PDF with a filename like Firstname-Lastname-Resume.pdf; \"resume_final_v3.docx\" is a bad first impression."
+      ],
+      "variations": "Short on material? Reverse the exercise and write the job description you want, then mark which bullets you already satisfy. The gaps become your development plan. If you are happy with the content, spend the hour on layout instead: one column, real margins, consistent dates.",
+      "faq": [
+        {
+          "q": "How long should a resume be?",
+          "a": "One page if you have under ten years of experience, two if you have more. Length matters less than whether every line earns its space."
+        },
+        {
+          "q": "Should I include a summary section?",
+          "a": "Only if it says something a recruiter cannot get from your job titles. Three sharp lines about your specialism beat a paragraph of adjectives."
+        },
+        {
+          "q": "Do I need to tailor it for every application?",
+          "a": "Tailor the top third and the keywords, not the whole document. That is usually fifteen minutes of work and it materially improves screening results."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "your current resume", "past performance reviews"]
+    },
+    "related": [
+      "write-a-brag-document-of-your-achievements",
+      "update-your-linkedin-profile",
+      "create-or-update-your-professional-portfolio"
+    ]
+  },
+
+  "update-your-linkedin-profile": {
+    "seo": {
+      "title": "Update Your LinkedIn Profile in Under an Hour",
+      "metaDescription": "Rewrite the four parts of your LinkedIn profile that actually get read, fix the keywords recruiters search on, and do it without alerting your whole network.",
+      "primaryKeyword": "update your LinkedIn profile",
+      "secondaryKeywords": ["LinkedIn headline examples", "LinkedIn about section", "LinkedIn recruiter search"]
+    },
+    "content": {
+      "intro": "You can update your LinkedIn profile properly in an hour, and it is a different job from updating a resume. A resume is read once by a human who already has your application. LinkedIn is a search result. It has to surface for a query first, then convince somebody who has never heard of you to click.",
+      "whyItWorks": "Recruiters search LinkedIn by skill and title, not by career narrative. Your headline and skills list determine whether you appear at all; your photo and first two lines of the about section determine whether anyone stops. Those four elements sit above the fold and take an hour to fix, while the job history below them barely moves the needle.",
+      "howTo": [
+        {
+          "step": "Rewrite the headline as role plus specialism",
+          "detail": "\"Data Analyst\" is invisible. \"Data Analyst - retail forecasting, SQL and dbt\" matches how people actually search."
+        },
+        {
+          "step": "Turn off activity broadcasts first",
+          "detail": "Settings, then Visibility, then share profile updates. Switch it off before editing so your current employer does not get twenty notifications."
+        },
+        {
+          "step": "Open the about section with a claim, not a greeting",
+          "detail": "Only the first two lines show before \"see more.\" Spend them on what you do and for whom."
+        },
+        {
+          "step": "Curate skills down to your real top ten",
+          "detail": "Reorder so your three strongest sit at the top. Delete the padding; a long list dilutes what you want to be found for."
+        },
+        {
+          "step": "Fix the photo and banner",
+          "detail": "A recent, well-lit head and shoulders shot. Replace the default blue banner with anything relevant to your field."
+        }
+      ],
+      "tips": [
+        "Set a custom profile URL under Edit public profile. It looks better on a resume and in an email signature.",
+        "Write in first person. Third-person profiles read like a press release nobody asked for.",
+        "Turn the broadcast setting back on afterwards, then post once so the refreshed profile gets seen."
+      ],
+      "variations": "If your profile is already current, spend the hour on the open-to-work settings instead, which are visible to recruiters only and cost you nothing. Or write one short post about something you learned recently, since profiles with recent activity surface more often in search.",
+      "faq": [
+        {
+          "q": "Will my employer see that I updated my profile?",
+          "a": "Not if you switch off share profile updates in the visibility settings before you start editing. Turn it back on afterwards if you want reach."
+        },
+        {
+          "q": "How many skills should I list?",
+          "a": "Around ten, ordered deliberately. The top three appear on your profile card and carry the most weight in recruiter searches."
+        },
+        {
+          "q": "Does the about section really matter?",
+          "a": "The first two lines do, because that is all anyone sees without clicking. The rest matters mostly to people already interested in you."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 45,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "a recent photo"]
+    },
+    "related": [
+      "review-and-update-your-resume",
+      "develop-your-personal-brand-statement",
+      "reconnect-with-a-former-colleague"
+    ]
+  },
+
+  "create-a-professional-development-plan": {
+    "seo": {
+      "title": "Build a Professional Development Plan in an Hour",
+      "metaDescription": "Write a professional development plan that survives contact with a busy quarter: two skills, evidence of progress, and a manager conversation to anchor it.",
+      "primaryKeyword": "professional development plan",
+      "secondaryKeywords": ["career development goals", "skills gap analysis", "development plan template"]
+    },
+    "content": {
+      "intro": "A professional development plan fails for a predictable reason: it lists eight ambitions with no evidence attached to any of them. Twelve months later nothing is measurable and the document quietly disappears. The version that works is narrower and more boring, and you can draft it in an hour.",
+      "whyItWorks": "Naming two skills instead of eight forces a real choice about what you are trading away, which is the part most plans skip. Defining what evidence of progress looks like turns a wish into something you can point at in a review. And because managers control projects and budget, only a plan you have discussed with yours gets resourced.",
+      "howTo": [
+        {
+          "step": "Name the role you are aiming at",
+          "detail": "Not a title in the abstract. A specific job you have seen, at your company or elsewhere, with a real description you can read."
+        },
+        {
+          "step": "List the gap honestly",
+          "detail": "Compare it against what you can demonstrate today. Write down every gap, then circle the two blocking you most."
+        },
+        {
+          "step": "Define evidence, not activity",
+          "detail": "\"Complete a course\" is activity. \"Ship a service that stays up for a quarter\" is evidence. Write the evidence for each of your two skills."
+        },
+        {
+          "step": "Find the project that generates it",
+          "detail": "Skills grow on real work faster than on courses. Identify which upcoming project produces your evidence, and who owns it."
+        },
+        {
+          "step": "Book the conversation",
+          "detail": "Put thirty minutes in your manager's calendar this week. A plan they have not seen cannot be supported with time or budget."
+        }
+      ],
+      "tips": [
+        "Cap it at one page. Anything longer will not be reread, and an unread plan is decoration.",
+        "Set a quarterly review date now, rather than waiting for an annual cycle to remind you.",
+        "Write down what you are choosing not to pursue. Naming the tradeoff stops the list creeping back to eight."
+      ],
+      "variations": "If you have no manager or work for yourself, swap the conversation step for a peer in your field who will hold you to it. If you are mid-career and already senior, invert the plan and pick one skill to deliberately stop doing so someone junior can grow into it.",
+      "faq": [
+        {
+          "q": "How is this different from a career roadmap?",
+          "a": "A roadmap covers years and destinations. A development plan covers the next six to twelve months and specific capabilities. Do the roadmap first if you have neither."
+        },
+        {
+          "q": "Should I share it with my manager?",
+          "a": "Yes. Managers allocate the projects that grow the skills. A plan they know about gets factored into staffing; one they do not know about does not."
+        },
+        {
+          "q": "What if my goals change halfway through?",
+          "a": "Then rewrite it. A plan is a current best guess, not a contract. The quarterly review exists precisely to catch that."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["notebook or document", "a real job description to compare against"]
+    },
+    "related": [
+      "create-a-career-roadmap",
+      "identify-a-skill-gap-and-find-a-course-for-it",
+      "ask-a-colleague-or-mentor-for-feedback"
+    ]
+  },
+
+  "learn-about-leadership-principles": {
+    "seo": {
+      "title": "Learn Leadership Principles You Can Use Tomorrow",
+      "metaDescription": "Skip the airport-bookshop theory. Spend an hour on the leadership principles that change what you do in your next one-to-one, and pick one to practice.",
+      "primaryKeyword": "leadership principles",
+      "secondaryKeywords": ["how to give feedback", "delegation skills", "situational leadership"]
+    },
+    "content": {
+      "intro": "Most leadership principles you will read about are unfalsifiable. \"Lead by example\" cannot be tested and cannot be practiced. An hour is enough to skip past that layer and find the handful of ideas that are specific enough to change what you actually say in your next conversation with someone.",
+      "whyItWorks": "Leadership improves through repetition of small behaviours, not through insight. Reading broadly gives you vocabulary; picking one principle and using it fifteen times gives you a habit. The hour is well spent because it ends with a decision about what to practice, which is the step almost everyone skips after finishing a business book.",
+      "howTo": [
+        {
+          "step": "Pick one situation you handle badly",
+          "detail": "Delegating without hovering, delivering unwelcome news, running a meeting that ends on time. One concrete situation, not a general aspiration."
+        },
+        {
+          "step": "Read narrowly on that one thing",
+          "detail": "Search for that specific situation rather than \"leadership.\" Forty minutes on delegation beats forty minutes of general principles."
+        },
+        {
+          "step": "Extract the behaviour, not the theory",
+          "detail": "Write down the exact sentence you would say differently. Situational leadership is a theory; \"what does done look like to you?\" is a behaviour."
+        },
+        {
+          "step": "Find the next real occasion",
+          "detail": "Look at your calendar this week and identify where you can use it. A principle without a scheduled rehearsal decays within days."
+        },
+        {
+          "step": "Review after three attempts",
+          "detail": "Note what happened. Three data points tell you whether to keep the behaviour, adjust the wording, or drop it entirely."
+        }
+      ],
+      "tips": [
+        "Prefer sources by people who managed at your scale. Advice for a thousand-person org rarely transfers to a team of four.",
+        "Watch a manager you respect and note one thing they do that you do not. Observation beats reading for tacit skills.",
+        "Ask your team what they want more and less of. Their answer beats any book at picking your next principle."
+      ],
+      "variations": "If you are not yet managing anyone, the same hour works on influence without authority, which is the harder skill and more useful early. If you already manage, spend the hour on a leadership situation you avoid rather than one you are merely mediocre at.",
+      "faq": [
+        {
+          "q": "Do I need to be a manager for this to be useful?",
+          "a": "No. Most leadership behaviours are about clarity and follow-through, which apply to anyone running a project, a team, or a volunteer group."
+        },
+        {
+          "q": "Which leadership book should I start with?",
+          "a": "Start with the situation, not the book. Search for the specific problem you have and you will find something targeted rather than general."
+        },
+        {
+          "q": "How long until I see a difference?",
+          "a": "Usually a few weeks of deliberate repetition on a single behaviour. Trying to change five things at once reliably produces no change at all."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["notebook", "your calendar for the coming week"]
+    },
+    "related": [
+      "ask-a-colleague-or-mentor-for-feedback",
+      "learn-about-business-communication",
+      "practice-negotiation-with-role-play-scenarios"
+    ]
+  },
+
+  "create-a-career-roadmap": {
+    "seo": {
+      "title": "Draw a Career Roadmap in One Focused Hour",
+      "metaDescription": "Build a career roadmap around the life you want rather than a ladder somebody else drew. One, three and five year markers, plus the moves that connect them.",
+      "primaryKeyword": "career roadmap",
+      "secondaryKeywords": ["five year career plan", "career milestones", "career path planning"]
+    },
+    "content": {
+      "intro": "A career roadmap is not a promotion ladder. Drawn well it is a description of the working life you want, with the job titles arriving as consequences rather than goals. That distinction is what makes the hour worth spending, because a ladder someone else designed will happily take you somewhere you did not want to go.",
+      "whyItWorks": "Working backwards from a destination surfaces the constraints early: the move that requires relocating, the specialism that closes doors later, the seniority level where the work becomes mostly meetings. Seeing those on one page lets you choose deliberately. Most people discover these constraints by accident, several years in, when reversing is expensive.",
+      "howTo": [
+        {
+          "step": "Describe the working week, not the title",
+          "detail": "In five years, who are you talking to, what are you making, how much of it is meetings? Titles vary wildly between companies."
+        },
+        {
+          "step": "Place three markers",
+          "detail": "One year, three years, five years. Write what has to be true at each point for the next to be reachable."
+        },
+        {
+          "step": "Name the moves between markers",
+          "detail": "A promotion, a lateral move into a new function, a company change, a qualification. Each gap needs a mechanism, not just a hope."
+        },
+        {
+          "step": "Mark the irreversible decisions",
+          "detail": "Highlight any move that is hard to undo. These deserve far more thought than the reversible ones and often should be delayed."
+        },
+        {
+          "step": "Find one person who did it",
+          "detail": "Look up somebody whose path resembles yours. Their actual route will differ from your plan in instructive ways."
+        }
+      ],
+      "tips": [
+        "Draw it as a branching diagram, not a line. Real careers fork, and a single line invites you to treat detours as failure.",
+        "Include what you want outside work. A roadmap ignoring where you want to live rarely survives reality.",
+        "Revisit it once a year, not once a quarter. Roadmaps operate on a slower clock than development plans."
+      ],
+      "variations": "If five years feels absurd, and for many fields it is, build a two-year roadmap with a wide range of options at the end instead of a single point. If you are considering a career change, draw two roadmaps side by side and compare what each costs you.",
+      "faq": [
+        {
+          "q": "Is a five year plan realistic any more?",
+          "a": "As a prediction, no. As a way of noticing which decisions are hard to reverse, it remains genuinely useful. Hold the destination loosely."
+        },
+        {
+          "q": "What if I do not know what I want?",
+          "a": "Then map what you want to avoid instead. Ruling out three directions is real progress and usually easier than naming one."
+        },
+        {
+          "q": "How is this different from a development plan?",
+          "a": "The roadmap sets direction over years. The development plan handles the next six to twelve months of skill building that moves you along it."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["paper or a whiteboard", "notebook"]
+    },
+    "related": [
+      "create-a-professional-development-plan",
+      "research-companies-you-d-like-to-work-for",
+      "map-your-growth-over-the-next-90-days"
+    ]
+  },
+
+  "research-companies-you-d-like-to-work-for": {
+    "seo": {
+      "title": "Research Companies You'd Like to Work For",
+      "metaDescription": "Build a shortlist of companies using signals that predict what working there is actually like, not the ones the careers page wants you to read.",
+      "primaryKeyword": "research companies you'd like to work for",
+      "secondaryKeywords": ["company research before applying", "how to evaluate an employer", "target company list"]
+    },
+    "content": {
+      "intro": "When you research companies you'd like to work for before you need a job, you get something rare: a shortlist built on judgement rather than urgency. An hour now means that when a role appears you already know whether the company is worth the application, instead of deciding from a careers page in a hurry.",
+      "whyItWorks": "The signals that predict a good experience are mostly outside the company's control, which is exactly why they are useful. Employee tenure, how leadership writes when they are not selling, whether the engineering or design blog is maintained, how the company behaved in its last bad quarter. None of that appears in recruitment material, and all of it is public.",
+      "howTo": [
+        {
+          "step": "Start from people, not companies",
+          "detail": "Find five people doing work you want to do. Look at where they work now and where they came from. That list is your seed."
+        },
+        {
+          "step": "Check tenure distribution",
+          "detail": "Scan a dozen employee profiles. Lots of eighteen-month exits at the same level is a stronger signal than any review site."
+        },
+        {
+          "step": "Read what leadership writes unprompted",
+          "detail": "Blog posts, conference talks, incident write-ups. Voluntary writing reveals priorities that recruitment copy is designed to hide."
+        },
+        {
+          "step": "Find the last bad news",
+          "detail": "Search for layoffs, funding trouble, or a public failure. How they communicated during it tells you more than any values page."
+        },
+        {
+          "step": "Record it in a simple table",
+          "detail": "Company, why it interests you, one concern, one person you could talk to. Four columns is enough to be useful later."
+        }
+      ],
+      "tips": [
+        "Weight recent Glassdoor reviews by role. A great experience in sales tells you little about the same company's finance team.",
+        "Note who left recently and where they went. Departures cluster around the same underlying reason more often than they scatter.",
+        "Keep the list to fifteen or fewer, otherwise you will never revisit it and the whole exercise evaporates."
+      ],
+      "variations": "If you are happy where you are, run the exercise on your own employer as a control and see how it scores against the outsiders. If you are considering a career change, research the field first and let the companies fall out of that rather than starting from brand names.",
+      "faq": [
+        {
+          "q": "Should I trust Glassdoor reviews?",
+          "a": "In aggregate and by department, yes. Individual reviews skew toward people who left angry or were asked to post something positive."
+        },
+        {
+          "q": "How many companies should be on my list?",
+          "a": "Ten to fifteen. Enough that a hiring freeze at one does not matter, few enough that you can genuinely keep track of them."
+        },
+        {
+          "q": "Is it worth researching before I am job hunting?",
+          "a": "That is the best time. You research more honestly with nothing at stake, and you are ready when a role appears unexpectedly."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "a spreadsheet or notes app"]
+    },
+    "related": [
+      "set-up-job-alerts-for-your-dream-role",
+      "research-industry-salary-benchmarks",
+      "attend-a-virtual-networking-event"
+    ]
+  },
+
+  "practice-answering-common-interview-questions": {
+    "seo": {
+      "title": "How to Practice Interview Questions Out Loud",
+      "metaDescription": "Rehearse interview answers the way that actually transfers: out loud, recorded, timed, and built from stories rather than memorised scripts.",
+      "primaryKeyword": "practice interview questions",
+      "secondaryKeywords": ["STAR method examples", "tell me about yourself answer", "behavioral interview preparation"]
+    },
+    "content": {
+      "intro": "Reading a list of questions and thinking \"I could answer that\" is not preparation. When you practice interview questions out loud, the gap between knowing a story and telling it well becomes obvious within thirty seconds. That gap is what an hour of rehearsal closes, and it is the only part that transfers to the room.",
+      "whyItWorks": "Interviews test retrieval under mild stress, not knowledge. Speaking an answer aloud builds a motor pattern that survives nerves; silently approving of an answer builds nothing. Recording yourself adds the second half, because the filler words, the rambling middle, and the answer that never reaches a point are all invisible from the inside.",
+      "howTo": [
+        {
+          "step": "Build a story bank first",
+          "detail": "Write six situations from your work: a conflict, a failure, a launch, a rescue, a decision, a thing you taught someone."
+        },
+        {
+          "step": "Map stories to question types",
+          "detail": "Most behavioural questions are variations on a handful of themes. One good story usually answers three different questions."
+        },
+        {
+          "step": "Record yourself answering",
+          "detail": "Phone voice memo, no script. Answer as if someone asked. The discomfort is the point and it fades after four attempts."
+        },
+        {
+          "step": "Listen and time it",
+          "detail": "Aim for ninety seconds to two minutes. Note where you rambled, where you buried the result, and where you said \"basically\" nine times."
+        },
+        {
+          "step": "Re-record the worst one",
+          "detail": "Do not polish your best answer. Redo the one that fell apart, twice, until it has a beginning and an ending."
+        }
+      ],
+      "tips": [
+        "Lead with the outcome, then explain how you got there. Chronological answers bury the interesting part at the end.",
+        "Prepare a genuine failure story with what changed afterwards. Interviewers notice immediately when the failure is a humblebrag.",
+        "Practice \"tell me about yourself\" more than anything else. It opens most interviews and sets the tone for everything after."
+      ],
+      "variations": "If you have a friend available, swap roles and interview each other, since unexpected follow-up questions are the part solo practice cannot simulate. If you are interviewing soon for a specific role, spend the hour instead on the three questions that role is guaranteed to ask.",
+      "faq": [
+        {
+          "q": "Should I memorise my answers word for word?",
+          "a": "No. Memorised answers sound memorised and collapse when the question is phrased differently. Learn the story, improvise the telling."
+        },
+        {
+          "q": "What is the STAR method?",
+          "a": "Situation, task, action, result. It is a useful skeleton for behavioural answers, though leading with the result often lands better."
+        },
+        {
+          "q": "How long should an interview answer be?",
+          "a": "Ninety seconds to two minutes for most behavioural questions. Beyond that you are usually explaining context nobody asked about."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["phone with a voice recorder", "notebook"]
+    },
+    "related": [
+      "learn-about-salary-negotiation-techniques",
+      "create-an-elevator-pitch-for-yourself",
+      "write-a-brag-document-of-your-achievements"
+    ]
+  },
+
+  "attend-a-virtual-networking-event": {
+    "seo": {
+      "title": "Get Something Real Out of a Virtual Networking Event",
+      "metaDescription": "How to attend a virtual networking event without wasting the hour: pick the right format, prepare two questions, and aim for one real conversation.",
+      "primaryKeyword": "virtual networking event",
+      "secondaryKeywords": ["online networking tips", "how to network remotely", "industry webinar networking"]
+    },
+    "content": {
+      "intro": "A virtual networking event is easy to attend badly. You join, keep the camera off, half-listen while answering email, and leave with nothing. The format is not the problem. The hour only pays off if you go in with a target, and the target should be one genuine conversation rather than a dozen connection requests.",
+      "whyItWorks": "Online events lower the cost of showing up, which means the people who do engage stand out sharply. A single specific question in the chat gets noticed in a way it never would in a crowded room. And because everyone is already at a keyboard, following up takes seconds instead of the days it takes after a physical event.",
+      "howTo": [
+        {
+          "step": "Choose small and topic-led",
+          "detail": "A thirty-person roundtable on one subject beats a five-hundred-person webinar. Interaction, not audience size, is what you are buying."
+        },
+        {
+          "step": "Prepare two real questions",
+          "detail": "Write them before joining. A specific question about the speaker's work is the cheapest way to become memorable."
+        },
+        {
+          "step": "Turn your camera on",
+          "detail": "In a room of black rectangles, a face is an unfair advantage. It also commits you to actually paying attention."
+        },
+        {
+          "step": "Use the chat early",
+          "detail": "Say something in the first ten minutes. The longer you lurk, the higher the barrier to your first contribution becomes."
+        },
+        {
+          "step": "Follow up within the hour",
+          "detail": "Send one message referencing something specific they said. Generic connection requests sent the next week get ignored."
+        }
+      ],
+      "tips": [
+        "Aim for one good conversation, not ten shallow ones. A single person who remembers you is worth more than thirty new contacts.",
+        "Stay for the unstructured part at the end. Most people leave when the talk finishes, which is exactly when it gets useful.",
+        "Take notes during, not after. Details you were sure you would remember evaporate within twenty minutes."
+      ],
+      "variations": "If large events drain you, look for structured one-to-one formats where a facilitator pairs people off, which removes the mingling entirely. If you already know the field well, offer to speak at one instead of attending; being on the panel is a shortcut past the networking.",
+      "faq": [
+        {
+          "q": "Where do I find good virtual networking events?",
+          "a": "Professional association calendars, Meetup, Eventbrite, and industry newsletters. Ask a peer where they go; the best ones are rarely advertised widely."
+        },
+        {
+          "q": "What do I say when I follow up?",
+          "a": "Reference one specific thing they said and ask one question. That combination makes it obvious you were actually present."
+        },
+        {
+          "q": "Is virtual networking as useful as in person?",
+          "a": "Different rather than worse. Weaker for chance encounters, stronger for reaching people geographically out of range and for following up quickly."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": false,
+      "equipment": ["computer with a webcam", "headphones"]
+    },
+    "related": [
+      "reconnect-with-a-former-colleague",
+      "research-companies-you-d-like-to-work-for",
+      "create-an-elevator-pitch-for-yourself"
+    ]
+  },
+
+  "learn-about-salary-negotiation-techniques": {
+    "seo": {
+      "title": "Learn Salary Negotiation Techniques That Work",
+      "metaDescription": "Salary negotiation techniques built on preparation rather than nerve: anchor with data, handle the first-number question, and negotiate the whole package.",
+      "primaryKeyword": "salary negotiation techniques",
+      "secondaryKeywords": ["how to negotiate a job offer", "counter offer script", "asking for a raise"]
+    },
+    "content": {
+      "intro": "Most salary negotiation techniques you will read about are scripts for a single tense moment. The moment matters far less than what you did beforehand. An hour of preparation, spent well before any offer arrives, does more for the outcome than any clever phrasing you deploy on the call itself.",
+      "whyItWorks": "Negotiation is mostly information asymmetry. The employer knows the band, the budget, and what the last three hires accepted; you usually know none of it. Closing that gap with public benchmark data changes the conversation from a nerve contest into a comparison of numbers, which is a far easier conversation to have calmly.",
+      "howTo": [
+        {
+          "step": "Gather three independent data points",
+          "detail": "Levels.fyi, an industry salary survey, and a recruiter's range for your level and region. One source is an anecdote."
+        },
+        {
+          "step": "Set three numbers privately",
+          "detail": "Your target, your acceptable floor, and the point at which you walk. Decide all three before you feel any pressure."
+        },
+        {
+          "step": "Practice deferring the first number",
+          "detail": "\"I would rather understand the role first. What range is budgeted for this level?\" Say it aloud until it stops feeling rude."
+        },
+        {
+          "step": "Anchor on the market, not your needs",
+          "detail": "\"Based on what I am seeing for this level in this region, I was expecting the mid one-forties.\" Data, not personal circumstances."
+        },
+        {
+          "step": "Negotiate the whole package",
+          "detail": "Signing bonus, equity refresh, start date, title, remote days. When base salary is capped, these are frequently not."
+        }
+      ],
+      "tips": [
+        "Let silence sit after you state a number. The pause feels far longer to you than to them, and filling it usually costs you money.",
+        "Get the final offer in writing before resigning anything. Verbal agreements drift in both directions.",
+        "Negotiating politely almost never loses an offer. If an employer withdraws over a reasonable counter, you learned something valuable early."
+      ],
+      "variations": "If you are negotiating a raise rather than an offer, the preparation shifts from market data to an evidence document of what you delivered this year. If you are early in your career, spend the hour on the benchmark research alone, since knowing the number is most of the battle.",
+      "faq": [
+        {
+          "q": "Should I give the first number?",
+          "a": "Prefer not to, but if pressed give a researched range rather than refusing outright. Stonewalling reads worse than a well-supported figure."
+        },
+        {
+          "q": "Can negotiating cost me the offer?",
+          "a": "It is rare when done politely and with data. A company that rescinds over one reasonable counter has told you how it handles disagreement."
+        },
+        {
+          "q": "What if the salary is genuinely fixed?",
+          "a": "Move to the rest of the package. Start date, title, equity, and remote flexibility often sit outside the salary band entirely."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "challenging",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "notebook"]
+    },
+    "related": [
+      "research-industry-salary-benchmarks",
+      "practice-answering-common-interview-questions",
+      "practice-negotiation-with-role-play-scenarios"
+    ]
+  },
+
+  "create-or-update-your-professional-portfolio": {
+    "seo": {
+      "title": "Build a Professional Portfolio People Actually Read",
+      "metaDescription": "Create a professional portfolio around three deep case studies instead of twenty thumbnails, and show the decisions behind the work rather than the artefacts.",
+      "primaryKeyword": "professional portfolio",
+      "secondaryKeywords": ["portfolio case study", "design portfolio tips", "work samples for job applications"]
+    },
+    "content": {
+      "intro": "A professional portfolio full of finished artefacts answers the wrong question. Anyone can see that the thing looks good. What a hiring manager wants to know is what you decided, what you rejected, and what happened afterwards. An hour is enough to fix the framing on one project, and one deep case study outperforms twenty thumbnails.",
+      "whyItWorks": "Hiring decisions turn on judgement, and judgement is only visible in the reasoning. When you show the constraint you were working under, the option you discarded and why, and the result you measured, you are demonstrating exactly the thing that is hard to assess in an interview. Most portfolios skip all three and show only the output.",
+      "howTo": [
+        {
+          "step": "Pick three projects, not twenty",
+          "detail": "Choose work closest to the job you want next, even if it is not your prettiest. Relevance beats polish every time."
+        },
+        {
+          "step": "Write the constraint first",
+          "detail": "Budget, deadline, legacy system, a stakeholder who changed their mind. Constraints are what make the decisions interesting."
+        },
+        {
+          "step": "Show one rejected option",
+          "detail": "Include an approach you considered and dropped, with the reason. Nothing demonstrates judgement faster than a well-explained no."
+        },
+        {
+          "step": "State the outcome honestly",
+          "detail": "What changed, measured if possible. If it failed, say so and say what you learned. Reviewers trust that more than universal success."
+        },
+        {
+          "step": "Make the first screen work alone",
+          "detail": "One image, one sentence on what it is, one sentence on the result. Assume most visitors read nothing else."
+        }
+      ],
+      "tips": [
+        "Get permission before publishing client work, and anonymise numbers if the contract requires it. Ask rather than assume.",
+        "Host it somewhere you control with a custom domain. Platforms disappear and take portfolios with them.",
+        "Include a small side project if your professional work is all under NDA. Reviewers care about visible reasoning, not employer prestige."
+      ],
+      "variations": "In a field with no visual output, write the portfolio as three short case studies in plain text; a well-argued page of prose works fine for analysts, operations and finance roles. If your portfolio already exists, spend the hour deleting the weakest third of it instead of adding anything.",
+      "faq": [
+        {
+          "q": "How many projects should a portfolio have?",
+          "a": "Three to five, each with real depth. Long lists signal that you cannot tell which of your work is strongest."
+        },
+        {
+          "q": "What if all my work is confidential?",
+          "a": "Describe the problem and your reasoning without naming the client or exact figures. Ask your employer what you may share; many will agree to a sanitised version."
+        },
+        {
+          "q": "Do I need a custom-built site?",
+          "a": "No. Content quality dominates. A simple template on your own domain is entirely sufficient and far easier to keep current."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "low",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "samples of past work"]
+    },
+    "related": [
+      "review-and-update-your-resume",
+      "write-a-brag-document-of-your-achievements",
+      "develop-your-personal-brand-statement"
+    ]
+  },
+
+  "research-industry-salary-benchmarks": {
+    "seo": {
+      "title": "Research Industry Salary Benchmarks Properly",
+      "metaDescription": "Find out what your role really pays. Compare industry salary benchmarks across sources, adjust for level and location, and spot misleading averages.",
+      "primaryKeyword": "industry salary benchmarks",
+      "secondaryKeywords": ["what should I be paid", "salary data by role", "pay transparency data"]
+    },
+    "content": {
+      "intro": "Almost everyone underestimates or overestimates their market rate, and both errors are expensive. Industry salary benchmarks fix that, but only if you gather several and adjust them properly. An hour of careful comparison gives you a number you can defend, which is worth considerably more than an hour of guessing.",
+      "whyItWorks": "Single-source salary data is close to useless. Self-reported sites skew toward people pleased with their pay, recruiter ranges skew toward what is easy to fill, and government data lags by a year or more. Triangulating across three sources with different biases produces a range that is genuinely defensible in a negotiation.",
+      "howTo": [
+        {
+          "step": "Fix your comparison variables",
+          "detail": "Role, level, city, company size, industry. A senior title at a startup and at a bank are different jobs with different pay."
+        },
+        {
+          "step": "Pull from three source types",
+          "detail": "A self-reported site, a published industry survey, and any legally mandated pay range on live job postings in your region."
+        },
+        {
+          "step": "Use medians and quartiles, never averages",
+          "detail": "A handful of enormous packages drags the mean upward. The median and the interquartile range describe your actual situation."
+        },
+        {
+          "step": "Adjust for total compensation",
+          "detail": "Separate base, bonus, equity and pension. A headline number that bundles unvested equity is not comparable to a salary."
+        },
+        {
+          "step": "Write down your range and date it",
+          "detail": "Record the figure, the sources, and the date. Salary data goes stale within a year and you will want to know when to redo it."
+        }
+      ],
+      "tips": [
+        "Pay transparency laws now require posted ranges in many regions. Live postings are the freshest data available and cost nothing to read.",
+        "Ask a recruiter what a role like yours is placing at. They will usually tell you, and their number reflects the current market.",
+        "Note the whole range, not one figure. Where you sit within it depends on scope and evidence, not just job title."
+      ],
+      "variations": "If you are considering a move abroad or to a different city, run the exercise twice and adjust for cost of living and taxes, since headline salary comparisons across regions are frequently misleading. If your role is unusual, benchmark the two adjacent roles instead and position yourself between them.",
+      "faq": [
+        {
+          "q": "Which salary data source is most reliable?",
+          "a": "None on its own. Self-reported sites skew high, government data lags, recruiter ranges reflect what is easy to fill. Compare all three."
+        },
+        {
+          "q": "How often should I re-benchmark?",
+          "a": "Annually, and before any negotiation. In fast-moving fields the market can shift materially inside twelve months."
+        },
+        {
+          "q": "Should I share my findings with my employer?",
+          "a": "Selectively. Bringing credible market data to a pay conversation helps; presenting it as an ultimatum usually does not."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 45,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "a spreadsheet"]
+    },
+    "related": [
+      "learn-about-salary-negotiation-techniques",
+      "research-companies-you-d-like-to-work-for",
+      "check-your-pension-contributions"
+    ]
+  },
+
+  "create-an-elevator-pitch-for-yourself": {
+    "seo": {
+      "title": "Write an Elevator Pitch That Doesn't Sound Rehearsed",
+      "metaDescription": "Build an elevator pitch in three parts, cut it to thirty seconds, and practice it until it sounds like something you would actually say out loud.",
+      "primaryKeyword": "elevator pitch",
+      "secondaryKeywords": ["how to introduce yourself professionally", "personal pitch examples", "what do you do answer"]
+    },
+    "content": {
+      "intro": "\"So what do you do?\" is asked constantly and answered badly almost every time. An elevator pitch is just a prepared answer that does not trail off into your job title and an apologetic shrug. It takes an hour to build one and the return is every conference, party and interview you attend for the next several years.",
+      "whyItWorks": "The failure mode is describing your job instead of what it produces. Job titles mean different things at different companies and give the listener nothing to respond to. Naming who you help and what changes for them gives them a hook, which turns a dead-end exchange into an actual conversation. That is the entire mechanism.",
+      "howTo": [
+        {
+          "step": "Write who you help",
+          "detail": "Be specific. \"Hospital procurement teams\" is a pitch; \"stakeholders\" is filler that could describe almost any job in existence."
+        },
+        {
+          "step": "Write what changes for them",
+          "detail": "The outcome, in their language. Not the tooling you use to get there, which is only interesting to people in your field."
+        },
+        {
+          "step": "Add one concrete example",
+          "detail": "A single sentence about a real thing you did. Examples are what stop a pitch sounding like a mission statement."
+        },
+        {
+          "step": "Cut it to thirty seconds",
+          "detail": "Read it aloud with a timer. Almost every first draft is double the length it needs to be."
+        },
+        {
+          "step": "Say it fifteen times",
+          "detail": "Out loud, in the car, in the shower. It has to sound like speech, not recitation, and only repetition gets it there."
+        }
+      ],
+      "tips": [
+        "Prepare two versions: one for people in your field, one for your aunt. The second is harder and more useful.",
+        "End on something that invites a question rather than closing the topic down. You want a conversation, not applause.",
+        "Avoid words like leverage, synergy and passionate. They make a listener stop hearing content."
+      ],
+      "variations": "If you are changing careers, build the pitch around the throughline connecting your old field to the new one, since that is the question everybody will ask anyway. If you run your own business, write a separate version for potential clients and one for potential hires; they need different things.",
+      "faq": [
+        {
+          "q": "How long should an elevator pitch be?",
+          "a": "Around thirty seconds, or roughly seventy words. Long enough to be specific, short enough that nobody is waiting for you to stop."
+        },
+        {
+          "q": "Won't it sound rehearsed?",
+          "a": "Only if you under-practice. Lightly rehearsed sounds stilted; heavily rehearsed sounds natural, because the words stop needing conscious effort."
+        },
+        {
+          "q": "Do I need one if I am not job hunting?",
+          "a": "Yes. Most of its use is at events, in introductions, and in the first thirty seconds of meeting someone useful by accident."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 45,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["notebook", "a timer"]
+    },
+    "related": [
+      "develop-your-personal-brand-statement",
+      "practice-answering-common-interview-questions",
+      "attend-a-virtual-networking-event"
+    ]
+  },
+
+  "learn-about-remote-work-best-practices": {
+    "seo": {
+      "title": "Remote Work Best Practices Worth Adopting",
+      "metaDescription": "Remote work best practices that address the real problems: invisible progress, meeting sprawl, and a working day with no edges. Pick one to change this week.",
+      "primaryKeyword": "remote work best practices",
+      "secondaryKeywords": ["async communication", "working from home boundaries", "remote team collaboration"]
+    },
+    "content": {
+      "intro": "Remote work best practices are usually presented as advice about desk setup and pyjamas. The actual difficulties are structural: your progress is invisible unless you narrate it, meetings expand to fill the space that corridors used to occupy, and the day has no natural end. An hour on those three is worth considerably more than an hour on lighting.",
+      "whyItWorks": "In an office, a lot of coordination happens for free through proximity. Remotely, that coordination has to be made explicit or it simply does not happen. Understanding which office mechanisms you lost, and deliberately replacing each one, is what separates people who thrive remotely from people who slowly become invisible and then wonder why.",
+      "howTo": [
+        {
+          "step": "Write things down by default",
+          "detail": "Decisions in a document, not a call. Written decisions survive time zones, absences, and the person who joins in March."
+        },
+        {
+          "step": "Narrate your work in public",
+          "detail": "A short weekly update in a shared channel. Nobody can see you working, so visibility has to be manufactured deliberately."
+        },
+        {
+          "step": "Kill the meetings that are status",
+          "detail": "Any meeting that is people reading updates aloud should be a document. Reserve synchronous time for disagreement and design."
+        },
+        {
+          "step": "Build a hard shutdown",
+          "detail": "A fixed end-of-day ritual: close the laptop, write tomorrow's first task, leave the room. Without an edge the day never ends."
+        },
+        {
+          "step": "Schedule the social contact",
+          "detail": "Informal conversation does not occur spontaneously online. Put a recurring non-agenda call with a colleague in the calendar."
+        }
+      ],
+      "tips": [
+        "Over-communicate context, not activity. Colleagues need to know why something changed, not that you were at your desk.",
+        "Keep one space or at least one drawer that is only work. Physical separation does most of the psychological work.",
+        "Respond to async messages within a working day, not within a minute. Instant replies train everyone to expect them."
+      ],
+      "variations": "If you are hybrid rather than fully remote, spend the hour deciding what each location is for, since the common failure is doing office work at home and home work at the office. If you manage a remote team, focus the hour on how you make progress visible without surveillance.",
+      "faq": [
+        {
+          "q": "What is async communication?",
+          "a": "Communication that does not require both people present at once: documents, recorded videos, threaded messages. It is what makes distributed teams workable across time zones."
+        },
+        {
+          "q": "How do I stay visible working remotely?",
+          "a": "Write short, regular updates about outcomes in a shared place. Visibility comes from a written record, not from appearing online."
+        },
+        {
+          "q": "How do I stop working late every night?",
+          "a": "Create a shutdown ritual and an event afterwards you would have to cancel. A hard external commitment beats willpower reliably."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "notebook"]
+    },
+    "related": [
+      "research-ergonomic-workspace-setups",
+      "learn-time-blocking-techniques",
+      "learn-about-business-communication"
+    ]
+  },
+
+  "develop-your-personal-brand-statement": {
+    "seo": {
+      "title": "Write a Personal Brand Statement Without the Cringe",
+      "metaDescription": "A personal brand statement is just a decision about what you want to be known for. Write one in an hour, using feedback and evidence you already have.",
+      "primaryKeyword": "personal brand statement",
+      "secondaryKeywords": ["what do you want to be known for", "professional positioning", "personal branding for introverts"]
+    },
+    "content": {
+      "intro": "A personal brand statement sounds like something invented to sell workshops, and much of that industry is. Underneath sits a real question: when your name comes up in a room you are not in, what do people say? An hour is enough to answer that deliberately rather than letting your last project decide it.",
+      "whyItWorks": "Opportunities arrive through other people's compressed mental summary of you. That summary exists whether or not you shape it, and it is usually a single phrase. Choosing which phrase you want, then consistently doing work that supports it, is the whole exercise. It is closer to positioning than to marketing, which is why the honest version does not feel cringeworthy.",
+      "howTo": [
+        {
+          "step": "Collect what people already say",
+          "detail": "Pull phrases from feedback, reviews and recommendations. Your existing reputation is data and it is usually more accurate than self-assessment."
+        },
+        {
+          "step": "Find the overlap that matters",
+          "detail": "Where does what you are good at meet what people need and what you actually want more of? The intersection is the statement."
+        },
+        {
+          "step": "Write it as a sentence you would say",
+          "detail": "\"I make complicated data understandable to people who hate spreadsheets\" beats any formulation containing the phrase results-driven professional."
+        },
+        {
+          "step": "Test it against your last year",
+          "detail": "Does your recent work support the claim? If not, either the statement is aspirational or your work needs redirecting."
+        },
+        {
+          "step": "Put it in three places",
+          "detail": "LinkedIn headline, resume summary, how you answer at events. Consistency across those three is what makes it stick."
+        }
+      ],
+      "tips": [
+        "Narrow beats broad. Being known for one specific thing generates more inbound interest than being known as generally competent.",
+        "It should exclude things. A statement that no reasonable colleague would disagree with is not saying anything.",
+        "Revisit it when your work changes direction. A stale statement is worse than none because it misdirects people."
+      ],
+      "variations": "If the whole idea makes you uncomfortable, reframe it as \"what problem do I want people to bring me?\" and answer that instead; it produces the same output with less marketing vocabulary. If you are early in your career, write it about the direction you are heading rather than what you have proven.",
+      "faq": [
+        {
+          "q": "Isn't personal branding a bit self-important?",
+          "a": "The vocabulary is. The underlying question of what you want to be known for is practical and applies whether or not you call it branding."
+        },
+        {
+          "q": "How long should the statement be?",
+          "a": "One sentence you could say aloud without embarrassment. If you need a paragraph, you have not made the decision yet."
+        },
+        {
+          "q": "What if I do several unrelated things?",
+          "a": "Look for the underlying skill that connects them, or pick the one you want more of. Trying to brand all of them equally means branding none."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 45,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["notebook", "past feedback or performance reviews"]
+    },
+    "related": [
+      "create-an-elevator-pitch-for-yourself",
+      "update-your-linkedin-profile",
+      "write-down-your-top-five-personal-values"
+    ]
+  },
+
+  "ask-a-colleague-or-mentor-for-feedback": {
+    "seo": {
+      "title": "Ask for Feedback in a Way That Gets a Real Answer",
+      "metaDescription": "Most requests for feedback produce reassurance. Ask a colleague or mentor a narrow, specific question instead and get something you can act on.",
+      "primaryKeyword": "ask for feedback",
+      "secondaryKeywords": ["how to ask your manager for feedback", "receiving criticism at work", "feedback questions to ask"]
+    },
+    "content": {
+      "intro": "\"Any feedback for me?\" reliably produces \"you're doing great.\" Not because people are dishonest, but because the question is too broad to answer and mildly socially risky. When you ask for feedback well, you make it narrow, specific, and easy to say something uncomfortable. That reframing is most of the work, and it takes an hour to set up.",
+      "whyItWorks": "Broad questions force the other person to choose what to critique, which is exactly the part that feels rude. A narrow question about one recent event removes that burden entirely: they are answering a factual question rather than volunteering a judgement about you. The specificity also produces something actionable instead of a general impression.",
+      "howTo": [
+        {
+          "step": "Choose one recent, specific thing",
+          "detail": "A presentation, a document, how you handled a disagreement last week. Recent and bounded, so the memory is accurate."
+        },
+        {
+          "step": "Ask for feedback on that one thing",
+          "detail": "\"What would have made Tuesday's proposal more convincing?\" invites a concrete response. \"How am I doing?\" invites reassurance."
+        },
+        {
+          "step": "Pick someone who saw it",
+          "detail": "Direct observers give better feedback than senior people who heard about it. Choose proximity over seniority."
+        },
+        {
+          "step": "Give them warning",
+          "detail": "Ask in advance rather than ambushing them. Thoughtful feedback needs a few minutes of preparation to be any good."
+        },
+        {
+          "step": "Say thank you and nothing else",
+          "detail": "Do not explain or defend, even mildly. Any pushback teaches them that honesty is expensive and you will not hear it twice."
+        }
+      ],
+      "tips": [
+        "Ask what you should do more of as well as less of. People find the positive version easier to answer honestly and specifically.",
+        "Wait a day before deciding what to do with it. First reactions to criticism are unreliable in both directions.",
+        "Close the loop later. Telling someone what you changed makes them dramatically more willing to be candid next time."
+      ],
+      "variations": "If you want a broader picture, ask the same narrow question of four people and look for what repeats; one person's view is an opinion, three overlapping views is a pattern. If you are the more senior person, reverse it and ask what you do that makes their job harder.",
+      "faq": [
+        {
+          "q": "Who should I ask for feedback?",
+          "a": "Someone who directly observed the thing you are asking about. Proximity produces more useful detail than seniority does."
+        },
+        {
+          "q": "What if the feedback feels unfair?",
+          "a": "Thank them anyway and sit with it for a day. Even inaccurate feedback tells you accurately how you are being perceived."
+        },
+        {
+          "q": "How often should I ask?",
+          "a": "Little and often beats an annual review. A narrow question every few weeks costs almost nothing and compounds."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 45,
+      "cost": "free",
+      "difficulty": "challenging",
+      "indoor": true,
+      "solo": false,
+      "equipment": ["notebook"]
+    },
+    "related": [
+      "practice-active-listening-techniques",
+      "create-a-professional-development-plan",
+      "do-a-weekly-review-of-wins-and-lessons"
+    ]
+  },
+
+  "write-a-brag-document-of-your-achievements": {
+    "seo": {
+      "title": "Start a Brag Document Before You Forget Everything",
+      "metaDescription": "A brag document is a running record of what you actually did. Start one in an hour and stop losing half your year to memory before review season.",
+      "primaryKeyword": "brag document",
+      "secondaryKeywords": ["track your work accomplishments", "performance review preparation", "work achievements log"]
+    },
+    "content": {
+      "intro": "Ask anyone what they achieved eight months ago and you will get a vague shrug. That is a memory problem, not a performance problem, and it costs people promotions every review cycle. A brag document is a running record you add to as things happen, so the evidence exists when you finally need it. Setting one up takes an hour.",
+      "whyItWorks": "Memory is heavily biased toward the last few weeks, which is precisely why reviews written from recall over-weight recent work and lose the difficult project from February. Writing entries as they happen also captures the details that make an achievement credible: the number, the constraint, the person who said it helped. Those specifics are gone within a month.",
+      "howTo": [
+        {
+          "step": "Backfill the last twelve months first",
+          "detail": "Mine your calendar, sent mail, and completed tickets. You will recover far more than you expect, though not all of it."
+        },
+        {
+          "step": "Record outcome and evidence together",
+          "detail": "What changed, plus the number or the quote that proves it. An achievement without evidence is an assertion."
+        },
+        {
+          "step": "Include the invisible work",
+          "detail": "Mentoring, unblocking someone, the incident you prevented. This work is real, valuable, and reliably forgotten by everyone including you."
+        },
+        {
+          "step": "Add a recurring calendar prompt",
+          "detail": "Fifteen minutes on the last Friday of each month. The habit is the entire mechanism; the format barely matters."
+        },
+        {
+          "step": "Keep it somewhere personal",
+          "detail": "Your own document, not a company system. It should follow you between jobs, because that is when it is most useful."
+        }
+      ],
+      "tips": [
+        "Write entries in the same language your organisation uses for promotion criteria. It makes the eventual case far easier to assemble.",
+        "Save the actual artefacts too: the thank-you message, the dashboard screenshot, the before-and-after number.",
+        "Nobody else needs to read it. Removing the audience is what lets you record things honestly."
+      ],
+      "variations": "If monthly feels like too much, do it quarterly with the calendar as your prompt, which still beats reconstructing a year from nothing. If you are preparing for a promotion specifically, restructure the existing document around your organisation's published criteria instead of chronologically.",
+      "faq": [
+        {
+          "q": "What exactly goes in a brag document?",
+          "a": "Anything you did that had an effect: shipped work, problems prevented, people helped, processes improved. Include the evidence alongside each entry."
+        },
+        {
+          "q": "Isn't this just showing off?",
+          "a": "It is private and factual. The alternative is not modesty, it is arriving at your review having genuinely forgotten most of your year."
+        },
+        {
+          "q": "How often should I update it?",
+          "a": "Monthly is the sweet spot. Weekly becomes a chore people abandon, and yearly is indistinguishable from not having one."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "access to your calendar and email history"]
+    },
+    "related": [
+      "review-and-update-your-resume",
+      "do-a-weekly-review-of-wins-and-lessons",
+      "ask-a-colleague-or-mentor-for-feedback"
+    ]
+  },
+
+  "research-a-certification-in-your-field": {
+    "seo": {
+      "title": "How to Research a Certification in Your Field",
+      "metaDescription": "Before paying for a certification, spend an hour checking whether employers in your field ask for it, what it really costs, and whether experience beats it.",
+      "primaryKeyword": "research a certification",
+      "secondaryKeywords": ["is a certification worth it", "professional certification cost", "certification vs experience"]
+    },
+    "content": {
+      "intro": "Certifications range from genuinely required to entirely decorative, and the marketing looks identical either way. An hour spent to research a certification in your field before you pay for it will tell you which kind you are looking at. The answer varies enormously by industry, and sometimes by employer within the same industry.",
+      "whyItWorks": "The clearest signal is free and public: real job postings. If a qualification appears as a hard requirement in a meaningful share of the roles you would want, it has value in that market. If it appears only as \"nice to have\" or not at all, you are looking at optional signalling, and your money and evenings are usually better spent on visible work.",
+      "howTo": [
+        {
+          "step": "Search thirty real job postings",
+          "detail": "Roles you would genuinely apply for. Count how many list the certification as required rather than preferred."
+        },
+        {
+          "step": "Calculate the true cost",
+          "detail": "Exam fee, materials, renewal fees, and study hours. The time cost usually dwarfs the money and is routinely ignored."
+        },
+        {
+          "step": "Ask three people who hold it",
+          "detail": "Find them on LinkedIn and ask whether it changed anything concrete. Most will answer, and the answers are often blunt."
+        },
+        {
+          "step": "Check the renewal treadmill",
+          "detail": "Many certifications expire and require paid continuing education. Factor in the recurring commitment, not just the first exam."
+        },
+        {
+          "step": "Compare against the alternative",
+          "detail": "What would the same hours buy as a portfolio project, an open source contribution, or a visible piece of work?"
+        }
+      ],
+      "tips": [
+        "Regulated fields are different. Where a certification is legally required to practice, the cost-benefit question does not really arise.",
+        "Ask your employer before paying. Many have a training budget that goes unspent every year because nobody asks.",
+        "Be sceptical of certifications awarded by the company selling the training. Independent bodies carry more weight with hiring managers."
+      ],
+      "variations": "If the certification looks marginal, take the free introductory course and stop before the paid exam; you keep the knowledge and skip the fee. If it looks genuinely required, spend the rest of the hour building a realistic study schedule rather than continuing to research.",
+      "faq": [
+        {
+          "q": "Are certifications worth it?",
+          "a": "Entirely field-dependent. Essential in regulated professions, valuable in some technical niches, close to worthless where a portfolio speaks louder."
+        },
+        {
+          "q": "How do I tell a good certification from a bad one?",
+          "a": "Check whether employers ask for it by name in job postings, and whether an independent body rather than a training vendor awards it."
+        },
+        {
+          "q": "Will my employer pay for it?",
+          "a": "Often, if you ask and can connect it to your role. Unused training budgets are extremely common; the usual blocker is nobody requesting it."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer"]
+    },
+    "related": [
+      "identify-a-skill-gap-and-find-a-course-for-it",
+      "create-a-professional-development-plan",
+      "research-companies-you-d-like-to-work-for"
+    ]
+  },
+
+  "reconnect-with-a-former-colleague": {
+    "seo": {
+      "title": "Reconnect With a Former Colleague Without It Being Weird",
+      "metaDescription": "Reach out to someone you used to work with after years of silence, without the message reading as a favour request. A short, specific note is all it takes.",
+      "primaryKeyword": "reconnect with a former colleague",
+      "secondaryKeywords": ["how to reach out after years", "reconnecting professional network", "networking message examples"]
+    },
+    "content": {
+      "intro": "The awkwardness of reaching out after three years of silence is almost entirely on your side. When you reconnect with a former colleague, they are usually pleased to hear from you and mildly flattered that you remembered. The message only lands badly when it is transparently a favour request dressed up as a catch-up, which is easy to avoid.",
+      "whyItWorks": "Dormant connections are unusually valuable precisely because you have drifted into different circles. Your close network mostly knows what you know; someone you worked with five years ago has since moved through companies and roles you have no visibility into. Reactivating that link costs one message and reopens a channel that took years to build.",
+      "howTo": [
+        {
+          "step": "Pick someone you genuinely liked",
+          "detail": "Not the most senior person you can think of. Warmth carries a reconnection message; strategic value does not."
+        },
+        {
+          "step": "Lead with a specific memory",
+          "detail": "The project, the disastrous launch, the thing they taught you. Specificity proves this is not a mass message."
+        },
+        {
+          "step": "Say why you thought of them now",
+          "detail": "An article, a company in the news, a problem you are working on. A reason makes the timing feel natural rather than random."
+        },
+        {
+          "step": "Ask nothing on the first message",
+          "detail": "No favour, no introduction, no job enquiry. Let the first exchange be genuinely about catching up."
+        },
+        {
+          "step": "Offer something if you can",
+          "detail": "An introduction, a relevant link, an answer to a problem they mentioned publicly. Giving first is not a tactic; it just works."
+        }
+      ],
+      "tips": [
+        "Keep it under six sentences. Long reconnection messages read as effortful in a way that creates obligation.",
+        "Email or LinkedIn message rather than a connection request with no note. The note is the entire thing.",
+        "If they do not reply, let it go gracefully. People are busy and a non-reply is rarely about you."
+      ],
+      "variations": "If you are actively job hunting, reconnect with several people over a few weeks and mention your search only once the conversation is genuinely running. If you want to make this a habit, schedule one reconnection message per month; twelve a year quietly rebuilds a network.",
+      "faq": [
+        {
+          "q": "Is it too late to reach out after years of silence?",
+          "a": "Almost never. Professional relationships tolerate long gaps far better than people expect, particularly when the message is warm and specific."
+        },
+        {
+          "q": "What if I only want to ask them for something?",
+          "a": "Then be direct about it rather than staging a fake catch-up. A straightforward, respectful ask lands better than transparent throat-clearing."
+        },
+        {
+          "q": "What should the message actually say?",
+          "a": "A shared memory, why they came to mind now, a question about what they are doing. Six sentences at most, no request attached."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 30,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": false,
+      "equipment": ["computer or phone"]
+    },
+    "related": [
+      "attend-a-virtual-networking-event",
+      "call-an-old-friend-you-haven-t-spoken-to-in-a-while",
+      "write-a-thank-you-note-to-someone"
+    ]
+  },
+
+  "set-up-job-alerts-for-your-dream-role": {
+    "seo": {
+      "title": "Set Up Job Alerts That Aren't Mostly Noise",
+      "metaDescription": "Set up job alerts narrow enough to be worth opening. Tune the filters, use several sources, and treat the results as market data rather than an inbox chore.",
+      "primaryKeyword": "set up job alerts",
+      "secondaryKeywords": ["LinkedIn job alerts", "passive job searching", "job search automation"]
+    },
+    "content": {
+      "intro": "Most people set up job alerts once, get forty irrelevant emails a week, and mute the whole thing within a fortnight. The fix is to go much narrower than feels comfortable. An alert that surfaces three genuinely interesting roles a month is useful; one that surfaces forty mediocre ones trains you to ignore it entirely.",
+      "whyItWorks": "Well-tuned alerts do two things at once. They catch the occasional role worth moving for, which by definition appears when you are not looking. And they act as a continuous read on your market: which skills keep appearing, what the posted ranges are doing, which companies are growing. That second benefit accrues whether or not you ever apply.",
+      "howTo": [
+        {
+          "step": "Write the role in three different phrasings",
+          "detail": "Job titles are inconsistent between companies. Product Owner, Product Manager and Delivery Lead may all describe the job you want."
+        },
+        {
+          "step": "Filter hard on the deal-breakers",
+          "detail": "Location or remote status, seniority, and salary floor where the site supports it. Narrow ruthlessly; you can always widen later."
+        },
+        {
+          "step": "Use at least three sources",
+          "detail": "A large board, a niche industry board, and direct alerts from five specific company careers pages. Niche sources have the least competition."
+        },
+        {
+          "step": "Send them to a filtered folder",
+          "detail": "A rule that routes alerts out of your inbox into one folder you check weekly. Alerts in the main inbox get muted within days."
+        },
+        {
+          "step": "Review weekly, not daily",
+          "detail": "One fifteen-minute pass a week. Daily checking creates anxiety and produces no advantage on roles open for a month."
+        }
+      ],
+      "tips": [
+        "Note the skills that keep recurring in postings you like. That list is a free, continuously updated development plan.",
+        "Set alerts for the level above yours as well. It shows you what the next step actually requires.",
+        "Prune the alerts quarterly. Search terms drift out of relevance as your direction changes and the noise creeps back."
+      ],
+      "variations": "If you are happily employed, keep a single narrow alert running purely as market intelligence and ignore the applications entirely. If you are actively searching, add alerts for the specific companies on your target list, since their own careers pages usually post before the aggregators pick anything up.",
+      "faq": [
+        {
+          "q": "Will my employer see that I set up job alerts?",
+          "a": "No. Alerts are private. Only the LinkedIn open-to-work badge is publicly visible, and the recruiter-only version is hidden from your company."
+        },
+        {
+          "q": "How many alerts should I run?",
+          "a": "Three to five narrow ones beat a single broad one. Narrow alerts stay useful; broad ones become noise you stop opening."
+        },
+        {
+          "q": "Is it worth doing if I am not looking?",
+          "a": "Yes, for the market read alone. Seeing what skills and salaries are being asked for keeps you honest about your own position."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 30,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer"]
+    },
+    "related": [
+      "research-companies-you-d-like-to-work-for",
+      "research-industry-salary-benchmarks",
+      "identify-a-skill-gap-and-find-a-course-for-it"
+    ]
+  },
+
+  "identify-a-skill-gap-and-find-a-course-for-it": {
+    "seo": {
+      "title": "How to Identify a Skill Gap and Pick a Course",
+      "metaDescription": "Find the skill gap that is actually blocking you using live job postings, then choose one course with a project attached instead of collecting more tabs.",
+      "primaryKeyword": "identify a skill gap",
+      "secondaryKeywords": ["skills gap analysis for individuals", "how to choose an online course", "learning plan for career growth"]
+    },
+    "content": {
+      "intro": "It is easy to identify a skill gap in the abstract and then buy four courses you never finish. The harder and more useful version narrows to one gap that is genuinely blocking the next step, and one course with a project attached. An hour gets you to that decision, which is the part that usually never happens.",
+      "whyItWorks": "Real job postings are a far better diagnostic than introspection. Read twenty for the role you want and the same three or four requirements appear over and over; those are your gaps, ranked by the market rather than by your anxiety. Choosing a single course with a deliverable then converts learning into something you can show, which is what actually moves a career.",
+      "howTo": [
+        {
+          "step": "Read twenty postings for your next role",
+          "detail": "Not your current one. Tally every requirement mentioned, and note which appear in more than half."
+        },
+        {
+          "step": "Mark what you can already evidence",
+          "detail": "Not what you have heard of. Evidence means something you have shipped or could demonstrate on request today."
+        },
+        {
+          "step": "Pick the single biggest blocker",
+          "detail": "The gap that appears most often and that you cannot evidence at all. One gap, not a shortlist of five."
+        },
+        {
+          "step": "Choose a course with a project",
+          "detail": "Courses that end in something you built beat lecture-only courses decisively. The artefact is the point."
+        },
+        {
+          "step": "Book the time before you buy",
+          "detail": "Put the study sessions in your calendar first. Unscheduled courses have a completion rate close to zero."
+        }
+      ],
+      "tips": [
+        "Prefer a short course you will finish to a comprehensive one you will not. Completion beats coverage every time.",
+        "Check whether your employer or library already pays for a learning platform before buying anything yourself.",
+        "Tell someone what you are learning and when you will finish. A stated deadline meaningfully raises completion rates."
+      ],
+      "variations": "If the gap is a soft skill, a course is usually the wrong instrument; look for a real situation to practice in and someone to give you feedback afterwards. If you have already identified the gap, skip straight to scheduling the study sessions, which is where most plans actually fail.",
+      "faq": [
+        {
+          "q": "How do I know which skill gap matters most?",
+          "a": "Count requirements across twenty real job postings for the role you want. Frequency in the market beats your own guesswork."
+        },
+        {
+          "q": "Free courses or paid ones?",
+          "a": "Free is fine for most technical fundamentals. Pay when you need structure, feedback, or a credential employers recognise by name."
+        },
+        {
+          "q": "How do I actually finish an online course?",
+          "a": "Schedule fixed sessions before enrolling, pick something short, and choose a course that ends in a project you will want to show."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "notebook"]
+    },
+    "related": [
+      "create-a-professional-development-plan",
+      "research-a-certification-in-your-field",
+      "set-up-job-alerts-for-your-dream-role"
+    ]
+  }
+}

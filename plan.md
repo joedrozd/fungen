@@ -17,7 +17,7 @@ Writing 400 words per activity is the easy half. The site as built cannot rank o
 | **No per-activity URL exists** | — | 264 pieces of content have nowhere to live. 400 words × 20 activities = **8,000 words crammed onto one category page**, which is unrankable and unreadable. |
 | Sitemap lists 14 category URLs only | [sitemap.ts](src/app/sitemap.ts#L33) | Nothing for the 264 new pages. |
 | `<img>` raw tags, no `next/image` | [page.tsx](src/app/activities/[category]/page.tsx#L191) | CLS + LCP penalties on Core Web Vitals. |
-| Only 90 images exist for 264 activities | [public/images/activities/](public/images/activities/) | 174 activities will render textwithout a hero image. |
+| 42 of 264 activities have no `image` field | [public/images/activities/](public/images/activities/) | Those pages render without a hero image. (The other 222 all resolve to real files across `public/images/activities/` and `public/activities/`.) |
 
 **Decision: the 400 words go on new per-activity static pages, not on category pages.** Phase 1 below builds that route. Skip it and the content work is wasted.
 
@@ -92,12 +92,15 @@ Every activity page follows the same skeleton. Target **380–440 words** in `co
 
 | Section | Heading rendered | Words | SEO job |
 |---|---|---|---|
-| Intro | *(no heading, sits under H1)* | 70 | Primary keyword in first 100 words. Answer the intent immediately. |
-| Why it works | `<h2>Why {activity} is worth an hour</h2>` | 90 | Benefit/semantic keywords. Featured-snippet bait. |
-| How to do it | `<h2>How to {activity} step by step</h2>` + `<ol>` | 130 | `HowTo` schema. "how to" long-tail. |
-| Tips | `<h2>Tips to get more out of it</h2>` + `<ul>` | 60 | Scannable, list-snippet eligible. |
-| Variations | `<h2>Ways to mix it up</h2>` | 50 | Related-term coverage, dwell time. |
-| FAQ | `<h2>FAQ</h2>` | 90 | `FAQPage` schema, People-Also-Ask capture. |
+| Intro | *(no heading, sits under H1)* | 60 | Primary keyword in first 100 words. Answer the intent immediately. |
+| Why it works | `<h2>Why {activity} is worth an hour</h2>` | 75 | Benefit/semantic keywords. Featured-snippet bait. |
+| How to do it | `<h2>How to {activity} step by step</h2>` + `<ol>` | 100 (5 steps × ~20) | `HowTo` schema. "how to" long-tail. |
+| Tips | `<h2>Tips to get more out of it</h2>` + `<ul>` | 48 (3 × ~16) | Scannable, list-snippet eligible. |
+| Variations | `<h2>Ways to mix it up</h2>` | 45 | Related-term coverage, dwell time. |
+| FAQ | `<h2>FAQ</h2>` | 87 (3 × ~29) | `FAQPage` schema, People-Also-Ask capture. |
+| **Total** | | **~415** | Inside the 380–440 band the validator enforces. |
+
+Step titles and FAQ questions count toward the total — the validator sums every string in the `content` block.
 
 **Writing rules — non-negotiable:**
 
@@ -195,7 +198,7 @@ Per batch: write content → run the validator (§8) → build → commit → de
 The 14 category expansions from §6.
 
 ### Phase 4 — Polish
-1. Commission/generate the **174 missing images**; every hero image needs keyword-bearing alt text.
+1. Commission/generate the **42 missing images**; every hero image needs keyword-bearing alt text.
 2. Add "Related activities" blocks and a breadcrumb component.
 3. Update [public/llms.txt](public/llms.txt) to list the new URL structure.
 4. Submit updated sitemap; monitor Search Console coverage + Core Web Vitals.
@@ -595,6 +598,6 @@ Cheap now, expensive after 264 pages exist:
 7. **Overlap:** "Start a home inventory for insurance" (Home Improvement #10) vs "Set up a household inventory" (Organization #14) → merge.
 8. **Overlap:** "Learn proper stretching techniques" / "Do a guided stretching session" (Health #3, #15) and "Do gentle stretching with slow breathing" (Mindfulness #17) → differentiate.
 9. **Spelling:** normalize `tranquillity` → `tranquility` and audit the rest for consistent American spelling.
-10. **Images:** 90 files for 264 activities. Produce the missing 174 before Phase 4, or the pages ship image-less.
+10. **Images:** 42 of 264 activities have no `image` field. Produce those before Phase 4, or those pages ship image-less.
 
-Resolving 1–8 drops the real page count from 264 to roughly **255 genuinely distinct pages** — better for crawl budget and eliminates the keyword cannibalization that would otherwise cap several of these pages permanently.
+Items 1, 2, 3, 4 and 7 were resolved by [scratch/01-hygiene-and-slugs.js](scratch/01-hygiene-and-slugs.js) in Phase 1 — duplicates were **differentiated rather than deleted**, so all 264 pages survive and the generator pool is unchanged. Category counts shifted to: Organization 21, Skills 22, Financial 18, Personal Growth 19. Items 5, 6 and 8 are handled at writing time by assigning each overlapping activity a distinct `primaryKeyword` angle.
