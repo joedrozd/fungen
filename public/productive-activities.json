@@ -2,105 +2,126 @@
   "categories": [
     {
       "name": "Career Development",
+      "slug": "career-development",
       "description": "Invest an hour in your professional future. From polishing your resume to building your network, these activities move your career forward one focused step at a time.",
       "activities": [
         {
           "name": "Review and update your resume",
+          "slug": "review-and-update-your-resume",
           "description": "Refresh your resume with recent achievements, sharpen the wording, and make sure it tells a clear story of your career so far.",
           "image": "/activities/work-planning.png"
         },
         {
           "name": "Update your LinkedIn profile",
+          "slug": "update-your-linkedin-profile",
           "description": "Bring your LinkedIn up to date with a current headline, summary, and skills so the right opportunities can find you.",
           "image": "/activities/work-planning.png"
         },
         {
           "name": "Create a professional development plan",
+          "slug": "create-a-professional-development-plan",
           "description": "Map out the skills, certifications, and experience you want to gain over the next year, and the steps to get there.",
           "image": "/activities/career-growth.png"
         },
         {
           "name": "Learn about leadership principles",
+          "slug": "learn-about-leadership-principles",
           "description": "Explore what makes great leaders effective, from delegation to giving feedback, and pick one principle to practice this week.",
           "image": "/activities/office-building.png"
         },
         {
           "name": "Create a career roadmap",
+          "slug": "create-a-career-roadmap",
           "description": "Sketch out where you want to be in one, three, and five years, and the milestones that will get you there.",
           "image": "/activities/career-growth.png"
         },
         {
           "name": "Research companies you'd like to work for",
+          "slug": "research-companies-you-d-like-to-work-for",
           "description": "Build a shortlist of companies that excite you and dig into their culture, openings, and growth.",
           "image": "/activities/office-building.png"
         },
         {
           "name": "Practice answering common interview questions",
+          "slug": "practice-answering-common-interview-questions",
           "description": "Rehearse your answers to classic interview questions out loud so the real thing feels familiar.",
           "image": "/activities/career-growth.png"
         },
         {
           "name": "Attend a virtual networking event",
+          "slug": "attend-a-virtual-networking-event",
           "description": "Join an online industry meetup or webinar and aim to make at least one genuine new connection.",
           "image": "/activities/career-growth.png"
         },
         {
           "name": "Learn about salary negotiation techniques",
+          "slug": "learn-about-salary-negotiation-techniques",
           "description": "Study proven negotiation tactics so you can confidently make the case for what you're worth.",
           "image": "/activities/office-building.png"
         },
         {
           "name": "Create or update your professional portfolio",
+          "slug": "create-or-update-your-professional-portfolio",
           "description": "Gather your best work into a polished portfolio that shows what you can do at a glance.",
           "image": "/activities/career-growth.png"
         },
         {
           "name": "Research industry salary benchmarks",
+          "slug": "research-industry-salary-benchmarks",
           "description": "Find out what people in your role and region actually earn so you can plan your next move with real data.",
           "image": "/activities/office-building.png"
         },
         {
           "name": "Create an elevator pitch for yourself",
+          "slug": "create-an-elevator-pitch-for-yourself",
           "description": "Craft a confident 30-second summary of who you are and what you do, then practice until it flows naturally.",
           "image": "/activities/career-growth.png"
         },
         {
           "name": "Learn about remote work best practices",
+          "slug": "learn-about-remote-work-best-practices",
           "description": "Discover habits and tools that make remote work productive, from async communication to boundary setting.",
           "image": "/activities/remote-work.png"
         },
         {
           "name": "Develop your personal brand statement",
+          "slug": "develop-your-personal-brand-statement",
           "description": "Define what you want to be known for professionally and distill it into a memorable one-liner.",
           "image": "/activities/career-growth.png"
         },
         {
           "name": "Ask a colleague or mentor for feedback",
+          "slug": "ask-a-colleague-or-mentor-for-feedback",
           "description": "Request honest feedback on one area of your work and listen without defending — it's the fastest way to grow.",
           "image": "/activities/career-growth.png"
         },
         {
           "name": "Write a brag document of your achievements",
+          "slug": "write-a-brag-document-of-your-achievements",
           "description": "Start a running list of your wins, big and small — gold dust for reviews, resumes, and confidence dips.",
           "image": "/activities/work-planning.png"
         },
         {
           "name": "Research a certification in your field",
+          "slug": "research-a-certification-in-your-field",
           "description": "Find out which certifications carry real weight in your industry and what it takes to earn one.",
           "image": "/activities/skills-learning.png"
         },
         {
           "name": "Reconnect with a former colleague",
+          "slug": "reconnect-with-a-former-colleague",
           "description": "Send a genuine catch-up message to someone you enjoyed working with — networks are built one message at a time.",
           "image": "/activities/office-building.png"
         },
         {
           "name": "Set up job alerts for your dream role",
+          "slug": "set-up-job-alerts-for-your-dream-role",
           "description": "Create saved searches and alerts so the perfect opening lands in your inbox instead of passing you by.",
           "image": "/activities/work-planning.png"
         },
         {
           "name": "Identify a skill gap and find a course for it",
+          "slug": "identify-a-skill-gap-and-find-a-course-for-it",
           "description": "Compare your skills against job ads for your target role, spot the gap, and find a course that closes it.",
           "image": "/activities/skills-learning.png"
         }
@@ -108,317 +129,386 @@
     },
     {
       "name": "Organization",
+      "slug": "organization",
       "description": "Bring order to your space, schedule, and digital life. Small organizing wins compound into calmer days and sharper focus.",
       "activities": [
         {
           "name": "Organize your workspace",
+          "slug": "organize-your-workspace",
           "description": "Clear your desk, sort the clutter, and set up a workspace that helps you focus.",
           "image": "/activities/work-planning.png"
         },
         {
           "name": "Clean up your computer files",
+          "slug": "clean-up-your-computer-files",
           "description": "Sort your downloads and documents into sensible folders and delete what you no longer need.",
           "image": "/activities/coding.png"
         },
         {
           "name": "Create a to-do list for the week",
+          "slug": "create-a-to-do-list-for-the-week",
           "description": "Capture everything on your plate and turn it into a realistic, prioritized plan for the week ahead.",
           "image": "/activities/organization.png"
         },
         {
           "name": "Set up a filing system",
+          "slug": "set-up-a-filing-system",
           "description": "Create a simple home for paperwork and documents so you can find anything in seconds.",
           "image": "/activities/organization.png"
         },
         {
           "name": "Organize your email inbox",
+          "slug": "organize-your-email-inbox",
           "description": "Archive the backlog, unsubscribe from the noise, and set up folders so new mail has a home.",
           "image": "/activities/coding.png"
         },
         {
           "name": "Declutter your digital workspace",
+          "slug": "declutter-your-digital-workspace",
           "description": "Tidy your desktop, close those 47 browser tabs, and uninstall apps you never use.",
           "image": "/activities/coding.png"
         },
         {
           "name": "Create a document naming convention system",
+          "slug": "create-a-document-naming-convention-system",
           "description": "Decide on a consistent way to name files and folders so future-you can find things instantly.",
           "image": "/activities/organization.png"
         },
         {
           "name": "Set up a password manager",
+          "slug": "set-up-a-password-manager",
           "description": "Move your passwords into a secure manager and replace weak, reused ones while you're at it.",
           "image": "/activities/coding.png"
         },
         {
           "name": "Organize your browser bookmarks",
+          "slug": "organize-your-browser-bookmarks",
           "description": "Prune dead links and sort your bookmarks into folders you'll actually use.",
           "image": "/activities/coding.png"
         },
         {
           "name": "Create a system for tracking important dates",
+          "slug": "create-a-system-for-tracking-important-dates",
           "description": "Set up a calendar with birthdays, renewals, and deadlines so nothing catches you by surprise.",
           "image": "/activities/organization.png"
         },
         {
           "name": "Digitize important paper documents",
+          "slug": "digitize-important-paper-documents",
           "description": "Scan key documents and store them safely in the cloud so they're backed up and easy to find.",
           "image": "/activities/organization.png"
         },
         {
           "name": "Create a meal planning system",
+          "slug": "create-a-meal-planning-system",
           "description": "Build a simple weekly meal-planning routine that saves money and ends the nightly what's-for-dinner debate.",
           "image": "/activities/organization.png"
         },
         {
           "name": "Organize your phone apps into folders",
+          "slug": "organize-your-phone-apps-into-folders",
           "description": "Group your apps by purpose, delete the ones you never open, and tidy up your home screen.",
           "image": "/activities/organization.png"
         },
         {
-          "name": "Set up a household inventory",
-          "description": "List your valuable items with photos and receipts — invaluable for insurance and peace of mind.",
+          "name": "Set up a household supplies inventory",
+          "slug": "set-up-a-household-supplies-inventory",
+          "description": "Track the consumables you actually run out of — cleaning supplies, batteries, pantry staples — so restocking stops being a guess.",
           "image": "/activities/organization.png"
         },
         {
           "name": "Plan your next day the night before",
+          "slug": "plan-your-next-day-the-night-before",
           "description": "Spend ten minutes listing tomorrow's top three priorities so you start the day already knowing what matters.",
           "image": "/activities/organization.png"
         },
         {
           "name": "Do a 15-minute declutter sprint",
+          "slug": "do-a-15-minute-declutter-sprint",
           "description": "Set a timer, grab a bag, and clear as much clutter as you can from one area before it rings.",
           "image": "/activities/organization.png"
         },
         {
           "name": "Back up your important files",
+          "slug": "back-up-your-important-files",
           "description": "Set up an automatic backup for your photos and documents — before you need it, not after.",
           "image": "/activities/coding.png"
         },
         {
           "name": "Create a donation box for unused items",
+          "slug": "create-a-donation-box-for-unused-items",
           "description": "Start a box for things you no longer use and drop it off when it's full — decluttering that helps someone else.",
           "image": "/activities/organization.png"
         },
         {
           "name": "Sort your photo library into albums",
+          "slug": "sort-your-photo-library-into-albums",
           "description": "Tame your camera roll: delete the duplicates and blurry shots, then sort the keepers into albums.",
           "image": "/activities/remote-work.png"
         },
         {
           "name": "Write a packing checklist template for trips",
+          "slug": "write-a-packing-checklist-template-for-trips",
           "description": "Create a reusable packing list so you never again land somewhere without a charger or toothbrush.",
           "image": "/activities/organization.png"
+        },
+        {
+          "name": "Create a personal productivity system",
+          "slug": "create-a-personal-productivity-system",
+          "description": "Set up a trusted system for capturing tasks, notes, and ideas so nothing slips through.",
+          "image": "/activities/finance-planning.png"
         }
       ]
     },
     {
       "name": "Skills",
+      "slug": "skills",
       "description": "Pick up practical abilities you can use straight away. Each activity builds a skill that makes you more capable at work and at home.",
       "activities": [
         {
           "name": "Learn a new Excel/Google Sheets function",
+          "slug": "learn-a-new-excel-google-sheets-function",
           "description": "Pick a function like VLOOKUP or pivot tables and practice it on real data until it clicks.",
           "image": "/activities/work-planning.png"
         },
         {
           "name": "Practice typing speed exercises",
+          "slug": "practice-typing-speed-exercises",
           "description": "Spend time on a typing trainer and watch your words-per-minute climb.",
           "image": "/activities/work-planning.png"
         },
         {
           "name": "Learn keyboard shortcuts for your OS",
+          "slug": "learn-keyboard-shortcuts-for-your-os",
           "description": "Master a handful of system shortcuts that will save you minutes every single day.",
           "image": "/activities/coding.png"
         },
         {
           "name": "Learn basic coding concepts",
+          "slug": "learn-basic-coding-concepts",
           "description": "Try an interactive coding tutorial and get a feel for variables, loops, and logic.",
           "image": "/activities/coding.png"
         },
         {
           "name": "Practice public speaking",
+          "slug": "practice-public-speaking",
           "description": "Pick a topic and speak about it for five minutes, recording yourself to spot habits to improve.",
           "image": "/activities/skills-learning.png"
         },
         {
           "name": "Learn basic photo editing",
+          "slug": "learn-basic-photo-editing",
           "description": "Learn to crop, adjust exposure, and color-correct your photos with free editing tools.",
           "image": "/activities/remote-work.png"
         },
         {
           "name": "Improve your writing skills with exercises",
+          "slug": "improve-your-writing-skills-with-exercises",
           "description": "Try short writing drills that sharpen clarity, cut filler, and strengthen your style.",
           "image": "/activities/skills-learning.png"
         },
         {
           "name": "Learn to create effective presentations",
+          "slug": "learn-to-create-effective-presentations",
           "description": "Learn the principles of clear, persuasive slides — and what to leave off them.",
           "image": "/activities/skills-learning.png"
         },
         {
           "name": "Practice active listening techniques",
+          "slug": "practice-active-listening-techniques",
           "description": "Practice summarizing, clarifying, and asking open questions in your next conversation.",
           "image": "/activities/skills-learning.png"
         },
         {
           "name": "Learn basic video editing",
+          "slug": "learn-basic-video-editing",
           "description": "Learn cuts, transitions, and titles with a free editor and a few clips from your phone.",
           "image": "/activities/remote-work.png"
         },
         {
           "name": "Learn data visualization basics",
+          "slug": "learn-data-visualization-basics",
           "description": "Discover how to turn raw numbers into honest, easy-to-read charts.",
           "image": "/activities/skills-learning.png"
         },
         {
           "name": "Practice speed reading techniques",
+          "slug": "practice-speed-reading-techniques",
           "description": "Try techniques like chunking and pacing to read faster without losing comprehension.",
           "image": "/activities/skills-learning.png"
         },
         {
           "name": "Learn project management fundamentals",
+          "slug": "learn-project-management-fundamentals",
           "description": "Get to grips with scoping, milestones, and prioritization — useful far beyond the office.",
           "image": "/activities/skills-learning.png"
         },
         {
           "name": "Study design thinking principles",
+          "slug": "study-design-thinking-principles",
           "description": "Learn the empathize-define-ideate-prototype-test loop and apply it to a problem of your own.",
           "image": "/activities/skills-learning.png"
         },
         {
           "name": "Practice mental math tricks",
+          "slug": "practice-mental-math-tricks",
           "description": "Learn shortcuts for quick percentages, tips, and estimates — handy every single day.",
           "image": "/activities/skills-learning.png"
         },
         {
           "name": "Learn the basics of AI tools and prompting",
+          "slug": "learn-the-basics-of-ai-tools-and-prompting",
           "description": "Explore what modern AI assistants can do and practice writing prompts that get genuinely useful results.",
           "image": "/activities/coding.png"
         },
         {
           "name": "Learn to take better meeting notes",
+          "slug": "learn-to-take-better-meeting-notes",
           "description": "Pick up a simple note-taking method that captures decisions and actions, not transcripts.",
           "image": "/activities/work-planning.png"
         },
         {
           "name": "Learn basic graphic design principles",
+          "slug": "learn-basic-graphic-design-principles",
           "description": "Get a feel for contrast, alignment, and hierarchy so everything you make looks more polished.",
           "image": "/activities/skills-learning.png"
         },
         {
           "name": "Practice negotiation with role-play scenarios",
+          "slug": "practice-negotiation-with-role-play-scenarios",
           "description": "Run through a negotiation scenario out loud — anchoring, trade-offs, and the power of silence.",
           "image": "/activities/skills-learning.png"
         },
         {
           "name": "Learn Markdown for faster note-taking",
+          "slug": "learn-markdown-for-faster-note-taking",
           "description": "Spend 20 minutes learning Markdown and format notes and documents at the speed of typing.",
           "image": "/activities/coding.png"
+        },
+        {
+          "name": "Learn about business analytics",
+          "slug": "learn-about-business-analytics",
+          "description": "Explore how businesses use data to make decisions, from KPIs to dashboards.",
+          "image": "/activities/finance-planning.png"
+        },
+        {
+          "name": "Learn about business communication",
+          "slug": "learn-about-business-communication",
+          "description": "Sharpen the way you write emails, give updates, and run meetings.",
+          "image": "/activities/growth-zen.png"
         }
       ]
     },
     {
       "name": "Financial",
+      "slug": "financial",
       "description": "Take control of your money in just an hour. These activities build financial confidence, from budgeting basics to long-term planning.",
       "activities": [
         {
           "name": "Create a budget spreadsheet",
+          "slug": "create-a-budget-spreadsheet",
           "description": "Build a simple budget that shows what's coming in, what's going out, and where you can save.",
           "image": "/activities/finance-planning.png"
         },
         {
           "name": "Learn about investing basics",
+          "slug": "learn-about-investing-basics",
           "description": "Get a beginner-friendly grounding in index funds, compounding, and risk.",
           "image": "/activities/finance-planning.png"
         },
         {
           "name": "Learn about financial planning",
+          "slug": "learn-about-financial-planning",
           "description": "Learn how to set financial goals and build a plan that connects today's money to tomorrow's life.",
           "image": "/activities/finance-planning.png"
         },
         {
-          "name": "Learn about business analytics",
-          "description": "Explore how businesses use data to make decisions, from KPIs to dashboards.",
-          "image": "/activities/finance-planning.png"
-        },
-        {
-          "name": "Create a personal productivity system",
-          "description": "Set up a trusted system for capturing tasks, notes, and ideas so nothing slips through.",
-          "image": "/activities/finance-planning.png"
-        },
-        {
           "name": "Review your credit report",
+          "slug": "review-your-credit-report",
           "description": "Pull your free credit report, check it for errors, and learn what's affecting your score.",
           "image": "/activities/finance-planning.png"
         },
         {
           "name": "Set up automatic bill payments",
+          "slug": "set-up-automatic-bill-payments",
           "description": "Automate your regular bills so you never pay a late fee again.",
           "image": "/activities/finance-planning.png"
         },
         {
           "name": "Research retirement savings options",
+          "slug": "research-retirement-savings-options",
           "description": "Understand your pension or retirement account options and check whether you're on track.",
           "image": "/activities/finance-planning.png"
         },
         {
           "name": "Learn about tax deductions you may qualify for",
+          "slug": "learn-about-tax-deductions-you-may-qualify-for",
           "description": "Spend an hour learning which deductions and allowances apply to you — it could pay for itself many times over.",
           "image": "/activities/finance-planning.png"
         },
         {
           "name": "Create an emergency fund savings plan",
+          "slug": "create-an-emergency-fund-savings-plan",
           "description": "Work out your target emergency fund and set up an automatic transfer to start building it.",
           "image": "/activities/finance-planning.png"
         },
         {
           "name": "Research side hustle opportunities",
+          "slug": "research-side-hustle-opportunities",
           "description": "Explore realistic ways to earn extra income with the skills and time you already have.",
           "image": "/activities/finance-planning.png"
         },
         {
           "name": "Learn about cryptocurrency basics",
+          "slug": "learn-about-cryptocurrency-basics",
           "description": "Get a clear-eyed introduction to how crypto works — the technology, the risks, and the hype.",
           "image": "/activities/finance-planning.png"
         },
         {
           "name": "Create a debt repayment plan",
+          "slug": "create-a-debt-repayment-plan",
           "description": "List your debts, compare snowball and avalanche methods, and pick a payoff strategy.",
           "image": "/activities/finance-planning.png"
         },
         {
           "name": "Research passive income streams",
+          "slug": "research-passive-income-streams",
           "description": "Separate the realistic passive income ideas from the scams and see which could work for you.",
           "image": "/activities/finance-planning.png"
         },
         {
           "name": "Review your insurance policies for better deals",
+          "slug": "review-your-insurance-policies-for-better-deals",
           "description": "Check what you're paying for car, home, and gadget cover, and see whether switching could save you money.",
           "image": "/activities/finance-planning.png"
         },
         {
           "name": "Set a savings goal for something specific",
+          "slug": "set-a-savings-goal-for-something-specific",
           "description": "Pick a concrete goal — a trip, a gadget, a buffer — work out the monthly amount, and automate it.",
           "image": "/activities/finance-planning.png"
         },
         {
           "name": "Track every expense for one day",
+          "slug": "track-every-expense-for-one-day",
           "description": "Write down everything you spend today, however small — awareness is the first step to control.",
           "image": "/activities/finance-planning.png"
         },
         {
           "name": "Play with a compound interest calculator",
+          "slug": "play-with-a-compound-interest-calculator",
           "description": "Plug your numbers into a compound interest calculator and see what consistent saving actually becomes.",
           "image": "/activities/finance-planning.png"
         },
         {
           "name": "Review and cancel unused subscriptions",
+          "slug": "review-and-cancel-unused-subscriptions",
           "description": "Go through your bank statement, list every subscription, and cancel the ones you'd forgotten you had.",
           "image": "/activities/finance-planning.png"
         },
         {
           "name": "Check your pension contributions",
+          "slug": "check-your-pension-contributions",
           "description": "Find out what you and your employer are paying in, and whether a small increase now would transform later.",
           "image": "/activities/finance-planning.png"
         }
@@ -426,105 +516,120 @@
     },
     {
       "name": "Personal Growth",
+      "slug": "personal-growth",
       "description": "Become a little better than yesterday. These activities build self-awareness, resilience, and habits that actually stick.",
       "activities": [
         {
-          "name": "Practice mindfulness for focus",
-          "description": "Use short mindfulness exercises to train your attention and resist distraction.",
+          "name": "Build a focus practice for deep work",
+          "slug": "build-a-focus-practice-for-deep-work",
+          "description": "Train your attention with short, deliberate focus blocks so you can drop into demanding work without reaching for your phone.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Learn about emotional intelligence",
+          "slug": "learn-about-emotional-intelligence",
           "description": "Explore self-awareness, empathy, and emotional regulation — skills that improve every relationship.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Practice stress management",
+          "slug": "practice-stress-management",
           "description": "Learn practical techniques to recognize stress early and bring yourself back to baseline.",
           "image": "/activities/growth-zen.png"
         },
         {
-          "name": "Learn about business communication",
-          "description": "Sharpen the way you write emails, give updates, and run meetings.",
-          "image": "/activities/growth-zen.png"
-        },
-        {
-          "name": "Create a professional growth plan",
-          "description": "Identify the skills and experiences that will stretch you, and schedule the first step.",
+          "name": "Map your growth over the next 90 days",
+          "slug": "map-your-growth-over-the-next-90-days",
+          "description": "Pick two things you want to be visibly better at by the end of the quarter and decide exactly how you'll practice them.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Read a personal development book",
+          "slug": "read-a-personal-development-book",
           "description": "Pick up a well-reviewed personal development book and read a chapter with notes.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Practice positive self-talk",
+          "slug": "practice-positive-self-talk",
           "description": "Notice your inner critic and practice reframing harsh thoughts into constructive ones.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Learn about cognitive biases",
+          "slug": "learn-about-cognitive-biases",
           "description": "Discover the mental shortcuts that distort your thinking — and how to catch them in action.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Develop a morning routine",
+          "slug": "develop-a-morning-routine",
           "description": "Design a realistic morning routine that sets up the rest of your day for success.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Practice saying no to unnecessary commitments",
+          "slug": "practice-saying-no-to-unnecessary-commitments",
           "description": "Review your commitments and practice polite, firm ways to decline what doesn't serve you.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Learn time blocking techniques",
+          "slug": "learn-time-blocking-techniques",
           "description": "Plan tomorrow in focused blocks and discover how much more you finish with fewer context switches.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Study personality type frameworks",
+          "slug": "study-personality-type-frameworks",
           "description": "Explore frameworks like the Big Five and learn what they can (and can't) tell you about yourself.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Practice journaling for self-reflection",
+          "slug": "practice-journaling-for-self-reflection",
           "description": "Spend 15 minutes journaling with prompts that help you process the week and spot patterns.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Learn about habit formation science",
+          "slug": "learn-about-habit-formation-science",
           "description": "Learn how cues, cravings, and rewards drive habits — and use them to build a good one.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Write down your top five personal values",
+          "slug": "write-down-your-top-five-personal-values",
           "description": "Identify the five values that matter most to you and check whether your week actually reflects them.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Do a weekly review of wins and lessons",
+          "slug": "do-a-weekly-review-of-wins-and-lessons",
           "description": "Look back over the week: what went well, what didn't, and what one thing you'll change next week.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Set one goal using the SMART framework",
+          "slug": "set-one-goal-using-the-smart-framework",
           "description": "Take a vague ambition and make it specific, measurable, achievable, relevant, and time-bound.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Write a letter to your future self",
+          "slug": "write-a-letter-to-your-future-self",
           "description": "Write to yourself one year from now — your hopes, worries, and predictions — and seal it for later.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Identify and reframe one limiting belief",
+          "slug": "identify-and-reframe-one-limiting-belief",
           "description": "Spot a story you tell yourself about what you can't do, and look for the evidence against it.",
           "image": "/activities/growth-zen.png"
         },
         {
           "name": "Start a bucket list of lifetime goals",
+          "slug": "start-a-bucket-list-of-lifetime-goals",
           "description": "Brainstorm the experiences you want to have in your lifetime — then pick one to start planning.",
           "image": "/activities/growth-zen.png"
         }
@@ -532,85 +637,102 @@
     },
     {
       "name": "Home Improvement",
+      "slug": "home-improvement",
       "description": "Make your home work better for you. Practical projects and know-how that save money and add comfort.",
       "activities": [
         {
           "name": "Organize a closet or storage space",
+          "slug": "organize-a-closet-or-storage-space",
           "description": "Empty it out, donate what you don't use, and put back only what earns its place.",
           "image": "/activities/home-diy.png"
         },
         {
           "name": "Deep clean one room in your home",
+          "slug": "deep-clean-one-room-in-your-home",
           "description": "Pick one room and give it the full treatment — baseboards, windows, and all the forgotten corners.",
           "image": "/activities/home-diy.png"
         },
         {
           "name": "Learn basic plumbing fixes",
+          "slug": "learn-basic-plumbing-fixes",
           "description": "Learn to fix a dripping faucet, unblock a drain, and find your water shut-off valve before you need it.",
           "image": "/activities/home-diy.png"
         },
         {
           "name": "Research energy efficiency upgrades",
+          "slug": "research-energy-efficiency-upgrades",
           "description": "Find out which insulation, lighting, and heating upgrades would actually cut your bills.",
           "image": "/activities/home-diy.png"
         },
         {
           "name": "Create a home maintenance checklist",
+          "slug": "create-a-home-maintenance-checklist",
           "description": "Build a seasonal checklist of the small jobs that prevent big repair bills.",
           "image": "/activities/home-diy.png"
         },
         {
           "name": "Learn to patch drywall",
+          "slug": "learn-to-patch-drywall",
           "description": "Watch a tutorial and learn to fill holes and patch drywall like a pro.",
           "image": "/activities/home-diy.png"
         },
         {
           "name": "Research smart home devices",
+          "slug": "research-smart-home-devices",
           "description": "Compare smart plugs, thermostats, and lights to see which would genuinely make life easier.",
           "image": "/activities/coding.png"
         },
         {
           "name": "Plan a furniture rearrangement",
+          "slug": "plan-a-furniture-rearrangement",
           "description": "Sketch your room layout and experiment with arrangements before you move a single sofa.",
           "image": "/activities/home-diy.png"
         },
         {
           "name": "Learn basic electrical safety",
+          "slug": "learn-basic-electrical-safety",
           "description": "Learn what's safe to DIY, what isn't, and where your breaker box and shut-offs are.",
           "image": "/activities/home-diy.png"
         },
         {
           "name": "Start a home inventory for insurance",
+          "slug": "start-a-home-inventory-for-insurance",
           "description": "Photograph and list your valuables room by room — your future self will thank you.",
           "image": "/activities/home-diy.png"
         },
         {
           "name": "Touch up paint scuffs and marks",
+          "slug": "touch-up-paint-scuffs-and-marks",
           "description": "Grab the leftover paint tin and erase the scuffs and marks that have been bugging you for months.",
           "image": "/activities/home-diy.png"
         },
         {
           "name": "Test your smoke and carbon monoxide alarms",
+          "slug": "test-your-smoke-and-carbon-monoxide-alarms",
           "description": "Press the test button on every alarm, replace tired batteries, and note when the units expire.",
           "image": "/activities/home-diy.png"
         },
         {
           "name": "Clean or replace air filters and vents",
+          "slug": "clean-or-replace-air-filters-and-vents",
           "description": "Dust the vents and swap clogged filters — better air and lower running costs in under an hour.",
           "image": "/activities/home-diy.png"
         },
         {
           "name": "Fix a squeaky door or loose handle",
+          "slug": "fix-a-squeaky-door-or-loose-handle",
           "description": "Knock out one of those tiny annoyances: a drop of oil and a tightened screw go a long way.",
           "image": "/activities/home-diy.png"
         },
         {
           "name": "Descale your kettle and showerhead",
+          "slug": "descale-your-kettle-and-showerhead",
           "description": "Banish limescale with vinegar or citric acid and get your kettle and shower back to full power.",
           "image": "/activities/home-diy.png"
         },
         {
           "name": "Learn to re-seal a bath or sink",
+          "slug": "learn-to-re-seal-a-bath-or-sink",
           "description": "Watch a tutorial on removing tired sealant and applying a clean new bead — a satisfying skill for life.",
           "image": "/activities/home-diy.png"
         }
@@ -618,85 +740,102 @@
     },
     {
       "name": "Health & Fitness",
+      "slug": "health-fitness",
       "description": "Look after the only body you get. Plan, learn, and build routines that boost your energy and long-term health.",
       "activities": [
         {
           "name": "Create a weekly workout plan",
+          "slug": "create-a-weekly-workout-plan",
           "description": "Design a realistic week of exercise that fits your schedule and fitness level.",
           "image": "/activities/fitness-health.png"
         },
         {
           "name": "Research healthy meal prep ideas",
+          "slug": "research-healthy-meal-prep-ideas",
           "description": "Find batch-cook recipes that make eating well the easy option all week.",
           "image": "/activities/fitness-health.png"
         },
         {
           "name": "Learn proper stretching techniques",
+          "slug": "learn-proper-stretching-techniques",
           "description": "Learn safe stretching form for the muscle groups you use (and neglect) most.",
           "image": "/activities/fitness-health.png"
         },
         {
           "name": "Research ergonomic workspace setups",
+          "slug": "research-ergonomic-workspace-setups",
           "description": "Check your chair, screen, and desk height against ergonomic guidance and fix the worst offender.",
           "image": "/activities/fitness-health.png"
         },
         {
           "name": "Create a sleep improvement plan",
+          "slug": "create-a-sleep-improvement-plan",
           "description": "Audit your sleep habits and pick two evidence-based changes to try this week.",
           "image": "/activities/fitness-health.png"
         },
         {
           "name": "Learn about macro nutrition tracking",
+          "slug": "learn-about-macro-nutrition-tracking",
           "description": "Understand protein, carbs, and fats — and how to balance them for your goals.",
           "image": "/activities/fitness-health.png"
         },
         {
           "name": "Research posture correction exercises",
+          "slug": "research-posture-correction-exercises",
           "description": "Find simple daily exercises that counteract hours of sitting and screen time.",
           "image": "/activities/fitness-health.png"
         },
         {
           "name": "Create a hydration tracking system",
+          "slug": "create-a-hydration-tracking-system",
           "description": "Work out how much water you actually need and set up an easy way to hit it daily.",
           "image": "/activities/fitness-health.png"
         },
         {
           "name": "Learn about heart rate zone training",
+          "slug": "learn-about-heart-rate-zone-training",
           "description": "Learn what the zones mean and how training in each one changes your fitness.",
           "image": "/activities/fitness-health.png"
         },
         {
           "name": "Research stress-reduction techniques",
+          "slug": "research-stress-reduction-techniques",
           "description": "Compare evidence-based stress relievers — breathing, exercise, nature — and pick one to test.",
           "image": "/activities/fitness-health.png"
         },
         {
           "name": "Do a 20-minute bodyweight workout",
+          "slug": "do-a-20-minute-bodyweight-workout",
           "description": "No equipment needed: squats, push-ups, lunges, and planks in your living room.",
           "image": "/activities/fitness-health.png"
         },
         {
           "name": "Take a brisk 30-minute walk",
+          "slug": "take-a-brisk-30-minute-walk",
           "description": "Get your heart rate up with a purposeful walk — one of the most underrated workouts there is.",
           "image": "/activities/fitness-health.png"
         },
         {
           "name": "Try a beginner yoga video",
+          "slug": "try-a-beginner-yoga-video",
           "description": "Follow a free beginner yoga session and give your body a gentle full-body reset.",
           "image": "/activities/fitness-health.png"
         },
         {
           "name": "Prep healthy snacks for the week",
+          "slug": "prep-healthy-snacks-for-the-week",
           "description": "Wash, chop, and portion snacks now so the healthy choice is the convenient one all week.",
           "image": "/activities/fitness-health.png"
         },
         {
           "name": "Do a guided stretching session",
+          "slug": "do-a-guided-stretching-session",
           "description": "Follow a guided full-body stretch routine and release the tension you didn't know you were holding.",
           "image": "/activities/fitness-health.png"
         },
         {
           "name": "Schedule overdue health check-ups",
+          "slug": "schedule-overdue-health-check-ups",
           "description": "Book the dentist, optician, or doctor appointment you've been putting off — it takes ten minutes.",
           "image": "/activities/fitness-health.png"
         }

@@ -2,663 +2,802 @@
   "categories": [
     {
       "name": "Outdoor",
+      "slug": "outdoor",
+      "description": "Step outside and reconnect with the natural world. From peaceful park walks to adventurous hikes, these activities help you breathe fresh air, clear your mind, and discover the beauty around you.",
       "activities": [
         {
           "name": "Take a walk in a nearby park and observe nature",
+          "slug": "take-a-walk-in-a-nearby-park-and-observe-nature",
           "description": "Slow down and notice the trees, birds, and seasonal changes around you on a mindful stroll through your local park.",
           "image": "/images/activities/take-a-walk-in-a-nearby-park-and-observe-nature.jpg"
         },
         {
           "name": "Visit a local park you've never been to",
+          "slug": "visit-a-local-park-you-ve-never-been-to",
           "description": "Explore a new green space in your area—you might discover hidden trails, playgrounds, or peaceful spots to relax.",
           "image": "/images/activities/visit-a-local-park-you-ve-never-been-to.jpg"
         },
         {
           "name": "Visit a botanical garden",
-          "description": "Wander through curated plant collections, learn about exotic species, and enjoy the tranquillity of a living museum.",
+          "slug": "visit-a-botanical-garden",
+          "description": "Wander through curated plant collections, learn about exotic species, and enjoy the tranquility of a living museum.",
           "image": "/images/activities/visit-a-botanical-garden.jpg"
         },
         {
           "name": "Do some bird watching",
+          "slug": "do-some-bird-watching",
           "description": "Grab binoculars and a field guide, then quietly observe local bird species and learn to identify them by sight and sound.",
           "image": "/images/activities/do-some-bird-watching.jpg"
         },
         {
           "name": "Visit a farmers market",
+          "slug": "visit-a-farmers-market",
           "description": "Browse seasonal produce, artisan goods, and local treats while supporting small farmers and makers in your community.",
           "image": "/images/activities/visit-a-farmers-market.jpg"
         },
         {
           "name": "Go for a bike ride in your neighborhood",
+          "slug": "go-for-a-bike-ride-in-your-neighborhood",
           "description": "Hop on a bike and cruise through your streets—great exercise, zero fuel costs, and a fresh perspective on familiar surroundings.",
           "image": "/images/activities/go-for-a-bike-ride-in-your-neighborhood.jpg"
         },
         {
           "name": "Have a picnic in a scenic spot",
-          "description": "Pack your favourite snacks and a blanket, find a beautiful outdoor setting, and enjoy a relaxing meal in the open air.",
+          "slug": "have-a-picnic-in-a-scenic-spot",
+          "description": "Pack your favorite snacks and a blanket, find a beautiful outdoor setting, and enjoy a relaxing meal in the open air.",
           "image": "/images/activities/have-a-picnic-in-a-scenic-spot.jpg"
         },
         {
           "name": "Try geocaching in your area",
+          "slug": "try-geocaching-in-your-area",
           "description": "Use GPS coordinates to hunt for hidden containers outdoors—a real-world treasure hunt that combines tech and exploration.",
           "image": "/images/activities/try-geocaching-in-your-area.jpg"
         },
         {
           "name": "Watch the sunrise or sunset outdoors",
-          "description": "Find a clear vantage point and take in the stunning colours as the sun rises or sets—a simple, unforgettable experience.",
+          "slug": "watch-the-sunrise-or-sunset-outdoors",
+          "description": "Find a clear vantage point and take in the stunning colors as the sun rises or sets—a simple, unforgettable experience.",
           "image": "/images/activities/watch-the-sunrise-or-sunset-outdoors.jpg"
         },
         {
           "name": "Explore a new hiking trail",
+          "slug": "explore-a-new-hiking-trail",
           "description": "Lace up your boots and tackle an unfamiliar trail to challenge your body, clear your head, and discover new scenery.",
           "image": "/images/activities/explore-a-new-hiking-trail.jpg"
         },
         {
           "name": "Try outdoor yoga",
-          "description": "Roll out your mat in a park or garden and practise yoga surrounded by fresh air, birdsong, and natural beauty.",
+          "slug": "try-outdoor-yoga",
+          "description": "Roll out your mat in a park or garden and practice yoga surrounded by fresh air, birdsong, and natural beauty.",
           "image": "/images/activities/try-outdoor-yoga.jpg"
         },
         {
           "name": "Go stargazing in a dark area",
+          "slug": "go-stargazing-in-a-dark-area",
           "description": "Head somewhere with minimal light pollution, look up, and marvel at constellations, planets, and the Milky Way.",
           "image": "/images/activities/go-stargazing-in-a-dark-area.jpg"
         },
         {
           "name": "Visit a nature reserve",
+          "slug": "visit-a-nature-reserve",
           "description": "Explore protected habitats, spot wildlife in their natural environment, and learn about local conservation efforts.",
           "image": "/images/activities/visit-a-nature-reserve.jpg"
         },
         {
           "name": "Try outdoor photography",
+          "slug": "try-outdoor-photography",
           "description": "Capture landscapes, wildlife, or street scenes outside—practice composition and lighting with nature as your studio.",
           "image": "/images/activities/try-outdoor-photography.jpg"
         },
         {
           "name": "Fly a kite in an open field",
+          "slug": "fly-a-kite-in-an-open-field",
           "description": "Feel the tug of the wind and the simple joy of keeping a kite dancing in the sky."
         },
         {
           "name": "Watch clouds and find shapes in them",
+          "slug": "watch-clouds-and-find-shapes-in-them",
           "description": "Lie back on the grass, slow your thoughts, and let your imagination turn clouds into stories."
         },
         {
           "name": "Plant something in a pot or garden",
+          "slug": "plant-something-in-a-pot-or-garden",
           "description": "Get your hands in the soil and start a herb, flower, or vegetable you can watch grow."
         },
         {
           "name": "Skim stones at a lake or river",
+          "slug": "skim-stones-at-a-lake-or-river",
           "description": "Hunt for the flattest stones and chase that satisfying multi-bounce skim across the water."
         },
         {
           "name": "Walk a new route through your neighborhood",
+          "slug": "walk-a-new-route-through-your-neighborhood",
           "description": "Turn down the streets you always pass and discover what's been hiding around the corner."
         },
         {
           "name": "Collect natural treasures for a display",
+          "slug": "collect-natural-treasures-for-a-display",
           "description": "Gather interesting leaves, stones, or shells on a walk and arrange them into a little display at home."
         }
-      ],
-      "description": "Step outside and reconnect with the natural world. From peaceful park walks to adventurous hikes, these activities help you breathe fresh air, clear your mind, and discover the beauty around you."
+      ]
     },
     {
       "name": "Creative",
+      "slug": "creative",
+      "description": "Unleash your imagination and make something new. Whether you are sketching, writing, or crafting, creative activities offer a fulfilling outlet for self-expression and personal growth.",
       "activities": [
         {
           "name": "Sketch or doodle something creative",
+          "slug": "sketch-or-doodle-something-creative",
           "description": "Grab a pencil and paper and let your imagination flow—no perfection needed, just free expression on the page.",
           "image": "/images/activities/sketch-or-doodle-something-creative.jpg"
         },
         {
           "name": "Do some finger painting",
-          "description": "Get messy and embrace playful creativity by painting with your hands—a fun, tactile way to create colourful art.",
+          "slug": "do-some-finger-painting",
+          "description": "Get messy and embrace playful creativity by painting with your hands—a fun, tactile way to create colorful art.",
           "image": "/images/activities/do-some-finger-painting.jpg"
         },
         {
           "name": "Do some origami",
+          "slug": "do-some-origami",
           "description": "Fold a sheet of paper into intricate shapes like cranes, flowers, or boxes using step-by-step origami guides.",
           "image": "/images/activities/do-some-origami.jpg"
         },
         {
           "name": "Learn basic calligraphy",
+          "slug": "learn-basic-calligraphy",
           "description": "Practice elegant lettering with a brush pen or nib to transform ordinary handwriting into beautiful art.",
           "image": "/images/activities/learn-basic-calligraphy.jpg"
         },
         {
           "name": "Do some people sketching in a public place",
+          "slug": "do-some-people-sketching-in-a-public-place",
           "description": "Sit in a café or park and quickly sketch passersby to improve your drawing speed and observational skills.",
           "image": "/images/activities/do-some-people-sketching-in-a-public-place.jpg"
         },
         {
           "name": "Write a short poem or haiku",
+          "slug": "write-a-short-poem-or-haiku",
           "description": "Distil a feeling, moment, or idea into a few carefully chosen lines of verse—brevity makes every word count.",
           "image": "/images/activities/write-a-short-poem-or-haiku.jpg"
         },
         {
           "name": "Create a collage from magazine cutouts",
+          "slug": "create-a-collage-from-magazine-cutouts",
           "description": "Cut out images, textures, and words from old magazines and arrange them into a unique visual composition.",
           "image": "/images/activities/create-a-collage-from-magazine-cutouts.jpg"
         },
         {
           "name": "Try your hand at watercolor painting",
+          "slug": "try-your-hand-at-watercolor-painting",
           "description": "Experiment with watercolour washes, blending, and layering to create soft, flowing artwork with this forgiving medium.",
           "image": "/images/activities/try-your-hand-at-watercolor-painting.jpg"
         },
         {
           "name": "Make a vision board",
+          "slug": "make-a-vision-board",
           "description": "Collect images and quotes that represent your goals and dreams, then arrange them on a board for daily inspiration.",
           "image": "/images/activities/make-a-vision-board.jpg"
         },
         {
           "name": "Design your own greeting card",
+          "slug": "design-your-own-greeting-card",
           "description": "Create a personalised card for someone special using hand-drawn art, stickers, or digital design tools.",
           "image": "/images/activities/design-your-own-greeting-card.jpg"
         },
         {
           "name": "Try pottery or clay sculpting",
+          "slug": "try-pottery-or-clay-sculpting",
           "description": "Shape clay into bowls, figures, or abstract forms—a tactile, meditative craft that produces tangible keepsakes.",
           "image": "/images/activities/try-pottery-or-clay-sculpting.jpg"
         },
         {
           "name": "Create a DIY home decoration",
+          "slug": "create-a-diy-home-decoration",
           "description": "Upcycle materials or craft something new—like a candle holder, wall art, or plant pot—to personalise your space.",
           "image": "/images/activities/create-a-diy-home-decoration.png"
         },
         {
           "name": "Write a short story",
+          "slug": "write-a-short-story",
           "description": "Invent characters, a setting, and a plot to tell a brief but complete tale that flexes your storytelling muscles.",
           "image": "/images/activities/write-a-short-story.jpg"
         },
         {
           "name": "Try digital art on your phone/tablet",
+          "slug": "try-digital-art-on-your-phone-tablet",
           "description": "Use a free drawing app like Procreate Pocket or Sketchbook to create illustrations with just your fingertip or stylus.",
           "image": "/images/activities/try-digital-art-on-your-phone-tablet.jpg"
         },
         {
           "name": "Make a playlist for a specific mood",
+          "slug": "make-a-playlist-for-a-specific-mood",
           "description": "Curate the perfect soundtrack for a mood or moment — rainy days, road trips, or Sunday mornings."
         },
         {
           "name": "Take ten creative photos of ordinary objects",
+          "slug": "take-ten-creative-photos-of-ordinary-objects",
           "description": "Challenge yourself to make everyday objects look extraordinary using angles, light, and close-ups."
         },
         {
           "name": "Write a letter to a friend by hand",
+          "slug": "write-a-letter-to-a-friend-by-hand",
           "description": "Slow down and put pen to paper — a handwritten letter is a small gift in a digital world."
         },
         {
           "name": "Try blackout poetry with an old newspaper",
+          "slug": "try-blackout-poetry-with-an-old-newspaper",
           "description": "Black out words on a printed page until the ones left behind form a poem."
         },
         {
           "name": "Paint kindness rocks to leave around town",
+          "slug": "paint-kindness-rocks-to-leave-around-town",
           "description": "Paint small rocks with cheerful designs or messages and leave them for strangers to find."
         },
         {
           "name": "Start a doodle-a-day challenge",
+          "slug": "start-a-doodle-a-day-challenge",
           "description": "Commit to one small doodle a day and watch your sketchbook—and confidence—fill up."
         }
-      ],
-      "description": "Unleash your imagination and make something new. Whether you are sketching, writing, or crafting, creative activities offer a fulfilling outlet for self-expression and personal growth."
+      ]
     },
     {
       "name": "Learning",
+      "slug": "learning",
+      "description": "Feed your curiosity and expand your horizons. These activities challenge your mind with new skills, fascinating topics, and hands-on techniques you can explore at your own pace.",
       "activities": [
         {
           "name": "Learn a new skill from a YouTube tutorial",
+          "slug": "learn-a-new-skill-from-a-youtube-tutorial",
           "description": "Pick something you've always wanted to try—from cooking to coding—and follow along with a free video lesson.",
           "image": "/images/activities/learn-a-new-skill-from-a-youtube-tutorial.jpg"
         },
         {
           "name": "Learn basic phrases in a new language",
+          "slug": "learn-basic-phrases-in-a-new-language",
           "description": "Master greetings, numbers, and essential phrases in a language you're curious about using apps or online resources.",
           "image": "/images/activities/learn-basic-phrases-in-a-new-language.jpg"
         },
         {
           "name": "Learn to solve a Rubik's cube",
+          "slug": "learn-to-solve-a-rubik-s-cube",
           "description": "Follow beginner algorithms to solve the classic puzzle layer by layer—a satisfying brain workout once it clicks.",
           "image": "/images/activities/learn-to-solve-a-rubik-s-cube.png"
         },
         {
           "name": "Learn about constellations and stargaze",
+          "slug": "learn-about-constellations-and-stargaze",
           "description": "Study star charts or use a sky map app to identify constellations, then head outside to spot them for real.",
           "image": "/images/activities/learn-about-constellations-and-stargaze.jpg"
         },
         {
           "name": "Learn about different types of tea",
+          "slug": "learn-about-different-types-of-tea",
           "description": "Explore the world of green, black, oolong, and herbal teas—their origins, flavour profiles, and brewing methods.",
           "image": "/images/activities/learn-about-different-types-of-tea.jpg"
         },
         {
           "name": "Learn basic photography composition",
+          "slug": "learn-basic-photography-composition",
           "description": "Study the rule of thirds, leading lines, and framing techniques to instantly improve the quality of your photos.",
           "image": "/images/activities/learn-basic-photography-composition.jpg"
         },
         {
           "name": "Learn to juggle three balls",
+          "slug": "learn-to-juggle-three-balls",
           "description": "Start with the cascade pattern and build coordination through repetition—a fun party trick and focus exercise.",
           "image": "/images/activities/learn-to-juggle-three-balls.jpg"
         },
         {
           "name": "Learn about local history",
+          "slug": "learn-about-local-history",
           "description": "Research the stories behind landmarks, street names, and events in your area—you'll see your neighbourhood differently.",
           "image": "/images/activities/learn-about-local-history.jpg"
         },
         {
           "name": "Learn basic first aid techniques",
+          "slug": "learn-basic-first-aid-techniques",
           "description": "Study CPR, wound care, and choking response so you're prepared to help in an emergency situation.",
           "image": "/images/activities/learn-basic-first-aid-techniques.jpg"
         },
         {
           "name": "Learn to tie different knots",
+          "slug": "learn-to-tie-different-knots",
           "description": "Master useful knots like the bowline, clove hitch, and figure-eight for camping, sailing, or everyday use.",
           "image": "/images/activities/learn-to-tie-different-knots.jpg"
         },
         {
           "name": "Learn about wine pairing basics",
+          "slug": "learn-about-wine-pairing-basics",
           "description": "Discover which wines complement different foods—understanding body, acidity, and tannins makes every meal better.",
           "image": "/images/activities/learn-about-wine-pairing-basics.jpg"
         },
         {
           "name": "Learn magic tricks",
+          "slug": "learn-magic-tricks",
           "description": "Practice sleight-of-hand card tricks or coin illusions to entertain friends and sharpen your dexterity.",
           "image": "/images/activities/learn-magic-tricks.jpg"
         },
         {
           "name": "Learn about astronomy",
+          "slug": "learn-about-astronomy",
           "description": "Dive into planets, galaxies, and cosmic phenomena—the universe is vast and endlessly fascinating to explore.",
           "image": "/images/activities/learn-about-astronomy.jpg"
         },
         {
           "name": "Learn basic car maintenance",
+          "slug": "learn-basic-car-maintenance",
           "description": "Understand how to check oil, change a tyre, and top up fluids to keep your vehicle running and save on mechanic visits.",
           "image": "/images/activities/learn-basic-car-maintenance.png"
         },
         {
           "name": "Watch a documentary on a brand-new topic",
+          "slug": "watch-a-documentary-on-a-brand-new-topic",
           "description": "Pick a documentary about something you know nothing about and let it open a door."
         },
         {
           "name": "Learn the phonetic alphabet",
+          "slug": "learn-the-phonetic-alphabet",
           "description": "Alpha, Bravo, Charlie — memorize the NATO alphabet and spell anything clearly forever."
         },
         {
           "name": "Learn to read basic music notation",
+          "slug": "learn-to-read-basic-music-notation",
           "description": "Decode the lines and dots: learn how notes, rests, and rhythms work on a staff."
         },
         {
           "name": "Explore your family tree online",
+          "slug": "explore-your-family-tree-online",
           "description": "Dig into family records and stories — you might be one search away from a fascinating ancestor."
         },
         {
           "name": "Learn Morse code basics",
+          "slug": "learn-morse-code-basics",
           "description": "Learn to tap out SOS and your own name in the code that connected the world for a century."
         },
         {
           "name": "Listen to an educational podcast episode",
+          "slug": "listen-to-an-educational-podcast-episode",
           "description": "Queue up a well-loved podcast episode on science, history, or ideas and learn while you relax."
         }
-      ],
-      "description": "Feed your curiosity and expand your horizons. These activities challenge your mind with new skills, fascinating topics, and hands-on techniques you can explore at your own pace."
+      ]
     },
     {
       "name": "Food & Drink",
+      "slug": "food-drink",
+      "description": "Explore the world through taste. From baking fresh bread to experimenting with global cuisines, these culinary adventures turn mealtime into a delicious creative experience.",
       "activities": [
         {
           "name": "Try a new recipe with ingredients you have at home",
+          "slug": "try-a-new-recipe-with-ingredients-you-have-at-home",
           "description": "Challenge yourself to cook something new using only what's already in your pantry—creativity meets resourcefulness.",
           "image": "/images/activities/try-a-new-recipe-with-ingredients-you-have-at-home.jpg"
         },
         {
           "name": "Try a new type of tea or coffee",
+          "slug": "try-a-new-type-of-tea-or-coffee",
           "description": "Step outside your usual order and sample an unfamiliar blend, origin, or brewing method to expand your palate.",
           "image": "/images/activities/try-a-new-type-of-tea-or-coffee.jpg"
         },
         {
           "name": "Try a new type of cuisine",
+          "slug": "try-a-new-type-of-cuisine",
           "description": "Pick a cuisine you've never cooked before—Thai, Ethiopian, Korean—and recreate a classic dish at home.",
           "image": "/images/activities/try-a-new-type-of-cuisine.jpg"
         },
         {
           "name": "Try a new cocktail or mocktail recipe",
+          "slug": "try-a-new-cocktail-or-mocktail-recipe",
           "description": "Mix up a refreshing drink you haven't tried before, experimenting with flavours, garnishes, and presentation.",
           "image": "/images/activities/try-a-new-cocktail-or-mocktail-recipe.jpg"
         },
         {
           "name": "Try a new type of bread or pastry",
+          "slug": "try-a-new-type-of-bread-or-pastry",
           "description": "Bake focaccia, croissants, or sourdough from scratch and enjoy the rewarding process of making fresh bread.",
           "image": "/images/activities/try-a-new-type-of-bread-or-pastry.jpg"
         },
         {
           "name": "Bake cookies from scratch",
+          "slug": "bake-cookies-from-scratch",
           "description": "Measure, mix, and bake a batch of homemade cookies—the smell alone makes it worth the effort.",
           "image": "/images/activities/bake-cookies-from-scratch.jpg"
         },
         {
           "name": "Make homemade ice cream",
-          "description": "Churn your own ice cream with simple ingredients and customise it with your favourite mix-ins and flavours.",
+          "slug": "make-homemade-ice-cream",
+          "description": "Churn your own ice cream with simple ingredients and customise it with your favorite mix-ins and flavours.",
           "image": "/images/activities/make-homemade-ice-cream.jpg"
         },
         {
           "name": "Try a new type of cheese",
+          "slug": "try-a-new-type-of-cheese",
           "description": "Visit a cheese counter and sample something you've never tasted—aged, smoked, soft, or blue—and pair it with crackers.",
           "image": "/images/activities/try-a-new-type-of-cheese.jpg"
         },
         {
           "name": "Learn proper wine tasting techniques",
-          "description": "Practice the see-swirl-smell-sip method to appreciate a wine's colour, aroma, body, and finish like a sommelier.",
+          "slug": "learn-proper-wine-tasting-techniques",
+          "description": "Practice the see-swirl-smell-sip method to appreciate a wine's color, aroma, body, and finish like a sommelier.",
           "image": "/images/activities/learn-proper-wine-tasting-techniques.jpg"
         },
         {
           "name": "Make your own infused water",
+          "slug": "make-your-own-infused-water",
           "description": "Add fruits, herbs, and cucumbers to a jug of water for a refreshing, naturally flavoured drink with zero sugar.",
           "image": "/images/activities/make-your-own-infused-water.jpg"
         },
         {
           "name": "Try fermenting vegetables",
+          "slug": "try-fermenting-vegetables",
           "description": "Make sauerkraut, kimchi, or pickles at home using salt and time—a tasty introduction to the art of fermentation.",
           "image": "/images/activities/try-fermenting-vegetables.jpg"
         },
         {
           "name": "Make homemade pasta",
+          "slug": "make-homemade-pasta",
           "description": "Mix flour and eggs, knead the dough, and roll out fresh pasta—the taste and texture are incomparably better than dried.",
           "image": "/images/activities/make-homemade-pasta.jpg"
         },
         {
           "name": "Try molecular gastronomy basics",
+          "slug": "try-molecular-gastronomy-basics",
           "description": "Experiment with techniques like spherification or foams to turn ordinary ingredients into extraordinary culinary creations.",
           "image": "/images/activities/try-molecular-gastronomy-basics.jpg"
         },
         {
           "name": "Host a themed dinner party",
-          "description": "Pick a theme—decade, country, or colour—and plan a menu, decorations, and playlist for a memorable evening with friends.",
+          "slug": "host-a-themed-dinner-party",
+          "description": "Pick a theme—decade, country, or color—and plan a menu, decorations, and playlist for a memorable evening with friends.",
           "image": "/images/activities/host-a-themed-dinner-party.jpg"
         },
         {
           "name": "Make a smoothie with a new ingredient",
+          "slug": "make-a-smoothie-with-a-new-ingredient",
           "description": "Blend up a smoothie featuring something you've never tried — and discover a new favorite."
         },
         {
           "name": "Hold a blind taste test with snacks",
+          "slug": "hold-a-blind-taste-test-with-snacks",
           "description": "Line up similar snacks or drinks, hide the labels, and find out what your taste buds really prefer."
         },
         {
           "name": "Make homemade pizza from scratch",
+          "slug": "make-homemade-pizza-from-scratch",
           "description": "Stretch your own dough, choose your toppings, and beat takeout at its own game."
         },
         {
           "name": "Brew coffee with a method you've never used",
+          "slug": "brew-coffee-with-a-method-you-ve-never-used",
           "description": "Try a pour-over, French press, or cold brew and taste how much the method changes the cup."
         },
         {
           "name": "Make a no-bake dessert",
+          "slug": "make-a-no-bake-dessert",
           "description": "Whip up an icebox cake, energy balls, or chocolate bark — maximum reward, zero oven."
         },
         {
           "name": "Invent your own signature sandwich",
+          "slug": "invent-your-own-signature-sandwich",
           "description": "Raid the fridge, break the rules, and build a sandwich worthy of being named after you."
         }
-      ],
-      "description": "Explore the world through taste. From baking fresh bread to experimenting with global cuisines, these culinary adventures turn mealtime into a delicious creative experience."
+      ]
     },
     {
       "name": "Mindfulness",
+      "slug": "mindfulness",
+      "description": "Slow down, breathe, and be present. These practices help you reduce stress, sharpen focus, and cultivate a deeper sense of peace and well-being in everyday life.",
       "activities": [
         {
           "name": "Meditate for 10-15 minutes",
+          "slug": "meditate-for-10-15-minutes",
           "description": "Sit quietly, focus on your breath, and let thoughts pass without judgement—a short session can reset your entire day.",
           "image": "/images/activities/meditate-for-10-15-minutes.jpg"
         },
         {
           "name": "Do a digital detox for one hour",
+          "slug": "do-a-digital-detox-for-one-hour",
           "description": "Put all screens away for sixty minutes and notice how differently you think, feel, and engage with your surroundings.",
           "image": "/images/activities/do-a-digital-detox-for-one-hour.jpg"
         },
         {
           "name": "Write down 10 things you're grateful for",
+          "slug": "write-down-10-things-you-re-grateful-for",
           "description": "Shift your focus to the positive by listing ten things—big or small—that you appreciate in your life right now.",
           "image": "/images/activities/write-down-10-things-you-re-grateful-for.jpg"
         },
         {
           "name": "Practice mindfulness for focus",
+          "slug": "practice-mindfulness-for-focus",
           "description": "Use a single-point focus technique—like watching a candle flame—to train sustained attention and present-moment awareness.",
           "image": "/images/activities/practice-mindfulness-for-focus.jpg"
         },
         {
           "name": "Learn about different meditation techniques",
+          "slug": "learn-about-different-meditation-techniques",
           "description": "Explore styles like Vipassana, Zen, Transcendental, and mantra meditation to find the approach that resonates with you.",
           "image": "/images/activities/learn-about-different-meditation-techniques.jpg"
         },
         {
           "name": "Try a guided body scan meditation",
+          "slug": "try-a-guided-body-scan-meditation",
           "description": "Follow an audio guide that directs your attention through each body part to release tension and deepen relaxation.",
           "image": "/images/activities/try-a-guided-body-scan-meditation.jpg"
         },
         {
           "name": "Practice deep breathing exercises",
+          "slug": "practice-deep-breathing-exercises",
           "description": "Try box breathing or 4-7-8 breathing to calm your nervous system, lower stress, and improve focus in minutes.",
           "image": "/images/activities/practice-deep-breathing-exercises.jpg"
         },
         {
           "name": "Do a sensory awareness exercise",
+          "slug": "do-a-sensory-awareness-exercise",
           "description": "Use the 5-4-3-2-1 grounding technique to engage all five senses and anchor yourself firmly in the present moment.",
           "image": "/images/activities/do-a-sensory-awareness-exercise.jpg"
         },
         {
           "name": "Try a walking meditation",
+          "slug": "try-a-walking-meditation",
           "description": "Walk slowly and deliberately, paying close attention to each step and sensation to blend movement with mindfulness.",
           "image": "/images/activities/try-a-walking-meditation.jpg"
         },
         {
           "name": "Write a letter of forgiveness (you don't have to send it)",
+          "slug": "write-a-letter-of-forgiveness-you-don-t-have-to-send-it",
           "description": "Express feelings of hurt or resentment on paper to process emotions and find closure—sending it is optional.",
           "image": "/images/activities/write-a-letter-of-forgiveness--you-don-t-have-to-send-it-.png"
         },
         {
           "name": "Try sound bath meditation",
+          "slug": "try-sound-bath-meditation",
           "description": "Listen to resonant singing bowls, gongs, or chimes and let the vibrations wash over you for deep, effortless relaxation.",
           "image": "/images/activities/try-sound-bath-meditation.jpg"
         },
         {
           "name": "Practice progressive muscle relaxation",
+          "slug": "practice-progressive-muscle-relaxation",
           "description": "Systematically tense and release each muscle group from head to toe to melt away physical tension and stress.",
           "image": "/images/activities/practice-progressive-muscle-relaxation.jpg"
         },
         {
           "name": "Do a loving-kindness meditation",
+          "slug": "do-a-loving-kindness-meditation",
           "description": "Silently repeat phrases of goodwill toward yourself and others to cultivate compassion, empathy, and inner warmth.",
           "image": "/images/activities/do-a-loving-kindness-meditation.jpg"
         },
         {
           "name": "Try forest bathing (shinrin-yoku)",
+          "slug": "try-forest-bathing-shinrin-yoku",
           "description": "Immerse yourself in a woodland setting, engaging all your senses to absorb the calming, restorative power of nature.",
           "image": "/images/activities/try-forest-bathing--shinrin-yoku-.jpg"
         },
         {
           "name": "Try mindful coloring",
+          "slug": "try-mindful-coloring",
           "description": "Pick up some pencils and a coloring page and let the repetitive strokes quiet your mind."
         },
         {
           "name": "Try candle gazing meditation",
+          "slug": "try-candle-gazing-meditation",
           "description": "Sit with a candle flame for a few minutes and let its gentle movement anchor your attention."
         },
         {
           "name": "Do gentle stretching with slow breathing",
+          "slug": "do-gentle-stretching-with-slow-breathing",
           "description": "Pair slow, deep breaths with gentle stretches and feel the tension melt away."
         },
         {
           "name": "Sit outside and just listen for ten minutes",
+          "slug": "sit-outside-and-just-listen-for-ten-minutes",
           "description": "Find a comfortable spot outdoors, close your eyes, and count how many distinct sounds you can hear."
         },
         {
           "name": "Write down your worries, then set them aside",
+          "slug": "write-down-your-worries-then-set-them-aside",
           "description": "Give every worry a line on paper, then close the notebook — captured, contained, and out of your head."
         },
         {
           "name": "Do one task slowly with full attention",
+          "slug": "do-one-task-slowly-with-full-attention",
           "description": "Choose a simple chore and do it with complete presence — washing up has never been so calming."
         }
-      ],
-      "description": "Slow down, breathe, and be present. These practices help you reduce stress, sharpen focus, and cultivate a deeper sense of peace and well-being in everyday life."
+      ]
     },
     {
       "name": "Social",
+      "slug": "social",
+      "description": "Strengthen your connections and create lasting memories. These activities are best enjoyed with friends, family, or new people who share your interests and energy.",
       "activities": [
         {
           "name": "Call an old friend you haven't spoken to in a while",
+          "slug": "call-an-old-friend-you-haven-t-spoken-to-in-a-while",
           "description": "Reach out to someone you've lost touch with—a quick call can rekindle a meaningful connection and brighten both your days.",
           "image": "/images/activities/call-an-old-friend-you-haven-t-spoken-to-in-a-while.jpg"
         },
         {
           "name": "Organize a game night with friends",
+          "slug": "organize-a-game-night-with-friends",
           "description": "Gather your crew for board games, card games, or trivia—an easy, low-cost way to have a great time together.",
           "image": "/images/activities/organize-a-game-night-with-friends.jpg"
         },
         {
           "name": "Join a local meetup group",
+          "slug": "join-a-local-meetup-group",
           "description": "Find a group that shares your interests—hiking, books, tech—and show up to meet new people in a relaxed setting.",
           "image": "/images/activities/join-a-local-meetup-group.jpg"
         },
         {
           "name": "Volunteer at a community event",
+          "slug": "volunteer-at-a-community-event",
           "description": "Give your time to a local cause or charity event and make a positive impact while meeting like-minded people.",
           "image": "/images/activities/volunteer-at-a-community-event.jpg"
         },
         {
           "name": "Host a potluck dinner",
+          "slug": "host-a-potluck-dinner",
           "description": "Invite friends to each bring a dish and share a communal meal—less work for you and a delicious variety for everyone.",
           "image": "/images/activities/host-a-potluck-dinner.jpg"
         },
         {
           "name": "Start a book club",
+          "slug": "start-a-book-club",
           "description": "Pick a book, invite a few friends, and schedule a discussion—it adds accountability and new perspectives to your reading.",
           "image": "/images/activities/start-a-book-club.jpg"
         },
         {
           "name": "Organize a neighborhood clean-up",
+          "slug": "organize-a-neighborhood-clean-up",
           "description": "Rally neighbours to pick up litter and tidy shared spaces—a small effort that builds community pride and connection.",
           "image": "/images/activities/organize-a-neighborhood-clean-up.jpg"
         },
         {
           "name": "Visit a community center event",
+          "slug": "visit-a-community-center-event",
           "description": "Check your local community centre for classes, markets, or performances—there's often more happening than you'd expect.",
           "image": "/images/activities/visit-a-community-center-event.jpg"
         },
         {
           "name": "Join a recreational sports league",
+          "slug": "join-a-recreational-sports-league",
           "description": "Sign up for a casual league—football, basketball, or volleyball—to stay active, have fun, and make new friends.",
           "image": "/images/activities/join-a-recreational-sports-league.png"
         },
         {
           "name": "Attend a cultural festival",
+          "slug": "attend-a-cultural-festival",
           "description": "Experience music, food, dance, and traditions from different cultures at a local festival—a vibrant way to broaden your worldview.",
           "image": "/images/activities/attend-a-cultural-festival.jpg"
         },
         {
           "name": "Write a thank-you note to someone",
+          "slug": "write-a-thank-you-note-to-someone",
           "description": "Tell someone exactly what they did and why it mattered — a two-minute note they may keep for years."
         },
         {
           "name": "Plan a surprise for a friend or family member",
+          "slug": "plan-a-surprise-for-a-friend-or-family-member",
           "description": "Cook up a small surprise — a treat, a visit, a memory book — for someone who deserves it."
         },
         {
           "name": "Interview an older relative about their life",
+          "slug": "interview-an-older-relative-about-their-life",
           "description": "Ask a parent or grandparent about their childhood and record the stories before they're lost."
         },
         {
           "name": "Give three genuine compliments today",
+          "slug": "give-three-genuine-compliments-today",
           "description": "Notice something real and say it out loud — watch how it changes their day and yours."
         },
         {
           "name": "Plan a weekend trip with friends",
+          "slug": "plan-a-weekend-trip-with-friends",
           "description": "Get the group chat buzzing: pick dates, compare destinations, and turn 'we should' into 'we are'."
         },
         {
           "name": "Strike up a conversation with a neighbor",
+          "slug": "strike-up-a-conversation-with-a-neighbor",
           "description": "Say more than hello — a few friendly minutes builds the kind of neighborhood everyone wants."
         }
-      ],
-      "description": "Strengthen your connections and create lasting memories. These activities are best enjoyed with friends, family, or new people who share your interests and energy."
+      ]
     },
     {
       "name": "Games",
+      "slug": "games",
+      "description": "Challenge your mind and have fun doing it. From classic puzzles to interactive games, this category offers entertainment and mental stimulation for every mood.",
       "activities": [
         {
           "name": "Learn a new card game",
+          "slug": "learn-a-new-card-game",
           "description": "Pick up a game like Cribbage, Euchre, or Rummy—card games are portable, social, and endlessly replayable.",
           "image": "/images/activities/learn-a-new-card-game.png"
         },
         {
           "name": "Try a new board game",
+          "slug": "try-a-new-board-game",
           "description": "Explore modern board games beyond Monopoly—strategic, cooperative, or party games that offer fresh challenges every time.",
           "image": "/images/activities/try-a-new-board-game.jpg"
         },
         {
           "name": "Play chess against a computer",
+          "slug": "play-chess-against-a-computer",
           "description": "Sharpen your strategic thinking by playing chess online at your level—analyse your moves afterwards to improve.",
           "image": "/images/activities/play-chess-against-a-computer.jpg"
         },
         {
           "name": "Try escape room games",
+          "slug": "try-escape-room-games",
           "description": "Solve puzzles under a time limit with friends—whether in person or online, escape rooms test teamwork and lateral thinking.",
           "image": "/images/activities/try-escape-room-games.jpg"
         },
         {
           "name": "Play word association games",
+          "slug": "play-word-association-games",
           "description": "Challenge friends to rapid-fire word connections—a quick, screen-free game that sparks laughter and creative thinking.",
           "image": "/images/activities/play-word-association-games.jpg"
         },
         {
           "name": "Try puzzle games like Sudoku",
+          "slug": "try-puzzle-games-like-sudoku",
           "description": "Work through logic puzzles that exercise your reasoning and pattern recognition—satisfying to complete and great for focus.",
           "image": "/images/activities/try-puzzle-games-like-sudoku.jpg"
         },
         {
           "name": "Play charades with friends",
-          "description": "Act out words or phrases without speaking while your team guesses—guaranteed laughs and a classic party favourite.",
+          "slug": "play-charades-with-friends",
+          "description": "Act out words or phrases without speaking while your team guesses—guaranteed laughs and a classic party favorite.",
           "image": "/images/activities/play-charades-with-friends.jpg"
         },
         {
           "name": "Try tabletop RPGs",
+          "slug": "try-tabletop-rpgs",
           "description": "Dive into Dungeons & Dragons or other tabletop role-playing games for collaborative storytelling and epic adventures.",
           "image": "/images/activities/try-tabletop-rpgs.png"
         },
         {
           "name": "Play brain-training games",
+          "slug": "play-brain-training-games",
           "description": "Use apps like Lumosity or Peak to challenge your memory, attention, and problem-solving skills with short daily games.",
           "image": "/images/activities/play-brain-training-games.jpg"
         },
         {
           "name": "Try geoguessr online",
+          "slug": "try-geoguessr-online",
           "description": "Guess your location on a map using Google Street View clues—a fun, addictive way to test your geography knowledge.",
           "image": "/images/activities/try-geoguessr-online.jpg"
         },
         {
           "name": "Do a crossword puzzle",
+          "slug": "do-a-crossword-puzzle",
           "description": "Sharpen your vocabulary and enjoy that unbeatable feeling when the last clue clicks."
         },
         {
           "name": "Start a jigsaw puzzle",
+          "slug": "start-a-jigsaw-puzzle",
           "description": "Tip out the pieces, find the corners, and lose yourself in a satisfying slow-burn challenge."
         },
         {
           "name": "Play twenty questions with someone",
+          "slug": "play-twenty-questions-with-someone",
           "description": "Animal, vegetable, or mineral? See who can crack the mystery in the fewest questions."
         },
         {
           "name": "Take an online trivia quiz",
+          "slug": "take-an-online-trivia-quiz",
           "description": "Test your general knowledge with a quick quiz and find your specialist subject."
         },
         {
           "name": "Learn a new solitaire variation",
+          "slug": "learn-a-new-solitaire-variation",
           "description": "Go beyond Klondike — learn Spider, FreeCell, or Pyramid and you'll never be bored with a deck of cards."
         },
         {
           "name": "Replay a classic video game from your childhood",
+          "slug": "replay-a-classic-video-game-from-your-childhood",
           "description": "Fire up an old favorite and find out whether it's still as good as you remember."
         }
-      ],
-      "description": "Challenge your mind and have fun doing it. From classic puzzles to interactive games, this category offers entertainment and mental stimulation for every mood."
+      ]
     }
   ]
 }
