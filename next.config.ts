@@ -13,7 +13,19 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
+        // HTML documents must stay revalidatable — an `immutable` blanket rule
+        // here would pin published pages in browser caches, so content updates
+        // would never reach returning visitors.
         source: '/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=0, must-revalidate, s-maxage=3600, stale-while-revalidate=86400',
+          },
+        ],
+      },
+      {
+        source: '/_next/static/:path*',
         headers: [
           {
             key: 'Cache-Control',

@@ -1,85 +1,34 @@
 import { MetadataRoute } from "next";
-import { readFileSync } from "fs";
-import { join } from "path";
-
-const BASE_URL = "https://fungen.app";
-
-const categorySlug = (name: string) =>
-  name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
-
-function getCategorySlugs(): string[] {
-  const leisureData = JSON.parse(
-    readFileSync(join(process.cwd(), "public", "activities.json"), "utf-8")
-  );
-  const productiveData = JSON.parse(
-    readFileSync(
-      join(process.cwd(), "public", "productive-activities.json"),
-      "utf-8"
-    )
-  );
-  return [
-    ...leisureData.categories.map((c: { name: string }) =>
-      categorySlug(c.name)
-    ),
-    ...productiveData.categories.map((c: { name: string }) =>
-      categorySlug(c.name)
-    ),
-  ];
-}
+import { BASE_URL, getAllActivities, getAllCategories, hasLongForm } from "@/lib/activities";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const categorySlugs = getCategorySlugs();
+  const lastModified = new Date();
 
-  const categoryUrls: MetadataRoute.Sitemap = categorySlugs.map((slug) => ({
-    url: `${BASE_URL}/activities/${slug}`,
-    lastModified: new Date(),
+  const categoryUrls: MetadataRoute.Sitemap = getAllCategories().map((category) => ({
+    url: `${BASE_URL}/activities/${category.slug}`,
+    lastModified,
     changeFrequency: "weekly",
     priority: 0.7,
   }));
 
+  // Activities whose long-form guide is written rank on their own; the rest are
+  // still thin, so they get a lower priority until Phase 2 reaches them.
+  const activityUrls: MetadataRoute.Sitemap = getAllActivities().map(({ activity, category }) => ({
+    url: `${BASE_URL}/activities/${category.slug}/${activity.slug}`,
+    lastModified,
+    changeFrequency: "monthly",
+    priority: hasLongForm(activity) ? 0.6 : 0.4,
+  }));
+
   return [
-    {
-      url: BASE_URL,
-      lastModified: new Date(),
-      changeFrequency: "daily",
-      priority: 1,
-    },
-    {
-      url: `${BASE_URL}/activities`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE_URL}/about`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.5,
-    },
-    {
-      url: `${BASE_URL}/terms`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.3,
-    },
-    {
-      url: `${BASE_URL}/privacy`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.3,
-    },
-    {
-      url: `${BASE_URL}/cookies`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.3,
-    },
-    {
-      url: `${BASE_URL}/disclaimer`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.3,
-    },
+    { url: BASE_URL, lastModified, changeFrequency: "daily", priority: 1 },
+    { url: `${BASE_URL}/activities`, lastModified, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/about`, lastModified, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${BASE_URL}/terms`, lastModified, changeFrequency: "monthly", priority: 0.3 },
+    { url: `${BASE_URL}/privacy`, lastModified, changeFrequency: "monthly", priority: 0.3 },
+    { url: `${BASE_URL}/cookies`, lastModified, changeFrequency: "monthly", priority: 0.3 },
+    { url: `${BASE_URL}/disclaimer`, lastModified, changeFrequency: "monthly", priority: 0.3 },
     ...categoryUrls,
+    ...activityUrls,
   ];
 }

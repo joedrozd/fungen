@@ -1,0 +1,1497 @@
+{
+  "learn-a-new-excel-google-sheets-function": {
+    "seo": {
+      "title": "Learn a New Excel Function on Your Own Data",
+      "metaDescription": "Pick one spreadsheet function and learn it on your own data in an hour. XLOOKUP, pivot tables or INDEX MATCH, practiced until it stops needing a search.",
+      "primaryKeyword": "learn a new Excel function",
+      "secondaryKeywords": ["XLOOKUP tutorial", "pivot table basics", "Google Sheets formulas"]
+    },
+    "content": {
+      "intro": "Almost everyone who uses spreadsheets daily knows about eight functions and searches for the rest every single time. Choosing to learn a new Excel function properly, on real data you care about, converts one of those searches into something automatic. An hour on a single function is worth more than a day of tutorial videos.",
+      "whyItWorks": "Spreadsheet skills transfer badly from demonstration data because tutorial datasets are clean and yours is not. Practicing on your own messy file forces you through the actual failure modes: mismatched types, trailing spaces, ranges that shift when you copy. Those are the things that make a function feel unreliable until you have hit them once.",
+      "howTo": [
+        {
+          "step": "Pick the function you keep searching for",
+          "detail": "Whatever you look up repeatedly is the highest-value target. Repeated searching is a precise measure of what you actually need."
+        },
+        {
+          "step": "Open a real file, not an example",
+          "detail": "Duplicate something you genuinely use. Real data has the inconsistencies that tutorials carefully avoid showing you."
+        },
+        {
+          "step": "Type it manually every time",
+          "detail": "Do not copy formulas from a tutorial. The muscle memory of typing the arguments is most of what you are building."
+        },
+        {
+          "step": "Break it deliberately",
+          "detail": "Feed it a missing value, a wrong type, a shifted range. Understanding the errors is what makes you trust it later."
+        },
+        {
+          "step": "Use it once for real work",
+          "detail": "Apply it to something you actually needed to do today. Unused learning fades within about a week."
+        }
+      ],
+      "tips": [
+        "Learn absolute and relative references early. Most formula bugs people blame on the function are really reference bugs.",
+        "XLOOKUP has largely replaced VLOOKUP where it is available, and handles missing values far more gracefully.",
+        "Keep a personal file of formulas that worked, with a note on what each was for."
+      ],
+      "variations": "If you already know the common lookups, spend the hour on pivot tables, which compress more analysis into less effort than any other feature. If you work in Google Sheets specifically, learn QUERY, which has no real Excel equivalent and replaces several functions at once.",
+      "faq": [
+        {
+          "q": "Which spreadsheet function should I learn first?",
+          "a": "Whichever you search for most often. After that, pivot tables and a lookup function cover the majority of everyday analysis."
+        },
+        {
+          "q": "Are Excel and Google Sheets formulas the same?",
+          "a": "Mostly, for common functions. Sheets adds a few of its own like QUERY and ARRAYFORMULA, and some Excel functions are missing."
+        },
+        {
+          "q": "How long until it sticks?",
+          "a": "Usually three or four real uses. Practicing on tutorial data does not count; the transfer to your own files is where it fixes."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "a spreadsheet you actually use"]
+    },
+    "related": [
+      "learn-data-visualization-basics",
+      "learn-about-business-analytics",
+      "learn-keyboard-shortcuts-for-your-os"
+    ]
+  },
+
+  "practice-typing-speed-exercises": {
+    "seo": {
+      "title": "Practice Typing Speed and Actually Get Faster",
+      "metaDescription": "Typing speed improves through accuracy drills, not racing. Fix your weakest keys, stop looking down, and measure progress properly over a few weeks.",
+      "primaryKeyword": "practice typing speed",
+      "secondaryKeywords": ["improve typing accuracy", "touch typing exercises", "words per minute test"]
+    },
+    "content": {
+      "intro": "Most people who practice typing speed do it by taking the same test repeatedly and hoping. That produces a plateau within days. Real improvement comes from a slightly counterintuitive place: slowing down until accuracy is near perfect, then letting speed follow. An hour set up correctly beats weeks of racing.",
+      "whyItWorks": "Errors cost far more time than slow keystrokes, because correcting one costs several keystrokes plus the attention to notice it. Drilling accuracy first removes that tax. Targeting your specific weak keys works for the same reason a musician practices the difficult bar rather than replaying the whole piece: the improvement is concentrated where the problem is.",
+      "howTo": [
+        {
+          "step": "Measure a baseline honestly",
+          "detail": "Take one test and record both speed and accuracy. Accuracy is the number that matters; note it without judgement."
+        },
+        {
+          "step": "Slow down until accuracy passes ninety-eight percent",
+          "detail": "Deliberately type below your comfortable pace. This feels wrong and is the single most effective change available."
+        },
+        {
+          "step": "Find your problem keys",
+          "detail": "Most typing sites report per-key error rates. Usually a handful of keys account for most mistakes."
+        },
+        {
+          "step": "Drill those keys specifically",
+          "detail": "Custom drills on your worst five or six keys. Fifteen focused minutes beats an hour of general practice."
+        },
+        {
+          "step": "Stop looking at the keyboard",
+          "detail": "Cover your hands if necessary. Looking down caps your ceiling permanently, however fast you currently are."
+        }
+      ],
+      "tips": [
+        "Practice in short daily sessions rather than long weekly ones. Motor learning consolidates with sleep between sessions.",
+        "Check your posture and wrist position. Typing faster with bad ergonomics scales the problem rather than the skill.",
+        "Learn the shortcuts for word and line deletion. Correcting efficiently matters as much as typing accurately."
+      ],
+      "variations": "If you already type quickly, shift the hour to numeric keypad or symbol accuracy, which most people never drill and which matters enormously for spreadsheet and code work. If you write prose all day, practice on real text rather than random words, since punctuation and capitalisation carry their own error rates.",
+      "faq": [
+        {
+          "q": "What is a good typing speed?",
+          "a": "Around forty words per minute is average, sixty to eighty is comfortably fast. Accuracy above ninety-eight percent matters more than raw speed."
+        },
+        {
+          "q": "Should I learn proper touch typing technique?",
+          "a": "If you look at the keyboard, yes. Relearning is frustrating for a two weeks and then permanently better than a self-taught hunt."
+        },
+        {
+          "q": "How long does it take to improve?",
+          "a": "Noticeable gains in two to three weeks of short daily practice. Speed follows accuracy rather than the other way round."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 45,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "keyboard"]
+    },
+    "related": [
+      "learn-keyboard-shortcuts-for-your-os",
+      "learn-markdown-for-faster-note-taking",
+      "research-ergonomic-workspace-setups"
+    ]
+  },
+
+  "learn-keyboard-shortcuts-for-your-os": {
+    "seo": {
+      "title": "Learn Keyboard Shortcuts Worth the Muscle Memory",
+      "metaDescription": "Learn keyboard shortcuts for the actions you repeat dozens of times daily, rather than memorising a cheat sheet you will forget by Thursday.",
+      "primaryKeyword": "learn keyboard shortcuts",
+      "secondaryKeywords": ["Windows shortcuts list", "Mac keyboard shortcuts", "window management shortcuts"]
+    },
+    "content": {
+      "intro": "Printing a cheat sheet of two hundred shortcuts and pinning it to the wall does nothing, which most people discover once. The way to learn keyboard shortcuts that stick is to pick five actions you genuinely repeat all day and refuse to do them with the mouse for a week. Everything else is noise.",
+      "whyItWorks": "The saving per shortcut is tiny, perhaps two seconds, which is why breadth is pointless and frequency is everything. An action you perform sixty times a day repays the learning cost within a two weeks; one you perform weekly never will. Restricting yourself to the mouse-free version also forces recall rather than recognition, which is what actually builds the habit.",
+      "howTo": [
+        {
+          "step": "Watch yourself for ten minutes",
+          "detail": "Note which mouse actions repeat. Switching windows, searching, screenshots, and tab management dominate for most people."
+        },
+        {
+          "step": "Pick five, no more",
+          "detail": "Five is roughly the number a person can adopt in a week. Twenty produces zero retained shortcuts."
+        },
+        {
+          "step": "Write them on a sticky note",
+          "detail": "On the monitor edge, in view. Remove it when you stop needing to look, which is the point of the exercise."
+        },
+        {
+          "step": "Ban the mouse for those five",
+          "detail": "Force yourself to recall rather than reach. The brief frustration is the mechanism; recognition alone teaches nothing."
+        },
+        {
+          "step": "Add window management next",
+          "detail": "Snapping, virtual desktops, and application switching are the highest-frequency category almost everyone under-uses."
+        }
+      ],
+      "tips": [
+        "Learn the universal ones first. Copy, paste, undo, find and select-all work almost everywhere, including inside applications.",
+        "Most applications let you rebind. If a shortcut is awkward on your keyboard layout, change it rather than fighting it.",
+        "Add a clipboard manager once the basics are automatic. It changes what copy and paste can do entirely."
+      ],
+      "variations": "If your basics are solid, spend the hour learning your main application's command palette, which usually replaces dozens of individual shortcuts with one. If you switch between operating systems, learn the small number that differ rather than trying to hold two full sets.",
+      "faq": [
+        {
+          "q": "Which keyboard shortcuts are worth learning first?",
+          "a": "Window and application switching, search, and screenshots. These have the highest daily frequency for almost everyone regardless of job."
+        },
+        {
+          "q": "How many can I learn at once?",
+          "a": "About five per week. Beyond that, none of them consolidate and you end up retaining nothing at all."
+        },
+        {
+          "q": "Do shortcuts actually save meaningful time?",
+          "a": "For high-frequency actions, yes, though the bigger benefit is staying in flow rather than the seconds themselves."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 30,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer"]
+    },
+    "related": [
+      "practice-typing-speed-exercises",
+      "declutter-your-digital-workspace",
+      "learn-markdown-for-faster-note-taking"
+    ]
+  },
+
+  "learn-basic-coding-concepts": {
+    "seo": {
+      "title": "Learn Basic Coding Concepts in One Sitting",
+      "metaDescription": "The handful of ideas underneath every programming language: variables, conditionals, loops, functions and data structures. Learn them once, in an hour.",
+      "primaryKeyword": "basic coding concepts",
+      "secondaryKeywords": ["programming for beginners", "what is a variable in programming", "learn to code first steps"]
+    },
+    "content": {
+      "intro": "The basic coding concepts underneath every programming language number about five, and they are genuinely learnable in an hour. Variables, conditionals, loops, functions, and collections. Everything after that is syntax and libraries. Knowing this in advance saves the common beginner experience of feeling permanently behind an infinite subject.",
+      "whyItWorks": "Beginners usually struggle with syntax while assuming they are struggling with logic, which is discouraging and inaccurate. Separating the two makes the shape of the subject visible: the concepts are few and stable, while the syntax is arbitrary and looked up constantly, even by professionals. That reframing is what makes the second hour possible.",
+      "howTo": [
+        {
+          "step": "Use an interactive environment",
+          "detail": "A browser-based playground with no installation. Setting up a development environment is a separate and much duller problem."
+        },
+        {
+          "step": "Start with variables and printing",
+          "detail": "Store something, change it, display it. This is genuinely the foundation and takes about five minutes."
+        },
+        {
+          "step": "Add a conditional",
+          "detail": "If this, do that, otherwise something else. Every program you will ever read is largely built from this."
+        },
+        {
+          "step": "Write a loop over a list",
+          "detail": "Repeat an action for each item. Loops plus conditionals cover an enormous proportion of real programming."
+        },
+        {
+          "step": "Wrap something in a function",
+          "detail": "Name a block of steps and call it twice, with different inputs. This is where code starts becoming reusable rather than merely repetitive."
+        }
+      ],
+      "tips": [
+        "Type every example rather than copying. The typos teach you to read error messages, which is half of programming.",
+        "Python and JavaScript are the gentlest starting points, with the most beginner material available for free.",
+        "Errors are normal and informative. Professionals see hundreds daily; they are feedback, not failure. Read the message before searching for it."
+      ],
+      "variations": "If the concepts are already familiar, spend the hour on a small real problem instead, like renaming a folder of files, since applied practice teaches far faster than tutorials. If you prefer something visual, block-based environments teach identical logic without any syntax at all.",
+      "faq": [
+        {
+          "q": "Which programming language should I start with?",
+          "a": "Python or JavaScript. Both have gentle syntax, enormous free learning material, and immediate practical uses."
+        },
+        {
+          "q": "Do I need to be good at maths?",
+          "a": "For most programming, no. Basic arithmetic and logical thinking cover the majority of everyday development work."
+        },
+        {
+          "q": "How long does learning to code take?",
+          "a": "The core concepts take hours. Becoming genuinely useful takes months of building things, which is a different activity from studying."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer with a browser"]
+    },
+    "related": [
+      "learn-a-new-excel-google-sheets-function",
+      "learn-the-basics-of-ai-tools-and-prompting",
+      "learn-markdown-for-faster-note-taking"
+    ]
+  },
+
+  "practice-public-speaking": {
+    "seo": {
+      "title": "Practice Public Speaking Alone, With a Camera",
+      "metaDescription": "You can practice public speaking properly without an audience. Record yourself, watch it back once, and fix the one habit that costs you the most.",
+      "primaryKeyword": "practice public speaking",
+      "secondaryKeywords": ["public speaking nerves", "how to stop saying um", "presentation delivery tips"]
+    },
+    "content": {
+      "intro": "The reason most people never practice public speaking is that it seems to require an audience. It does not. A phone camera and a closed door provide the two things that actually drive improvement: repetition under mild self-consciousness, and evidence of what you genuinely sound like rather than what you assume.",
+      "whyItWorks": "Speakers are systematically bad at self-assessment in the moment, because the attention required to speak leaves none for observing. Recording separates those tasks. Watching yourself back is uncomfortable for about ninety seconds and then becomes analytical, at which point the filler words, the rushing, and the dropped sentence endings are simply visible.",
+      "howTo": [
+        {
+          "step": "Pick a topic you know well",
+          "detail": "Something you could explain without notes. Content preparation is a separate skill; this hour is about delivery."
+        },
+        {
+          "step": "Record three minutes, unscripted",
+          "detail": "Phone camera, standing up. Do not restart when you stumble; recovering on camera is part of the practice."
+        },
+        {
+          "step": "Watch it once, note three things",
+          "detail": "Only three. A long list is demoralising and unusable. Pick the three that most affect a listener."
+        },
+        {
+          "step": "Fix exactly one of them",
+          "detail": "Re-record addressing a single habit. Trying to fix everything simultaneously reliably fixes nothing."
+        },
+        {
+          "step": "Practice the pause",
+          "detail": "Deliberately stop for two seconds between points. Silence feels enormous to you and confident to everyone else."
+        }
+      ],
+      "tips": [
+        "Filler words are usually a pacing problem. Slowing down removes most of them without any conscious effort to stop.",
+        "Stand and move as you would in the room. Practicing seated builds the wrong physical habits.",
+        "Nerves largely do not disappear with experience; they become familiar. Familiar nerves are far easier to work with."
+      ],
+      "variations": "If you have a specific talk coming up, practice the opening ninety seconds ten times rather than the whole thing once, since the opening carries the nerves. If you want an audience, speaking clubs exist in most cities and are built precisely for low-stakes repetition.",
+      "faq": [
+        {
+          "q": "How do I stop saying um?",
+          "a": "Slow down and allow silence. Filler words fill the gap where you are thinking; giving yourself permission to pause removes the need."
+        },
+        {
+          "q": "Can I improve without an audience?",
+          "a": "Substantially, yes. Recording provides the feedback an audience cannot articulate anyway, and you can repeat it as often as you like."
+        },
+        {
+          "q": "How do I handle nerves before speaking?",
+          "a": "Rehearse the opening far more than the middle, arrive early, and slow your breathing. Preparation reduces nerves more reliably than techniques do."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 45,
+      "cost": "free",
+      "difficulty": "challenging",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["phone with a camera", "a private room"]
+    },
+    "related": [
+      "learn-to-create-effective-presentations",
+      "create-an-elevator-pitch-for-yourself",
+      "learn-about-business-communication"
+    ]
+  },
+
+  "learn-basic-photo-editing": {
+    "seo": {
+      "title": "Learn Basic Photo Editing With Five Adjustments",
+      "metaDescription": "Learn basic photo editing using the handful of sliders that do almost all the work: exposure, contrast, white balance, cropping and selective adjustment.",
+      "primaryKeyword": "basic photo editing",
+      "secondaryKeywords": ["free photo editing software", "how to edit photos better", "white balance adjustment"]
+    },
+    "content": {
+      "intro": "Basic photo editing has an unusually good effort-to-result ratio, because roughly five adjustments account for nearly all the visible improvement. Exposure, contrast, white balance, crop, and one selective adjustment. Learning those five on your own photos takes an hour and permanently changes how your pictures look.",
+      "whyItWorks": "Cameras make deliberate compromises when they process an image, particularly in tricky light, and those compromises are exactly what the basic sliders reverse. Editing your own photos also teaches you to see what was wrong at capture time, which gradually improves the photographs themselves. The editing skill quietly becomes a shooting skill.",
+      "howTo": [
+        {
+          "step": "Pick a mediocre photo you like",
+          "detail": "Good subject, poor execution. Editing an already excellent image teaches you very little about what the controls do."
+        },
+        {
+          "step": "Fix exposure and contrast first",
+          "detail": "Brightness overall, then the separation between light and dark. These two do more than everything else combined."
+        },
+        {
+          "step": "Correct the white balance",
+          "detail": "Push the temperature warmer or cooler until the whites look white. Color casts are the most common invisible problem."
+        },
+        {
+          "step": "Crop for the subject",
+          "detail": "Remove everything that is not helping. Cropping is the most underused adjustment and costs nothing but decisiveness."
+        },
+        {
+          "step": "Make one selective adjustment",
+          "detail": "Brighten a face, darken a distracting corner. Local edits are what separate an edited photo from a filtered one."
+        }
+      ],
+      "tips": [
+        "Always edit a copy or work non-destructively. Overwriting an original is a mistake you make exactly once.",
+        "Compare against the unedited version regularly. Editing drifts, and heavy edits look normal after twenty minutes of staring.",
+        "Free tools handle all of this. Paid software adds convenience and speed, not fundamentally better results."
+      ],
+      "variations": "If you shoot in RAW, spend the hour on what RAW recovers that JPEG cannot, particularly in blown highlights and shadows. If you mostly post to phones, edit on a phone with a calibrated eye for small screens, since detail that reads well on a monitor often disappears entirely.",
+      "faq": [
+        {
+          "q": "What is the best free photo editing software?",
+          "a": "Several free options handle exposure, color and cropping perfectly well. The specific tool matters far less than understanding what each slider does."
+        },
+        {
+          "q": "Should I shoot RAW or JPEG?",
+          "a": "RAW if you plan to edit, since it retains far more recoverable detail. JPEG is fine when you want images straight out of the camera."
+        },
+        {
+          "q": "How do I avoid over-editing?",
+          "a": "Compare to the original often, and step away for ten minutes before finalising. Extreme edits normalize quickly while you are working."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer or phone", "your own photos"]
+    },
+    "related": [
+      "learn-basic-graphic-design-principles",
+      "learn-basic-photography-composition",
+      "learn-basic-video-editing"
+    ]
+  },
+
+  "improve-your-writing-skills-with-exercises": {
+    "seo": {
+      "title": "Improve Your Writing Skills With Four Exercises",
+      "metaDescription": "Improve your writing skills with drills that target specific weaknesses: cutting length, varying sentences, replacing abstraction, and writing for one reader.",
+      "primaryKeyword": "improve your writing skills",
+      "secondaryKeywords": ["writing exercises for clarity", "how to write more concisely", "business writing tips"]
+    },
+    "content": {
+      "intro": "Advice to read more and write more is true and unhelpfully slow. If you want to improve your writing skills inside an hour, targeted drills work better, because each one attacks a specific weakness that general practice would take months to erode. Four exercises, fifteen minutes each, on text you have already written.",
+      "whyItWorks": "Most bad writing shares a small number of causes: too long, uniform sentence rhythm, abstraction where a concrete noun would do, and no clear reader in mind. Each has a corresponding drill, and drills produce faster improvement than volume because they isolate the problem rather than averaging over it.",
+      "howTo": [
+        {
+          "step": "Cut a paragraph by half",
+          "detail": "Take something you wrote and remove fifty percent of the words without losing meaning. It is always possible and always improves it."
+        },
+        {
+          "step": "Vary your sentence lengths",
+          "detail": "Rewrite a passage so sentence lengths alternate noticeably. Uniform rhythm is what makes competent prose feel flat."
+        },
+        {
+          "step": "Replace every abstraction",
+          "detail": "Swap each abstract noun for something concrete. \"Improved efficiency\" becomes \"saved the team six hours a week.\""
+        },
+        {
+          "step": "Write it for one person",
+          "detail": "Rewrite addressing a specific named individual. Writing to everybody produces prose that reaches nobody."
+        },
+        {
+          "step": "Read the result aloud",
+          "detail": "Every sentence you stumble over needs rewriting. Your ear catches problems your eye has learned to skip past."
+        }
+      ],
+      "tips": [
+        "Cut adverbs and intensifiers first. Very, really, quite and actually are almost always removable at no cost.",
+        "Prefer active voice unless the actor genuinely does not matter. Passive constructions hide who did what.",
+        "Write the first draft badly and quickly. Editing a poor draft is far easier than producing a good one directly."
+      ],
+      "variations": "If you write technical documentation, add an exercise on ordering: put the conclusion first and see how much context turns out to be unnecessary. If you write persuasively, practice arguing the opposing position convincingly, which exposes the weak points in your own case.",
+      "faq": [
+        {
+          "q": "How do I write more concisely?",
+          "a": "Cut a finished paragraph by half as a deliberate exercise. The constraint forces you to identify which words were carrying meaning."
+        },
+        {
+          "q": "Do writing exercises actually work?",
+          "a": "Targeted ones do, because they isolate a specific weakness. Undirected writing practice improves you eventually but far more slowly."
+        },
+        {
+          "q": "Should I use AI to improve my writing?",
+          "a": "As an editor that flags problems, it can help. As a replacement for drafting, it prevents you developing judgement about your own prose."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer or notebook", "something you have already written"]
+    },
+    "related": [
+      "learn-markdown-for-faster-note-taking",
+      "learn-about-business-communication",
+      "learn-to-take-better-meeting-notes"
+    ]
+  },
+
+  "learn-to-create-effective-presentations": {
+    "seo": {
+      "title": "Create Effective Presentations by Cutting, Not Adding",
+      "metaDescription": "Learn to create effective presentations by deciding the one thing you want remembered, then removing every slide and bullet that does not serve it.",
+      "primaryKeyword": "create effective presentations",
+      "secondaryKeywords": ["presentation design tips", "how many slides", "death by PowerPoint"]
+    },
+    "content": {
+      "intro": "Nearly everyone tries to create effective presentations by adding: more slides, more detail, more supporting evidence. The reliable improvement comes from the opposite direction. Decide the single thing you want an audience to remember next week, then delete everything that does not serve it. An hour of cutting beats an hour of building.",
+      "whyItWorks": "An audience retains very little from any talk, and what they retain is not proportional to what you presented. Dense slides actively compete with you for attention, because people read faster than you speak and then stop listening. Reducing each slide to one idea removes that competition and forces you to know your material rather than read it.",
+      "howTo": [
+        {
+          "step": "Write the one-sentence takeaway",
+          "detail": "What should they repeat to a colleague next week? Write it down before opening any presentation software."
+        },
+        {
+          "step": "Outline on paper first",
+          "detail": "Slides encourage you to design before you think. Paper keeps you on structure until the argument holds together."
+        },
+        {
+          "step": "One idea per slide",
+          "detail": "If a slide needs two headings it is two slides. More slides with less on each is almost always better."
+        },
+        {
+          "step": "Replace bullet lists with a visual",
+          "detail": "A chart, a photo, a single number. Bullets are notes to yourself masquerading as content for others."
+        },
+        {
+          "step": "Move the detail to an appendix",
+          "detail": "Keep the supporting data after the final slide. It exists for questions rather than for the narrative."
+        }
+      ],
+      "tips": [
+        "Never read your slides aloud. If the slide says it, you are redundant; if you say it, the slide is.",
+        "Design for the back row. Text that is comfortable on your laptop is illegible from six meters away.",
+        "Rehearse the transitions between slides. That is where most talks lose their thread, not within the slides."
+      ],
+      "variations": "If the deck will be read rather than presented, write it as a document instead; slides sent by email are a poor format for both purposes. If you present the same material regularly, build one strong version and rehearse it rather than rebuilding each time.",
+      "faq": [
+        {
+          "q": "How many slides should a presentation have?",
+          "a": "As many as you need with one idea each, which usually means more slides than you expected and far less on each."
+        },
+        {
+          "q": "Should I put my script on the slides?",
+          "a": "No. Use speaker notes. Slides carrying your script guarantee the audience reads ahead and stops listening to you."
+        },
+        {
+          "q": "What makes a presentation memorable?",
+          "a": "A single clear takeaway, a concrete example, and enough restraint that nothing competes with the point you care about."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "paper for outlining"]
+    },
+    "related": [
+      "practice-public-speaking",
+      "learn-data-visualization-basics",
+      "learn-basic-graphic-design-principles"
+    ]
+  },
+
+  "practice-active-listening-techniques": {
+    "seo": {
+      "title": "Active Listening Techniques That Sound Human",
+      "metaDescription": "Active listening techniques that work in real conversations: hold the silence, ask one more question, and check you understood before you respond.",
+      "primaryKeyword": "active listening techniques",
+      "secondaryKeywords": ["how to listen better", "listening skills at work", "reflective listening"]
+    },
+    "content": {
+      "intro": "Most active listening techniques taught in workshops make people sound like a customer service script. The versions that work are quieter: stop constructing your reply while they are still speaking, tolerate a pause, and ask one more question before responding. An hour of deliberate practice on those three changes conversations noticeably.",
+      "whyItWorks": "The main obstacle to listening is that formulating a response consumes the attention required to hear. Once you notice yourself doing it, the habit is interruptible. The pause matters for a related reason: people rarely say the important thing first, and the two seconds after they appear to finish is frequently where it arrives.",
+      "howTo": [
+        {
+          "step": "Notice when you start composing a reply",
+          "detail": "That moment is the whole skill. Catching it, even after the fact, is what builds the awareness to interrupt it."
+        },
+        {
+          "step": "Wait two seconds after they stop",
+          "detail": "Count silently. The most important sentence often arrives in that gap, and rushing in closes it permanently."
+        },
+        {
+          "step": "Ask one more question first",
+          "detail": "Before offering your view, ask something that goes deeper. Almost nobody does this and it is immediately noticeable."
+        },
+        {
+          "step": "Reflect back in your own words",
+          "detail": "\"So the real problem is the timeline, not the budget?\" Paraphrasing checks understanding; repeating verbatim just sounds strange."
+        },
+        {
+          "step": "Resist solving immediately",
+          "detail": "Ask whether they want help or a hearing. Solving an unfinished problem is the most common listening failure at work."
+        }
+      ],
+      "tips": [
+        "Take notes in meetings but not during emotional conversations. Writing signals attention in one context and detachment in the other.",
+        "Watch for the second explanation. When someone rephrases something unprompted, it usually matters more than the first version.",
+        "Practice on low-stakes conversations first. Trying this during a conflict is difficult and the results are hard to read."
+      ],
+      "variations": "If you manage people, practice specifically on the pause in one-to-ones, where seniority makes others yield the floor early. If you work in a customer-facing role, focus on the reflecting-back step, which reduces misunderstandings that are expensive to unwind later.",
+      "faq": [
+        {
+          "q": "What is active listening?",
+          "a": "Listening to understand rather than to reply, and demonstrating that understanding well enough that the speaker can correct you."
+        },
+        {
+          "q": "Doesn't paraphrasing sound artificial?",
+          "a": "Repeating verbatim does. Restating the substance in your own words sounds like ordinary attentive conversation, because it is."
+        },
+        {
+          "q": "How do I stop interrupting?",
+          "a": "Count two seconds after the other person stops. It feels excessive, is imperceptible to them, and prevents most interruptions."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 45,
+      "cost": "free",
+      "difficulty": "challenging",
+      "indoor": true,
+      "solo": false,
+      "equipment": ["notebook"]
+    },
+    "related": [
+      "learn-about-business-communication",
+      "ask-a-colleague-or-mentor-for-feedback",
+      "practice-negotiation-with-role-play-scenarios"
+    ]
+  },
+
+  "learn-basic-video-editing": {
+    "seo": {
+      "title": "Learn Basic Video Editing With One Short Clip",
+      "metaDescription": "Learn basic video editing by finishing one short piece end to end: trim, cut, add sound, fix levels and export. Free software does all of it.",
+      "primaryKeyword": "basic video editing",
+      "secondaryKeywords": ["free video editing software", "how to cut video", "video editing for beginners"]
+    },
+    "content": {
+      "intro": "Basic video editing looks intimidating because editing software presents fifty tools at once. In practice a competent short video needs four of them: trim, cut, audio levels, and export. Learning those on one real clip, start to finish, is achievable in an hour and demystifies the rest of the interface permanently.",
+      "whyItWorks": "Finishing something small teaches more than studying a large project, because the export step forces you through every stage including the tedious ones. Working on your own footage also means the material is familiar, so your attention goes to the tools rather than to deciding what the video is about. Both effects compress the learning considerably.",
+      "howTo": [
+        {
+          "step": "Shoot or find sixty seconds of footage",
+          "detail": "Your own phone video is ideal. Short enough to finish, real enough to care about the result."
+        },
+        {
+          "step": "Trim the dead ends first",
+          "detail": "Cut the first and last few seconds of every clip. This one habit improves amateur video more than any effect."
+        },
+        {
+          "step": "Cut on movement",
+          "detail": "Place cuts where something changes rather than during stillness. Cuts on motion are far less noticeable to a viewer."
+        },
+        {
+          "step": "Fix the audio levels",
+          "detail": "Bad audio is more noticeable than bad picture. Normalize levels and remove background hiss before touching anything visual."
+        },
+        {
+          "step": "Export and watch it once",
+          "detail": "Complete the round trip. Export settings are where beginners lose time, so hitting them early is deliberate."
+        }
+      ],
+      "tips": [
+        "Free editors handle everything at this level. Paid software buys speed and advanced features, not a better first project.",
+        "Keep the finished piece shorter than you think it should be. Almost every amateur video improves by losing a third.",
+        "Learn the timeline shortcuts early. Video editing is repetitive enough that mouse-only work becomes painfully slow."
+      ],
+      "variations": "If you are making tutorials or talking-head content, spend the hour on audio quality and pacing instead of visuals, since those determine whether people keep watching. If you want motion graphics, treat that as a separate skill and learn the cutting fundamentals first.",
+      "faq": [
+        {
+          "q": "What is the best free video editing software?",
+          "a": "Several capable free editors exist across platforms. At beginner level they are functionally equivalent; pick one and learn its timeline."
+        },
+        {
+          "q": "Does audio quality really matter more than video?",
+          "a": "Yes. Viewers tolerate mediocre picture readily and abandon bad audio quickly. Fix sound before spending time on visuals."
+        },
+        {
+          "q": "How long should my first project be?",
+          "a": "Under a minute. Long enough to require real cuts, short enough that you actually finish and export it."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "phone footage", "free editing software"]
+    },
+    "related": [
+      "learn-basic-photo-editing",
+      "learn-basic-graphic-design-principles",
+      "practice-public-speaking"
+    ]
+  },
+
+  "learn-data-visualization-basics": {
+    "seo": {
+      "title": "Learn Data Visualization Basics: Pick the Right Chart",
+      "metaDescription": "Data visualization basics that matter: choosing a chart type from the question, removing decoration, and never truncating an axis to exaggerate a change.",
+      "primaryKeyword": "data visualization basics",
+      "secondaryKeywords": ["which chart type to use", "misleading graphs", "chart design principles"]
+    },
+    "content": {
+      "intro": "Data visualization basics are less about software than about a single decision: what question is this chart answering? Comparison, composition, distribution, and change over time each have a natural chart type, and picking the wrong one is the most common reason a chart fails to communicate anything at all.",
+      "whyItWorks": "Charts are read pre-attentively, meaning the eye extracts the pattern before conscious thought engages. That is why encoding matters so much: length and position are read accurately, area and color intensity are not. Matching your question to an encoding people read well does most of the work, before any styling decisions arise.",
+      "howTo": [
+        {
+          "step": "Write the question the chart answers",
+          "detail": "One sentence. If you cannot state it, no chart type will rescue the visualisation."
+        },
+        {
+          "step": "Match the question to a form",
+          "detail": "Comparison uses bars, change over time uses lines, distribution uses histograms, relationship uses scatter plots. Composition is usually a bar too."
+        },
+        {
+          "step": "Remove everything decorative",
+          "detail": "Gridlines, borders, drop shadows, background fills. Every non-data element competes with the data for attention."
+        },
+        {
+          "step": "Start numeric axes at zero for bars",
+          "detail": "Truncating a bar axis exaggerates differences dramatically. Line charts showing change may legitimately do otherwise."
+        },
+        {
+          "step": "Label directly where you can",
+          "detail": "Put labels on the lines rather than in a legend. Every legend lookup costs the reader attention."
+        }
+      ],
+      "tips": [
+        "Avoid pie charts with more than three slices. People compare angles poorly, and a bar chart answers the same question better.",
+        "Use color to encode meaning, never for decoration. Check that the chart still works in greyscale.",
+        "Give the chart a title stating the finding, not the variables. \"Sales fell in Q3\" beats \"Sales by quarter\"."
+      ],
+      "variations": "If you present regularly, spend the hour building a small reusable template with your fonts and colors already set, which removes the styling decision permanently. If you consume more charts than you make, spend it learning to spot misleading axes and cherry-picked ranges instead.",
+      "faq": [
+        {
+          "q": "Which chart type should I use?",
+          "a": "Bars for comparison, lines for change over time, scatter for relationships, histograms for distribution. Start from the question, not the aesthetic."
+        },
+        {
+          "q": "Are pie charts always bad?",
+          "a": "Not always, but they are usually worse than a bar chart. With more than three categories they become genuinely hard to read."
+        },
+        {
+          "q": "Should the axis always start at zero?",
+          "a": "For bar charts, yes, since bar length encodes the value. Line charts showing change can reasonably use a narrower range."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "a dataset you care about"]
+    },
+    "related": [
+      "learn-a-new-excel-google-sheets-function",
+      "learn-about-business-analytics",
+      "learn-to-create-effective-presentations"
+    ]
+  },
+
+  "practice-speed-reading-techniques": {
+    "seo": {
+      "title": "Speed Reading Techniques: What Works and What Doesn't",
+      "metaDescription": "Most speed reading claims do not survive scrutiny. Learn the techniques that genuinely help, the tradeoff with comprehension, and when skimming is right.",
+      "primaryKeyword": "speed reading techniques",
+      "secondaryKeywords": ["how to read faster", "subvocalization", "skimming vs reading"]
+    },
+    "content": {
+      "intro": "Speed reading techniques are heavily oversold. The claims about thousands of words per minute with full comprehension do not hold up, and it is worth knowing that before spending money. What does work is more modest: better skimming, less regression, and choosing your reading speed deliberately rather than reading everything identically.",
+      "whyItWorks": "The largest realistic gains come from deciding what not to read closely. Most non-fiction contains a great deal of restatement, and a structured skim captures the argument at a fraction of the cost. Reducing regression, the habit of unconsciously re-reading the previous line, also gives a real improvement, and both are learnable in an hour.",
+      "howTo": [
+        {
+          "step": "Preview before reading",
+          "detail": "Read the contents, headings, first and last paragraphs. You often learn enough to skip large sections entirely."
+        },
+        {
+          "step": "Use a pointer to stop regression",
+          "detail": "Guide your eye with a finger or cursor. This reliably reduces unconscious re-reading, which costs more time than slow reading."
+        },
+        {
+          "step": "Read in chunks, not words",
+          "detail": "Take in three or four words per fixation. This is trainable and produces a genuine, if modest, improvement."
+        },
+        {
+          "step": "Match speed to purpose",
+          "detail": "Skim for gist, read closely for argument, study slowly for technical material. One speed for everything is the actual problem."
+        },
+        {
+          "step": "Test comprehension honestly",
+          "detail": "Summarise what you read from memory. Speed gains that destroy comprehension are not gains at all."
+        }
+      ],
+      "tips": [
+        "Eliminating subvocalisation is often oversold and can hurt comprehension on difficult text. Reduce it, do not fight it.",
+        "Reading speed is heavily topic-dependent. Familiar material reads several times faster than an unfamiliar field.",
+        "For dense technical material, slow reading with notes beats any speed technique available."
+      ],
+      "variations": "If your problem is volume rather than speed, spend the hour on triage instead: deciding what deserves reading at all is a larger lever than reading faster. If you read academic material, learn the structured skim used for papers, which is a specific and highly effective sequence.",
+      "faq": [
+        {
+          "q": "Does speed reading actually work?",
+          "a": "Modest improvements are real, particularly from better skimming and less regression. Claims of very high speeds with full comprehension do not hold up."
+        },
+        {
+          "q": "What is subvocalization?",
+          "a": "Silently pronouncing words as you read. Reducing it can help slightly, but suppressing it entirely tends to damage comprehension on hard text."
+        },
+        {
+          "q": "How fast should I read?",
+          "a": "It depends entirely on the material and your purpose. Reading everything at one speed is the more common and more costly mistake."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 45,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["a book or article", "a timer"]
+    },
+    "related": [
+      "improve-your-writing-skills-with-exercises",
+      "read-a-personal-development-book",
+      "learn-to-take-better-meeting-notes"
+    ]
+  },
+
+  "learn-project-management-fundamentals": {
+    "seo": {
+      "title": "Project Management Fundamentals Without the Certification",
+      "metaDescription": "The project management fundamentals that apply whatever the methodology: scope, dependencies, critical path, risk and the status update nobody has to decode.",
+      "primaryKeyword": "project management fundamentals",
+      "secondaryKeywords": ["critical path explained", "scope creep", "project risk register"]
+    },
+    "content": {
+      "intro": "Project management fundamentals are frequently buried under methodology arguments. Underneath agile, waterfall and everything in between sit a handful of ideas that apply universally: what is in scope, what depends on what, which chain determines the end date, and what could go wrong. An hour on those is enough to run something small competently.",
+      "whyItWorks": "Most project failures are not methodology failures. They come from undocumented scope, dependencies nobody mapped, and risks nobody named until they arrived. Learning to spot those three is far more valuable than adopting a framework, and it transfers to any framework you are later asked to use.",
+      "howTo": [
+        {
+          "step": "Write what is explicitly out of scope",
+          "detail": "The out list matters more than the in list. Undocumented exclusions are where scope creep enters every time."
+        },
+        {
+          "step": "List tasks and their dependencies",
+          "detail": "What cannot start until something else finishes. This mapping reveals the real sequence, which is rarely the obvious one."
+        },
+        {
+          "step": "Find the critical path",
+          "detail": "The longest chain of dependent tasks sets the end date. Speeding up anything off that path changes nothing."
+        },
+        {
+          "step": "Name five risks and an owner each",
+          "detail": "Not a formal register. Five plausible failures, each with a named person responsible for watching it."
+        },
+        {
+          "step": "Define what a status update contains",
+          "detail": "Agree the format upfront: what changed, what is blocked, what needs a decision. Three lines, consistently."
+        }
+      ],
+      "tips": [
+        "Estimate in ranges, not single numbers. A single-point estimate is a prediction; a range is honest information.",
+        "Update the plan when reality diverges. A plan defended against the facts is worse than no plan.",
+        "Identify the decision-maker before you need one. Ambiguous ownership is what turns a small delay into a large one."
+      ],
+      "variations": "If you already run projects informally, spend the hour on the risk step alone, which is the most commonly skipped and the highest return. If you are considering a certification, do this first and then judge whether the formal framework adds anything for your context.",
+      "faq": [
+        {
+          "q": "Do I need a certification to manage projects?",
+          "a": "Not to do it well. Certifications help in organizations that require them, but the fundamentals matter more than the qualification."
+        },
+        {
+          "q": "What is the critical path?",
+          "a": "The longest sequence of dependent tasks. Its length is the minimum project duration, and only shortening it moves the end date."
+        },
+        {
+          "q": "How do I prevent scope creep?",
+          "a": "Write down what is explicitly excluded at the start, and require a visible decision to change it. Undocumented scope is where creep lives."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["notebook or document"]
+    },
+    "related": [
+      "study-design-thinking-principles",
+      "learn-about-business-communication",
+      "create-a-to-do-list-for-the-week"
+    ]
+  },
+
+  "study-design-thinking-principles": {
+    "seo": {
+      "title": "Design Thinking Principles, Run on a Real Problem",
+      "metaDescription": "Design thinking principles make sense only when applied. Run the five stages on an annoyance in your own life and see where the method actually bites.",
+      "primaryKeyword": "design thinking principles",
+      "secondaryKeywords": ["design thinking stages", "empathy mapping", "problem framing"]
+    },
+    "content": {
+      "intro": "Design thinking principles read as either obvious or vacuous when studied abstractly, which is why so many workshops fail to land. Applied to a real irritation in your own life for an hour, the method does something specific and slightly uncomfortable: it stops you jumping to the solution you had already decided on before starting.",
+      "whyItWorks": "The value sits almost entirely in the define stage. Most people begin with a solution and work backwards to justify it. Forcing a reframe of the problem statement, and generating options past the first plausible one, is what surfaces alternatives that would otherwise never have been considered. The remaining stages mostly protect that reframing from being discarded.",
+      "howTo": [
+        {
+          "step": "Pick a real annoyance",
+          "detail": "Something small and genuine from your own week. Hypothetical problems produce hypothetical insight and nothing else."
+        },
+        {
+          "step": "Empathise before defining",
+          "detail": "Ask who else experiences this and how. Even for personal problems, other perspectives reframe it faster than reflection does."
+        },
+        {
+          "step": "Write the problem three different ways",
+          "detail": "Same situation, three framings. The third is usually more useful than the first, which is the entire point."
+        },
+        {
+          "step": "Generate twenty ideas, including bad ones",
+          "detail": "Quantity deliberately over quality. The obvious solutions appear first and block the interesting ones behind them."
+        },
+        {
+          "step": "Prototype the cheapest version",
+          "detail": "Paper, a mock-up, a conversation. Something testable today rather than something impressive next month."
+        }
+      ],
+      "tips": [
+        "Separate generating ideas from judging them. Evaluating while generating reliably kills the unconventional options first.",
+        "Test with someone who is not you. Self-testing confirms your assumptions rather than exposing them.",
+        "Expect to loop back. The stages are not sequential in practice, whatever the diagram implies."
+      ],
+      "variations": "If you work in a team, run the reframing step together and compare problem statements, since divergence there usually explains disagreements about the solution. If you find the vocabulary off-putting, ignore it entirely and just do the reframe-and-generate steps; the terminology is not the method.",
+      "faq": [
+        {
+          "q": "What are the stages of design thinking?",
+          "a": "Empathise, define, ideate, prototype, test. In practice they loop rather than run in sequence, whatever the diagrams suggest."
+        },
+        {
+          "q": "Is design thinking only for designers?",
+          "a": "No. The reframing and option-generation steps apply to any problem where the obvious solution might not be the right one."
+        },
+        {
+          "q": "What is the most important stage?",
+          "a": "Define. Most of the value comes from reframing the problem, and most of the failures come from skipping straight to solutions."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["paper", "sticky notes"]
+    },
+    "related": [
+      "learn-project-management-fundamentals",
+      "learn-basic-graphic-design-principles",
+      "learn-about-cognitive-biases"
+    ]
+  },
+
+  "practice-mental-math-tricks": {
+    "seo": {
+      "title": "Practice Mental Math Tricks You'll Use Every Week",
+      "metaDescription": "Mental math tricks worth knowing: percentages, tipping, doubling and halving, and rough estimation good enough to catch a wrong number instantly.",
+      "primaryKeyword": "mental math tricks",
+      "secondaryKeywords": ["calculate percentages in your head", "quick estimation techniques", "mental arithmetic practice"]
+    },
+    "content": {
+      "intro": "The mental math tricks worth an hour are not the party pieces about squaring three-digit numbers. They are the everyday ones: percentages, rough division, doubling and halving, and estimation accurate enough to notice when a number on a screen is wrong. That last one is the real payoff and it applies constantly at work.",
+      "whyItWorks": "Estimation acts as an error check on everything else. When you can approximate a total in your head, an incorrect spreadsheet figure or an implausible statistic announces itself immediately. The specific techniques are minor; the habit of forming an expectation before looking at the answer is what makes the skill valuable.",
+      "howTo": [
+        {
+          "step": "Learn the ten percent anchor",
+          "detail": "Move the decimal point one place. Every other percentage is built by doubling, halving and adding from there."
+        },
+        {
+          "step": "Use the percentage reversal trick",
+          "detail": "Four percent of fifty equals fifty percent of four. Swapping the numbers often turns a hard sum into an obvious one."
+        },
+        {
+          "step": "Round aggressively, then correct",
+          "detail": "Turn 47 times 6 into 50 times 6 minus 3 times 6. Rounding first is how almost all mental arithmetic works."
+        },
+        {
+          "step": "Double and halve to simplify",
+          "detail": "16 times 25 becomes 8 times 50 becomes 4 times 100. Rebalancing the factors makes many products trivial."
+        },
+        {
+          "step": "Estimate before you calculate",
+          "detail": "Form a rough expectation, then check. This habit is what catches wrong answers, and it is the point of the whole exercise."
+        }
+      ],
+      "tips": [
+        "Practice on real numbers as they appear: receipts, mileage, invoices. Contextual practice sticks far better than drills.",
+        "Order-of-magnitude accuracy is usually sufficient. Being roughly right immediately beats being exactly right later.",
+        "Learn the common fraction and percentage equivalents. Recognizing an eighth as twelve and a half percent saves constant recalculation."
+      ],
+      "variations": "If you work with data, focus the hour on order-of-magnitude estimation and sanity-checking, which is where the professional value is concentrated. If you want the recreational version, calendar tricks and squaring shortcuts are enjoyable and mostly useless, which is a perfectly good reason to learn them.",
+      "faq": [
+        {
+          "q": "How do I calculate percentages in my head?",
+          "a": "Find ten percent by moving the decimal, then double, halve and add. Almost every percentage decomposes into those operations."
+        },
+        {
+          "q": "Is mental math still useful with phones everywhere?",
+          "a": "Yes, mainly for catching errors. Estimation tells you instantly when a calculated or displayed number cannot be right."
+        },
+        {
+          "q": "How do I work out a tip quickly?",
+          "a": "Take ten percent, then halve it and add for fifteen, or double it for twenty. No other technique is needed."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 30,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["notebook"]
+    },
+    "related": [
+      "play-with-a-compound-interest-calculator",
+      "learn-data-visualization-basics",
+      "practice-speed-reading-techniques"
+    ]
+  },
+
+  "learn-the-basics-of-ai-tools-and-prompting": {
+    "seo": {
+      "title": "Learn AI Tools and Prompting by Testing, Not Reading",
+      "metaDescription": "Learn AI tools and prompting through experiment: give context and constraints, iterate rather than perfect, and check output in areas you know well.",
+      "primaryKeyword": "AI tools and prompting",
+      "secondaryKeywords": ["how to write better prompts", "AI hallucination", "using AI at work"]
+    },
+    "content": {
+      "intro": "Learning AI tools and prompting from lists of magic phrases is a dead end, because the phrases stop working and were never the mechanism anyway. An hour spent experimenting on tasks where you can judge the output teaches far more, because it shows you where these systems are reliable and where they confidently are not.",
+      "whyItWorks": "The prompts that work well share structural features rather than magic words: relevant context, an explicit constraint, a stated audience, and an example of what good looks like. Testing in a domain you know is what makes those features visible, and it is also the only way to calibrate how often the output is subtly wrong.",
+      "howTo": [
+        {
+          "step": "Start with a task you can grade",
+          "detail": "Something in your own field. If you cannot judge the answer, you cannot learn anything about the tool's reliability."
+        },
+        {
+          "step": "Give context before instruction",
+          "detail": "Who it is for, what it is for, what constraints apply. Underspecified requests produce generic output, which is the usual complaint."
+        },
+        {
+          "step": "Show an example of good",
+          "detail": "One sample of the style or format you want. Examples convey more than several paragraphs of description."
+        },
+        {
+          "step": "Iterate rather than perfect",
+          "detail": "Send something short, then refine based on the response. Crafting a perfect first prompt wastes time."
+        },
+        {
+          "step": "Deliberately check for errors",
+          "detail": "Ask for something you can verify precisely. Finding a confident, wrong answer early calibrates your trust correctly."
+        }
+      ],
+      "tips": [
+        "Never paste confidential or personal data into a tool without checking your organization's policy first.",
+        "Verify citations, statistics and quotes independently. Fabricated references are the most common and most damaging failure mode.",
+        "Ask for reasoning alongside the answer. It is easier to spot a flawed argument than a wrong conclusion."
+      ],
+      "variations": "If you already use these tools daily, spend the hour building reusable prompt templates for your three most repeated tasks, which compounds far better than ad hoc prompting. If you are evaluating tools for a team, test them all on one identical realistic task rather than reading comparisons.",
+      "faq": [
+        {
+          "q": "What makes a good prompt?",
+          "a": "Context, a clear constraint, a stated audience, and an example of the output you want. Structure matters more than phrasing."
+        },
+        {
+          "q": "Why does AI make things up?",
+          "a": "These systems generate plausible text rather than retrieving verified facts. Confident, fabricated detail is a known failure mode, so verify anything checkable."
+        },
+        {
+          "q": "Is it safe to use AI tools for work?",
+          "a": "Depends on your data and your employer's policy. Check both before pasting anything confidential, since some tools retain inputs."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer"]
+    },
+    "related": [
+      "learn-basic-coding-concepts",
+      "improve-your-writing-skills-with-exercises",
+      "learn-about-business-analytics"
+    ]
+  },
+
+  "learn-to-take-better-meeting-notes": {
+    "seo": {
+      "title": "Take Better Meeting Notes Worth Reading Later",
+      "metaDescription": "Better meeting notes capture decisions and owners, not transcripts. Learn a structure that takes less effort during the meeting and far more value after.",
+      "primaryKeyword": "better meeting notes",
+      "secondaryKeywords": ["meeting notes template", "how to capture action items", "decision log"]
+    },
+    "content": {
+      "intro": "Taking better meeting notes usually means writing considerably less. Transcription feels productive and produces documents nobody opens. What people actually need afterwards is three things: what was decided, who owns what, and what remains unresolved. Capturing only those takes less effort during the meeting and produces something worth rereading.",
+      "whyItWorks": "Notes that record discussion require you to listen and transcribe simultaneously, which degrades both. Listening for decisions instead is a filtering task rather than a capture task, so it leaves attention available to actually participate. The output is also shorter, which is the difference between notes that get read and notes that get archived unread.",
+      "howTo": [
+        {
+          "step": "Use three headings only",
+          "detail": "Decisions, actions, open questions. Set them up before the meeting starts so you are sorting rather than writing."
+        },
+        {
+          "step": "Write a name next to every action",
+          "detail": "An action without an owner does not happen. If nobody is named, ask before the meeting ends."
+        },
+        {
+          "step": "Capture decisions, not discussion",
+          "detail": "What was concluded and why, in one line. The debate that preceded it is almost never needed later."
+        },
+        {
+          "step": "Log unresolved questions explicitly",
+          "detail": "These are the most valuable and least recorded item, because they are what stalls the project next week."
+        },
+        {
+          "step": "Send within the hour",
+          "detail": "Notes sent the next day are already superseded by half-remembered versions. Same-day sending is what makes them authoritative."
+        }
+      ],
+      "tips": [
+        "Read the actions aloud in the last two minutes. Disagreement about who owns what surfaces immediately.",
+        "Keep a running decision log across meetings. The question of why something was decided recurs constantly.",
+        "If a transcription tool is recording, use it for recall and still write the decisions yourself. Filtering is the value."
+      ],
+      "variations": "If you chair the meeting, delegate the notes and focus on running it, since doing both badly is the common outcome. If the meeting is a one-to-one, keep a shared running document instead, which builds context over time in a way separate notes cannot.",
+      "faq": [
+        {
+          "q": "Should I write down everything that was said?",
+          "a": "No. Transcripts are rarely reread. Capture decisions, owners and open questions, which is what people actually need afterwards."
+        },
+        {
+          "q": "Who should take the meeting notes?",
+          "a": "Ideally not the person running the meeting. Chairing and note-taking compete for the same attention and both suffer."
+        },
+        {
+          "q": "How quickly should notes be sent?",
+          "a": "Same day, ideally within the hour. After that, people's own recollections have already diverged and become fixed."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 30,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": false,
+      "equipment": ["notebook or laptop"]
+    },
+    "related": [
+      "learn-markdown-for-faster-note-taking",
+      "practice-active-listening-techniques",
+      "learn-project-management-fundamentals"
+    ]
+  },
+
+  "learn-basic-graphic-design-principles": {
+    "seo": {
+      "title": "Learn Graphic Design Principles Non-Designers Can Use",
+      "metaDescription": "Four graphic design principles fix most amateur layouts: alignment, proximity, contrast and repetition. Learn them once and every document improves.",
+      "primaryKeyword": "graphic design principles",
+      "secondaryKeywords": ["design for non-designers", "alignment and whitespace", "font pairing basics"]
+    },
+    "content": {
+      "intro": "Four graphic design principles account for most of the visible difference between amateur and professional layouts: alignment, proximity, contrast and repetition. None require artistic ability and all are checkable rather than intuitive. An hour learning them improves every document, slide and poster you make afterwards, permanently.",
+      "whyItWorks": "Amateur layouts usually fail on mechanics rather than taste. Elements almost aligned, related items placed apart, timid contrast that reads as indecision, and inconsistent styling. Each of these is a rule violation you can check deliberately, which is why non-designers improve so quickly once they know what to look for.",
+      "howTo": [
+        {
+          "step": "Align everything to something",
+          "detail": "Every element should share an edge with another element on the page. Almost-aligned looks far worse than deliberately offset, and it is the commonest amateur flaw."
+        },
+        {
+          "step": "Group by proximity",
+          "detail": "Related items close together, unrelated items far apart. Spacing communicates relationships before anyone reads a word."
+        },
+        {
+          "step": "Make contrast decisive",
+          "detail": "If two things differ, make them differ clearly. Slightly different sizes or weights read as a mistake."
+        },
+        {
+          "step": "Repeat your choices",
+          "detail": "Same heading style, same spacing, same colors throughout. Consistency is what makes a document feel designed."
+        },
+        {
+          "step": "Add more whitespace than feels right",
+          "detail": "Crowding is the most common amateur signal, and the easiest to fix. Empty space is a design element in itself, not wasted room."
+        }
+      ],
+      "tips": [
+        "Limit yourself to two typefaces and three colors. Constraint produces better results than choice at this level.",
+        "Check contrast for accessibility. Text failing contrast standards is unreadable for a meaningful share of your audience.",
+        "Squint at your layout. Blurring the detail makes the structural problems immediately obvious, because you stop reading and start seeing shapes."
+      ],
+      "variations": "If you mainly make documents, spend the hour building a template with your styles predefined, so the principles are applied by default. If you make things for screens, add a pass on hierarchy at small sizes, since phone layouts punish weak contrast far more than print does.",
+      "faq": [
+        {
+          "q": "What are the basic principles of graphic design?",
+          "a": "Alignment, proximity, contrast and repetition. Applying those four consistently fixes the majority of amateur layout problems."
+        },
+        {
+          "q": "How many fonts should I use?",
+          "a": "Two is plenty: one for headings, one for body text. More than three almost always looks unconsidered."
+        },
+        {
+          "q": "Do I need design software?",
+          "a": "No. These principles apply in word processors and slide tools. The rules matter far more than the software."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer"]
+    },
+    "related": [
+      "learn-to-create-effective-presentations",
+      "learn-basic-photo-editing",
+      "learn-data-visualization-basics"
+    ]
+  },
+
+  "practice-negotiation-with-role-play-scenarios": {
+    "seo": {
+      "title": "Practice Negotiation Role-Play Before It Counts",
+      "metaDescription": "Role-play negotiation scenarios out loud so the real conversation is not your first attempt. Prepare positions, rehearse the awkward moments, swap sides.",
+      "primaryKeyword": "practice negotiation role-play",
+      "secondaryKeywords": ["negotiation scenarios to practice", "BATNA explained", "how to negotiate confidently"]
+    },
+    "content": {
+      "intro": "Negotiation is a performance skill, which means reading about it transfers poorly. When you practice negotiation role-play out loud, you discover that the sentences you had planned are much harder to say than to write, particularly the ones involving a number and then silence. That discovery is cheap in rehearsal and expensive in the room.",
+      "whyItWorks": "Rehearsal builds a verbal pattern that survives the pressure of the real conversation, in the same way it does for interviews or presentations. Swapping sides adds something else: arguing the counterparty's position surfaces the objections you had not anticipated, which is exactly the information that would otherwise arrive at the worst possible moment.",
+      "howTo": [
+        {
+          "step": "Define your walk-away point first",
+          "detail": "Know your best alternative before rehearsing. Negotiating without one is why people concede more than they intended."
+        },
+        {
+          "step": "Write the other side's case",
+          "detail": "Genuinely, not as a straw man. Their strongest argument is what you most need to have practiced answering."
+        },
+        {
+          "step": "Rehearse aloud with a partner",
+          "detail": "A friend or colleague playing the counterparty. Solo rehearsal misses the interruptions and unexpected questions entirely."
+        },
+        {
+          "step": "Swap roles and run it again",
+          "detail": "Arguing their side reveals the weak points in yours faster than any amount of preparation from your own perspective."
+        },
+        {
+          "step": "Practice holding the silence",
+          "detail": "State a number and say nothing. This is the single hardest moment and the one most worth rehearsing."
+        }
+      ],
+      "tips": [
+        "Separate the people from the problem. Attacking the position rather than the person keeps the relationship usable afterwards.",
+        "Ask questions before making proposals. What they need is often different from what they first asked for.",
+        "Rehearse your response to a flat no. Being surprised by it is what produces unnecessary concessions."
+      ],
+      "variations": "If no partner is available, record both sides yourself in turn, which is awkward and still substantially better than silent preparation. If the negotiation is about salary specifically, rehearse only the two or three moments that matter rather than the whole conversation.",
+      "faq": [
+        {
+          "q": "What is a BATNA?",
+          "a": "Your best alternative to a negotiated agreement, meaning what happens if you walk away. Knowing it determines how much pressure you can absorb."
+        },
+        {
+          "q": "Can I practice negotiation alone?",
+          "a": "Partially. Recording yourself helps, but a partner introduces the unexpected questions that make rehearsal genuinely useful."
+        },
+        {
+          "q": "What if I hate confrontation?",
+          "a": "Most negotiation is not confrontational. Framing it as joint problem-solving, and rehearsing the awkward moments, removes much of the discomfort."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "challenging",
+      "indoor": true,
+      "solo": false,
+      "equipment": ["a willing partner", "notebook"]
+    },
+    "related": [
+      "learn-about-salary-negotiation-techniques",
+      "practice-active-listening-techniques",
+      "practice-public-speaking"
+    ]
+  },
+
+  "learn-markdown-for-faster-note-taking": {
+    "seo": {
+      "title": "Learn Markdown in Twenty Minutes, Use It Forever",
+      "metaDescription": "Markdown takes twenty minutes to learn and works in notes apps, chat, documentation and code repositories. Structure text without touching a mouse.",
+      "primaryKeyword": "learn Markdown",
+      "secondaryKeywords": ["Markdown syntax cheat sheet", "plain text note taking", "Markdown vs Word"]
+    },
+    "content": {
+      "intro": "Markdown is one of the highest-return things you can learn in twenty minutes. It is a small set of plain-text conventions for headings, lists, links and emphasis, and it means you never lift your hands from the keyboard to format anything. Learn Markdown once and it works across notes apps, chat tools and documentation.",
+      "whyItWorks": "Formatting with a mouse breaks the flow of writing, which is why notes taken in word processors tend to be either unstructured or slow. Markdown removes the interruption entirely. The files also stay readable as plain text forever, with no dependence on the application that created them, which matters more than people expect over a decade.",
+      "howTo": [
+        {
+          "step": "Learn headings and lists first",
+          "detail": "Hash symbols for headings, hyphens for bullets. These two cover the overwhelming majority of everyday note structure."
+        },
+        {
+          "step": "Add emphasis and links",
+          "detail": "Asterisks for bold and italic, square brackets and parentheses for links. That is essentially the whole core syntax."
+        },
+        {
+          "step": "Practice in a live preview editor",
+          "detail": "Seeing the rendered output beside your text teaches the syntax in minutes rather than through memorisation."
+        },
+        {
+          "step": "Take one real set of notes",
+          "detail": "Use it for an actual meeting or article today. The syntax becomes automatic after roughly one genuine session."
+        },
+        {
+          "step": "Learn tables and code blocks last",
+          "detail": "Useful but fiddly, and needed far less often. Add them once the basics require no thought at all."
+        }
+      ],
+      "tips": [
+        "Most chat and issue tools already accept Markdown. You are probably able to use it today without installing anything.",
+        "Plain text files survive application changes. Anything you write in Markdown will still be readable in twenty years.",
+        "Keep a cheat sheet open for the first week. The core syntax stops needing it almost immediately."
+      ],
+      "variations": "If you already know the basics, spend the hour setting up a linked note system, where Markdown files reference each other and build a genuine knowledge base. If you write documentation, learn your platform's extensions for callouts and diagrams, which vary between tools.",
+      "faq": [
+        {
+          "q": "How long does Markdown take to learn?",
+          "a": "The core syntax takes about twenty minutes and becomes automatic within a week of real use. It is unusually small."
+        },
+        {
+          "q": "Where can I use Markdown?",
+          "a": "Notes apps, chat tools, issue trackers, documentation sites and code repositories. Support is close to universal in technical tools."
+        },
+        {
+          "q": "Is it better than a word processor?",
+          "a": "For notes and structured text, usually. For page layout and print formatting, a word processor remains the right tool."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 30,
+      "cost": "free",
+      "difficulty": "easy",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "a Markdown editor or notes app"]
+    },
+    "related": [
+      "learn-to-take-better-meeting-notes",
+      "learn-keyboard-shortcuts-for-your-os",
+      "create-a-document-naming-convention-system"
+    ]
+  },
+
+  "learn-about-business-analytics": {
+    "seo": {
+      "title": "Learn Business Analytics: Questions Before Dashboards",
+      "metaDescription": "Business analytics starts with asking a decidable question. Learn the difference between a metric and a number, and why most dashboards change nothing.",
+      "primaryKeyword": "business analytics",
+      "secondaryKeywords": ["what is a KPI", "vanity metrics", "data driven decisions"]
+    },
+    "content": {
+      "intro": "Most business analytics effort produces dashboards nobody acts on. The failure happens before any tooling is involved: the question was never phrased so that an answer would change a decision. An hour spent on question framing and the difference between a useful metric and a flattering one is worth more than an hour learning any analytics platform.",
+      "whyItWorks": "A metric earns its place only if some value of it would make you do something different. Applying that test eliminates most of what organizations routinely track. Understanding the distinction between leading and lagging indicators does the rest, because lagging numbers tell you what already happened while leading ones let you intervene.",
+      "howTo": [
+        {
+          "step": "Write a question that changes a decision",
+          "detail": "\"Which channel should we stop funding?\" beats \"how is marketing performing?\" The first has consequences attached."
+        },
+        {
+          "step": "Apply the so-what test",
+          "detail": "For each metric, name what you would do if it doubled or halved. If nothing, it does not belong on the dashboard."
+        },
+        {
+          "step": "Separate leading from lagging",
+          "detail": "Revenue is lagging. Trial signups are leading. Only leading indicators give you time to change the outcome."
+        },
+        {
+          "step": "Check the denominator",
+          "detail": "Absolute counts flatter and mislead. Rates and per-unit figures are usually the honest version of the same number."
+        },
+        {
+          "step": "Look for the confounder",
+          "detail": "Before believing a change caused a result, ask what else changed at the same time. Usually something did."
+        }
+      ],
+      "tips": [
+        "Be suspicious of any metric that only ever goes up. Cumulative totals are vanity metrics by construction.",
+        "Segment before concluding. An average hides two opposite trends more often than it reveals one real one.",
+        "Write down what you expect before looking. Prediction first is how you avoid explaining any result after the fact."
+      ],
+      "variations": "If you already frame questions well, spend the hour on experiment design instead, since correlation is where most business analysis quietly goes wrong. If you are building a dashboard, halve the number of metrics on it; almost every dashboard improves by deletion.",
+      "faq": [
+        {
+          "q": "What makes a good business metric?",
+          "a": "One where a change would cause you to act differently. If no value of it changes a decision, it is decoration."
+        },
+        {
+          "q": "What is a vanity metric?",
+          "a": "A number that looks impressive and drives no decision, typically a cumulative total that can only increase over time."
+        },
+        {
+          "q": "Do I need to learn a specific analytics tool?",
+          "a": "Eventually, but the framing skills transfer between tools and matter more. Tool knowledge without good questions produces unused dashboards."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 60,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer", "notebook"]
+    },
+    "related": [
+      "learn-data-visualization-basics",
+      "learn-a-new-excel-google-sheets-function",
+      "learn-about-cognitive-biases"
+    ]
+  },
+
+  "learn-about-business-communication": {
+    "seo": {
+      "title": "Business Communication: Say the Point First",
+      "metaDescription": "Better business communication is mostly structure. Lead with the conclusion, state what you need, and choose the right channel for the message.",
+      "primaryKeyword": "business communication",
+      "secondaryKeywords": ["how to write a clear work email", "BLUF writing", "communicating with senior stakeholders"]
+    },
+    "content": {
+      "intro": "Most business communication problems are structural rather than stylistic. The point arrives in the final paragraph, the ask is implied rather than stated, and a decision that needed a five-minute conversation is attempted across eleven emails. An hour on structure and channel choice fixes more than any amount of work on tone.",
+      "whyItWorks": "Readers at work skim, and they skim from the top. Putting the conclusion first means the essential information survives that skim, while a chronological build-up loses it entirely. Stating the ask explicitly does something similar for action: implied requests get acknowledged and not done, because nobody is quite sure they were being asked.",
+      "howTo": [
+        {
+          "step": "Lead with the conclusion",
+          "detail": "First sentence states the outcome or the request. Background comes after, for whoever needs it."
+        },
+        {
+          "step": "State the ask explicitly",
+          "detail": "\"I need a decision on X by Thursday.\" Implied requests are the single largest source of stalled work."
+        },
+        {
+          "step": "Choose the channel deliberately",
+          "detail": "Disagreement and nuance go on a call. Decisions and records go in writing. Mismatching these creates most of the friction."
+        },
+        {
+          "step": "Write the subject line last",
+          "detail": "Once you know what the message actually says, the subject writes itself and tells the reader whether to open it now."
+        },
+        {
+          "step": "Cut it by a third",
+          "detail": "Every work email survives losing a third of its words. Shorter messages get read and answered sooner."
+        }
+      ],
+      "tips": [
+        "Adjust altitude for your audience. Senior readers want the decision and the risk; peers usually want the detail.",
+        "If a thread passes four messages, switch to a call. Text is a poor medium for resolving genuine disagreement.",
+        "Never send difficult messages while annoyed. Draft, wait an hour, then reread before sending."
+      ],
+      "variations": "If most of your communication is written updates, spend the hour building a standard format for them, since consistency reduces the reading cost for everyone. If you present to senior stakeholders, practice compressing a full argument into three sentences, which is the format that actually gets heard.",
+      "faq": [
+        {
+          "q": "How do I write clearer work emails?",
+          "a": "Put the conclusion and the request in the first two sentences, then supporting detail. Write the subject line last."
+        },
+        {
+          "q": "When should I call instead of writing?",
+          "a": "When there is disagreement, ambiguity, or emotion involved. Writing is for records and decisions, not for resolving conflict."
+        },
+        {
+          "q": "How much detail do senior stakeholders want?",
+          "a": "Usually less than you think: the decision needed, the risk, and the recommendation. Detail belongs in an appendix or on request."
+        }
+      ]
+    },
+    "meta": {
+      "timeMinutes": 45,
+      "cost": "free",
+      "difficulty": "moderate",
+      "indoor": true,
+      "solo": true,
+      "equipment": ["computer"]
+    },
+    "related": [
+      "improve-your-writing-skills-with-exercises",
+      "practice-active-listening-techniques",
+      "learn-to-create-effective-presentations"
+    ]
+  }
+}
