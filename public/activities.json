@@ -1183,7 +1183,14 @@
             "watch-clouds-and-find-shapes-in-them",
             "have-a-picnic-in-a-scenic-spot",
             "skim-stones-at-a-lake-or-river"
-          ]
+          ],
+          "image": "/images/activities/fly-a-kite-in-an-open-field.jpg",
+          "credit": {
+            "photographer": "Rohan Gangopadhyay",
+            "photographerUrl": "https://unsplash.com/@rohan_gangopadhyay",
+            "photoUrl": "https://unsplash.com/photos/children-flying-kites-on-a-grassy-hill-near-a-building-3KeSB9eCh5Q",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Watch clouds and find shapes in them",
@@ -1259,7 +1266,14 @@
             "sit-outside-and-just-listen-for-ten-minutes",
             "fly-a-kite-in-an-open-field",
             "watch-the-sunrise-or-sunset-outdoors"
-          ]
+          ],
+          "image": "/images/activities/watch-clouds-and-find-shapes-in-them.jpg",
+          "credit": {
+            "photographer": "CHUTTERSNAP",
+            "photographerUrl": "https://unsplash.com/@chuttersnap",
+            "photoUrl": "https://unsplash.com/photos/clouds-during-daytime-M2-_GRvWWg0",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Plant something in a pot or garden",
@@ -1337,7 +1351,14 @@
             "visit-a-botanical-garden",
             "collect-natural-treasures-for-a-display",
             "create-a-diy-home-decoration"
-          ]
+          ],
+          "image": "/images/activities/plant-something-in-a-pot-or-garden.jpg",
+          "credit": {
+            "photographer": "Sandie Clarke",
+            "photographerUrl": "https://unsplash.com/@honeypoppet",
+            "photoUrl": "https://unsplash.com/photos/hands-planting-seedlings-in-garden-soil-q13Zq1Jufks",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Skim stones at a lake or river",
@@ -1414,7 +1435,14 @@
             "collect-natural-treasures-for-a-display",
             "fly-a-kite-in-an-open-field",
             "have-a-picnic-in-a-scenic-spot"
-          ]
+          ],
+          "image": "/images/activities/skim-stones-at-a-lake-or-river.jpg",
+          "credit": {
+            "photographer": "Sam Barber",
+            "photographerUrl": "https://unsplash.com/@milltownphotography",
+            "photoUrl": "https://unsplash.com/photos/brown-rocks-on-lake-during-daytime-jpvytpATuDE",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Walk a new route through your neighborhood",
@@ -1491,7 +1519,14 @@
             "visit-a-local-park-you-ve-never-been-to",
             "learn-about-local-history",
             "try-geocaching-in-your-area"
-          ]
+          ],
+          "image": "/images/activities/walk-a-new-route-through-your-neighborhood.jpg",
+          "credit": {
+            "photographer": "Maxim Klimashin",
+            "photographerUrl": "https://unsplash.com/@maxim_klimashin",
+            "photoUrl": "https://unsplash.com/photos/people-crossing-a-street-with-cars-and-trees-M4xA9YPZ1HY",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Collect natural treasures for a display",
@@ -1570,7 +1605,14 @@
             "plant-something-in-a-pot-or-garden",
             "take-a-walk-in-a-nearby-park-and-observe-nature",
             "create-a-diy-home-decoration"
-          ]
+          ],
+          "image": "/images/activities/collect-natural-treasures-for-a-display.jpg",
+          "credit": {
+            "photographer": "Kae Anderson",
+            "photographerUrl": "https://unsplash.com/@kae",
+            "photoUrl": "https://unsplash.com/photos/yellow-and-green-leaves-on-gray-wooden-surface-rDIoK0bhB8c",
+            "source": "Unsplash"
+          }
         }
       ],
       "content": {
@@ -2766,7 +2808,14 @@
             "learn-to-read-basic-music-notation",
             "build-a-focus-practice-for-deep-work",
             "try-sound-bath-meditation"
-          ]
+          ],
+          "image": "/images/activities/make-a-playlist-for-a-specific-mood.jpg",
+          "credit": {
+            "photographer": "Ilias Chebbi",
+            "photographerUrl": "https://unsplash.com/@ilias_cgb",
+            "photoUrl": "https://unsplash.com/photos/man-in-black-nike-hoodie-wearing-black-headphones-2gpfqhEFVZ8",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Take ten creative photos of ordinary objects",
@@ -2843,7 +2892,14 @@
             "learn-basic-photography-composition",
             "try-outdoor-photography",
             "sketch-or-doodle-something-creative"
-          ]
+          ],
+          "image": "/images/activities/take-ten-creative-photos-of-ordinary-objects.jpg",
+          "credit": {
+            "photographer": "Ricardo Díaz",
+            "photographerUrl": "https://unsplash.com/@rdiazcaris",
+            "photoUrl": "https://unsplash.com/photos/a-bag-full-of-nuts-next-to-a-bottle-of-wine-sIb32S4ZrkE",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Write a letter to a friend by hand",
@@ -2922,7 +2978,14 @@
             "write-a-thank-you-note-to-someone",
             "design-your-own-greeting-card",
             "reconnect-with-a-former-colleague"
-          ]
+          ],
+          "image": "/images/activities/write-a-letter-to-a-friend-by-hand.jpg",
+          "credit": {
+            "photographer": "Towfiqu barbhuiya",
+            "photographerUrl": "https://unsplash.com/@towfiqu999999",
+            "photoUrl": "https://unsplash.com/photos/a-pen-sitting-on-top-of-a-piece-of-paper-6FpGIdn45_A",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Try blackout poetry with an old newspaper",
@@ -3000,7 +3063,14 @@
             "write-a-short-poem-or-haiku",
             "create-a-collage-from-magazine-cutouts",
             "write-a-short-story"
-          ]
+          ],
+          "image": "/images/activities/try-blackout-poetry-with-an-old-newspaper.jpg",
+          "credit": {
+            "photographer": "AbsolutVision",
+            "photographerUrl": "https://unsplash.com/@codzilla_swiss",
+            "photoUrl": "https://unsplash.com/photos/business-newspaper-article-WYd_PkCa1BY",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Paint kindness rocks to leave around town",
@@ -3079,7 +3149,14 @@
             "create-a-diy-home-decoration",
             "try-pottery-or-clay-sculpting",
             "give-three-genuine-compliments-today"
-          ]
+          ],
+          "image": "/images/activities/paint-kindness-rocks-to-leave-around-town.jpg",
+          "credit": {
+            "photographer": "Nick Fewings",
+            "photographerUrl": "https://unsplash.com/@jannerboy62",
+            "photoUrl": "https://unsplash.com/photos/happy-birthday-to-you-heart-shaped-party-favor-0ogq3xndxG0",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Start a doodle-a-day challenge",
@@ -3157,7 +3234,14 @@
             "sketch-or-doodle-something-creative",
             "learn-about-habit-formation-science",
             "do-some-people-sketching-in-a-public-place"
-          ]
+          ],
+          "image": "/images/activities/start-a-doodle-a-day-challenge.jpg",
+          "credit": {
+            "photographer": "Koushik Chowdavarapu",
+            "photographerUrl": "https://unsplash.com/@koushikc",
+            "photoUrl": "https://unsplash.com/photos/shallow-focus-photography-of-person-drawing-QNj_dwdljY8",
+            "source": "Unsplash"
+          }
         }
       ],
       "content": {
@@ -4340,7 +4424,14 @@
             "listen-to-an-educational-podcast-episode",
             "learn-about-astronomy",
             "learn-a-new-skill-from-a-youtube-tutorial"
-          ]
+          ],
+          "image": "/images/activities/watch-a-documentary-on-a-brand-new-topic.jpg",
+          "credit": {
+            "photographer": "CardMapr.nl",
+            "photographerUrl": "https://unsplash.com/@cardmapr",
+            "photoUrl": "https://unsplash.com/photos/a-man-sitting-on-a-couch-reading-a-book-EPgOui-gYYs",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Learn the phonetic alphabet",
@@ -4416,7 +4507,14 @@
             "learn-morse-code-basics",
             "learn-basic-phrases-in-a-new-language",
             "practice-typing-speed-exercises"
-          ]
+          ],
+          "image": "/images/activities/learn-the-phonetic-alphabet.jpg",
+          "credit": {
+            "photographer": "Kuan L",
+            "photographerUrl": "https://unsplash.com/@kliao12",
+            "photoUrl": "https://unsplash.com/photos/black-and-gray-motorcycle-engine-iAMSavxPGfY",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Learn to read basic music notation",
@@ -4493,7 +4591,14 @@
             "make-a-playlist-for-a-specific-mood",
             "learn-the-phonetic-alphabet",
             "learn-basic-calligraphy"
-          ]
+          ],
+          "image": "/images/activities/learn-to-read-basic-music-notation.jpg",
+          "credit": {
+            "photographer": "weston m",
+            "photographerUrl": "https://unsplash.com/@shootnmatch",
+            "photoUrl": "https://unsplash.com/photos/musical-notes-on-white-paper-3pCRW_JRKM8",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Explore your family tree online",
@@ -4571,7 +4676,14 @@
             "interview-an-older-relative-about-their-life",
             "learn-about-local-history",
             "digitize-important-paper-documents"
-          ]
+          ],
+          "image": "/images/activities/explore-your-family-tree-online.jpg",
+          "credit": {
+            "photographer": "Laura Fuhrman",
+            "photographerUrl": "https://unsplash.com/@lauracathleen",
+            "photoUrl": "https://unsplash.com/photos/person-opening-photo-album-displaying-grayscale-photos-73OJLcahQHg",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Learn Morse code basics",
@@ -4648,7 +4760,14 @@
             "learn-the-phonetic-alphabet",
             "learn-basic-phrases-in-a-new-language",
             "learn-to-read-basic-music-notation"
-          ]
+          ],
+          "image": "/images/activities/learn-morse-code-basics.jpg",
+          "credit": {
+            "photographer": "Reza Amiri",
+            "photographerUrl": "https://unsplash.com/@reza_amiri",
+            "photoUrl": "https://unsplash.com/photos/an-antique-telegraph-machine-on-a-wooden-board-k9rwcGU_NcY",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Listen to an educational podcast episode",
@@ -4725,7 +4844,14 @@
             "watch-a-documentary-on-a-brand-new-topic",
             "learn-a-new-skill-from-a-youtube-tutorial",
             "take-a-brisk-30-minute-walk"
-          ]
+          ],
+          "image": "/images/activities/listen-to-an-educational-podcast-episode.jpg",
+          "credit": {
+            "photographer": "Ana Achim",
+            "photographerUrl": "https://unsplash.com/@anachim",
+            "photoUrl": "https://unsplash.com/photos/a-man-wearing-headphones-and-looking-at-his-cell-phone-Wee8GWe035g",
+            "source": "Unsplash"
+          }
         }
       ],
       "content": {
@@ -5918,7 +6044,14 @@
             "make-your-own-infused-water",
             "prep-healthy-snacks-for-the-week",
             "try-a-new-recipe-with-ingredients-you-have-at-home"
-          ]
+          ],
+          "image": "/images/activities/make-a-smoothie-with-a-new-ingredient.jpg",
+          "credit": {
+            "photographer": "Element5 Digital",
+            "photographerUrl": "https://unsplash.com/@element5digital",
+            "photoUrl": "https://unsplash.com/photos/photo-of-three-orange-fruits-acrBf9BlfvE",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Hold a blind taste test with snacks",
@@ -5997,7 +6130,14 @@
             "try-a-new-type-of-cheese",
             "learn-proper-wine-tasting-techniques",
             "try-a-new-type-of-tea-or-coffee"
-          ]
+          ],
+          "image": "/images/activities/hold-a-blind-taste-test-with-snacks.jpg",
+          "credit": {
+            "photographer": "Michel Stockman",
+            "photographerUrl": "https://unsplash.com/@michelstock",
+            "photoUrl": "https://unsplash.com/photos/a-table-topped-with-bowls-of-food-and-bowls-of-cereal-BTEAShfQP6A",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Make homemade pizza from scratch",
@@ -6075,7 +6215,14 @@
             "make-homemade-pasta",
             "try-a-new-type-of-bread-or-pastry",
             "host-a-themed-dinner-party"
-          ]
+          ],
+          "image": "/images/activities/make-homemade-pizza-from-scratch.jpg",
+          "credit": {
+            "photographer": "Aldward Castillo",
+            "photographerUrl": "https://unsplash.com/@aldwardcv31",
+            "photoUrl": "https://unsplash.com/photos/a-person-kneading-dough-on-top-of-a-table-GRscJs-cnro",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Brew coffee with a method you've never used",
@@ -6154,7 +6301,14 @@
             "try-a-new-type-of-tea-or-coffee",
             "learn-about-different-types-of-tea",
             "hold-a-blind-taste-test-with-snacks"
-          ]
+          ],
+          "image": "/images/activities/brew-coffee-with-a-method-you-ve-never-used.jpg",
+          "credit": {
+            "photographer": "Karl Fredrickson",
+            "photographerUrl": "https://unsplash.com/@kfred",
+            "photoUrl": "https://unsplash.com/photos/person-filling-glass-container-TYIzeCiZ_60",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Make a no-bake dessert",
@@ -6232,7 +6386,14 @@
             "make-homemade-ice-cream",
             "bake-cookies-from-scratch",
             "host-a-themed-dinner-party"
-          ]
+          ],
+          "image": "/images/activities/make-a-no-bake-dessert.jpg",
+          "credit": {
+            "photographer": "Alexandra Khudyntseva",
+            "photographerUrl": "https://unsplash.com/@sannka",
+            "photoUrl": "https://unsplash.com/photos/strawberry-cake-on-white-ceramic-plate-u95_MqFUaQg",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Invent your own signature sandwich",
@@ -6310,7 +6471,14 @@
             "try-a-new-recipe-with-ingredients-you-have-at-home",
             "prep-healthy-snacks-for-the-week",
             "have-a-picnic-in-a-scenic-spot"
-          ]
+          ],
+          "image": "/images/activities/invent-your-own-signature-sandwich.jpg",
+          "credit": {
+            "photographer": "Grace O'Driscoll",
+            "photographerUrl": "https://unsplash.com/@gwg_photography",
+            "photoUrl": "https://unsplash.com/photos/person-holding-green-vegetable-and-brown-bread-_ODVlLRQoTk",
+            "source": "Unsplash"
+          }
         }
       ],
       "content": {
@@ -7489,7 +7657,14 @@
             "do-some-finger-painting",
             "start-a-doodle-a-day-challenge",
             "try-your-hand-at-watercolor-painting"
-          ]
+          ],
+          "image": "/images/activities/try-mindful-coloring.jpg",
+          "credit": {
+            "photographer": "Customerbox",
+            "photographerUrl": "https://unsplash.com/@customerbox",
+            "photoUrl": "https://unsplash.com/photos/person-holding-brown-wooden-pencil-O6qSPPWezLI",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Try candle gazing meditation",
@@ -7567,7 +7742,14 @@
             "meditate-for-10-15-minutes",
             "practice-mindfulness-for-focus",
             "try-sound-bath-meditation"
-          ]
+          ],
+          "image": "/images/activities/try-candle-gazing-meditation.jpg",
+          "credit": {
+            "photographer": "David Tomaseti",
+            "photographerUrl": "https://unsplash.com/@dtomaseti",
+            "photoUrl": "https://unsplash.com/photos/close-up-of-lighted-candle-AaZlf5FgUws",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Do gentle stretching with slow breathing",
@@ -7644,7 +7826,14 @@
             "do-a-guided-stretching-session",
             "learn-proper-stretching-techniques",
             "practice-progressive-muscle-relaxation"
-          ]
+          ],
+          "image": "/images/activities/do-gentle-stretching-with-slow-breathing.jpg",
+          "credit": {
+            "photographer": "THLT LCX",
+            "photographerUrl": "https://unsplash.com/@thlt_lcx",
+            "photoUrl": "https://unsplash.com/photos/woman-in-white-shirt-lying-on-red-mat-on-brown-wooden-table-893qZckG6I4",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Sit outside and just listen for ten minutes",
@@ -7720,7 +7909,14 @@
             "do-a-sensory-awareness-exercise",
             "watch-clouds-and-find-shapes-in-them",
             "try-forest-bathing-shinrin-yoku"
-          ]
+          ],
+          "image": "/images/activities/sit-outside-and-just-listen-for-ten-minutes.jpg",
+          "credit": {
+            "photographer": "Aaron Burden",
+            "photographerUrl": "https://unsplash.com/@aaronburden",
+            "photoUrl": "https://unsplash.com/photos/brown-wooden-bench-under-shade-of-tree-during-daytime-Zl8zGdnNcP8",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Write down your worries, then set them aside",
@@ -7797,7 +7993,14 @@
             "practice-journaling-for-self-reflection",
             "practice-stress-management",
             "create-a-sleep-improvement-plan"
-          ]
+          ],
+          "image": "/images/activities/write-down-your-worries-then-set-them-aside.jpg",
+          "credit": {
+            "photographer": "Aaron Burden",
+            "photographerUrl": "https://unsplash.com/@aaronburden",
+            "photoUrl": "https://unsplash.com/photos/pen-on-white-lined-paper-selective-focus-photography-CKlHKtCJZKk",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Do one task slowly with full attention",
@@ -7873,7 +8076,14 @@
             "practice-mindfulness-for-focus",
             "do-a-sensory-awareness-exercise",
             "track-every-expense-for-one-day"
-          ]
+          ],
+          "image": "/images/activities/do-one-task-slowly-with-full-attention.jpg",
+          "credit": {
+            "photographer": "Georg Niggli",
+            "photographerUrl": "https://unsplash.com/@gniggli",
+            "photoUrl": "https://unsplash.com/photos/a-cup-of-tea-being-poured-into-a-teapot-vCdC4Tz-dFU",
+            "source": "Unsplash"
+          }
         }
       ],
       "content": {
@@ -8743,7 +8953,14 @@
             "write-a-letter-to-a-friend-by-hand",
             "give-three-genuine-compliments-today",
             "write-down-10-things-you-re-grateful-for"
-          ]
+          ],
+          "image": "/images/activities/write-a-thank-you-note-to-someone.jpg",
+          "credit": {
+            "photographer": "Kelly Sikkema",
+            "photographerUrl": "https://unsplash.com/@kellysikkema",
+            "photoUrl": "https://unsplash.com/photos/thanks-paper-and-black-pen-on-wood-surface-fvpgfw3IF1w",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Plan a surprise for a friend or family member",
@@ -8819,7 +9036,14 @@
             "write-a-thank-you-note-to-someone",
             "design-your-own-greeting-card",
             "call-an-old-friend-you-haven-t-spoken-to-in-a-while"
-          ]
+          ],
+          "image": "/images/activities/plan-a-surprise-for-a-friend-or-family-member.jpg",
+          "credit": {
+            "photographer": "Kira auf der Heide",
+            "photographerUrl": "https://unsplash.com/@kadh",
+            "photoUrl": "https://unsplash.com/photos/person-showing-brown-gift-box-IPx7J1n_xUc",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Interview an older relative about their life",
@@ -8897,7 +9121,14 @@
             "explore-your-family-tree-online",
             "learn-about-local-history",
             "digitize-important-paper-documents"
-          ]
+          ],
+          "image": "/images/activities/interview-an-older-relative-about-their-life.jpg",
+          "credit": {
+            "photographer": "Vitaly Gariev",
+            "photographerUrl": "https://unsplash.com/@silverkblack",
+            "photoUrl": "https://unsplash.com/photos/grandmother-and-granddaughter-sharing-breakfast-at-table-znxxhOIQtIE",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Give three genuine compliments today",
@@ -8973,7 +9204,14 @@
             "do-a-loving-kindness-meditation",
             "write-a-thank-you-note-to-someone",
             "strike-up-a-conversation-with-a-neighbor"
-          ]
+          ],
+          "image": "/images/activities/give-three-genuine-compliments-today.jpg",
+          "credit": {
+            "photographer": "Priscilla Du Preez 🇨🇦",
+            "photographerUrl": "https://unsplash.com/@priscilladupreez",
+            "photoUrl": "https://unsplash.com/photos/people-laughing-and-talking-outside-during-daytime-nF8xhLMmg0c",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Plan a weekend trip with friends",
@@ -9050,7 +9288,14 @@
             "write-a-packing-checklist-template-for-trips",
             "start-a-bucket-list-of-lifetime-goals",
             "organize-a-game-night-with-friends"
-          ]
+          ],
+          "image": "/images/activities/plan-a-weekend-trip-with-friends.jpg",
+          "credit": {
+            "photographer": "Glenn Carstens-Peters",
+            "photographerUrl": "https://unsplash.com/@glenncarstenspeters",
+            "photoUrl": "https://unsplash.com/photos/person-writing-on-white-paper-ZWD3Dx6aUJg",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Strike up a conversation with a neighbor",
@@ -9126,7 +9371,14 @@
             "organize-a-neighborhood-clean-up",
             "give-three-genuine-compliments-today",
             "walk-a-new-route-through-your-neighborhood"
-          ]
+          ],
+          "image": "/images/activities/strike-up-a-conversation-with-a-neighbor.jpg",
+          "credit": {
+            "photographer": "Vitaly Gariev",
+            "photographerUrl": "https://unsplash.com/@silverkblack",
+            "photoUrl": "https://unsplash.com/photos/two-women-walking-with-coffee-cups-XyG5lOIF74Q",
+            "source": "Unsplash"
+          }
         }
       ],
       "content": {
@@ -9990,7 +10242,14 @@
             "try-puzzle-games-like-sudoku",
             "play-word-association-games",
             "take-an-online-trivia-quiz"
-          ]
+          ],
+          "image": "/images/activities/do-a-crossword-puzzle.jpg",
+          "credit": {
+            "photographer": "Ross Sneddon",
+            "photographerUrl": "https://unsplash.com/@rosssneddon",
+            "photoUrl": "https://unsplash.com/photos/person-holding-white-and-black-paper-IMaQN8ib31Q",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Start a jigsaw puzzle",
@@ -10068,7 +10327,14 @@
             "try-puzzle-games-like-sudoku",
             "do-a-crossword-puzzle",
             "try-mindful-coloring"
-          ]
+          ],
+          "image": "/images/activities/start-a-jigsaw-puzzle.jpg",
+          "credit": {
+            "photographer": "Ross Sneddon",
+            "photographerUrl": "https://unsplash.com/@rosssneddon",
+            "photoUrl": "https://unsplash.com/photos/person-holding-jigsaw-puzzle-piece-sWlDOWk0Jp8",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Play twenty questions with someone",
@@ -10144,7 +10410,14 @@
             "play-word-association-games",
             "play-charades-with-friends",
             "take-an-online-trivia-quiz"
-          ]
+          ],
+          "image": "/images/activities/play-twenty-questions-with-someone.jpg",
+          "credit": {
+            "photographer": "Ninthgrid",
+            "photographerUrl": "https://unsplash.com/@ninthgrid_",
+            "photoUrl": "https://unsplash.com/photos/a-couple-of-women-sitting-on-top-of-a-white-couch-rjnIYeC6rmA",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Take an online trivia quiz",
@@ -10221,7 +10494,14 @@
             "watch-a-documentary-on-a-brand-new-topic",
             "try-geoguessr-online",
             "play-twenty-questions-with-someone"
-          ]
+          ],
+          "image": "/images/activities/take-an-online-trivia-quiz.jpg",
+          "credit": {
+            "photographer": "Miquel Parera",
+            "photographerUrl": "https://unsplash.com/@miquel_parera_mila",
+            "photoUrl": "https://unsplash.com/photos/text-yB7ghV4dSa4",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Learn a new solitaire variation",
@@ -10297,7 +10577,14 @@
             "learn-a-new-card-game",
             "try-puzzle-games-like-sudoku",
             "play-chess-against-a-computer"
-          ]
+          ],
+          "image": "/images/activities/learn-a-new-solitaire-variation.jpg",
+          "credit": {
+            "photographer": "Marin Tulard",
+            "photographerUrl": "https://unsplash.com/@mtulard",
+            "photoUrl": "https://unsplash.com/photos/person-holding-king-of-spade-playing-card-9sbO_vzyG40",
+            "source": "Unsplash"
+          }
         },
         {
           "name": "Replay a classic video game from your childhood",
@@ -10373,7 +10660,14 @@
             "play-brain-training-games",
             "try-a-new-board-game",
             "make-a-playlist-for-a-specific-mood"
-          ]
+          ],
+          "image": "/images/activities/replay-a-classic-video-game-from-your-childhood.jpg",
+          "credit": {
+            "photographer": "Lorenzo Herrera",
+            "photographerUrl": "https://unsplash.com/@lorenzoherrera",
+            "photoUrl": "https://unsplash.com/photos/vintage-gray-game-console-and-joystick-p0j-mE6mGo4",
+            "source": "Unsplash"
+          }
         }
       ],
       "content": {

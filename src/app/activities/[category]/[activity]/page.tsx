@@ -163,6 +163,28 @@ export default async function ActivityPage({ params }: PageProps) {
                   className="absolute inset-0 w-full h-full"
                 />
               )}
+              {activity.credit && (
+                <p className="absolute bottom-0 right-0 px-2 py-1 text-[11px] leading-none text-white/90 bg-black/40 rounded-tl-md">
+                  Photo by{" "}
+                  <a
+                    href={creditUrl(activity.credit.photographerUrl)}
+                    target="_blank"
+                    rel="nofollow noopener"
+                    className="underline"
+                  >
+                    {activity.credit.photographer}
+                  </a>{" "}
+                  on{" "}
+                  <a
+                    href={creditUrl(activity.credit.photoUrl)}
+                    target="_blank"
+                    rel="nofollow noopener"
+                    className="underline"
+                  >
+                    {activity.credit.source}
+                  </a>
+                </p>
+              )}
             </div>
             <div className="p-6 md:p-8">
               <Link
@@ -329,6 +351,15 @@ export default async function ActivityPage({ params }: PageProps) {
       <Footer />
     </div>
   );
+}
+
+/**
+ * Stock libraries ask that attribution links carry referral parameters so they
+ * can credit the traffic back to the photographer. Links are nofollow: two
+ * outbound links on every one of these pages is not equity we want to pass.
+ */
+function creditUrl(url: string): string {
+  return `${url}${url.includes("?") ? "&" : "?"}utm_source=fungen&utm_medium=referral`;
 }
 
 /**
