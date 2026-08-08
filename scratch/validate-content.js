@@ -229,6 +229,42 @@ for (const { activity, category } of targets) {
   }
 }
 
+// --- category hub content (plan.md §6) -------------------------------------
+for (const cat of categories) {
+  if (!cat.content) continue;
+  const where = `category:${cat.slug}`;
+  const { intro, body } = cat.content;
+
+  if (!intro || !body) {
+    fail(where, "content needs both intro and body");
+    continue;
+  }
+
+  const wc = words(`${intro} ${body}`).length;
+  if (wc < WORD_MIN || wc > WORD_MAX)
+    fail(where, `hub content is ${wc} words (need ${WORD_MIN}-${WORD_MAX})`);
+
+  const paragraphs = body.split("\n\n");
+  if (paragraphs.length < 4)
+    fail(where, `body has ${paragraphs.length} paragraphs (need at least 4)`);
+
+  for (const [re, correct] of BRITISH_SPELLINGS) {
+    const hit = `${intro} ${body}`.match(re);
+    if (hit) fail(where, `British spelling "${hit[0]}" — use "${correct}"`);
+  }
+
+  // Hub copy must not reuse sentences from the activity pages beneath it.
+  for (const raw of `${intro} ${body}`.split(/(?<=[.!?])\s+/)) {
+    const s = normalize(raw);
+    if (words(s).length <= 12) continue;
+    if (sentenceOwner.has(s) && sentenceOwner.get(s) !== where) {
+      fail(where, `duplicate sentence shared with ${sentenceOwner.get(s)}`);
+    } else {
+      sentenceOwner.set(s, where);
+    }
+  }
+}
+
 // --- image existence (all activities, not just written ones) ---------------
 for (const { activity, category } of allActivities) {
   if (!activity.image) continue;
