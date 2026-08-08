@@ -6,6 +6,7 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { BackToTop } from "@/components/BackToTop";
 import { ActivityActions } from "@/components/ActivityActions";
+import { ActivityHeroFallback } from "@/components/ActivityHeroFallback";
 import { JsonLd } from "@/components/JsonLd";
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -48,13 +49,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       ? [activity.seo.primaryKeyword, ...activity.seo.secondaryKeywords]
       : undefined,
     alternates: { canonical: url },
-    openGraph: {
-      title,
-      description,
-      url,
-      type: "article",
-      images: activity.image ? [{ url: activity.image, alt: activity.name }] : undefined,
-    },
+    // No explicit openGraph.images: setting the key suppresses the file-based
+    // opengraph-image convention, and the generated card is a better social
+    // preview than a photo cropped to 1200x630.
+    openGraph: { title, description, url, type: "article" },
     twitter: { card: "summary_large_image", title, description },
   };
 }
@@ -148,8 +146,8 @@ export default async function ActivityPage({ params }: PageProps) {
         <article className="max-w-3xl mx-auto">
           {/* Hero */}
           <header className="bg-white/90 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl border border-white/20 mb-8">
-            {activity.image && (
-              <div className="relative w-full h-56 md:h-72">
+            <div className="relative w-full h-56 md:h-72">
+              {activity.image ? (
                 <Image
                   src={activity.image}
                   alt={`${activity.seo?.primaryKeyword ?? activity.name}`}
@@ -158,8 +156,14 @@ export default async function ActivityPage({ params }: PageProps) {
                   sizes="(max-width: 768px) 100vw, 768px"
                   className="object-cover"
                 />
-              </div>
-            )}
+              ) : (
+                <ActivityHeroFallback
+                  categorySlug={category.slug}
+                  activitySlug={activity.slug}
+                  className="absolute inset-0 w-full h-full"
+                />
+              )}
+            </div>
             <div className="p-6 md:p-8">
               <Link
                 href={`/activities/${category.slug}`}

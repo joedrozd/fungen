@@ -1,10 +1,11 @@
 # Content Expansion & SEO Plan — fungen.app
 
-> **Status: Phases 1–3 complete.** All 264 activities and all 14 category hubs are
-> written, merged and passing validation. **110,071 words** shipped against the
-> ~110,000 target. Static pages went from 21 to 292; the sitemap from 21 to 285 URLs.
-> Remaining: the 42 activities with no `image` (§11.10), which needs images produced,
-> and the post-launch monitoring in Phase 4.
+> **Status: complete.** All 264 activities and all 14 category hubs are written,
+> merged and passing validation. **110,071 words** shipped against the ~110,000
+> target. Static routes went from 21 to 570; the sitemap from 21 to 285 URLs.
+> Every page under `/activities` now has an Open Graph image and a hero visual.
+> Outstanding: real photographs for 42 activities (spec in [IMAGE-BRIEF.md](IMAGE-BRIEF.md))
+> and post-deployment Search Console monitoring.
 
 **Goal:** expand every one of the **264 activities** from a ~16-word blurb to a **~400-word, SEO-targeted body of text**, and ship it in a way Google can actually index.
 
@@ -23,7 +24,7 @@ Writing 400 words per activity is the easy half. The site as built cannot rank o
 | **No per-activity URL exists** | — | 264 pieces of content have nowhere to live. 400 words × 20 activities = **8,000 words crammed onto one category page**, which is unrankable and unreadable. |
 | Sitemap lists 14 category URLs only | [sitemap.ts](src/app/sitemap.ts#L33) | Nothing for the 264 new pages. |
 | `<img>` raw tags, no `next/image` | [page.tsx](src/app/activities/[category]/page.tsx#L191) | CLS + LCP penalties on Core Web Vitals. |
-| 42 of 264 activities have no `image` field | [public/images/activities/](public/images/activities/) | Those pages render without a hero image. (The other 222 all resolve to real files across `public/images/activities/` and `public/activities/`.) |
+| 42 of 264 activities have no `image` field | [public/images/activities/](public/images/activities/) | ~~Those pages render without a hero image.~~ **Resolved** by a generated SVG hero; real photos still wanted, see [IMAGE-BRIEF.md](IMAGE-BRIEF.md). |
 
 **Decision: the 400 words go on new per-activity static pages, not on category pages.** Phase 1 below builds that route. Skip it and the content work is wasted.
 
@@ -204,7 +205,7 @@ Per batch: write content → run the validator (§8) → build → commit → de
 The 14 category expansions from §6.
 
 ### Phase 4 — Polish
-1. ⬜ Commission/generate the **42 missing images**; every hero image needs keyword-bearing alt text. *(Not done — needs images produced.)*
+1. 🟡 The **42 activities with no photograph** now render a deterministic SVG hero ([ActivityHeroFallback](src/components/ActivityHeroFallback.tsx)) instead of nothing, and every activity and category page has a generated Open Graph card ([opengraph-image.tsx](src/app/activities/[category]/[activity]/opengraph-image.tsx)). Real photographs still need commissioning — see [IMAGE-BRIEF.md](IMAGE-BRIEF.md) for the spec and the list.
 2. ✅ Related-activities blocks and breadcrumbs ship on every activity page (Phase 1).
 3. ✅ `llms.txt` is now **generated** at [src/app/llms.txt/route.ts](src/app/llms.txt/route.ts) from the activity data, listing all 264 activity URLs. The hand-maintained `public/llms.txt` was deleted because it could drift; the route cannot.
 4. ⬜ Submit updated sitemap; monitor Search Console coverage + Core Web Vitals. *(Post-deployment.)*
@@ -237,7 +238,9 @@ The 14 category expansions from §6.
 | Pages with unique title + meta description | 7 | 285 | ✅ 285 |
 | Server-rendered activity text | 0% | 100% | ✅ 100% |
 | Avg. words per activity body | — | 380–440 | ✅ 396 |
-| Activities with a hero image | 222 | 264 | ⬜ 222 |
+| Activities with a hero visual | 222 | 264 | ✅ 264 (222 photo, 42 generated) |
+| Activities with a real photograph | 222 | 264 | 🟡 222 — see IMAGE-BRIEF.md |
+| Pages with an Open Graph image | 222 | 278 | ✅ 278 |
 | Organic sessions | baseline | 5–8× | ⏳ post-launch |
 
 ---

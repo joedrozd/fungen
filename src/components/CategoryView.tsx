@@ -11,6 +11,7 @@ import { SocialShare } from "@/components/SocialShare";
 import { BackToTop } from "@/components/BackToTop";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
+import { ActivityHeroFallback } from "@/components/ActivityHeroFallback";
 import { useToast } from "@/components/Toast";
 import { useUserPreferences } from "@/hooks/useUserPreferences";
 
@@ -103,8 +104,8 @@ export function CategoryView({
                 >
                   <CardContent className="p-0">
                     <div className="flex flex-col md:flex-row">
-                      {activity.image && (
-                        <Link href={href} className="md:w-48 md:shrink-0 relative h-40 md:h-auto">
+                      <Link href={href} className="md:w-48 md:shrink-0 relative h-40 md:h-auto">
+                        {activity.image ? (
                           <Image
                             src={activity.image}
                             alt={activity.name}
@@ -112,8 +113,14 @@ export function CategoryView({
                             sizes="(max-width: 768px) 100vw, 192px"
                             className="object-cover"
                           />
-                        </Link>
-                      )}
+                        ) : (
+                          <ActivityHeroFallback
+                            categorySlug={categorySlug}
+                            activitySlug={activity.slug}
+                            className="absolute inset-0 w-full h-full"
+                          />
+                        )}
+                      </Link>
                       <div className="flex-1 p-4">
                         <div className="flex items-center justify-between gap-4">
                           <div className="flex-1">
