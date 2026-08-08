@@ -1,5 +1,11 @@
 # Content Expansion & SEO Plan — fungen.app
 
+> **Status: Phases 1–3 complete.** All 264 activities and all 14 category hubs are
+> written, merged and passing validation. **110,071 words** shipped against the
+> ~110,000 target. Static pages went from 21 to 292; the sitemap from 21 to 285 URLs.
+> Remaining: the 42 activities with no `image` (§11.10), which needs images produced,
+> and the post-launch monitoring in Phase 4.
+
 **Goal:** expand every one of the **264 activities** from a ~16-word blurb to a **~400-word, SEO-targeted body of text**, and ship it in a way Google can actually index.
 
 **Current state:** 264 activities across 14 categories in two JSON files. Every activity has `name`, `description` (10–22 words), `image`. Total on-site activity copy today: ~4,300 words. After this plan: **~110,000 words**.
@@ -198,10 +204,10 @@ Per batch: write content → run the validator (§8) → build → commit → de
 The 14 category expansions from §6.
 
 ### Phase 4 — Polish
-1. Commission/generate the **42 missing images**; every hero image needs keyword-bearing alt text.
-2. Add "Related activities" blocks and a breadcrumb component.
-3. Update [public/llms.txt](public/llms.txt) to list the new URL structure.
-4. Submit updated sitemap; monitor Search Console coverage + Core Web Vitals.
+1. ⬜ Commission/generate the **42 missing images**; every hero image needs keyword-bearing alt text. *(Not done — needs images produced.)*
+2. ✅ Related-activities blocks and breadcrumbs ship on every activity page (Phase 1).
+3. ✅ `llms.txt` is now **generated** at [src/app/llms.txt/route.ts](src/app/llms.txt/route.ts) from the activity data, listing all 264 activity URLs. The hand-maintained `public/llms.txt` was deleted because it could drift; the route cannot.
+4. ⬜ Submit updated sitemap; monitor Search Console coverage + Core Web Vitals. *(Post-deployment.)*
 
 ---
 
@@ -224,14 +230,15 @@ The 14 category expansions from §6.
 
 ## 9. Success criteria
 
-| Metric | Now | Target (6 months post-launch) |
-|---|---|---|
-| Indexable pages | 21 | 285 |
-| Total indexed words | ~4,300 | ~110,000 |
-| Pages with unique title + meta description | 7 | 285 |
-| Server-rendered activity text | 0% | 100% |
-| Organic sessions | baseline | 5–8× |
-| Avg. words per indexable page | ~205 | ~400 |
+| Metric | Before | Target | Actual |
+|---|---|---|---|
+| Indexable pages | 21 | 285 | ✅ 285 (292 static routes) |
+| Total indexed words | ~4,300 | ~110,000 | ✅ 110,071 |
+| Pages with unique title + meta description | 7 | 285 | ✅ 285 |
+| Server-rendered activity text | 0% | 100% | ✅ 100% |
+| Avg. words per activity body | — | 380–440 | ✅ 396 |
+| Activities with a hero image | 222 | 264 | ⬜ 222 |
+| Organic sessions | baseline | 5–8× | ⏳ post-launch |
 
 ---
 
