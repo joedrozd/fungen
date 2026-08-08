@@ -14,7 +14,8 @@ const WORD_MAX = 440;
 // plan.md §4 rule 5 — the site standardizes on American spelling. Written
 // content drifts British easily, so this is checked rather than trusted.
 const BRITISH_SPELLINGS = [
-  [/\borganis\w*/i, "organiz-"],
+  // Not \borganis\w* — that swallows "organism(s)", correct in both.
+  [/\borganis(e|es|ed|ing|ation|ations)\b/i, "organiz-"],
   [/\brecognis\w*/i, "recogniz-"],
   [/\bcategoris\w*/i, "categoriz-"],
   [/\bprioritis\w*/i, "prioritiz-"],
