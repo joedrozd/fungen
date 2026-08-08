@@ -58,7 +58,7 @@
               },
               {
                 "q": "Should I include a summary section?",
-                "a": "Only if it says something a recruiter cannot get from your job titles. Three sharp lines about your specialism beat a paragraph of adjectives."
+                "a": "Only if it says something a recruiter cannot get from your job titles. Three sharp lines about your specialty beat a paragraph of adjectives."
               },
               {
                 "q": "Do I need to tailor it for every application?",
@@ -104,7 +104,7 @@
             "whyItWorks": "Recruiters search LinkedIn by skill and title, not by career narrative. Your headline and skills list determine whether you appear at all; your photo and first two lines of the about section determine whether anyone stops. Those four elements sit above the fold and take an hour to fix, while the job history below them barely moves the needle.",
             "howTo": [
               {
-                "step": "Rewrite the headline as role plus specialism",
+                "step": "Rewrite the headline as role plus specialty",
                 "detail": "\"Data Analyst\" is invisible. \"Data Analyst - retail forecasting, SQL and dbt\" matches how people actually search."
               },
               {
@@ -257,7 +257,7 @@
           },
           "content": {
             "intro": "Most leadership principles you will read about are unfalsifiable. \"Lead by example\" cannot be tested and cannot be practiced. An hour is enough to skip past that layer and find the handful of ideas that are specific enough to change what you actually say in your next conversation with someone.",
-            "whyItWorks": "Leadership improves through repetition of small behaviours, not through insight. Reading broadly gives you vocabulary; picking one principle and using it fifteen times gives you a habit. The hour is well spent because it ends with a decision about what to practice, which is the step almost everyone skips after finishing a business book.",
+            "whyItWorks": "Leadership improves through repetition of small behaviors, not through insight. Reading broadly gives you vocabulary; picking one principle and using it fifteen times gives you a habit. The hour is well spent because it ends with a decision about what to practice, which is the step almost everyone skips after finishing a business book.",
             "howTo": [
               {
                 "step": "Pick one situation you handle badly",
@@ -268,8 +268,8 @@
                 "detail": "Search for that specific situation rather than \"leadership.\" Forty minutes on delegation beats forty minutes of general principles."
               },
               {
-                "step": "Extract the behaviour, not the theory",
-                "detail": "Write down the exact sentence you would say differently. Situational leadership is a theory; \"what does done look like to you?\" is a behaviour."
+                "step": "Extract the behavior, not the theory",
+                "detail": "Write down the exact sentence you would say differently. Situational leadership is a theory; \"what does done look like to you?\" is a behavior."
               },
               {
                 "step": "Find the next real occasion",
@@ -277,7 +277,7 @@
               },
               {
                 "step": "Review after three attempts",
-                "detail": "Note what happened. Three data points tell you whether to keep the behaviour, adjust the wording, or drop it entirely."
+                "detail": "Note what happened. Three data points tell you whether to keep the behavior, adjust the wording, or drop it entirely."
               }
             ],
             "tips": [
@@ -289,7 +289,7 @@
             "faq": [
               {
                 "q": "Do I need to be a manager for this to be useful?",
-                "a": "No. Most leadership behaviours are about clarity and follow-through, which apply to anyone running a project, a team, or a volunteer group."
+                "a": "No. Most leadership behaviors are about clarity and follow-through, which apply to anyone running a project, a team, or a volunteer group."
               },
               {
                 "q": "Which leadership book should I start with?",
@@ -297,7 +297,7 @@
               },
               {
                 "q": "How long until I see a difference?",
-                "a": "Usually a few weeks of deliberate repetition on a single behaviour. Trying to change five things at once reliably produces no change at all."
+                "a": "Usually a few weeks of deliberate repetition on a single behavior. Trying to change five things at once reliably produces no change at all."
               }
             ]
           },
@@ -335,7 +335,7 @@
           },
           "content": {
             "intro": "A career roadmap is not a promotion ladder. Drawn well it is a description of the working life you want, with the job titles arriving as consequences rather than goals. That distinction is what makes the hour worth spending, because a ladder someone else designed will happily take you somewhere you did not want to go.",
-            "whyItWorks": "Working backwards from a destination surfaces the constraints early: the move that requires relocating, the specialism that closes doors later, the seniority level where the work becomes mostly meetings. Seeing those on one page lets you choose deliberately. Most people discover these constraints by accident, several years in, when reversing is expensive.",
+            "whyItWorks": "Working backwards from a destination surfaces the constraints early: the move that requires relocating, the specialty that closes doors later, the seniority level where the work becomes mostly meetings. Seeing those on one page lets you choose deliberately. Most people discover these constraints by accident, several years in, when reversing is expensive.",
             "howTo": [
               {
                 "step": "Describe the working week, not the title",
@@ -499,7 +499,7 @@
               },
               {
                 "step": "Map stories to question types",
-                "detail": "Most behavioural questions are variations on a handful of themes. One good story usually answers three different questions."
+                "detail": "Most behavioral questions are variations on a handful of themes. One good story usually answers three different questions."
               },
               {
                 "step": "Record yourself answering",
@@ -527,11 +527,11 @@
               },
               {
                 "q": "What is the STAR method?",
-                "a": "Situation, task, action, result. It is a useful skeleton for behavioural answers, though leading with the result often lands better."
+                "a": "Situation, task, action, result. It is a useful skeleton for behavioral answers, though leading with the result often lands better."
               },
               {
                 "q": "How long should an interview answer be?",
-                "a": "Ninety seconds to two minutes for most behavioural questions. Beyond that you are usually explaining context nobody asked about."
+                "a": "Ninety seconds to two minutes for most behavioral questions. Beyond that you are usually explaining context nobody asked about."
               }
             ]
           },
@@ -1216,11 +1216,11 @@
               }
             ],
             "tips": [
-              "Write entries in the same language your organisation uses for promotion criteria. It makes the eventual case far easier to assemble.",
+              "Write entries in the same language your organization uses for promotion criteria. It makes the eventual case far easier to assemble.",
               "Save the actual artefacts too: the thank-you message, the dashboard screenshot, the before-and-after number.",
               "Nobody else needs to read it. Removing the audience is what lets you record things honestly."
             ],
-            "variations": "If monthly feels like too much, do it quarterly with the calendar as your prompt, which still beats reconstructing a year from nothing. If you are preparing for a promotion specifically, restructure the existing document around your organisation's published criteria instead of chronologically.",
+            "variations": "If monthly feels like too much, do it quarterly with the calendar as your prompt, which still beats reconstructing a year from nothing. If you are preparing for a promotion specifically, restructure the existing document around your organization's published criteria instead of chronologically.",
             "faq": [
               {
                 "q": "What exactly goes in a brag document?",
@@ -1296,7 +1296,7 @@
             "tips": [
               "Regulated fields are different. Where a certification is legally required to practice, the cost-benefit question does not really arise.",
               "Ask your employer before paying. Many have a training budget that goes unspent every year because nobody asks.",
-              "Be sceptical of certifications awarded by the company selling the training. Independent bodies carry more weight with hiring managers."
+              "Be skeptical of certifications awarded by the company selling the training. Independent bodies carry more weight with hiring managers."
             ],
             "variations": "If the certification looks marginal, take the free introductory course and stop before the paid exam; you keep the knowledge and skip the fee. If it looks genuinely required, spend the rest of the hour building a realistic study schedule rather than continuing to research.",
             "faq": [
@@ -1423,7 +1423,7 @@
             ]
           },
           "content": {
-            "intro": "Most people set up job alerts once, get forty irrelevant emails a week, and mute the whole thing within a fortnight. The fix is to go much narrower than feels comfortable. An alert that surfaces three genuinely interesting roles a month is useful; one that surfaces forty mediocre ones trains you to ignore it entirely.",
+            "intro": "Most people set up job alerts once, get forty irrelevant emails a week, and mute the whole thing within a two weeks. The fix is to go much narrower than feels comfortable. An alert that surfaces three genuinely interesting roles a month is useful; one that surfaces forty mediocre ones trains you to ignore it entirely.",
             "whyItWorks": "Well-tuned alerts do two things at once. They catch the occasional role worth moving for, which by definition appears when you are not looking. And they act as a continuous read on your market: which skills keep appearing, what the posted ranges are doing, which companies are growing. That second benefit accrues whether or not you ever apply.",
             "howTo": [
               {
@@ -1537,7 +1537,7 @@
               },
               {
                 "q": "Free courses or paid ones?",
-                "a": "Free is fine for most technical fundamentals. Pay when you need structure, feedback, or a credential employers recognise by name."
+                "a": "Free is fine for most technical fundamentals. Pay when you need structure, feedback, or a credential employers recognize by name."
               },
               {
                 "q": "How do I actually finish an online course?",
@@ -1709,7 +1709,7 @@
           "image": "/activities/work-planning.png",
           "seo": {
             "title": "Learn a New Excel Function on Your Own Data",
-            "metaDescription": "Pick one spreadsheet function and learn it on your own data in an hour. XLOOKUP, pivot tables or INDEX MATCH, practised until it stops needing a search.",
+            "metaDescription": "Pick one spreadsheet function and learn it on your own data in an hour. XLOOKUP, pivot tables or INDEX MATCH, practiced until it stops needing a search.",
             "primaryKeyword": "learn a new Excel function",
             "secondaryKeywords": [
               "XLOOKUP tutorial",
@@ -1719,7 +1719,7 @@
           },
           "content": {
             "intro": "Almost everyone who uses spreadsheets daily knows about eight functions and searches for the rest every single time. Choosing to learn a new Excel function properly, on real data you care about, converts one of those searches into something automatic. An hour on a single function is worth more than a day of tutorial videos.",
-            "whyItWorks": "Spreadsheet skills transfer badly from demonstration data because tutorial datasets are clean and yours is not. Practising on your own messy file forces you through the actual failure modes: mismatched types, trailing spaces, ranges that shift when you copy. Those are the things that make a function feel unreliable until you have hit them once.",
+            "whyItWorks": "Spreadsheet skills transfer badly from demonstration data because tutorial datasets are clean and yours is not. Practicing on your own messy file forces you through the actual failure modes: mismatched types, trailing spaces, ranges that shift when you copy. Those are the things that make a function feel unreliable until you have hit them once.",
             "howTo": [
               {
                 "step": "Pick the function you keep searching for",
@@ -1759,7 +1759,7 @@
               },
               {
                 "q": "How long until it sticks?",
-                "a": "Usually three or four real uses. Practising on tutorial data does not count; the transfer to your own files is where it fixes."
+                "a": "Usually three or four real uses. Practicing on tutorial data does not count; the transfer to your own files is where it fixes."
               }
             ]
           },
@@ -1797,7 +1797,7 @@
           },
           "content": {
             "intro": "Most people who practice typing speed do it by taking the same test repeatedly and hoping. That produces a plateau within days. Real improvement comes from a slightly counterintuitive place: slowing down until accuracy is near perfect, then letting speed follow. An hour set up correctly beats weeks of racing.",
-            "whyItWorks": "Errors cost far more time than slow keystrokes, because correcting one costs several keystrokes plus the attention to notice it. Drilling accuracy first removes that tax. Targeting your specific weak keys works for the same reason a musician practises the difficult bar rather than replaying the whole piece: the improvement is concentrated where the problem is.",
+            "whyItWorks": "Errors cost far more time than slow keystrokes, because correcting one costs several keystrokes plus the attention to notice it. Drilling accuracy first removes that tax. Targeting your specific weak keys works for the same reason a musician practices the difficult bar rather than replaying the whole piece: the improvement is concentrated where the problem is.",
             "howTo": [
               {
                 "step": "Measure a baseline honestly",
@@ -1821,11 +1821,11 @@
               }
             ],
             "tips": [
-              "Practise in short daily sessions rather than long weekly ones. Motor learning consolidates with sleep between sessions.",
+              "Practice in short daily sessions rather than long weekly ones. Motor learning consolidates with sleep between sessions.",
               "Check your posture and wrist position. Typing faster with bad ergonomics scales the problem rather than the skill.",
               "Learn the shortcuts for word and line deletion. Correcting efficiently matters as much as typing accurately."
             ],
-            "variations": "If you already type quickly, shift the hour to numeric keypad or symbol accuracy, which most people never drill and which matters enormously for spreadsheet and code work. If you write prose all day, practise on real text rather than random words, since punctuation and capitalisation carry their own error rates.",
+            "variations": "If you already type quickly, shift the hour to numeric keypad or symbol accuracy, which most people never drill and which matters enormously for spreadsheet and code work. If you write prose all day, practice on real text rather than random words, since punctuation and capitalisation carry their own error rates.",
             "faq": [
               {
                 "q": "What is a good typing speed?",
@@ -1833,7 +1833,7 @@
               },
               {
                 "q": "Should I learn proper touch typing technique?",
-                "a": "If you look at the keyboard, yes. Relearning is frustrating for a fortnight and then permanently better than a self-taught hunt."
+                "a": "If you look at the keyboard, yes. Relearning is frustrating for a two weeks and then permanently better than a self-taught hunt."
               },
               {
                 "q": "How long does it take to improve?",
@@ -1875,7 +1875,7 @@
           },
           "content": {
             "intro": "Printing a cheat sheet of two hundred shortcuts and pinning it to the wall does nothing, which most people discover once. The way to learn keyboard shortcuts that stick is to pick five actions you genuinely repeat all day and refuse to do them with the mouse for a week. Everything else is noise.",
-            "whyItWorks": "The saving per shortcut is tiny, perhaps two seconds, which is why breadth is pointless and frequency is everything. An action you perform sixty times a day repays the learning cost within a fortnight; one you perform weekly never will. Restricting yourself to the mouse-free version also forces recall rather than recognition, which is what actually builds the habit.",
+            "whyItWorks": "The saving per shortcut is tiny, perhaps two seconds, which is why breadth is pointless and frequency is everything. An action you perform sixty times a day repays the learning cost within a two weeks; one you perform weekly never will. Restricting yourself to the mouse-free version also forces recall rather than recognition, which is what actually builds the habit.",
             "howTo": [
               {
                 "step": "Watch yourself for ten minutes",
@@ -2048,16 +2048,16 @@
                 "detail": "Re-record addressing a single habit. Trying to fix everything simultaneously reliably fixes nothing."
               },
               {
-                "step": "Practise the pause",
+                "step": "Practice the pause",
                 "detail": "Deliberately stop for two seconds between points. Silence feels enormous to you and confident to everyone else."
               }
             ],
             "tips": [
               "Filler words are usually a pacing problem. Slowing down removes most of them without any conscious effort to stop.",
-              "Stand and move as you would in the room. Practising seated builds the wrong physical habits.",
+              "Stand and move as you would in the room. Practicing seated builds the wrong physical habits.",
               "Nerves largely do not disappear with experience; they become familiar. Familiar nerves are far easier to work with."
             ],
-            "variations": "If you have a specific talk coming up, practise the opening ninety seconds ten times rather than the whole thing once, since the opening carries the nerves. If you want an audience, speaking clubs exist in most cities and are built precisely for low-stakes repetition.",
+            "variations": "If you have a specific talk coming up, practice the opening ninety seconds ten times rather than the whole thing once, since the opening carries the nerves. If you want an audience, speaking clubs exist in most cities and are built precisely for low-stakes repetition.",
             "faq": [
               {
                 "q": "How do I stop saying um?",
@@ -2119,7 +2119,7 @@
               },
               {
                 "step": "Correct the white balance",
-                "detail": "Push the temperature warmer or cooler until the whites look white. Colour casts are the most common invisible problem."
+                "detail": "Push the temperature warmer or cooler until the whites look white. Color casts are the most common invisible problem."
               },
               {
                 "step": "Crop for the subject",
@@ -2139,7 +2139,7 @@
             "faq": [
               {
                 "q": "What is the best free photo editing software?",
-                "a": "Several free options handle exposure, colour and cropping perfectly well. The specific tool matters far less than understanding what each slider does."
+                "a": "Several free options handle exposure, color and cropping perfectly well. The specific tool matters far less than understanding what each slider does."
               },
               {
                 "q": "Should I shoot RAW or JPEG?",
@@ -2147,7 +2147,7 @@
               },
               {
                 "q": "How do I avoid over-editing?",
-                "a": "Compare to the original often, and step away for ten minutes before finalising. Extreme edits normalise quickly while you are working."
+                "a": "Compare to the original often, and step away for ten minutes before finalising. Extreme edits normalize quickly while you are working."
               }
             ]
           },
@@ -2213,7 +2213,7 @@
               "Prefer active voice unless the actor genuinely does not matter. Passive constructions hide who did what.",
               "Write the first draft badly and quickly. Editing a poor draft is far easier than producing a good one directly."
             ],
-            "variations": "If you write technical documentation, add an exercise on ordering: put the conclusion first and see how much context turns out to be unnecessary. If you write persuasively, practise arguing the opposing position convincingly, which exposes the weak points in your own case.",
+            "variations": "If you write technical documentation, add an exercise on ordering: put the conclusion first and see how much context turns out to be unnecessary. If you write persuasively, practice arguing the opposing position convincingly, which exposes the weak points in your own case.",
             "faq": [
               {
                 "q": "How do I write more concisely?",
@@ -2288,7 +2288,7 @@
             ],
             "tips": [
               "Never read your slides aloud. If the slide says it, you are redundant; if you say it, the slide is.",
-              "Design for the back row. Text that is comfortable on your laptop is illegible from six metres away.",
+              "Design for the back row. Text that is comfortable on your laptop is illegible from six meters away.",
               "Rehearse the transitions between slides. That is where most talks lose their thread, not within the slides."
             ],
             "variations": "If the deck will be read rather than presented, write it as a document instead; slides sent by email are a poor format for both purposes. If you present the same material regularly, build one strong version and rehearse it rather than rebuilding each time.",
@@ -2367,9 +2367,9 @@
             "tips": [
               "Take notes in meetings but not during emotional conversations. Writing signals attention in one context and detachment in the other.",
               "Watch for the second explanation. When someone rephrases something unprompted, it usually matters more than the first version.",
-              "Practise on low-stakes conversations first. Trying this during a conflict is difficult and the results are hard to read."
+              "Practice on low-stakes conversations first. Trying this during a conflict is difficult and the results are hard to read."
             ],
-            "variations": "If you manage people, practise specifically on the pause in one-to-ones, where seniority makes others yield the floor early. If you work in a customer-facing role, focus on the reflecting-back step, which reduces misunderstandings that are expensive to unwind later.",
+            "variations": "If you manage people, practice specifically on the pause in one-to-ones, where seniority makes others yield the floor early. If you work in a customer-facing role, focus on the reflecting-back step, which reduces misunderstandings that are expensive to unwind later.",
             "faq": [
               {
                 "q": "What is active listening?",
@@ -2434,7 +2434,7 @@
               },
               {
                 "step": "Fix the audio levels",
-                "detail": "Bad audio is more noticeable than bad picture. Normalise levels and remove background hiss before touching anything visual."
+                "detail": "Bad audio is more noticeable than bad picture. Normalize levels and remove background hiss before touching anything visual."
               },
               {
                 "step": "Export and watch it once",
@@ -2497,7 +2497,7 @@
           },
           "content": {
             "intro": "Data visualization basics are less about software than about a single decision: what question is this chart answering? Comparison, composition, distribution, and change over time each have a natural chart type, and picking the wrong one is the most common reason a chart fails to communicate anything at all.",
-            "whyItWorks": "Charts are read pre-attentively, meaning the eye extracts the pattern before conscious thought engages. That is why encoding matters so much: length and position are read accurately, area and colour intensity are not. Matching your question to an encoding people read well does most of the work, before any styling decisions arise.",
+            "whyItWorks": "Charts are read pre-attentively, meaning the eye extracts the pattern before conscious thought engages. That is why encoding matters so much: length and position are read accurately, area and color intensity are not. Matching your question to an encoding people read well does most of the work, before any styling decisions arise.",
             "howTo": [
               {
                 "step": "Write the question the chart answers",
@@ -2522,10 +2522,10 @@
             ],
             "tips": [
               "Avoid pie charts with more than three slices. People compare angles poorly, and a bar chart answers the same question better.",
-              "Use colour to encode meaning, never for decoration. Check that the chart still works in greyscale.",
+              "Use color to encode meaning, never for decoration. Check that the chart still works in greyscale.",
               "Give the chart a title stating the finding, not the variables. \"Sales fell in Q3\" beats \"Sales by quarter\"."
             ],
-            "variations": "If you present regularly, spend the hour building a small reusable template with your fonts and colours already set, which removes the styling decision permanently. If you consume more charts than you make, spend it learning to spot misleading axes and cherry-picked ranges instead.",
+            "variations": "If you present regularly, spend the hour building a small reusable template with your fonts and colors already set, which removes the styling decision permanently. If you consume more charts than you make, spend it learning to spot misleading axes and cherry-picked ranges instead.",
             "faq": [
               {
                 "q": "Which chart type should I use?",
@@ -2685,7 +2685,7 @@
             "faq": [
               {
                 "q": "Do I need a certification to manage projects?",
-                "a": "Not to do it well. Certifications help in organisations that require them, but the fundamentals matter more than the qualification."
+                "a": "Not to do it well. Certifications help in organizations that require them, but the fundamentals matter more than the qualification."
               },
               {
                 "q": "What is the critical path?",
@@ -2832,9 +2832,9 @@
               }
             ],
             "tips": [
-              "Practise on real numbers as they appear: receipts, mileage, invoices. Contextual practice sticks far better than drills.",
+              "Practice on real numbers as they appear: receipts, mileage, invoices. Contextual practice sticks far better than drills.",
               "Order-of-magnitude accuracy is usually sufficient. Being roughly right immediately beats being exactly right later.",
-              "Learn the common fraction and percentage equivalents. Recognising an eighth as twelve and a half percent saves constant recalculation."
+              "Learn the common fraction and percentage equivalents. Recognizing an eighth as twelve and a half percent saves constant recalculation."
             ],
             "variations": "If you work with data, focus the hour on order-of-magnitude estimation and sanity-checking, which is where the professional value is concentrated. If you want the recreational version, calendar tricks and squaring shortcuts are enjoyable and mostly useless, which is a perfectly good reason to learn them.",
             "faq": [
@@ -2909,7 +2909,7 @@
               }
             ],
             "tips": [
-              "Never paste confidential or personal data into a tool without checking your organisation's policy first.",
+              "Never paste confidential or personal data into a tool without checking your organization's policy first.",
               "Verify citations, statistics and quotes independently. Fabricated references are the most common and most damaging failure mode.",
               "Ask for reasoning alongside the answer. It is easier to spot a flawed argument than a wrong conclusion."
             ],
@@ -3055,7 +3055,7 @@
               },
               {
                 "step": "Repeat your choices",
-                "detail": "Same heading style, same spacing, same colours throughout. Consistency is what makes a document feel designed."
+                "detail": "Same heading style, same spacing, same colors throughout. Consistency is what makes a document feel designed."
               },
               {
                 "step": "Add more whitespace than feels right",
@@ -3063,7 +3063,7 @@
               }
             ],
             "tips": [
-              "Limit yourself to two typefaces and three colours. Constraint produces better results than choice at this level.",
+              "Limit yourself to two typefaces and three colors. Constraint produces better results than choice at this level.",
               "Check contrast for accessibility. Text failing contrast standards is unreadable for a meaningful share of your audience.",
               "Squint at your layout. Blurring the detail makes the structural problems immediately obvious, because you stop reading and start seeing shapes."
             ],
@@ -3124,7 +3124,7 @@
               },
               {
                 "step": "Write the other side's case",
-                "detail": "Genuinely, not as a straw man. Their strongest argument is what you most need to have practised answering."
+                "detail": "Genuinely, not as a straw man. Their strongest argument is what you most need to have practiced answering."
               },
               {
                 "step": "Rehearse aloud with a partner",
@@ -3135,7 +3135,7 @@
                 "detail": "Arguing their side reveals the weak points in yours faster than any amount of preparation from your own perspective."
               },
               {
-                "step": "Practise holding the silence",
+                "step": "Practice holding the silence",
                 "detail": "State a number and say nothing. This is the single hardest moment and the one most worth rehearsing."
               }
             ],
@@ -3151,7 +3151,7 @@
                 "a": "Your best alternative to a negotiated agreement, meaning what happens if you walk away. Knowing it determines how much pressure you can absorb."
               },
               {
-                "q": "Can I practise negotiation alone?",
+                "q": "Can I practice negotiation alone?",
                 "a": "Partially. Recording yourself helps, but a partner introduces the unexpected questions that make rehearsal genuinely useful."
               },
               {
@@ -3205,7 +3205,7 @@
                 "detail": "Asterisks for bold and italic, square brackets and parentheses for links. That is essentially the whole core syntax."
               },
               {
-                "step": "Practise in a live preview editor",
+                "step": "Practice in a live preview editor",
                 "detail": "Seeing the rendered output beside your text teaches the syntax in minutes rather than through memorisation."
               },
               {
@@ -3272,7 +3272,7 @@
           },
           "content": {
             "intro": "Most business analytics effort produces dashboards nobody acts on. The failure happens before any tooling is involved: the question was never phrased so that an answer would change a decision. An hour spent on question framing and the difference between a useful metric and a flattering one is worth more than an hour learning any analytics platform.",
-            "whyItWorks": "A metric earns its place only if some value of it would make you do something different. Applying that test eliminates most of what organisations routinely track. Understanding the distinction between leading and lagging indicators does the rest, because lagging numbers tell you what already happened while leading ones let you intervene.",
+            "whyItWorks": "A metric earns its place only if some value of it would make you do something different. Applying that test eliminates most of what organizations routinely track. Understanding the distinction between leading and lagging indicators does the rest, because lagging numbers tell you what already happened while leading ones let you intervene.",
             "howTo": [
               {
                 "step": "Write a question that changes a decision",
@@ -3378,7 +3378,7 @@
               "If a thread passes four messages, switch to a call. Text is a poor medium for resolving genuine disagreement.",
               "Never send difficult messages while annoyed. Draft, wait an hour, then reread before sending."
             ],
-            "variations": "If most of your communication is written updates, spend the hour building a standard format for them, since consistency reduces the reading cost for everyone. If you present to senior stakeholders, practise compressing a full argument into three sentences, which is the format that actually gets heard.",
+            "variations": "If most of your communication is written updates, spend the hour building a standard format for them, since consistency reduces the reading cost for everyone. If you present to senior stakeholders, practice compressing a full argument into three sentences, which is the format that actually gets heard.",
             "faq": [
               {
                 "q": "How do I write clearer work emails?",
@@ -3462,11 +3462,11 @@
               "Add a line called unallocated and fund it. Budgets with no slack break the first time something unexpected happens.",
               "Review for ten minutes monthly, not daily. Daily checking produces anxiety without improving decisions."
             ],
-            "variations": "If a spreadsheet feels like too much friction, the same hour works on a budgeting app that categorises automatically, at the cost of connecting your accounts. If you share finances, build it together in one sitting; separately built budgets rarely reconcile.",
+            "variations": "If a spreadsheet feels like too much friction, the same hour works on a budgeting app that categorizes automatically, at the cost of connecting your accounts. If you share finances, build it together in one sitting; separately built budgets rarely reconcile.",
             "faq": [
               {
                 "q": "How many budget categories should I use?",
-                "a": "Six or seven. Enough to see where money goes, few enough that categorising a transaction never requires thought."
+                "a": "Six or seven. Enough to see where money goes, few enough that categorizing a transaction never requires thought."
               },
               {
                 "q": "What is the 50/30/20 rule?",
@@ -3528,7 +3528,7 @@
                 "detail": "Find the expense ratios of any two similar funds and project both over thirty years. The gap is usually startling."
               },
               {
-                "step": "Read one sceptical source",
+                "step": "Read one skeptical source",
                 "detail": "Deliberately find someone arguing against the popular position. It reveals which claims are settled and which are contested."
               },
               {
@@ -3538,8 +3538,8 @@
             ],
             "tips": [
               "Prefer sources that do not sell products. Regulators, public broadcasters and university material carry far less conflict of interest.",
-              "Be sceptical of anything promising unusual returns with low risk. That combination does not exist reliably.",
-              "Learn what your workplace pension already invests in before adding anything new. Many people are invested without realising."
+              "Be skeptical of anything promising unusual returns with low risk. That combination does not exist reliably.",
+              "Learn what your workplace pension already invests in before adding anything new. Many people are invested without realizing."
             ],
             "variations": "If you already understand the fundamentals, spend the hour reading the actual fund documents for what you hold, which almost nobody does. If you are helping someone else start, focus the hour on fees and time horizon; those two ideas prevent the most expensive mistakes.",
             "faq": [
@@ -3668,7 +3668,7 @@
             ]
           },
           "content": {
-            "intro": "Errors on credit files are common and expensive, and almost nobody checks. When you review your credit report you are looking for two things: mistakes that are dragging your score down, and accounts you do not recognise. Both are fixable, both are free to fix, and an hour is more than enough to find them.",
+            "intro": "Errors on credit files are common and expensive, and almost nobody checks. When you review your credit report you are looking for two things: mistakes that are dragging your score down, and accounts you do not recognize. Both are fixable, both are free to fix, and an hour is more than enough to find them.",
             "whyItWorks": "Credit files are assembled from data submitted by lenders, and that data is entered by people and systems that make errors. A closed account still showing as open, a late payment that was not late, an address you never lived at. Each can affect what you are offered on a mortgage or loan, and correcting one is a form letter rather than a legal battle.",
             "howTo": [
               {
@@ -3684,7 +3684,7 @@
                 "detail": "Confirm each is genuinely yours and genuinely open. Old closed accounts still showing open distort your apparent exposure."
               },
               {
-                "step": "Look for accounts you do not recognise",
+                "step": "Look for accounts you do not recognize",
                 "detail": "An unfamiliar account can indicate identity fraud. Report it immediately rather than assuming you forgot something."
               },
               {
@@ -3905,7 +3905,7 @@
           },
           "content": {
             "intro": "Tax deductions you may qualify for are unclaimed largely because nobody tells you they exist. Work-from-home relief, professional subscriptions, uniform costs, charitable giving, study expenses. None require aggressive planning; they require knowing they apply and keeping a receipt. An hour of reading frequently pays for itself several times over.",
-            "whyItWorks": "Tax authorities publish the eligibility rules in full, for free, and the rules for employees are usually short. The barrier is that the information is organised by legislation rather than by the situation you are actually in. Reading it once, filtered against your own circumstances, converts a permanently vague sense that you might be missing something into a concrete list.",
+            "whyItWorks": "Tax authorities publish the eligibility rules in full, for free, and the rules for employees are usually short. The barrier is that the information is organized by legislation rather than by the situation you are actually in. Reading it once, filtered against your own circumstances, converts a permanently vague sense that you might be missing something into a concrete list.",
             "howTo": [
               {
                 "step": "Start with the official source",
@@ -4074,7 +4074,7 @@
               },
               {
                 "step": "Check the true startup cost",
-                "detail": "Money, equipment, and the hours before the first payment arrives. Anything requiring significant upfront spend deserves scepticism."
+                "detail": "Money, equipment, and the hours before the first payment arrives. Anything requiring significant upfront spend deserves skepticism."
               },
               {
                 "step": "Ask whether it accumulates",
@@ -4233,7 +4233,7 @@
                 "detail": "Avalanche targets the highest rate and costs least. Snowball clears smallest balances first and sustains motivation better."
               },
               {
-                "step": "Direct every spare pound at one debt",
+                "step": "Direct every spare payment at one debt",
                 "detail": "Spreading extra payments across several debts feels productive and is measurably slower. Concentrate on one at a time."
               },
               {
@@ -4402,7 +4402,7 @@
               "Check the exclusions on anything you rely on. Discovering an exclusion at claim time is the expensive way to learn it.",
               "Set calendar reminders three weeks before each renewal date so the comparison happens before auto-renewal does."
             ],
-            "variations": "If your policies are already competitively priced, spend the hour on the coverage side instead and check whether income protection or life cover gaps exist, which matter far more than premium savings. If you have had a life change recently, prioritise updating those policies over shopping around.",
+            "variations": "If your policies are already competitively priced, spend the hour on the coverage side instead and check whether income protection or life cover gaps exist, which matter far more than premium savings. If you have had a life change recently, prioritize updating those policies over shopping around.",
             "faq": [
               {
                 "q": "Why does my insurance go up every year?",
@@ -4530,7 +4530,7 @@
           },
           "content": {
             "intro": "Committing to track every expense for a month is how most people discover they will not. One day is different: it is short enough to actually complete, and it still produces the uncomfortable insight, because the spending that disappears into a monthly average is exactly the spending you make without deciding to.",
-            "whyItWorks": "Monthly statements smooth everything into categories. Recording each purchase at the moment it happens does something a statement cannot: it inserts a half-second of attention before the transaction. That observation effect is the entire mechanism, and it is why a single tracked day often changes behaviour more than a month of retrospective analysis.",
+            "whyItWorks": "Monthly statements smooth everything into categories. Recording each purchase at the moment it happens does something a statement cannot: it inserts a half-second of attention before the transaction. That observation effect is the entire mechanism, and it is why a single tracked day often changes behavior more than a month of retrospective analysis.",
             "howTo": [
               {
                 "step": "Choose a completely ordinary day",
@@ -4554,11 +4554,11 @@
               }
             ],
             "tips": [
-              "Do not change your behaviour on the tracked day. A distorted sample tells you nothing useful.",
+              "Do not change your behavior on the tracked day. A distorted sample tells you nothing useful.",
               "Repeat on one weekend day too. Weekday and weekend patterns are often completely different.",
               "Keep it to one day. The reason this works is that finishing it is realistic, unlike a month. This is general information and not financial advice."
             ],
-            "variations": "If one day feels too small a sample, do three non-consecutive days across a fortnight, which captures more variety without becoming a chore. If you already budget, use the day specifically to test whether your assumed category amounts match what actually happens.",
+            "variations": "If one day feels too small a sample, do three non-consecutive days across a two weeks, which captures more variety without becoming a chore. If you already budget, use the day specifically to test whether your assumed category amounts match what actually happens.",
             "faq": [
               {
                 "q": "Why only one day?",
@@ -4566,7 +4566,7 @@
               },
               {
                 "q": "Do I need an app for this?",
-                "a": "No. A notes app or paper works fine. Apps that categorise automatically remove the moment of attention that makes this effective."
+                "a": "No. A notes app or paper works fine. Apps that categorize automatically remove the moment of attention that makes this effective."
               },
               {
                 "q": "What do I do with the result?",
@@ -4696,7 +4696,7 @@
               },
               {
                 "step": "Annualise each one",
-                "detail": "Multiply monthly costs by twelve before deciding. Nine pounds a month and a hundred and eight a year feel different."
+                "detail": "Multiply monthly costs by twelve before deciding. Nine a month and a hundred and eight a year feel different."
               },
               {
                 "step": "Sort into use, sometimes, never",
@@ -4956,97 +4956,1269 @@
           "name": "Organize a closet or storage space",
           "slug": "organize-a-closet-or-storage-space",
           "description": "Empty it out, donate what you don't use, and put back only what earns its place.",
-          "image": "/activities/home-diy.png"
+          "image": "/activities/home-diy.png",
+          "seo": {
+            "title": "Organize a Closet in an Hour and Keep It That Way",
+            "metaDescription": "Empty it completely, sort ruthlessly, and give every category a home. The method that stops a reorganized closet reverting within a two weeks.",
+            "primaryKeyword": "organize a closet",
+            "secondaryKeywords": [
+              "closet decluttering method",
+              "wardrobe organization ideas",
+              "small storage space solutions"
+            ]
+          },
+          "content": {
+            "intro": "Attempts to organize a closet by tidying around the edges fail within a two weeks, because the underlying problem is volume rather than arrangement. The version that lasts starts by taking absolutely everything out, which is uncomfortable for about ten minutes and is the only step that makes the rest work.",
+            "whyItWorks": "An empty space forces every item to earn its way back in, one decision at a time. Tidying in place lets you shuffle things you would never actively choose to keep. The full empty also reveals how much capacity you genuinely have, which is usually less than the amount currently crammed in, and that number is what stops the space refilling.",
+            "howTo": [
+              {
+                "step": "Take absolutely everything out",
+                "detail": "Onto the bed or floor. Partial emptying preserves exactly the decisions you are trying to force yourself to make."
+              },
+              {
+                "step": "Clean the empty space",
+                "detail": "Wipe shelves and vacuum the floor while access is easy. This takes four minutes and never happens otherwise."
+              },
+              {
+                "step": "Sort into keep, donate, bin",
+                "detail": "Handle each item once. A maybe pile is a decision you are deferring, and it will still be there next year."
+              },
+              {
+                "step": "Group by how you use it",
+                "detail": "Not by color or size. Things used together should live together, or the system fails on the first busy morning."
+              },
+              {
+                "step": "Leave one shelf empty",
+                "detail": "Deliberate spare capacity absorbs the inevitable new arrivals. A full closet has nowhere to put anything."
+              }
+            ],
+            "tips": [
+              "Put frequently used items at eye level and rarely used ones high or low. Access should follow frequency, not size.",
+              "Take the donation bags to the car immediately. Bags left in the hall get unpacked again within a week.",
+              "Use the same hanger type throughout. It looks better and, more usefully, it fits more in."
+            ],
+            "variations": "If the space is a garage or loft rather than a closet, work in one-metre sections instead of emptying everything, since a full empty is unrealistic at that scale. If you share the space, sort your own items first and let the other person do theirs; sorting someone else's belongings rarely ends well.",
+            "faq": [
+              {
+                "q": "How do I decide what to get rid of?",
+                "a": "Ask when you last used it and whether you would buy it again today. Both questions cut through sentimental hesitation quickly."
+              },
+              {
+                "q": "Why does my closet get messy again so fast?",
+                "a": "Usually because it is at full capacity with no spare shelf. Without slack, anything new has to be squeezed in somewhere."
+              },
+              {
+                "q": "Should I buy storage containers first?",
+                "a": "No. Buy them after sorting, when you know what you actually have. Bought first, they mostly enable keeping more."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "bin bags",
+              "cleaning cloth",
+              "vacuum"
+            ]
+          },
+          "related": [
+            "do-a-15-minute-declutter-sprint",
+            "create-a-donation-box-for-unused-items",
+            "deep-clean-one-room-in-your-home"
+          ]
         },
         {
           "name": "Deep clean one room in your home",
           "slug": "deep-clean-one-room-in-your-home",
           "description": "Pick one room and give it the full treatment — baseboards, windows, and all the forgotten corners.",
-          "image": "/activities/home-diy.png"
+          "image": "/activities/home-diy.png",
+          "seo": {
+            "title": "Deep Clean One Room Properly in a Single Hour",
+            "metaDescription": "Deep clean one room using the top-down order professionals use, hitting the surfaces routine cleaning skips. One room done properly beats four rushed.",
+            "primaryKeyword": "deep clean one room",
+            "secondaryKeywords": [
+              "deep cleaning checklist",
+              "cleaning top to bottom",
+              "how to clean skirting boards"
+            ]
+          },
+          "content": {
+            "intro": "The decision to deep clean one room rather than the whole house is what makes it achievable. An hour concentrated on a single room reaches the surfaces routine cleaning never touches: light fittings, skirting boards, door tops, the back of the radiator. The difference is far more noticeable than a rushed pass through four rooms.",
+            "whyItWorks": "Working top to bottom means gravity does the sorting. Dust dislodged from high surfaces lands on lower ones you have not cleaned yet, so any other order guarantees repeat work. Doing one room completely also gives you a visible finished result, which is what sustains the habit far better than partial progress everywhere.",
+            "howTo": [
+              {
+                "step": "Clear the horizontal surfaces first",
+                "detail": "Everything off the floor and worktops. Cleaning around objects is how deep cleans quietly become ordinary tidying."
+              },
+              {
+                "step": "Start at the ceiling and work down",
+                "detail": "Light fittings, cornices, the tops of doors and frames. These hold visible dust that nobody ever looks at."
+              },
+              {
+                "step": "Do the middle band",
+                "detail": "Walls, switches, handles, window frames and glass. Switches and handles are the most touched and least cleaned surfaces."
+              },
+              {
+                "step": "Finish with skirting boards and floors",
+                "detail": "Skirting first, then vacuum, then mop. All of the dust you dislodged has landed here."
+              },
+              {
+                "step": "Move one large item",
+                "detail": "Pull out the sofa or the bed. Whatever is behind it is the single most satisfying part of the hour."
+              }
+            ],
+            "tips": [
+              "Open a window before you start. Cleaning products build up quickly in a closed room and ventilation matters.",
+              "Never mix cleaning products, particularly bleach with anything containing ammonia. The resulting fumes are genuinely dangerous.",
+              "Set a timer per zone. Deep cleaning expands to fill any amount of time you give it."
+            ],
+            "variations": "If the room is a kitchen or bathroom, allow extra time for degreasing and limescale, which need dwell time rather than effort. If an hour is too long a block, split the room into four fifteen-minute zones across a week and keep the top-down order within each.",
+            "faq": [
+              {
+                "q": "What is the correct order for deep cleaning?",
+                "a": "Top to bottom, so that dislodged dust falls onto surfaces you have not yet cleaned. Floors always come last."
+              },
+              {
+                "q": "How often should a room be deep cleaned?",
+                "a": "Roughly every three months for living spaces, more often for kitchens and bathrooms where grease and limescale accumulate faster."
+              },
+              {
+                "q": "Do I need special products?",
+                "a": "Rarely. Warm water with detergent handles most surfaces. Limescale and grease are the two cases where a targeted product genuinely helps."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "low",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "cloths",
+              "vacuum",
+              "cleaning products",
+              "step stool"
+            ]
+          },
+          "related": [
+            "organize-a-closet-or-storage-space",
+            "clean-or-replace-air-filters-and-vents",
+            "descale-your-kettle-and-showerhead"
+          ]
         },
         {
           "name": "Learn basic plumbing fixes",
           "slug": "learn-basic-plumbing-fixes",
           "description": "Learn to fix a dripping faucet, unblock a drain, and find your water shut-off valve before you need it.",
-          "image": "/activities/home-diy.png"
+          "image": "/activities/home-diy.png",
+          "seo": {
+            "title": "Learn Basic Plumbing Fixes and Where to Stop",
+            "metaDescription": "Learn the plumbing fixes worth doing yourself, how to shut off the water before anything goes wrong, and exactly which jobs need a qualified plumber.",
+            "primaryKeyword": "basic plumbing fixes",
+            "secondaryKeywords": [
+              "how to stop a dripping tap",
+              "where is my stopcock",
+              "when to call a plumber"
+            ]
+          },
+          "content": {
+            "intro": "Learning basic plumbing fixes is mostly about knowing which jobs are genuinely simple and which will flood your house. A dripping tap washer, a running toilet, a blocked trap: all reasonable. Anything involving gas, soldered joints, or the mains supply is not, and the point of this hour is knowing the difference.",
+            "whyItWorks": "The single highest-value thing here is not a repair at all. It is knowing where your stopcock is and confirming it turns, before you ever need it. Most water damage in homes comes from not being able to stop the flow quickly, and that knowledge takes five minutes to acquire and can save thousands.",
+            "howTo": [
+              {
+                "step": "Find and test your stopcock now",
+                "detail": "Usually under the kitchen sink. Turn it off, confirm the taps run dry, turn it back on. Seized valves are common."
+              },
+              {
+                "step": "Learn the isolation valves",
+                "detail": "Individual taps and toilets often have their own small valve. Using these avoids shutting off the whole house."
+              },
+              {
+                "step": "Watch a repair for your exact fixture",
+                "detail": "Tap designs vary enormously. A video for your specific type is worth more than general plumbing theory."
+              },
+              {
+                "step": "Fix one simple thing",
+                "detail": "A tap washer, a toilet flapper, or clearing a sink trap. Put a bucket and towels down before you start."
+              },
+              {
+                "step": "Write down your no-go list",
+                "detail": "Gas appliances, boilers, soldered pipework, anything behind a wall, and mains connections. These require a qualified professional."
+              }
+            ],
+            "tips": [
+              "Photograph every joint before dismantling it. Reassembly is much easier with a picture of how it looked.",
+              "Do not overtighten plastic fittings. Cracking a compression nut turns a small drip into an urgent problem.",
+              "Keep the number of a plumber saved before you need one. Emergency searching costs more in every sense."
+            ],
+            "variations": "If your plumbing is already sound, spend the hour on prevention: checking under sinks for damp, testing the stopcock, and insulating exposed pipes before winter. If you rent, confirm what you are permitted to touch, since many tenancies require the landlord to arrange repairs.",
+            "faq": [
+              {
+                "q": "Which plumbing jobs should I never attempt myself?",
+                "a": "Anything involving gas, boilers, soldered joints, or the mains supply. These require a qualified professional and are often a legal requirement."
+              },
+              {
+                "q": "How do I stop a dripping tap?",
+                "a": "Usually by replacing a washer or cartridge, after isolating the water. Identify your specific tap type first, since designs differ substantially."
+              },
+              {
+                "q": "Where is the stopcock usually located?",
+                "a": "Most often under the kitchen sink, sometimes in a utility area or near the front door. Find and test yours before you need it."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "low",
+            "difficulty": "moderate",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "adjustable spanner",
+              "bucket",
+              "towels",
+              "phone for reference"
+            ]
+          },
+          "related": [
+            "learn-to-re-seal-a-bath-or-sink",
+            "create-a-home-maintenance-checklist",
+            "learn-basic-electrical-safety"
+          ]
         },
         {
           "name": "Research energy efficiency upgrades",
           "slug": "research-energy-efficiency-upgrades",
           "description": "Find out which insulation, lighting, and heating upgrades would actually cut your bills.",
-          "image": "/activities/home-diy.png"
+          "image": "/activities/home-diy.png",
+          "seo": {
+            "title": "Research Energy Efficiency Upgrades Worth the Money",
+            "metaDescription": "Rank energy efficiency upgrades by payback period rather than appeal. Draughtproofing and insulation usually beat the expensive things people do first.",
+            "primaryKeyword": "energy efficiency upgrades",
+            "secondaryKeywords": [
+              "cheapest way to reduce heating bills",
+              "home insulation payback",
+              "draught proofing tips"
+            ]
+          },
+          "content": {
+            "intro": "Most people research energy efficiency upgrades and start with whatever is most visible or most marketed, which is rarely what pays back fastest. Ranked by cost per unit of heat retained, the boring measures win decisively: draughtproofing, loft insulation, and hot water tank jackets sit far ahead of anything involving new technology.",
+            "whyItWorks": "Payback period cuts through the noise because it combines cost and effect into one comparable number. A twenty-pound draught excluder that saves fifty pounds a year outperforms almost anything else available, and no amount of enthusiasm for a more sophisticated measure changes that arithmetic. Ranking honestly also identifies what genuinely needs professional installation.",
+            "howTo": [
+              {
+                "step": "Find where the heat actually escapes",
+                "detail": "Loft, walls, windows, floors, draughts. Feel around doors and sockets on a cold day; the gaps are usually obvious."
+              },
+              {
+                "step": "Check your existing insulation depth",
+                "detail": "Loft insulation degrades and older homes are often well below current recommendations. This is cheap to top up."
+              },
+              {
+                "step": "Rank candidates by payback period",
+                "detail": "Cost divided by annual saving. Anything paying back in under three years is worth doing before anything else."
+              },
+              {
+                "step": "Look up available grants",
+                "detail": "Many countries subsidise insulation and heating upgrades. Eligibility changes frequently, so check current schemes rather than old articles."
+              },
+              {
+                "step": "Do the cheapest measure today",
+                "detail": "Draught excluders, radiator reflectors, a tank jacket. Research that produces no action has saved nothing."
+              }
+            ],
+            "tips": [
+              "Do not seal ventilation intended to be there. Airbricks and trickle vents prevent damp and, where fuel is burnt, are a safety requirement.",
+              "Get three quotes for anything substantial, and check installers hold the relevant accreditation for grant eligibility.",
+              "Measure your baseline consumption first, so you can tell whether a change actually worked."
+            ],
+            "variations": "If you rent, focus on the reversible measures: draught excluders, thermal curtains, radiator reflectors and a tank jacket all move with you. If your home is already well insulated, spend the hour on heating controls instead, where zoning and scheduling often deliver more than further insulation.",
+            "faq": [
+              {
+                "q": "What is the cheapest way to reduce heating bills?",
+                "a": "Draughtproofing, almost always. It costs very little, takes an afternoon, and typically pays back within a single heating season."
+              },
+              {
+                "q": "Is loft insulation worth topping up?",
+                "a": "Usually yes if it is below current recommended depth. It is one of the shortest payback periods of any measure available."
+              },
+              {
+                "q": "Should I seal every gap in the house?",
+                "a": "No. Deliberate ventilation must stay clear, particularly where any fuel is burnt. Sealing those creates damp and carbon monoxide risk."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "computer",
+              "recent energy bills",
+              "tape measure"
+            ]
+          },
+          "related": [
+            "create-a-home-maintenance-checklist",
+            "research-smart-home-devices",
+            "clean-or-replace-air-filters-and-vents"
+          ]
         },
         {
           "name": "Create a home maintenance checklist",
           "slug": "create-a-home-maintenance-checklist",
           "description": "Build a seasonal checklist of the small jobs that prevent big repair bills.",
-          "image": "/activities/home-diy.png"
+          "image": "/activities/home-diy.png",
+          "seo": {
+            "title": "Create a Home Maintenance Checklist by Season",
+            "metaDescription": "Build a home maintenance checklist organized by season so the small jobs that prevent expensive failures actually get done before they are urgent.",
+            "primaryKeyword": "home maintenance checklist",
+            "secondaryKeywords": [
+              "seasonal home maintenance",
+              "annual house checks",
+              "preventive home care"
+            ]
+          },
+          "content": {
+            "intro": "Almost every expensive household failure was preventable and cheap to prevent. A blocked gutter becomes a damp wall; an unserviced boiler fails in January. A home maintenance checklist exists to move those jobs from the category of things you vaguely intend to do into the category of things with a date attached.",
+            "whyItWorks": "Organizing by season rather than by room matches the actual constraints. Gutters need clearing after leaf fall, heating needs testing before it gets cold, and outdoor work needs dry weather. Attaching each task to a season also spreads the load into manageable amounts and gives you a natural calendar prompt four times a year.",
+            "howTo": [
+              {
+                "step": "Walk the house and note everything",
+                "detail": "Inside and out, including the loft and any outbuilding. Write down what has been ignored for over a year."
+              },
+              {
+                "step": "Group tasks by season",
+                "detail": "Autumn for gutters and heating, spring for exterior and roof checks, summer for painting, winter for interior jobs."
+              },
+              {
+                "step": "Add the annual service dates",
+                "detail": "Boiler, chimney, alarms, any appliance under warranty. These have deadlines that cost money to miss."
+              },
+              {
+                "step": "Note what needs a professional",
+                "detail": "Gas, electrics, roof work at height. Marking these upfront stops you improvising at the wrong moment."
+              },
+              {
+                "step": "Put four dates in your calendar",
+                "detail": "One per season, with the list attached. A checklist without a recurring reminder is just a document."
+              }
+            ],
+            "tips": [
+              "Keep receipts and service records with the checklist. They matter for warranties, insurance claims and eventually for selling.",
+              "Record model numbers of boiler, alarms and appliances. Ordering the right part is far easier with them written down.",
+              "Start with the tasks that prevent water ingress. Water causes more expensive damage than anything else on the list."
+            ],
+            "variations": "If you rent, build a much shorter list of the things you are responsible for and a note of what to report to your landlord, since delays in reporting often shift liability. If you have just moved in, spend the hour finding the stopcock, fuse box and meters instead; the checklist can wait a week.",
+            "faq": [
+              {
+                "q": "What should be on a home maintenance checklist?",
+                "a": "Gutters, boiler service, alarm testing, roof and exterior inspection, filter changes, and anything with a warranty condition attached."
+              },
+              {
+                "q": "How often should I do these checks?",
+                "a": "Most tasks are seasonal or annual. Grouping by season spreads the effort and matches the weather each job needs."
+              },
+              {
+                "q": "Which jobs need a professional?",
+                "a": "Gas appliances, electrical work, and anything requiring roof access. These carry legal requirements or genuine physical risk."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "notebook or spreadsheet",
+              "calendar"
+            ]
+          },
+          "related": [
+            "test-your-smoke-and-carbon-monoxide-alarms",
+            "start-a-home-inventory-for-insurance",
+            "research-energy-efficiency-upgrades"
+          ]
         },
         {
           "name": "Learn to patch drywall",
           "slug": "learn-to-patch-drywall",
           "description": "Watch a tutorial and learn to fill holes and patch drywall like a pro.",
-          "image": "/activities/home-diy.png"
+          "image": "/activities/home-diy.png",
+          "seo": {
+            "title": "Learn to Patch Drywall So the Repair Disappears",
+            "metaDescription": "Patch drywall properly: match the method to the hole size, feather each coat wider than the last, and prime before painting so the repair vanishes.",
+            "primaryKeyword": "patch drywall",
+            "secondaryKeywords": [
+              "how to fill a hole in a wall",
+              "drywall repair for beginners",
+              "feathering joint compound"
+            ]
+          },
+          "content": {
+            "intro": "Learning to patch drywall is genuinely easy, and the reason amateur repairs stay visible is almost always the same: too much filler applied too thickly in one go. The technique is thin coats, each spread wider than the last, with patience between them. The skill is in the feathering, not the filling.",
+            "whyItWorks": "A patch is invisible when there is no edge for light to catch. Thick single applications leave a raised island that shows under any side lighting, however well you sand it. Successively wider thin coats spread the transition over enough distance that the eye cannot detect it, which is exactly what professionals are doing when they appear to work slowly.",
+            "howTo": [
+              {
+                "step": "Check what is behind the wall first",
+                "detail": "Cables and pipes run through stud walls. Use a detector before cutting anything larger than a nail hole."
+              },
+              {
+                "step": "Match the method to the hole",
+                "detail": "Filler for small holes, self-adhesive mesh for medium ones, a cut patch with backing for anything larger than a fist."
+              },
+              {
+                "step": "Apply thin coats, widening each time",
+                "detail": "Three thin coats beat one thick one every time. Each coat should extend further than the one before."
+              },
+              {
+                "step": "Let each coat dry fully",
+                "detail": "Sanding damp compound tears it and forces you to start again. Drying time is not the step to rush."
+              },
+              {
+                "step": "Prime before painting",
+                "detail": "Bare filler absorbs paint differently from the surrounding wall, so an unprimed patch shows through as a dull shape."
+              }
+            ],
+            "tips": [
+              "Sand with a light held at a shallow angle to the wall. Raised edges are invisible under direct light and obvious under raking light.",
+              "Wear a dust mask when sanding. Joint compound dust is extremely fine and gets everywhere.",
+              "Keep a small amount of your wall paint labelled by room. Touch-ups years later are far easier with an exact match."
+            ],
+            "variations": "If the damage is a crack rather than a hole, investigate the cause first, since recurring cracks along the same line may indicate movement rather than a surface problem. If the wall is plaster rather than plasterboard, the technique differs and a plaster-specific filler is required.",
+            "faq": [
+              {
+                "q": "Why can I still see my drywall patch after painting?",
+                "a": "Usually because the compound was applied too thickly, or the patch was not primed. Both leave a visible edge or a difference in sheen."
+              },
+              {
+                "q": "How many coats of filler do I need?",
+                "a": "Typically three thin ones, each spread wider than the last, with full drying between. Thin and patient beats thick and fast."
+              },
+              {
+                "q": "Do I need to check for wires before cutting?",
+                "a": "Yes, always. Cables and pipes run inside stud walls, and a detector costs far less than the alternative."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "low",
+            "difficulty": "moderate",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "joint compound",
+              "putty knife",
+              "sandpaper",
+              "cable detector",
+              "dust mask"
+            ]
+          },
+          "related": [
+            "touch-up-paint-scuffs-and-marks",
+            "learn-basic-electrical-safety",
+            "create-a-home-maintenance-checklist"
+          ]
         },
         {
           "name": "Research smart home devices",
           "slug": "research-smart-home-devices",
           "description": "Compare smart plugs, thermostats, and lights to see which would genuinely make life easier.",
-          "image": "/activities/coding.png"
+          "image": "/activities/coding.png",
+          "seo": {
+            "title": "Research Smart Home Devices Before You Buy Any",
+            "metaDescription": "Work out which smart home devices solve a real problem, which ecosystem locks you in, and what happens to each one when the manufacturer stops caring.",
+            "primaryKeyword": "smart home devices",
+            "secondaryKeywords": [
+              "smart home ecosystem comparison",
+              "do smart thermostats save money",
+              "smart device privacy"
+            ]
+          },
+          "content": {
+            "intro": "The useful hour spent to research smart home devices is mostly spent narrowing. Start from an actual annoyance rather than a product category, because devices bought without a problem to solve become expensive light switches that occasionally need a firmware update. Two or three genuine irritations is a much better starting list.",
+            "whyItWorks": "Ecosystem choice is the decision that constrains everything afterwards, so making it deliberately rather than by accident matters more than any individual product. The second-order question, what happens when the manufacturer discontinues support, separates devices that keep working locally from ones that become inert when a server is switched off.",
+            "howTo": [
+              {
+                "step": "Name the annoyance first",
+                "detail": "Forgetting to turn the heating down, fumbling for lights, not knowing if the door is locked. Problems, not products."
+              },
+              {
+                "step": "Pick your ecosystem deliberately",
+                "detail": "Whichever assistant and phone platform you already use. Mixing ecosystems creates ongoing friction for very little gain."
+              },
+              {
+                "step": "Check what happens offline",
+                "detail": "Does it still work without internet or if the company folds? Local control is the difference between a device and a subscription."
+              },
+              {
+                "step": "Read the privacy terms",
+                "detail": "Cameras and speakers especially. Find out what is recorded, where it is stored, and who else can access it."
+              },
+              {
+                "step": "Buy one and live with it",
+                "detail": "A single device for a month tells you whether the category helps you before you commit to a whole house."
+              }
+            ],
+            "tips": [
+              "Prefer devices that keep basic function when the internet drops. A smart bulb that will not switch on manually is a poor bulb.",
+              "Put smart devices on a separate network segment if your router supports it, since consumer device security is inconsistent.",
+              "Check whether a physical switch still works. Household members who have not opted in will need it."
+            ],
+            "variations": "If saving energy is the goal, focus the hour on heating controls specifically, where the savings are real and measurable, rather than lighting where they are marginal. If privacy concerns you, research locally controlled systems that never send data outside your home; they exist and require more setup.",
+            "faq": [
+              {
+                "q": "Do smart thermostats actually save money?",
+                "a": "Often yes, mostly through better scheduling and zoning rather than the technology itself. Savings depend heavily on how your heating was previously controlled."
+              },
+              {
+                "q": "Should I mix smart home ecosystems?",
+                "a": "Generally avoid it. Cross-ecosystem setups work but add ongoing friction, and shared standards are still inconsistently implemented."
+              },
+              {
+                "q": "What happens if the manufacturer shuts down?",
+                "a": "Cloud-dependent devices can stop working entirely. Check before buying whether the device retains local control without the manufacturer's servers."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "free",
+            "difficulty": "moderate",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "computer"
+            ]
+          },
+          "related": [
+            "research-energy-efficiency-upgrades",
+            "set-up-a-password-manager",
+            "create-a-home-maintenance-checklist"
+          ]
         },
         {
           "name": "Plan a furniture rearrangement",
           "slug": "plan-a-furniture-rearrangement",
           "description": "Sketch your room layout and experiment with arrangements before you move a single sofa.",
-          "image": "/activities/home-diy.png"
+          "image": "/activities/home-diy.png",
+          "seo": {
+            "title": "Plan a Furniture Rearrangement on Paper First",
+            "metaDescription": "Plan a furniture rearrangement by measuring and sketching before lifting anything. Test walkways, light and sightlines without moving a sofa four times.",
+            "primaryKeyword": "plan a furniture rearrangement",
+            "secondaryKeywords": [
+              "room layout planning",
+              "furniture arrangement tips",
+              "small room layout ideas"
+            ]
+          },
+          "content": {
+            "intro": "To plan a furniture rearrangement properly, do it on paper before touching anything heavy. Measuring and sketching takes twenty minutes and eliminates the usual experience of dragging a sofa into three positions, discovering none of them clear the door, and putting it back exactly where it started.",
+            "whyItWorks": "Rooms are constrained by things that are easy to forget while standing in them: door swings, radiator placement, where the sockets are, and how much clearance a walkway actually needs. A scale sketch makes all of those visible simultaneously, which is something you cannot hold in your head while also lifting furniture.",
+            "howTo": [
+              {
+                "step": "Measure the room and everything in it",
+                "detail": "Walls, then each piece of furniture. Include door swings, window sills, radiators and socket positions."
+              },
+              {
+                "step": "Sketch to scale on graph paper",
+                "detail": "One square per ten centimeters works well. Cut out paper rectangles for the furniture so you can slide them around."
+              },
+              {
+                "step": "Fix the immovable things first",
+                "detail": "The television needs an aerial point, the desk needs a socket, the bed needs door clearance. Place these before anything else."
+              },
+              {
+                "step": "Leave real walkways",
+                "detail": "Around seventy-five centimeters for a main route. Layouts that look fine on paper fail on circulation more than anything."
+              },
+              {
+                "step": "Consider where the light falls",
+                "detail": "Seating facing a window causes glare; a desk beside one is excellent. Natural light should drive placement more than symmetry does."
+              }
+            ],
+            "tips": [
+              "Mark the new positions on the floor with tape and live with it for a day before committing.",
+              "Get help for anything heavy, and use furniture sliders on hard floors. Rearranging is a common source of back injury.",
+              "Pull seating away from the walls. Pushing everything to the edges makes a room feel smaller, not larger."
+            ],
+            "variations": "If the room is small, spend the hour on vertical space and multi-purpose pieces instead of layout, since floor arrangement has limited scope. If you are furnishing from scratch, sketch the layout before buying anything, which prevents the common problem of a sofa that does not fit through the door.",
+            "faq": [
+              {
+                "q": "How much clearance do I need for walkways?",
+                "a": "Around seventy-five centimeters for a main route and forty-five for a secondary one. Circulation is where most layouts fail."
+              },
+              {
+                "q": "Should furniture be against the walls?",
+                "a": "Not necessarily. Pulling seating slightly inward usually makes a room feel larger and more deliberately arranged."
+              },
+              {
+                "q": "How do I plan a layout without moving anything?",
+                "a": "Measure everything and sketch it to scale on graph paper, using cut-out rectangles for the furniture. Twenty minutes saves considerable lifting."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 45,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "tape measure",
+              "graph paper",
+              "masking tape"
+            ]
+          },
+          "related": [
+            "deep-clean-one-room-in-your-home",
+            "research-ergonomic-workspace-setups",
+            "organize-your-workspace"
+          ]
         },
         {
           "name": "Learn basic electrical safety",
           "slug": "learn-basic-electrical-safety",
           "description": "Learn what's safe to DIY, what isn't, and where your breaker box and shut-offs are.",
-          "image": "/activities/home-diy.png"
+          "image": "/activities/home-diy.png",
+          "seo": {
+            "title": "Learn Basic Electrical Safety and What Never to Touch",
+            "metaDescription": "Electrical safety at home: test your consumer unit, recognize the warning signs of a fault, and know which jobs legally require a qualified electrician.",
+            "primaryKeyword": "basic electrical safety",
+            "secondaryKeywords": [
+              "how to test an RCD",
+              "signs of faulty wiring",
+              "when to call an electrician"
+            ]
+          },
+          "content": {
+            "intro": "Basic electrical safety at home is knowledge rather than skill, and that distinction is the whole point. Almost nothing on this list involves doing electrical work. It involves knowing where your consumer unit is, testing the protective device inside it, and recognizing the signs that mean you should stop and call a qualified electrician.",
+            "whyItWorks": "The residual current device in your consumer unit is what stands between a fault and a fatal shock, and it is a mechanical component that can fail silently. Testing it takes ten seconds and almost nobody does it. Learning the warning signs matters for a similar reason: faults announce themselves for weeks before they cause harm, if you know what you are listening for.",
+            "howTo": [
+              {
+                "step": "Find your consumer unit",
+                "detail": "Know where it is and what each breaker controls. Label them if they are not already labelled clearly."
+              },
+              {
+                "step": "Press the RCD test button",
+                "detail": "It should trip immediately. If it does not, call an electrician; that device is your primary protection against shock."
+              },
+              {
+                "step": "Learn the warning signs",
+                "detail": "Scorch marks, a burning smell, warm switches, buzzing sockets, or breakers that trip repeatedly. All mean stop and call someone."
+              },
+              {
+                "step": "Audit your extension leads",
+                "detail": "No daisy-chained extensions, no leads under carpet, nothing overloaded. Check ratings against what is plugged in."
+              },
+              {
+                "step": "Write down what needs a professional",
+                "detail": "New circuits, consumer unit work, anything in a bathroom or outdoors, and anything behind a wall. These are often legally restricted."
+              }
+            ],
+            "tips": [
+              "Test the RCD roughly every three months and note the date. It is the single most valuable ten seconds in home safety.",
+              "Never assume a circuit is dead because a switch is off. Only a qualified electrician working safely should rely on that.",
+              "Repeated tripping is a symptom, not a nuisance. Resetting a breaker without finding the cause is how faults escalate."
+            ],
+            "variations": "If your home is older, spend the hour finding out when the wiring was last inspected, since periodic inspection reports have recommended intervals and older installations often lack modern protection. If you rent, check that your landlord holds a current electrical safety certificate, which is a legal requirement in many places.",
+            "faq": [
+              {
+                "q": "What electrical work can I legally do myself?",
+                "a": "This varies significantly by country and often by room. Bathrooms, outdoors and new circuits are commonly restricted to qualified electricians."
+              },
+              {
+                "q": "How often should I test the RCD?",
+                "a": "Roughly every three months. It is a mechanical device that can fail without any outward sign that it has."
+              },
+              {
+                "q": "What are the signs of faulty wiring?",
+                "a": "Scorch marks, burning smells, warm or buzzing sockets, flickering lights and repeated breaker trips. Any of these warrants a qualified electrician."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 45,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "torch",
+              "notebook"
+            ]
+          },
+          "related": [
+            "test-your-smoke-and-carbon-monoxide-alarms",
+            "learn-basic-plumbing-fixes",
+            "create-a-home-maintenance-checklist"
+          ]
         },
         {
           "name": "Start a home inventory for insurance",
           "slug": "start-a-home-inventory-for-insurance",
           "description": "Photograph and list your valuables room by room — your future self will thank you.",
-          "image": "/activities/home-diy.png"
+          "image": "/activities/home-diy.png",
+          "seo": {
+            "title": "Start a Home Inventory for Insurance Today",
+            "metaDescription": "A home inventory for insurance takes an hour and settles claims faster. Photograph rooms, record serial numbers, and store the evidence outside the house.",
+            "primaryKeyword": "home inventory for insurance",
+            "secondaryKeywords": [
+              "insurance claim documentation",
+              "how to prove ownership for insurance",
+              "contents insurance valuation"
+            ]
+          },
+          "content": {
+            "intro": "Nobody builds a home inventory for insurance until they have needed one, which is precisely the wrong order. After a fire or burglary, insurers ask what you owned and what it was worth, and reconstructing that from memory under stress produces an underclaim almost every time. An hour now is the entire remedy.",
+            "whyItWorks": "Claims are settled on evidence rather than recollection, and photographs with visible serial numbers are about as good as evidence gets. The exercise has a second effect people do not expect: totalling the contents usually reveals that the sum insured is too low, which is a problem worth discovering before a claim rather than during one.",
+            "howTo": [
+              {
+                "step": "Video-walk every room",
+                "detail": "Narrate as you go, opening cupboards and drawers. A ten-minute video captures more than an hour of listing."
+              },
+              {
+                "step": "Photograph high-value items individually",
+                "detail": "Electronics, jewellery, tools, instruments. Include the serial number and any distinguishing marks in the frame."
+              },
+              {
+                "step": "Record receipts and valuations",
+                "detail": "Photograph what you still have. For anything valuable, a professional valuation may be required by your policy."
+              },
+              {
+                "step": "Total it and compare to your cover",
+                "detail": "Add up the estimated replacement cost. Most people are underinsured and only find out at the worst moment."
+              },
+              {
+                "step": "Store it outside the house",
+                "detail": "Cloud storage or a copy with a relative. An inventory that burns with the house documents nothing."
+              }
+            ],
+            "tips": [
+              "Check your policy for single-item limits. Valuable pieces often need specifying separately or they are capped low.",
+              "Update after any significant purchase, and do a full refresh annually. Photograph new items when you unbox them.",
+              "Note serial numbers separately as text too. They are useful to police and are hard to read from a photograph."
+            ],
+            "variations": "If you rent, the same exercise applies to your contents and takes less time, since the building itself is your landlord's responsibility. If you have already done this, spend the hour verifying that your sum insured still matches the total, which drifts upward faster than most policies do.",
+            "faq": [
+              {
+                "q": "What should a home inventory include?",
+                "a": "Video of every room, individual photographs of valuables with serial numbers, receipts where available, and an estimated replacement total."
+              },
+              {
+                "q": "Where should I store it?",
+                "a": "Outside the house. Cloud storage or a copy held elsewhere, since an inventory destroyed alongside your possessions helps nobody."
+              },
+              {
+                "q": "How do I know if I am underinsured?",
+                "a": "Total the replacement cost of your contents and compare it against your sum insured. Most people find a meaningful gap."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "phone camera",
+              "cloud storage",
+              "insurance policy documents"
+            ]
+          },
+          "related": [
+            "review-your-insurance-policies-for-better-deals",
+            "digitize-important-paper-documents",
+            "create-a-home-maintenance-checklist"
+          ]
         },
         {
           "name": "Touch up paint scuffs and marks",
           "slug": "touch-up-paint-scuffs-and-marks",
           "description": "Grab the leftover paint tin and erase the scuffs and marks that have been bugging you for months.",
-          "image": "/activities/home-diy.png"
+          "image": "/activities/home-diy.png",
+          "seo": {
+            "title": "Touch Up Paint Scuffs Without Leaving Visible Patches",
+            "metaDescription": "Touch up paint scuffs so the repair blends in: clean first, try washing before painting, match the sheen, and feather the edges rather than dabbing.",
+            "primaryKeyword": "touch up paint scuffs",
+            "secondaryKeywords": [
+              "how to match wall paint",
+              "paint sheen matching",
+              "fixing scuffed walls"
+            ]
+          },
+          "content": {
+            "intro": "Before you touch up paint scuffs, try a damp cloth: half of them come off, which is worth discovering before opening a tin. For the rest, the reason a repair stays visible is almost always sheen, because new paint reflects light differently from paint that has aged on a wall for three years.",
+            "whyItWorks": "Paint changes subtly with time and light exposure, so even the correct color from the original tin will not match perfectly. Feathering the edges of the touch-up spreads that difference over a wider area rather than presenting a hard boundary, and matching the sheen removes the shininess that makes a patch obvious from an angle.",
+            "howTo": [
+              {
+                "step": "Clean the mark first",
+                "detail": "A damp cloth with a little detergent, or a melamine sponge for scuffs. A surprising proportion of marks simply come off."
+              },
+              {
+                "step": "Find your original paint",
+                "detail": "Check the tin for the color code and finish. Without it, take a chip from an inconspicuous area for matching."
+              },
+              {
+                "step": "Match the sheen, not just the color",
+                "detail": "Matt over eggshell shows immediately at an angle, even when the color is exactly right. Finish matters more than people expect."
+              },
+              {
+                "step": "Apply thinly and feather outward",
+                "detail": "A small brush, thin coat, blending the edges into the surrounding wall. Dabbing leaves a distinct visible island."
+              },
+              {
+                "step": "Check it in daylight before a second coat",
+                "detail": "Paint dries a slightly different shade than it appears wet. Judging too early leads to unnecessary overpainting."
+              }
+            ],
+            "tips": [
+              "Decant a small amount of leftover paint into a labelled jar per room. Full tins dry out and are awkward for small jobs.",
+              "Use the same application method as the original. A brushed patch on a rollered wall shows through the texture difference.",
+              "If a wall has many marks, painting the whole wall corner to corner is often faster and always looks better."
+            ],
+            "variations": "If the marks are on woodwork rather than walls, degrease first, since kitchen and door frame paint accumulates a film that stops new paint adhering. If you cannot find the original color, repaint the full wall to a natural break rather than attempting a match.",
+            "faq": [
+              {
+                "q": "Why does my touch-up paint show as a patch?",
+                "a": "Usually a sheen mismatch, or paint applied too thickly without feathering. Color is often correct while the finish is not."
+              },
+              {
+                "q": "Can I match paint without the original tin?",
+                "a": "Yes, most paint suppliers can scan a chip taken from an inconspicuous area. It will be close, though rarely perfect on aged paint."
+              },
+              {
+                "q": "When should I repaint the whole wall instead?",
+                "a": "When there are several marks, or the paint is more than a few years old. Painting corner to corner avoids all matching problems."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 30,
+            "cost": "low",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "leftover paint",
+              "small brush",
+              "cloth",
+              "melamine sponge"
+            ]
+          },
+          "related": [
+            "learn-to-patch-drywall",
+            "deep-clean-one-room-in-your-home",
+            "create-a-home-maintenance-checklist"
+          ]
         },
         {
           "name": "Test your smoke and carbon monoxide alarms",
           "slug": "test-your-smoke-and-carbon-monoxide-alarms",
           "description": "Press the test button on every alarm, replace tired batteries, and note when the units expire.",
-          "image": "/activities/home-diy.png"
+          "image": "/activities/home-diy.png",
+          "seo": {
+            "title": "Test Your Smoke and Carbon Monoxide Alarms Today",
+            "metaDescription": "Testing smoke and carbon monoxide alarms takes five minutes. Check placement, press every test button, and find out how old the units actually are.",
+            "primaryKeyword": "test your smoke and carbon monoxide alarms",
+            "secondaryKeywords": [
+              "how often to test smoke alarms",
+              "carbon monoxide detector placement",
+              "smoke alarm expiry date"
+            ]
+          },
+          "content": {
+            "intro": "Test your smoke and carbon monoxide alarms is the shortest and highest-consequence task on any home maintenance list. It takes five minutes, requires nothing, and a meaningful proportion of homes that carry out this check discover at least one alarm that does not sound, is missing entirely, or expired years ago.",
+            "whyItWorks": "Alarms fail silently. A dead battery, a sensor past its service life, or a unit someone disconnected during cooking and never reconnected all produce the same outcome: a device on the ceiling that looks like protection and is not. The test button is the only thing that distinguishes the two states, and expiry dates catch the failure it cannot.",
+            "howTo": [
+              {
+                "step": "Press every test button",
+                "detail": "Each unit, individually. If they are interlinked, confirm the others sound too, which is the point of interlinking."
+              },
+              {
+                "step": "Check the manufacture date",
+                "detail": "Printed on the back or side. Smoke alarms typically expire after ten years and carbon monoxide units sooner."
+              },
+              {
+                "step": "Verify the placement",
+                "detail": "Smoke alarms on every level and in escape routes; carbon monoxide alarms in any room with a fuel-burning appliance."
+              },
+              {
+                "step": "Vacuum the units",
+                "detail": "Dust causes both false alarms and reduced sensitivity. A quick pass with the brush attachment is enough."
+              },
+              {
+                "step": "Agree an escape route",
+                "detail": "Two minutes talking through how everyone gets out. Working alarms only help if the next step is decided in advance."
+              }
+            ],
+            "tips": [
+              "Test monthly. Attaching it to an existing monthly routine is the only way this reliably keeps happening.",
+              "Never remove a battery to silence cooking smoke. Move the alarm or fit one with a hush button instead.",
+              "Carbon monoxide is odourless and its symptoms mimic flu. An alarm is the only way to detect it at all."
+            ],
+            "variations": "If your alarms are all working and current, spend the remaining time checking fire extinguisher pressure and clearing escape routes of stored items. If you rent, report any missing or non-functioning alarm to your landlord in writing, since providing them is usually a legal obligation.",
+            "faq": [
+              {
+                "q": "How often should smoke alarms be tested?",
+                "a": "Monthly, using the test button. Battery replacement and unit expiry are separate checks on a yearly and ten-yearly cycle."
+              },
+              {
+                "q": "Where should carbon monoxide alarms go?",
+                "a": "In any room containing a fuel-burning appliance, and in sleeping areas. Follow the manufacturer's height guidance, which varies by model."
+              },
+              {
+                "q": "Do smoke alarms expire?",
+                "a": "Yes, typically after ten years regardless of battery condition. The sensor degrades, so check the manufacture date printed on the unit."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 30,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "step stool",
+              "vacuum with brush attachment",
+              "spare batteries"
+            ]
+          },
+          "related": [
+            "learn-basic-electrical-safety",
+            "create-a-home-maintenance-checklist",
+            "schedule-overdue-health-check-ups"
+          ]
         },
         {
           "name": "Clean or replace air filters and vents",
           "slug": "clean-or-replace-air-filters-and-vents",
           "description": "Dust the vents and swap clogged filters — better air and lower running costs in under an hour.",
-          "image": "/activities/home-diy.png"
+          "image": "/activities/home-diy.png",
+          "seo": {
+            "title": "Clean or Replace Air Filters and Vents This Hour",
+            "metaDescription": "Blocked filters make heating and cooling work harder and worsen indoor air. Find every filter and vent in your home, clean what you can, replace the rest.",
+            "primaryKeyword": "clean or replace air filters",
+            "secondaryKeywords": [
+              "how often to change air filters",
+              "extractor fan cleaning",
+              "improve indoor air quality"
+            ]
+          },
+          "content": {
+            "intro": "Almost every home has more filters than the occupants realize. Heating or cooling systems, extractor hoods, bathroom fans, tumble dryers, vacuum cleaners, and often the boiler. To clean or replace air filters across all of them takes an hour, improves the air noticeably, and makes several appliances measurably more efficient.",
+            "whyItWorks": "A blocked filter forces the appliance behind it to work harder for the same result, which costs energy and shortens its life. In the case of extractor fans and dryers, the restriction is also a fire and moisture risk. The air quality effect is the most immediately noticeable, particularly in bedrooms and for anyone with allergies.",
+            "howTo": [
+              {
+                "step": "Find every filter in the house",
+                "detail": "Heating and cooling, cooker hood, bathroom fans, dryer, vacuum. Make a list; most people miss at least two."
+              },
+              {
+                "step": "Check which are washable",
+                "detail": "Metal mesh hood filters and many vacuum filters wash; paper and pleated ones must be replaced. Washing a paper filter destroys it."
+              },
+              {
+                "step": "Degrease the cooker hood filter",
+                "detail": "Hot water with detergent, or the dishwasher if the manufacturer permits. Grease-clogged filters are a genuine fire risk."
+              },
+              {
+                "step": "Vacuum the vents and grilles",
+                "detail": "Wall and ceiling vents accumulate dust that then circulates. The brush attachment handles this in a few minutes."
+              },
+              {
+                "step": "Note sizes and set a reminder",
+                "detail": "Write down each filter size so reordering is trivial, and put the next change date in your calendar."
+              }
+            ],
+            "tips": [
+              "Clear the dryer lint filter after every load, and check the external vent annually. Lint build-up is a common cause of house fires.",
+              "Let washed filters dry completely before refitting. A damp filter grows mould and smells worse than the dust did.",
+              "Never block airbricks or trickle vents. They are there to prevent damp and, where fuel is burnt, to supply combustion air."
+            ],
+            "variations": "If you have no ducted system, focus the hour on extractor fans and the cooker hood, which are the two most neglected and most consequential. If anyone in the house has allergies or asthma, prioritize bedroom vents and consider a higher-grade filter where the appliance supports it.",
+            "faq": [
+              {
+                "q": "How often should air filters be changed?",
+                "a": "Typically every one to three months for forced-air systems, more often with pets. Check the manufacturer's guidance for each appliance."
+              },
+              {
+                "q": "Can I wash a disposable filter?",
+                "a": "No. Paper and pleated filters are destroyed by water. Only metal mesh and specifically washable filters should be cleaned and reused."
+              },
+              {
+                "q": "Does a dirty filter really cost money?",
+                "a": "Yes. Restricted airflow makes the appliance run longer for the same result, which uses more energy and shortens its lifespan."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "low",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "vacuum with brush attachment",
+              "detergent",
+              "replacement filters"
+            ]
+          },
+          "related": [
+            "deep-clean-one-room-in-your-home",
+            "create-a-home-maintenance-checklist",
+            "research-energy-efficiency-upgrades"
+          ]
         },
         {
           "name": "Fix a squeaky door or loose handle",
           "slug": "fix-a-squeaky-door-or-loose-handle",
           "description": "Knock out one of those tiny annoyances: a drop of oil and a tightened screw go a long way.",
-          "image": "/activities/home-diy.png"
+          "image": "/activities/home-diy.png",
+          "seo": {
+            "title": "Fix a Squeaky Door or Loose Handle in Ten Minutes",
+            "metaDescription": "A squeaky door or loose handle takes minutes to fix with a screwdriver and lubricant. Diagnose the actual cause first, then fix it permanently.",
+            "primaryKeyword": "fix a squeaky door",
+            "secondaryKeywords": [
+              "loose door handle repair",
+              "door hinge lubricant",
+              "door not latching properly"
+            ]
+          },
+          "content": {
+            "intro": "A squeaky door is the archetypal small annoyance that survives for years because it is never quite urgent. To fix a squeaky door takes about four minutes once you know which of three causes you have, and a loose handle takes about the same. The hour is enough to do every door in the house.",
+            "whyItWorks": "These faults have very few possible causes, which makes diagnosis quick. A squeak is a dry hinge or a loose one; a loose handle is a loose grub screw or worn spindle; a door that will not latch is a misaligned strike plate. Each has a direct fix, and none require any skill beyond using a screwdriver correctly.",
+            "howTo": [
+              {
+                "step": "Work out which hinge squeaks",
+                "detail": "Move the door slowly and listen. Fixing the wrong hinge is the usual reason the squeak returns immediately."
+              },
+              {
+                "step": "Tighten the hinge screws first",
+                "detail": "A loose hinge causes squeaking, sticking and misalignment. This alone resolves a large share of door problems."
+              },
+              {
+                "step": "Lubricate properly",
+                "detail": "Work the pin out slightly, apply lubricant, swing the door to distribute it, wipe the excess. Avoid anything that attracts dust."
+              },
+              {
+                "step": "Fix the loose handle at the grub screw",
+                "detail": "Most handles have a small screw on the collar. Tighten it; if the spindle is worn, replace that rather than the whole handle."
+              },
+              {
+                "step": "Realign the strike plate if it will not latch",
+                "detail": "Look for the shiny rub mark on the plate. Move it a couple of millimetres or file the opening slightly."
+              }
+            ],
+            "tips": [
+              "If a screw spins without biting, glue a matchstick into the hole and rescrew. It is a very old fix and it works.",
+              "Use a screwdriver that actually fits the screw head. Chewed screw heads turn a two-minute job into a long one.",
+              "Do the whole house at once. The tools are already out and each additional door takes only minutes."
+            ],
+            "variations": "If a door sticks in its frame rather than squeaking, check hinges first before planing anything, since seasonal swelling and a loose hinge look identical and only one requires removing material. If the door is external, check the weather seal at the same time.",
+            "faq": [
+              {
+                "q": "What should I use to lubricate a door hinge?",
+                "a": "A dry lubricant or grease rather than a thin penetrating spray, which evaporates and lets the squeak return within weeks."
+              },
+              {
+                "q": "How do I fix a loose door handle?",
+                "a": "Tighten the small grub screw on the collar. If it still moves, the spindle is likely worn and needs replacing."
+              },
+              {
+                "q": "Why won't my door latch properly?",
+                "a": "Usually the strike plate is misaligned, often after hinges loosened or the frame moved. Look for a rub mark and adjust the plate."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 30,
+            "cost": "low",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "screwdriver set",
+              "lubricant",
+              "cloth"
+            ]
+          },
+          "related": [
+            "create-a-home-maintenance-checklist",
+            "touch-up-paint-scuffs-and-marks",
+            "descale-your-kettle-and-showerhead"
+          ]
         },
         {
           "name": "Descale your kettle and showerhead",
           "slug": "descale-your-kettle-and-showerhead",
           "description": "Banish limescale with vinegar or citric acid and get your kettle and shower back to full power.",
-          "image": "/activities/home-diy.png"
+          "image": "/activities/home-diy.png",
+          "seo": {
+            "title": "Descale Your Kettle and Showerhead the Cheap Way",
+            "metaDescription": "Limescale slows your kettle and blocks your shower. Descale both with vinegar or citric acid in an hour, and learn how often your water hardness requires it.",
+            "primaryKeyword": "descale your kettle and showerhead",
+            "secondaryKeywords": [
+              "how to remove limescale",
+              "vinegar descaling method",
+              "hard water appliance damage"
+            ]
+          },
+          "content": {
+            "intro": "In a hard water area, limescale quietly degrades everything that heats or sprays water. A furred kettle uses noticeably more energy to boil, and a blocked showerhead loses pressure so gradually that nobody notices until it is fixed. To descale your kettle and showerhead costs almost nothing and takes one soak.",
+            "whyItWorks": "Limescale is calcium carbonate, which dissolves readily in mild acid. Vinegar and citric acid both do the job for a fraction of the price of branded descalers, which are frequently the same acids in different packaging. The process is almost entirely waiting, so an hour of soaking requires perhaps five minutes of actual attention.",
+            "howTo": [
+              {
+                "step": "Check your water hardness first",
+                "detail": "Your water supplier publishes it. Hardness determines how often this needs doing, which varies from monthly to almost never."
+              },
+              {
+                "step": "Fill the kettle with diluted acid",
+                "detail": "Equal parts white vinegar and water, or citric acid powder per the packet. Boil, then leave to stand."
+              },
+              {
+                "step": "Soak the showerhead",
+                "detail": "Unscrew it into a bowl, or tie a bag of solution around it if it will not detach. Leave for an hour."
+              },
+              {
+                "step": "Clear the nozzles",
+                "detail": "Rub the rubber nozzles with a thumb, or use a pin on stubborn holes. This is where the pressure loss comes from."
+              },
+              {
+                "step": "Rinse thoroughly and boil once",
+                "detail": "Rinse the showerhead well and boil the kettle twice with fresh water, discarding both, before using it again."
+              }
+            ],
+            "tips": [
+              "Never use vinegar on natural stone or certain plated finishes. Check the manufacturer's guidance for anything decorative.",
+              "Descale on a schedule matched to your water hardness rather than waiting for visible build-up.",
+              "The same approach works on coffee machines and irons, though many have a specific cycle worth following instead."
+            ],
+            "variations": "If you live in a soft water area, skip this and spend the hour on something else; descaling is close to unnecessary below moderate hardness. If your whole house is affected, research whether a water softener or scale inhibitor makes economic sense given your hardness level.",
+            "faq": [
+              {
+                "q": "How often should I descale a kettle?",
+                "a": "Monthly in very hard water areas, every few months in moderate ones, rarely in soft water. Check your supplier's published hardness figure."
+              },
+              {
+                "q": "Is vinegar as good as a branded descaler?",
+                "a": "For limescale, generally yes. Both work by dissolving calcium carbonate with mild acid, and vinegar costs a fraction of the price."
+              },
+              {
+                "q": "Does limescale actually waste energy?",
+                "a": "Yes. A scaled heating element transfers heat less efficiently, so the appliance runs longer and wears out sooner."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "low",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "white vinegar or citric acid",
+              "bowl",
+              "plastic bag",
+              "cloth"
+            ]
+          },
+          "related": [
+            "clean-or-replace-air-filters-and-vents",
+            "deep-clean-one-room-in-your-home",
+            "create-a-home-maintenance-checklist"
+          ]
         },
         {
           "name": "Learn to re-seal a bath or sink",
           "slug": "learn-to-re-seal-a-bath-or-sink",
           "description": "Watch a tutorial on removing tired sealant and applying a clean new bead — a satisfying skill for life.",
-          "image": "/activities/home-diy.png"
+          "image": "/activities/home-diy.png",
+          "seo": {
+            "title": "Re-seal a Bath or Sink and Get a Clean Silicone Line",
+            "metaDescription": "Mouldy sealant is a water ingress problem, not a cosmetic one. Remove the old silicone completely, prepare the gap properly, and lay one continuous bead.",
+            "primaryKeyword": "re-seal a bath or sink",
+            "secondaryKeywords": [
+              "how to apply silicone sealant neatly",
+              "removing old bathroom sealant",
+              "mouldy silicone fix"
+            ]
+          },
+          "content": {
+            "intro": "Black mould along a bath edge is not a cosmetic problem. It means water is getting behind the seal, and behind the seal is usually a floor. To re-seal a bath or sink properly takes an hour of work plus curing time, and the entire outcome depends on a step people skip: removing every trace of the old silicone.",
+            "whyItWorks": "New silicone does not bond to old silicone, so any residue left in the joint becomes a channel for water. The second determinant is dryness, because silicone applied to a damp gap will not adhere. Both are unglamorous preparation, and together they account for the difference between a seal lasting five years and one failing in six months.",
+            "howTo": [
+              {
+                "step": "Remove all the old sealant",
+                "detail": "A sharp blade and a plastic scraper. Every trace, including the thin film. New silicone will not bond over old."
+              },
+              {
+                "step": "Clean and dry the joint completely",
+                "detail": "Remove mould with a cleaner, then let it dry fully. A damp gap guarantees failure regardless of technique."
+              },
+              {
+                "step": "Fill the bath before sealing",
+                "detail": "Water weight spreads the joint to its widest. Sealing an empty bath means the bead tears the first time it is used."
+              },
+              {
+                "step": "Lay one continuous bead",
+                "detail": "Cut the nozzle at forty-five degrees, keep steady pressure, and do not stop mid-run. Joins are where seals fail."
+              },
+              {
+                "step": "Tool it once and leave it",
+                "detail": "Smooth with a wet finger or shaping tool in a single pass. Repeated fiddling ruins the surface and traps air."
+              }
+            ],
+            "tips": [
+              "Use sanitary-grade silicone containing a fungicide for bathrooms and kitchens. Standard silicone will go mouldy far sooner.",
+              "Masking tape either side of the joint gives a sharp line. Remove it while the silicone is still wet.",
+              "Respect the full curing time before letting water touch it, usually around twenty-four hours. Rushing this wastes the whole job."
+            ],
+            "variations": "If the gap is wider than about a centimeter, fit a backer rod or a plastic sealing strip first, since silicone alone will sag and split across a large span. If mould keeps returning quickly despite good sealant, the underlying issue is usually ventilation rather than the seal.",
+            "faq": [
+              {
+                "q": "Can I apply new silicone over the old?",
+                "a": "No. New silicone does not bond to cured silicone, so the seal will fail. All of the old material must be removed."
+              },
+              {
+                "q": "Why should the bath be full when sealing?",
+                "a": "The weight of water widens the joint to its maximum. Sealing empty means the bead is stretched and tears on first use."
+              },
+              {
+                "q": "How long before I can use the shower?",
+                "a": "Usually around twenty-four hours, though it varies by product. Check the tube and do not shorten it; the cure is what makes it waterproof."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "low",
+            "difficulty": "moderate",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "sanitary silicone",
+              "sealant gun",
+              "sharp blade",
+              "masking tape",
+              "mould cleaner"
+            ]
+          },
+          "related": [
+            "learn-basic-plumbing-fixes",
+            "deep-clean-one-room-in-your-home",
+            "create-a-home-maintenance-checklist"
+          ]
         }
       ]
     },

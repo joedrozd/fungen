@@ -36,11 +36,11 @@
         "Add a line called unallocated and fund it. Budgets with no slack break the first time something unexpected happens.",
         "Review for ten minutes monthly, not daily. Daily checking produces anxiety without improving decisions."
       ],
-      "variations": "If a spreadsheet feels like too much friction, the same hour works on a budgeting app that categorises automatically, at the cost of connecting your accounts. If you share finances, build it together in one sitting; separately built budgets rarely reconcile.",
+      "variations": "If a spreadsheet feels like too much friction, the same hour works on a budgeting app that categorizes automatically, at the cost of connecting your accounts. If you share finances, build it together in one sitting; separately built budgets rarely reconcile.",
       "faq": [
         {
           "q": "How many budget categories should I use?",
-          "a": "Six or seven. Enough to see where money goes, few enough that categorising a transaction never requires thought."
+          "a": "Six or seven. Enough to see where money goes, few enough that categorizing a transaction never requires thought."
         },
         {
           "q": "What is the 50/30/20 rule?",
@@ -91,7 +91,7 @@
           "detail": "Find the expense ratios of any two similar funds and project both over thirty years. The gap is usually startling."
         },
         {
-          "step": "Read one sceptical source",
+          "step": "Read one skeptical source",
           "detail": "Deliberately find someone arguing against the popular position. It reveals which claims are settled and which are contested."
         },
         {
@@ -101,8 +101,8 @@
       ],
       "tips": [
         "Prefer sources that do not sell products. Regulators, public broadcasters and university material carry far less conflict of interest.",
-        "Be sceptical of anything promising unusual returns with low risk. That combination does not exist reliably.",
-        "Learn what your workplace pension already invests in before adding anything new. Many people are invested without realising."
+        "Be skeptical of anything promising unusual returns with low risk. That combination does not exist reliably.",
+        "Learn what your workplace pension already invests in before adding anything new. Many people are invested without realizing."
       ],
       "variations": "If you already understand the fundamentals, spend the hour reading the actual fund documents for what you hold, which almost nobody does. If you are helping someone else start, focus the hour on fees and time horizon; those two ideas prevent the most expensive mistakes.",
       "faq": [
@@ -211,7 +211,7 @@
       "secondaryKeywords": ["free credit report", "how to dispute credit report errors", "what affects your credit score"]
     },
     "content": {
-      "intro": "Errors on credit files are common and expensive, and almost nobody checks. When you review your credit report you are looking for two things: mistakes that are dragging your score down, and accounts you do not recognise. Both are fixable, both are free to fix, and an hour is more than enough to find them.",
+      "intro": "Errors on credit files are common and expensive, and almost nobody checks. When you review your credit report you are looking for two things: mistakes that are dragging your score down, and accounts you do not recognize. Both are fixable, both are free to fix, and an hour is more than enough to find them.",
       "whyItWorks": "Credit files are assembled from data submitted by lenders, and that data is entered by people and systems that make errors. A closed account still showing as open, a late payment that was not late, an address you never lived at. Each can affect what you are offered on a mortgage or loan, and correcting one is a form letter rather than a legal battle.",
       "howTo": [
         {
@@ -227,7 +227,7 @@
           "detail": "Confirm each is genuinely yours and genuinely open. Old closed accounts still showing open distort your apparent exposure."
         },
         {
-          "step": "Look for accounts you do not recognise",
+          "step": "Look for accounts you do not recognize",
           "detail": "An unfamiliar account can indicate identity fraud. Report it immediately rather than assuming you forgot something."
         },
         {
@@ -416,7 +416,7 @@
     },
     "content": {
       "intro": "Tax deductions you may qualify for are unclaimed largely because nobody tells you they exist. Work-from-home relief, professional subscriptions, uniform costs, charitable giving, study expenses. None require aggressive planning; they require knowing they apply and keeping a receipt. An hour of reading frequently pays for itself several times over.",
-      "whyItWorks": "Tax authorities publish the eligibility rules in full, for free, and the rules for employees are usually short. The barrier is that the information is organised by legislation rather than by the situation you are actually in. Reading it once, filtered against your own circumstances, converts a permanently vague sense that you might be missing something into a concrete list.",
+      "whyItWorks": "Tax authorities publish the eligibility rules in full, for free, and the rules for employees are usually short. The barrier is that the information is organized by legislation rather than by the situation you are actually in. Reading it once, filtered against your own circumstances, converts a permanently vague sense that you might be missing something into a concrete list.",
       "howTo": [
         {
           "step": "Start with the official source",
@@ -564,7 +564,7 @@
         },
         {
           "step": "Check the true startup cost",
-          "detail": "Money, equipment, and the hours before the first payment arrives. Anything requiring significant upfront spend deserves scepticism."
+          "detail": "Money, equipment, and the hours before the first payment arrives. Anything requiring significant upfront spend deserves skepticism."
         },
         {
           "step": "Ask whether it accumulates",
@@ -703,7 +703,7 @@
           "detail": "Avalanche targets the highest rate and costs least. Snowball clears smallest balances first and sustains motivation better."
         },
         {
-          "step": "Direct every spare pound at one debt",
+          "step": "Direct every spare payment at one debt",
           "detail": "Spreading extra payments across several debts feels productive and is measurably slower. Concentrate on one at a time."
         },
         {
@@ -852,7 +852,7 @@
         "Check the exclusions on anything you rely on. Discovering an exclusion at claim time is the expensive way to learn it.",
         "Set calendar reminders three weeks before each renewal date so the comparison happens before auto-renewal does."
       ],
-      "variations": "If your policies are already competitively priced, spend the hour on the coverage side instead and check whether income protection or life cover gaps exist, which matter far more than premium savings. If you have had a life change recently, prioritise updating those policies over shopping around.",
+      "variations": "If your policies are already competitively priced, spend the hour on the coverage side instead and check whether income protection or life cover gaps exist, which matter far more than premium savings. If you have had a life change recently, prioritize updating those policies over shopping around.",
       "faq": [
         {
           "q": "Why does my insurance go up every year?",
@@ -960,7 +960,7 @@
     },
     "content": {
       "intro": "Committing to track every expense for a month is how most people discover they will not. One day is different: it is short enough to actually complete, and it still produces the uncomfortable insight, because the spending that disappears into a monthly average is exactly the spending you make without deciding to.",
-      "whyItWorks": "Monthly statements smooth everything into categories. Recording each purchase at the moment it happens does something a statement cannot: it inserts a half-second of attention before the transaction. That observation effect is the entire mechanism, and it is why a single tracked day often changes behaviour more than a month of retrospective analysis.",
+      "whyItWorks": "Monthly statements smooth everything into categories. Recording each purchase at the moment it happens does something a statement cannot: it inserts a half-second of attention before the transaction. That observation effect is the entire mechanism, and it is why a single tracked day often changes behavior more than a month of retrospective analysis.",
       "howTo": [
         {
           "step": "Choose a completely ordinary day",
@@ -984,11 +984,11 @@
         }
       ],
       "tips": [
-        "Do not change your behaviour on the tracked day. A distorted sample tells you nothing useful.",
+        "Do not change your behavior on the tracked day. A distorted sample tells you nothing useful.",
         "Repeat on one weekend day too. Weekday and weekend patterns are often completely different.",
         "Keep it to one day. The reason this works is that finishing it is realistic, unlike a month. This is general information and not financial advice."
       ],
-      "variations": "If one day feels too small a sample, do three non-consecutive days across a fortnight, which captures more variety without becoming a chore. If you already budget, use the day specifically to test whether your assumed category amounts match what actually happens.",
+      "variations": "If one day feels too small a sample, do three non-consecutive days across a two weeks, which captures more variety without becoming a chore. If you already budget, use the day specifically to test whether your assumed category amounts match what actually happens.",
       "faq": [
         {
           "q": "Why only one day?",
@@ -996,7 +996,7 @@
         },
         {
           "q": "Do I need an app for this?",
-          "a": "No. A notes app or paper works fine. Apps that categorise automatically remove the moment of attention that makes this effective."
+          "a": "No. A notes app or paper works fine. Apps that categorize automatically remove the moment of attention that makes this effective."
         },
         {
           "q": "What do I do with the result?",
@@ -1108,7 +1108,7 @@
         },
         {
           "step": "Annualise each one",
-          "detail": "Multiply monthly costs by twelve before deciding. Nine pounds a month and a hundred and eight a year feel different."
+          "detail": "Multiply monthly costs by twelve before deciding. Nine a month and a hundred and eight a year feel different."
         },
         {
           "step": "Sort into use, sometimes, never",

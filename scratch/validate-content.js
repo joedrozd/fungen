@@ -11,6 +11,28 @@ const DISCLAIMER_CATEGORIES = new Set(["financial", "health-fitness"]);
 const WORD_MIN = 380;
 const WORD_MAX = 440;
 
+// plan.md §4 rule 5 — the site standardizes on American spelling. Written
+// content drifts British easily, so this is checked rather than trusted.
+const BRITISH_SPELLINGS = [
+  [/\borganis\w*/i, "organiz-"],
+  [/\brecognis\w*/i, "recogniz-"],
+  [/\bcategoris\w*/i, "categoriz-"],
+  [/\bprioritis\w*/i, "prioritiz-"],
+  [/\bnormalis\w*/i, "normaliz-"],
+  // Not \brealis\w* — that swallows "realistic", which is correct in both.
+  [/\brealis(e|es|ed|ing)\b/i, "realiz-"],
+  [/\bbehaviour\w*/i, "behavior-"],
+  [/\bcolour\w*/i, "color-"],
+  [/\bfavourit\w*/i, "favorit-"],
+  [/\bpractis\w*/i, "practic-"],
+  [/\bsceptic\w*/i, "skeptic-"],
+  [/\bcentimetre\w*/i, "centimeter-"],
+  [/\bmetres\b/i, "meters"],
+  [/\bfortnight\w*/i, "two weeks"],
+  [/\bwhilst\b/i, "while"],
+  [/\bspecialism\b/i, "specialty"],
+];
+
 const errors = [];
 const warnings = [];
 const fail = (where, msg) => errors.push(`${where}: ${msg}`);
@@ -172,6 +194,12 @@ for (const { activity, category } of targets) {
     );
     if (!hasDisclaimer)
       fail(where, "financial/health activity has no disclaimer sentence in the body");
+  }
+
+  // --- American spelling (plan.md §4 rule 5) ---
+  for (const [re, correct] of BRITISH_SPELLINGS) {
+    const hit = body.match(re);
+    if (hit) fail(where, `British spelling "${hit[0]}" — use "${correct}"`);
   }
 
   // --- cross-activity duplicate sentences (>12 words) ---

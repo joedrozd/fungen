@@ -44,7 +44,7 @@
         },
         {
           "q": "Should I include a summary section?",
-          "a": "Only if it says something a recruiter cannot get from your job titles. Three sharp lines about your specialism beat a paragraph of adjectives."
+          "a": "Only if it says something a recruiter cannot get from your job titles. Three sharp lines about your specialty beat a paragraph of adjectives."
         },
         {
           "q": "Do I need to tailor it for every application?",
@@ -79,7 +79,7 @@
       "whyItWorks": "Recruiters search LinkedIn by skill and title, not by career narrative. Your headline and skills list determine whether you appear at all; your photo and first two lines of the about section determine whether anyone stops. Those four elements sit above the fold and take an hour to fix, while the job history below them barely moves the needle.",
       "howTo": [
         {
-          "step": "Rewrite the headline as role plus specialism",
+          "step": "Rewrite the headline as role plus specialty",
           "detail": "\"Data Analyst\" is invisible. \"Data Analyst - retail forecasting, SQL and dbt\" matches how people actually search."
         },
         {
@@ -212,7 +212,7 @@
     },
     "content": {
       "intro": "Most leadership principles you will read about are unfalsifiable. \"Lead by example\" cannot be tested and cannot be practiced. An hour is enough to skip past that layer and find the handful of ideas that are specific enough to change what you actually say in your next conversation with someone.",
-      "whyItWorks": "Leadership improves through repetition of small behaviours, not through insight. Reading broadly gives you vocabulary; picking one principle and using it fifteen times gives you a habit. The hour is well spent because it ends with a decision about what to practice, which is the step almost everyone skips after finishing a business book.",
+      "whyItWorks": "Leadership improves through repetition of small behaviors, not through insight. Reading broadly gives you vocabulary; picking one principle and using it fifteen times gives you a habit. The hour is well spent because it ends with a decision about what to practice, which is the step almost everyone skips after finishing a business book.",
       "howTo": [
         {
           "step": "Pick one situation you handle badly",
@@ -223,8 +223,8 @@
           "detail": "Search for that specific situation rather than \"leadership.\" Forty minutes on delegation beats forty minutes of general principles."
         },
         {
-          "step": "Extract the behaviour, not the theory",
-          "detail": "Write down the exact sentence you would say differently. Situational leadership is a theory; \"what does done look like to you?\" is a behaviour."
+          "step": "Extract the behavior, not the theory",
+          "detail": "Write down the exact sentence you would say differently. Situational leadership is a theory; \"what does done look like to you?\" is a behavior."
         },
         {
           "step": "Find the next real occasion",
@@ -232,7 +232,7 @@
         },
         {
           "step": "Review after three attempts",
-          "detail": "Note what happened. Three data points tell you whether to keep the behaviour, adjust the wording, or drop it entirely."
+          "detail": "Note what happened. Three data points tell you whether to keep the behavior, adjust the wording, or drop it entirely."
         }
       ],
       "tips": [
@@ -244,7 +244,7 @@
       "faq": [
         {
           "q": "Do I need to be a manager for this to be useful?",
-          "a": "No. Most leadership behaviours are about clarity and follow-through, which apply to anyone running a project, a team, or a volunteer group."
+          "a": "No. Most leadership behaviors are about clarity and follow-through, which apply to anyone running a project, a team, or a volunteer group."
         },
         {
           "q": "Which leadership book should I start with?",
@@ -252,7 +252,7 @@
         },
         {
           "q": "How long until I see a difference?",
-          "a": "Usually a few weeks of deliberate repetition on a single behaviour. Trying to change five things at once reliably produces no change at all."
+          "a": "Usually a few weeks of deliberate repetition on a single behavior. Trying to change five things at once reliably produces no change at all."
         }
       ]
     },
@@ -280,7 +280,7 @@
     },
     "content": {
       "intro": "A career roadmap is not a promotion ladder. Drawn well it is a description of the working life you want, with the job titles arriving as consequences rather than goals. That distinction is what makes the hour worth spending, because a ladder someone else designed will happily take you somewhere you did not want to go.",
-      "whyItWorks": "Working backwards from a destination surfaces the constraints early: the move that requires relocating, the specialism that closes doors later, the seniority level where the work becomes mostly meetings. Seeing those on one page lets you choose deliberately. Most people discover these constraints by accident, several years in, when reversing is expensive.",
+      "whyItWorks": "Working backwards from a destination surfaces the constraints early: the move that requires relocating, the specialty that closes doors later, the seniority level where the work becomes mostly meetings. Seeing those on one page lets you choose deliberately. Most people discover these constraints by accident, several years in, when reversing is expensive.",
       "howTo": [
         {
           "step": "Describe the working week, not the title",
@@ -424,7 +424,7 @@
         },
         {
           "step": "Map stories to question types",
-          "detail": "Most behavioural questions are variations on a handful of themes. One good story usually answers three different questions."
+          "detail": "Most behavioral questions are variations on a handful of themes. One good story usually answers three different questions."
         },
         {
           "step": "Record yourself answering",
@@ -452,11 +452,11 @@
         },
         {
           "q": "What is the STAR method?",
-          "a": "Situation, task, action, result. It is a useful skeleton for behavioural answers, though leading with the result often lands better."
+          "a": "Situation, task, action, result. It is a useful skeleton for behavioral answers, though leading with the result often lands better."
         },
         {
           "q": "How long should an interview answer be?",
-          "a": "Ninety seconds to two minutes for most behavioural questions. Beyond that you are usually explaining context nobody asked about."
+          "a": "Ninety seconds to two minutes for most behavioral questions. Beyond that you are usually explaining context nobody asked about."
         }
       ]
     },
@@ -1052,11 +1052,11 @@
         }
       ],
       "tips": [
-        "Write entries in the same language your organisation uses for promotion criteria. It makes the eventual case far easier to assemble.",
+        "Write entries in the same language your organization uses for promotion criteria. It makes the eventual case far easier to assemble.",
         "Save the actual artefacts too: the thank-you message, the dashboard screenshot, the before-and-after number.",
         "Nobody else needs to read it. Removing the audience is what lets you record things honestly."
       ],
-      "variations": "If monthly feels like too much, do it quarterly with the calendar as your prompt, which still beats reconstructing a year from nothing. If you are preparing for a promotion specifically, restructure the existing document around your organisation's published criteria instead of chronologically.",
+      "variations": "If monthly feels like too much, do it quarterly with the calendar as your prompt, which still beats reconstructing a year from nothing. If you are preparing for a promotion specifically, restructure the existing document around your organization's published criteria instead of chronologically.",
       "faq": [
         {
           "q": "What exactly goes in a brag document?",
@@ -1122,7 +1122,7 @@
       "tips": [
         "Regulated fields are different. Where a certification is legally required to practice, the cost-benefit question does not really arise.",
         "Ask your employer before paying. Many have a training budget that goes unspent every year because nobody asks.",
-        "Be sceptical of certifications awarded by the company selling the training. Independent bodies carry more weight with hiring managers."
+        "Be skeptical of certifications awarded by the company selling the training. Independent bodies carry more weight with hiring managers."
       ],
       "variations": "If the certification looks marginal, take the free introductory course and stop before the paid exam; you keep the knowledge and skip the fee. If it looks genuinely required, spend the rest of the hour building a realistic study schedule rather than continuing to research.",
       "faq": [
@@ -1231,7 +1231,7 @@
       "secondaryKeywords": ["LinkedIn job alerts", "passive job searching", "job search automation"]
     },
     "content": {
-      "intro": "Most people set up job alerts once, get forty irrelevant emails a week, and mute the whole thing within a fortnight. The fix is to go much narrower than feels comfortable. An alert that surfaces three genuinely interesting roles a month is useful; one that surfaces forty mediocre ones trains you to ignore it entirely.",
+      "intro": "Most people set up job alerts once, get forty irrelevant emails a week, and mute the whole thing within a two weeks. The fix is to go much narrower than feels comfortable. An alert that surfaces three genuinely interesting roles a month is useful; one that surfaces forty mediocre ones trains you to ignore it entirely.",
       "whyItWorks": "Well-tuned alerts do two things at once. They catch the occasional role worth moving for, which by definition appears when you are not looking. And they act as a continuous read on your market: which skills keep appearing, what the posted ranges are doing, which companies are growing. That second benefit accrues whether or not you ever apply.",
       "howTo": [
         {
@@ -1336,7 +1336,7 @@
         },
         {
           "q": "Free courses or paid ones?",
-          "a": "Free is fine for most technical fundamentals. Pay when you need structure, feedback, or a credential employers recognise by name."
+          "a": "Free is fine for most technical fundamentals. Pay when you need structure, feedback, or a credential employers recognize by name."
         },
         {
           "q": "How do I actually finish an online course?",

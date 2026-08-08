@@ -2,13 +2,13 @@
   "learn-a-new-excel-google-sheets-function": {
     "seo": {
       "title": "Learn a New Excel Function on Your Own Data",
-      "metaDescription": "Pick one spreadsheet function and learn it on your own data in an hour. XLOOKUP, pivot tables or INDEX MATCH, practised until it stops needing a search.",
+      "metaDescription": "Pick one spreadsheet function and learn it on your own data in an hour. XLOOKUP, pivot tables or INDEX MATCH, practiced until it stops needing a search.",
       "primaryKeyword": "learn a new Excel function",
       "secondaryKeywords": ["XLOOKUP tutorial", "pivot table basics", "Google Sheets formulas"]
     },
     "content": {
       "intro": "Almost everyone who uses spreadsheets daily knows about eight functions and searches for the rest every single time. Choosing to learn a new Excel function properly, on real data you care about, converts one of those searches into something automatic. An hour on a single function is worth more than a day of tutorial videos.",
-      "whyItWorks": "Spreadsheet skills transfer badly from demonstration data because tutorial datasets are clean and yours is not. Practising on your own messy file forces you through the actual failure modes: mismatched types, trailing spaces, ranges that shift when you copy. Those are the things that make a function feel unreliable until you have hit them once.",
+      "whyItWorks": "Spreadsheet skills transfer badly from demonstration data because tutorial datasets are clean and yours is not. Practicing on your own messy file forces you through the actual failure modes: mismatched types, trailing spaces, ranges that shift when you copy. Those are the things that make a function feel unreliable until you have hit them once.",
       "howTo": [
         {
           "step": "Pick the function you keep searching for",
@@ -48,7 +48,7 @@
         },
         {
           "q": "How long until it sticks?",
-          "a": "Usually three or four real uses. Practising on tutorial data does not count; the transfer to your own files is where it fixes."
+          "a": "Usually three or four real uses. Practicing on tutorial data does not count; the transfer to your own files is where it fixes."
         }
       ]
     },
@@ -76,7 +76,7 @@
     },
     "content": {
       "intro": "Most people who practice typing speed do it by taking the same test repeatedly and hoping. That produces a plateau within days. Real improvement comes from a slightly counterintuitive place: slowing down until accuracy is near perfect, then letting speed follow. An hour set up correctly beats weeks of racing.",
-      "whyItWorks": "Errors cost far more time than slow keystrokes, because correcting one costs several keystrokes plus the attention to notice it. Drilling accuracy first removes that tax. Targeting your specific weak keys works for the same reason a musician practises the difficult bar rather than replaying the whole piece: the improvement is concentrated where the problem is.",
+      "whyItWorks": "Errors cost far more time than slow keystrokes, because correcting one costs several keystrokes plus the attention to notice it. Drilling accuracy first removes that tax. Targeting your specific weak keys works for the same reason a musician practices the difficult bar rather than replaying the whole piece: the improvement is concentrated where the problem is.",
       "howTo": [
         {
           "step": "Measure a baseline honestly",
@@ -100,11 +100,11 @@
         }
       ],
       "tips": [
-        "Practise in short daily sessions rather than long weekly ones. Motor learning consolidates with sleep between sessions.",
+        "Practice in short daily sessions rather than long weekly ones. Motor learning consolidates with sleep between sessions.",
         "Check your posture and wrist position. Typing faster with bad ergonomics scales the problem rather than the skill.",
         "Learn the shortcuts for word and line deletion. Correcting efficiently matters as much as typing accurately."
       ],
-      "variations": "If you already type quickly, shift the hour to numeric keypad or symbol accuracy, which most people never drill and which matters enormously for spreadsheet and code work. If you write prose all day, practise on real text rather than random words, since punctuation and capitalisation carry their own error rates.",
+      "variations": "If you already type quickly, shift the hour to numeric keypad or symbol accuracy, which most people never drill and which matters enormously for spreadsheet and code work. If you write prose all day, practice on real text rather than random words, since punctuation and capitalisation carry their own error rates.",
       "faq": [
         {
           "q": "What is a good typing speed?",
@@ -112,7 +112,7 @@
         },
         {
           "q": "Should I learn proper touch typing technique?",
-          "a": "If you look at the keyboard, yes. Relearning is frustrating for a fortnight and then permanently better than a self-taught hunt."
+          "a": "If you look at the keyboard, yes. Relearning is frustrating for a two weeks and then permanently better than a self-taught hunt."
         },
         {
           "q": "How long does it take to improve?",
@@ -144,7 +144,7 @@
     },
     "content": {
       "intro": "Printing a cheat sheet of two hundred shortcuts and pinning it to the wall does nothing, which most people discover once. The way to learn keyboard shortcuts that stick is to pick five actions you genuinely repeat all day and refuse to do them with the mouse for a week. Everything else is noise.",
-      "whyItWorks": "The saving per shortcut is tiny, perhaps two seconds, which is why breadth is pointless and frequency is everything. An action you perform sixty times a day repays the learning cost within a fortnight; one you perform weekly never will. Restricting yourself to the mouse-free version also forces recall rather than recognition, which is what actually builds the habit.",
+      "whyItWorks": "The saving per shortcut is tiny, perhaps two seconds, which is why breadth is pointless and frequency is everything. An action you perform sixty times a day repays the learning cost within a two weeks; one you perform weekly never will. Restricting yourself to the mouse-free version also forces recall rather than recognition, which is what actually builds the habit.",
       "howTo": [
         {
           "step": "Watch yourself for ten minutes",
@@ -299,16 +299,16 @@
           "detail": "Re-record addressing a single habit. Trying to fix everything simultaneously reliably fixes nothing."
         },
         {
-          "step": "Practise the pause",
+          "step": "Practice the pause",
           "detail": "Deliberately stop for two seconds between points. Silence feels enormous to you and confident to everyone else."
         }
       ],
       "tips": [
         "Filler words are usually a pacing problem. Slowing down removes most of them without any conscious effort to stop.",
-        "Stand and move as you would in the room. Practising seated builds the wrong physical habits.",
+        "Stand and move as you would in the room. Practicing seated builds the wrong physical habits.",
         "Nerves largely do not disappear with experience; they become familiar. Familiar nerves are far easier to work with."
       ],
-      "variations": "If you have a specific talk coming up, practise the opening ninety seconds ten times rather than the whole thing once, since the opening carries the nerves. If you want an audience, speaking clubs exist in most cities and are built precisely for low-stakes repetition.",
+      "variations": "If you have a specific talk coming up, practice the opening ninety seconds ten times rather than the whole thing once, since the opening carries the nerves. If you want an audience, speaking clubs exist in most cities and are built precisely for low-stakes repetition.",
       "faq": [
         {
           "q": "How do I stop saying um?",
@@ -360,7 +360,7 @@
         },
         {
           "step": "Correct the white balance",
-          "detail": "Push the temperature warmer or cooler until the whites look white. Colour casts are the most common invisible problem."
+          "detail": "Push the temperature warmer or cooler until the whites look white. Color casts are the most common invisible problem."
         },
         {
           "step": "Crop for the subject",
@@ -380,7 +380,7 @@
       "faq": [
         {
           "q": "What is the best free photo editing software?",
-          "a": "Several free options handle exposure, colour and cropping perfectly well. The specific tool matters far less than understanding what each slider does."
+          "a": "Several free options handle exposure, color and cropping perfectly well. The specific tool matters far less than understanding what each slider does."
         },
         {
           "q": "Should I shoot RAW or JPEG?",
@@ -388,7 +388,7 @@
         },
         {
           "q": "How do I avoid over-editing?",
-          "a": "Compare to the original often, and step away for ten minutes before finalising. Extreme edits normalise quickly while you are working."
+          "a": "Compare to the original often, and step away for ten minutes before finalising. Extreme edits normalize quickly while you are working."
         }
       ]
     },
@@ -444,7 +444,7 @@
         "Prefer active voice unless the actor genuinely does not matter. Passive constructions hide who did what.",
         "Write the first draft badly and quickly. Editing a poor draft is far easier than producing a good one directly."
       ],
-      "variations": "If you write technical documentation, add an exercise on ordering: put the conclusion first and see how much context turns out to be unnecessary. If you write persuasively, practise arguing the opposing position convincingly, which exposes the weak points in your own case.",
+      "variations": "If you write technical documentation, add an exercise on ordering: put the conclusion first and see how much context turns out to be unnecessary. If you write persuasively, practice arguing the opposing position convincingly, which exposes the weak points in your own case.",
       "faq": [
         {
           "q": "How do I write more concisely?",
@@ -509,7 +509,7 @@
       ],
       "tips": [
         "Never read your slides aloud. If the slide says it, you are redundant; if you say it, the slide is.",
-        "Design for the back row. Text that is comfortable on your laptop is illegible from six metres away.",
+        "Design for the back row. Text that is comfortable on your laptop is illegible from six meters away.",
         "Rehearse the transitions between slides. That is where most talks lose their thread, not within the slides."
       ],
       "variations": "If the deck will be read rather than presented, write it as a document instead; slides sent by email are a poor format for both purposes. If you present the same material regularly, build one strong version and rehearse it rather than rebuilding each time.",
@@ -578,9 +578,9 @@
       "tips": [
         "Take notes in meetings but not during emotional conversations. Writing signals attention in one context and detachment in the other.",
         "Watch for the second explanation. When someone rephrases something unprompted, it usually matters more than the first version.",
-        "Practise on low-stakes conversations first. Trying this during a conflict is difficult and the results are hard to read."
+        "Practice on low-stakes conversations first. Trying this during a conflict is difficult and the results are hard to read."
       ],
-      "variations": "If you manage people, practise specifically on the pause in one-to-ones, where seniority makes others yield the floor early. If you work in a customer-facing role, focus on the reflecting-back step, which reduces misunderstandings that are expensive to unwind later.",
+      "variations": "If you manage people, practice specifically on the pause in one-to-ones, where seniority makes others yield the floor early. If you work in a customer-facing role, focus on the reflecting-back step, which reduces misunderstandings that are expensive to unwind later.",
       "faq": [
         {
           "q": "What is active listening?",
@@ -636,7 +636,7 @@
         },
         {
           "step": "Fix the audio levels",
-          "detail": "Bad audio is more noticeable than bad picture. Normalise levels and remove background hiss before touching anything visual."
+          "detail": "Bad audio is more noticeable than bad picture. Normalize levels and remove background hiss before touching anything visual."
         },
         {
           "step": "Export and watch it once",
@@ -688,7 +688,7 @@
     },
     "content": {
       "intro": "Data visualization basics are less about software than about a single decision: what question is this chart answering? Comparison, composition, distribution, and change over time each have a natural chart type, and picking the wrong one is the most common reason a chart fails to communicate anything at all.",
-      "whyItWorks": "Charts are read pre-attentively, meaning the eye extracts the pattern before conscious thought engages. That is why encoding matters so much: length and position are read accurately, area and colour intensity are not. Matching your question to an encoding people read well does most of the work, before any styling decisions arise.",
+      "whyItWorks": "Charts are read pre-attentively, meaning the eye extracts the pattern before conscious thought engages. That is why encoding matters so much: length and position are read accurately, area and color intensity are not. Matching your question to an encoding people read well does most of the work, before any styling decisions arise.",
       "howTo": [
         {
           "step": "Write the question the chart answers",
@@ -713,10 +713,10 @@
       ],
       "tips": [
         "Avoid pie charts with more than three slices. People compare angles poorly, and a bar chart answers the same question better.",
-        "Use colour to encode meaning, never for decoration. Check that the chart still works in greyscale.",
+        "Use color to encode meaning, never for decoration. Check that the chart still works in greyscale.",
         "Give the chart a title stating the finding, not the variables. \"Sales fell in Q3\" beats \"Sales by quarter\"."
       ],
-      "variations": "If you present regularly, spend the hour building a small reusable template with your fonts and colours already set, which removes the styling decision permanently. If you consume more charts than you make, spend it learning to spot misleading axes and cherry-picked ranges instead.",
+      "variations": "If you present regularly, spend the hour building a small reusable template with your fonts and colors already set, which removes the styling decision permanently. If you consume more charts than you make, spend it learning to spot misleading axes and cherry-picked ranges instead.",
       "faq": [
         {
           "q": "Which chart type should I use?",
@@ -856,7 +856,7 @@
       "faq": [
         {
           "q": "Do I need a certification to manage projects?",
-          "a": "Not to do it well. Certifications help in organisations that require them, but the fundamentals matter more than the qualification."
+          "a": "Not to do it well. Certifications help in organizations that require them, but the fundamentals matter more than the qualification."
         },
         {
           "q": "What is the critical path?",
@@ -984,9 +984,9 @@
         }
       ],
       "tips": [
-        "Practise on real numbers as they appear: receipts, mileage, invoices. Contextual practice sticks far better than drills.",
+        "Practice on real numbers as they appear: receipts, mileage, invoices. Contextual practice sticks far better than drills.",
         "Order-of-magnitude accuracy is usually sufficient. Being roughly right immediately beats being exactly right later.",
-        "Learn the common fraction and percentage equivalents. Recognising an eighth as twelve and a half percent saves constant recalculation."
+        "Learn the common fraction and percentage equivalents. Recognizing an eighth as twelve and a half percent saves constant recalculation."
       ],
       "variations": "If you work with data, focus the hour on order-of-magnitude estimation and sanity-checking, which is where the professional value is concentrated. If you want the recreational version, calendar tricks and squaring shortcuts are enjoyable and mostly useless, which is a perfectly good reason to learn them.",
       "faq": [
@@ -1052,7 +1052,7 @@
         }
       ],
       "tips": [
-        "Never paste confidential or personal data into a tool without checking your organisation's policy first.",
+        "Never paste confidential or personal data into a tool without checking your organization's policy first.",
         "Verify citations, statistics and quotes independently. Fabricated references are the most common and most damaging failure mode.",
         "Ask for reasoning alongside the answer. It is easier to spot a flawed argument than a wrong conclusion."
       ],
@@ -1180,7 +1180,7 @@
         },
         {
           "step": "Repeat your choices",
-          "detail": "Same heading style, same spacing, same colours throughout. Consistency is what makes a document feel designed."
+          "detail": "Same heading style, same spacing, same colors throughout. Consistency is what makes a document feel designed."
         },
         {
           "step": "Add more whitespace than feels right",
@@ -1188,7 +1188,7 @@
         }
       ],
       "tips": [
-        "Limit yourself to two typefaces and three colours. Constraint produces better results than choice at this level.",
+        "Limit yourself to two typefaces and three colors. Constraint produces better results than choice at this level.",
         "Check contrast for accessibility. Text failing contrast standards is unreadable for a meaningful share of your audience.",
         "Squint at your layout. Blurring the detail makes the structural problems immediately obvious, because you stop reading and start seeing shapes."
       ],
@@ -1240,7 +1240,7 @@
         },
         {
           "step": "Write the other side's case",
-          "detail": "Genuinely, not as a straw man. Their strongest argument is what you most need to have practised answering."
+          "detail": "Genuinely, not as a straw man. Their strongest argument is what you most need to have practiced answering."
         },
         {
           "step": "Rehearse aloud with a partner",
@@ -1251,7 +1251,7 @@
           "detail": "Arguing their side reveals the weak points in yours faster than any amount of preparation from your own perspective."
         },
         {
-          "step": "Practise holding the silence",
+          "step": "Practice holding the silence",
           "detail": "State a number and say nothing. This is the single hardest moment and the one most worth rehearsing."
         }
       ],
@@ -1267,7 +1267,7 @@
           "a": "Your best alternative to a negotiated agreement, meaning what happens if you walk away. Knowing it determines how much pressure you can absorb."
         },
         {
-          "q": "Can I practise negotiation alone?",
+          "q": "Can I practice negotiation alone?",
           "a": "Partially. Recording yourself helps, but a partner introduces the unexpected questions that make rehearsal genuinely useful."
         },
         {
@@ -1311,7 +1311,7 @@
           "detail": "Asterisks for bold and italic, square brackets and parentheses for links. That is essentially the whole core syntax."
         },
         {
-          "step": "Practise in a live preview editor",
+          "step": "Practice in a live preview editor",
           "detail": "Seeing the rendered output beside your text teaches the syntax in minutes rather than through memorisation."
         },
         {
@@ -1368,7 +1368,7 @@
     },
     "content": {
       "intro": "Most business analytics effort produces dashboards nobody acts on. The failure happens before any tooling is involved: the question was never phrased so that an answer would change a decision. An hour spent on question framing and the difference between a useful metric and a flattering one is worth more than an hour learning any analytics platform.",
-      "whyItWorks": "A metric earns its place only if some value of it would make you do something different. Applying that test eliminates most of what organisations routinely track. Understanding the distinction between leading and lagging indicators does the rest, because lagging numbers tell you what already happened while leading ones let you intervene.",
+      "whyItWorks": "A metric earns its place only if some value of it would make you do something different. Applying that test eliminates most of what organizations routinely track. Understanding the distinction between leading and lagging indicators does the rest, because lagging numbers tell you what already happened while leading ones let you intervene.",
       "howTo": [
         {
           "step": "Write a question that changes a decision",
@@ -1464,7 +1464,7 @@
         "If a thread passes four messages, switch to a call. Text is a poor medium for resolving genuine disagreement.",
         "Never send difficult messages while annoyed. Draft, wait an hour, then reread before sending."
       ],
-      "variations": "If most of your communication is written updates, spend the hour building a standard format for them, since consistency reduces the reading cost for everyone. If you present to senior stakeholders, practise compressing a full argument into three sentences, which is the format that actually gets heard.",
+      "variations": "If most of your communication is written updates, spend the hour building a standard format for them, since consistency reduces the reading cost for everyone. If you present to senior stakeholders, practice compressing a full argument into three sentences, which is the format that actually gets heard.",
       "faq": [
         {
           "q": "How do I write clearer work emails?",
