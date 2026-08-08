@@ -49,6 +49,10 @@ const RULES = [
   ["centimetres", "centimeters"],
   ["centimetre", "centimeter"],
   ["metres", "meters"],
+  ["favourites", "favorites"],
+  ["favourite", "favorite"],
+  // "fortnightly" must precede "fortnight" or the stem matches first.
+  ["fortnightly", "every two weeks"],
   ["fortnight", "two weeks"],
 ];
 
