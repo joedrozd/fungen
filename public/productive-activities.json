@@ -1573,127 +1573,1635 @@
           "name": "Organize your workspace",
           "slug": "organize-your-workspace",
           "description": "Clear your desk, sort the clutter, and set up a workspace that helps you focus.",
-          "image": "/activities/work-planning.png"
+          "image": "/activities/work-planning.png",
+          "seo": {
+            "title": "Organize Your Workspace Around What You Reach For",
+            "metaDescription": "Organize your workspace by clearing it completely, then returning only what you touch daily. Everything else moves within reach but off the surface.",
+            "primaryKeyword": "organize your workspace",
+            "secondaryKeywords": [
+              "desk setup ideas",
+              "clear desk policy",
+              "workspace productivity"
+            ]
+          },
+          "content": {
+            "intro": "The reason people organize your workspace advice rarely sticks is that it treats tidiness as the goal. A better test is reach: what do you touch every day, what do you touch weekly, and what has been sitting there since March. Sorting by that answer produces a desk that stays clear without effort.",
+            "whyItWorks": "Surface space is the scarcest resource on a desk, and anything occupying it permanently is charging rent it does not pay. Frequency-based placement means the things you need are always to hand while the surface stays open, which matters because visible clutter competes for attention even when you are not looking directly at it.",
+            "howTo": [
+              {
+                "step": "Take everything off the desk",
+                "detail": "Completely clear, including the things you are sure belong there. Judging in place preserves every existing bad decision."
+              },
+              {
+                "step": "Clean the empty surface",
+                "detail": "Desk, keyboard, screen, and the cable nest underneath. Two minutes while access is unusually easy."
+              },
+              {
+                "step": "Return only daily items",
+                "detail": "Whatever you genuinely touch every working day. For most people that is fewer than six objects."
+              },
+              {
+                "step": "Put weekly items within reach",
+                "detail": "A drawer or shelf beside you. Near enough to grab, far enough that they stop consuming surface."
+              },
+              {
+                "step": "Deal with the rest immediately",
+                "detail": "File it, bin it, or move it out of the room. A pile set aside for later becomes permanent within days."
+              }
+            ],
+            "tips": [
+              "Fix the cables while the desk is empty. It is the only moment when doing so is genuinely easy.",
+              "Give paper a single inbox tray rather than letting it spread. One pile beats four.",
+              "Reset for five minutes at the end of each day. Starting tomorrow at a clear desk is worth the time."
+            ],
+            "variations": "If you share the space or hot-desk, build a small kit you carry rather than arranging a fixed surface, since nothing you leave out will survive. If your workspace is a kitchen table, focus on a container that packs away completely, which matters more than layout.",
+            "faq": [
+              {
+                "q": "How do I keep my desk tidy long term?",
+                "a": "Limit what lives on the surface to daily-use items and do a short reset each evening. Capacity is the constraint, not discipline."
+              },
+              {
+                "q": "Does a messy desk actually affect focus?",
+                "a": "Visible clutter competes for attention for many people, though tolerance varies considerably. Try a clear surface for a week and judge for yourself."
+              },
+              {
+                "q": "Where should I put things I use occasionally?",
+                "a": "Within arm's reach but off the surface: a drawer, a nearby shelf, or a small caddy. Accessible without occupying space."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 45,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "cleaning cloth",
+              "storage tray or drawer"
+            ]
+          },
+          "related": [
+            "declutter-your-digital-workspace",
+            "research-ergonomic-workspace-setups",
+            "do-a-15-minute-declutter-sprint"
+          ]
         },
         {
           "name": "Clean up your computer files",
           "slug": "clean-up-your-computer-files",
           "description": "Sort your downloads and documents into sensible folders and delete what you no longer need.",
-          "image": "/activities/coding.png"
+          "image": "/activities/coding.png",
+          "seo": {
+            "title": "Clean Up Your Computer Files Without Sorting Everything",
+            "metaDescription": "Clean up your computer files by archiving the backlog wholesale and building a structure that only handles new work. Sorting years of files never finishes.",
+            "primaryKeyword": "clean up your computer files",
+            "secondaryKeywords": [
+              "how to organize files on a computer",
+              "folder structure ideas",
+              "declutter downloads folder"
+            ]
+          },
+          "content": {
+            "intro": "Attempts to clean up your computer files by sorting everything from the last six years fail on the second evening, because the backlog is effectively infinite. The version that works is blunter: archive the whole mess into one dated folder, then build a clean structure that only has to handle new work from today.",
+            "whyItWorks": "Search has made retrieval mostly independent of folder structure, so an old archive stays findable even unsorted. That removes the entire justification for the sorting marathon. What structure still buys you is a decision-free place to put new files, and a shallow hierarchy applied to a small stream is achievable in an hour.",
+            "howTo": [
+              {
+                "step": "Archive the backlog wholesale",
+                "detail": "Everything into one folder named with today's date. It stays searchable, and you stop paying attention to it."
+              },
+              {
+                "step": "Build a shallow structure",
+                "detail": "Four or five top-level folders, no more than two levels deep. Deep nesting is why filing systems get abandoned."
+              },
+              {
+                "step": "Empty the downloads folder",
+                "detail": "Bin what you do not need, file what you do. Then set a habit of clearing it weekly."
+              },
+              {
+                "step": "Delete the obvious duplicates",
+                "detail": "Files ending in copy, final, final2. Keep one, delete the rest, and stop the pattern going forward."
+              },
+              {
+                "step": "Check the archive after a month",
+                "detail": "Whatever you have not opened almost certainly does not need sorting. That answer is worth knowing."
+              }
+            ],
+            "tips": [
+              "Sort by size to find what is actually consuming your drive. It is usually a handful of forgotten videos.",
+              "Set the downloads folder to open in list view sorted by date. Recent files stay obvious and old ones stay visible.",
+              "Never delete anything you have not backed up. Confirm the backup first, then clear."
+            ],
+            "variations": "If your files are mostly in cloud storage, the same approach applies but check sync and sharing links before moving anything, since moved files can break shared access. If the problem is one huge project folder, structure that alone and leave everything else archived.",
+            "faq": [
+              {
+                "q": "How should I structure my folders?",
+                "a": "Four or five top-level categories, no more than two levels deep. Deep nesting increases filing effort and rarely improves retrieval."
+              },
+              {
+                "q": "Should I sort my old files first?",
+                "a": "No. Archive them wholesale into one dated folder. Search finds them anyway, and the sorting marathon almost never gets completed."
+              },
+              {
+                "q": "How do I stop my downloads folder filling up?",
+                "a": "Clear it weekly as a habit, and treat it as a staging area rather than storage. Nothing should live there permanently."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "computer",
+              "external drive or cloud backup"
+            ]
+          },
+          "related": [
+            "create-a-document-naming-convention-system",
+            "back-up-your-important-files",
+            "declutter-your-digital-workspace"
+          ]
         },
         {
           "name": "Create a to-do list for the week",
           "slug": "create-a-to-do-list-for-the-week",
           "description": "Capture everything on your plate and turn it into a realistic, prioritized plan for the week ahead.",
-          "image": "/activities/organization.png"
+          "image": "/activities/organization.png",
+          "seo": {
+            "title": "Create a Weekly To-Do List That Fits in the Week",
+            "metaDescription": "Create a to-do list for the week by estimating time against the hours you actually have. Most weekly lists fail on capacity rather than on motivation.",
+            "primaryKeyword": "weekly to-do list",
+            "secondaryKeywords": [
+              "weekly planning method",
+              "how to prioritize tasks",
+              "realistic task planning"
+            ]
+          },
+          "content": {
+            "intro": "When you write a weekly to-do list, the temptation is to put down everything and hope. That list is a wish, and by Thursday it is a source of guilt rather than direction. The fix is arithmetic: estimate how long each item takes, add it up, and compare against the hours you genuinely have.",
+            "whyItWorks": "Weekly lists fail on capacity, not on willpower. Nobody plans thirty hours of work into twelve deliberately; it happens because tasks are written without duration attached. Adding a time estimate forces the comparison, and seeing the total exceed the week makes cutting a decision you take on Monday instead of a failure you discover on Friday.",
+            "howTo": [
+              {
+                "step": "Dump everything first",
+                "detail": "Unfiltered, in one list. Getting it out of your head is a separate step from deciding what happens."
+              },
+              {
+                "step": "Put a time estimate on each item",
+                "detail": "Rough is fine. This single step is what separates a plan from a wish list."
+              },
+              {
+                "step": "Count your real available hours",
+                "detail": "Subtract meetings, commuting and the admin that always appears. The figure is smaller than you think."
+              },
+              {
+                "step": "Cut until the totals match",
+                "detail": "Move the remainder to a someday list rather than deleting it. Cutting is the whole point of the exercise."
+              },
+              {
+                "step": "Pick three that must happen",
+                "detail": "If only three things get done this week, which three? Mark them and protect their time first."
+              }
+            ],
+            "tips": [
+              "Double your estimates for anything unfamiliar. People underestimate novel tasks with remarkable consistency.",
+              "Leave twenty percent unplanned. A week with no slack breaks on the first interruption.",
+              "Review on Friday, not Monday. Reviewing while the week is fresh makes next week's estimates better."
+            ],
+            "variations": "If your week is unpredictable, plan only the three protected items and keep the rest as a pool to pull from. If you work in sprints or cycles already, align this with that rhythm rather than running a second competing plan.",
+            "faq": [
+              {
+                "q": "Why do I never finish my weekly to-do list?",
+                "a": "Almost always because it contains more hours of work than the week contains. Estimating time makes the mismatch visible upfront."
+              },
+              {
+                "q": "How many tasks should be on a weekly list?",
+                "a": "However many fit your available hours, which is usually far fewer than expected. Three protected priorities plus a flexible pool works well."
+              },
+              {
+                "q": "Should I plan the whole week in detail?",
+                "a": "No. Protect the three that matter and leave the rest loose, since detailed plans rarely survive contact with an actual week."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 30,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "notebook or task app",
+              "your calendar"
+            ]
+          },
+          "related": [
+            "plan-your-next-day-the-night-before",
+            "learn-time-blocking-techniques",
+            "create-a-personal-productivity-system"
+          ]
         },
         {
           "name": "Set up a filing system",
           "slug": "set-up-a-filing-system",
           "description": "Create a simple home for paperwork and documents so you can find anything in seconds.",
-          "image": "/activities/organization.png"
+          "image": "/activities/organization.png",
+          "seo": {
+            "title": "Set Up a Filing System for Paper You Must Keep",
+            "metaDescription": "Set up a filing system that handles the small amount of paper genuinely worth keeping, with retention periods so it never grows without limit.",
+            "primaryKeyword": "set up a filing system",
+            "secondaryKeywords": [
+              "how long to keep documents",
+              "home paperwork organization",
+              "important documents checklist"
+            ]
+          },
+          "content": {
+            "intro": "Most household paper does not need keeping at all, so the first job when you set up a filing system is deciding what genuinely qualifies. Legal documents, tax records, warranties, medical history and property paperwork. Almost everything else is either available online or safe to shred, which makes the system far smaller than expected.",
+            "whyItWorks": "Filing systems collapse under volume rather than under bad structure. Attaching a retention period to each category solves that permanently, because files then leave as well as arrive. Separating irreplaceable originals from ordinary records also means you know exactly what needs protecting, which is a much shorter list than the full drawer.",
+            "howTo": [
+              {
+                "step": "Sort the existing pile into three",
+                "detail": "Must keep, might need, shred. The shred pile is usually the largest by a considerable margin."
+              },
+              {
+                "step": "Define categories with retention periods",
+                "detail": "Tax records for the legally required period, warranties until expiry, insurance until renewal. Each category needs an exit rule."
+              },
+              {
+                "step": "Separate the irreplaceable",
+                "detail": "Passports, certificates, deeds. These need a fireproof box or a safe deposit, not a folder in a drawer."
+              },
+              {
+                "step": "Set up one inbox tray",
+                "detail": "All incoming paper lands here. Filing weekly from one tray is sustainable; filing from four surfaces is not."
+              },
+              {
+                "step": "Book a purge date",
+                "detail": "Annually, matched to your tax year. Without a scheduled removal the drawer only grows."
+              }
+            ],
+            "tips": [
+              "Check retention requirements for your country, since tax and legal periods vary and guessing risks discarding something needed.",
+              "Shred anything with account numbers or signatures rather than binning it intact.",
+              "Photograph receipts for anything under warranty. Thermal receipts fade to blank within a couple of years."
+            ],
+            "variations": "If you would rather go paperless, scan as you file and keep only the irreplaceable originals, which shrinks the physical system to a single small box. If you run a business, keep those records entirely separate from household ones; mixing them complicates every tax question.",
+            "faq": [
+              {
+                "q": "How long should I keep documents?",
+                "a": "It depends on the document type and your country's tax rules. Check official guidance rather than guessing, particularly for tax records."
+              },
+              {
+                "q": "What paperwork actually needs keeping?",
+                "a": "Legal documents, tax records, warranties, property paperwork and medical history. Most other household paper can be shredded."
+              },
+              {
+                "q": "Where should original certificates be stored?",
+                "a": "In a fireproof box or a bank deposit box, separately from routine filing. Replacing them is slow and sometimes expensive."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "low",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "folders",
+              "shredder",
+              "inbox tray",
+              "fireproof box"
+            ]
+          },
+          "related": [
+            "digitize-important-paper-documents",
+            "create-a-system-for-tracking-important-dates",
+            "start-a-home-inventory-for-insurance"
+          ]
         },
         {
           "name": "Organize your email inbox",
           "slug": "organize-your-email-inbox",
           "description": "Archive the backlog, unsubscribe from the noise, and set up folders so new mail has a home.",
-          "image": "/activities/coding.png"
+          "image": "/activities/coding.png",
+          "seo": {
+            "title": "Organize Your Email Inbox and Keep It Under Control",
+            "metaDescription": "Organize your email inbox by archiving the backlog, unsubscribing aggressively, and processing in batches. Folders matter far less than volume.",
+            "primaryKeyword": "organize your email inbox",
+            "secondaryKeywords": [
+              "inbox zero method",
+              "email filters and rules",
+              "how to reduce email volume"
+            ]
+          },
+          "content": {
+            "intro": "People try to organize your email inbox by building elaborate folder structures, then discover the problem was never filing. It was volume and the habit of leaving the inbox open. An hour spent archiving the backlog and cutting incoming mail at the source achieves more than any hierarchy of folders ever will.",
+            "whyItWorks": "Search finds old messages regardless of which folder they sit in, so filing effort produces almost no retrieval benefit. Volume reduction does produce benefit, immediately and permanently. And because most inbox stress comes from an unbounded list of unresolved items, archiving the backlog wholesale removes the stress without losing anything.",
+            "howTo": [
+              {
+                "step": "Archive everything older than a month",
+                "detail": "Select all, archive. Nothing is deleted and search still reaches it. This takes ten seconds and feels alarming."
+              },
+              {
+                "step": "Unsubscribe rather than delete",
+                "detail": "For every marketing email, unsubscribe instead of deleting. Deleting handles today; unsubscribing handles the next year."
+              },
+              {
+                "step": "Build rules for the automated mail",
+                "detail": "Notifications, receipts, newsletters. Route them out of the inbox into folders you check deliberately."
+              },
+              {
+                "step": "Use two or three folders at most",
+                "detail": "Waiting, action, reference. More folders means more filing decisions and no additional retrieval benefit."
+              },
+              {
+                "step": "Process in batches, not continuously",
+                "detail": "Two or three fixed times a day with the client closed between. Continuous email is the actual productivity cost."
+              }
+            ],
+            "tips": [
+              "Turn off email notifications entirely. The interruption costs more than any message gains from a faster reply.",
+              "If a reply takes under two minutes, send it now. Deferring short replies creates most of the backlog.",
+              "Use a separate address for shopping and signups. It keeps the main inbox structurally quieter."
+            ],
+            "variations": "If your role genuinely requires fast response, keep a narrow filter for the few senders that qualify and batch everything else. If you are drowning in internal messages, the fix is usually a conversation about channels rather than better personal filing.",
+            "faq": [
+              {
+                "q": "Is inbox zero worth pursuing?",
+                "a": "As a habit of processing rather than a permanently empty inbox, yes. Chasing literal zero tends to create its own overhead."
+              },
+              {
+                "q": "How many email folders should I have?",
+                "a": "Two or three. Search makes fine-grained filing largely pointless, while each extra folder adds a decision to every message."
+              },
+              {
+                "q": "Should I check email continuously?",
+                "a": "No. Batching two or three times a day is far less disruptive, and most email is not as urgent as its arrival suggests."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "computer"
+            ]
+          },
+          "related": [
+            "declutter-your-digital-workspace",
+            "review-and-cancel-unused-subscriptions",
+            "learn-time-blocking-techniques"
+          ]
         },
         {
           "name": "Declutter your digital workspace",
           "slug": "declutter-your-digital-workspace",
           "description": "Tidy your desktop, close those 47 browser tabs, and uninstall apps you never use.",
-          "image": "/activities/coding.png"
+          "image": "/activities/coding.png",
+          "seo": {
+            "title": "Declutter Your Digital Workspace and Close the Tabs",
+            "metaDescription": "Declutter your digital workspace: clear the desktop, close forty-seven tabs without losing them, uninstall what you never open, and silence notifications.",
+            "primaryKeyword": "declutter your digital workspace",
+            "secondaryKeywords": [
+              "too many browser tabs",
+              "clean desktop screen",
+              "reduce digital distractions"
+            ]
+          },
+          "content": {
+            "intro": "To declutter your digital workspace is mostly to reduce the number of things quietly demanding attention. Forty-seven open tabs, a desktop of screenshots, six apps with badge counts, notifications from a tool you used once. None of it is urgent and all of it consumes a small amount of attention continuously.",
+            "whyItWorks": "Open loops are cognitively expensive even when ignored, which is why a cluttered screen feels tiring in a way that a clean one does not. Tabs are the clearest case: most are kept because closing feels like losing something, so a mechanism that preserves them without displaying them removes the resistance entirely.",
+            "howTo": [
+              {
+                "step": "Bookmark all tabs, then close them",
+                "detail": "Most browsers do this in one action. Nothing is lost, and you will open perhaps three of them again."
+              },
+              {
+                "step": "Empty the desktop into one folder",
+                "detail": "Name it with today's date. A visible desktop of files is a to-do list you never agreed to."
+              },
+              {
+                "step": "Uninstall what you have not opened",
+                "detail": "If it has not been used in six months, remove it. It can be reinstalled in two minutes if you are wrong."
+              },
+              {
+                "step": "Audit notification permissions",
+                "detail": "Turn off everything except messages from actual humans. Most apps request notifications by default and rarely deserve them."
+              },
+              {
+                "step": "Clear the badge counts",
+                "detail": "Resolve or disable every red number. Unresolved counters generate low-level pressure all day."
+              }
+            ],
+            "tips": [
+              "Use browser profiles to separate work and personal browsing. It keeps both contexts smaller and easier to close.",
+              "Set the desktop to auto-hide icons if your system supports it. The friction of unhiding stops it refilling.",
+              "Do this monthly. Digital clutter accumulates faster than physical clutter and is easier to ignore."
+            ],
+            "variations": "If tabs are your specific problem, use a session manager that saves and closes groups, which removes the fear of losing context. If notifications are the problem, a scheduled focus mode does more than individually disabling each app.",
+            "faq": [
+              {
+                "q": "How do I close all my tabs without losing them?",
+                "a": "Bookmark them all into a dated folder first, then close. They remain retrievable and stop occupying screen and attention."
+              },
+              {
+                "q": "Do too many open tabs slow my computer?",
+                "a": "They consume memory, though the more reliable cost is attentional. A cluttered browser is tiring before it is slow."
+              },
+              {
+                "q": "How often should I do a digital declutter?",
+                "a": "Monthly works well. Digital clutter accumulates quickly and, unlike physical mess, produces no visible pile to prompt you."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 45,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "computer",
+              "phone"
+            ]
+          },
+          "related": [
+            "organize-your-browser-bookmarks",
+            "organize-your-phone-apps-into-folders",
+            "clean-up-your-computer-files"
+          ]
         },
         {
           "name": "Create a document naming convention system",
           "slug": "create-a-document-naming-convention-system",
           "description": "Decide on a consistent way to name files and folders so future-you can find things instantly.",
-          "image": "/activities/organization.png"
+          "image": "/activities/organization.png",
+          "seo": {
+            "title": "Create a Document Naming Convention You Will Follow",
+            "metaDescription": "A document naming convention that sorts correctly and stays readable: date first in year-month-day, then project, then a short description. No spaces.",
+            "primaryKeyword": "document naming convention",
+            "secondaryKeywords": [
+              "file naming best practices",
+              "ISO date format filenames",
+              "how to name files consistently"
+            ]
+          },
+          "content": {
+            "intro": "A document naming convention is a small decision with a long payoff, because it makes files sort themselves. The core insight is that filenames are read by an alphabetical sorter before they are read by you, so putting the date first in a fixed format means chronological order comes free forever.",
+            "whyItWorks": "Writing dates as year, then month, then day means alphabetical sorting and chronological sorting are the same operation. That one choice eliminates the endless problem of files ordered by whenever they were last touched. Consistency in the remaining fields then makes search predictable, because you know what words to type before you type them.",
+            "howTo": [
+              {
+                "step": "Put the date first, year first",
+                "detail": "Format as year-month-day with leading zeros. Alphabetical sorting then equals date order, permanently and without effort."
+              },
+              {
+                "step": "Add a project or category code",
+                "detail": "A short consistent token. This is what makes searching predictable, because you know the exact word to type."
+              },
+              {
+                "step": "Finish with a readable description",
+                "detail": "Two or three words in plain language. Future you needs to recognize it without opening the file."
+              },
+              {
+                "step": "Use hyphens, never spaces",
+                "detail": "Spaces cause problems in links, scripts and some systems. Hyphens are safe everywhere and remain readable."
+              },
+              {
+                "step": "Add a version field if you need one",
+                "detail": "A numbered version with leading zeros beats final, final2 and finalREAL, which is the pattern this replaces."
+              }
+            ],
+            "tips": [
+              "Keep it short. A convention with six mandatory fields will be abandoned within a week.",
+              "Write the rule down where you will see it, or you will drift within a month.",
+              "Do not rename old files. Apply it going forward; retroactive renaming is a task that never finishes."
+            ],
+            "variations": "If you share files with a team, agree the convention together and document it, since a personal convention nobody else follows creates more confusion than it removes. If you handle scanned documents, add the source or sender as a field, which is what you search for later.",
+            "faq": [
+              {
+                "q": "Why put the date first in a filename?",
+                "a": "Written year-month-day, alphabetical sorting becomes chronological sorting automatically, in every operating system and every tool."
+              },
+              {
+                "q": "Should I use spaces or hyphens?",
+                "a": "Hyphens. Spaces cause problems in URLs, command lines and some sync tools, while hyphens remain readable and safe everywhere."
+              },
+              {
+                "q": "Do I need to rename my existing files?",
+                "a": "No. Apply the convention to new files only. Retroactive renaming is a large task with very little practical benefit."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 30,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "computer"
+            ]
+          },
+          "related": [
+            "clean-up-your-computer-files",
+            "digitize-important-paper-documents",
+            "learn-markdown-for-faster-note-taking"
+          ]
         },
         {
           "name": "Set up a password manager",
           "slug": "set-up-a-password-manager",
           "description": "Move your passwords into a secure manager and replace weak, reused ones while you're at it.",
-          "image": "/activities/coding.png"
+          "image": "/activities/coding.png",
+          "seo": {
+            "title": "Set Up a Password Manager and Fix the Worst Reuse",
+            "metaDescription": "Set up a password manager in an hour: pick one, secure the master password, import what the browser holds, and replace the reused passwords that matter.",
+            "primaryKeyword": "set up a password manager",
+            "secondaryKeywords": [
+              "best password manager features",
+              "password reuse risk",
+              "two factor authentication setup"
+            ]
+          },
+          "content": {
+            "intro": "The reason to set up a password manager is not the convenience, it is that password reuse turns one breached website into access to your email, and from your email into everything else. An hour is enough to install one, secure it properly, and fix the handful of accounts where reuse actually matters.",
+            "whyItWorks": "Attackers take credentials leaked from one site and try them elsewhere automatically, which is why reuse is the specific dangerous behavior rather than password complexity. A manager removes the need to remember anything, so unique passwords stop requiring effort. Fixing your email account first matters because email is the reset mechanism for everything else.",
+            "howTo": [
+              {
+                "step": "Choose one and check its history",
+                "detail": "Look at how it handled past security incidents. Response to problems tells you more than any feature list."
+              },
+              {
+                "step": "Create a strong master password",
+                "detail": "Several unrelated words, memorized rather than stored. This is the one password protecting all the others."
+              },
+              {
+                "step": "Turn on two-factor authentication",
+                "detail": "On the manager itself, first. A vault protected only by a password is a single point of failure."
+              },
+              {
+                "step": "Import what your browser has saved",
+                "detail": "Most managers import directly. Then remove them from the browser so there is one source of truth."
+              },
+              {
+                "step": "Replace the reused ones that matter",
+                "detail": "Email first, then banking, then anything storing card details. Do not attempt all two hundred accounts today."
+              }
+            ],
+            "tips": [
+              "Write the master password on paper and store it somewhere secure. Losing it can mean losing the entire vault.",
+              "Set up emergency access or a recovery contact if the manager offers it. Consider who needs access if you cannot provide it.",
+              "Check whether your accounts appear in known breaches. Most managers now flag this automatically."
+            ],
+            "variations": "If you have a family, most managers offer shared vaults, which solves the recurring problem of household logins written on paper. If you already use one, spend the hour enabling two-factor authentication on your top ten accounts instead, which is the bigger remaining gap.",
+            "faq": [
+              {
+                "q": "Is it safe to keep all passwords in one place?",
+                "a": "A properly encrypted vault with a strong master password and two-factor authentication is considerably safer than reusing passwords everywhere."
+              },
+              {
+                "q": "What if I forget the master password?",
+                "a": "Most managers cannot recover it by design. Write it down and store it securely, and set up any recovery option offered."
+              },
+              {
+                "q": "Which accounts should I fix first?",
+                "a": "Email, because it can reset everything else. Then banking, then anything holding payment details."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "low",
+            "difficulty": "moderate",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "computer",
+              "phone",
+              "paper for the master password"
+            ]
+          },
+          "related": [
+            "back-up-your-important-files",
+            "digitize-important-paper-documents",
+            "declutter-your-digital-workspace"
+          ]
         },
         {
           "name": "Organize your browser bookmarks",
           "slug": "organize-your-browser-bookmarks",
           "description": "Prune dead links and sort your bookmarks into folders you'll actually use.",
-          "image": "/activities/coding.png"
+          "image": "/activities/coding.png",
+          "seo": {
+            "title": "Organize Your Browser Bookmarks by Deleting Most",
+            "metaDescription": "Organize your browser bookmarks by keeping only what you open regularly. Reading-list items belong in a read-later tool, not a folder you never revisit.",
+            "primaryKeyword": "organize your browser bookmarks",
+            "secondaryKeywords": [
+              "bookmark folder structure",
+              "dead link cleanup",
+              "read it later apps"
+            ]
+          },
+          "content": {
+            "intro": "Most bookmark collections contain two incompatible things: a small number of sites you open constantly, and a large archive of articles you intended to read in 2019. To organize your browser bookmarks usefully means separating those, because keeping them together makes the useful ones impossible to find.",
+            "whyItWorks": "A bookmark bar works when it holds few enough items to scan instantly. Every reading-list entry mixed in makes the frequent ones harder to spot, which is the whole failure mode. Moving intended reading to a tool designed for it, or accepting that you will never read it, restores the bar to something you actually use.",
+            "howTo": [
+              {
+                "step": "Separate frequent from aspirational",
+                "detail": "Sites you open weekly versus things you meant to read. These need completely different treatment."
+              },
+              {
+                "step": "Put the frequent ones on the bar",
+                "detail": "Ten or fewer, named with one or two words. Short names fit more and stay scannable."
+              },
+              {
+                "step": "Move reading to a read-later tool",
+                "detail": "Or delete it. Be honest: an article bookmarked two years ago is not going to be read now."
+              },
+              {
+                "step": "Run a dead link check",
+                "detail": "A large share of old bookmarks point at pages that no longer exist. Extensions find them in seconds."
+              },
+              {
+                "step": "Keep folders one level deep",
+                "detail": "Nested folders make retrieval slower than searching. Bookmarks are for speed, so anything nested is defeating the purpose."
+              }
+            ],
+            "tips": [
+              "Sync bookmarks across devices, and check the sync actually works before relying on it.",
+              "Export a backup before a large cleanup. Recovering a deleted bookmark otherwise is impossible.",
+              "If you never open a folder, delete the folder. Volume is what makes the collection unusable."
+            ],
+            "variations": "If you research heavily, a dedicated tool with tags and notes handles that far better than bookmarks, which were never designed for it. If you share a computer, browser profiles keep separate bookmark sets without any folder gymnastics.",
+            "faq": [
+              {
+                "q": "How many bookmarks should I keep on the bar?",
+                "a": "Ten or fewer, with short names. The bar works by being instantly scannable, and volume destroys that immediately."
+              },
+              {
+                "q": "What should I do with articles I meant to read?",
+                "a": "Move them to a read-later tool or delete them. Mixed into bookmarks they only make the useful entries harder to find."
+              },
+              {
+                "q": "How do I find broken bookmarks?",
+                "a": "Use a dead link checker extension. A significant proportion of bookmarks more than a few years old point at pages that are gone."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 30,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "computer"
+            ]
+          },
+          "related": [
+            "declutter-your-digital-workspace",
+            "organize-your-phone-apps-into-folders",
+            "clean-up-your-computer-files"
+          ]
         },
         {
           "name": "Create a system for tracking important dates",
           "slug": "create-a-system-for-tracking-important-dates",
           "description": "Set up a calendar with birthdays, renewals, and deadlines so nothing catches you by surprise.",
-          "image": "/activities/organization.png"
+          "image": "/activities/organization.png",
+          "seo": {
+            "title": "Track Important Dates So Nothing Catches You Out",
+            "metaDescription": "Build a system for tracking important dates with lead time built in. A renewal reminder on the day it expires is a notification, not a system.",
+            "primaryKeyword": "track important dates",
+            "secondaryKeywords": [
+              "renewal reminder system",
+              "never forget birthdays",
+              "calendar lead time"
+            ]
+          },
+          "content": {
+            "intro": "Systems that track important dates fail in a specific and predictable way: the reminder arrives on the day itself. A car insurance alert on the expiry date leaves no time to shop around, and a birthday reminder that morning leaves no time for a card. The date is not the useful part. The lead time is.",
+            "whyItWorks": "Almost every important date requires action beforehand rather than on the day. Setting the reminder for when you need to start acting, rather than for the deadline, converts an alert into something you can actually do something about. Recurring entries then make the whole thing self-maintaining, which is what separates a system from a list.",
+            "howTo": [
+              {
+                "step": "List every recurring date",
+                "detail": "Birthdays, renewals, MOT and servicing, subscriptions, tax deadlines, medical checks. One pass gets most of them."
+              },
+              {
+                "step": "Decide the lead time for each",
+                "detail": "Three weeks for insurance, a week for birthdays, a month for anything needing an appointment."
+              },
+              {
+                "step": "Set the reminder at the lead time",
+                "detail": "Not the date itself. This is the single change that makes the whole system useful rather than decorative."
+              },
+              {
+                "step": "Make everything recurring",
+                "detail": "Annual repeats mean you build the system once. A one-off entry is a task you will have to redo."
+              },
+              {
+                "step": "Keep it in one calendar",
+                "detail": "Not four apps. One place you already look daily beats a dedicated tool you check occasionally."
+              }
+            ],
+            "tips": [
+              "Add a note in the event with what to do, such as the policy number or the account to log into.",
+              "Color-code by type so a glance at the month tells you whether anything needs money.",
+              "Review the whole list annually. Dates change, and stale reminders train you to ignore the calendar."
+            ],
+            "variations": "If you share a household, use a shared calendar for anything the other person also needs to know, since duplicated personal reminders drift out of sync. If you have many financial renewals, cluster them to one month so the shopping-around happens in a single session.",
+            "faq": [
+              {
+                "q": "How far in advance should reminders be set?",
+                "a": "Enough time to act: about three weeks for insurance renewals, a week for gifts, a month for anything needing an appointment."
+              },
+              {
+                "q": "Should I use a dedicated reminder app?",
+                "a": "Usually not. A calendar you already check daily beats a separate app you have to remember to open."
+              },
+              {
+                "q": "How do I stop ignoring my own reminders?",
+                "a": "Reduce their number and make each one actionable. Reminders arriving too late or too often both train you to dismiss them."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 45,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "calendar app"
+            ]
+          },
+          "related": [
+            "review-your-insurance-policies-for-better-deals",
+            "schedule-overdue-health-check-ups",
+            "set-up-automatic-bill-payments"
+          ]
         },
         {
           "name": "Digitize important paper documents",
           "slug": "digitize-important-paper-documents",
           "description": "Scan key documents and store them safely in the cloud so they're backed up and easy to find.",
-          "image": "/activities/organization.png"
+          "image": "/activities/organization.png",
+          "seo": {
+            "title": "Digitize Important Paper Documents Safely",
+            "metaDescription": "Scan the paperwork worth keeping, name it so you can find it, encrypt what is sensitive, and know which originals must still exist on paper.",
+            "primaryKeyword": "digitize important paper documents",
+            "secondaryKeywords": [
+              "scanning documents with a phone",
+              "which original documents to keep",
+              "encrypted document storage"
+            ]
+          },
+          "content": {
+            "intro": "To digitize important paper documents solves a specific problem: paperwork you need is currently in one physical place that could flood, burn, or simply be somewhere else when you need it. A scan in cloud storage is available anywhere. The important caveat is that some originals must still exist, and scanning does not replace them.",
+            "whyItWorks": "A phone scanning app produces perfectly adequate results for records, so the equipment barrier no longer exists. The benefit is redundancy: a document that exists in two places, one of them off-site, survives events that destroy the other. Naming files consistently at scan time is what makes them retrievable, which is otherwise where this falls down.",
+            "howTo": [
+              {
+                "step": "Scan only what is worth keeping",
+                "detail": "Legal, tax, medical, warranty, property. Scanning everything produces a digital pile instead of a paper one."
+              },
+              {
+                "step": "Use a scanning app, not the camera",
+                "detail": "Scanning apps deskew, crop and produce searchable text. A photograph of a document is far less useful."
+              },
+              {
+                "step": "Name each file as you scan it",
+                "detail": "Date first, then category, then description. Renaming a folder of scans afterwards never happens."
+              },
+              {
+                "step": "Encrypt anything sensitive",
+                "detail": "Financial and medical records especially. Cloud storage plus an encrypted container is a reasonable arrangement."
+              },
+              {
+                "step": "Keep the originals that must be paper",
+                "detail": "Passports, certificates, deeds, wills. A scan is a convenience copy, not a legal substitute."
+              }
+            ],
+            "tips": [
+              "Scan in color for anything with stamps or signatures. Black and white can lose detail that matters legally.",
+              "Test that you can actually retrieve a file from your phone before relying on the system.",
+              "Shred the paper you decided not to keep rather than binning it, particularly anything with account numbers."
+            ],
+            "variations": "If the pile is large, do it in fifteen-minute sessions by category rather than in one sitting, since scanning is tedious enough to abandon. If you have a scanner with a document feeder, batch by category so the naming stays consistent within each run.",
+            "faq": [
+              {
+                "q": "Are scanned documents legally valid?",
+                "a": "It varies by document type and jurisdiction. Certificates, deeds and identity documents generally require the original, so keep those on paper."
+              },
+              {
+                "q": "Do I need a proper scanner?",
+                "a": "No. A phone scanning app deskews, crops and adds searchable text, which is sufficient for almost all household records."
+              },
+              {
+                "q": "Where should I store the scans?",
+                "a": "Cloud storage with encryption for anything sensitive, plus a local copy. Two locations is the point of the exercise."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "phone with a scanning app",
+              "cloud storage",
+              "shredder"
+            ]
+          },
+          "related": [
+            "set-up-a-filing-system",
+            "back-up-your-important-files",
+            "create-a-document-naming-convention-system"
+          ]
         },
         {
           "name": "Create a meal planning system",
           "slug": "create-a-meal-planning-system",
           "description": "Build a simple weekly meal-planning routine that saves money and ends the nightly what's-for-dinner debate.",
-          "image": "/activities/organization.png"
+          "image": "/activities/organization.png",
+          "seo": {
+            "title": "Create a Meal Planning System With a Rotation",
+            "metaDescription": "Build a meal planning system from a rotation of meals you already cook well, rather than choosing from infinite recipe options every single week.",
+            "primaryKeyword": "meal planning system",
+            "secondaryKeywords": [
+              "weekly meal rotation",
+              "how to plan meals for a week",
+              "reduce food waste planning"
+            ]
+          },
+          "content": {
+            "intro": "A meal planning system built on choosing from infinite recipes collapses within three weeks, because the planning itself becomes a chore. A rotation solves it: fifteen meals you already cook well, cycled with variation. Nobody notices a three-week gap between repeats, and the weekly decision drops to almost nothing.",
+            "whyItWorks": "Planning fatigue is the real failure mode rather than lack of ideas. A fixed rotation removes the decision while still producing enough variety, and because you already know the ingredients, the shopping list follows automatically. That connection between plan and list is what actually reduces both food waste and mid-week takeaways.",
+            "howTo": [
+              {
+                "step": "List meals you already cook well",
+                "detail": "Aim for around fifteen. Existing competence beats novelty here, because these are the meals that survive a tired Wednesday evening."
+              },
+              {
+                "step": "Tag each by effort",
+                "detail": "Quick, standard, weekend. Match effort to the day rather than discovering on Tuesday that dinner takes ninety minutes."
+              },
+              {
+                "step": "Assign meals to days",
+                "detail": "Quick ones on your busiest evenings. Fitting the plan to the week is what stops it being abandoned."
+              },
+              {
+                "step": "Build the shopping list from the plan",
+                "detail": "Directly, in one pass, checking what you already have. This is where the waste reduction actually comes from."
+              },
+              {
+                "step": "Leave one night unplanned",
+                "detail": "Leftovers, or whatever needs using. A fully planned week breaks the first time anything changes."
+              }
+            ],
+            "tips": [
+              "Add one new recipe a month, not weekly. The rotation grows slowly without the planning becoming work again.",
+              "Keep the list somewhere the whole household can see, which prevents the nightly what-is-for-dinner conversation.",
+              "Plan around what needs using up first, checking the fridge before the plan rather than after. It is the single biggest lever on food waste."
+            ],
+            "variations": "If you cook for one, plan meals that scale down or freeze well, since most recipes assume four portions. If your week is unpredictable, plan ingredients rather than specific meals and decide on the day, which retains most of the benefit.",
+            "faq": [
+              {
+                "q": "How many meals should be in a rotation?",
+                "a": "Around fifteen. That gives roughly three weeks between repeats, which almost nobody notices, while keeping planning trivial."
+              },
+              {
+                "q": "Does meal planning actually save money?",
+                "a": "Usually, mainly by reducing food waste and unplanned takeaways rather than by making the shop itself cheaper."
+              },
+              {
+                "q": "What if I get bored of the same meals?",
+                "a": "Add one new recipe a month and vary sides and sauces. Wholesale reinvention every week is what makes planning collapse."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 45,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "notebook or shared note",
+              "your usual recipes"
+            ]
+          },
+          "related": [
+            "research-healthy-meal-prep-ideas",
+            "set-up-a-household-supplies-inventory",
+            "prep-healthy-snacks-for-the-week"
+          ]
         },
         {
           "name": "Organize your phone apps into folders",
           "slug": "organize-your-phone-apps-into-folders",
           "description": "Group your apps by purpose, delete the ones you never open, and tidy up your home screen.",
-          "image": "/activities/organization.png"
+          "image": "/activities/organization.png",
+          "seo": {
+            "title": "Organize Your Phone Apps to Reduce Aimless Opening",
+            "metaDescription": "Organize your phone apps by putting only intentional tools on the home screen and burying the ones you open without deciding to. Friction is the point.",
+            "primaryKeyword": "organize your phone apps",
+            "secondaryKeywords": [
+              "reduce phone screen time",
+              "home screen setup",
+              "app folder organization"
+            ]
+          },
+          "content": {
+            "intro": "Most people organize your phone apps for tidiness, arranging things by color or category. A more useful goal is reducing the apps you open without having decided to. The home screen is prime real estate, and whatever sits there gets opened reflexively dozens of times a day.",
+            "whyItWorks": "A meaningful share of phone use is habitual rather than intentional: unlock, tap whatever is in the familiar position, look up ten minutes later. Adding two steps between unlocking and opening interrupts that loop, because the pause is enough for the intention to become conscious. This works better than willpower and better than screen-time limits.",
+            "howTo": [
+              {
+                "step": "Check your actual usage first",
+                "detail": "Your phone reports it. The apps at the top are usually not the ones you would have guessed."
+              },
+              {
+                "step": "Put only intentional tools on the home screen",
+                "detail": "Maps, camera, messages, calendar. Things you open because you decided to, not because they were there."
+              },
+              {
+                "step": "Bury the reflexive ones",
+                "detail": "Second or third screen, inside a folder. Two extra taps is enough friction to interrupt an automatic habit."
+              },
+              {
+                "step": "Delete what you have not opened in months",
+                "detail": "Reinstalling takes a minute. Most phones list unused apps for you, and the list is usually longer than expected."
+              },
+              {
+                "step": "Use search instead of hunting",
+                "detail": "Swipe and type is faster than any folder arrangement, which frees the home screen to serve a different purpose."
+              }
+            ],
+            "tips": [
+              "Move social apps off the first screen even if you keep them. Position matters more than any usage limit.",
+              "Turn off badge counts on anything non-urgent. Red numbers pull you in regardless of what they contain.",
+              "Grayscale mode makes the whole phone considerably less compelling if you want a stronger intervention."
+            ],
+            "variations": "If your goal is purely finding things faster, ignore the friction advice and put your most-used apps in thumb reach instead. If you share a phone with a child, a separate profile or guided access is more effective than any arrangement of icons.",
+            "faq": [
+              {
+                "q": "Do app folders actually reduce screen time?",
+                "a": "Moving reflexively opened apps off the home screen does help, because much phone use is positional habit rather than deliberate choice."
+              },
+              {
+                "q": "How should I arrange my home screen?",
+                "a": "Keep only apps you open on purpose. Search handles everything else faster than hunting through folders."
+              },
+              {
+                "q": "Is it worth deleting apps I rarely use?",
+                "a": "Yes. Most can be reinstalled in a minute, and the reduced visual noise makes the useful ones easier to find."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 30,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "phone"
+            ]
+          },
+          "related": [
+            "declutter-your-digital-workspace",
+            "do-a-digital-detox-for-one-hour",
+            "organize-your-browser-bookmarks"
+          ]
         },
         {
           "name": "Set up a household supplies inventory",
           "slug": "set-up-a-household-supplies-inventory",
           "description": "Track the consumables you actually run out of — cleaning supplies, batteries, pantry staples — so restocking stops being a guess.",
-          "image": "/activities/organization.png"
+          "image": "/activities/organization.png",
+          "seo": {
+            "title": "Set Up a Household Supplies Inventory and Stop Guessing",
+            "metaDescription": "A household supplies inventory tracks the consumables you actually run out of, with reorder points so nothing runs dry and nothing gets bought twice.",
+            "primaryKeyword": "household supplies inventory",
+            "secondaryKeywords": [
+              "pantry inventory list",
+              "when to reorder household items",
+              "stop buying duplicates"
+            ]
+          },
+          "content": {
+            "intro": "A household supplies inventory is not a list of everything you own. It tracks consumables: the cleaning products, batteries, pantry staples and toiletries that run out at unpredictable intervals. The failure it prevents is specific and familiar, which is discovering you have four bottles of one thing and none of another.",
+            "whyItWorks": "Reorder points are what turn a list into a system. Rather than tracking exact quantities, which nobody sustains, you simply note the level at which you buy more. Combined with a single running list that anyone in the household can add to, this handles restocking without anybody having to remember anything.",
+            "howTo": [
+              {
+                "step": "List consumables only",
+                "detail": "Things that run out and need replacing regularly. Durable goods belong in an insurance inventory, which is a separate exercise with a different purpose."
+              },
+              {
+                "step": "Group by storage location",
+                "detail": "Kitchen, bathroom, utility, garage. Checking by location is far faster than checking by category."
+              },
+              {
+                "step": "Set a reorder point for each",
+                "detail": "\"Buy more at one spare.\" This is the whole system, and it removes the need to track quantities."
+              },
+              {
+                "step": "Use one shared running list",
+                "detail": "A shared note anyone can add to the moment something runs low. Memory is where restocking usually fails."
+              },
+              {
+                "step": "Check the list before shopping",
+                "detail": "Thirty seconds. It prevents both the duplicate purchase and the forgotten essential."
+              }
+            ],
+            "tips": [
+              "Note what you actually use rather than what you meant to buy. Aspirational stock becomes waste.",
+              "Check expiry dates when you do the first pass. Older stock at the back is how duplicates accumulate.",
+              "Keep it in a shared note rather than a spreadsheet. Anything requiring a laptop to open will not get updated at the moment it matters."
+            ],
+            "variations": "If you buy in bulk, add a rough consumption rate per item so you can time larger orders sensibly. If storage is tight, the inventory doubles as a way of spotting what you are over-stocking and can stop buying entirely.",
+            "faq": [
+              {
+                "q": "What should go in a household inventory?",
+                "a": "Consumables that run out: cleaning products, toiletries, batteries, pantry staples. Valuables belong in a separate insurance inventory."
+              },
+              {
+                "q": "How detailed does it need to be?",
+                "a": "Not very. A reorder point per item beats exact quantity tracking, which almost nobody maintains beyond the first month."
+              },
+              {
+                "q": "How do I stop buying duplicates?",
+                "a": "Check one shared list before shopping, and set a reorder point so buying happens at a known level rather than a guess."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 45,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "shared note app"
+            ]
+          },
+          "related": [
+            "create-a-meal-planning-system",
+            "start-a-home-inventory-for-insurance",
+            "organize-a-closet-or-storage-space"
+          ]
         },
         {
           "name": "Plan your next day the night before",
           "slug": "plan-your-next-day-the-night-before",
           "description": "Spend ten minutes listing tomorrow's top three priorities so you start the day already knowing what matters.",
-          "image": "/activities/organization.png"
+          "image": "/activities/organization.png",
+          "seo": {
+            "title": "Plan Your Next Day the Night Before in Five Minutes",
+            "metaDescription": "Plan tomorrow tonight: pick the one task that matters, check the calendar for surprises, and set out what you need. Five minutes removes morning friction.",
+            "primaryKeyword": "plan your next day the night before",
+            "secondaryKeywords": [
+              "evening planning routine",
+              "most important task method",
+              "productive morning start"
+            ]
+          },
+          "content": {
+            "intro": "To plan your next day the night before takes about five minutes and changes the first hour of the morning entirely. Instead of arriving at your desk and deciding what to do, which happens at your least decisive moment, you arrive at a decision already made by a version of you with more context.",
+            "whyItWorks": "Decision quality is better in the evening because you have the full day's context available, and worse in the morning when you are dealing with a fresh inbox. Writing down the single most important task also lets it settle overnight rather than surfacing at two in the morning. Both effects come from the same five minutes.",
+            "howTo": [
+              {
+                "step": "Pick the one task that matters",
+                "detail": "If tomorrow contains only one accomplishment, what should it be? One item, not a list."
+              },
+              {
+                "step": "Check tomorrow's calendar properly",
+                "detail": "Look for the meeting you forgot and the thing needing preparation. Discovering these in the morning is expensive."
+              },
+              {
+                "step": "Write down two or three supporting tasks",
+                "detail": "Not ten. The list exists to prevent morning deliberation, and a long one reintroduces exactly that."
+              },
+              {
+                "step": "Note anything that would block you",
+                "detail": "A file you need, an answer you are waiting on. Requesting it tonight beats discovering it at nine."
+              },
+              {
+                "step": "Set out what you need physically",
+                "detail": "Clothes, bag, gym kit, lunch. Removing morning decisions is most of the benefit for many people."
+              }
+            ],
+            "tips": [
+              "Do it at the end of the working day rather than at bedtime, while the context is still fresh.",
+              "Keep it on paper by your desk. A note in an app requires unlocking a phone, which invites everything else.",
+              "If you cannot name the important task, that is useful information about the week's direction."
+            ],
+            "variations": "If your mornings are already smooth, use the five minutes for a shutdown review instead: what moved, what is blocked, what needs a decision. If your days are reactive, plan only the first ninety minutes, since the rest genuinely will not survive contact with reality.",
+            "faq": [
+              {
+                "q": "When is the best time to plan tomorrow?",
+                "a": "At the end of the working day, while context is fresh. Bedtime works but the details are already fading by then."
+              },
+              {
+                "q": "How many tasks should I plan for tomorrow?",
+                "a": "One that matters, plus two or three supporting items. Longer lists reintroduce the morning deliberation you are trying to remove."
+              },
+              {
+                "q": "Does this help with sleep?",
+                "a": "Many people find writing tomorrow down stops it circling at night, though it is not a treatment for insomnia."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 30,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "notebook",
+              "your calendar"
+            ]
+          },
+          "related": [
+            "create-a-to-do-list-for-the-week",
+            "develop-a-morning-routine",
+            "learn-time-blocking-techniques"
+          ]
         },
         {
           "name": "Do a 15-minute declutter sprint",
           "slug": "do-a-15-minute-declutter-sprint",
           "description": "Set a timer, grab a bag, and clear as much clutter as you can from one area before it rings.",
-          "image": "/activities/organization.png"
+          "image": "/activities/organization.png",
+          "seo": {
+            "title": "Do a 15-Minute Declutter Sprint on One Small Area",
+            "metaDescription": "A 15-minute declutter sprint on one drawer or shelf beats a whole-house plan you never start. Set a timer, pick one surface, and stop when it rings.",
+            "primaryKeyword": "15-minute declutter sprint",
+            "secondaryKeywords": [
+              "quick decluttering method",
+              "declutter one drawer",
+              "timer based cleaning"
+            ]
+          },
+          "content": {
+            "intro": "A 15-minute declutter sprint works because it is too short to dread. Decluttering plans fail at the point where the whole house is the unit of work and a free Saturday is the prerequisite. One drawer, one timer, and a hard stop when it rings removes both obstacles entirely.",
+            "whyItWorks": "The timer does two things. It caps the commitment so starting is easy, and it creates mild time pressure that speeds up decisions, which is where decluttering normally stalls. Stopping when it rings matters as much as starting: an unfinished sprint you repeat beats an exhausting session that puts you off for months.",
+            "howTo": [
+              {
+                "step": "Choose one small area",
+                "detail": "One drawer, a single shelf, or the top of a dresser. Small enough to finish inside the timer, which is what makes it satisfying rather than draining."
+              },
+              {
+                "step": "Set a visible timer",
+                "detail": "Fifteen minutes, where you can see it. The visible countdown is what accelerates the decisions."
+              },
+              {
+                "step": "Sort into three piles only",
+                "detail": "Keep, donate, bin. A maybe pile is the mechanism by which decluttering achieves nothing."
+              },
+              {
+                "step": "Handle each item once",
+                "detail": "Picking something up and putting it back is the default failure. Decide on first contact."
+              },
+              {
+                "step": "Stop when the timer rings",
+                "detail": "Even mid-drawer. The sustainability of the habit matters more than finishing any particular area."
+              }
+            ],
+            "tips": [
+              "Remove the donation bag from the house immediately. Anything left in the hall gets reopened.",
+              "Start with the area that irritates you most. Visible improvement is what makes you do it again tomorrow.",
+              "Do not start by buying storage containers. Sort first, then buy only what the remaining items actually need; containers bought early mostly enable keeping more."
+            ],
+            "variations": "If fifteen minutes feels too long, do five. The threshold that matters is the one you will actually start. If you live with others, sprint only on your own belongings, since sorting someone else's things without asking creates a different problem entirely.",
+            "faq": [
+              {
+                "q": "Is 15 minutes really enough to declutter?",
+                "a": "For one drawer or shelf, yes. The point is repeatability: daily short sprints clear a house faster than occasional long sessions."
+              },
+              {
+                "q": "What do I do with things I am unsure about?",
+                "a": "Decide anyway, or use a dated box you revisit in six months. A permanent maybe pile defeats the exercise."
+              },
+              {
+                "q": "Where should I start?",
+                "a": "Whichever area annoys you most. Visible improvement in a place you see daily is what sustains the habit."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 15,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "timer",
+              "bin bags"
+            ]
+          },
+          "related": [
+            "create-a-donation-box-for-unused-items",
+            "organize-a-closet-or-storage-space",
+            "organize-your-workspace"
+          ]
         },
         {
           "name": "Back up your important files",
           "slug": "back-up-your-important-files",
           "description": "Set up an automatic backup for your photos and documents — before you need it, not after.",
-          "image": "/activities/coding.png"
+          "image": "/activities/coding.png",
+          "seo": {
+            "title": "Back Up Your Important Files and Test the Restore",
+            "metaDescription": "Set up a backup following the three-two-one rule, then actually test restoring a file. An untested backup is an assumption rather than a backup.",
+            "primaryKeyword": "back up your important files",
+            "secondaryKeywords": [
+              "3-2-1 backup rule",
+              "cloud sync is not backup",
+              "how to test a backup"
+            ]
+          },
+          "content": {
+            "intro": "Almost everyone intends to back up your important files properly and most people have something partial: a sync folder, an old external drive, a phone that uploads photos. The gap between that and an actual backup usually appears at the worst possible moment. An hour closes it, and the last step is the one people skip.",
+            "whyItWorks": "The three-two-one rule exists because different failure modes defeat different arrangements. Three copies handles corruption, two media types handles device failure, and one off-site copy handles fire and theft. Testing a restore matters separately, because a backup that has never been restored is only an assumption about a folder.",
+            "howTo": [
+              {
+                "step": "Decide what actually matters",
+                "detail": "Photos, documents, project files, password vault. Backing up everything makes the process slow enough to abandon."
+              },
+              {
+                "step": "Understand that sync is not backup",
+                "detail": "Sync propagates deletions and ransomware to every device. Versioning helps but is not the same as a separate backup."
+              },
+              {
+                "step": "Set up two destinations",
+                "detail": "One local drive and one off-site or cloud service. Different failure modes need different copies."
+              },
+              {
+                "step": "Automate the schedule",
+                "detail": "Manual backups happen twice and then stop. Whatever the tool offers, set it and leave it."
+              },
+              {
+                "step": "Restore one file to prove it works",
+                "detail": "Pick something at random and recover it. This is the step everyone skips and the only one that proves anything."
+              }
+            ],
+            "tips": [
+              "Keep one copy disconnected. Ransomware encrypts everything it can reach, including attached drives.",
+              "Check the backup is still running once a quarter. Silent failures are common and by definition unannounced.",
+              "Include your password manager vault and two-factor recovery codes, which are often overlooked and painful to lose."
+            ],
+            "variations": "If your data is mostly photos on a phone, verify that the automatic upload covers everything and that deletions do not propagate. If you have a large media collection, treat it separately from irreplaceable files; a redownloadable library does not need the same protection.",
+            "faq": [
+              {
+                "q": "What is the 3-2-1 backup rule?",
+                "a": "Three copies of your data, on two different media types, with one stored off-site. Each part addresses a different failure mode."
+              },
+              {
+                "q": "Is cloud sync the same as a backup?",
+                "a": "No. Sync propagates deletions and encryption to every device. Versioning mitigates this but a separate backup is still needed."
+              },
+              {
+                "q": "How do I know my backup works?",
+                "a": "Restore a file from it. An untested backup is an assumption, and testing takes two minutes."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "medium",
+            "difficulty": "moderate",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "external drive",
+              "cloud storage account"
+            ]
+          },
+          "related": [
+            "set-up-a-password-manager",
+            "digitize-important-paper-documents",
+            "clean-up-your-computer-files"
+          ]
         },
         {
           "name": "Create a donation box for unused items",
           "slug": "create-a-donation-box-for-unused-items",
           "description": "Start a box for things you no longer use and drop it off when it's full — decluttering that helps someone else.",
-          "image": "/activities/organization.png"
+          "image": "/activities/organization.png",
+          "seo": {
+            "title": "Create a Donation Box So Decluttering Has Somewhere to Go",
+            "metaDescription": "A permanent donation box turns decluttering from an event into a habit. Keep it accessible, take it when full, and check what charities actually accept.",
+            "primaryKeyword": "create a donation box",
+            "secondaryKeywords": [
+              "what charity shops accept",
+              "ongoing decluttering habit",
+              "where to donate unused items"
+            ]
+          },
+          "content": {
+            "intro": "Most decluttering stalls at the disposal step. Items get sorted into a bag, the bag sits in the hall for three weeks, and eventually gets unpacked. To create a donation box that lives permanently somewhere accessible removes that failure by giving unwanted things an immediate destination rather than a staging area.",
+            "whyItWorks": "A permanent box changes decluttering from an event into a continuous background process. When getting rid of something takes four seconds, you do it the moment you notice, rather than waiting for a session that may never be scheduled. The rule about taking it when full is what stops the box becoming another storage container.",
+            "howTo": [
+              {
+                "step": "Put a box somewhere you pass daily",
+                "detail": "Hallway, utility room, bottom of a wardrobe. Accessibility is the entire mechanism; a box in the loft does nothing."
+              },
+              {
+                "step": "Check what local charities accept",
+                "detail": "Rules vary and some items cannot be resold. Ten minutes of checking prevents a wasted trip."
+              },
+              {
+                "step": "Add things the moment you notice",
+                "detail": "No sorting session required. The four-second version is what makes this work at all."
+              },
+              {
+                "step": "Set a rule for when it goes",
+                "detail": "When full, or the first Saturday of the month. Without a trigger it becomes long-term storage."
+              },
+              {
+                "step": "Put it in the car immediately",
+                "detail": "A full box by the door gets stepped around for weeks. In the car it gets dropped off on the next trip."
+              }
+            ],
+            "tips": [
+              "Keep a separate bag for textiles and electronics, which usually go to different places than general donations.",
+              "Anything broken or heavily worn should be recycled rather than donated. Charities pay to dispose of unsellable items.",
+              "Do not photograph and list things for sale unless you genuinely will. Selling intentions are how items return to storage."
+            ],
+            "variations": "If you have items of real value, separate those for selling and keep the box for everything else, since mixing the two stalls both. If space is tight, use a hook with a reusable bag instead of a box; the mechanism matters more than the container.",
+            "faq": [
+              {
+                "q": "What do charity shops not accept?",
+                "a": "This varies locally, but broken items, some electricals, and heavily worn textiles are commonly refused. Check before making the trip."
+              },
+              {
+                "q": "Where should I keep the donation box?",
+                "a": "Somewhere you pass every day. Accessibility is what makes items go in; a box out of sight collects nothing."
+              },
+              {
+                "q": "How often should I take it?",
+                "a": "When it is full, or on a fixed monthly date. Without a trigger the box quietly becomes another storage container."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 30,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "a box or reusable bag"
+            ]
+          },
+          "related": [
+            "do-a-15-minute-declutter-sprint",
+            "organize-a-closet-or-storage-space",
+            "volunteer-at-a-community-event"
+          ]
         },
         {
           "name": "Sort your photo library into albums",
           "slug": "sort-your-photo-library-into-albums",
           "description": "Tame your camera roll: delete the duplicates and blurry shots, then sort the keepers into albums.",
-          "image": "/activities/remote-work.png"
+          "image": "/activities/remote-work.png",
+          "seo": {
+            "title": "Sort Your Photo Library Without Reviewing Every Photo",
+            "metaDescription": "Sort your photo library by deleting the obvious rejects, building albums for events rather than years, and letting search handle everything else.",
+            "primaryKeyword": "sort your photo library",
+            "secondaryKeywords": [
+              "organize photos on phone",
+              "delete duplicate photos",
+              "photo album ideas"
+            ]
+          },
+          "content": {
+            "intro": "Nobody is going to review forty thousand photos individually, so any plan to sort your photo library that assumes otherwise is already finished. The workable version deletes the obvious rejects in bulk, builds albums only for things you would actually revisit, and trusts search for the rest.",
+            "whyItWorks": "Photo search now recognizes faces, places and objects well enough that exhaustive tagging has stopped being necessary. What search cannot do is decide which twelve photos from a trip are the ones worth showing someone. That curation is where the value is, and it applies to a tiny fraction of the library.",
+            "howTo": [
+              {
+                "step": "Delete the obvious rejects in bulk",
+                "detail": "Screenshots, blurred shots, accidental pocket photos, photographed receipts. This alone often removes a third of the library in about ten minutes."
+              },
+              {
+                "step": "Use the duplicate finder",
+                "detail": "Most photo apps have one. Burst sequences and near-identical shots take up disproportionate space."
+              },
+              {
+                "step": "Build albums for events, not years",
+                "detail": "A trip, a wedding, a project. Year folders are what the software already does automatically."
+              },
+              {
+                "step": "Curate ruthlessly inside each album",
+                "detail": "Ten to twenty photos per event. An album of two hundred is an archive nobody will ever scroll through."
+              },
+              {
+                "step": "Confirm the backup before deleting",
+                "detail": "Check the backup is current and complete first. Photo deletion is the least recoverable kind."
+              }
+            ],
+            "tips": [
+              "Turn off automatic saving of images from messaging apps. It is where most photo library clutter originates.",
+              "Favorite the best shots as you take them. Curating continuously is far easier than doing it retrospectively.",
+              "Print a few of the best ones. Photos that exist only inside a library on a phone are effectively invisible to everyone including you."
+            ],
+            "variations": "If you have inherited scanned family photos, prioritize identifying people while relatives can still tell you, which is far more urgent than sorting. If storage is the pressing issue, deleting screenshots and duplicates usually solves it without touching real photographs.",
+            "faq": [
+              {
+                "q": "How do I organize thousands of photos?",
+                "a": "Delete obvious rejects in bulk, build albums only for events worth revisiting, and rely on search for everything else."
+              },
+              {
+                "q": "Should I create albums by year?",
+                "a": "Usually not; photo apps already group by date automatically. Albums add value for specific events and curated selections."
+              },
+              {
+                "q": "How do I find duplicate photos?",
+                "a": "Most photo applications include a duplicate finder. Burst sequences and near-identical shots are where the space goes."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "computer or phone",
+              "backup drive or cloud storage"
+            ]
+          },
+          "related": [
+            "back-up-your-important-files",
+            "clean-up-your-computer-files",
+            "learn-basic-photo-editing"
+          ]
         },
         {
           "name": "Write a packing checklist template for trips",
           "slug": "write-a-packing-checklist-template-for-trips",
           "description": "Create a reusable packing list so you never again land somewhere without a charger or toothbrush.",
-          "image": "/activities/organization.png"
+          "image": "/activities/organization.png",
+          "seo": {
+            "title": "Write a Packing Checklist Template You Reuse Every Trip",
+            "metaDescription": "Build one reusable packing checklist template organized by category, with a section for the things that ruin a trip if forgotten. Write it once.",
+            "primaryKeyword": "packing checklist template",
+            "secondaryKeywords": [
+              "what to pack list",
+              "travel packing essentials",
+              "reusable trip checklist"
+            ]
+          },
+          "content": {
+            "intro": "Packing from memory every trip guarantees forgetting something, usually the charger. A packing checklist template written once and reused permanently solves it, and the useful version separates the truly critical items from everything replaceable, because those two categories deserve very different amounts of attention.",
+            "whyItWorks": "Forgotten items divide sharply. Toothpaste is a minor inconvenience solvable at any shop; a passport or a specific medication is a trip-ending problem. Separating those into their own short list means the handful of genuinely critical items get checked deliberately rather than being buried among forty other lines you skim.",
+            "howTo": [
+              {
+                "step": "Start a critical list",
+                "detail": "Documents, medication, keys, wallet, essential chargers. Five to eight items that genuinely cannot be replaced once you have left home."
+              },
+              {
+                "step": "Group everything else by category",
+                "detail": "Clothing, toiletries, electronics, documents. Categories make packing faster than one long alphabetical list."
+              },
+              {
+                "step": "Add conditional sections",
+                "detail": "Beach, cold weather, business, flying with hand luggage only. Include or skip whole blocks per trip."
+              },
+              {
+                "step": "Write quantity rules, not items",
+                "detail": "\"One top per day plus one\" survives every trip length. Fixed numbers only work for one duration."
+              },
+              {
+                "step": "Update it immediately after each trip",
+                "detail": "Note what you forgot and what you never used. Two trips of feedback produces a genuinely good template."
+              }
+            ],
+            "tips": [
+              "Keep it somewhere you can duplicate rather than edit directly, so the master template stays clean and reusable between trips.",
+              "Add a departure-day section covering the things done last: passport in the bag, chargers off the wall, windows closed, bins out.",
+              "Photograph your packed luggage contents before closing the case. It is genuinely useful for an insurance claim if a bag goes missing in transit."
+            ],
+            "variations": "If you travel often for work, keep a permanently packed toiletry bag so that section becomes a single line. If you travel with children, give each of them their own copy; a checklist someone else owns rarely gets used properly.",
+            "faq": [
+              {
+                "q": "What should always be on a packing list?",
+                "a": "Documents, medication, keys, wallet and chargers. These are the items that cannot easily be replaced once you have travelled."
+              },
+              {
+                "q": "How do I make one list work for different trips?",
+                "a": "Use conditional sections you include or skip, and write quantity rules rather than fixed numbers of each item."
+              },
+              {
+                "q": "Digital or paper checklist?",
+                "a": "Digital, so it can be duplicated per trip and updated afterwards. The key is keeping the master template unedited."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 30,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "notes app or document"
+            ]
+          },
+          "related": [
+            "plan-a-weekend-trip-with-friends",
+            "create-a-system-for-tracking-important-dates",
+            "set-up-a-household-supplies-inventory"
+          ]
         },
         {
           "name": "Create a personal productivity system",
           "slug": "create-a-personal-productivity-system",
           "description": "Set up a trusted system for capturing tasks, notes, and ideas so nothing slips through.",
-          "image": "/activities/finance-planning.png"
+          "image": "/activities/finance-planning.png",
+          "seo": {
+            "title": "Create a Personal Productivity System With Four Parts",
+            "metaDescription": "Every personal productivity system needs a capture point, one task list, a calendar and a weekly review. The tools matter far less than having all four.",
+            "primaryKeyword": "personal productivity system",
+            "secondaryKeywords": [
+              "capture inbox method",
+              "weekly review process",
+              "productivity system for beginners"
+            ]
+          },
+          "content": {
+            "intro": "People build a personal productivity system by choosing an app, which is the least important decision available. Every functioning system has the same four components regardless of tooling: somewhere to capture, one list of commitments, a calendar for time-bound things, and a regular review. Missing any one is what causes collapse.",
+            "whyItWorks": "The failure is almost always a missing component rather than a bad app. Without capture, things live in your head and resurface at midnight. Without a single list, commitments hide in four places. Without a review, the whole thing silently drifts out of date within a two weeks and stops being trusted, which is the point at which people abandon it.",
+            "howTo": [
+              {
+                "step": "Create one capture point",
+                "detail": "A single place everything goes the moment you think of it. One inbox, not four apps depending on context."
+              },
+              {
+                "step": "Keep one list of commitments",
+                "detail": "Everything you have agreed to do, in one place. Multiple lists guarantee something gets forgotten."
+              },
+              {
+                "step": "Put time-bound things in the calendar",
+                "detail": "Only things happening at a specific time. A calendar full of tasks stops functioning as a calendar."
+              },
+              {
+                "step": "Schedule a weekly review",
+                "detail": "Twenty minutes to empty the capture point and check the list against reality. This is the component people skip."
+              },
+              {
+                "step": "Use the simplest tools that work",
+                "detail": "Paper is a legitimate answer. Tool switching is the most common form of productive procrastination."
+              }
+            ],
+            "tips": [
+              "The system must be trusted to be useful. One forgotten commitment and you go back to keeping things in your head.",
+              "Review weekly on the same day. An unscheduled review is one that stops happening within a month.",
+              "Resist adding structure until something actually breaks. Complexity added upfront is what makes systems collapse."
+            ],
+            "variations": "If you have tried several systems already, the missing piece is almost certainly the weekly review rather than the tool. If your work is mostly reactive, keep the list short and rely more heavily on capture, since planning ahead has limited value in that context.",
+            "faq": [
+              {
+                "q": "Which productivity system is best?",
+                "a": "Whichever you maintain. All functioning systems include capture, one list, a calendar and a regular review, whatever they are called."
+              },
+              {
+                "q": "Why do my productivity systems keep failing?",
+                "a": "Usually a missing weekly review. Without it the list drifts out of date, stops being trusted, and gets abandoned."
+              },
+              {
+                "q": "Do I need a dedicated app?",
+                "a": "No. Paper works, and tool switching is a common form of productive procrastination. Start simple and add only when something breaks."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "free",
+            "difficulty": "moderate",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "notebook or task app",
+              "calendar"
+            ]
+          },
+          "related": [
+            "create-a-to-do-list-for-the-week",
+            "do-a-weekly-review-of-wins-and-lessons",
+            "learn-time-blocking-techniques"
+          ]
         }
       ]
     },
