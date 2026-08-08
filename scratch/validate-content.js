@@ -33,6 +33,22 @@ const BRITISH_SPELLINGS = [
   [/\bspecialism\b/i, "specialty"],
 ];
 
+// Financial and Health & Fitness bodies must defer to a professional
+// somewhere. Accepts the natural phrasings rather than one fixed sentence,
+// so writers are not forced into boilerplate that would read as templated.
+const DISCLAIMER_RE = new RegExp(
+  [
+    // "not financial advice", "rather than medical or nutritional advice"
+    "(?:not|rather than)\\s+(?:\\w+\\s+){0,3}?(?:financial|medical|nutritional|professional|legal|tax)\\s+(?:or\\s+\\w+\\s+)?advice",
+    "(?:speak|talk)\\s+to\\s+(?:a|your)\\s+(?:doctor|GP|dietitian|physiotherapist|clinician|adviser|advisor|accountant)",
+    "\\b(?:see|needs?|ask)\\s+a\\s+doctor\\b",
+    "\\bcheck with (?:a|your) (?:doctor|dietitian|adviser|advisor)\\b",
+    "\\bqualified (?:adviser|advisor|professional|dietitian)\\b",
+    "\\bregistered dietitian\\b",
+  ].join("|"),
+  "i"
+);
+
 const errors = [];
 const warnings = [];
 const fail = (where, msg) => errors.push(`${where}: ${msg}`);
@@ -189,9 +205,7 @@ for (const { activity, category } of targets) {
 
   // --- disclaimer ---
   if (DISCLAIMER_CATEGORIES.has(category.slug)) {
-    const hasDisclaimer = /(?:not|rather than|and not)\s+(?:financial|medical|professional|legal|tax)\s+advice|a (?:financial|medical) professional|qualified (?:adviser|advisor|professional)|talk to (?:a|your) (?:doctor|GP|adviser|advisor|accountant)|check with (?:a|your) (?:doctor|adviser|advisor)/i.test(
-      body
-    );
+    const hasDisclaimer = DISCLAIMER_RE.test(body);
     if (!hasDisclaimer)
       fail(where, "financial/health activity has no disclaimer sentence in the body");
   }
