@@ -31,11 +31,24 @@ export type ActivityMeta = {
   equipment: string[];
 };
 
+/**
+ * Photo attribution. Present only on images sourced from a stock library that
+ * asks for credit; the older in-house images carry none, so the caption is
+ * rendered conditionally rather than site-wide.
+ */
+export type ActivityCredit = {
+  photographer: string;
+  photographerUrl: string;
+  photoUrl: string;
+  source: string;
+};
+
 export type Activity = {
   name: string;
   slug: string;
   description?: string;
   image?: string;
+  credit?: ActivityCredit;
   seo?: ActivitySeo;
   content?: ActivityContent;
   meta?: ActivityMeta;

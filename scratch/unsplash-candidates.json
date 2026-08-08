@@ -1,0 +1,1952 @@
+{
+  "fly-a-kite-in-an-open-field": {
+    "file": "public/activities.json",
+    "category": "outdoor",
+    "slug": "fly-a-kite-in-an-open-field",
+    "name": "Fly a kite in an open field",
+    "query": "kite flying field",
+    "candidates": [
+      {
+        "id": "KJtjM1WWWg8",
+        "raw": "https://images.unsplash.com/photo-1758699923916-e215340abb5a?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8a2l0ZSUyMGZseWluZyUyMGZpZWxkfGVufDF8MHx8fDE3ODYxNzIxNzh8MA&ixlib=rb-4.1.0",
+        "width": 3264,
+        "height": 2448,
+        "description": "Childhood passion for kite flying",
+        "downloadLocation": "https://api.unsplash.com/photos/KJtjM1WWWg8/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8a2l0ZSUyMGZseWluZyUyMGZpZWxkfGVufDF8MHx8fDE3ODYxNzIxNzh8MA",
+        "photographer": "Md Abu Musa Asary",
+        "photographerUrl": "https://unsplash.com/@musaasary",
+        "photoUrl": "https://unsplash.com/photos/two-children-flying-a-kite-in-a-dry-field-KJtjM1WWWg8",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\fly-a-kite-in-an-open-field--0.jpg"
+      },
+      {
+        "id": "ixRkHRVc85s",
+        "raw": "https://images.unsplash.com/photo-1759012036473-1906120cf423?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8a2l0ZSUyMGZseWluZyUyMGZpZWxkfGVufDF8MHx8fDE3ODYxNzIxNzh8MA&ixlib=rb-4.1.0",
+        "width": 6240,
+        "height": 4160,
+        "description": "People watch a kite fly at sunset.",
+        "downloadLocation": "https://api.unsplash.com/photos/ixRkHRVc85s/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8a2l0ZSUyMGZseWluZyUyMGZpZWxkfGVufDF8MHx8fDE3ODYxNzIxNzh8MA",
+        "photographer": "Yuri Krupenin",
+        "photographerUrl": "https://unsplash.com/@cubeofwood",
+        "photoUrl": "https://unsplash.com/photos/people-watch-a-kite-fly-at-sunset-ixRkHRVc85s",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\fly-a-kite-in-an-open-field--1.jpg"
+      },
+      {
+        "id": "3KeSB9eCh5Q",
+        "raw": "https://images.unsplash.com/photo-1760464022664-b71525627d7b?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8a2l0ZSUyMGZseWluZyUyMGZpZWxkfGVufDF8MHx8fDE3ODYxNzIxNzh8MA&ixlib=rb-4.1.0",
+        "width": 6864,
+        "height": 5152,
+        "description": "Children flying kites on a grassy hill near a building.",
+        "downloadLocation": "https://api.unsplash.com/photos/3KeSB9eCh5Q/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8a2l0ZSUyMGZseWluZyUyMGZpZWxkfGVufDF8MHx8fDE3ODYxNzIxNzh8MA",
+        "photographer": "Rohan Gangopadhyay",
+        "photographerUrl": "https://unsplash.com/@rohan_gangopadhyay",
+        "photoUrl": "https://unsplash.com/photos/children-flying-kites-on-a-grassy-hill-near-a-building-3KeSB9eCh5Q",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\fly-a-kite-in-an-open-field--2.jpg"
+      }
+    ]
+  },
+  "watch-clouds-and-find-shapes-in-them": {
+    "file": "public/activities.json",
+    "category": "outdoor",
+    "slug": "watch-clouds-and-find-shapes-in-them",
+    "name": "Watch clouds and find shapes in them",
+    "query": "clouds blue sky looking up",
+    "candidates": [
+      {
+        "id": "v9bnfMCyKbg",
+        "raw": "https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8Y2xvdWRzJTIwYmx1ZSUyMHNreSUyMGxvb2tpbmclMjB1cHxlbnwxfDB8fHwxNzg2MTcyMTgxfDA&ixlib=rb-4.1.0",
+        "width": 5472,
+        "height": 3648,
+        "description": "If you like and utilize my work, please consider supporting me by donating via PayPal: paypal.me/billyhuy",
+        "downloadLocation": "https://api.unsplash.com/photos/v9bnfMCyKbg/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8Y2xvdWRzJTIwYmx1ZSUyMHNreSUyMGxvb2tpbmclMjB1cHxlbnwxfDB8fHwxNzg2MTcyMTgxfDA",
+        "photographer": "Billy Huynh",
+        "photographerUrl": "https://unsplash.com/@billy_huy",
+        "photoUrl": "https://unsplash.com/photos/cloudy-sky-at-daytime-v9bnfMCyKbg",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\watch-clouds-and-find-shapes-in-them--0.jpg"
+      },
+      {
+        "id": "M2-_GRvWWg0",
+        "raw": "https://images.unsplash.com/photo-1542349314-b0ceb4d90f2d?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8Y2xvdWRzJTIwYmx1ZSUyMHNreSUyMGxvb2tpbmclMjB1cHxlbnwxfDB8fHwxNzg2MTcyMTgxfDA&ixlib=rb-4.1.0",
+        "width": 6016,
+        "height": 4016,
+        "description": "clouds during daytime",
+        "downloadLocation": "https://api.unsplash.com/photos/M2-_GRvWWg0/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8Y2xvdWRzJTIwYmx1ZSUyMHNreSUyMGxvb2tpbmclMjB1cHxlbnwxfDB8fHwxNzg2MTcyMTgxfDA",
+        "photographer": "CHUTTERSNAP",
+        "photographerUrl": "https://unsplash.com/@chuttersnap",
+        "photoUrl": "https://unsplash.com/photos/clouds-during-daytime-M2-_GRvWWg0",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\watch-clouds-and-find-shapes-in-them--1.jpg"
+      },
+      {
+        "id": "ZaCPb3xIqrg",
+        "raw": "https://images.unsplash.com/photo-1566321343730-237ec35e53f3?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8Y2xvdWRzJTIwYmx1ZSUyMHNreSUyMGxvb2tpbmclMjB1cHxlbnwxfDB8fHwxNzg2MTcyMTgxfDA&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 3376,
+        "description": "white clousd",
+        "downloadLocation": "https://api.unsplash.com/photos/ZaCPb3xIqrg/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8Y2xvdWRzJTIwYmx1ZSUyMHNreSUyMGxvb2tpbmclMjB1cHxlbnwxfDB8fHwxNzg2MTcyMTgxfDA",
+        "photographer": "Geri Mis",
+        "photographerUrl": "https://unsplash.com/@gerimis",
+        "photoUrl": "https://unsplash.com/photos/white-clousd-ZaCPb3xIqrg",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\watch-clouds-and-find-shapes-in-them--2.jpg"
+      }
+    ]
+  },
+  "plant-something-in-a-pot-or-garden": {
+    "file": "public/activities.json",
+    "category": "outdoor",
+    "slug": "plant-something-in-a-pot-or-garden",
+    "name": "Plant something in a pot or garden",
+    "query": "planting seedling pot soil hands",
+    "candidates": [
+      {
+        "id": "bYZn_C-RswQ",
+        "raw": "https://images.unsplash.com/photo-1590682680695-43b964a3ae17?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8cGxhbnRpbmclMjBzZWVkbGluZyUyMHBvdCUyMHNvaWwlMjBoYW5kc3xlbnwxfDB8fHwxNzg2MTcyMTgzfDA&ixlib=rb-4.1.0",
+        "width": 2753,
+        "height": 2284,
+        "description": "Hemp planting at farm | greenforcestaffing.com",
+        "downloadLocation": "https://api.unsplash.com/photos/bYZn_C-RswQ/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8cGxhbnRpbmclMjBzZWVkbGluZyUyMHBvdCUyMHNvaWwlMjBoYW5kc3xlbnwxfDB8fHwxNzg2MTcyMTgzfDA",
+        "photographer": "GreenForce Staffing",
+        "photographerUrl": "https://unsplash.com/@greenforce_staffing",
+        "photoUrl": "https://unsplash.com/photos/green-plant-on-persons-hand-bYZn_C-RswQ",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\plant-something-in-a-pot-or-garden--0.jpg"
+      },
+      {
+        "id": "uv6lUONd19w",
+        "raw": "https://images.unsplash.com/photo-1524602585632-a2a01c12307c?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8cGxhbnRpbmclMjBzZWVkbGluZyUyMHBvdCUyMHNvaWwlMjBoYW5kc3xlbnwxfDB8fHwxNzg2MTcyMTgzfDA&ixlib=rb-4.1.0",
+        "width": 4571,
+        "height": 2925,
+        "description": "In a village, some kids were shifting plants to their garden in their school.",
+        "downloadLocation": "https://api.unsplash.com/photos/uv6lUONd19w/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8cGxhbnRpbmclMjBzZWVkbGluZyUyMHBvdCUyMHNvaWwlMjBoYW5kc3xlbnwxfDB8fHwxNzg2MTcyMTgzfDA",
+        "photographer": "Kasturi Laxmi Mohit",
+        "photographerUrl": "https://unsplash.com/@kasturi09",
+        "photoUrl": "https://unsplash.com/photos/person-holding-green-leaf-plant-uv6lUONd19w",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\plant-something-in-a-pot-or-garden--1.jpg"
+      },
+      {
+        "id": "q13Zq1Jufks",
+        "raw": "https://images.unsplash.com/photo-1611843467160-25afb8df1074?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8cGxhbnRpbmclMjBzZWVkbGluZyUyMHBvdCUyMHNvaWwlMjBoYW5kc3xlbnwxfDB8fHwxNzg2MTcyMTgzfDA&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "Muddy Hands",
+        "downloadLocation": "https://api.unsplash.com/photos/q13Zq1Jufks/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8cGxhbnRpbmclMjBzZWVkbGluZyUyMHBvdCUyMHNvaWwlMjBoYW5kc3xlbnwxfDB8fHwxNzg2MTcyMTgzfDA",
+        "photographer": "Sandie Clarke",
+        "photographerUrl": "https://unsplash.com/@honeypoppet",
+        "photoUrl": "https://unsplash.com/photos/hands-planting-seedlings-in-garden-soil-q13Zq1Jufks",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\plant-something-in-a-pot-or-garden--2.jpg"
+      }
+    ]
+  },
+  "skim-stones-at-a-lake-or-river": {
+    "file": "public/activities.json",
+    "category": "outdoor",
+    "slug": "skim-stones-at-a-lake-or-river",
+    "name": "Skim stones at a lake or river",
+    "query": "skipping stones lake",
+    "candidates": [
+      {
+        "id": "jpvytpATuDE",
+        "raw": "https://images.unsplash.com/photo-1609511394000-2a5c8927e113?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c2tpcHBpbmclMjBzdG9uZXMlMjBsYWtlfGVufDF8MHx8fDE3ODYxNzIxODR8MA&ixlib=rb-4.1.0",
+        "width": 6016,
+        "height": 4016,
+        "description": "brown rocks on lake during daytime",
+        "downloadLocation": "https://api.unsplash.com/photos/jpvytpATuDE/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c2tpcHBpbmclMjBzdG9uZXMlMjBsYWtlfGVufDF8MHx8fDE3ODYxNzIxODR8MA",
+        "photographer": "Sam Barber",
+        "photographerUrl": "https://unsplash.com/@milltownphotography",
+        "photoUrl": "https://unsplash.com/photos/brown-rocks-on-lake-during-daytime-jpvytpATuDE",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\skim-stones-at-a-lake-or-river--0.jpg"
+      },
+      {
+        "id": "qo0GIeUrE0s",
+        "raw": "https://images.unsplash.com/photo-1441743983986-af31827a8d31?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c2tpcHBpbmclMjBzdG9uZXMlMjBsYWtlfGVufDF8MHx8fDE3ODYxNzIxODR8MA&ixlib=rb-4.1.0",
+        "width": 5184,
+        "height": 3456,
+        "description": "stacks of gray pebbles",
+        "downloadLocation": "https://api.unsplash.com/photos/qo0GIeUrE0s/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c2tpcHBpbmclMjBzdG9uZXMlMjBsYWtlfGVufDF8MHx8fDE3ODYxNzIxODR8MA",
+        "photographer": "Mathieu Turle",
+        "photographerUrl": "https://unsplash.com/@nbmat",
+        "photoUrl": "https://unsplash.com/photos/stacks-of-gray-pebbles-qo0GIeUrE0s",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\skim-stones-at-a-lake-or-river--1.jpg"
+      },
+      {
+        "id": "1-RpD6RvYIU",
+        "raw": "https://images.unsplash.com/photo-1732672205358-c16ab5749e19?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c2tpcHBpbmclMjBzdG9uZXMlMjBsYWtlfGVufDF8MHx8fDE3ODYxNzIxODR8MA&ixlib=rb-4.1.0",
+        "width": 3802,
+        "height": 2623,
+        "description": "\"Above Water\" --- A smooth rock in a shallow creek.",
+        "downloadLocation": "https://api.unsplash.com/photos/1-RpD6RvYIU/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c2tpcHBpbmclMjBzdG9uZXMlMjBsYWtlfGVufDF8MHx8fDE3ODYxNzIxODR8MA",
+        "photographer": "John Cardamone",
+        "photographerUrl": "https://unsplash.com/@john_cardamone",
+        "photoUrl": "https://unsplash.com/photos/a-rock-sitting-on-top-of-a-body-of-water-1-RpD6RvYIU",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\skim-stones-at-a-lake-or-river--2.jpg"
+      }
+    ]
+  },
+  "walk-a-new-route-through-your-neighborhood": {
+    "file": "public/activities.json",
+    "category": "outdoor",
+    "slug": "walk-a-new-route-through-your-neighborhood",
+    "name": "Walk a new route through your neighborhood",
+    "query": "walking neighborhood street",
+    "candidates": [
+      {
+        "id": "sMtKdbJfi_I",
+        "raw": "https://images.unsplash.com/photo-1627927518258-b67557570840?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8d2Fsa2luZyUyMG5laWdoYm9yaG9vZCUyMHN0cmVldHxlbnwxfDB8fHwxNzg2MTcyMTg2fDA&ixlib=rb-4.1.0",
+        "width": 3264,
+        "height": 2448,
+        "description": "On Beacon Street in Somerville  - at first I thought it was sunrise, but it’s actually a setting sun. This view can be seen in person if you take the Strava segment \"Jane's Home Run.\" ",
+        "downloadLocation": "https://api.unsplash.com/photos/sMtKdbJfi_I/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8d2Fsa2luZyUyMG5laWdoYm9yaG9vZCUyMHN0cmVldHxlbnwxfDB8fHwxNzg2MTcyMTg2fDA",
+        "photographer": "Jane Sorensen",
+        "photographerUrl": "https://unsplash.com/@janerette",
+        "photoUrl": "https://unsplash.com/photos/white-and-brown-concrete-house-sMtKdbJfi_I",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\walk-a-new-route-through-your-neighborhood--0.jpg"
+      },
+      {
+        "id": "FiueBJoaKc8",
+        "raw": "https://images.unsplash.com/photo-1677126369481-81b4ddcf0e72?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8d2Fsa2luZyUyMG5laWdoYm9yaG9vZCUyMHN0cmVldHxlbnwxfDB8fHwxNzg2MTcyMTg2fDA&ixlib=rb-4.1.0",
+        "width": 8256,
+        "height": 5504,
+        "description": "a street lined with houses with mountains in the background",
+        "downloadLocation": "https://api.unsplash.com/photos/FiueBJoaKc8/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8d2Fsa2luZyUyMG5laWdoYm9yaG9vZCUyMHN0cmVldHxlbnwxfDB8fHwxNzg2MTcyMTg2fDA",
+        "photographer": "Amy Chen",
+        "photographerUrl": "https://unsplash.com/@bliss1002",
+        "photoUrl": "https://unsplash.com/photos/a-street-lined-with-houses-with-mountains-in-the-background-FiueBJoaKc8",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\walk-a-new-route-through-your-neighborhood--1.jpg"
+      },
+      {
+        "id": "M4xA9YPZ1HY",
+        "raw": "https://images.unsplash.com/photo-1761301006704-bc013cfb1e65?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8d2Fsa2luZyUyMG5laWdoYm9yaG9vZCUyMHN0cmVldHxlbnwxfDB8fHwxNzg2MTcyMTg2fDA&ixlib=rb-4.1.0",
+        "width": 5472,
+        "height": 3648,
+        "description": "People crossing a street with cars and trees.",
+        "downloadLocation": "https://api.unsplash.com/photos/M4xA9YPZ1HY/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8d2Fsa2luZyUyMG5laWdoYm9yaG9vZCUyMHN0cmVldHxlbnwxfDB8fHwxNzg2MTcyMTg2fDA",
+        "photographer": "Maxim Klimashin",
+        "photographerUrl": "https://unsplash.com/@maxim_klimashin",
+        "photoUrl": "https://unsplash.com/photos/people-crossing-a-street-with-cars-and-trees-M4xA9YPZ1HY",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\walk-a-new-route-through-your-neighborhood--2.jpg"
+      }
+    ]
+  },
+  "collect-natural-treasures-for-a-display": {
+    "file": "public/activities.json",
+    "category": "outdoor",
+    "slug": "collect-natural-treasures-for-a-display",
+    "name": "Collect natural treasures for a display",
+    "query": "collected leaves pinecones flat lay",
+    "candidates": [
+      {
+        "id": "5usLKNEhPB0",
+        "raw": "https://images.unsplash.com/photo-1633483781030-e62d0da3944c?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8Y29sbGVjdGVkJTIwbGVhdmVzJTIwcGluZWNvbmVzJTIwZmxhdCUyMGxheXxlbnwxfDB8fHwxNzg2MTcyMTg5fDA&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "a group of three different colored leaves on a white background",
+        "downloadLocation": "https://api.unsplash.com/photos/5usLKNEhPB0/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8Y29sbGVjdGVkJTIwbGVhdmVzJTIwcGluZWNvbmVzJTIwZmxhdCUyMGxheXxlbnwxfDB8fHwxNzg2MTcyMTg5fDA",
+        "photographer": "Lucas George Wendt",
+        "photographerUrl": "https://unsplash.com/@lucasgwendt",
+        "photoUrl": "https://unsplash.com/photos/a-group-of-three-different-colored-leaves-on-a-white-background-5usLKNEhPB0",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\collect-natural-treasures-for-a-display--0.jpg"
+      },
+      {
+        "id": "rDIoK0bhB8c",
+        "raw": "https://images.unsplash.com/photo-1600986583501-026544cef60b?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8Y29sbGVjdGVkJTIwbGVhdmVzJTIwcGluZWNvbmVzJTIwZmxhdCUyMGxheXxlbnwxfDB8fHwxNzg2MTcyMTg5fDA&ixlib=rb-4.1.0",
+        "width": 5134,
+        "height": 3006,
+        "description": "nine autumn leaves in a row",
+        "downloadLocation": "https://api.unsplash.com/photos/rDIoK0bhB8c/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8Y29sbGVjdGVkJTIwbGVhdmVzJTIwcGluZWNvbmVzJTIwZmxhdCUyMGxheXxlbnwxfDB8fHwxNzg2MTcyMTg5fDA",
+        "photographer": "Kae Anderson",
+        "photographerUrl": "https://unsplash.com/@kae",
+        "photoUrl": "https://unsplash.com/photos/yellow-and-green-leaves-on-gray-wooden-surface-rDIoK0bhB8c",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\collect-natural-treasures-for-a-display--1.jpg"
+      },
+      {
+        "id": "3BaccHcfoG8",
+        "raw": "https://images.unsplash.com/photo-1589183613012-70cb67a4286f?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8Y29sbGVjdGVkJTIwbGVhdmVzJTIwcGluZWNvbmVzJTIwZmxhdCUyMGxheXxlbnwxfDB8fHwxNzg2MTcyMTg5fDA&ixlib=rb-4.1.0",
+        "width": 5000,
+        "height": 3333,
+        "description": "Pinecone",
+        "downloadLocation": "https://api.unsplash.com/photos/3BaccHcfoG8/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8Y29sbGVjdGVkJTIwbGVhdmVzJTIwcGluZWNvbmVzJTIwZmxhdCUyMGxheXxlbnwxfDB8fHwxNzg2MTcyMTg5fDA",
+        "photographer": "Mike Erskine",
+        "photographerUrl": "https://unsplash.com/@mikejerskine",
+        "photoUrl": "https://unsplash.com/photos/brown-and-black-pine-cones-3BaccHcfoG8",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\collect-natural-treasures-for-a-display--2.jpg"
+      }
+    ]
+  },
+  "make-a-playlist-for-a-specific-mood": {
+    "file": "public/activities.json",
+    "category": "creative",
+    "slug": "make-a-playlist-for-a-specific-mood",
+    "name": "Make a playlist for a specific mood",
+    "query": "headphones listening music phone",
+    "candidates": [
+      {
+        "id": "Qrspubmx6kE",
+        "raw": "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8aGVhZHBob25lcyUyMGxpc3RlbmluZyUyMG11c2ljJTIwcGhvbmV8ZW58MXwwfHx8MTc4NjE3MjE5MHww&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "Cheap setup",
+        "downloadLocation": "https://api.unsplash.com/photos/Qrspubmx6kE/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8aGVhZHBob25lcyUyMGxpc3RlbmluZyUyMG11c2ljJTIwcGhvbmV8ZW58MXwwfHx8MTc4NjE3MjE5MHww",
+        "photographer": "Frank Septillion",
+        "photographerUrl": "https://unsplash.com/@septillion",
+        "photoUrl": "https://unsplash.com/photos/silver-headphones-on-top-of-black-surface-Qrspubmx6kE",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\make-a-playlist-for-a-specific-mood--0.jpg"
+      },
+      {
+        "id": "2gpfqhEFVZ8",
+        "raw": "https://images.unsplash.com/photo-1594434533760-02e0f3faaa68?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8aGVhZHBob25lcyUyMGxpc3RlbmluZyUyMG11c2ljJTIwcGhvbmV8ZW58MXwwfHx8MTc4NjE3MjE5MHww&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 3592,
+        "description": "Seated man listening music on this phone",
+        "downloadLocation": "https://api.unsplash.com/photos/2gpfqhEFVZ8/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8aGVhZHBob25lcyUyMGxpc3RlbmluZyUyMG11c2ljJTIwcGhvbmV8ZW58MXwwfHx8MTc4NjE3MjE5MHww",
+        "photographer": "Ilias Chebbi",
+        "photographerUrl": "https://unsplash.com/@ilias_cgb",
+        "photoUrl": "https://unsplash.com/photos/man-in-black-nike-hoodie-wearing-black-headphones-2gpfqhEFVZ8",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\make-a-playlist-for-a-specific-mood--1.jpg"
+      },
+      {
+        "id": "rblqmwB7kKk",
+        "raw": "https://images.unsplash.com/photo-1557063673-0493e05da49f?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8aGVhZHBob25lcyUyMGxpc3RlbmluZyUyMG11c2ljJTIwcGhvbmV8ZW58MXwwfHx8MTc4NjE3MjE5MHww&ixlib=rb-4.1.0",
+        "width": 4928,
+        "height": 3264,
+        "description": "Apple Earpods",
+        "downloadLocation": "https://api.unsplash.com/photos/rblqmwB7kKk/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8aGVhZHBob25lcyUyMGxpc3RlbmluZyUyMG11c2ljJTIwcGhvbmV8ZW58MXwwfHx8MTc4NjE3MjE5MHww",
+        "photographer": "Maddy",
+        "photographerUrl": "https://unsplash.com/@maddyjaya",
+        "photoUrl": "https://unsplash.com/photos/apple-earpods-on-yellow-surface-rblqmwB7kKk",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\make-a-playlist-for-a-specific-mood--2.jpg"
+      }
+    ]
+  },
+  "take-ten-creative-photos-of-ordinary-objects": {
+    "file": "public/activities.json",
+    "category": "creative",
+    "slug": "take-ten-creative-photos-of-ordinary-objects",
+    "name": "Take ten creative photos of ordinary objects",
+    "query": "still life photography everyday objects",
+    "candidates": [
+      {
+        "id": "sIb32S4ZrkE",
+        "raw": "https://images.unsplash.com/photo-1690764443469-f462f683fa5d?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c3RpbGwlMjBsaWZlJTIwcGhvdG9ncmFwaHklMjBldmVyeWRheSUyMG9iamVjdHN8ZW58MXwwfHx8MTc4NjE3MjE5Mnww&ixlib=rb-4.1.0",
+        "width": 5857,
+        "height": 3905,
+        "description": "Hat, bottle and nuts on the table.",
+        "downloadLocation": "https://api.unsplash.com/photos/sIb32S4ZrkE/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c3RpbGwlMjBsaWZlJTIwcGhvdG9ncmFwaHklMjBldmVyeWRheSUyMG9iamVjdHN8ZW58MXwwfHx8MTc4NjE3MjE5Mnww",
+        "photographer": "Ricardo Díaz",
+        "photographerUrl": "https://unsplash.com/@rdiazcaris",
+        "photoUrl": "https://unsplash.com/photos/a-bag-full-of-nuts-next-to-a-bottle-of-wine-sIb32S4ZrkE",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\take-ten-creative-photos-of-ordinary-objects--0.jpg"
+      },
+      {
+        "id": "qSrh_uUTLXY",
+        "raw": "https://images.unsplash.com/photo-1781686189306-635df5448b4e?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c3RpbGwlMjBsaWZlJTIwcGhvdG9ncmFwaHklMjBldmVyeWRheSUyMG9iamVjdHN8ZW58MXwwfHx8MTc4NjE3MjE5Mnww&ixlib=rb-4.1.0",
+        "width": 3240,
+        "height": 2160,
+        "description": "Grayscale bicycle and shopping cart with autumn leaves.",
+        "downloadLocation": "https://api.unsplash.com/photos/qSrh_uUTLXY/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c3RpbGwlMjBsaWZlJTIwcGhvdG9ncmFwaHklMjBldmVyeWRheSUyMG9iamVjdHN8ZW58MXwwfHx8MTc4NjE3MjE5Mnww",
+        "photographer": "Jonan Steiner",
+        "photographerUrl": "https://unsplash.com/@jsairways",
+        "photoUrl": "https://unsplash.com/photos/grayscale-bicycle-and-shopping-cart-with-autumn-leaves-qSrh_uUTLXY",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\take-ten-creative-photos-of-ordinary-objects--1.jpg"
+      },
+      {
+        "id": "EZ8WpU9RiVw",
+        "raw": "https://images.unsplash.com/photo-1779218829331-cf1240b67f07?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c3RpbGwlMjBsaWZlJTIwcGhvdG9ncmFwaHklMjBldmVyeWRheSUyMG9iamVjdHN8ZW58MXwwfHx8MTc4NjE3MjE5Mnww&ixlib=rb-4.1.0",
+        "width": 5184,
+        "height": 3888,
+        "description": "A striking macro photograph that transforms discarded cigarette filters into an abstract composition of rich textures and organic circular patterns. By elevating everyday waste into fine art, this image explores the hidden beauty in the overlooked and challenges perceptions of decay. Ideal for contemporary art prints, gallery posters, editorial features on urban photography, or conceptual design projects.",
+        "downloadLocation": "https://api.unsplash.com/photos/EZ8WpU9RiVw/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c3RpbGwlMjBsaWZlJTIwcGhvdG9ncmFwaHklMjBldmVyeWRheSUyMG9iamVjdHN8ZW58MXwwfHx8MTc4NjE3MjE5Mnww",
+        "photographer": "Rasmus Joergensen",
+        "photographerUrl": "https://unsplash.com/@rqtect",
+        "photoUrl": "https://unsplash.com/photos/several-cut-cigarette-filters-showing-their-fibrous-ends-EZ8WpU9RiVw",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\take-ten-creative-photos-of-ordinary-objects--2.jpg"
+      }
+    ]
+  },
+  "write-a-letter-to-a-friend-by-hand": {
+    "file": "public/activities.json",
+    "category": "creative",
+    "slug": "write-a-letter-to-a-friend-by-hand",
+    "name": "Write a letter to a friend by hand",
+    "query": "handwritten letter pen paper",
+    "candidates": [
+      {
+        "id": "y02jEX_B0O0",
+        "raw": "https://images.unsplash.com/photo-1455390582262-044cdead277a?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8aGFuZHdyaXR0ZW4lMjBsZXR0ZXIlMjBwZW4lMjBwYXBlcnxlbnwxfDB8fHwxNzg2MTcyMTk0fDA&ixlib=rb-4.1.0",
+        "width": 4592,
+        "height": 3448,
+        "description": "Writing with a fountain pen",
+        "downloadLocation": "https://api.unsplash.com/photos/y02jEX_B0O0/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8aGFuZHdyaXR0ZW4lMjBsZXR0ZXIlMjBwZW4lMjBwYXBlcnxlbnwxfDB8fHwxNzg2MTcyMTk0fDA",
+        "photographer": "Aaron Burden",
+        "photographerUrl": "https://unsplash.com/@aaronburden",
+        "photoUrl": "https://unsplash.com/photos/fountain-pen-on-black-lined-paper-y02jEX_B0O0",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\write-a-letter-to-a-friend-by-hand--0.jpg"
+      },
+      {
+        "id": "hjwKMkehBco",
+        "raw": "https://images.unsplash.com/photo-1473186505569-9c61870c11f9?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8aGFuZHdyaXR0ZW4lMjBsZXR0ZXIlMjBwZW4lMjBwYXBlcnxlbnwxfDB8fHwxNzg2MTcyMTk0fDA&ixlib=rb-4.1.0",
+        "width": 4608,
+        "height": 3072,
+        "description": "Fountain pen on stationery",
+        "downloadLocation": "https://api.unsplash.com/photos/hjwKMkehBco/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8aGFuZHdyaXR0ZW4lMjBsZXR0ZXIlMjBwZW4lMjBwYXBlcnxlbnwxfDB8fHwxNzg2MTcyMTk0fDA",
+        "photographer": "Álvaro Serrano",
+        "photographerUrl": "https://unsplash.com/@alvaroserrano",
+        "photoUrl": "https://unsplash.com/photos/black-and-silver-fountain-pen-hjwKMkehBco",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\write-a-letter-to-a-friend-by-hand--1.jpg"
+      },
+      {
+        "id": "6FpGIdn45_A",
+        "raw": "https://images.unsplash.com/photo-1634562876572-5abe57afcceb?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8aGFuZHdyaXR0ZW4lMjBsZXR0ZXIlMjBwZW4lMjBwYXBlcnxlbnwxfDB8fHwxNzg2MTcyMTk0fDA&ixlib=rb-4.1.0",
+        "width": 4592,
+        "height": 3064,
+        "description": "a pen sitting on top of a piece of paper",
+        "downloadLocation": "https://api.unsplash.com/photos/6FpGIdn45_A/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8aGFuZHdyaXR0ZW4lMjBsZXR0ZXIlMjBwZW4lMjBwYXBlcnxlbnwxfDB8fHwxNzg2MTcyMTk0fDA",
+        "photographer": "Towfiqu barbhuiya",
+        "photographerUrl": "https://unsplash.com/@towfiqu999999",
+        "photoUrl": "https://unsplash.com/photos/a-pen-sitting-on-top-of-a-piece-of-paper-6FpGIdn45_A",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\write-a-letter-to-a-friend-by-hand--2.jpg"
+      }
+    ]
+  },
+  "try-blackout-poetry-with-an-old-newspaper": {
+    "file": "public/activities.json",
+    "category": "creative",
+    "slug": "try-blackout-poetry-with-an-old-newspaper",
+    "name": "Try blackout poetry with an old newspaper",
+    "query": "stack of newspapers reading",
+    "candidates": [
+      {
+        "id": "WYd_PkCa1BY",
+        "raw": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c3RhY2slMjBvZiUyMG5ld3NwYXBlcnMlMjByZWFkaW5nfGVufDF8MHx8fDE3ODYxNzI1NDl8MA&ixlib=rb-4.1.0",
+        "width": 4000,
+        "height": 2667,
+        "description": "Business newspaper pages",
+        "downloadLocation": "https://api.unsplash.com/photos/WYd_PkCa1BY/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c3RhY2slMjBvZiUyMG5ld3NwYXBlcnMlMjByZWFkaW5nfGVufDF8MHx8fDE3ODYxNzI1NDl8MA",
+        "photographer": "AbsolutVision",
+        "photographerUrl": "https://unsplash.com/@codzilla_swiss",
+        "photoUrl": "https://unsplash.com/photos/business-newspaper-article-WYd_PkCa1BY",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\try-blackout-poetry-with-an-old-newspaper--0.jpg"
+      },
+      {
+        "id": "HeNrEdA4Zp4",
+        "raw": "https://images.unsplash.com/photo-1573812195421-50a396d17893?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c3RhY2slMjBvZiUyMG5ld3NwYXBlcnMlMjByZWFkaW5nfGVufDF8MHx8fDE3ODYxNzI1NDl8MA&ixlib=rb-4.1.0",
+        "width": 4640,
+        "height": 3476,
+        "description": "Old newspaper-stack.",
+        "downloadLocation": "https://api.unsplash.com/photos/HeNrEdA4Zp4/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c3RhY2slMjBvZiUyMG5ld3NwYXBlcnMlMjByZWFkaW5nfGVufDF8MHx8fDE3ODYxNzI1NDl8MA",
+        "photographer": "Utsav Srestha",
+        "photographerUrl": "https://unsplash.com/@utsavsrestha",
+        "photoUrl": "https://unsplash.com/photos/pile-of-newspapers-HeNrEdA4Zp4",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\try-blackout-poetry-with-an-old-newspaper--1.jpg"
+      },
+      {
+        "id": "izRQ870yJO8",
+        "raw": "https://images.unsplash.com/photo-1703381132774-caeab4f6a9db?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c3RhY2slMjBvZiUyMG5ld3NwYXBlcnMlMjByZWFkaW5nfGVufDF8MHx8fDE3ODYxNzI1NDl8MA&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "Wall Street Journal",
+        "downloadLocation": "https://api.unsplash.com/photos/izRQ870yJO8/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c3RhY2slMjBvZiUyMG5ld3NwYXBlcnMlMjByZWFkaW5nfGVufDF8MHx8fDE3ODYxNzI1NDl8MA",
+        "photographer": "Jonathan Gong",
+        "photographerUrl": "https://unsplash.com/@jonathangongphotography",
+        "photoUrl": "https://unsplash.com/photos/a-row-of-newspapers-sitting-on-top-of-a-shelf-izRQ870yJO8",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\try-blackout-poetry-with-an-old-newspaper--2.jpg"
+      },
+      {
+        "id": "H6eaxcGNQbU",
+        "raw": "https://images.unsplash.com/photo-1478940020726-e9e191651f1a?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8NHx8c3RhY2slMjBvZiUyMG5ld3NwYXBlcnMlMjByZWFkaW5nfGVufDF8MHx8fDE3ODYxNzI1NDl8MA&ixlib=rb-4.1.0",
+        "width": 7200,
+        "height": 4800,
+        "description": "The News | Follow on Instagram: @timmossholder",
+        "downloadLocation": "https://api.unsplash.com/photos/H6eaxcGNQbU/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8NHx8c3RhY2slMjBvZiUyMG5ld3NwYXBlcnMlMjByZWFkaW5nfGVufDF8MHx8fDE3ODYxNzI1NDl8MA",
+        "photographer": "Tim Mossholder",
+        "photographerUrl": "https://unsplash.com/@timmossholder",
+        "photoUrl": "https://unsplash.com/photos/pile-of-newspapers-H6eaxcGNQbU",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\try-blackout-poetry-with-an-old-newspaper--3.jpg"
+      }
+    ]
+  },
+  "paint-kindness-rocks-to-leave-around-town": {
+    "file": "public/activities.json",
+    "category": "creative",
+    "slug": "paint-kindness-rocks-to-leave-around-town",
+    "name": "Paint kindness rocks to leave around town",
+    "query": "painted rocks acrylic",
+    "candidates": [
+      {
+        "id": "NJjYF5yw48E",
+        "raw": "https://images.unsplash.com/photo-1611692421482-07be02d500e6?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8cGFpbnRlZCUyMHJvY2tzJTIwYWNyeWxpY3xlbnwxfDB8fHwxNzg2MTcyMTk4fDA&ixlib=rb-4.1.0",
+        "width": 3032,
+        "height": 2021,
+        "description": "I love you, painted on a rock on the beach.",
+        "downloadLocation": "https://api.unsplash.com/photos/NJjYF5yw48E/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8cGFpbnRlZCUyMHJvY2tzJTIwYWNyeWxpY3xlbnwxfDB8fHwxNzg2MTcyMTk4fDA",
+        "photographer": "Nick Fewings",
+        "photographerUrl": "https://unsplash.com/@jannerboy62",
+        "photoUrl": "https://unsplash.com/photos/happy-birthday-cake-on-gray-sand-NJjYF5yw48E",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\paint-kindness-rocks-to-leave-around-town--0.jpg"
+      },
+      {
+        "id": "0ogq3xndxG0",
+        "raw": "https://images.unsplash.com/photo-1617512979728-02daa4562cc1?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8cGFpbnRlZCUyMHJvY2tzJTIwYWNyeWxpY3xlbnwxfDB8fHwxNzg2MTcyMTk4fDA&ixlib=rb-4.1.0",
+        "width": 3032,
+        "height": 2021,
+        "description": "A pebble on the beach, painted blue with the message, Know You Are Loved.",
+        "downloadLocation": "https://api.unsplash.com/photos/0ogq3xndxG0/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8cGFpbnRlZCUyMHJvY2tzJTIwYWNyeWxpY3xlbnwxfDB8fHwxNzg2MTcyMTk4fDA",
+        "photographer": "Nick Fewings",
+        "photographerUrl": "https://unsplash.com/@jannerboy62",
+        "photoUrl": "https://unsplash.com/photos/happy-birthday-to-you-heart-shaped-party-favor-0ogq3xndxG0",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\paint-kindness-rocks-to-leave-around-town--1.jpg"
+      },
+      {
+        "id": "7h4ladPzhn0",
+        "raw": "https://images.unsplash.com/photo-1561312200-a264f8d89616?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8cGFpbnRlZCUyMHJvY2tzJTIwYWNyeWxpY3xlbnwxfDB8fHwxNzg2MTcyMTk4fDA&ixlib=rb-4.1.0",
+        "width": 4032,
+        "height": 3024,
+        "description": "decorative pebbles",
+        "downloadLocation": "https://api.unsplash.com/photos/7h4ladPzhn0/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8cGFpbnRlZCUyMHJvY2tzJTIwYWNyeWxpY3xlbnwxfDB8fHwxNzg2MTcyMTk4fDA",
+        "photographer": "Simon Ray",
+        "photographerUrl": "https://unsplash.com/@simonbhray",
+        "photoUrl": "https://unsplash.com/photos/decorative-pebbles-7h4ladPzhn0",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\paint-kindness-rocks-to-leave-around-town--2.jpg"
+      }
+    ]
+  },
+  "start-a-doodle-a-day-challenge": {
+    "file": "public/activities.json",
+    "category": "creative",
+    "slug": "start-a-doodle-a-day-challenge",
+    "name": "Start a doodle-a-day challenge",
+    "query": "sketchbook doodle drawing pen",
+    "candidates": [
+      {
+        "id": "rH6WSz0KN7I",
+        "raw": "https://images.unsplash.com/photo-1579973422569-38c5a46a0b45?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c2tldGNoYm9vayUyMGRvb2RsZSUyMGRyYXdpbmclMjBwZW58ZW58MXwwfHx8MTc4NjE3MjIwMHww&ixlib=rb-4.1.0",
+        "width": 5184,
+        "height": 3456,
+        "description": "green white and yellow car print textile",
+        "downloadLocation": "https://api.unsplash.com/photos/rH6WSz0KN7I/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c2tldGNoYm9vayUyMGRvb2RsZSUyMGRyYXdpbmclMjBwZW58ZW58MXwwfHx8MTc4NjE3MjIwMHww",
+        "photographer": "Teo Zac",
+        "photographerUrl": "https://unsplash.com/@teo",
+        "photoUrl": "https://unsplash.com/photos/green-white-and-yellow-car-print-textile-rH6WSz0KN7I",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\start-a-doodle-a-day-challenge--0.jpg"
+      },
+      {
+        "id": "XYK2oHVKuJA",
+        "raw": "https://images.unsplash.com/photo-1550226812-76aa0c7635a7?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c2tldGNoYm9vayUyMGRvb2RsZSUyMGRyYXdpbmclMjBwZW58ZW58MXwwfHx8MTc4NjE3MjIwMHww&ixlib=rb-4.1.0",
+        "width": 5046,
+        "height": 3364,
+        "description": "two brown pencils on white printer paper",
+        "downloadLocation": "https://api.unsplash.com/photos/XYK2oHVKuJA/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c2tldGNoYm9vayUyMGRvb2RsZSUyMGRyYXdpbmclMjBwZW58ZW58MXwwfHx8MTc4NjE3MjIwMHww",
+        "photographer": "Lavi Perchik",
+        "photographerUrl": "https://unsplash.com/@laviperchik",
+        "photoUrl": "https://unsplash.com/photos/two-brown-pencils-on-white-printer-paper-XYK2oHVKuJA",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\start-a-doodle-a-day-challenge--1.jpg"
+      },
+      {
+        "id": "QNj_dwdljY8",
+        "raw": "https://images.unsplash.com/photo-1527484518707-97a54c7a22ca?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c2tldGNoYm9vayUyMGRvb2RsZSUyMGRyYXdpbmclMjBwZW58ZW58MXwwfHx8MTc4NjE3MjIwMHww&ixlib=rb-4.1.0",
+        "width": 5328,
+        "height": 3552,
+        "description": "shallow focus photography of person drawing",
+        "downloadLocation": "https://api.unsplash.com/photos/QNj_dwdljY8/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c2tldGNoYm9vayUyMGRvb2RsZSUyMGRyYXdpbmclMjBwZW58ZW58MXwwfHx8MTc4NjE3MjIwMHww",
+        "photographer": "Koushik Chowdavarapu",
+        "photographerUrl": "https://unsplash.com/@koushikc",
+        "photoUrl": "https://unsplash.com/photos/shallow-focus-photography-of-person-drawing-QNj_dwdljY8",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\start-a-doodle-a-day-challenge--2.jpg"
+      }
+    ]
+  },
+  "watch-a-documentary-on-a-brand-new-topic": {
+    "file": "public/activities.json",
+    "category": "learning",
+    "slug": "watch-a-documentary-on-a-brand-new-topic",
+    "name": "Watch a documentary on a brand-new topic",
+    "query": "watching documentary television notebook",
+    "candidates": [
+      {
+        "id": "diXauBk3Xhg",
+        "raw": "https://images.unsplash.com/photo-1603707676399-e143c4423f96?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8d2F0Y2hpbmclMjBkb2N1bWVudGFyeSUyMHRlbGV2aXNpb24lMjBub3RlYm9va3xlbnwxfDB8fHwxNzg2MTcyMjAyfDA&ixlib=rb-4.1.0",
+        "width": 4288,
+        "height": 2848,
+        "description": "An old man watching the news",
+        "downloadLocation": "https://api.unsplash.com/photos/diXauBk3Xhg/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8d2F0Y2hpbmclMjBkb2N1bWVudGFyeSUyMHRlbGV2aXNpb24lMjBub3RlYm9va3xlbnwxfDB8fHwxNzg2MTcyMjAyfDA",
+        "photographer": "Amanna Avena",
+        "photographerUrl": "https://unsplash.com/@amannaavena",
+        "photoUrl": "https://unsplash.com/photos/man-in-black-crew-neck-shirt-diXauBk3Xhg",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\watch-a-documentary-on-a-brand-new-topic--0.jpg"
+      },
+      {
+        "id": "1RyKywJ9lAY",
+        "raw": "https://images.unsplash.com/photo-1630679246426-e488688fbc3d?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8d2F0Y2hpbmclMjBkb2N1bWVudGFyeSUyMHRlbGV2aXNpb24lMjBub3RlYm9va3xlbnwxfDB8fHwxNzg2MTcyMjAyfDA&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "amblin entertainment",
+        "downloadLocation": "https://api.unsplash.com/photos/1RyKywJ9lAY/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8d2F0Y2hpbmclMjBkb2N1bWVudGFyeSUyMHRlbGV2aXNpb24lMjBub3RlYm9va3xlbnwxfDB8fHwxNzg2MTcyMjAyfDA",
+        "photographer": "Patrick Tomasso",
+        "photographerUrl": "https://unsplash.com/@impatrickt",
+        "photoUrl": "https://unsplash.com/photos/black-crt-tv-on-black-table-1RyKywJ9lAY",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\watch-a-documentary-on-a-brand-new-topic--1.jpg"
+      },
+      {
+        "id": "EPgOui-gYYs",
+        "raw": "https://images.unsplash.com/photo-1633522658389-0bbe2cfb1c97?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8d2F0Y2hpbmclMjBkb2N1bWVudGFyeSUyMHRlbGV2aXNpb24lMjBub3RlYm9va3xlbnwxfDB8fHwxNzg2MTcyMjAyfDA&ixlib=rb-4.1.0",
+        "width": 4240,
+        "height": 2832,
+        "description": "A person reading a Klm book",
+        "downloadLocation": "https://api.unsplash.com/photos/EPgOui-gYYs/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8d2F0Y2hpbmclMjBkb2N1bWVudGFyeSUyMHRlbGV2aXNpb24lMjBub3RlYm9va3xlbnwxfDB8fHwxNzg2MTcyMjAyfDA",
+        "photographer": "CardMapr.nl",
+        "photographerUrl": "https://unsplash.com/@cardmapr",
+        "photoUrl": "https://unsplash.com/photos/a-man-sitting-on-a-couch-reading-a-book-EPgOui-gYYs",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\watch-a-documentary-on-a-brand-new-topic--2.jpg"
+      }
+    ]
+  },
+  "learn-the-phonetic-alphabet": {
+    "file": "public/activities.json",
+    "category": "learning",
+    "slug": "learn-the-phonetic-alphabet",
+    "name": "Learn the phonetic alphabet",
+    "query": "aviation radio headset",
+    "candidates": [
+      {
+        "id": "w0oCOQ7PN_o",
+        "raw": "https://images.unsplash.com/photo-1607524219458-c5849519805f?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8YXZpYXRpb24lMjByYWRpbyUyMGhlYWRzZXR8ZW58MXwwfHx8MTc4NjE3MjIwNHww&ixlib=rb-4.1.0",
+        "width": 5472,
+        "height": 3072,
+        "description": "black corded headphones on white surface",
+        "downloadLocation": "https://api.unsplash.com/photos/w0oCOQ7PN_o/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8YXZpYXRpb24lMjByYWRpbyUyMGhlYWRzZXR8ZW58MXwwfHx8MTc4NjE3MjIwNHww",
+        "photographer": "Robert Stemler",
+        "photographerUrl": "https://unsplash.com/@robertstemler",
+        "photoUrl": "https://unsplash.com/photos/black-corded-headphones-on-white-surface-w0oCOQ7PN_o",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\learn-the-phonetic-alphabet--0.jpg"
+      },
+      {
+        "id": "iAMSavxPGfY",
+        "raw": "https://images.unsplash.com/photo-1622874670917-82f5d54aa05d?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8YXZpYXRpb24lMjByYWRpbyUyMGhlYWRzZXR8ZW58MXwwfHx8MTc4NjE3MjIwNHww&ixlib=rb-4.1.0",
+        "width": 4581,
+        "height": 3054,
+        "description": "black and gray motorcycle engine",
+        "downloadLocation": "https://api.unsplash.com/photos/iAMSavxPGfY/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8YXZpYXRpb24lMjByYWRpbyUyMGhlYWRzZXR8ZW58MXwwfHx8MTc4NjE3MjIwNHww",
+        "photographer": "Kuan L",
+        "photographerUrl": "https://unsplash.com/@kliao12",
+        "photoUrl": "https://unsplash.com/photos/black-and-gray-motorcycle-engine-iAMSavxPGfY",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\learn-the-phonetic-alphabet--1.jpg"
+      },
+      {
+        "id": "Tgzxy_cHd-0",
+        "raw": "https://images.unsplash.com/photo-1778864437683-5261d83f51fd?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8YXZpYXRpb24lMjByYWRpbyUyMGhlYWRzZXR8ZW58MXwwfHx8MTc4NjE3MjIwNHww&ixlib=rb-4.1.0",
+        "width": 4992,
+        "height": 3328,
+        "description": "Headphones, Radio, Lockheed Sirius \"Tingmissartoq\", Lindbergh. Summary: Anne Morrow Lindbergh wore these radio headphones as she flew with her husband Charles to the Orient in 1931 and on survey flights across the North and South Atlantic in 1933. Anne, who served as co-pilot, operated all of the radio equipment during the Lindberghs' two trans-global flights, performing an impressive daily workload, and set a telegraph transmission distance record. Record ID nasm_A20030065016",
+        "downloadLocation": "https://api.unsplash.com/photos/Tgzxy_cHd-0/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8YXZpYXRpb24lMjByYWRpbyUyMGhlYWRzZXR8ZW58MXwwfHx8MTc4NjE3MjIwNHww",
+        "photographer": "Smithsonian",
+        "photographerUrl": "https://unsplash.com/@smithsonian",
+        "photoUrl": "https://unsplash.com/photos/vintage-headphones-with-coiled-cord-and-jack-Tgzxy_cHd-0",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\learn-the-phonetic-alphabet--2.jpg"
+      }
+    ]
+  },
+  "learn-to-read-basic-music-notation": {
+    "file": "public/activities.json",
+    "category": "learning",
+    "slug": "learn-to-read-basic-music-notation",
+    "name": "Learn to read basic music notation",
+    "query": "sheet music notation",
+    "candidates": [
+      {
+        "id": "rPOmLGwai2w",
+        "raw": "https://images.unsplash.com/photo-1507838153414-b4b713384a76?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c2hlZXQlMjBtdXNpYyUyMG5vdGF0aW9ufGVufDF8MHx8fDE3ODYxNzIyMDZ8MA&ixlib=rb-4.1.0",
+        "width": 3888,
+        "height": 2592,
+        "description": "tilt selective photograph of music notes",
+        "downloadLocation": "https://api.unsplash.com/photos/rPOmLGwai2w/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c2hlZXQlMjBtdXNpYyUyMG5vdGF0aW9ufGVufDF8MHx8fDE3ODYxNzIyMDZ8MA",
+        "photographer": "Marius Masalar",
+        "photographerUrl": "https://unsplash.com/@marius",
+        "photoUrl": "https://unsplash.com/photos/tilt-selective-photograph-of-music-notes-rPOmLGwai2w",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\learn-to-read-basic-music-notation--0.jpg"
+      },
+      {
+        "id": "3pCRW_JRKM8",
+        "raw": "https://images.unsplash.com/photo-1591025810539-a321000cda85?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c2hlZXQlMjBtdXNpYyUyMG5vdGF0aW9ufGVufDF8MHx8fDE3ODYxNzIyMDZ8MA&ixlib=rb-4.1.0",
+        "width": 5997,
+        "height": 3998,
+        "description": "Play us a song, at the golden hour",
+        "downloadLocation": "https://api.unsplash.com/photos/3pCRW_JRKM8/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c2hlZXQlMjBtdXNpYyUyMG5vdGF0aW9ufGVufDF8MHx8fDE3ODYxNzIyMDZ8MA",
+        "photographer": "weston m",
+        "photographerUrl": "https://unsplash.com/@shootnmatch",
+        "photoUrl": "https://unsplash.com/photos/musical-notes-on-white-paper-3pCRW_JRKM8",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\learn-to-read-basic-music-notation--1.jpg"
+      },
+      {
+        "id": "2zHGVCrdxHw",
+        "raw": "https://images.unsplash.com/photo-1568057609581-8556cf900d3c?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c2hlZXQlMjBtdXNpYyUyMG5vdGF0aW9ufGVufDF8MHx8fDE3ODYxNzIyMDZ8MA&ixlib=rb-4.1.0",
+        "width": 5184,
+        "height": 3456,
+        "description": "white music sheet",
+        "downloadLocation": "https://api.unsplash.com/photos/2zHGVCrdxHw/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c2hlZXQlMjBtdXNpYyUyMG5vdGF0aW9ufGVufDF8MHx8fDE3ODYxNzIyMDZ8MA",
+        "photographer": "Sarah Dao",
+        "photographerUrl": "https://unsplash.com/@daopao",
+        "photoUrl": "https://unsplash.com/photos/white-music-sheet-2zHGVCrdxHw",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\learn-to-read-basic-music-notation--2.jpg"
+      }
+    ]
+  },
+  "explore-your-family-tree-online": {
+    "file": "public/activities.json",
+    "category": "learning",
+    "slug": "explore-your-family-tree-online",
+    "name": "Explore your family tree online",
+    "query": "old family photographs genealogy",
+    "candidates": [
+      {
+        "id": "73OJLcahQHg",
+        "raw": "https://images.unsplash.com/photo-1528569937393-ee892b976859?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8b2xkJTIwZmFtaWx5JTIwcGhvdG9ncmFwaHMlMjBnZW5lYWxvZ3l8ZW58MXwwfHx8MTc4NjE3MjIwOHww&ixlib=rb-4.1.0",
+        "width": 4200,
+        "height": 2800,
+        "description": "We pulled out some of the old photo albums from my family, and loved seeing my kids look through them. Photos are timeless and the thing that we can pass through generations to tell our stories.",
+        "downloadLocation": "https://api.unsplash.com/photos/73OJLcahQHg/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8b2xkJTIwZmFtaWx5JTIwcGhvdG9ncmFwaHMlMjBnZW5lYWxvZ3l8ZW58MXwwfHx8MTc4NjE3MjIwOHww",
+        "photographer": "Laura Fuhrman",
+        "photographerUrl": "https://unsplash.com/@lauracathleen",
+        "photoUrl": "https://unsplash.com/photos/person-opening-photo-album-displaying-grayscale-photos-73OJLcahQHg",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\explore-your-family-tree-online--0.jpg"
+      },
+      {
+        "id": "7sPg5OLfExc",
+        "raw": "https://images.unsplash.com/photo-1453828423292-392a660a502f?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8b2xkJTIwZmFtaWx5JTIwcGhvdG9ncmFwaHMlMjBnZW5lYWxvZ3l8ZW58MXwwfHx8MTc4NjE3MjIwOHww&ixlib=rb-4.1.0",
+        "width": 3264,
+        "height": 2176,
+        "description": "old photos in brown wooden chest",
+        "downloadLocation": "https://api.unsplash.com/photos/7sPg5OLfExc/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8b2xkJTIwZmFtaWx5JTIwcGhvdG9ncmFwaHMlMjBnZW5lYWxvZ3l8ZW58MXwwfHx8MTc4NjE3MjIwOHww",
+        "photographer": "Roman Kraft",
+        "photographerUrl": "https://unsplash.com/@iamromankraft",
+        "photoUrl": "https://unsplash.com/photos/old-photos-in-brown-wooden-chest-7sPg5OLfExc",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\explore-your-family-tree-online--1.jpg"
+      },
+      {
+        "id": "hah1pStI7L0",
+        "raw": "https://images.unsplash.com/photo-1722173205783-d602329f0743?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8b2xkJTIwZmFtaWx5JTIwcGhvdG9ncmFwaHMlMjBnZW5lYWxvZ3l8ZW58MXwwfHx8MTc4NjE3MjIwOHww&ixlib=rb-4.1.0",
+        "width": 5000,
+        "height": 4000,
+        "description": "Overhead view of old black and white family photos with overlapping wood frame.",
+        "downloadLocation": "https://api.unsplash.com/photos/hah1pStI7L0/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8b2xkJTIwZmFtaWx5JTIwcGhvdG9ncmFwaHMlMjBnZW5lYWxvZ3l8ZW58MXwwfHx8MTc4NjE3MjIwOHww",
+        "photographer": "Debby Hudson",
+        "photographerUrl": "https://unsplash.com/@hudsoncrafted",
+        "photoUrl": "https://unsplash.com/photos/a-group-of-photos-sitting-on-top-of-a-white-sheet-hah1pStI7L0",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\explore-your-family-tree-online--2.jpg"
+      }
+    ]
+  },
+  "learn-morse-code-basics": {
+    "file": "public/activities.json",
+    "category": "learning",
+    "slug": "learn-morse-code-basics",
+    "name": "Learn Morse code basics",
+    "query": "morse code telegraph key",
+    "candidates": [
+      {
+        "id": "k9rwcGU_NcY",
+        "raw": "https://images.unsplash.com/photo-1785908497617-efd4665a18b4?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8bW9yc2UlMjBjb2RlJTIwdGVsZWdyYXBoJTIwa2V5fGVufDF8MHx8fDE3ODYxNzIyMTB8MA&ixlib=rb-4.1.0",
+        "width": 6016,
+        "height": 4016,
+        "description": "An antique telegraph machine on a wooden board.",
+        "downloadLocation": "https://api.unsplash.com/photos/k9rwcGU_NcY/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8bW9yc2UlMjBjb2RlJTIwdGVsZWdyYXBoJTIwa2V5fGVufDF8MHx8fDE3ODYxNzIyMTB8MA",
+        "photographer": "Reza Amiri",
+        "photographerUrl": "https://unsplash.com/@reza_amiri",
+        "photoUrl": "https://unsplash.com/photos/an-antique-telegraph-machine-on-a-wooden-board-k9rwcGU_NcY",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\learn-morse-code-basics--0.jpg"
+      },
+      {
+        "id": "BErldUIpeyU",
+        "raw": "https://images.unsplash.com/photo-1730578725609-94c6d416763d?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8bW9yc2UlMjBjb2RlJTIwdGVsZWdyYXBoJTIwa2V5fGVufDF8MHx8fDE3ODYxNzIyMTB8MA&ixlib=rb-4.1.0",
+        "width": 8192,
+        "height": 5464,
+        "description": "A black and white photo of a typewriter",
+        "downloadLocation": "https://api.unsplash.com/photos/BErldUIpeyU/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8bW9yc2UlMjBjb2RlJTIwdGVsZWdyYXBoJTIwa2V5fGVufDF8MHx8fDE3ODYxNzIyMTB8MA",
+        "photographer": "Jason Leung",
+        "photographerUrl": "https://unsplash.com/@ninjason",
+        "photoUrl": "https://unsplash.com/photos/a-black-and-white-photo-of-a-typewriter-BErldUIpeyU",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\learn-morse-code-basics--1.jpg"
+      },
+      {
+        "id": "oE40l4jOAlQ",
+        "raw": "https://images.unsplash.com/photo-1730578726753-dc0cf2f12c6f?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8bW9yc2UlMjBjb2RlJTIwdGVsZWdyYXBoJTIwa2V5fGVufDF8MHx8fDE3ODYxNzIyMTB8MA&ixlib=rb-4.1.0",
+        "width": 8192,
+        "height": 5464,
+        "description": "A close up of an old fashioned typewriter",
+        "downloadLocation": "https://api.unsplash.com/photos/oE40l4jOAlQ/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8bW9yc2UlMjBjb2RlJTIwdGVsZWdyYXBoJTIwa2V5fGVufDF8MHx8fDE3ODYxNzIyMTB8MA",
+        "photographer": "Jason Leung",
+        "photographerUrl": "https://unsplash.com/@ninjason",
+        "photoUrl": "https://unsplash.com/photos/a-close-up-of-an-old-fashioned-typewriter-oE40l4jOAlQ",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\learn-morse-code-basics--2.jpg"
+      }
+    ]
+  },
+  "listen-to-an-educational-podcast-episode": {
+    "file": "public/activities.json",
+    "category": "learning",
+    "slug": "listen-to-an-educational-podcast-episode",
+    "name": "Listen to an educational podcast episode",
+    "query": "podcast headphones walking outside",
+    "candidates": [
+      {
+        "id": "Wee8GWe035g",
+        "raw": "https://images.unsplash.com/photo-1712041768467-429cdb46aec2?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8cG9kY2FzdCUyMGhlYWRwaG9uZXMlMjB3YWxraW5nJTIwb3V0c2lkZXxlbnwxfDB8fHwxNzg2MTcyMjEzfDA&ixlib=rb-4.1.0",
+        "width": 4032,
+        "height": 3024,
+        "description": "a man wearing headphones and looking at his cell phone",
+        "downloadLocation": "https://api.unsplash.com/photos/Wee8GWe035g/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8cG9kY2FzdCUyMGhlYWRwaG9uZXMlMjB3YWxraW5nJTIwb3V0c2lkZXxlbnwxfDB8fHwxNzg2MTcyMjEzfDA",
+        "photographer": "Ana Achim",
+        "photographerUrl": "https://unsplash.com/@anachim",
+        "photoUrl": "https://unsplash.com/photos/a-man-wearing-headphones-and-looking-at-his-cell-phone-Wee8GWe035g",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\listen-to-an-educational-podcast-episode--0.jpg"
+      },
+      {
+        "id": "6LgGeKPWpSA",
+        "raw": "https://images.unsplash.com/photo-1623411235834-6ab4e7278bc3?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8cG9kY2FzdCUyMGhlYWRwaG9uZXMlMjB3YWxraW5nJTIwb3V0c2lkZXxlbnwxfDB8fHwxNzg2MTcyMjEzfDA&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "you man talking with airpods pro",
+        "downloadLocation": "https://api.unsplash.com/photos/6LgGeKPWpSA/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8cG9kY2FzdCUyMGhlYWRwaG9uZXMlMjB3YWxraW5nJTIwb3V0c2lkZXxlbnwxfDB8fHwxNzg2MTcyMjEzfDA",
+        "photographer": "Jonas Schindler",
+        "photographerUrl": "https://unsplash.com/@jonasschindler",
+        "photoUrl": "https://unsplash.com/photos/a-man-standing-in-front-of-a-building-with-ear-buds-in-his-ears-6LgGeKPWpSA",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\listen-to-an-educational-podcast-episode--1.jpg"
+      },
+      {
+        "id": "fr7tf56u54o",
+        "raw": "https://images.unsplash.com/photo-1561522820-9aa446ae4e61?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8cG9kY2FzdCUyMGhlYWRwaG9uZXMlMjB3YWxraW5nJTIwb3V0c2lkZXxlbnwxfDB8fHwxNzg2MTcyMjEzfDA&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "A young man happily wearing headphones on his way to work through the park. ",
+        "downloadLocation": "https://api.unsplash.com/photos/fr7tf56u54o/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8cG9kY2FzdCUyMGhlYWRwaG9uZXMlMjB3YWxraW5nJTIwb3V0c2lkZXxlbnwxfDB8fHwxNzg2MTcyMjEzfDA",
+        "photographer": "The Start",
+        "photographerUrl": "https://unsplash.com/@neverstopstarting",
+        "photoUrl": "https://unsplash.com/photos/unknown-person-facing-sideways-fr7tf56u54o",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\listen-to-an-educational-podcast-episode--2.jpg"
+      }
+    ]
+  },
+  "make-a-smoothie-with-a-new-ingredient": {
+    "file": "public/activities.json",
+    "category": "food-drink",
+    "slug": "make-a-smoothie-with-a-new-ingredient",
+    "name": "Make a smoothie with a new ingredient",
+    "query": "smoothie blender fruit",
+    "candidates": [
+      {
+        "id": "hsTwPUzFegQ",
+        "raw": "https://images.unsplash.com/photo-1570696516188-ade861b84a49?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c21vb3RoaWUlMjBibGVuZGVyJTIwZnJ1aXR8ZW58MXwwfHx8MTc4NjE3MjIxNXww&ixlib=rb-4.1.0",
+        "width": 5184,
+        "height": 3456,
+        "description": "pink smoothie",
+        "downloadLocation": "https://api.unsplash.com/photos/hsTwPUzFegQ/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c21vb3RoaWUlMjBibGVuZGVyJTIwZnJ1aXR8ZW58MXwwfHx8MTc4NjE3MjIxNXww",
+        "photographer": "Denis",
+        "photographerUrl": "https://unsplash.com/@denis96",
+        "photoUrl": "https://unsplash.com/photos/pink-smoothie-hsTwPUzFegQ",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\make-a-smoothie-with-a-new-ingredient--0.jpg"
+      },
+      {
+        "id": "acrBf9BlfvE",
+        "raw": "https://images.unsplash.com/photo-1514995669114-6081e934b693?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c21vb3RoaWUlMjBibGVuZGVyJTIwZnJ1aXR8ZW58MXwwfHx8MTc4NjE3MjIxNXww&ixlib=rb-4.1.0",
+        "width": 2736,
+        "height": 1824,
+        "description": "photo of three orange fruits",
+        "downloadLocation": "https://api.unsplash.com/photos/acrBf9BlfvE/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c21vb3RoaWUlMjBibGVuZGVyJTIwZnJ1aXR8ZW58MXwwfHx8MTc4NjE3MjIxNXww",
+        "photographer": "Element5 Digital",
+        "photographerUrl": "https://unsplash.com/@element5digital",
+        "photoUrl": "https://unsplash.com/photos/photo-of-three-orange-fruits-acrBf9BlfvE",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\make-a-smoothie-with-a-new-ingredient--1.jpg"
+      },
+      {
+        "id": "zpv8D8DOShs",
+        "raw": "https://images.unsplash.com/photo-1622597468620-656aa1f981ea?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c21vb3RoaWUlMjBibGVuZGVyJTIwZnJ1aXR8ZW58MXwwfHx8MTc4NjE3MjIxNXww&ixlib=rb-4.1.0",
+        "width": 3840,
+        "height": 2160,
+        "description": "strawberry shake on clear drinking glass",
+        "downloadLocation": "https://api.unsplash.com/photos/zpv8D8DOShs/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c21vb3RoaWUlMjBibGVuZGVyJTIwZnJ1aXR8ZW58MXwwfHx8MTc4NjE3MjIxNXww",
+        "photographer": "Jugoslocos",
+        "photographerUrl": "https://unsplash.com/@jugoslocos",
+        "photoUrl": "https://unsplash.com/photos/strawberry-shake-on-clear-drinking-glass-zpv8D8DOShs",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\make-a-smoothie-with-a-new-ingredient--2.jpg"
+      }
+    ]
+  },
+  "hold-a-blind-taste-test-with-snacks": {
+    "file": "public/activities.json",
+    "category": "food-drink",
+    "slug": "hold-a-blind-taste-test-with-snacks",
+    "name": "Hold a blind taste test with snacks",
+    "query": "snacks bowls tasting table",
+    "candidates": [
+      {
+        "id": "BTEAShfQP6A",
+        "raw": "https://images.unsplash.com/photo-1725909626162-059d98a6c8e9?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c25hY2tzJTIwYm93bHMlMjB0YXN0aW5nJTIwdGFibGV8ZW58MXwwfHx8MTc4NjE3MjIxNnww&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "A table topped with bowls of food and bowls of cereal",
+        "downloadLocation": "https://api.unsplash.com/photos/BTEAShfQP6A/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c25hY2tzJTIwYm93bHMlMjB0YXN0aW5nJTIwdGFibGV8ZW58MXwwfHx8MTc4NjE3MjIxNnww",
+        "photographer": "Michel Stockman",
+        "photographerUrl": "https://unsplash.com/@michelstock",
+        "photoUrl": "https://unsplash.com/photos/a-table-topped-with-bowls-of-food-and-bowls-of-cereal-BTEAShfQP6A",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\hold-a-blind-taste-test-with-snacks--0.jpg"
+      },
+      {
+        "id": "0Rf1lLlA3-c",
+        "raw": "https://images.unsplash.com/photo-1781090880644-29918f26be70?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c25hY2tzJTIwYm93bHMlMjB0YXN0aW5nJTIwdGFibGV8ZW58MXwwfHx8MTc4NjE3MjIxNnww&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "Appetizer platter served at a private event with wine and table decorations in the background.",
+        "downloadLocation": "https://api.unsplash.com/photos/0Rf1lLlA3-c/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c25hY2tzJTIwYm93bHMlMjB0YXN0aW5nJTIwdGFibGV8ZW58MXwwfHx8MTc4NjE3MjIxNnww",
+        "photographer": "milla Huyskens",
+        "photographerUrl": "https://unsplash.com/@hmedia7",
+        "photoUrl": "https://unsplash.com/photos/snacks-olives-and-flowers-on-a-white-table-0Rf1lLlA3-c",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\hold-a-blind-taste-test-with-snacks--1.jpg"
+      },
+      {
+        "id": "Y95s2eyYbmQ",
+        "raw": "https://images.unsplash.com/photo-1622338230708-4da147a84b5b?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c25hY2tzJTIwYm93bHMlMjB0YXN0aW5nJTIwdGFibGV8ZW58MXwwfHx8MTc4NjE3MjIxNnww&ixlib=rb-4.1.0",
+        "width": 3637,
+        "height": 2433,
+        "description": "white ceramic bowl on brown wooden table",
+        "downloadLocation": "https://api.unsplash.com/photos/Y95s2eyYbmQ/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c25hY2tzJTIwYm93bHMlMjB0YXN0aW5nJTIwdGFibGV8ZW58MXwwfHx8MTc4NjE3MjIxNnww",
+        "photographer": "Emma Ou",
+        "photographerUrl": "https://unsplash.com/@emmaou",
+        "photoUrl": "https://unsplash.com/photos/white-ceramic-bowl-on-brown-wooden-table-Y95s2eyYbmQ",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\hold-a-blind-taste-test-with-snacks--2.jpg"
+      }
+    ]
+  },
+  "make-homemade-pizza-from-scratch": {
+    "file": "public/activities.json",
+    "category": "food-drink",
+    "slug": "make-homemade-pizza-from-scratch",
+    "name": "Make homemade pizza from scratch",
+    "query": "homemade pizza dough",
+    "candidates": [
+      {
+        "id": "_CaLXVUfD8g",
+        "raw": "https://images.unsplash.com/photo-1532460734809-e7f8475ca917?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8aG9tZW1hZGUlMjBwaXp6YSUyMGRvdWdofGVufDF8MHx8fDE3ODYxNzIyMTl8MA&ixlib=rb-4.1.0",
+        "width": 4106,
+        "height": 2848,
+        "description": "pizza preparation",
+        "downloadLocation": "https://api.unsplash.com/photos/_CaLXVUfD8g/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8aG9tZW1hZGUlMjBwaXp6YSUyMGRvdWdofGVufDF8MHx8fDE3ODYxNzIyMTl8MA",
+        "photographer": "Juan Manuel Núñez Méndez",
+        "photographerUrl": "https://unsplash.com/@juanmanunez",
+        "photoUrl": "https://unsplash.com/photos/a-person-is-kneading-dough-on-a-table-_CaLXVUfD8g",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\make-homemade-pizza-from-scratch--0.jpg"
+      },
+      {
+        "id": "GRscJs-cnro",
+        "raw": "https://images.unsplash.com/photo-1716237388087-4e47595a6615?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8aG9tZW1hZGUlMjBwaXp6YSUyMGRvdWdofGVufDF8MHx8fDE3ODYxNzIyMTl8MA&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "a person kneading dough on top of a table",
+        "downloadLocation": "https://api.unsplash.com/photos/GRscJs-cnro/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8aG9tZW1hZGUlMjBwaXp6YSUyMGRvdWdofGVufDF8MHx8fDE3ODYxNzIyMTl8MA",
+        "photographer": "Aldward Castillo",
+        "photographerUrl": "https://unsplash.com/@aldwardcv31",
+        "photoUrl": "https://unsplash.com/photos/a-person-kneading-dough-on-top-of-a-table-GRscJs-cnro",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\make-homemade-pizza-from-scratch--1.jpg"
+      },
+      {
+        "id": "2HMPWWifKrs",
+        "raw": "https://images.unsplash.com/photo-1595801105145-795f1927c0fc?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8aG9tZW1hZGUlMjBwaXp6YSUyMGRvdWdofGVufDF8MHx8fDE3ODYxNzIyMTl8MA&ixlib=rb-4.1.0",
+        "width": 5616,
+        "height": 3744,
+        "description": "Kneading the dough ",
+        "downloadLocation": "https://api.unsplash.com/photos/2HMPWWifKrs/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8aG9tZW1hZGUlMjBwaXp6YSUyMGRvdWdofGVufDF8MHx8fDE3ODYxNzIyMTl8MA",
+        "photographer": "Duncan Kidd",
+        "photographerUrl": "https://unsplash.com/@we_the_royal",
+        "photoUrl": "https://unsplash.com/photos/persons-hand-on-white-textile-2HMPWWifKrs",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\make-homemade-pizza-from-scratch--2.jpg"
+      }
+    ]
+  },
+  "brew-coffee-with-a-method-you-ve-never-used": {
+    "file": "public/activities.json",
+    "category": "food-drink",
+    "slug": "brew-coffee-with-a-method-you-ve-never-used",
+    "name": "Brew coffee with a method you've never used",
+    "query": "pour over coffee brewing",
+    "candidates": [
+      {
+        "id": "TYIzeCiZ_60",
+        "raw": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8cG91ciUyMG92ZXIlMjBjb2ZmZWUlMjBicmV3aW5nfGVufDF8MHx8fDE3ODYxNzIyMjF8MA&ixlib=rb-4.1.0",
+        "width": 5598,
+        "height": 3732,
+        "description": "Brewing coffee in a jug",
+        "downloadLocation": "https://api.unsplash.com/photos/TYIzeCiZ_60/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8cG91ciUyMG92ZXIlMjBjb2ZmZWUlMjBicmV3aW5nfGVufDF8MHx8fDE3ODYxNzIyMjF8MA",
+        "photographer": "Karl Fredrickson",
+        "photographerUrl": "https://unsplash.com/@kfred",
+        "photoUrl": "https://unsplash.com/photos/person-filling-glass-container-TYIzeCiZ_60",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\brew-coffee-with-a-method-you-ve-never-used--0.jpg"
+      },
+      {
+        "id": "rwwMB7kTNes",
+        "raw": "https://images.unsplash.com/photo-1521677633993-721dd3f95c10?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8cG91ciUyMG92ZXIlMjBjb2ZmZWUlMjBicmV3aW5nfGVufDF8MHx8fDE3ODYxNzIyMjF8MA&ixlib=rb-4.1.0",
+        "width": 6240,
+        "height": 4160,
+        "description": "coffee on white ceramic mug",
+        "downloadLocation": "https://api.unsplash.com/photos/rwwMB7kTNes/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8cG91ciUyMG92ZXIlMjBjb2ZmZWUlMjBicmV3aW5nfGVufDF8MHx8fDE3ODYxNzIyMjF8MA",
+        "photographer": "Devin Avery",
+        "photographerUrl": "https://unsplash.com/@devintavery",
+        "photoUrl": "https://unsplash.com/photos/coffee-on-white-ceramic-mug-rwwMB7kTNes",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\brew-coffee-with-a-method-you-ve-never-used--1.jpg"
+      },
+      {
+        "id": "3Tn1nFGDvwY",
+        "raw": "https://images.unsplash.com/photo-1678275713046-1b92f108c165?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8cG91ciUyMG92ZXIlMjBjb2ZmZWUlMjBicmV3aW5nfGVufDF8MHx8fDE3ODYxNzIyMjF8MA&ixlib=rb-4.1.0",
+        "width": 4416,
+        "height": 2944,
+        "description": "a person is pouring something into a bowl",
+        "downloadLocation": "https://api.unsplash.com/photos/3Tn1nFGDvwY/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8cG91ciUyMG92ZXIlMjBjb2ZmZWUlMjBicmV3aW5nfGVufDF8MHx8fDE3ODYxNzIyMjF8MA",
+        "photographer": "Seiya Maeda",
+        "photographerUrl": "https://unsplash.com/@seiya_maeda",
+        "photoUrl": "https://unsplash.com/photos/a-person-is-pouring-something-into-a-bowl-3Tn1nFGDvwY",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\brew-coffee-with-a-method-you-ve-never-used--2.jpg"
+      }
+    ]
+  },
+  "make-a-no-bake-dessert": {
+    "file": "public/activities.json",
+    "category": "food-drink",
+    "slug": "make-a-no-bake-dessert",
+    "name": "Make a no-bake dessert",
+    "query": "no bake cheesecake dessert",
+    "candidates": [
+      {
+        "id": "hszGPnZGB3A",
+        "raw": "https://images.unsplash.com/photo-1708175313856-8573b2bf8a3a?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8bm8lMjBiYWtlJTIwY2hlZXNlY2FrZSUyMGRlc3NlcnR8ZW58MXwwfHx8MTc4NjE3MjIyM3ww&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "Cheesecake Speculoos",
+        "downloadLocation": "https://api.unsplash.com/photos/hszGPnZGB3A/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8bm8lMjBiYWtlJTIwY2hlZXNlY2FrZSUyMGRlc3NlcnR8ZW58MXwwfHx8MTc4NjE3MjIyM3ww",
+        "photographer": "Med Wael Laraiedh",
+        "photographerUrl": "https://unsplash.com/@musicvibe12",
+        "photoUrl": "https://unsplash.com/photos/a-piece-of-cheesecake-on-a-white-plate-hszGPnZGB3A",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\make-a-no-bake-dessert--0.jpg"
+      },
+      {
+        "id": "_BBTqanOrBI",
+        "raw": "https://images.unsplash.com/photo-1621955511667-e2c316e4575d?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8bm8lMjBiYWtlJTIwY2hlZXNlY2FrZSUyMGRlc3NlcnR8ZW58MXwwfHx8MTc4NjE3MjIyM3ww&ixlib=rb-4.1.0",
+        "width": 4000,
+        "height": 2667,
+        "description": "a slice of no bake cheesecake on a white plate",
+        "downloadLocation": "https://api.unsplash.com/photos/_BBTqanOrBI/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8bm8lMjBiYWtlJTIwY2hlZXNlY2FrZSUyMGRlc3NlcnR8ZW58MXwwfHx8MTc4NjE3MjIyM3ww",
+        "photographer": "Kalisha Ocheni",
+        "photographerUrl": "https://unsplash.com/@kalishao",
+        "photoUrl": "https://unsplash.com/photos/red-and-white-cake-on-white-ceramic-plate-_BBTqanOrBI",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\make-a-no-bake-dessert--1.jpg"
+      },
+      {
+        "id": "u95_MqFUaQg",
+        "raw": "https://images.unsplash.com/photo-1622622008494-60c9e6b41996?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8bm8lMjBiYWtlJTIwY2hlZXNlY2FrZSUyMGRlc3NlcnR8ZW58MXwwfHx8MTc4NjE3MjIyM3ww&ixlib=rb-4.1.0",
+        "width": 3223,
+        "height": 2832,
+        "description": "vegan cake",
+        "downloadLocation": "https://api.unsplash.com/photos/u95_MqFUaQg/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8bm8lMjBiYWtlJTIwY2hlZXNlY2FrZSUyMGRlc3NlcnR8ZW58MXwwfHx8MTc4NjE3MjIyM3ww",
+        "photographer": "Alexandra Khudyntseva",
+        "photographerUrl": "https://unsplash.com/@sannka",
+        "photoUrl": "https://unsplash.com/photos/strawberry-cake-on-white-ceramic-plate-u95_MqFUaQg",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\make-a-no-bake-dessert--2.jpg"
+      }
+    ]
+  },
+  "invent-your-own-signature-sandwich": {
+    "file": "public/activities.json",
+    "category": "food-drink",
+    "slug": "invent-your-own-signature-sandwich",
+    "name": "Invent your own signature sandwich",
+    "query": "sandwich making ingredients",
+    "candidates": [
+      {
+        "id": "_ODVlLRQoTk",
+        "raw": "https://images.unsplash.com/photo-1607309089576-358db307bf89?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c2FuZHdpY2glMjBtYWtpbmclMjBpbmdyZWRpZW50c3xlbnwxfDB8fHwxNzg2MTcyMjI1fDA&ixlib=rb-4.1.0",
+        "width": 5662,
+        "height": 3775,
+        "description": "Summer appetizer prep",
+        "downloadLocation": "https://api.unsplash.com/photos/_ODVlLRQoTk/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c2FuZHdpY2glMjBtYWtpbmclMjBpbmdyZWRpZW50c3xlbnwxfDB8fHwxNzg2MTcyMjI1fDA",
+        "photographer": "Grace O'Driscoll",
+        "photographerUrl": "https://unsplash.com/@gwg_photography",
+        "photoUrl": "https://unsplash.com/photos/person-holding-green-vegetable-and-brown-bread-_ODVlLRQoTk",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\invent-your-own-signature-sandwich--0.jpg"
+      },
+      {
+        "id": "dxITqe9MTn4",
+        "raw": "https://images.unsplash.com/photo-1780242014421-d32d7bb5473e?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c2FuZHdpY2glMjBtYWtpbmclMjBpbmdyZWRpZW50c3xlbnwxfDB8fHwxNzg2MTcyMjI1fDA&ixlib=rb-4.1.0",
+        "width": 6048,
+        "height": 4032,
+        "description": "A person preparing food at a counter with ingredients.",
+        "downloadLocation": "https://api.unsplash.com/photos/dxITqe9MTn4/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c2FuZHdpY2glMjBtYWtpbmclMjBpbmdyZWRpZW50c3xlbnwxfDB8fHwxNzg2MTcyMjI1fDA",
+        "photographer": "Kelvin Zyteng",
+        "photographerUrl": "https://unsplash.com/@zyteng",
+        "photoUrl": "https://unsplash.com/photos/a-person-preparing-food-at-a-counter-with-ingredients-dxITqe9MTn4",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\invent-your-own-signature-sandwich--1.jpg"
+      },
+      {
+        "id": "ka0Tlb884BE",
+        "raw": "https://images.unsplash.com/photo-1728155734335-f262972ed44f?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c2FuZHdpY2glMjBtYWtpbmclMjBpbmdyZWRpZW50c3xlbnwxfDB8fHwxNzg2MTcyMjI1fDA&ixlib=rb-4.1.0",
+        "width": 3000,
+        "height": 2000,
+        "description": "A cutting board with a sandwich, tomatoes, lettuce and cheese",
+        "downloadLocation": "https://api.unsplash.com/photos/ka0Tlb884BE/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c2FuZHdpY2glMjBtYWtpbmclMjBpbmdyZWRpZW50c3xlbnwxfDB8fHwxNzg2MTcyMjI1fDA",
+        "photographer": "Jack James Plassman",
+        "photographerUrl": "https://unsplash.com/@jackjamesplassman",
+        "photoUrl": "https://unsplash.com/photos/a-cutting-board-with-a-sandwich-tomatoes-lettuce-and-cheese-ka0Tlb884BE",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\invent-your-own-signature-sandwich--2.jpg"
+      }
+    ]
+  },
+  "try-mindful-coloring": {
+    "file": "public/activities.json",
+    "category": "mindfulness",
+    "slug": "try-mindful-coloring",
+    "name": "Try mindful coloring",
+    "query": "mandala coloring page",
+    "candidates": [
+      {
+        "id": "O6qSPPWezLI",
+        "raw": "https://images.unsplash.com/photo-1590225472433-e20c5d118c60?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8bWFuZGFsYSUyMGNvbG9yaW5nJTIwcGFnZXxlbnwxfDB8fHwxNzg2MTcyNTUxfDA&ixlib=rb-4.1.0",
+        "width": 5328,
+        "height": 4000,
+        "description": "Coloring sheets to achieve more relaxation and focus",
+        "downloadLocation": "https://api.unsplash.com/photos/O6qSPPWezLI/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8bWFuZGFsYSUyMGNvbG9yaW5nJTIwcGFnZXxlbnwxfDB8fHwxNzg2MTcyNTUxfDA",
+        "photographer": "Customerbox",
+        "photographerUrl": "https://unsplash.com/@customerbox",
+        "photoUrl": "https://unsplash.com/photos/person-holding-brown-wooden-pencil-O6qSPPWezLI",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\try-mindful-coloring--0.jpg"
+      },
+      {
+        "id": "j0ep46zsfrA",
+        "raw": "https://images.unsplash.com/photo-1761034036989-24640be78e90?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8bWFuZGFsYSUyMGNvbG9yaW5nJTIwcGFnZXxlbnwxfDB8fHwxNzg2MTcyNTUxfDA&ixlib=rb-4.1.0",
+        "width": 6081,
+        "height": 4054,
+        "description": "Mandala coloring page with orange and blue details.",
+        "downloadLocation": "https://api.unsplash.com/photos/j0ep46zsfrA/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8bWFuZGFsYSUyMGNvbG9yaW5nJTIwcGFnZXxlbnwxfDB8fHwxNzg2MTcyNTUxfDA",
+        "photographer": "Christian Harb",
+        "photographerUrl": "https://unsplash.com/@c7arb",
+        "photoUrl": "https://unsplash.com/photos/mandala-coloring-page-with-orange-and-blue-details-j0ep46zsfrA",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\try-mindful-coloring--1.jpg"
+      },
+      {
+        "id": "jmmDjej5YqQ",
+        "raw": "https://images.unsplash.com/photo-1761034036962-22e04edc8b22?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8bWFuZGFsYSUyMGNvbG9yaW5nJTIwcGFnZXxlbnwxfDB8fHwxNzg2MTcyNTUxfDA&ixlib=rb-4.1.0",
+        "width": 6240,
+        "height": 4160,
+        "description": "Person coloring a mandala with markers on paper",
+        "downloadLocation": "https://api.unsplash.com/photos/jmmDjej5YqQ/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8bWFuZGFsYSUyMGNvbG9yaW5nJTIwcGFnZXxlbnwxfDB8fHwxNzg2MTcyNTUxfDA",
+        "photographer": "Christian Harb",
+        "photographerUrl": "https://unsplash.com/@c7arb",
+        "photoUrl": "https://unsplash.com/photos/person-coloring-a-mandala-with-markers-on-paper-jmmDjej5YqQ",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\try-mindful-coloring--2.jpg"
+      },
+      {
+        "id": "MqCw_GEQX_o",
+        "raw": "https://images.unsplash.com/photo-1572996381632-29f2bec4f758?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8NHx8bWFuZGFsYSUyMGNvbG9yaW5nJTIwcGFnZXxlbnwxfDB8fHwxNzg2MTcyNTUxfDA&ixlib=rb-4.1.0",
+        "width": 5000,
+        "height": 4000,
+        "description": "white iPad Pro",
+        "downloadLocation": "https://api.unsplash.com/photos/MqCw_GEQX_o/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8NHx8bWFuZGFsYSUyMGNvbG9yaW5nJTIwcGFnZXxlbnwxfDB8fHwxNzg2MTcyNTUxfDA",
+        "photographer": "Daniela Curzio",
+        "photographerUrl": "https://unsplash.com/@danicurzio",
+        "photoUrl": "https://unsplash.com/photos/white-ipad-pro-MqCw_GEQX_o",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\try-mindful-coloring--3.jpg"
+      }
+    ]
+  },
+  "try-candle-gazing-meditation": {
+    "file": "public/activities.json",
+    "category": "mindfulness",
+    "slug": "try-candle-gazing-meditation",
+    "name": "Try candle gazing meditation",
+    "query": "single candle flame dark",
+    "candidates": [
+      {
+        "id": "AaZlf5FgUws",
+        "raw": "https://images.unsplash.com/photo-1561212856-44e9bae482aa?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c2luZ2xlJTIwY2FuZGxlJTIwZmxhbWUlMjBkYXJrfGVufDF8MHx8fDE3ODYxNzI0Njh8MA&ixlib=rb-4.1.0",
+        "width": 5184,
+        "height": 3456,
+        "description": "close-up of lighted candle",
+        "downloadLocation": "https://api.unsplash.com/photos/AaZlf5FgUws/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c2luZ2xlJTIwY2FuZGxlJTIwZmxhbWUlMjBkYXJrfGVufDF8MHx8fDE3ODYxNzI0Njh8MA",
+        "photographer": "David Tomaseti",
+        "photographerUrl": "https://unsplash.com/@dtomaseti",
+        "photoUrl": "https://unsplash.com/photos/close-up-of-lighted-candle-AaZlf5FgUws",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\try-candle-gazing-meditation--0.jpg"
+      },
+      {
+        "id": "KY6NHtBWJB8",
+        "raw": "https://images.unsplash.com/photo-1528351655744-27cc30462816?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c2luZ2xlJTIwY2FuZGxlJTIwZmxhbWUlMjBkYXJrfGVufDF8MHx8fDE3ODYxNzI0Njh8MA&ixlib=rb-4.1.0",
+        "width": 7952,
+        "height": 5304,
+        "description": "A candle to warm up a night in Bali",
+        "downloadLocation": "https://api.unsplash.com/photos/KY6NHtBWJB8/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c2luZ2xlJTIwY2FuZGxlJTIwZmxhbWUlMjBkYXJrfGVufDF8MHx8fDE3ODYxNzI0Njh8MA",
+        "photographer": "Paolo Nicolello",
+        "photographerUrl": "https://unsplash.com/@paul_nic",
+        "photoUrl": "https://unsplash.com/photos/tea-light-on-brown-surface-KY6NHtBWJB8",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\try-candle-gazing-meditation--1.jpg"
+      },
+      {
+        "id": "vRH__teNKBM",
+        "raw": "https://images.unsplash.com/photo-1489101960932-eb71762e6bc8?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c2luZ2xlJTIwY2FuZGxlJTIwZmxhbWUlMjBkYXJrfGVufDF8MHx8fDE3ODYxNzI0Njh8MA&ixlib=rb-4.1.0",
+        "width": 5184,
+        "height": 3456,
+        "description": "Candle",
+        "downloadLocation": "https://api.unsplash.com/photos/vRH__teNKBM/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c2luZ2xlJTIwY2FuZGxlJTIwZmxhbWUlMjBkYXJrfGVufDF8MHx8fDE3ODYxNzI0Njh8MA",
+        "photographer": "David Monje",
+        "photographerUrl": "https://unsplash.com/@davidmonje",
+        "photoUrl": "https://unsplash.com/photos/red-lit-candle-vRH__teNKBM",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\try-candle-gazing-meditation--2.jpg"
+      },
+      {
+        "id": "8qgFNfC2oAI",
+        "raw": "https://images.unsplash.com/photo-1518528802892-ec2191995c99?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8NHx8c2luZ2xlJTIwY2FuZGxlJTIwZmxhbWUlMjBkYXJrfGVufDF8MHx8fDE3ODYxNzI0Njh8MA&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "Stearinlys",
+        "downloadLocation": "https://api.unsplash.com/photos/8qgFNfC2oAI/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8NHx8c2luZ2xlJTIwY2FuZGxlJTIwZmxhbWUlMjBkYXJrfGVufDF8MHx8fDE3ODYxNzI0Njh8MA",
+        "photographer": "Jarl Schmidt",
+        "photographerUrl": "https://unsplash.com/@jarl_schmidt",
+        "photoUrl": "https://unsplash.com/photos/lighted-candle-8qgFNfC2oAI",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\try-candle-gazing-meditation--3.jpg"
+      }
+    ]
+  },
+  "do-gentle-stretching-with-slow-breathing": {
+    "file": "public/activities.json",
+    "category": "mindfulness",
+    "slug": "do-gentle-stretching-with-slow-breathing",
+    "name": "Do gentle stretching with slow breathing",
+    "query": "gentle stretching yoga mat",
+    "candidates": [
+      {
+        "id": "G9H5edUL0T8",
+        "raw": "https://images.unsplash.com/photo-1637157216470-d92cd2edb2e8?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8Z2VudGxlJTIwc3RyZXRjaGluZyUyMHlvZ2ElMjBtYXR8ZW58MXwwfHx8MTc4NjE3MjIzMnww&ixlib=rb-4.1.0",
+        "width": 6240,
+        "height": 4160,
+        "description": "a person standing on a yoga mat on the floor",
+        "downloadLocation": "https://api.unsplash.com/photos/G9H5edUL0T8/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8Z2VudGxlJTIwc3RyZXRjaGluZyUyMHlvZ2ElMjBtYXR8ZW58MXwwfHx8MTc4NjE3MjIzMnww",
+        "photographer": "Junseong Lee",
+        "photographerUrl": "https://unsplash.com/@bearsnap",
+        "photoUrl": "https://unsplash.com/photos/a-person-standing-on-a-yoga-mat-on-the-floor-G9H5edUL0T8",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\do-gentle-stretching-with-slow-breathing--0.jpg"
+      },
+      {
+        "id": "AX8cf6mkCzw",
+        "raw": "https://images.unsplash.com/photo-1641913640860-ab4c2bfb2bb0?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8Z2VudGxlJTIwc3RyZXRjaGluZyUyMHlvZ2ElMjBtYXR8ZW58MXwwfHx8MTc4NjE3MjIzMnww&ixlib=rb-4.1.0",
+        "width": 6240,
+        "height": 4160,
+        "description": "a person standing on a yoga mat on the floor",
+        "downloadLocation": "https://api.unsplash.com/photos/AX8cf6mkCzw/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8Z2VudGxlJTIwc3RyZXRjaGluZyUyMHlvZ2ElMjBtYXR8ZW58MXwwfHx8MTc4NjE3MjIzMnww",
+        "photographer": "Junseong Lee",
+        "photographerUrl": "https://unsplash.com/@bearsnap",
+        "photoUrl": "https://unsplash.com/photos/a-person-standing-on-a-yoga-mat-on-the-floor-AX8cf6mkCzw",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\do-gentle-stretching-with-slow-breathing--1.jpg"
+      },
+      {
+        "id": "893qZckG6I4",
+        "raw": "https://images.unsplash.com/photo-1593811167565-4672e6c8ce4c?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8Z2VudGxlJTIwc3RyZXRjaGluZyUyMHlvZ2ElMjBtYXR8ZW58MXwwfHx8MTc4NjE3MjIzMnww&ixlib=rb-4.1.0",
+        "width": 6048,
+        "height": 4024,
+        "description": "woman in white shirt lying on red mat on brown wooden table",
+        "downloadLocation": "https://api.unsplash.com/photos/893qZckG6I4/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8Z2VudGxlJTIwc3RyZXRjaGluZyUyMHlvZ2ElMjBtYXR8ZW58MXwwfHx8MTc4NjE3MjIzMnww",
+        "photographer": "THLT LCX",
+        "photographerUrl": "https://unsplash.com/@thlt_lcx",
+        "photoUrl": "https://unsplash.com/photos/woman-in-white-shirt-lying-on-red-mat-on-brown-wooden-table-893qZckG6I4",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\do-gentle-stretching-with-slow-breathing--2.jpg"
+      }
+    ]
+  },
+  "sit-outside-and-just-listen-for-ten-minutes": {
+    "file": "public/activities.json",
+    "category": "mindfulness",
+    "slug": "sit-outside-and-just-listen-for-ten-minutes",
+    "name": "Sit outside and just listen for ten minutes",
+    "query": "sitting outside bench quiet nature",
+    "candidates": [
+      {
+        "id": "Zl8zGdnNcP8",
+        "raw": "https://images.unsplash.com/photo-1506899686410-4670690fccef?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c2l0dGluZyUyMG91dHNpZGUlMjBiZW5jaCUyMHF1aWV0JTIwbmF0dXJlfGVufDF8MHx8fDE3ODYxNzIyMzR8MA&ixlib=rb-4.1.0",
+        "width": 3641,
+        "height": 2727,
+        "description": "brown wooden bench under shade of tree during daytime",
+        "downloadLocation": "https://api.unsplash.com/photos/Zl8zGdnNcP8/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8c2l0dGluZyUyMG91dHNpZGUlMjBiZW5jaCUyMHF1aWV0JTIwbmF0dXJlfGVufDF8MHx8fDE3ODYxNzIyMzR8MA",
+        "photographer": "Aaron Burden",
+        "photographerUrl": "https://unsplash.com/@aaronburden",
+        "photoUrl": "https://unsplash.com/photos/brown-wooden-bench-under-shade-of-tree-during-daytime-Zl8zGdnNcP8",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\sit-outside-and-just-listen-for-ten-minutes--0.jpg"
+      },
+      {
+        "id": "xyrnwzVBuAI",
+        "raw": "https://images.unsplash.com/flagged/photo-1595778078523-93106815cdc2?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c2l0dGluZyUyMG91dHNpZGUlMjBiZW5jaCUyMHF1aWV0JTIwbmF0dXJlfGVufDF8MHx8fDE3ODYxNzIyMzR8MA&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "woman in black shirt sitting on bench",
+        "downloadLocation": "https://api.unsplash.com/photos/xyrnwzVBuAI/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8c2l0dGluZyUyMG91dHNpZGUlMjBiZW5jaCUyMHF1aWV0JTIwbmF0dXJlfGVufDF8MHx8fDE3ODYxNzIyMzR8MA",
+        "photographer": "Jacki Drexler",
+        "photographerUrl": "https://unsplash.com/@jacki_drexler",
+        "photoUrl": "https://unsplash.com/photos/woman-in-black-shirt-sitting-on-bench-xyrnwzVBuAI",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\sit-outside-and-just-listen-for-ten-minutes--1.jpg"
+      },
+      {
+        "id": "EBB45rCSjrU",
+        "raw": "https://images.unsplash.com/photo-1484619817839-dfc3452be01f?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c2l0dGluZyUyMG91dHNpZGUlMjBiZW5jaCUyMHF1aWV0JTIwbmF0dXJlfGVufDF8MHx8fDE3ODYxNzIyMzR8MA&ixlib=rb-4.1.0",
+        "width": 3264,
+        "height": 2448,
+        "description": "Edge of America",
+        "downloadLocation": "https://api.unsplash.com/photos/EBB45rCSjrU/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8c2l0dGluZyUyMG91dHNpZGUlMjBiZW5jaCUyMHF1aWV0JTIwbmF0dXJlfGVufDF8MHx8fDE3ODYxNzIyMzR8MA",
+        "photographer": "Noah Silliman",
+        "photographerUrl": "https://unsplash.com/@noahsilliman",
+        "photoUrl": "https://unsplash.com/photos/black-wooden-bench-near-green-leaf-trees-under-white-clouds-during-daytime-EBB45rCSjrU",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\sit-outside-and-just-listen-for-ten-minutes--2.jpg"
+      }
+    ]
+  },
+  "write-down-your-worries-then-set-them-aside": {
+    "file": "public/activities.json",
+    "category": "mindfulness",
+    "slug": "write-down-your-worries-then-set-them-aside",
+    "name": "Write down your worries, then set them aside",
+    "query": "journaling notebook pen writing",
+    "candidates": [
+      {
+        "id": "xG8IQMqMITM",
+        "raw": "https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8am91cm5hbGluZyUyMG5vdGVib29rJTIwcGVuJTIwd3JpdGluZ3xlbnwxfDB8fHwxNzg2MTcyMjM2fDA&ixlib=rb-4.1.0",
+        "width": 4592,
+        "height": 3448,
+        "description": "Fountain pen and a notebook",
+        "downloadLocation": "https://api.unsplash.com/photos/xG8IQMqMITM/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8am91cm5hbGluZyUyMG5vdGVib29rJTIwcGVuJTIwd3JpdGluZ3xlbnwxfDB8fHwxNzg2MTcyMjM2fDA",
+        "photographer": "Aaron Burden",
+        "photographerUrl": "https://unsplash.com/@aaronburden",
+        "photoUrl": "https://unsplash.com/photos/fountain-pen-on-spiral-book-xG8IQMqMITM",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\write-down-your-worries-then-set-them-aside--0.jpg"
+      },
+      {
+        "id": "3ym6i13Y9LU",
+        "raw": "https://images.unsplash.com/photo-1501618669935-18b6ecb13d6d?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8am91cm5hbGluZyUyMG5vdGVib29rJTIwcGVuJTIwd3JpdGluZ3xlbnwxfDB8fHwxNzg2MTcyMjM2fDA&ixlib=rb-4.1.0",
+        "width": 3620,
+        "height": 2475,
+        "description": "The amount of times I have tried to find a decent photo of a blank sketch book is too many. So I decided to create a few, starting with this one.",
+        "downloadLocation": "https://api.unsplash.com/photos/3ym6i13Y9LU/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8am91cm5hbGluZyUyMG5vdGVib29rJTIwcGVuJTIwd3JpdGluZ3xlbnwxfDB8fHwxNzg2MTcyMjM2fDA",
+        "photographer": "Mike Tinnion",
+        "photographerUrl": "https://unsplash.com/@m15ky",
+        "photoUrl": "https://unsplash.com/photos/black-and-silver-retractable-pen-on-blank-book-3ym6i13Y9LU",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\write-down-your-worries-then-set-them-aside--1.jpg"
+      },
+      {
+        "id": "CKlHKtCJZKk",
+        "raw": "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8am91cm5hbGluZyUyMG5vdGVib29rJTIwcGVuJTIwd3JpdGluZ3xlbnwxfDB8fHwxNzg2MTcyMjM2fDA&ixlib=rb-4.1.0",
+        "width": 4592,
+        "height": 3448,
+        "description": "Fountain pen on a journal",
+        "downloadLocation": "https://api.unsplash.com/photos/CKlHKtCJZKk/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8am91cm5hbGluZyUyMG5vdGVib29rJTIwcGVuJTIwd3JpdGluZ3xlbnwxfDB8fHwxNzg2MTcyMjM2fDA",
+        "photographer": "Aaron Burden",
+        "photographerUrl": "https://unsplash.com/@aaronburden",
+        "photoUrl": "https://unsplash.com/photos/pen-on-white-lined-paper-selective-focus-photography-CKlHKtCJZKk",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\write-down-your-worries-then-set-them-aside--2.jpg"
+      }
+    ]
+  },
+  "do-one-task-slowly-with-full-attention": {
+    "file": "public/activities.json",
+    "category": "mindfulness",
+    "slug": "do-one-task-slowly-with-full-attention",
+    "name": "Do one task slowly with full attention",
+    "query": "pouring tea slowly hands",
+    "candidates": [
+      {
+        "id": "BOIBMiFYIPo",
+        "raw": "https://images.unsplash.com/photo-1587834323138-befbf2c33797?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8cG91cmluZyUyMHRlYSUyMHNsb3dseSUyMGhhbmRzfGVufDF8MHx8fDE3ODYxNzIyMzh8MA&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "Tea ceremony",
+        "downloadLocation": "https://api.unsplash.com/photos/BOIBMiFYIPo/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8cG91cmluZyUyMHRlYSUyMHNsb3dseSUyMGhhbmRzfGVufDF8MHx8fDE3ODYxNzIyMzh8MA",
+        "photographer": "Sergey N",
+        "photographerUrl": "https://unsplash.com/@tipod",
+        "photoUrl": "https://unsplash.com/photos/silver-spoon-in-white-ceramic-bowl-BOIBMiFYIPo",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\do-one-task-slowly-with-full-attention--0.jpg"
+      },
+      {
+        "id": "buFy9dYJaTg",
+        "raw": "https://images.unsplash.com/photo-1579904380068-1dfca8319ab8?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8cG91cmluZyUyMHRlYSUyMHNsb3dseSUyMGhhbmRzfGVufDF8MHx8fDE3ODYxNzIyMzh8MA&ixlib=rb-4.1.0",
+        "width": 5000,
+        "height": 4000,
+        "description": "Instagram: @harry.digital . Hot tea on a cold morning in the cabin in Albany, Western Australia.",
+        "downloadLocation": "https://api.unsplash.com/photos/buFy9dYJaTg/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8cG91cmluZyUyMHRlYSUyMHNsb3dseSUyMGhhbmRzfGVufDF8MHx8fDE3ODYxNzIyMzh8MA",
+        "photographer": "Hc Digital",
+        "photographerUrl": "https://unsplash.com/@hcdigital",
+        "photoUrl": "https://unsplash.com/photos/white-ceramic-mug-with-coffee-buFy9dYJaTg",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\do-one-task-slowly-with-full-attention--1.jpg"
+      },
+      {
+        "id": "vCdC4Tz-dFU",
+        "raw": "https://images.unsplash.com/photo-1636895109157-689d0ed6f14b?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8cG91cmluZyUyMHRlYSUyMHNsb3dseSUyMGhhbmRzfGVufDF8MHx8fDE3ODYxNzIyMzh8MA&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "A cup of tea is filled. The tea is yellow",
+        "downloadLocation": "https://api.unsplash.com/photos/vCdC4Tz-dFU/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8cG91cmluZyUyMHRlYSUyMHNsb3dseSUyMGhhbmRzfGVufDF8MHx8fDE3ODYxNzIyMzh8MA",
+        "photographer": "Georg Niggli",
+        "photographerUrl": "https://unsplash.com/@gniggli",
+        "photoUrl": "https://unsplash.com/photos/a-cup-of-tea-being-poured-into-a-teapot-vCdC4Tz-dFU",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\do-one-task-slowly-with-full-attention--2.jpg"
+      }
+    ]
+  },
+  "write-a-thank-you-note-to-someone": {
+    "file": "public/activities.json",
+    "category": "social",
+    "slug": "write-a-thank-you-note-to-someone",
+    "name": "Write a thank-you note to someone",
+    "query": "thank you card handwriting",
+    "candidates": [
+      {
+        "id": "fvpgfw3IF1w",
+        "raw": "https://images.unsplash.com/photo-1549032305-e816fabf0dd2?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8dGhhbmslMjB5b3UlMjBjYXJkJTIwaGFuZHdyaXRpbmd8ZW58MXwwfHx8MTc4NjE3MjI0MHww&ixlib=rb-4.1.0",
+        "width": 5568,
+        "height": 3712,
+        "description": "thanks! paper and black pen on wood surface",
+        "downloadLocation": "https://api.unsplash.com/photos/fvpgfw3IF1w/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8dGhhbmslMjB5b3UlMjBjYXJkJTIwaGFuZHdyaXRpbmd8ZW58MXwwfHx8MTc4NjE3MjI0MHww",
+        "photographer": "Kelly Sikkema",
+        "photographerUrl": "https://unsplash.com/@kellysikkema",
+        "photoUrl": "https://unsplash.com/photos/thanks-paper-and-black-pen-on-wood-surface-fvpgfw3IF1w",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\write-a-thank-you-note-to-someone--0.jpg"
+      },
+      {
+        "id": "sQyUqjIz5XY",
+        "raw": "https://images.unsplash.com/photo-1656587118349-0f7089a9ef58?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8dGhhbmslMjB5b3UlMjBjYXJkJTIwaGFuZHdyaXRpbmd8ZW58MXwwfHx8MTc4NjE3MjI0MHww&ixlib=rb-4.1.0",
+        "width": 7008,
+        "height": 4672,
+        "description": "text",
+        "downloadLocation": "https://api.unsplash.com/photos/sQyUqjIz5XY/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8dGhhbmslMjB5b3UlMjBjYXJkJTIwaGFuZHdyaXRpbmd8ZW58MXwwfHx8MTc4NjE3MjI0MHww",
+        "photographer": "Jonny Gios",
+        "photographerUrl": "https://unsplash.com/@supergios",
+        "photoUrl": "https://unsplash.com/photos/text-sQyUqjIz5XY",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\write-a-thank-you-note-to-someone--1.jpg"
+      },
+      {
+        "id": "zunGugEsJCE",
+        "raw": "https://images.unsplash.com/photo-1487712010531-65e9aa8b4b1a?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8dGhhbmslMjB5b3UlMjBjYXJkJTIwaGFuZHdyaXRpbmd8ZW58MXwwfHx8MTc4NjE3MjI0MHww&ixlib=rb-4.1.0",
+        "width": 4608,
+        "height": 3456,
+        "description": "Thankfulness redirects our attention from our difficulties to the benefits we enjoy. -Michael Hyatt",
+        "downloadLocation": "https://api.unsplash.com/photos/zunGugEsJCE/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8dGhhbmslMjB5b3UlMjBjYXJkJTIwaGFuZHdyaXRpbmd8ZW58MXwwfHx8MTc4NjE3MjI0MHww",
+        "photographer": "Aaron Burden",
+        "photographerUrl": "https://unsplash.com/@aaronburden",
+        "photoUrl": "https://unsplash.com/photos/fountain-pen-next-to-red-thank-you-journal-zunGugEsJCE",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\write-a-thank-you-note-to-someone--2.jpg"
+      }
+    ]
+  },
+  "plan-a-surprise-for-a-friend-or-family-member": {
+    "file": "public/activities.json",
+    "category": "social",
+    "slug": "plan-a-surprise-for-a-friend-or-family-member",
+    "name": "Plan a surprise for a friend or family member",
+    "query": "wrapping gift surprise",
+    "candidates": [
+      {
+        "id": "IPx7J1n_xUc",
+        "raw": "https://images.unsplash.com/photo-1512909006721-3d6018887383?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8d3JhcHBpbmclMjBnaWZ0JTIwc3VycHJpc2V8ZW58MXwwfHx8MTc4NjE3MjI0Mnww&ixlib=rb-4.1.0",
+        "width": 5184,
+        "height": 3456,
+        "description": "If you want to say thank you for the free photo content, i'd appreciate a small donation :) Merry Christmas! DONATE HERE -> https://tinyurl.com/3ucsnvch",
+        "downloadLocation": "https://api.unsplash.com/photos/IPx7J1n_xUc/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8d3JhcHBpbmclMjBnaWZ0JTIwc3VycHJpc2V8ZW58MXwwfHx8MTc4NjE3MjI0Mnww",
+        "photographer": "Kira auf der Heide",
+        "photographerUrl": "https://unsplash.com/@kadh",
+        "photoUrl": "https://unsplash.com/photos/person-showing-brown-gift-box-IPx7J1n_xUc",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\plan-a-surprise-for-a-friend-or-family-member--0.jpg"
+      },
+      {
+        "id": "f94JPVrDbnY",
+        "raw": "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8d3JhcHBpbmclMjBnaWZ0JTIwc3VycHJpc2V8ZW58MXwwfHx8MTc4NjE3MjI0Mnww&ixlib=rb-4.1.0",
+        "width": 4608,
+        "height": 3456,
+        "description": "brown gift box with pink ribbon",
+        "downloadLocation": "https://api.unsplash.com/photos/f94JPVrDbnY/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8d3JhcHBpbmclMjBnaWZ0JTIwc3VycHJpc2V8ZW58MXwwfHx8MTc4NjE3MjI0Mnww",
+        "photographer": "Jess Bailey",
+        "photographerUrl": "https://unsplash.com/@jessbaileydesigns",
+        "photoUrl": "https://unsplash.com/photos/brown-gift-box-with-pink-ribbon-f94JPVrDbnY",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\plan-a-surprise-for-a-friend-or-family-member--1.jpg"
+      },
+      {
+        "id": "zMdOBBNPB5o",
+        "raw": "https://images.unsplash.com/photo-1544639044-4f142ceb6a2b?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8d3JhcHBpbmclMjBnaWZ0JTIwc3VycHJpc2V8ZW58MXwwfHx8MTc4NjE3MjI0Mnww&ixlib=rb-4.1.0",
+        "width": 5184,
+        "height": 3456,
+        "description": "person holding present box",
+        "downloadLocation": "https://api.unsplash.com/photos/zMdOBBNPB5o/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8d3JhcHBpbmclMjBnaWZ0JTIwc3VycHJpc2V8ZW58MXwwfHx8MTc4NjE3MjI0Mnww",
+        "photographer": "freestocks",
+        "photographerUrl": "https://unsplash.com/@freestocks",
+        "photoUrl": "https://unsplash.com/photos/person-holding-present-box-zMdOBBNPB5o",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\plan-a-surprise-for-a-friend-or-family-member--2.jpg"
+      }
+    ]
+  },
+  "interview-an-older-relative-about-their-life": {
+    "file": "public/activities.json",
+    "category": "social",
+    "slug": "interview-an-older-relative-about-their-life",
+    "name": "Interview an older relative about their life",
+    "query": "grandmother talking family conversation",
+    "candidates": [
+      {
+        "id": "izJC1PUjZNc",
+        "raw": "https://images.unsplash.com/photo-1580883344775-c5a84aa3b7e7?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8Z3JhbmRtb3RoZXIlMjB0YWxraW5nJTIwZmFtaWx5JTIwY29udmVyc2F0aW9ufGVufDF8MHx8fDE3ODYxNzIyNDV8MA&ixlib=rb-4.1.0",
+        "width": 4952,
+        "height": 3288,
+        "description": "This is my grandma. She actually is a former chemistry/ecology science gal and has publications translated in many languages.",
+        "downloadLocation": "https://api.unsplash.com/photos/izJC1PUjZNc/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8Z3JhbmRtb3RoZXIlMjB0YWxraW5nJTIwZmFtaWx5JTIwY29udmVyc2F0aW9ufGVufDF8MHx8fDE3ODYxNzIyNDV8MA",
+        "photographer": "Artem Labunsky",
+        "photographerUrl": "https://unsplash.com/@labunsky",
+        "photoUrl": "https://unsplash.com/photos/woman-in-black-shirt-wearing-eyeglasses-izJC1PUjZNc",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\interview-an-older-relative-about-their-life--0.jpg"
+      },
+      {
+        "id": "znxxhOIQtIE",
+        "raw": "https://images.unsplash.com/photo-1758874959821-5484186a8d21?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8Z3JhbmRtb3RoZXIlMjB0YWxraW5nJTIwZmFtaWx5JTIwY29udmVyc2F0aW9ufGVufDF8MHx8fDE3ODYxNzIyNDV8MA&ixlib=rb-4.1.0",
+        "width": 3840,
+        "height": 2160,
+        "description": "Kid adorable girl is eating croissant and talking to happy granny laughing having breakfast at kitchen table. Family relationship and childhood concept.",
+        "downloadLocation": "https://api.unsplash.com/photos/znxxhOIQtIE/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8Z3JhbmRtb3RoZXIlMjB0YWxraW5nJTIwZmFtaWx5JTIwY29udmVyc2F0aW9ufGVufDF8MHx8fDE3ODYxNzIyNDV8MA",
+        "photographer": "Vitaly Gariev",
+        "photographerUrl": "https://unsplash.com/@silverkblack",
+        "photoUrl": "https://unsplash.com/photos/grandmother-and-granddaughter-sharing-breakfast-at-table-znxxhOIQtIE",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\interview-an-older-relative-about-their-life--1.jpg"
+      },
+      {
+        "id": "ZThZKQjtGLQ",
+        "raw": "https://images.unsplash.com/photo-1758874959820-56eb362040e5?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8Z3JhbmRtb3RoZXIlMjB0YWxraW5nJTIwZmFtaWx5JTIwY29udmVyc2F0aW9ufGVufDF8MHx8fDE3ODYxNzIyNDV8MA&ixlib=rb-4.1.0",
+        "width": 3840,
+        "height": 2160,
+        "description": "Joyful family granddaughter and grandmother are having breakfast at home talking laughing enjoying time together. Grandparents and children concept.",
+        "downloadLocation": "https://api.unsplash.com/photos/ZThZKQjtGLQ/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8Z3JhbmRtb3RoZXIlMjB0YWxraW5nJTIwZmFtaWx5JTIwY29udmVyc2F0aW9ufGVufDF8MHx8fDE3ODYxNzIyNDV8MA",
+        "photographer": "Vitaly Gariev",
+        "photographerUrl": "https://unsplash.com/@silverkblack",
+        "photoUrl": "https://unsplash.com/photos/grandmother-and-granddaughter-enjoying-breakfast-together-ZThZKQjtGLQ",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\interview-an-older-relative-about-their-life--2.jpg"
+      }
+    ]
+  },
+  "give-three-genuine-compliments-today": {
+    "file": "public/activities.json",
+    "category": "social",
+    "slug": "give-three-genuine-compliments-today",
+    "name": "Give three genuine compliments today",
+    "query": "friends smiling conversation",
+    "candidates": [
+      {
+        "id": "-uHVRvDr7pg",
+        "raw": "https://images.unsplash.com/photo-1543269865-cbf427effbad?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8ZnJpZW5kcyUyMHNtaWxpbmclMjBjb252ZXJzYXRpb258ZW58MXwwfHx8MTc4NjE3MjI0Nnww&ixlib=rb-4.1.0",
+        "width": 3997,
+        "height": 2665,
+        "description": "A group of friends at a coffee shop",
+        "downloadLocation": "https://api.unsplash.com/photos/-uHVRvDr7pg/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8ZnJpZW5kcyUyMHNtaWxpbmclMjBjb252ZXJzYXRpb258ZW58MXwwfHx8MTc4NjE3MjI0Nnww",
+        "photographer": "Brooke Cagle",
+        "photographerUrl": "https://unsplash.com/@brookecagle",
+        "photoUrl": "https://unsplash.com/photos/a-group-of-friends-at-a-coffee-shop--uHVRvDr7pg",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\give-three-genuine-compliments-today--0.jpg"
+      },
+      {
+        "id": "nF8xhLMmg0c",
+        "raw": "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8ZnJpZW5kcyUyMHNtaWxpbmclMjBjb252ZXJzYXRpb258ZW58MXwwfHx8MTc4NjE3MjI0Nnww&ixlib=rb-4.1.0",
+        "width": 5472,
+        "height": 3648,
+        "description": "people laughing and talking outside during daytime",
+        "downloadLocation": "https://api.unsplash.com/photos/nF8xhLMmg0c/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8ZnJpZW5kcyUyMHNtaWxpbmclMjBjb252ZXJzYXRpb258ZW58MXwwfHx8MTc4NjE3MjI0Nnww",
+        "photographer": "Priscilla Du Preez 🇨🇦",
+        "photographerUrl": "https://unsplash.com/@priscilladupreez",
+        "photoUrl": "https://unsplash.com/photos/people-laughing-and-talking-outside-during-daytime-nF8xhLMmg0c",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\give-three-genuine-compliments-today--1.jpg"
+      },
+      {
+        "id": "e3OUQGT9bWU",
+        "raw": "https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8ZnJpZW5kcyUyMHNtaWxpbmclMjBjb252ZXJzYXRpb258ZW58MXwwfHx8MTc4NjE3MjI0Nnww&ixlib=rb-4.1.0",
+        "width": 5090,
+        "height": 3393,
+        "description": "Saturday. Summer. Beautiful sunny day, so my friends and I decided to make a picnic and watch the sundown. Pretty fun and relaxed day.",
+        "downloadLocation": "https://api.unsplash.com/photos/e3OUQGT9bWU/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8ZnJpZW5kcyUyMHNtaWxpbmclMjBjb252ZXJzYXRpb258ZW58MXwwfHx8MTc4NjE3MjI0Nnww",
+        "photographer": "Helena Lopes",
+        "photographerUrl": "https://unsplash.com/@helenalopesph",
+        "photoUrl": "https://unsplash.com/photos/three-men-and-one-woman-laughing-during-daytime-e3OUQGT9bWU",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\give-three-genuine-compliments-today--2.jpg"
+      }
+    ]
+  },
+  "plan-a-weekend-trip-with-friends": {
+    "file": "public/activities.json",
+    "category": "social",
+    "slug": "plan-a-weekend-trip-with-friends",
+    "name": "Plan a weekend trip with friends",
+    "query": "friends planning trip map laptop",
+    "candidates": [
+      {
+        "id": "tLG2hcpITZE",
+        "raw": "https://images.unsplash.com/photo-1543269865-0a740d43b90c?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8ZnJpZW5kcyUyMHBsYW5uaW5nJTIwdHJpcCUyMG1hcCUyMGxhcHRvcHxlbnwxfDB8fHwxNzg2MTcyMjQ4fDA&ixlib=rb-4.1.0",
+        "width": 4723,
+        "height": 3149,
+        "description": "two woman sitting near table using Samsung laptop",
+        "downloadLocation": "https://api.unsplash.com/photos/tLG2hcpITZE/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8ZnJpZW5kcyUyMHBsYW5uaW5nJTIwdHJpcCUyMG1hcCUyMGxhcHRvcHxlbnwxfDB8fHwxNzg2MTcyMjQ4fDA",
+        "photographer": "Brooke Cagle",
+        "photographerUrl": "https://unsplash.com/@brookecagle",
+        "photoUrl": "https://unsplash.com/photos/two-woman-sitting-near-table-using-samsung-laptop-tLG2hcpITZE",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\plan-a-weekend-trip-with-friends--0.jpg"
+      },
+      {
+        "id": "ZWD3Dx6aUJg",
+        "raw": "https://images.unsplash.com/photo-1499591934245-40b55745b905?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8ZnJpZW5kcyUyMHBsYW5uaW5nJTIwdHJpcCUyMG1hcCUyMGxhcHRvcHxlbnwxfDB8fHwxNzg2MTcyMjQ4fDA&ixlib=rb-4.1.0",
+        "width": 4256,
+        "height": 2832,
+        "description": "person writing on white paper",
+        "downloadLocation": "https://api.unsplash.com/photos/ZWD3Dx6aUJg/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8ZnJpZW5kcyUyMHBsYW5uaW5nJTIwdHJpcCUyMG1hcCUyMGxhcHRvcHxlbnwxfDB8fHwxNzg2MTcyMjQ4fDA",
+        "photographer": "Glenn Carstens-Peters",
+        "photographerUrl": "https://unsplash.com/@glenncarstenspeters",
+        "photoUrl": "https://unsplash.com/photos/person-writing-on-white-paper-ZWD3Dx6aUJg",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\plan-a-weekend-trip-with-friends--1.jpg"
+      },
+      {
+        "id": "f2fzbf0pMLE",
+        "raw": "https://images.unsplash.com/photo-1592931259806-b945e7f0a9ac?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8ZnJpZW5kcyUyMHBsYW5uaW5nJTIwdHJpcCUyMG1hcCUyMGxhcHRvcHxlbnwxfDB8fHwxNzg2MTcyMjQ4fDA&ixlib=rb-4.1.0",
+        "width": 3966,
+        "height": 2537,
+        "description": "A Map",
+        "downloadLocation": "https://api.unsplash.com/photos/f2fzbf0pMLE/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8ZnJpZW5kcyUyMHBsYW5uaW5nJTIwdHJpcCUyMG1hcCUyMGxhcHRvcHxlbnwxfDB8fHwxNzg2MTcyMjQ4fDA",
+        "photographer": "Nick Shandra",
+        "photographerUrl": "https://unsplash.com/@shandranick",
+        "photoUrl": "https://unsplash.com/photos/person-in-red-shirt-writing-on-white-paper-f2fzbf0pMLE",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\plan-a-weekend-trip-with-friends--2.jpg"
+      }
+    ]
+  },
+  "strike-up-a-conversation-with-a-neighbor": {
+    "file": "public/activities.json",
+    "category": "social",
+    "slug": "strike-up-a-conversation-with-a-neighbor",
+    "name": "Strike up a conversation with a neighbor",
+    "query": "two people talking outdoors street",
+    "candidates": [
+      {
+        "id": "XyG5lOIF74Q",
+        "raw": "https://images.unsplash.com/photo-1758525223193-1bd8fca96ef3?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8dHdvJTIwcGVvcGxlJTIwdGFsa2luZyUyMG91dGRvb3JzJTIwc3RyZWV0fGVufDF8MHx8fDE3ODYxNzI0Nzd8MA&ixlib=rb-4.1.0",
+        "width": 3840,
+        "height": 2160,
+        "description": "Two beautiful mixed race woman friends drink coffee and talking after shopping and walking city street",
+        "downloadLocation": "https://api.unsplash.com/photos/XyG5lOIF74Q/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8dHdvJTIwcGVvcGxlJTIwdGFsa2luZyUyMG91dGRvb3JzJTIwc3RyZWV0fGVufDF8MHx8fDE3ODYxNzI0Nzd8MA",
+        "photographer": "Vitaly Gariev",
+        "photographerUrl": "https://unsplash.com/@silverkblack",
+        "photoUrl": "https://unsplash.com/photos/two-women-walking-with-coffee-cups-XyG5lOIF74Q",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\strike-up-a-conversation-with-a-neighbor--0.jpg"
+      },
+      {
+        "id": "N7uKZ_1raEs",
+        "raw": "https://images.unsplash.com/photo-1758274251489-bcf562ae7da7?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8dHdvJTIwcGVvcGxlJTIwdGFsa2luZyUyMG91dGRvb3JzJTIwc3RyZWV0fGVufDF8MHx8fDE3ODYxNzI0Nzd8MA&ixlib=rb-4.1.0",
+        "width": 3800,
+        "height": 2138,
+        "description": "Happy girls are chatting and laughing standing outdoors on sidewalk holding bright shopping bags discussing day in mall. Young women are wearing stylish clothing and glasses.",
+        "downloadLocation": "https://api.unsplash.com/photos/N7uKZ_1raEs/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8dHdvJTIwcGVvcGxlJTIwdGFsa2luZyUyMG91dGRvb3JzJTIwc3RyZWV0fGVufDF8MHx8fDE3ODYxNzI0Nzd8MA",
+        "photographer": "Vitaly Gariev",
+        "photographerUrl": "https://unsplash.com/@silverkblack",
+        "photoUrl": "https://unsplash.com/photos/two-women-wearing-hats-talking-outdoors-N7uKZ_1raEs",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\strike-up-a-conversation-with-a-neighbor--1.jpg"
+      },
+      {
+        "id": "wkT7ui5fDiU",
+        "raw": "https://images.unsplash.com/photo-1758274251495-887267d3de11?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8dHdvJTIwcGVvcGxlJTIwdGFsa2luZyUyMG91dGRvb3JzJTIwc3RyZWV0fGVufDF8MHx8fDE3ODYxNzI0Nzd8MA&ixlib=rb-4.1.0",
+        "width": 3800,
+        "height": 2138,
+        "description": "Happy Asian girl with shopping bags is talking to her female friend standing in the street then showing her purchases while Caucasian young woman is expressing positive emotons.",
+        "downloadLocation": "https://api.unsplash.com/photos/wkT7ui5fDiU/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8dHdvJTIwcGVvcGxlJTIwdGFsa2luZyUyMG91dGRvb3JzJTIwc3RyZWV0fGVufDF8MHx8fDE3ODYxNzI0Nzd8MA",
+        "photographer": "Vitaly Gariev",
+        "photographerUrl": "https://unsplash.com/@silverkblack",
+        "photoUrl": "https://unsplash.com/photos/two-women-with-shopping-bags-in-a-park-wkT7ui5fDiU",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\strike-up-a-conversation-with-a-neighbor--2.jpg"
+      },
+      {
+        "id": "MOywqRZj1LM",
+        "raw": "https://images.unsplash.com/photo-1758274251581-4e3a0c9008fb?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8NHx8dHdvJTIwcGVvcGxlJTIwdGFsa2luZyUyMG91dGRvb3JzJTIwc3RyZWV0fGVufDF8MHx8fDE3ODYxNzI0Nzd8MA&ixlib=rb-4.1.0",
+        "width": 3800,
+        "height": 2138,
+        "description": "Excited girl is looking at her friend's purchases in bags, asking questions about prices and collections and expressing excitement about shopping standing together in the street in city.",
+        "downloadLocation": "https://api.unsplash.com/photos/MOywqRZj1LM/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8NHx8dHdvJTIwcGVvcGxlJTIwdGFsa2luZyUyMG91dGRvb3JzJTIwc3RyZWV0fGVufDF8MHx8fDE3ODYxNzI0Nzd8MA",
+        "photographer": "Vitaly Gariev",
+        "photographerUrl": "https://unsplash.com/@silverkblack",
+        "photoUrl": "https://unsplash.com/photos/two-women-looking-into-shopping-bags-outdoors-MOywqRZj1LM",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\strike-up-a-conversation-with-a-neighbor--3.jpg"
+      }
+    ]
+  },
+  "do-a-crossword-puzzle": {
+    "file": "public/activities.json",
+    "category": "games",
+    "slug": "do-a-crossword-puzzle",
+    "name": "Do a crossword puzzle",
+    "query": "crossword puzzle pencil",
+    "candidates": [
+      {
+        "id": "X08CpWnZtWY",
+        "raw": "https://images.unsplash.com/photo-1667687435942-4fdff73a3ed6?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8Y3Jvc3N3b3JkJTIwcHV6emxlJTIwcGVuY2lsfGVufDF8MHx8fDE3ODYxNzIyNTN8MA&ixlib=rb-4.1.0",
+        "width": 4323,
+        "height": 2882,
+        "description": "Dixon Ticonderoga pencil",
+        "downloadLocation": "https://api.unsplash.com/photos/X08CpWnZtWY/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8Y3Jvc3N3b3JkJTIwcHV6emxlJTIwcGVuY2lsfGVufDF8MHx8fDE3ODYxNzIyNTN8MA",
+        "photographer": "Daniel Shapiro",
+        "photographerUrl": "https://unsplash.com/@dshap",
+        "photoUrl": "https://unsplash.com/photos/a-pencil-with-a-yellow-tip-X08CpWnZtWY",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\do-a-crossword-puzzle--0.jpg"
+      },
+      {
+        "id": "IMaQN8ib31Q",
+        "raw": "https://images.unsplash.com/photo-1626195205019-e39840c1df1c?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8Y3Jvc3N3b3JkJTIwcHV6emxlJTIwcGVuY2lsfGVufDF8MHx8fDE3ODYxNzIyNTN8MA&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "Woman doing a crossword on the train",
+        "downloadLocation": "https://api.unsplash.com/photos/IMaQN8ib31Q/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8Y3Jvc3N3b3JkJTIwcHV6emxlJTIwcGVuY2lsfGVufDF8MHx8fDE3ODYxNzIyNTN8MA",
+        "photographer": "Ross Sneddon",
+        "photographerUrl": "https://unsplash.com/@rosssneddon",
+        "photoUrl": "https://unsplash.com/photos/person-holding-white-and-black-paper-IMaQN8ib31Q",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\do-a-crossword-puzzle--1.jpg"
+      },
+      {
+        "id": "DN3QZoPlQGE",
+        "raw": "https://images.unsplash.com/photo-1497278727017-4f2d90e16b3e?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8Y3Jvc3N3b3JkJTIwcHV6emxlJTIwcGVuY2lsfGVufDF8MHx8fDE3ODYxNzIyNTN8MA&ixlib=rb-4.1.0",
+        "width": 3000,
+        "height": 1987,
+        "description": "Favorite Color",
+        "downloadLocation": "https://api.unsplash.com/photos/DN3QZoPlQGE/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8Y3Jvc3N3b3JkJTIwcHV6emxlJTIwcGVuY2lsfGVufDF8MHx8fDE3ODYxNzIyNTN8MA",
+        "photographer": "Kelly Sikkema",
+        "photographerUrl": "https://unsplash.com/@kellysikkema",
+        "photoUrl": "https://unsplash.com/photos/cosmetic-pencil-DN3QZoPlQGE",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\do-a-crossword-puzzle--2.jpg"
+      }
+    ]
+  },
+  "start-a-jigsaw-puzzle": {
+    "file": "public/activities.json",
+    "category": "games",
+    "slug": "start-a-jigsaw-puzzle",
+    "name": "Start a jigsaw puzzle",
+    "query": "jigsaw puzzle pieces table",
+    "candidates": [
+      {
+        "id": "cWMhxNmQVq0",
+        "raw": "https://images.unsplash.com/photo-1730804518415-75297e8d2a41?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8amlnc2F3JTIwcHV6emxlJTIwcGllY2VzJTIwdGFibGV8ZW58MXwwfHx8MTc4NjE3MjI1NXww&ixlib=rb-4.1.0",
+        "width": 3725,
+        "height": 2508,
+        "description": "A piece of a puzzle with a missing piece",
+        "downloadLocation": "https://api.unsplash.com/photos/cWMhxNmQVq0/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8amlnc2F3JTIwcHV6emxlJTIwcGllY2VzJTIwdGFibGV8ZW58MXwwfHx8MTc4NjE3MjI1NXww",
+        "photographer": "Tanja Tepavac",
+        "photographerUrl": "https://unsplash.com/@ttepavac",
+        "photoUrl": "https://unsplash.com/photos/a-piece-of-a-puzzle-with-a-missing-piece-cWMhxNmQVq0",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\start-a-jigsaw-puzzle--0.jpg"
+      },
+      {
+        "id": "sWlDOWk0Jp8",
+        "raw": "https://images.unsplash.com/photo-1588591795084-1770cb3be374?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8amlnc2F3JTIwcHV6emxlJTIwcGllY2VzJTIwdGFibGV8ZW58MXwwfHx8MTc4NjE3MjI1NXww&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "Jigsaw",
+        "downloadLocation": "https://api.unsplash.com/photos/sWlDOWk0Jp8/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8amlnc2F3JTIwcHV6emxlJTIwcGllY2VzJTIwdGFibGV8ZW58MXwwfHx8MTc4NjE3MjI1NXww",
+        "photographer": "Ross Sneddon",
+        "photographerUrl": "https://unsplash.com/@rosssneddon",
+        "photoUrl": "https://unsplash.com/photos/person-holding-jigsaw-puzzle-piece-sWlDOWk0Jp8",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\start-a-jigsaw-puzzle--1.jpg"
+      },
+      {
+        "id": "aYPtEknQmXE",
+        "raw": "https://images.unsplash.com/photo-1586527155314-1d25428324ff?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8amlnc2F3JTIwcHV6emxlJTIwcGllY2VzJTIwdGFibGV8ZW58MXwwfHx8MTc4NjE3MjI1NXww&ixlib=rb-4.1.0",
+        "width": 3999,
+        "height": 2666,
+        "description": "white and black jigsaw puzzle",
+        "downloadLocation": "https://api.unsplash.com/photos/aYPtEknQmXE/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8amlnc2F3JTIwcHV6emxlJTIwcGllY2VzJTIwdGFibGV8ZW58MXwwfHx8MTc4NjE3MjI1NXww",
+        "photographer": "Markus Winkler",
+        "photographerUrl": "https://unsplash.com/@markuswinkler",
+        "photoUrl": "https://unsplash.com/photos/white-and-black-jigsaw-puzzle-aYPtEknQmXE",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\start-a-jigsaw-puzzle--2.jpg"
+      }
+    ]
+  },
+  "play-twenty-questions-with-someone": {
+    "file": "public/activities.json",
+    "category": "games",
+    "slug": "play-twenty-questions-with-someone",
+    "name": "Play twenty questions with someone",
+    "query": "friends laughing living room talking",
+    "candidates": [
+      {
+        "id": "rjnIYeC6rmA",
+        "raw": "https://images.unsplash.com/photo-1739302750675-042ed497a429?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8ZnJpZW5kcyUyMGxhdWdoaW5nJTIwbGl2aW5nJTIwcm9vbSUyMHRhbGtpbmd8ZW58MXwwfHx8MTc4NjE3MjI1N3ww&ixlib=rb-4.1.0",
+        "width": 3408,
+        "height": 2272,
+        "description": "Two Friends are sitting on a couch, laughing and talking. Find more afro-centric images at www.ninthgrid.com",
+        "downloadLocation": "https://api.unsplash.com/photos/rjnIYeC6rmA/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8ZnJpZW5kcyUyMGxhdWdoaW5nJTIwbGl2aW5nJTIwcm9vbSUyMHRhbGtpbmd8ZW58MXwwfHx8MTc4NjE3MjI1N3ww",
+        "photographer": "Ninthgrid",
+        "photographerUrl": "https://unsplash.com/@ninthgrid_",
+        "photoUrl": "https://unsplash.com/photos/a-couple-of-women-sitting-on-top-of-a-white-couch-rjnIYeC6rmA",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\play-twenty-questions-with-someone--0.jpg"
+      },
+      {
+        "id": "fNH9-MP2ueI",
+        "raw": "https://images.unsplash.com/photo-1772724317390-f433f409825a?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8ZnJpZW5kcyUyMGxhdWdoaW5nJTIwbGl2aW5nJTIwcm9vbSUyMHRhbGtpbmd8ZW58MXwwfHx8MTc4NjE3MjI1N3ww&ixlib=rb-4.1.0",
+        "width": 7728,
+        "height": 5152,
+        "description": "Friends laughing while watching a sports game at home.",
+        "downloadLocation": "https://api.unsplash.com/photos/fNH9-MP2ueI/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8ZnJpZW5kcyUyMGxhdWdoaW5nJTIwbGl2aW5nJTIwcm9vbSUyMHRhbGtpbmd8ZW58MXwwfHx8MTc4NjE3MjI1N3ww",
+        "photographer": "Apartment Life",
+        "photographerUrl": "https://unsplash.com/@apartmentlife",
+        "photoUrl": "https://unsplash.com/photos/friends-laughing-while-watching-a-sports-game-at-home-fNH9-MP2ueI",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\play-twenty-questions-with-someone--1.jpg"
+      },
+      {
+        "id": "0bCeIwI729k",
+        "raw": "https://images.unsplash.com/photo-1758526213969-61068ad19a8c?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8ZnJpZW5kcyUyMGxhdWdoaW5nJTIwbGl2aW5nJTIwcm9vbSUyMHRhbGtpbmd8ZW58MXwwfHx8MTc4NjE3MjI1N3ww&ixlib=rb-4.1.0",
+        "width": 3840,
+        "height": 2160,
+        "description": "Mixed race young funny girls dance singing with hairdryer and comb sitting on sofa. Sisters having fun leisure in living room at home",
+        "downloadLocation": "https://api.unsplash.com/photos/0bCeIwI729k/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8ZnJpZW5kcyUyMGxhdWdoaW5nJTIwbGl2aW5nJTIwcm9vbSUyMHRhbGtpbmd8ZW58MXwwfHx8MTc4NjE3MjI1N3ww",
+        "photographer": "Vitaly Gariev",
+        "photographerUrl": "https://unsplash.com/@silverkblack",
+        "photoUrl": "https://unsplash.com/photos/two-women-singing-into-a-microphone-and-hairdryer-0bCeIwI729k",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\play-twenty-questions-with-someone--2.jpg"
+      }
+    ]
+  },
+  "take-an-online-trivia-quiz": {
+    "file": "public/activities.json",
+    "category": "games",
+    "slug": "take-an-online-trivia-quiz",
+    "name": "Take an online trivia quiz",
+    "query": "quiz night questions game",
+    "candidates": [
+      {
+        "id": "yB7ghV4dSa4",
+        "raw": "https://images.unsplash.com/photo-1609159524764-8b2011efe640?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8cXVpeiUyMG5pZ2h0JTIwcXVlc3Rpb25zJTIwZ2FtZXxlbnwxfDB8fHwxNzg2MTcyNTQ3fDA&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "text",
+        "downloadLocation": "https://api.unsplash.com/photos/yB7ghV4dSa4/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8cXVpeiUyMG5pZ2h0JTIwcXVlc3Rpb25zJTIwZ2FtZXxlbnwxfDB8fHwxNzg2MTcyNTQ3fDA",
+        "photographer": "Miquel Parera",
+        "photographerUrl": "https://unsplash.com/@miquel_parera_mila",
+        "photoUrl": "https://unsplash.com/photos/text-yB7ghV4dSa4",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\take-an-online-trivia-quiz--0.jpg"
+      },
+      {
+        "id": "lvvLVlF1KqI",
+        "raw": "https://images.unsplash.com/photo-1556470367-4caf23ae7eb2?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8cXVpeiUyMG5pZ2h0JTIwcXVlc3Rpb25zJTIwZ2FtZXxlbnwxfDB8fHwxNzg2MTcyNTQ3fDA&ixlib=rb-4.1.0",
+        "width": 4032,
+        "height": 3024,
+        "description": "printer paper",
+        "downloadLocation": "https://api.unsplash.com/photos/lvvLVlF1KqI/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8cXVpeiUyMG5pZ2h0JTIwcXVlc3Rpb25zJTIwZ2FtZXxlbnwxfDB8fHwxNzg2MTcyNTQ3fDA",
+        "photographer": "Carine L.",
+        "photographerUrl": "https://unsplash.com/@carilall",
+        "photoUrl": "https://unsplash.com/photos/printer-paper-lvvLVlF1KqI",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\take-an-online-trivia-quiz--1.jpg"
+      },
+      {
+        "id": "yNP1lz924-4",
+        "raw": "https://images.unsplash.com/photo-1546381107-b5c6e7c1a8af?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8cXVpeiUyMG5pZ2h0JTIwcXVlc3Rpb25zJTIwZ2FtZXxlbnwxfDB8fHwxNzg2MTcyNTQ3fDA&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "👋 Buy my prints at homewithus.co.uk",
+        "downloadLocation": "https://api.unsplash.com/photos/yNP1lz924-4/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8cXVpeiUyMG5pZ2h0JTIwcXVlc3Rpb25zJTIwZ2FtZXxlbnwxfDB8fHwxNzg2MTcyNTQ3fDA",
+        "photographer": "Rumman Amin",
+        "photographerUrl": "https://unsplash.com/@rumanamin",
+        "photoUrl": "https://unsplash.com/photos/color-wheel-board-on-wooden-surface-yNP1lz924-4",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\take-an-online-trivia-quiz--2.jpg"
+      },
+      {
+        "id": "FsqSnLOPUIw",
+        "raw": "https://images.unsplash.com/photo-1623315435689-e662c402095e?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8NHx8cXVpeiUyMG5pZ2h0JTIwcXVlc3Rpb25zJTIwZ2FtZXxlbnwxfDB8fHwxNzg2MTcyNTQ3fDA&ixlib=rb-4.1.0",
+        "width": 3024,
+        "height": 2403,
+        "description": "covid, covid 19, vaccine, inoculation, science, astra zeneca, health, virus, progress, ",
+        "downloadLocation": "https://api.unsplash.com/photos/FsqSnLOPUIw/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8NHx8cXVpeiUyMG5pZ2h0JTIwcXVlc3Rpb25zJTIwZ2FtZXxlbnwxfDB8fHwxNzg2MTcyNTQ3fDA",
+        "photographer": "Brett Jordan",
+        "photographerUrl": "https://unsplash.com/@brett_jordan",
+        "photoUrl": "https://unsplash.com/photos/white-and-blue-card-on-brown-wooden-table-FsqSnLOPUIw",
+        "thumb": "C:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\take-an-online-trivia-quiz--3.jpg"
+      }
+    ]
+  },
+  "learn-a-new-solitaire-variation": {
+    "file": "public/activities.json",
+    "category": "games",
+    "slug": "learn-a-new-solitaire-variation",
+    "name": "Learn a new solitaire variation",
+    "query": "playing cards solitaire",
+    "candidates": [
+      {
+        "id": "P787-xixGio",
+        "raw": "https://images.unsplash.com/photo-1541278107931-e006523892df?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8cGxheWluZyUyMGNhcmRzJTIwc29saXRhaXJlfGVufDF8MHx8fDE3ODYxNzIyNjF8MA&ixlib=rb-4.1.0",
+        "width": 4096,
+        "height": 2730,
+        "description": "a pile of playing cards sitting on top of each other",
+        "downloadLocation": "https://api.unsplash.com/photos/P787-xixGio/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8cGxheWluZyUyMGNhcmRzJTIwc29saXRhaXJlfGVufDF8MHx8fDE3ODYxNzIyNjF8MA",
+        "photographer": "Amanda Jones",
+        "photographerUrl": "https://unsplash.com/@amandagraphc",
+        "photoUrl": "https://unsplash.com/photos/a-pile-of-playing-cards-sitting-on-top-of-each-other-P787-xixGio",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\learn-a-new-solitaire-variation--0.jpg"
+      },
+      {
+        "id": "9sbO_vzyG40",
+        "raw": "https://images.unsplash.com/photo-1604345250885-11f528eec3ff?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8cGxheWluZyUyMGNhcmRzJTIwc29saXRhaXJlfGVufDF8MHx8fDE3ODYxNzIyNjF8MA&ixlib=rb-4.1.0",
+        "width": 5143,
+        "height": 3246,
+        "description": "person holding king of spade playing card",
+        "downloadLocation": "https://api.unsplash.com/photos/9sbO_vzyG40/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8cGxheWluZyUyMGNhcmRzJTIwc29saXRhaXJlfGVufDF8MHx8fDE3ODYxNzIyNjF8MA",
+        "photographer": "Marin Tulard",
+        "photographerUrl": "https://unsplash.com/@mtulard",
+        "photoUrl": "https://unsplash.com/photos/person-holding-king-of-spade-playing-card-9sbO_vzyG40",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\learn-a-new-solitaire-variation--1.jpg"
+      },
+      {
+        "id": "9SewS6lowEU",
+        "raw": "https://images.unsplash.com/photo-1501003878151-d3cb87799705?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8cGxheWluZyUyMGNhcmRzJTIwc29saXRhaXJlfGVufDF8MHx8fDE3ODYxNzIyNjF8MA&ixlib=rb-4.1.0",
+        "width": 9493,
+        "height": 6329,
+        "description": "Lily, Rosemary, and the Ace of Spades",
+        "downloadLocation": "https://api.unsplash.com/photos/9SewS6lowEU/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8cGxheWluZyUyMGNhcmRzJTIwc29saXRhaXJlfGVufDF8MHx8fDE3ODYxNzIyNjF8MA",
+        "photographer": "Jack Hamilton",
+        "photographerUrl": "https://unsplash.com/@jacc",
+        "photoUrl": "https://unsplash.com/photos/scattered-playing-cards-9SewS6lowEU",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\learn-a-new-solitaire-variation--2.jpg"
+      }
+    ]
+  },
+  "replay-a-classic-video-game-from-your-childhood": {
+    "file": "public/activities.json",
+    "category": "games",
+    "slug": "replay-a-classic-video-game-from-your-childhood",
+    "name": "Replay a classic video game from your childhood",
+    "query": "retro video game console controller",
+    "candidates": [
+      {
+        "id": "p0j-mE6mGo4",
+        "raw": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8cmV0cm8lMjB2aWRlbyUyMGdhbWUlMjBjb25zb2xlJTIwY29udHJvbGxlcnxlbnwxfDB8fHwxNzg2MTcyMjYzfDA&ixlib=rb-4.1.0",
+        "width": 6048,
+        "height": 4032,
+        "description": "Check out more about this mini computer at https://commodorepetmini.com\n\nThis is a glamour shot of the Commodore PET Mini, a DIY 3D-Printing project to build your very own, functional and cute Commodore PET Mini replica, probably one of the cutest retro-computers ever!",
+        "downloadLocation": "https://api.unsplash.com/photos/p0j-mE6mGo4/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8MXx8cmV0cm8lMjB2aWRlbyUyMGdhbWUlMjBjb25zb2xlJTIwY29udHJvbGxlcnxlbnwxfDB8fHwxNzg2MTcyMjYzfDA",
+        "photographer": "Lorenzo Herrera",
+        "photographerUrl": "https://unsplash.com/@lorenzoherrera",
+        "photoUrl": "https://unsplash.com/photos/vintage-gray-game-console-and-joystick-p0j-mE6mGo4",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\replay-a-classic-video-game-from-your-childhood--0.jpg"
+      },
+      {
+        "id": "gSstgCAgd3U",
+        "raw": "https://images.unsplash.com/photo-1585881728919-5c0ce925ad10?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8cmV0cm8lMjB2aWRlbyUyMGdhbWUlMjBjb25zb2xlJTIwY29udHJvbGxlcnxlbnwxfDB8fHwxNzg2MTcyMjYzfDA&ixlib=rb-4.1.0",
+        "width": 6240,
+        "height": 4160,
+        "description": "Mis Tesoros ❤️",
+        "downloadLocation": "https://api.unsplash.com/photos/gSstgCAgd3U/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8Mnx8cmV0cm8lMjB2aWRlbyUyMGdhbWUlMjBjb25zb2xlJTIwY29udHJvbGxlcnxlbnwxfDB8fHwxNzg2MTcyMjYzfDA",
+        "photographer": "Enrique Guzmán Egas",
+        "photographerUrl": "https://unsplash.com/@kike_borland",
+        "photoUrl": "https://unsplash.com/photos/white-sony-ps-4-game-controller-gSstgCAgd3U",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\replay-a-classic-video-game-from-your-childhood--1.jpg"
+      },
+      {
+        "id": "fOYg1lkZA7Y",
+        "raw": "https://images.unsplash.com/photo-1630051822408-b80dde2f5681?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8cmV0cm8lMjB2aWRlbyUyMGdhbWUlMjBjb25zb2xlJTIwY29udHJvbGxlcnxlbnwxfDB8fHwxNzg2MTcyMjYzfDA&ixlib=rb-4.1.0",
+        "width": 6000,
+        "height": 4000,
+        "description": "Super Nintendo Gamepad",
+        "downloadLocation": "https://api.unsplash.com/photos/fOYg1lkZA7Y/download?ixid=M3wxMDIxNDY0fDB8MXxzZWFyY2h8M3x8cmV0cm8lMjB2aWRlbyUyMGdhbWUlMjBjb25zb2xlJTIwY29udHJvbGxlcnxlbnwxfDB8fHwxNzg2MTcyMjYzfDA",
+        "photographer": "Patrick",
+        "photographerUrl": "https://unsplash.com/@pf91_photography",
+        "photoUrl": "https://unsplash.com/photos/white-nintendo-game-controller-on-yellow-surface-fOYg1lkZA7Y",
+        "thumb": "c:\\Users\\joe_d\\source\\repos\\fungen\\scratch\\thumbs\\replay-a-classic-video-game-from-your-childhood--2.jpg"
+      }
+    ]
+  }
+}
