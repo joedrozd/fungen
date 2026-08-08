@@ -1583,115 +1583,1577 @@
           "name": "Sketch or doodle something creative",
           "slug": "sketch-or-doodle-something-creative",
           "description": "Grab a pencil and paper and let your imagination flow—no perfection needed, just free expression on the page.",
-          "image": "/images/activities/sketch-or-doodle-something-creative.jpg"
+          "image": "/images/activities/sketch-or-doodle-something-creative.jpg",
+          "seo": {
+            "title": "Sketch or Doodle Something Without Judging It",
+            "metaDescription": "Drawing is a seeing skill rather than a hand skill. Draw what is actually in front of you, work large and fast, and stop erasing every line.",
+            "primaryKeyword": "sketch or doodle something",
+            "secondaryKeywords": [
+              "drawing for beginners",
+              "how to stop drawing badly",
+              "observational sketching"
+            ]
+          },
+          "content": {
+            "intro": "Almost everyone who says they cannot draw is describing a seeing problem rather than a hand problem. When you sketch or doodle something, the difficulty is that your brain substitutes its symbol for an eye instead of showing you the shape actually in front of you. An hour of drawing what is genuinely there fixes more than a year of practicing technique.",
+            "whyItWorks": "Drawing from observation forces you past the stored symbol. Looking at negative space, the shapes between objects, works particularly well because your brain has no symbol for the gap between a chair leg and the floor, so it stops interfering. Working large and fast prevents the other failure, which is fussing one small area into oblivion while the proportions go wrong.",
+            "howTo": [
+              {
+                "step": "Draw something real in front of you",
+                "detail": "Not from memory or imagination. A mug, your own hand, a plant. Observation is the entire exercise."
+              },
+              {
+                "step": "Look at the object more than the paper",
+                "detail": "Aim for roughly seventy percent of your attention on the subject. Most beginners reverse this ratio."
+              },
+              {
+                "step": "Draw the negative space",
+                "detail": "The shapes around and between things. Your brain has no symbol for these, so it stops substituting."
+              },
+              {
+                "step": "Work large and loose first",
+                "detail": "Fill the page, block in big shapes, no detail. Proportion errors are invisible until the detail is already committed."
+              },
+              {
+                "step": "Do not erase",
+                "detail": "Draw over a wrong line rather than removing it. The correction is more useful than a clean page."
+              }
+            ],
+            "tips": [
+              "Set a five-minute timer per sketch. Six rough drawings teach far more than one laboured one.",
+              "Turn the subject upside down occasionally. It disrupts symbol recognition immediately and dramatically.",
+              "Keep every sketch, including the bad ones. Progress is only visible against what you did last month."
+            ],
+            "variations": "If a blank page is the obstacle, start with continuous line drawing, where the pen never leaves the paper and the result is meant to be wrong. If you already draw, try drawing without looking at the paper at all, which is uncomfortable and improves observation faster than anything else.",
+            "faq": [
+              {
+                "q": "Why do my drawings look wrong?",
+                "a": "Usually because you drew your stored symbol for the object rather than what is in front of you. Draw the negative space instead."
+              },
+              {
+                "q": "Do I need good pencils to start?",
+                "a": "No. Any pen or pencil and any paper. Equipment makes almost no difference at the stage where seeing is the limiting skill."
+              },
+              {
+                "q": "How long until I improve?",
+                "a": "Noticeable change within a few weeks of short frequent sessions. Many short sketches beat occasional long ones."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 45,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "paper",
+              "pencil or pen"
+            ]
+          },
+          "related": [
+            "do-some-people-sketching-in-a-public-place",
+            "start-a-doodle-a-day-challenge",
+            "try-digital-art-on-your-phone-tablet"
+          ]
         },
         {
           "name": "Do some finger painting",
           "slug": "do-some-finger-painting",
           "description": "Get messy and embrace playful creativity by painting with your hands—a fun, tactile way to create colorful art.",
-          "image": "/images/activities/do-some-finger-painting.jpg"
+          "image": "/images/activities/do-some-finger-painting.jpg",
+          "seo": {
+            "title": "Do Some Finger Painting as an Adult, Deliberately",
+            "metaDescription": "Finger painting removes the tool between you and the paint. Cover the table, use cheap paper, and work without any plan about what it will become.",
+            "primaryKeyword": "do some finger painting",
+            "secondaryKeywords": [
+              "finger painting for adults",
+              "process art",
+              "messy creative play"
+            ]
+          },
+          "content": {
+            "intro": "To do some finger painting as an adult sounds faintly ridiculous, which is roughly the point. Removing the brush removes the technique, and removing technique removes the standard you would otherwise be failing to meet. What is left is color, texture and the direct physical contact that makes it unlike any other painting.",
+            "whyItWorks": "The absence of a tool changes what you make. Fingers cannot produce fine detail, so the work stays gestural and large, and the immediate tactile feedback keeps attention on the process rather than on evaluating the result. This is why it is used in art therapy contexts and why it remains genuinely absorbing for adults who set up for it properly.",
+            "howTo": [
+              {
+                "step": "Set up for mess first",
+                "detail": "Cover the table, wear something you do not care about, have a wet cloth to hand. Mess anxiety kills the whole thing."
+              },
+              {
+                "step": "Use thick paint and cheap paper",
+                "detail": "Poster or acrylic paint on sugar paper or cartridge. Thin paint on thin paper tears and disappoints."
+              },
+              {
+                "step": "Start with three colors only",
+                "detail": "Everything becomes brown when all the colors meet. Three related ones keep the result usable."
+              },
+              {
+                "step": "Work without a plan",
+                "detail": "No subject, no intended outcome. Marks, textures and blending, and let it become whatever it becomes."
+              },
+              {
+                "step": "Fill several sheets",
+                "detail": "Rather than perfecting one. The activity is the point and volume keeps you from becoming precious."
+              }
+            ],
+            "tips": [
+              "Try the sides of your hands, knuckles and fingernails. Each makes a completely different mark.",
+              "Non-toxic washable paint matters if children are involved, and is easier on your hands regardless.",
+              "Let sheets dry flat. Thick paint on lifted paper cracks and slides off as it dries."
+            ],
+            "variations": "If mess is genuinely impractical, put the paint inside a sealed freezer bag and press through the plastic, which gives the same movement with none of the cleanup. If you want structure, work to a single limited palette across six sheets and see how far one color combination stretches.",
+            "faq": [
+              {
+                "q": "Is finger painting worthwhile for adults?",
+                "a": "As process rather than product, yes. Removing the tool removes technique, and with it most of the self-criticism."
+              },
+              {
+                "q": "What paint should I use?",
+                "a": "Thick poster or washable acrylic paint on sturdy paper. Thin paint on thin paper tears and produces muddy results."
+              },
+              {
+                "q": "How do I stop everything turning brown?",
+                "a": "Limit yourself to three related colors. All colors meeting on one page reliably produces brown."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 45,
+            "cost": "low",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "poster paint",
+              "thick paper",
+              "table covering",
+              "cloth"
+            ]
+          },
+          "related": [
+            "try-your-hand-at-watercolor-painting",
+            "try-mindful-coloring",
+            "try-pottery-or-clay-sculpting"
+          ]
         },
         {
           "name": "Do some origami",
           "slug": "do-some-origami",
           "description": "Fold a sheet of paper into intricate shapes like cranes, flowers, or boxes using step-by-step origami guides.",
-          "image": "/images/activities/do-some-origami.jpg"
+          "image": "/images/activities/do-some-origami.jpg",
+          "seo": {
+            "title": "Do Some Origami and Learn the Two Base Folds",
+            "metaDescription": "Origami rewards precision over dexterity. Learn a couple of standard bases, crease sharply, and most traditional models become approachable.",
+            "primaryKeyword": "do some origami",
+            "secondaryKeywords": [
+              "origami for beginners",
+              "origami bases explained",
+              "paper folding accuracy"
+            ]
+          },
+          "content": {
+            "intro": "Origami looks like a dexterity skill and is really an accuracy skill. To do some origami successfully you need sharp creases and folds that land exactly on their landmarks, because every small error compounds through the sequence until the final model refuses to close. Slowing down is the entire technique.",
+            "whyItWorks": "Most traditional models begin from one of a handful of standard starting shapes called bases. Learning two of them means a large portion of the classic repertoire opens up at once, because you are then only learning the last few steps of each model rather than the whole thing. That is why experienced folders can attempt an unfamiliar diagram confidently.",
+            "howTo": [
+              {
+                "step": "Use proper square paper",
+                "detail": "Thin and precisely square. Ordinary paper is too thick for many-layered models and rarely square enough."
+              },
+              {
+                "step": "Crease with a fingernail",
+                "detail": "Sharp creases are what let later folds land accurately. A soft crease introduces error into every subsequent step."
+              },
+              {
+                "step": "Learn the bird base",
+                "detail": "It underlies the crane and a great many traditional models. Learning it once unlocks dozens of designs."
+              },
+              {
+                "step": "Match landmarks exactly",
+                "detail": "Corner to corner, edge to crease. Small misalignments compound and are why a model will not close at the end."
+              },
+              {
+                "step": "Fold the same model three times",
+                "detail": "The third attempt is where it clicks. First attempts are transcription rather than folding."
+              }
+            ],
+            "tips": [
+              "Work on a hard flat surface. Folding on a carpet or your lap guarantees imprecise creases.",
+              "Video instructions beat diagrams for beginners, since diagram conventions take time to learn.",
+              "If a step will not work, check two steps back. The error is almost never where you noticed it."
+            ],
+            "variations": "If traditional models frustrate you, modular origami builds larger shapes from many identical simple units, which suits people who prefer repetition to sequence. If you enjoy the geometry, tessellations are a completely different branch that rewards precision even more heavily.",
+            "faq": [
+              {
+                "q": "What paper is best for origami?",
+                "a": "Thin, precisely square paper. Ordinary printer paper is too thick for models with many layers and is rarely truly square."
+              },
+              {
+                "q": "Why will my model not close at the end?",
+                "a": "Accumulated small misalignments earlier in the sequence. Check your landmarks two or three steps before the failure."
+              },
+              {
+                "q": "What is an origami base?",
+                "a": "A standard starting shape shared by many models. Learning the bird base alone opens up a large part of the traditional repertoire."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 45,
+            "cost": "low",
+            "difficulty": "moderate",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "square origami paper",
+              "hard flat surface"
+            ]
+          },
+          "related": [
+            "learn-basic-calligraphy",
+            "design-your-own-greeting-card",
+            "learn-to-tie-different-knots"
+          ]
         },
         {
           "name": "Learn basic calligraphy",
           "slug": "learn-basic-calligraphy",
           "description": "Practice elegant lettering with a brush pen or nib to transform ordinary handwriting into beautiful art.",
-          "image": "/images/activities/learn-basic-calligraphy.jpg"
+          "image": "/images/activities/learn-basic-calligraphy.jpg",
+          "seo": {
+            "title": "Learn Basic Calligraphy Starting With Drills, Not Letters",
+            "metaDescription": "Calligraphy is built from a few repeated strokes. Drill those first, hold the pen at a consistent angle, and the letters become considerably easier.",
+            "primaryKeyword": "learn basic calligraphy",
+            "secondaryKeywords": [
+              "calligraphy for beginners",
+              "brush pen lettering",
+              "calligraphy pen angle"
+            ]
+          },
+          "content": {
+            "intro": "Beginners who learn basic calligraphy almost always start by attempting the alphabet, which is why the results look uneven. Letters are assembled from a small set of repeated strokes, and drilling those strokes for twenty minutes produces better letters than twenty minutes of writing letters badly.",
+            "whyItWorks": "The consistency that makes calligraphy look like calligraphy comes from repeating identical strokes, not from drawing each letter well. Pen angle is the other half: holding the nib at a fixed angle to the baseline is what creates the thick and thin contrast automatically. Both are mechanical and both are trainable within one session.",
+            "howTo": [
+              {
+                "step": "Choose one style and stick to it",
+                "detail": "Italic, foundational or modern brush lettering. Mixing styles early prevents any of them consolidating."
+              },
+              {
+                "step": "Drill basic strokes first",
+                "detail": "Downstrokes, upstrokes, ovals, arches. Twenty minutes of these improves letters more than writing letters does."
+              },
+              {
+                "step": "Hold a consistent pen angle",
+                "detail": "Usually around forty-five degrees to the baseline. The angle produces the thick-thin contrast automatically."
+              },
+              {
+                "step": "Use guidelines",
+                "detail": "Ruled lines for height, slant and spacing. Consistency is what reads as skill, and guidelines supply it."
+              },
+              {
+                "step": "Go slowly and lift between strokes",
+                "detail": "Calligraphy is drawn rather than written. Speed comes much later, and rushing produces wobbles."
+              }
+            ],
+            "tips": [
+              "Use smooth paper rather than textured. Rough paper catches the nib and feathers the ink, which looks exactly like a technique problem and is not.",
+              "Pressure creates line thickness with a brush pen, while angle creates it with a broad nib. Do not confuse the two systems, since the technique differs entirely.",
+              "Practice the same word repeatedly rather than working through pangrams. Repetition on one word is what actually builds the muscle memory."
+            ],
+            "variations": "If dip pens seem daunting, brush pens are far more forgiving and need no ink handling. If you want the historical version, a broad-edge nib and a foundational hand teaches you where the letterforms actually came from.",
+            "faq": [
+              {
+                "q": "What should I practice first in calligraphy?",
+                "a": "Basic strokes rather than letters. Downstrokes, upstrokes, ovals and arches make up every letter in most alphabets."
+              },
+              {
+                "q": "What pen should a beginner use?",
+                "a": "A brush pen is the most forgiving start. Broad-edge nibs give the traditional look but require consistent angle control."
+              },
+              {
+                "q": "Why does my ink feather?",
+                "a": "Usually the paper. Textured or absorbent paper spreads ink, so smooth paper is worth more than a better pen."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "low",
+            "difficulty": "moderate",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "brush pen or nib",
+              "smooth paper",
+              "guideline sheet"
+            ]
+          },
+          "related": [
+            "do-some-origami",
+            "write-a-letter-to-a-friend-by-hand",
+            "design-your-own-greeting-card"
+          ]
         },
         {
           "name": "Do some people sketching in a public place",
           "slug": "do-some-people-sketching-in-a-public-place",
           "description": "Sit in a café or park and quickly sketch passersby to improve your drawing speed and observational skills.",
-          "image": "/images/activities/do-some-people-sketching-in-a-public-place.jpg"
+          "image": "/images/activities/do-some-people-sketching-in-a-public-place.jpg",
+          "seo": {
+            "title": "Sketch People in Public Without Anyone Noticing",
+            "metaDescription": "People move, which is exactly the point. Capture the gesture in thirty seconds, sit where you have a natural view, and be discreet about who you draw.",
+            "primaryKeyword": "people sketching in a public place",
+            "secondaryKeywords": [
+              "gesture drawing practice",
+              "urban sketching tips",
+              "drawing people quickly"
+            ]
+          },
+          "content": {
+            "intro": "People sketching in a public place is uncomfortable for about ten minutes and then becomes absorbing. Your subjects will not hold still, which sounds like a problem and is actually the training: it forces you to capture the essential gesture in seconds rather than fussing over detail that would not survive anyway.",
+            "whyItWorks": "Thirty-second sketches teach you to see the line of action, the overall tilt and balance of a pose, which is the thing that makes a figure look alive. Detail cannot rescue a drawing that got the gesture wrong, and gesture alone often reads convincingly with no detail at all. The time pressure is doing the teaching.",
+            "howTo": [
+              {
+                "step": "Choose a place with seated people",
+                "detail": "Cafés, transport hubs, waiting areas, parks. Seated subjects hold a pose for longer than moving ones."
+              },
+              {
+                "step": "Sit with a natural sightline",
+                "detail": "Somewhere you would plausibly be looking anyway. It is comfortable for you and unremarkable to everyone else."
+              },
+              {
+                "step": "Give yourself thirty seconds",
+                "detail": "Per figure, timed. It forces gesture over detail and prevents you staring at anyone for long."
+              },
+              {
+                "step": "Capture the line of action first",
+                "detail": "One sweeping line through the pose. Everything else hangs off it, and without it the figure looks stiff."
+              },
+              {
+                "step": "Do not finish anything",
+                "detail": "Move to the next figure when they move. A sketchbook of unfinished gestures is the correct outcome."
+              }
+            ],
+            "tips": [
+              "Use a small sketchbook. A large pad is conspicuous and makes people self-conscious.",
+              "Be discreet, avoid drawing children, and stop if anyone seems uncomfortable. Courtesy matters more than the sketch.",
+              "Draw the surrounding space too. Chairs, bags and posture cues place the figure in context, and they are easier to draw than the figure itself."
+            ],
+            "variations": "If public sketching feels too exposed, start from a window at home or from video paused briefly, which builds the same skill privately. If you already draw figures, restrict yourself to five lines per person, which forces ruthless prioritization.",
+            "faq": [
+              {
+                "q": "How do I draw people who keep moving?",
+                "a": "Work in thirty-second gestures and accept that nothing gets finished. Capturing the line of action is the goal."
+              },
+              {
+                "q": "Is it rude to sketch strangers?",
+                "a": "Generally accepted if you are discreet and unobtrusive. Avoid drawing children, and stop if anyone seems uncomfortable."
+              },
+              {
+                "q": "What is a line of action?",
+                "a": "A single sweeping curve through the pose that captures its tilt and energy. Everything else is built around it."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "free",
+            "difficulty": "moderate",
+            "indoor": false,
+            "solo": true,
+            "equipment": [
+              "small sketchbook",
+              "pen or pencil"
+            ]
+          },
+          "related": [
+            "sketch-or-doodle-something-creative",
+            "take-ten-creative-photos-of-ordinary-objects",
+            "start-a-doodle-a-day-challenge"
+          ]
         },
         {
           "name": "Write a short poem or haiku",
           "slug": "write-a-short-poem-or-haiku",
           "description": "Distil a feeling, moment, or idea into a few carefully chosen lines of verse—brevity makes every word count.",
-          "image": "/images/activities/write-a-short-poem-or-haiku.jpg"
+          "image": "/images/activities/write-a-short-poem-or-haiku.jpg",
+          "seo": {
+            "title": "Write a Short Poem or Haiku From Something You Saw",
+            "metaDescription": "A haiku is a form built on a concrete image and a turn. Start from something you actually noticed today rather than from an abstract feeling.",
+            "primaryKeyword": "write a short poem or haiku",
+            "secondaryKeywords": [
+              "how to write a haiku",
+              "haiku syllable rule",
+              "poetry for beginners"
+            ]
+          },
+          "content": {
+            "intro": "The hardest part when you write a short poem or haiku is starting from a feeling rather than a thing. Abstract openings produce vague poems. Starting from something you actually saw today, however ordinary, gives you a concrete image to work from, and concrete images are what the form is built for.",
+            "whyItWorks": "Haiku traditionally pairs a concrete observation with a turn, a shift or juxtaposition that recontextualizes it. That structure does the work: it means you are not required to be profound, only precise about one thing and then surprising about it. The brevity also helps, because a form you can finish in ten minutes is one you will actually attempt.",
+            "howTo": [
+              {
+                "step": "Start from something you saw today",
+                "detail": "Concrete and ordinary. A wet pavement, a stalled bus, a pigeon. Not a feeling or an idea."
+              },
+              {
+                "step": "Write the image plainly first",
+                "detail": "One sentence, no poetic language at all. You need the thing described before you can shape it."
+              },
+              {
+                "step": "Add a turn",
+                "detail": "A second element that shifts or contrasts with the first. The gap between them is where the poem happens."
+              },
+              {
+                "step": "Cut every unnecessary word",
+                "detail": "Adjectives first, then articles. The form is short enough that each word has to earn its place."
+              },
+              {
+                "step": "Read it aloud and adjust",
+                "detail": "Rhythm matters more than counting syllables. If it sounds awkward, the count did not save it."
+              }
+            ],
+            "tips": [
+              "The five-seven-five rule is an approximation from Japanese sound units and is not binding in English.",
+              "Avoid explaining the feeling. Trust the image; naming the emotion is what flattens most beginner poems.",
+              "Write five bad ones quickly rather than one careful one. The fourth is usually where something appears."
+            ],
+            "variations": "If haiku feels constricting, try a two-line form or a single sentence with a line break, which keeps the compression without the syllable question. If you want a prompt system, write one every day about whatever you noticed on your commute; the constraint of a fixed subject helps rather than hinders.",
+            "faq": [
+              {
+                "q": "Does a haiku have to be five-seven-five?",
+                "a": "Not in English. The count comes from Japanese sound units that do not map cleanly, and many English haiku are shorter."
+              },
+              {
+                "q": "What should a haiku be about?",
+                "a": "Something concrete you actually observed, paired with a turn or contrast. Abstract feelings produce vague poems."
+              },
+              {
+                "q": "How do I know if it is any good?",
+                "a": "Read it aloud. If it sounds awkward or if you had to explain the feeling, it usually needs cutting rather than adding."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 30,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "notebook",
+              "pen"
+            ]
+          },
+          "related": [
+            "try-blackout-poetry-with-an-old-newspaper",
+            "write-a-short-story",
+            "practice-journaling-for-self-reflection"
+          ]
         },
         {
           "name": "Create a collage from magazine cutouts",
           "slug": "create-a-collage-from-magazine-cutouts",
           "description": "Cut out images, textures, and words from old magazines and arrange them into a unique visual composition.",
-          "image": "/images/activities/create-a-collage-from-magazine-cutouts.jpg"
+          "image": "/images/activities/create-a-collage-from-magazine-cutouts.jpg",
+          "seo": {
+            "title": "Create a Collage From Magazine Cutouts and Old Paper",
+            "metaDescription": "Collage removes the drawing skill barrier entirely. Cut a large pile of material first, arrange before gluing, and let the juxtapositions do the work.",
+            "primaryKeyword": "create a collage from magazine cutouts",
+            "secondaryKeywords": [
+              "collage techniques for beginners",
+              "analogue collage ideas",
+              "what to use for collage"
+            ]
+          },
+          "content": {
+            "intro": "Collage is the most accessible visual art form there is, because the drawing skill barrier is removed entirely. To create a collage from magazine cutouts you only need to cut and arrange, and the interesting part comes from juxtaposition, which anyone can do well with enough raw material in front of them.",
+            "whyItWorks": "Having a large pile of cuttings before you start arranging is what makes it work. With only a few pieces you are forced into obvious combinations; with a hundred you can find the unexpected pairing that makes the piece. Arranging without glue for as long as possible matters for the same reason, since committing early closes off compositions you have not found yet.",
+            "howTo": [
+              {
+                "step": "Cut a large pile first",
+                "detail": "Thirty minutes of cutting with no arranging. Volume of material is what makes good juxtapositions possible."
+              },
+              {
+                "step": "Cut for shape and texture too",
+                "detail": "Not only recognizable images. Blocks of color and patterned areas are what hold a composition together."
+              },
+              {
+                "step": "Arrange without glue",
+                "detail": "Move things around for as long as you can bear. Committing early is the most common regret."
+              },
+              {
+                "step": "Photograph the arrangement",
+                "detail": "Before gluing. You will move something and want the earlier version back."
+              },
+              {
+                "step": "Glue from the back layer forward",
+                "detail": "Background first, then working forward. Gluing out of order traps you into an arrangement you cannot adjust."
+              }
+            ],
+            "tips": [
+              "Use a glue stick rather than liquid glue. It causes far less wrinkling on thin magazine paper.",
+              "Charity shops and recycling bins are full of free material. Old maps and books add texture that magazines lack.",
+              "Work on card rather than paper. Wet glue warps thin paper regardless of how carefully you apply it."
+            ],
+            "variations": "If you want a constraint, restrict yourself to one color or one source magazine, which produces a more coherent result than unlimited choice. If you prefer working digitally, the same principles apply, though the physical cutting is a large part of why the analogue version is absorbing.",
+            "faq": [
+              {
+                "q": "What should I use as collage material?",
+                "a": "Magazines, old books, maps, packaging, tickets. Cut for shape and texture as well as for recognizable images."
+              },
+              {
+                "q": "What glue works best?",
+                "a": "A glue stick. Liquid glue wrinkles thin magazine paper badly, and working on card rather than paper reduces warping further."
+              },
+              {
+                "q": "How do I make a collage look intentional?",
+                "a": "Cut far more material than you need, then arrange without gluing until the composition works. Volume enables the good pairings."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "old magazines",
+              "scissors",
+              "glue stick",
+              "card"
+            ]
+          },
+          "related": [
+            "make-a-vision-board",
+            "try-blackout-poetry-with-an-old-newspaper",
+            "create-a-diy-home-decoration"
+          ]
         },
         {
           "name": "Try your hand at watercolor painting",
           "slug": "try-your-hand-at-watercolor-painting",
           "description": "Experiment with watercolour washes, blending, and layering to create soft, flowing artwork with this forgiving medium.",
-          "image": "/images/activities/try-your-hand-at-watercolor-painting.jpg"
+          "image": "/images/activities/try-your-hand-at-watercolor-painting.jpg",
+          "seo": {
+            "title": "Try Watercolor Painting and Let the Water Do the Work",
+            "metaDescription": "Watercolor works light to dark and rewards leaving things alone. Learn wet-on-wet versus wet-on-dry, and use paper heavy enough not to buckle.",
+            "primaryKeyword": "try watercolor painting",
+            "secondaryKeywords": [
+              "watercolor for beginners",
+              "wet on wet technique",
+              "why does my watercolor paper buckle"
+            ]
+          },
+          "content": {
+            "intro": "Watercolor behaves unlike other paints and most beginner frustration comes from treating it like acrylic. To try watercolor painting successfully you work from light to dark, you cannot easily cover a mistake, and the water does a great deal of the work if you leave it alone long enough to do it.",
+            "whyItWorks": "The paint is transparent, so the white of the paper is your only light source and every layer darkens what is beneath. Working light to dark respects that. The other governing variable is wetness: paint applied to wet paper spreads softly, and to dry paper stays sharp, and knowing which you want before the brush lands is most of the technique.",
+            "howTo": [
+              {
+                "step": "Use proper watercolor paper",
+                "detail": "At least three hundred grams per square meter. Thin paper buckles and ruins the wash regardless of your technique."
+              },
+              {
+                "step": "Work light to dark",
+                "detail": "Lightest washes first, building up. The paper is your white, and there is no covering back over it."
+              },
+              {
+                "step": "Learn wet-on-wet versus wet-on-dry",
+                "detail": "Paint onto damp paper spreads softly; onto dry paper it stays crisp. Decide which before the brush touches."
+              },
+              {
+                "step": "Let layers dry completely",
+                "detail": "Touching a drying wash creates blooms. This is the single hardest discipline in watercolor."
+              },
+              {
+                "step": "Stop earlier than feels finished",
+                "detail": "Overworking is what turns a fresh painting muddy. Watercolor rewards restraint more than any other medium."
+              }
+            ],
+            "tips": [
+              "Plan where the white paper stays before you begin. Preserving highlights is far easier than recovering them.",
+              "Test colors on scrap first. Watercolor dries considerably lighter than it appears when wet.",
+              "Use more water than feels right. Beginners almost universally paint too dry and too thick."
+            ],
+            "variations": "If control is what you want, wet-on-dry with a smaller brush behaves much more predictably. If you want to understand the medium, spend the hour doing nothing but graded washes, which is dull and teaches water control faster than any subject.",
+            "faq": [
+              {
+                "q": "Why does my watercolor paper buckle?",
+                "a": "It is too thin. Use paper of at least three hundred grams per square meter, or stretch and tape thinner paper first."
+              },
+              {
+                "q": "Why do my paintings look muddy?",
+                "a": "Usually overworking, or painting into a wash that has not dried. Watercolor rewards stopping earlier than feels finished."
+              },
+              {
+                "q": "How do I make white areas?",
+                "a": "By leaving the paper unpainted. Plan your highlights before you start, since recovering white is difficult."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "medium",
+            "difficulty": "moderate",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "watercolor paints",
+              "heavy paper",
+              "brushes",
+              "two water pots"
+            ]
+          },
+          "related": [
+            "do-some-finger-painting",
+            "try-mindful-coloring",
+            "sketch-or-doodle-something-creative"
+          ]
         },
         {
           "name": "Make a vision board",
           "slug": "make-a-vision-board",
           "description": "Collect images and quotes that represent your goals and dreams, then arrange them on a board for daily inspiration.",
-          "image": "/images/activities/make-a-vision-board.jpg"
+          "image": "/images/activities/make-a-vision-board.jpg",
+          "seo": {
+            "title": "Make a Vision Board That Points at Actions, Not Objects",
+            "metaDescription": "A wall of aspirational images changes nothing on its own. Build one around what you would be doing, and put it where you will actually see it.",
+            "primaryKeyword": "make a vision board",
+            "secondaryKeywords": [
+              "vision board ideas",
+              "do vision boards work",
+              "visualising goals"
+            ]
+          },
+          "content": {
+            "intro": "The honest version of how to make a vision board acknowledges that a collage of expensive houses does nothing by itself. Visualizing outcomes alone can even reduce motivation, because it delivers some of the satisfaction without the work. A board built around actions and processes rather than possessions avoids that trap.",
+            "whyItWorks": "Images of doing rather than having keep the effort visible. A picture of someone running is a different prompt from a picture of a finished marathon medal, because the first depicts the daily thing and the second depicts the reward. Placement matters similarly: a board in a drawer is decoration, while one facing your desk functions as a recurring reminder.",
+            "howTo": [
+              {
+                "step": "Write the goals in words first",
+                "detail": "Before touching any images. A board built without underlying clarity is just a pleasant collage."
+              },
+              {
+                "step": "Choose images of doing, not having",
+                "detail": "The training, the writing, the packing. Process images prompt action where outcome images substitute for it."
+              },
+              {
+                "step": "Include the unglamorous parts",
+                "detail": "Early mornings, spreadsheets, the boring middle. A board showing only the good bits sets up disappointment."
+              },
+              {
+                "step": "Keep it to one area of life",
+                "detail": "Or divide it clearly. A single board mixing career, fitness and travel dilutes all three."
+              },
+              {
+                "step": "Put it somewhere you cannot avoid",
+                "detail": "Facing the desk, inside a wardrobe door. Out of sight is functionally the same as not made."
+              }
+            ],
+            "tips": [
+              "Add a date to each section. Undated aspirations drift indefinitely and the board becomes historical.",
+              "Revisit every few months and remove what you no longer want. A stale board is worse than none.",
+              "Pair each image with one scheduled action. The board reminds; the calendar is what actually delivers."
+            ],
+            "variations": "If images do not motivate you, a written one-page version works identically and takes less time. If you find the whole concept uncomfortable, the same hour spent defining what visible evidence of progress would look like achieves the underlying purpose without the collage.",
+            "faq": [
+              {
+                "q": "Do vision boards actually work?",
+                "a": "Not on their own. Visualizing outcomes can reduce motivation, so build the board around actions and pair it with scheduled steps."
+              },
+              {
+                "q": "What should go on a vision board?",
+                "a": "Images of the process rather than the reward, including the unglamorous parts, focused on one area of life."
+              },
+              {
+                "q": "Where should I put it?",
+                "a": "Somewhere you see daily and cannot easily avoid. A board that is stored away has no function at all."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "low",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "magazines or printed images",
+              "board or card",
+              "glue",
+              "scissors"
+            ]
+          },
+          "related": [
+            "create-a-collage-from-magazine-cutouts",
+            "start-a-bucket-list-of-lifetime-goals",
+            "write-down-your-top-five-personal-values"
+          ]
         },
         {
           "name": "Design your own greeting card",
           "slug": "design-your-own-greeting-card",
           "description": "Create a personalised card for someone special using hand-drawn art, stickers, or digital design tools.",
-          "image": "/images/activities/design-your-own-greeting-card.jpg"
+          "image": "/images/activities/design-your-own-greeting-card.jpg",
+          "seo": {
+            "title": "Design Your Own Greeting Card Worth Keeping",
+            "metaDescription": "A handmade card beats a shop-bought one because it is specific. Score the fold properly, keep the front simple, and write something only you could write.",
+            "primaryKeyword": "design your own greeting card",
+            "secondaryKeywords": [
+              "handmade card ideas",
+              "how to score card stock",
+              "what to write in a card"
+            ]
+          },
+          "content": {
+            "intro": "The reason to design your own greeting card is not the saving, it is that a handmade card is specific to one person in a way a shop-bought one structurally cannot be. That specificity comes as much from what you write inside as from the design, and the writing is the part most people skimp on.",
+            "whyItWorks": "Cards get kept when they contain something only the sender could have written: a shared memory, a detail nobody else would mention. The design gets the card looked at; the message is why it stays in a drawer for ten years. On the making side, scoring before folding is the single technique that separates a crisp card from a cracked one.",
+            "howTo": [
+              {
+                "step": "Score before you fold",
+                "detail": "Run a blunt point along the fold line against a ruler. Card cracks and looks amateurish without this."
+              },
+              {
+                "step": "Keep the front to one idea",
+                "detail": "One image, one phrase, or one shape. Crowded fronts are what make handmade cards look homemade."
+              },
+              {
+                "step": "Use texture rather than complexity",
+                "detail": "Embossing, a torn edge, a stitched line, one contrasting paper. Texture reads as considered where detail reads as busy."
+              },
+              {
+                "step": "Write the message before decorating",
+                "detail": "So you know how much room it needs. Cramped handwriting squeezed into a corner undoes the whole card."
+              },
+              {
+                "step": "Say something only you could say",
+                "detail": "A specific memory or detail. This is the entire advantage over anything bought in a shop."
+              }
+            ],
+            "tips": [
+              "Check the envelope size before designing. Making a card that does not fit is a common and annoying mistake.",
+              "Heavier card stock feels substantially better and costs very little more.",
+              "Make several at once while the materials are out. Having a blank card ready is worth a great deal later."
+            ],
+            "variations": "If you cannot draw, a photograph or a well-cut piece of patterned paper works perfectly. If you make cards regularly, produce a small batch of blanks in one session and personalize each one when the occasion arises.",
+            "faq": [
+              {
+                "q": "How do I stop card cracking when I fold it?",
+                "a": "Score the fold line first with a blunt point against a ruler. Folding unscored card stock cracks the surface."
+              },
+              {
+                "q": "What should I write inside?",
+                "a": "Something specific to that person: a shared memory or a detail nobody else would mention. That is what makes it kept."
+              },
+              {
+                "q": "What paper should I use?",
+                "a": "Heavier card stock, and check it fits an envelope you actually have before you start designing."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 45,
+            "cost": "low",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "card stock",
+              "ruler",
+              "scissors",
+              "glue",
+              "pen"
+            ]
+          },
+          "related": [
+            "write-a-letter-to-a-friend-by-hand",
+            "write-a-thank-you-note-to-someone",
+            "learn-basic-calligraphy"
+          ]
         },
         {
           "name": "Try pottery or clay sculpting",
           "slug": "try-pottery-or-clay-sculpting",
           "description": "Shape clay into bowls, figures, or abstract forms—a tactile, meditative craft that produces tangible keepsakes.",
-          "image": "/images/activities/try-pottery-or-clay-sculpting.jpg"
+          "image": "/images/activities/try-pottery-or-clay-sculpting.jpg",
+          "seo": {
+            "title": "Try Pottery or Clay Sculpting With Air-Dry Clay First",
+            "metaDescription": "Air-dry clay needs no kiln and teaches the same hand-building techniques. Learn pinch and coil methods, and keep the walls an even thickness.",
+            "primaryKeyword": "try pottery or clay sculpting",
+            "secondaryKeywords": [
+              "air dry clay projects",
+              "pinch pot technique",
+              "why does clay crack when drying"
+            ]
+          },
+          "content": {
+            "intro": "You do not need a wheel or a kiln to try pottery or clay sculpting. Hand-building with air-dry clay teaches the same fundamentals for the price of a bag of material, and pinch pots and coil building are how most pottery was made for thousands of years before wheels existed.",
+            "whyItWorks": "Even wall thickness is the principle underlying almost everything. Clay shrinks as it dries, and thick sections shrink more slowly than thin ones, which is what tears a piece apart. Keeping walls consistent prevents most cracking, and drying slowly under plastic gives the moisture time to leave evenly rather than from the surface first.",
+            "howTo": [
+              {
+                "step": "Start with a pinch pot",
+                "detail": "A ball of clay, thumb pressed in, walls pinched outward. It is the oldest technique and teaches wall thickness."
+              },
+              {
+                "step": "Keep walls an even thickness",
+                "detail": "Around a centimeter throughout. Uneven walls dry at different rates, which is what causes cracking."
+              },
+              {
+                "step": "Score and slip every join",
+                "detail": "Scratch both surfaces and wet them before pressing together. Joins made without this separate as they dry."
+              },
+              {
+                "step": "Try coil building for height",
+                "detail": "Rolled ropes stacked and smoothed together. It builds taller forms than pinching can manage."
+              },
+              {
+                "step": "Dry slowly under plastic",
+                "detail": "Loosely covered for the first day or two. Fast drying is the second major cause of cracks."
+              }
+            ],
+            "tips": [
+              "Keep hands only slightly damp. Too much water weakens the clay and makes the surface slump.",
+              "Air-dry clay is not waterproof or food safe. Seal it if it needs to hold anything, and keep it decorative.",
+              "Wrap unused clay tightly and double-bag it. Air-dry clay hardens in an opened bag considerably faster than you would expect."
+            ],
+            "variations": "If you want the real thing, many studios run single taster sessions on a wheel, which is a completely different and much harder skill. If you want sculpture rather than vessels, oil-based modelling clay never dries and can be reworked indefinitely.",
+            "faq": [
+              {
+                "q": "Do I need a kiln to start pottery?",
+                "a": "No. Air-dry clay teaches the same hand-building techniques and needs nothing but a table and a bag of clay."
+              },
+              {
+                "q": "Why did my clay crack while drying?",
+                "a": "Uneven wall thickness or drying too fast. Keep walls consistent and cover the piece loosely for the first day or two."
+              },
+              {
+                "q": "Is air-dry clay food safe?",
+                "a": "No. It is not waterproof or food safe even when sealed, so keep air-dried pieces decorative."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "low",
+            "difficulty": "moderate",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "air-dry clay",
+              "table covering",
+              "water pot",
+              "plastic sheet"
+            ]
+          },
+          "related": [
+            "create-a-diy-home-decoration",
+            "do-some-finger-painting",
+            "paint-kindness-rocks-to-leave-around-town"
+          ]
         },
         {
           "name": "Create a DIY home decoration",
           "slug": "create-a-diy-home-decoration",
           "description": "Upcycle materials or craft something new—like a candle holder, wall art, or plant pot—to personalise your space.",
-          "image": "/images/activities/create-a-diy-home-decoration.png"
+          "image": "/images/activities/create-a-diy-home-decoration.png",
+          "seo": {
+            "title": "Create a DIY Home Decoration for a Specific Spot",
+            "metaDescription": "Measure the space first, then design for it. DIY decorations look homemade when they are made without reference to where they will actually hang.",
+            "primaryKeyword": "create a DIY home decoration",
+            "secondaryKeywords": [
+              "easy home decor projects",
+              "hanging things on walls",
+              "upcycling decoration ideas"
+            ]
+          },
+          "content": {
+            "intro": "When you create a DIY home decoration, the difference between looking deliberate and looking homemade is usually that the second was made first and placed afterwards. Measuring the spot and designing for it, including how it will be fixed to the wall, changes the outcome considerably more than craft skill does.",
+            "whyItWorks": "Scale is what reads as professional. Something slightly too small for a wall looks like an afterthought, while something correctly proportioned looks intentional regardless of how simply it is made. Deciding the fixing method in advance matters for a related practical reason: the mounting is what fails, and retrofitting a hanger to a finished piece rarely works well.",
+            "howTo": [
+              {
+                "step": "Measure the space first",
+                "detail": "Including the height it will hang at. Scale is what separates deliberate from accidental far more than technique."
+              },
+              {
+                "step": "Mock it up with paper",
+                "detail": "Cut newspaper to size and tape it up. Ten minutes here prevents building something the wrong size."
+              },
+              {
+                "step": "Choose materials you can actually work",
+                "detail": "Wood, card, fabric, found objects. Ambitious materials are how projects stall halfway."
+              },
+              {
+                "step": "Plan the fixing before building",
+                "detail": "Wall type, weight, hanger. Retrofitting a fixing to a finished piece is where these projects fail."
+              },
+              {
+                "step": "Keep the palette tight",
+                "detail": "Two or three colors drawn from the room. Restraint is what makes handmade look intentional."
+              }
+            ],
+            "tips": [
+              "Check what is behind the wall before drilling. Cables and pipes run in predictable places and a detector is cheap.",
+              "Match the fixing to the wall type. Plasterboard needs specific anchors and ordinary screws will pull straight out.",
+              "Take the mock-up seriously. Most disappointing results are scale errors rather than craft errors."
+            ],
+            "variations": "If drilling is not an option, design something freestanding or use removable adhesive strips within their weight rating. If you want to use what you already own, framing something you have, a map, a piece of fabric, a child's drawing, is often better than making something new.",
+            "faq": [
+              {
+                "q": "How do I make a DIY decoration not look homemade?",
+                "a": "Get the scale right for the space and keep the palette tight. Scale errors read as amateur more than craft errors do."
+              },
+              {
+                "q": "How do I hang something heavy?",
+                "a": "Match the fixing to the wall type, using proper anchors in plasterboard. Check for cables and pipes before drilling."
+              },
+              {
+                "q": "What if I cannot drill into the walls?",
+                "a": "Use removable adhesive strips within their stated weight limit, or design something freestanding instead."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "low",
+            "difficulty": "moderate",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "tape measure",
+              "materials",
+              "cable detector",
+              "fixings"
+            ]
+          },
+          "related": [
+            "try-pottery-or-clay-sculpting",
+            "plan-a-furniture-rearrangement",
+            "create-a-collage-from-magazine-cutouts"
+          ]
         },
         {
           "name": "Write a short story",
           "slug": "write-a-short-story",
           "description": "Invent characters, a setting, and a plot to tell a brief but complete tale that flexes your storytelling muscles.",
-          "image": "/images/activities/write-a-short-story.jpg"
+          "image": "/images/activities/write-a-short-story.jpg",
+          "seo": {
+            "title": "Write a Short Story by Starting as Late as Possible",
+            "metaDescription": "Start the scene near the moment things change, give the character a want and an obstacle, and finish a bad draft rather than polishing an unfinished one.",
+            "primaryKeyword": "write a short story",
+            "secondaryKeywords": [
+              "short story structure",
+              "flash fiction prompts",
+              "how to finish a first draft"
+            ]
+          },
+          "content": {
+            "intro": "Most attempts to write a short story stall in the setup, several pages of context before anything happens. Starting as late in the situation as possible fixes it: begin near the moment something changes and let the reader work out the background from what people say and do. Backstory is almost always removable.",
+            "whyItWorks": "A story needs someone who wants something and something in the way, and that structure can be established in a paragraph. Once both exist, the story has somewhere to go. Finishing a bad draft matters more than any craft advice, because a complete rough story can be revised while a beautifully written half-story cannot be anything.",
+            "howTo": [
+              {
+                "step": "Give someone a want and an obstacle",
+                "detail": "Both concrete, both in the first paragraph. Without these you have a description rather than a story."
+              },
+              {
+                "step": "Start as late as you can",
+                "detail": "At or just before the moment things change. Everything before that is usually setup you can cut."
+              },
+              {
+                "step": "Aim for a thousand words",
+                "detail": "Short enough to finish in a sitting. Ambitious length is why most first stories never get completed."
+              },
+              {
+                "step": "Write to the end without editing",
+                "detail": "Bad sentences are fine. A finished rough draft can be fixed; an unfinished polished one cannot."
+              },
+              {
+                "step": "Cut the first paragraph afterwards",
+                "detail": "It is usually throat-clearing. Try starting at the second and see whether anything was lost."
+              }
+            ],
+            "tips": [
+              "Show through action and dialogue rather than explaining. Readers infer far more than writers expect them to.",
+              "End sooner than feels natural. Stories are usually better cut a paragraph before the explanation.",
+              "Leave it a week before revising. Distance shows you what is actually on the page rather than what you intended."
+            ],
+            "variations": "If a thousand words is daunting, write flash fiction under three hundred, which forces every choice to count. If you have a story you cannot finish, write its final scene first; knowing the destination often unblocks the middle.",
+            "faq": [
+              {
+                "q": "How long should a short story be?",
+                "a": "For a first attempt, around a thousand words. Short enough to complete in one sitting, which matters more than length."
+              },
+              {
+                "q": "Where should a story start?",
+                "a": "As close to the change as possible. Setup written before that point is nearly always removable without loss."
+              },
+              {
+                "q": "How do I finish a first draft?",
+                "a": "Write to the end without editing. Revising as you go is the most reliable way to never reach the last page."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "free",
+            "difficulty": "moderate",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "computer or notebook"
+            ]
+          },
+          "related": [
+            "write-a-short-poem-or-haiku",
+            "improve-your-writing-skills-with-exercises",
+            "try-blackout-poetry-with-an-old-newspaper"
+          ]
         },
         {
           "name": "Try digital art on your phone/tablet",
           "slug": "try-digital-art-on-your-phone-tablet",
           "description": "Use a free drawing app like Procreate Pocket or Sketchbook to create illustrations with just your fingertip or stylus.",
-          "image": "/images/activities/try-digital-art-on-your-phone-tablet.jpg"
+          "image": "/images/activities/try-digital-art-on-your-phone-tablet.jpg",
+          "seo": {
+            "title": "Try Digital Art on Your Phone or Tablet Today",
+            "metaDescription": "Learn layers first, since they are the one thing digital drawing does that paper cannot. A finger works fine, and a cheap stylus works considerably better.",
+            "primaryKeyword": "try digital art on your phone or tablet",
+            "secondaryKeywords": [
+              "digital art for beginners",
+              "understanding layers",
+              "free drawing apps"
+            ]
+          },
+          "content": {
+            "intro": "To try digital art on your phone or tablet needs no new hardware and no expensive software. The one concept genuinely worth an hour is layers, because that is the capability paper does not have and the thing that makes digital work forgiving in a way traditional media never is.",
+            "whyItWorks": "Layers separate decisions. Sketch on one, ink on another, color underneath, and each can be changed without touching the others. That means a color choice is no longer permanent and a line can be redrawn without losing the shading. Learning that structure early is what prevents people from treating a drawing app as a slippery pencil.",
+            "howTo": [
+              {
+                "step": "Install one free app and stay in it",
+                "detail": "App-hopping is the main way beginners spend an hour without drawing anything."
+              },
+              {
+                "step": "Learn layers immediately",
+                "detail": "Sketch layer, line layer, color layer beneath. This is the whole advantage of working digitally."
+              },
+              {
+                "step": "Reduce sketch layer opacity",
+                "detail": "Then draw clean lines above it. This one workflow makes the results look substantially more finished."
+              },
+              {
+                "step": "Learn undo and the transform tool",
+                "detail": "Being able to move, scale and rotate part of a drawing is the second big advantage over paper."
+              },
+              {
+                "step": "Use three brushes at most",
+                "detail": "A sketch pencil, a clean liner, a soft fill. Hundreds of brushes are a distraction, not an advantage."
+              }
+            ],
+            "tips": [
+              "A cheap rubber-tipped stylus is a meaningful improvement over a finger and costs very little.",
+              "Turn on palm rejection if your device supports it, or you will draw with your hand as well as the stylus.",
+              "Save and export your work regularly. App projects are considerably easier to lose than a sheet of paper on a desk."
+            ],
+            "variations": "If you already draw on paper, photograph a sketch and color it digitally, which combines the strengths of both. If you want to learn one thing well, spend the hour entirely on layer masks, which is the technique that unlocks most intermediate tutorials.",
+            "faq": [
+              {
+                "q": "Do I need a drawing tablet?",
+                "a": "No. A phone or tablet with a free app is enough to learn on, and a cheap stylus improves control considerably."
+              },
+              {
+                "q": "What are layers for?",
+                "a": "Separating parts of a drawing so each can be changed independently. It is the main capability paper does not offer."
+              },
+              {
+                "q": "Which app should I use?",
+                "a": "Any capable free one. Choosing between apps is where beginners lose the hour they meant to spend drawing."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "phone or tablet",
+              "drawing app",
+              "stylus optional"
+            ]
+          },
+          "related": [
+            "sketch-or-doodle-something-creative",
+            "learn-basic-photo-editing",
+            "learn-basic-graphic-design-principles"
+          ]
         },
         {
           "name": "Make a playlist for a specific mood",
           "slug": "make-a-playlist-for-a-specific-mood",
-          "description": "Curate the perfect soundtrack for a mood or moment — rainy days, road trips, or Sunday mornings."
+          "description": "Curate the perfect soundtrack for a mood or moment — rainy days, road trips, or Sunday mornings.",
+          "seo": {
+            "title": "Make a Playlist for a Specific Mood That Works",
+            "metaDescription": "Sequencing matters more than song quality. Match tempo and energy across transitions, and let the playlist have a shape rather than a theme.",
+            "primaryKeyword": "make a playlist for a specific mood",
+            "secondaryKeywords": [
+              "playlist sequencing tips",
+              "how long should a playlist be",
+              "music for concentration"
+            ]
+          },
+          "content": {
+            "intro": "A playlist of individually excellent songs can be unlistenable, which is why sequencing matters more than selection. To make a playlist for a specific mood you are really designing transitions: how each track leads into the next in tempo, energy and key, and whether the whole thing has a shape or just an average.",
+            "whyItWorks": "Abrupt energy changes break attention, which is precisely what a mood playlist is trying to sustain. Ordering by energy rather than by artist or era keeps the listener inside the mood. Giving the playlist an arc, rising then settling, also gives it a reason to be listened to in order rather than shuffled, which is what separates a playlist from a folder.",
+            "howTo": [
+              {
+                "step": "Define the mood as an activity",
+                "detail": "Focused work, cooking on a Sunday, a long drive at night. Activities are more specific than adjectives."
+              },
+              {
+                "step": "Gather far more tracks than needed",
+                "detail": "Fifty for a twenty-track playlist. The cutting is where the quality comes from."
+              },
+              {
+                "step": "Order by energy, not artist",
+                "detail": "Build an arc. Energy is what the listener actually experiences across a sequence."
+              },
+              {
+                "step": "Listen to the transitions",
+                "detail": "Skip to the last twenty seconds of each track and into the next. That is where playlists break."
+              },
+              {
+                "step": "Cut anything that pulls attention",
+                "detail": "One track that makes you look up has broken the mood, however good it is on its own."
+              }
+            ],
+            "tips": [
+              "Aim for roughly an hour. Longer than that and the last third rarely gets heard.",
+              "For concentration, favour instrumental or unfamiliar music. Lyrics compete directly with reading and writing.",
+              "Revisit after a week of use. What works in the abstract and what works during the activity differ."
+            ],
+            "variations": "If it is for someone else, sequence it as a message with a beginning and an end, which is the traditional mixtape logic and still works. If it is for exercise, match tempo to your intended cadence, which is more effective than matching energy alone.",
+            "faq": [
+              {
+                "q": "How long should a playlist be?",
+                "a": "Around an hour for most purposes. Beyond that the later tracks rarely get heard before the session ends."
+              },
+              {
+                "q": "Does track order really matter?",
+                "a": "Considerably. Abrupt energy changes break the mood, which is the one thing the playlist exists to sustain."
+              },
+              {
+                "q": "What music is best for concentration?",
+                "a": "Instrumental or unfamiliar music. Lyrics compete for the same language processing that reading and writing use."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 45,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "music app",
+              "headphones"
+            ]
+          },
+          "related": [
+            "learn-to-read-basic-music-notation",
+            "build-a-focus-practice-for-deep-work",
+            "try-sound-bath-meditation"
+          ]
         },
         {
           "name": "Take ten creative photos of ordinary objects",
           "slug": "take-ten-creative-photos-of-ordinary-objects",
-          "description": "Challenge yourself to make everyday objects look extraordinary using angles, light, and close-ups."
+          "description": "Challenge yourself to make everyday objects look extraordinary using angles, light, and close-ups.",
+          "seo": {
+            "title": "Take Creative Photos of Ordinary Objects at Home",
+            "metaDescription": "One object, ten photographs, no moving to a new subject. The constraint forces you past the obvious shot into genuinely different approaches.",
+            "primaryKeyword": "creative photos of ordinary objects",
+            "secondaryKeywords": [
+              "still life photography ideas",
+              "photography constraints exercise",
+              "shooting everyday objects"
+            ]
+          },
+          "content": {
+            "intro": "Taking creative photos of ordinary objects works because of the constraint rather than the subject. Ten photographs of one spoon forces you past the obvious angle within about three shots, and everything after that requires genuinely new thinking about light, distance and framing.",
+            "whyItWorks": "Novelty normally does the work in photography: an interesting subject makes a mediocre photograph acceptable. Removing that support exposes your actual compositional decisions. The tenth photograph is where it becomes interesting, because by then every easy option is used and you have to try something you would not otherwise have considered.",
+            "howTo": [
+              {
+                "step": "Pick one deliberately dull object",
+                "detail": "A fork, a plug, a lemon, a doorknob. The less inherently interesting it is, the better the exercise works."
+              },
+              {
+                "step": "Take the obvious shot immediately",
+                "detail": "Get it out of your system in the first thirty seconds so it stops occupying your attention."
+              },
+              {
+                "step": "Change one variable per shot",
+                "detail": "Distance, angle, light direction, background, focus point. One deliberate change each time."
+              },
+              {
+                "step": "Get much closer than feels right",
+                "detail": "Extreme close-ups make familiar objects unrecognizable, which is often where the best frames appear."
+              },
+              {
+                "step": "Move the light, not just the camera",
+                "detail": "A window, a lamp, a phone torch from the side. Light direction changes the object more than position does."
+              }
+            ],
+            "tips": [
+              "Shoot against plain uncluttered backgrounds. A busy background is by far the commonest reason an otherwise good still life fails.",
+              "Try photographing the shadow as the subject rather than the object casting it. It produces a genuinely different photograph from the same setup.",
+              "Review all ten of them together afterwards, side by side. The progression from the first to the tenth is the actual output of this exercise."
+            ],
+            "variations": "If ten feels too few, do thirty and note where you started struggling, since that point is your current default range. If you want more difficulty, use one focal length and one position, changing only the light across all ten.",
+            "faq": [
+              {
+                "q": "Why photograph boring objects?",
+                "a": "Because an interesting subject hides weak composition. Removing that support forces you to make actual visual decisions."
+              },
+              {
+                "q": "What should I change between shots?",
+                "a": "One variable at a time: distance, angle, light direction, background or focus. Deliberate changes teach more than random ones."
+              },
+              {
+                "q": "Do I need a proper camera?",
+                "a": "No. A phone is entirely sufficient, since the exercise is about seeing rather than about image quality."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 45,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "phone or camera",
+              "a lamp or window"
+            ]
+          },
+          "related": [
+            "learn-basic-photography-composition",
+            "try-outdoor-photography",
+            "sketch-or-doodle-something-creative"
+          ]
         },
         {
           "name": "Write a letter to a friend by hand",
           "slug": "write-a-letter-to-a-friend-by-hand",
-          "description": "Slow down and put pen to paper — a handwritten letter is a small gift in a digital world."
+          "description": "Slow down and put pen to paper — a handwritten letter is a small gift in a digital world.",
+          "seo": {
+            "title": "Write a Letter to a Friend by Hand and Post It",
+            "metaDescription": "A handwritten letter is rare enough now to be genuinely memorable. Write about specifics, accept the crossings-out, and post it rather than perfecting it.",
+            "primaryKeyword": "write a letter to a friend by hand",
+            "secondaryKeywords": [
+              "what to write in a letter",
+              "handwritten letter ideas",
+              "why send letters"
+            ]
+          },
+          "content": {
+            "intro": "To write a letter to a friend by hand is unusual enough now that the act carries most of the message. Nobody expects post that is not a bill, and the effort is legible in a way a message never is. The content matters less than people fear, which is fortunate, because worrying about content is what stops most letters being written.",
+            "whyItWorks": "Handwriting is slower than typing, and the slowness changes what you write. There is time to think between sentences and no ability to delete, which produces something more considered and less edited than a message. The physical object then persists: letters get kept in drawers for decades, which is not true of anything sent electronically.",
+            "howTo": [
+              {
+                "step": "Choose one person and one reason",
+                "detail": "Something specific prompted this. Say so in the first line and the letter writes itself from there."
+              },
+              {
+                "step": "Write about the ordinary",
+                "detail": "What your week looked like, what you have been reading, what is outside the window. Specifics are what make it personal."
+              },
+              {
+                "step": "Ask two real questions",
+                "detail": "It gives them something to answer and makes a reply considerably more likely."
+              },
+              {
+                "step": "Do not restart for mistakes",
+                "detail": "Cross it out and continue. A perfect letter reads like a document; an honest one reads like a person."
+              },
+              {
+                "step": "Post it the same day",
+                "detail": "A finished letter left on the desk is the commonest failure. Address and stamp it before you put the pen down."
+              }
+            ],
+            "tips": [
+              "One side of paper is plenty. Length is not what makes a letter valuable.",
+              "Add something flat: a photograph, a ticket stub, a pressed leaf. It costs nothing and is disproportionately memorable.",
+              "Keep stamps and envelopes in the house. Not having them is why written letters go unposted."
+            ],
+            "variations": "If handwriting is difficult or painful, type it and sign it by hand; the posted object still carries most of the effect. If you want to make it a habit, write one on the first Sunday of each month, which is twelve letters a year and very little time.",
+            "faq": [
+              {
+                "q": "What should I write about in a letter?",
+                "a": "Ordinary specifics: your week, what you are reading, what prompted you to write. Detail is what makes it feel personal."
+              },
+              {
+                "q": "How long should a letter be?",
+                "a": "One side is plenty. The fact of receiving it carries far more weight than its length."
+              },
+              {
+                "q": "What if I make mistakes?",
+                "a": "Cross them out and keep going. Restarting for neatness is the main reason handwritten letters never get finished."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 45,
+            "cost": "low",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "paper",
+              "pen",
+              "envelope",
+              "stamp"
+            ]
+          },
+          "related": [
+            "write-a-thank-you-note-to-someone",
+            "design-your-own-greeting-card",
+            "reconnect-with-a-former-colleague"
+          ]
         },
         {
           "name": "Try blackout poetry with an old newspaper",
           "slug": "try-blackout-poetry-with-an-old-newspaper",
-          "description": "Black out words on a printed page until the ones left behind form a poem."
+          "description": "Black out words on a printed page until the ones left behind form a poem.",
+          "seo": {
+            "title": "Try Blackout Poetry With an Old Newspaper Page",
+            "metaDescription": "Blackout poetry finds a poem inside existing text by removing everything else. Read for one striking word first, then build outward from it.",
+            "primaryKeyword": "try blackout poetry",
+            "secondaryKeywords": [
+              "blackout poetry technique",
+              "found poetry ideas",
+              "erasure poem how to"
+            ]
+          },
+          "content": {
+            "intro": "When you try blackout poetry you work by subtraction: take a page of existing text and black out everything except the words forming your poem. It removes the blank page entirely, which is why it suits people who find writing intimidating, and the constraint of using only words already on the page produces combinations you would never have written.",
+            "whyItWorks": "The words appear in fixed order, so you are solving a puzzle rather than composing from nothing. That constraint generates the strange phrasing that makes found poetry interesting. Reading the page for one arresting word first also gives you a centre to build around, which is more productive than reading from the top hoping a poem appears.",
+            "howTo": [
+              {
+                "step": "Choose a text-heavy page",
+                "detail": "Dense body text works better than headlines or advertising. Old books and newspapers are ideal."
+              },
+              {
+                "step": "Read for one striking word",
+                "detail": "Scan for a single word with weight. That word becomes the anchor everything else is built around."
+              },
+              {
+                "step": "Pencil-circle candidates first",
+                "detail": "Before blacking anything out. Ink is permanent and you will change your mind repeatedly."
+              },
+              {
+                "step": "Read your selection aloud",
+                "detail": "Words in fixed order can look right and sound wrong. The ear catches it immediately."
+              },
+              {
+                "step": "Black out everything else",
+                "detail": "Marker, paint, or pattern. The blacking-out is part of the artwork rather than merely deletion."
+              }
+            ],
+            "tips": [
+              "You may skip large amounts of text between your chosen words. The gaps are entirely allowed and are usually necessary to find a workable phrase.",
+              "Use a thick marker with a scrap sheet underneath the page. Marker ink bleeds through newspaper reliably and will mark the table.",
+              "Making the blackout decorative rather than solid turns the page into a visual piece as well as a poem."
+            ],
+            "variations": "If newspapers are hard to find, printed web articles or charity shop paperbacks work identically. If you want the reverse constraint, try selecting words only from the first line of each paragraph, which forces much stranger results.",
+            "faq": [
+              {
+                "q": "What is blackout poetry?",
+                "a": "A found poem made by blacking out most of an existing page, leaving only the words that form your poem."
+              },
+              {
+                "q": "Can I skip words?",
+                "a": "Yes, and you usually must. Large gaps between chosen words are normal and part of how the form works."
+              },
+              {
+                "q": "What text works best?",
+                "a": "Dense body text from newspapers or old books. Headlines and advertising have too few words to choose between."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 30,
+            "cost": "free",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "old newspaper or book page",
+              "marker",
+              "pencil"
+            ]
+          },
+          "related": [
+            "write-a-short-poem-or-haiku",
+            "create-a-collage-from-magazine-cutouts",
+            "write-a-short-story"
+          ]
         },
         {
           "name": "Paint kindness rocks to leave around town",
           "slug": "paint-kindness-rocks-to-leave-around-town",
-          "description": "Paint small rocks with cheerful designs or messages and leave them for strangers to find."
+          "description": "Paint small rocks with cheerful designs or messages and leave them for strangers to find.",
+          "seo": {
+            "title": "Paint Kindness Rocks and Leave Them Where People Walk",
+            "metaDescription": "Smooth stones, acrylic paint and a sealed finish. Keep designs simple, seal properly so rain does not ruin them, and check local rules before placing any.",
+            "primaryKeyword": "paint kindness rocks",
+            "secondaryKeywords": [
+              "rock painting for beginners",
+              "sealing painted rocks",
+              "kindness rocks project"
+            ]
+          },
+          "content": {
+            "intro": "Painted rocks left in public for strangers to find is a small, strange and genuinely nice thing to do. To paint kindness rocks needs almost nothing: smooth stones, acrylic paint, and a sealant so the first rain does not undo an hour's work. The sealing step is the one people skip and regret.",
+            "whyItWorks": "The pleasure is asymmetric. Painting the rock takes twenty minutes and the person who finds it gets a small unexpected moment for free. Keeping designs simple matters because rocks are small and bold shapes read from a distance where fine detail does not, which is what makes one noticeable on a path at all.",
+            "howTo": [
+              {
+                "step": "Find smooth flat stones",
+                "detail": "Palm sized, smooth surface. Rough or porous stone soaks up paint and never looks finished."
+              },
+              {
+                "step": "Wash and dry them completely",
+                "detail": "Paint does not adhere to dusty or damp stone. This is the commonest reason designs flake off."
+              },
+              {
+                "step": "Prime with a base coat",
+                "detail": "One flat color over the whole stone first. It makes everything painted on top considerably brighter."
+              },
+              {
+                "step": "Keep the design bold and simple",
+                "detail": "A few colors, thick lines, short message. Fine detail is invisible on a stone lying on a path."
+              },
+              {
+                "step": "Seal it properly",
+                "detail": "Clear acrylic sealant once fully dry. Without this, the first rain removes everything you painted."
+              }
+            ],
+            "tips": [
+              "Do not paint or place rocks in nature reserves or protected areas. Check local rules before leaving any.",
+              "Take stones from garden centres rather than from beaches or riverbeds, where removal is often restricted.",
+              "Leave them somewhere visible but not underfoot: a wall, a bench, the base of a tree."
+            ],
+            "variations": "If you would rather not place them outside, painted stones make good paperweights and gifts and skip the entire question of local rules. If children are involved, let them do the designs and handle the sealing yourself, since sealants are best kept away from small hands.",
+            "faq": [
+              {
+                "q": "How do I stop painted rocks washing out in the rain?",
+                "a": "Seal them with clear acrylic sealant once fully dry. Unsealed paint does not survive the first rainfall."
+              },
+              {
+                "q": "What paint should I use?",
+                "a": "Acrylic paint over a base coat, on a clean dry stone. Paint applied to dusty or damp rock flakes off quickly."
+              },
+              {
+                "q": "Is it acceptable to leave rocks in public places?",
+                "a": "Usually in ordinary public spaces, but check locally. Avoid nature reserves and protected areas entirely."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 60,
+            "cost": "low",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "smooth stones",
+              "acrylic paint",
+              "brushes",
+              "clear sealant"
+            ]
+          },
+          "related": [
+            "create-a-diy-home-decoration",
+            "try-pottery-or-clay-sculpting",
+            "give-three-genuine-compliments-today"
+          ]
         },
         {
           "name": "Start a doodle-a-day challenge",
           "slug": "start-a-doodle-a-day-challenge",
-          "description": "Commit to one small doodle a day and watch your sketchbook—and confidence—fill up."
+          "description": "Commit to one small doodle a day and watch your sketchbook—and confidence—fill up.",
+          "seo": {
+            "title": "Start a Doodle a Day Challenge You Can Sustain",
+            "metaDescription": "Daily drawing works through sheer volume rather than quality. Keep the commitment tiny, use one small book, and never skip two days in a row.",
+            "primaryKeyword": "start a doodle a day challenge",
+            "secondaryKeywords": [
+              "daily drawing habit",
+              "sketchbook challenge ideas",
+              "drawing prompts list"
+            ]
+          },
+          "content": {
+            "intro": "People who start a doodle a day challenge usually fail because the daily commitment was too large. Five minutes is sustainable, thirty is not, and the entire value comes from the streak rather than from any individual drawing. Setting the bar deliberately low is what makes the hundredth day possible.",
+            "whyItWorks": "Drawing improves through volume, and a small daily amount produces far more total drawing than occasional long sessions. The habit mechanics matter as much as the drawing: a tiny commitment survives bad days, one book removes the decision about where to draw, and a visible streak provides motivation out of all proportion to its logic.",
+            "howTo": [
+              {
+                "step": "Set the bar absurdly low",
+                "detail": "Five minutes, one small drawing. The commitment must survive your worst and busiest day."
+              },
+              {
+                "step": "Use one small book",
+                "detail": "Pocket sized, one page per day. Small pages are finishable; large ones feel like an obligation."
+              },
+              {
+                "step": "Attach it to an existing habit",
+                "detail": "With morning coffee, before bed. An anchor removes the need to remember or decide."
+              },
+              {
+                "step": "Use a prompt list",
+                "detail": "Thirty prompts written in advance. Deciding what to draw is what consumes the five minutes otherwise."
+              },
+              {
+                "step": "Never skip two days",
+                "detail": "One missed day is nothing. Two is where daily habits quietly stop being daily."
+              }
+            ],
+            "tips": [
+              "Date every single page. The chronological record is what makes flipping back through the book meaningful several months later.",
+              "Do not tear out the bad ones. The weak pages are what make the progress visible.",
+              "Keep the book and a pen in the same place permanently. Searching for materials ends more streaks than lack of ideas."
+            ],
+            "variations": "If daily is unrealistic, three times a week still accumulates substantially and is far better than an abandoned daily attempt. If you want direction, pick one subject for a whole month, since drawing the same thing thirty times teaches more than thirty different things once.",
+            "faq": [
+              {
+                "q": "How long should a daily doodle take?",
+                "a": "Five minutes. The commitment has to be small enough to survive your busiest day, or the streak breaks."
+              },
+              {
+                "q": "What should I draw each day?",
+                "a": "Use a prompt list written in advance. Deciding what to draw is what consumes the time you allocated to drawing."
+              },
+              {
+                "q": "What if I miss a day?",
+                "a": "Carry on. One missed day is irrelevant; two in a row is where the habit tends to break for good."
+              }
+            ]
+          },
+          "meta": {
+            "timeMinutes": 30,
+            "cost": "low",
+            "difficulty": "easy",
+            "indoor": true,
+            "solo": true,
+            "equipment": [
+              "small sketchbook",
+              "pen",
+              "prompt list"
+            ]
+          },
+          "related": [
+            "sketch-or-doodle-something-creative",
+            "learn-about-habit-formation-science",
+            "do-some-people-sketching-in-a-public-place"
+          ]
         }
       ]
     },
