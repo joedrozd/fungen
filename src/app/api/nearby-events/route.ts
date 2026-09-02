@@ -16,6 +16,11 @@ type SearchRequest = {
 
 type JsonRecord = Record<string, unknown>;
 
+type ResolvedLocation = {
+  displayName: string;
+  searchTerms: string[];
+};
+
 const noStoreHeaders = { "Cache-Control": "private, no-store" };
 
 function isRecord(value: unknown): value is JsonRecord {
@@ -162,7 +167,38 @@ function normalizeProduct(product: JsonRecord): NearbyEvent | null {
   };
 }
 
-async function reverseGeocode(latitude: number, longitude: number): Promise<string> {
+function resolvedLocationFromGeocoder(data: JsonRecord): ResolvedLocation {
+  const address = isRecord(data.address) ? data.address : {};
+  const locality = text(
+    address.city ?? address.town ?? address.municipality ?? address.village
+  );
+  const widerArea = text(address.state_district ?? address.county ?? address.state);
+  const country = text(address.country);
+  const fallback = text(data.display_name);
+  const displayParts = [locality, widerArea, country].filter(
+    (part, index, values): part is string => Boolean(part) && values.indexOf(part) === index
+  );
+  const displayName = displayParts.join(", ") || fallback;
+
+  if (!displayName) throw new Error("Could not identify this location");
+
+  const searchTerms = [
+    locality,
+    locality && country ? `${locality}, ${country}` : undefined,
+    widerArea,
+    widerArea && country ? `${widerArea}, ${country}` : undefined,
+    displayName,
+  ].filter(
+    (part, index, values): part is string => Boolean(part) && values.indexOf(part) === index
+  );
+
+  return { displayName, searchTerms };
+}
+
+async function reverseGeocode(
+  latitude: number,
+  longitude: number
+): Promise<ResolvedLocation> {
   const params = new URLSearchParams({
     lat: latitude.toString(),
     lon: longitude.toString(),
@@ -185,18 +221,34 @@ async function reverseGeocode(latitude: number, longitude: number): Promise<stri
   const data: unknown = await response.json();
   if (!isRecord(data)) throw new Error("Location lookup returned an invalid response");
 
-  const address = isRecord(data.address) ? data.address : {};
-  const locality = text(
-    address.city ?? address.town ?? address.village ?? address.municipality ?? address.county
-  );
-  const region = text(address.state ?? address.region);
-  const country = text(address.country);
-  const parts = [locality, region, country].filter(
-    (part, index, values): part is string => Boolean(part) && values.indexOf(part) === index
-  );
+  return resolvedLocationFromGeocoder(data);
+}
 
-  if (!parts.length) throw new Error("Could not identify this location");
-  return parts.join(", ");
+async function geocodeEnteredLocation(query: string): Promise<ResolvedLocation> {
+  const params = new URLSearchParams({
+    q: query,
+    format: "jsonv2",
+    limit: "1",
+    addressdetails: "1",
+  });
+
+  const response = await fetch(`https://nominatim.openstreetmap.org/search?${params}`, {
+    headers: {
+      Accept: "application/json",
+      "Accept-Language": VIATOR_LOCALE,
+      "User-Agent": "FunGen nearby events (https://fungen.app)",
+    },
+    signal: AbortSignal.timeout(8_000),
+    cache: "no-store",
+  });
+
+  if (!response.ok) throw new Error("Location lookup failed");
+  const data: unknown = await response.json();
+  if (!Array.isArray(data) || !isRecord(data[0])) {
+    throw new Error("Could not identify this location");
+  }
+
+  return resolvedLocationFromGeocoder(data[0]);
 }
 
 async function searchViator(location: string): Promise<NearbyEvent[]> {
@@ -254,8 +306,18 @@ export async function POST(request: Request) {
     const longitude = number(body.longitude);
 
     let location: string;
+    let searchTerms: string[];
     if (typedLocation) {
       location = typedLocation;
+      searchTerms = [typedLocation];
+
+      // Postal codes are useful to a geocoder but are generally not present in
+      // Viator product text. Resolve them to a locality before product search.
+      if (/\d/.test(typedLocation)) {
+        const resolved = await geocodeEnteredLocation(typedLocation);
+        location = resolved.displayName;
+        searchTerms = resolved.searchTerms;
+      }
     } else if (
       latitude !== undefined &&
       longitude !== undefined &&
@@ -264,7 +326,9 @@ export async function POST(request: Request) {
       longitude >= -180 &&
       longitude <= 180
     ) {
-      location = await reverseGeocode(latitude, longitude);
+      const resolved = await reverseGeocode(latitude, longitude);
+      location = resolved.displayName;
+      searchTerms = resolved.searchTerms;
     } else {
       return NextResponse.json(
         { error: "Enter a location or share your current position." },
@@ -272,7 +336,28 @@ export async function POST(request: Request) {
       );
     }
 
-    const events = await searchViator(location);
+    let events: NearbyEvent[] = [];
+    for (const searchTerm of searchTerms) {
+      events = await searchViator(searchTerm);
+      if (events.length) break;
+    }
+
+    // If a normal place-name search is empty, resolve it geographically and
+    // retry its locality and surrounding area before showing an empty state.
+    if (!events.length && typedLocation && !/\d/.test(typedLocation)) {
+      try {
+        const resolved = await geocodeEnteredLocation(typedLocation);
+        location = resolved.displayName;
+        for (const searchTerm of resolved.searchTerms) {
+          if (searchTerms.includes(searchTerm)) continue;
+          events = await searchViator(searchTerm);
+          if (events.length) break;
+        }
+      } catch {
+        // Keep the original empty result if the optional broadening lookup fails.
+      }
+    }
+
     return NextResponse.json({ location, events }, { headers: noStoreHeaders });
   } catch (error) {
     console.error("Nearby events search failed:", error);
