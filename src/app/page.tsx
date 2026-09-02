@@ -13,6 +13,7 @@ import { SocialShare } from "@/components/SocialShare";
 import { BackToTop } from "@/components/BackToTop";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
+import { NearbyEvents } from "@/components/NearbyEvents";
 import { useToast } from "@/components/Toast";
 import { useUserPreferences } from "@/hooks/useUserPreferences";
 
@@ -423,6 +424,9 @@ export default function Home() {
             </CardContent>
           </Card>
         )}
+
+        {/* Location-based experiences powered by Viator */}
+        <NearbyEvents />
       </main>
 
       {/* Back to top button */}

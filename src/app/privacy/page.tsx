@@ -26,7 +26,7 @@ export default function PrivacyPage() {
         <div className="max-w-3xl mx-auto space-y-8">
           <div className="bg-white/80 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-white/20 text-center">
             <h1 className="text-4xl font-bold mb-3 text-gray-900">Privacy Policy</h1>
-            <p className="text-sm text-gray-500">Last updated: July 5, 2026</p>
+            <p className="text-sm text-gray-500">Last updated: September 2, 2026</p>
           </div>
 
           <Card className="bg-white/90">
@@ -39,7 +39,16 @@ export default function PrivacyPage() {
                   Activity Generator. Any data you choose to save (e.g., favourites, ratings) is stored
                   locally in your browser using localStorage and is never transmitted to our servers.
                 </p>
-                <h3 className="font-semibold text-gray-800 mt-3 mb-1">b. Automatically Collected Information</h3>
+                <h3 className="font-semibold text-gray-800 mt-3 mb-1">b. Location Search</h3>
+                <p>
+                  If you use the nearby-events feature, you may enter a place or choose to share your
+                  device&apos;s approximate coordinates. Location access is optional and requested only after
+                  you select &ldquo;Use my location&rdquo;. The place or coordinates are sent to our server to
+                  complete that search, are not saved by us, and are not added to your local activity history.
+                  Coordinates are converted to a place name using OpenStreetMap Nominatim, and the place name
+                  is then used to request experience suggestions from Viator.
+                </p>
+                <h3 className="font-semibold text-gray-800 mt-3 mb-1">c. Automatically Collected Information</h3>
                 <p>
                   When you visit the Service, we may automatically collect certain technical information,
                   including your IP address, browser type, device type, operating system, referring URLs,
@@ -112,6 +121,30 @@ export default function PrivacyPage() {
                       className="text-blue-600 hover:underline"
                     >
                       Google&#39;s Privacy Policy
+                    </a>.
+                  </li>
+                  <li>
+                    <strong>OpenStreetMap Nominatim</strong> &mdash; to convert coordinates into a place name
+                    when you choose to share your location. See the{" "}
+                    <a
+                      href="https://osmfoundation.org/wiki/Privacy_Policy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:underline"
+                    >
+                      OpenStreetMap Foundation Privacy Policy
+                    </a>.
+                  </li>
+                  <li>
+                    <strong>Viator</strong> &mdash; to find tours and experiences for the place you search.
+                    See the{" "}
+                    <a
+                      href="https://www.viator.com/support/privacyPolicy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Viator Privacy and Cookies Statement
                     </a>.
                   </li>
                 </ul>
