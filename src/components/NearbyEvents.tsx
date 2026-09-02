@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { FormEvent, KeyboardEvent, useEffect, useState } from "react";
 import Image from "next/image";
 import { ExternalLink, LocateFixed, MapPin, Search, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -8,6 +8,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import type { NearbyEvent, NearbyEventsResponse } from "@/lib/nearby-events";
 
 type SearchState = "idle" | "locating" | "loading" | "success" | "error";
+
+type LocationSuggestion = {
+  id: string;
+  label: string;
+  country?: string;
+};
 
 const formatPrice = (event: NearbyEvent) => {
   if (event.price === undefined || !event.currency) return null;
@@ -25,10 +31,84 @@ const formatPrice = (event: NearbyEvent) => {
 export function NearbyEvents() {
   const [location, setLocation] = useState("");
   const [country, setCountry] = useState("");
+  const [selectedLocation, setSelectedLocation] = useState("");
+  const [suggestions, setSuggestions] = useState<LocationSuggestion[]>([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const [suggestionsLoading, setSuggestionsLoading] = useState(false);
+  const [activeSuggestion, setActiveSuggestion] = useState(-1);
   const [resolvedLocation, setResolvedLocation] = useState("");
   const [events, setEvents] = useState<NearbyEvent[]>([]);
   const [state, setState] = useState<SearchState>("idle");
   const [error, setError] = useState("");
+  const busy = state === "locating" || state === "loading";
+
+  useEffect(() => {
+    const query = location.trim();
+    if (query.length < 3 || query === selectedLocation || busy) {
+      setSuggestions([]);
+      setShowSuggestions(false);
+      setSuggestionsLoading(false);
+      return;
+    }
+
+    const controller = new AbortController();
+    const timer = window.setTimeout(async () => {
+      setSuggestionsLoading(true);
+      const params = new URLSearchParams({ q: query });
+      if (country.trim()) params.set("country", country.trim());
+
+      try {
+        const response = await fetch(`/api/location-search?${params}`, {
+          signal: controller.signal,
+        });
+        const data = (await response.json()) as { suggestions?: LocationSuggestion[] };
+        const nextSuggestions = response.ok ? data.suggestions ?? [] : [];
+        setSuggestions(nextSuggestions);
+        setShowSuggestions(nextSuggestions.length > 0);
+        setActiveSuggestion(-1);
+      } catch (caught) {
+        if (!(caught instanceof DOMException && caught.name === "AbortError")) {
+          setSuggestions([]);
+          setShowSuggestions(false);
+        }
+      } finally {
+        if (!controller.signal.aborted) setSuggestionsLoading(false);
+      }
+    }, 350);
+
+    return () => {
+      window.clearTimeout(timer);
+      controller.abort();
+    };
+  }, [location, country, selectedLocation, busy]);
+
+  const chooseSuggestion = (suggestion: LocationSuggestion) => {
+    setLocation(suggestion.label);
+    setSelectedLocation(suggestion.label);
+    if (suggestion.country) setCountry(suggestion.country);
+    setSuggestions([]);
+    setShowSuggestions(false);
+    setActiveSuggestion(-1);
+  };
+
+  const handleLocationKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
+    if (!showSuggestions || !suggestions.length) return;
+
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      setActiveSuggestion((current) => (current + 1) % suggestions.length);
+    } else if (event.key === "ArrowUp") {
+      event.preventDefault();
+      setActiveSuggestion((current) =>
+        current <= 0 ? suggestions.length - 1 : current - 1
+      );
+    } else if (event.key === "Enter" && activeSuggestion >= 0) {
+      event.preventDefault();
+      chooseSuggestion(suggestions[activeSuggestion]);
+    } else if (event.key === "Escape") {
+      setShowSuggestions(false);
+    }
+  };
 
   const fetchEvents = async (body: Record<string, string | number>) => {
     setState("loading");
@@ -93,8 +173,6 @@ export function NearbyEvents() {
       { enableHighAccuracy: false, timeout: 10_000, maximumAge: 10 * 60 * 1000 }
     );
   };
-
-  const busy = state === "locating" || state === "loading";
 
   return (
     <Card className="w-full max-w-4xl bg-white/95" aria-labelledby="nearby-events-title">
