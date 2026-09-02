@@ -75,6 +75,20 @@ function findProductResults(payload: unknown): JsonRecord[] {
   return [];
 }
 
+function findDestinationResults(payload: unknown): JsonRecord[] {
+  if (!isRecord(payload)) return [];
+  const candidates = [
+    payload.destinations,
+    getPath(payload, ["destinations", "results"]),
+    getPath(payload, ["data", "destinations", "results"]),
+  ];
+
+  for (const candidate of candidates) {
+    if (Array.isArray(candidate)) return candidate.filter(isRecord);
+  }
+  return [];
+}
+
 function getImageUrl(product: JsonRecord): string | undefined {
   const direct = secureUrl(product.thumbnail ?? product.imageUrl);
   if (direct) return direct;
@@ -184,11 +198,11 @@ function resolvedLocationFromGeocoder(data: JsonRecord): ResolvedLocation {
   if (!displayName) throw new Error("Could not identify this location");
 
   const searchTerms = [
+    displayName,
     locality && country ? `${locality}, ${country}` : undefined,
     locality,
     widerArea && country ? `${widerArea}, ${country}` : undefined,
     widerArea,
-    displayName,
   ].filter(
     (part, index, values): part is string => Boolean(part) && values.indexOf(part) === index
   );
@@ -252,37 +266,24 @@ async function geocodeEnteredLocation(query: string): Promise<ResolvedLocation> 
   return resolvedLocationFromGeocoder(data[0]);
 }
 
-async function searchViator(location: string): Promise<NearbyEvent[]> {
+function getViatorApiKey(): string {
   const apiKey = VIATOR_BASE_URL.includes("api.sandbox.viator.com")
     ? process.env.VIATOR_SANDBOX_API_KEY ?? process.env.VIATOR_API_KEY
     : process.env.VIATOR_API_KEY;
   if (!apiKey) throw new Error("VIATOR_API_KEY_NOT_CONFIGURED");
+  return apiKey;
+}
 
-  const today = new Date();
-  const endDate = new Date(today);
-  endDate.setUTCDate(endDate.getUTCDate() + 30);
-  const toDate = (date: Date) => date.toISOString().slice(0, 10);
-
-  const response = await fetch(`${VIATOR_BASE_URL}/search/freetext`, {
+async function viatorPost(path: string, body: JsonRecord): Promise<unknown> {
+  const response = await fetch(`${VIATOR_BASE_URL}${path}`, {
     method: "POST",
     headers: {
       Accept: "application/json;version=2.0",
       "Accept-Language": VIATOR_LOCALE,
       "Content-Type": "application/json",
-      "exp-api-key": apiKey,
+      "exp-api-key": getViatorApiKey(),
     },
-    body: JSON.stringify({
-      searchTerm: location,
-      productFiltering: {
-        dateRange: { from: toDate(today), to: toDate(endDate) },
-        includeAutomaticTranslations: true,
-      },
-      productSorting: { sort: "REVIEW_AVG_RATING", order: "DESCENDING" },
-      searchTypes: [
-        { searchType: "PRODUCTS", pagination: { start: 1, count: 3 } },
-      ],
-      currency: VIATOR_CURRENCY,
-    }),
+    body: JSON.stringify(body),
     signal: AbortSignal.timeout(12_000),
     cache: "no-store",
   });
@@ -292,6 +293,72 @@ async function searchViator(location: string): Promise<NearbyEvent[]> {
     const message = isRecord(data) ? text(data.message) : undefined;
     throw new Error(message ?? `Viator request failed (${response.status})`);
   }
+  return data;
+}
+
+async function findViatorDestination(location: string): Promise<string | undefined> {
+  const data = await viatorPost("/search/freetext", {
+    searchTerm: location,
+    searchTypes: [
+      { searchType: "DESTINATIONS", pagination: { start: 1, count: 10 } },
+    ],
+    currency: VIATOR_CURRENCY,
+  });
+
+  const normalizedLocation = location.toLocaleLowerCase();
+  const firstPart = normalizedLocation.split(",")[0].trim();
+  const ranked = findDestinationResults(data)
+    .map((destination) => {
+      const idValue = destination.id ?? destination.destinationId;
+      const id = typeof idValue === "number" ? String(idValue) : text(idValue);
+      const name = text(destination.name ?? destination.destinationName);
+      const parent = text(destination.parentDestinationName);
+      if (!id || !name) return null;
+
+      const normalizedName = name.toLocaleLowerCase();
+      const normalizedParent = parent?.toLocaleLowerCase();
+      let score = 0;
+      if (normalizedName === firstPart) score += 6;
+      else if (normalizedLocation.includes(normalizedName)) score += 2;
+      if (normalizedParent && normalizedLocation.includes(normalizedParent)) score += 4;
+      return { id, score };
+    })
+    .filter((destination): destination is { id: string; score: number } => destination !== null)
+    .sort((a, b) => b.score - a.score);
+
+  return ranked[0]?.score ? ranked[0].id : undefined;
+}
+
+async function searchViator(location: string): Promise<NearbyEvent[]> {
+  const destinationId = await findViatorDestination(location);
+  if (destinationId) {
+    const data = await viatorPost("/products/search", {
+      filtering: {
+        destination: destinationId,
+        includeAutomaticTranslations: true,
+      },
+      sorting: { sort: "TRAVELER_RATING", order: "DESCENDING" },
+      pagination: { start: 1, count: 3 },
+      currency: VIATOR_CURRENCY,
+    });
+
+    return findProductResults(data)
+      .map(normalizeProduct)
+      .filter((event): event is NearbyEvent => event !== null)
+      .slice(0, 3);
+  }
+
+  const data = await viatorPost("/search/freetext", {
+    searchTerm: location,
+    productFiltering: {
+      includeAutomaticTranslations: true,
+    },
+    productSorting: { sort: "REVIEW_AVG_RATING", order: "DESCENDING" },
+    searchTypes: [
+      { searchType: "PRODUCTS", pagination: { start: 1, count: 3 } },
+    ],
+    currency: VIATOR_CURRENCY,
+  });
 
   return findProductResults(data)
     .map(normalizeProduct)
@@ -310,7 +377,12 @@ export async function POST(request: Request) {
     let location: string;
     let searchTerms: string[];
     if (typedLocation) {
-      const enteredLocation = country ? `${typedLocation}, ${country}` : typedLocation;
+      const includesCountry = country
+        ? typedLocation.toLocaleLowerCase().includes(country.toLocaleLowerCase())
+        : false;
+      const enteredLocation = country && !includesCountry
+        ? `${typedLocation}, ${country}`
+        : typedLocation;
       location = enteredLocation;
       searchTerms = [enteredLocation];
 

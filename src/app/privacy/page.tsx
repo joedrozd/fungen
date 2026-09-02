@@ -45,9 +45,9 @@ export default function PrivacyPage() {
                   device&apos;s approximate coordinates. Location access is optional and requested only after
                   you select &ldquo;Use my location&rdquo;. The place or coordinates are sent to our server to
                   complete that search, are not saved by us, and are not added to your local activity history.
-                  Coordinates and postcode-style searches are converted to a broader place name using
-                  OpenStreetMap Nominatim, and the place name is then used to request experience suggestions
-                  from Viator.
+                  Coordinates and manual location searches are converted to a broader place name using
+                  OpenStreetMap Nominatim. Search suggestions may be shown so you can select the intended
+                  place before its town or city is used to request experience suggestions from Viator.
                 </p>
                 <h3 className="font-semibold text-gray-800 mt-3 mb-1">c. Automatically Collected Information</h3>
                 <p>
@@ -125,8 +125,8 @@ export default function PrivacyPage() {
                     </a>.
                   </li>
                   <li>
-                    <strong>OpenStreetMap Nominatim</strong> &mdash; to convert coordinates or postcode-style
-                    searches into a place name. See the{" "}
+                    <strong>OpenStreetMap Nominatim</strong> &mdash; to provide place suggestions and convert
+                    coordinates or manual searches into a place name. See the{" "}
                     <a
                       href="https://osmfoundation.org/wiki/Privacy_Policy"
                       target="_blank"

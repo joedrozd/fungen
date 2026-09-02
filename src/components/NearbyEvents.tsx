@@ -13,6 +13,8 @@ type LocationSuggestion = {
   id: string;
   label: string;
   country?: string;
+  latitude: number;
+  longitude: number;
 };
 
 const formatPrice = (event: NearbyEvent) => {
@@ -32,6 +34,10 @@ export function NearbyEvents() {
   const [location, setLocation] = useState("");
   const [country, setCountry] = useState("");
   const [selectedLocation, setSelectedLocation] = useState("");
+  const [selectedCoordinates, setSelectedCoordinates] = useState<{
+    latitude: number;
+    longitude: number;
+  } | null>(null);
   const [suggestions, setSuggestions] = useState<LocationSuggestion[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [suggestionsLoading, setSuggestionsLoading] = useState(false);
@@ -85,6 +91,10 @@ export function NearbyEvents() {
   const chooseSuggestion = (suggestion: LocationSuggestion) => {
     setLocation(suggestion.label);
     setSelectedLocation(suggestion.label);
+    setSelectedCoordinates({
+      latitude: suggestion.latitude,
+      longitude: suggestion.longitude,
+    });
     if (suggestion.country) setCountry(suggestion.country);
     setSuggestions([]);
     setShowSuggestions(false);
@@ -142,6 +152,10 @@ export function NearbyEvents() {
       return;
     }
     const trimmedCountry = country.trim();
+    if (selectedCoordinates && trimmed === selectedLocation) {
+      void fetchEvents(selectedCoordinates);
+      return;
+    }
     void fetchEvents({
       location: trimmed,
       ...(trimmedCountry ? { country: trimmedCountry } : {}),
@@ -193,7 +207,14 @@ export function NearbyEvents() {
             <label htmlFor="event-location" className="sr-only">
               Town, city, or postcode
             </label>
-            <div className="relative min-w-50 flex-[2]">
+            <div
+              className="relative min-w-0 flex-1 sm:w-1/2"
+              onBlur={(event) => {
+                if (!event.currentTarget.contains(event.relatedTarget)) {
+                  setShowSuggestions(false);
+                }
+              }}
+            >
               <MapPin
                 aria-hidden="true"
                 className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-gray-400"
@@ -201,13 +222,61 @@ export function NearbyEvents() {
               <input
                 id="event-location"
                 value={location}
-                onChange={(event) => setLocation(event.target.value)}
+                onChange={(event) => {
+                  setLocation(event.target.value);
+                  setSelectedLocation("");
+                  setSelectedCoordinates(null);
+                }}
+                onFocus={() => {
+                  if (suggestions.length) setShowSuggestions(true);
+                }}
+                onKeyDown={handleLocationKeyDown}
                 placeholder="Town, city, or postcode"
                 autoComplete="postal-code"
                 maxLength={120}
                 disabled={busy}
+                role="combobox"
+                aria-autocomplete="list"
+                aria-expanded={showSuggestions}
+                aria-controls="location-suggestions"
+                aria-activedescendant={
+                  activeSuggestion >= 0
+                    ? `location-suggestion-${suggestions[activeSuggestion]?.id}`
+                    : undefined
+                }
                 className="h-10 w-full rounded-md border bg-white py-2 pl-9 pr-3 text-sm outline-none transition focus:border-gray-500 focus:ring-2 focus:ring-gray-200 disabled:opacity-60"
               />
+              {suggestionsLoading && (
+                <span className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-gray-400">
+                  Searching…
+                </span>
+              )}
+              {showSuggestions && (
+                <ul
+                  id="location-suggestions"
+                  role="listbox"
+                  className="absolute z-20 mt-1 max-h-64 w-full overflow-auto rounded-md border bg-white py-1 text-left shadow-lg"
+                >
+                  {suggestions.map((suggestion, index) => (
+                    <li
+                      key={suggestion.id}
+                      id={`location-suggestion-${suggestion.id}`}
+                      role="option"
+                      aria-selected={index === activeSuggestion}
+                    >
+                      <button
+                        type="button"
+                        onClick={() => chooseSuggestion(suggestion)}
+                        className={`w-full px-3 py-2 text-left text-sm transition-colors ${
+                          index === activeSuggestion ? "bg-emerald-50" : "hover:bg-gray-50"
+                        }`}
+                      >
+                        <span className="line-clamp-2">{suggestion.label}</span>
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
             <label htmlFor="event-country" className="sr-only">
               Country (optional)
@@ -215,12 +284,16 @@ export function NearbyEvents() {
             <input
               id="event-country"
               value={country}
-              onChange={(event) => setCountry(event.target.value)}
+              onChange={(event) => {
+                setCountry(event.target.value);
+                setSelectedLocation("");
+                setSelectedCoordinates(null);
+              }}
               placeholder="Country (optional)"
               autoComplete="country-name"
               maxLength={80}
               disabled={busy}
-              className="h-10 min-w-0 flex-1 rounded-md border bg-white px-3 py-2 text-sm outline-none transition focus:border-gray-500 focus:ring-2 focus:ring-gray-200 disabled:opacity-60"
+              className="h-10 min-w-0 flex-1 rounded-md border bg-white px-3 py-2 text-sm outline-none transition focus:border-gray-500 focus:ring-2 focus:ring-gray-200 disabled:opacity-60 sm:w-1/2"
             />
           </div>
           <div className="flex flex-col justify-center gap-2 sm:flex-row">

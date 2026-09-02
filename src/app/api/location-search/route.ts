@@ -48,10 +48,12 @@ export async function GET(request: Request) {
     const suggestions = data.filter(isRecord).flatMap((item) => {
       const id = text(String(item.place_id ?? ""));
       const label = text(item.display_name);
-      if (!id || !label) return [];
+      const latitude = Number(item.lat);
+      const longitude = Number(item.lon);
+      if (!id || !label || !Number.isFinite(latitude) || !Number.isFinite(longitude)) return [];
 
       const address = isRecord(item.address) ? item.address : {};
-      return [{ id, label, country: text(address.country) }];
+      return [{ id, label, country: text(address.country), latitude, longitude }];
     });
 
     return NextResponse.json({ suggestions }, { headers: noStoreHeaders });
@@ -60,4 +62,3 @@ export async function GET(request: Request) {
     return NextResponse.json({ suggestions: [] }, { headers: noStoreHeaders });
   }
 }
-
