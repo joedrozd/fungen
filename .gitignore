@@ -40,3 +40,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Unsplash review artefacts (regenerate: node scratch/contact-sheet.js)
+scratch/thumbs/
+scratch/sheets/
+scratch/final-*.jpg
+scratch/final-list.txt
