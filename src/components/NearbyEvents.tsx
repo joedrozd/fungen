@@ -24,6 +24,7 @@ const formatPrice = (event: NearbyEvent) => {
 
 export function NearbyEvents() {
   const [location, setLocation] = useState("");
+  const [country, setCountry] = useState("");
   const [resolvedLocation, setResolvedLocation] = useState("");
   const [events, setEvents] = useState<NearbyEvent[]>([]);
   const [state, setState] = useState<SearchState>("idle");
@@ -60,7 +61,11 @@ export function NearbyEvents() {
       setState("error");
       return;
     }
-    void fetchEvents({ location: trimmed });
+    const trimmedCountry = country.trim();
+    void fetchEvents({
+      location: trimmed,
+      ...(trimmedCountry ? { country: trimmedCountry } : {}),
+    });
   };
 
   const handleUseLocation = () => {
@@ -105,34 +110,51 @@ export function NearbyEvents() {
         </p>
       </CardHeader>
       <CardContent>
-        <form onSubmit={handleSubmit} className="mx-auto flex max-w-2xl flex-col gap-2 sm:flex-row">
-          <label htmlFor="event-location" className="sr-only">
-            Town, city, or postcode
-          </label>
-          <div className="relative min-w-0 flex-1">
-            <MapPin
-              aria-hidden="true"
-              className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-gray-400"
-            />
+        <form onSubmit={handleSubmit} className="mx-auto max-w-2xl space-y-2">
+          <div className="flex flex-col gap-2 sm:flex-row">
+            <label htmlFor="event-location" className="sr-only">
+              Town, city, or postcode
+            </label>
+            <div className="relative min-w-50 flex-[2]">
+              <MapPin
+                aria-hidden="true"
+                className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-gray-400"
+              />
+              <input
+                id="event-location"
+                value={location}
+                onChange={(event) => setLocation(event.target.value)}
+                placeholder="Town, city, or postcode"
+                autoComplete="postal-code"
+                maxLength={120}
+                disabled={busy}
+                className="h-10 w-full rounded-md border bg-white py-2 pl-9 pr-3 text-sm outline-none transition focus:border-gray-500 focus:ring-2 focus:ring-gray-200 disabled:opacity-60"
+              />
+            </div>
+            <label htmlFor="event-country" className="sr-only">
+              Country (optional)
+            </label>
             <input
-              id="event-location"
-              value={location}
-              onChange={(event) => setLocation(event.target.value)}
-              placeholder="Town, city, or postcode"
-              autoComplete="postal-code"
-              maxLength={120}
+              id="event-country"
+              value={country}
+              onChange={(event) => setCountry(event.target.value)}
+              placeholder="Country (optional)"
+              autoComplete="country-name"
+              maxLength={80}
               disabled={busy}
-              className="h-10 w-full rounded-md border bg-white py-2 pl-9 pr-3 text-sm outline-none transition focus:border-gray-500 focus:ring-2 focus:ring-gray-200 disabled:opacity-60"
+              className="h-10 min-w-0 flex-1 rounded-md border bg-white px-3 py-2 text-sm outline-none transition focus:border-gray-500 focus:ring-2 focus:ring-gray-200 disabled:opacity-60"
             />
           </div>
-          <Button type="submit" disabled={busy}>
-            <Search aria-hidden="true" />
-            Search
-          </Button>
-          <Button type="button" variant="outline" onClick={handleUseLocation} disabled={busy}>
-            <LocateFixed aria-hidden="true" />
-            Use my location
-          </Button>
+          <div className="flex flex-col justify-center gap-2 sm:flex-row">
+            <Button type="submit" disabled={busy}>
+              <Search aria-hidden="true" />
+              Search
+            </Button>
+            <Button type="button" variant="outline" onClick={handleUseLocation} disabled={busy}>
+              <LocateFixed aria-hidden="true" />
+              Use my location
+            </Button>
+          </div>
         </form>
 
         <div className="mt-4 min-h-6 text-center text-sm" aria-live="polite">

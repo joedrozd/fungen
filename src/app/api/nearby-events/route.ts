@@ -10,6 +10,7 @@ const VIATOR_CURRENCY = process.env.VIATOR_CURRENCY ?? "GBP";
 
 type SearchRequest = {
   location?: unknown;
+  country?: unknown;
   latitude?: unknown;
   longitude?: unknown;
 };
@@ -183,10 +184,10 @@ function resolvedLocationFromGeocoder(data: JsonRecord): ResolvedLocation {
   if (!displayName) throw new Error("Could not identify this location");
 
   const searchTerms = [
-    locality,
     locality && country ? `${locality}, ${country}` : undefined,
-    widerArea,
+    locality,
     widerArea && country ? `${widerArea}, ${country}` : undefined,
+    widerArea,
     displayName,
   ].filter(
     (part, index, values): part is string => Boolean(part) && values.indexOf(part) === index
@@ -302,21 +303,30 @@ export async function POST(request: Request) {
   try {
     const body: SearchRequest = await request.json();
     const typedLocation = text(body.location)?.slice(0, 120);
+    const country = text(body.country)?.slice(0, 80);
     const latitude = number(body.latitude);
     const longitude = number(body.longitude);
 
     let location: string;
     let searchTerms: string[];
     if (typedLocation) {
-      location = typedLocation;
-      searchTerms = [typedLocation];
+      const enteredLocation = country ? `${typedLocation}, ${country}` : typedLocation;
+      location = enteredLocation;
+      searchTerms = [enteredLocation];
 
-      // Postal codes are useful to a geocoder but are generally not present in
-      // Viator product text. Resolve them to a locality before product search.
-      if (/\d/.test(typedLocation)) {
-        const resolved = await geocodeEnteredLocation(typedLocation);
+      // Resolve manual input before searching products so neighbourhoods,
+      // postcodes, and same-named places map to the intended town or city.
+      try {
+        const resolved = await geocodeEnteredLocation(enteredLocation);
         location = resolved.displayName;
         searchTerms = resolved.searchTerms;
+      } catch {
+        // Named destinations can still be useful to Viator when the geocoder
+        // has no match. Explicit postcodes/countries should not silently
+        // search a potentially unrelated place.
+        if (/\d/.test(typedLocation) || country) {
+          throw new Error("Could not identify this location");
+        }
       }
     } else if (
       latitude !== undefined &&
@@ -344,7 +354,7 @@ export async function POST(request: Request) {
 
     // If a normal place-name search is empty, resolve it geographically and
     // retry its locality and surrounding area before showing an empty state.
-    if (!events.length && typedLocation && !/\d/.test(typedLocation)) {
+    if (!events.length && typedLocation && !/\d/.test(typedLocation) && !country) {
       try {
         const resolved = await geocodeEnteredLocation(typedLocation);
         location = resolved.displayName;
