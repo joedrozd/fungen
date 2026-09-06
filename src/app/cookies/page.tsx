@@ -26,7 +26,7 @@ export default function CookiesPage() {
         <div className="max-w-3xl mx-auto space-y-8">
           <div className="bg-white/80 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-white/20 text-center">
             <h1 className="text-4xl font-bold mb-3 text-gray-900">Cookie Policy</h1>
-            <p className="text-sm text-gray-500">Last updated: July 5, 2026</p>
+            <p className="text-sm text-gray-500">Last updated: September 6, 2026</p>
           </div>
 
           <Card className="bg-white/90">
@@ -110,6 +110,22 @@ export default function CookiesPage() {
                   In addition to cookies, we use your browser&#39;s localStorage to store your preferences,
                   saved activities (favourites), and ratings. This data stays on your device and is never
                   sent to our servers. You can clear this data at any time through your browser settings.
+                </p>
+                <p className="mt-2">
+                  Separately, PostHog uses browser storage, including localStorage, to keep random
+                  analytics visitor and session identifiers. These identifiers are sent to PostHog with
+                  pageview and pageleave events and events for generating or copying an activity. Saved
+                  preferences, favourites, ratings, search text, and location search values are not sent
+                  to PostHog. Session recording and automatic capture of clicks and form input are disabled.
+                  See{" "}
+                  <a
+                    href="https://posthog.com/privacy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline"
+                  >
+                    PostHog&#39;s Privacy Policy
+                  </a>.
                 </p>
               </section>
 

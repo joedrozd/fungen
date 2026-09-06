@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { Analytics } from "@vercel/analytics/next";
+import posthog from "posthog-js";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -80,6 +81,8 @@ export default function Home() {
     let categories: Category[] = [];
     
     if (searchResults) {
+      if (searchResults.length === 0) return;
+
       // Use search results if available
       const randomIndex = Math.floor(Math.random() * searchResults.length);
       const selectedActivity = searchResults[randomIndex];
@@ -88,6 +91,10 @@ export default function Home() {
       setActivityDescription(null);
       addRecentActivity(selectedActivity);
       setSearchResults(null);
+      posthog.capture("activity_generated", {
+        activity_name: selectedActivity,
+        source: "search_results",
+      });
       return;
     }
 
@@ -110,6 +117,12 @@ export default function Home() {
       setActivityImage(null);
       setActivityDescription(null);
       addRecentActivity(randomFallback);
+      posthog.capture("activity_generated", {
+        activity_name: randomFallback,
+        activity_type: activeType,
+        category_filter: selectedCategory,
+        source: "fallback",
+      });
     } else {
       const randomIndex = Math.floor(Math.random() * activities.length);
       const selectedActivity = activities[randomIndex];
@@ -120,6 +133,12 @@ export default function Home() {
       setActivityImage(activityImageUrl || null);
       setActivityDescription(activityDesc || null);
       addRecentActivity(activityName);
+      posthog.capture("activity_generated", {
+        activity_name: activityName,
+        activity_type: activeType,
+        category_filter: selectedCategory,
+        source: "generator",
+      });
     }
   }, [activeType, selectedCategory, leisureCategories, productiveCategories, searchResults, addRecentActivity]);
 
@@ -149,6 +168,7 @@ export default function Home() {
     try {
       await navigator.clipboard.writeText(activity);
       showToast("Activity copied to clipboard!", "success");
+      posthog.capture("activity_copied");
     } catch {
       showToast("Couldn't copy to clipboard", "error");
     }

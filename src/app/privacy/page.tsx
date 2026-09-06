@@ -26,7 +26,7 @@ export default function PrivacyPage() {
         <div className="max-w-3xl mx-auto space-y-8">
           <div className="bg-white/80 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-white/20 text-center">
             <h1 className="text-4xl font-bold mb-3 text-gray-900">Privacy Policy</h1>
-            <p className="text-sm text-gray-500">Last updated: September 2, 2026</p>
+            <p className="text-sm text-gray-500">Last updated: September 6, 2026</p>
           </div>
 
           <Card className="bg-white/90">
@@ -56,6 +56,15 @@ export default function PrivacyPage() {
                   and usage data (pages visited, time spent). This information is collected via Google
                   Analytics and is used to understand how visitors interact with the Service and to improve
                   the user experience.
+                </p>
+                <p className="mt-2">
+                  We also use PostHog to measure pages viewed and left, and when an activity is generated
+                  or copied. Generation events include the catalogue activity name and how it was selected,
+                  with the activity type and category filter for category-based generation.
+                  PostHog uses random visitor and session identifiers stored in your
+                  browser to associate these events. We do not identify visitors by name or email, send
+                  saved favourites, ratings, search text, or location search values to PostHog, or enable
+                  session recordings or automatic capture of clicks and form input.
                 </p>
               </section>
 
@@ -111,6 +120,17 @@ export default function PrivacyPage() {
                       className="text-blue-600 hover:underline"
                     >
                       Google&#39;s Privacy Policy
+                    </a>.
+                  </li>
+                  <li>
+                    <strong>PostHog</strong> &mdash; for usage analytics, using its EU service. See{" "}
+                    <a
+                      href="https://posthog.com/privacy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:underline"
+                    >
+                      PostHog&#39;s Privacy Policy
                     </a>.
                   </li>
                   <li>

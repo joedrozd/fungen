@@ -16,6 +16,23 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## PostHog analytics
+
+Analytics use [PostHog EU project 267288](https://eu.posthog.com/project/267288).
+Set `NEXT_PUBLIC_POSTHOG_KEY` to the project's public key and
+`NEXT_PUBLIC_POSTHOG_HOST` to `https://eu.i.posthog.com` in `.env.local` and your
+hosting provider. These values are bundled at build time, so redeploy after
+changing them. Analytics stay disabled when the key is missing.
+
+Following the [PostHog Next.js setup](https://posthog.com/docs/libraries/next-js),
+`src/instrumentation-client.ts` initializes the SDK before the app renders.
+It captures initial page views, client-side navigation, page leaves, generated
+activities (`activity_generated`), and successful copies (`activity_copied`).
+Generation events include the catalog activity name, generation source, and,
+for category-based generation, the activity type and category filter.
+PostHog stores analytics identifiers in localStorage. Autocapture and session
+recording are disabled; search text and location values are not added to events.
+
 ## Nearby events
 
 The home page can suggest three nearby Viator experiences from either a typed location or browser geolocation. Copy `.env.local.example` to `.env.local`, add the production partner key as `VIATOR_API_KEY` and the test key as `VIATOR_SANDBOX_API_KEY`. The route automatically uses the sandbox key while `VIATOR_API_BASE_URL` points at the sandbox. Change that URL to `https://api.viator.com/partner` for production.
