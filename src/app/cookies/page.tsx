@@ -114,9 +114,13 @@ export default function CookiesPage() {
                 <p className="mt-2">
                   Separately, PostHog uses browser storage, including localStorage, to keep random
                   analytics visitor and session identifiers. These identifiers are sent to PostHog with
-                  pageview and pageleave events and events for generating or copying an activity. Saved
-                  preferences, favourites, ratings, search text, and location search values are not sent
-                  to PostHog. Session recording and automatic capture of clicks and form input are disabled.
+                  pageview and pageleave events, activity generation, views, selections, starting and
+                  copying activities, filters, and search result counts. Selecting a catalogue activity
+                  from favourites or recent history records that selection without uploading your saved
+                  lists or ratings. Nearby recommendation events include the request method, result count,
+                  error category, and result position, without place names or product identifiers.
+                  Search text and location search values are not sent to PostHog. Session recording and
+                  automatic capture of clicks and form input are disabled.
                   See{" "}
                   <a
                     href="https://posthog.com/privacy"

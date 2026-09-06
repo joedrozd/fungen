@@ -6,6 +6,7 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { BackToTop } from "@/components/BackToTop";
 import { ActivityActions } from "@/components/ActivityActions";
+import { ActivityViewTracker } from "@/components/ActivityViewTracker";
 import { ActivityHeroFallback } from "@/components/ActivityHeroFallback";
 import { JsonLd } from "@/components/JsonLd";
 import { Card, CardContent } from "@/components/ui/card";
@@ -66,6 +67,13 @@ export default async function ActivityPage({ params }: PageProps) {
   const content = activity.content;
   const related = getRelatedActivities(activity);
   const url = `${BASE_URL}/activities/${category.slug}/${activity.slug}`;
+  const activityTrackingData = {
+    name: activity.name,
+    slug: activity.slug,
+    categoryName: category.name,
+    categorySlug: category.slug,
+    kind: category.kind,
+  };
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
@@ -134,6 +142,7 @@ export default async function ActivityPage({ params }: PageProps) {
       }}
     >
       <JsonLd data={structuredData} />
+      <ActivityViewTracker activity={activityTrackingData} source="activity_guide" />
       <Navigation
         breadcrumb={[
           { name: "Activities", href: "/activities" },
@@ -309,7 +318,7 @@ export default async function ActivityPage({ params }: PageProps) {
           )}
 
           <div className="mb-8">
-            <ActivityActions activityName={activity.name} />
+            <ActivityActions activity={activityTrackingData} />
           </div>
 
           {related.length > 0 && (

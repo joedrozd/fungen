@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import posthog from "posthog-js";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
@@ -14,6 +15,7 @@ import { Footer } from "@/components/Footer";
 import { ActivityHeroFallback } from "@/components/ActivityHeroFallback";
 import { useToast } from "@/components/Toast";
 import { useUserPreferences } from "@/hooks/useUserPreferences";
+import { trackActivity } from "@/lib/activity-analytics";
 
 type ActivitySummary = {
   name: string;
@@ -47,12 +49,51 @@ export function CategoryView({
   children,
 }: CategoryViewProps) {
   const [searchQuery, setSearchQuery] = useState("");
+  const lastCategoryView = useRef<string | null>(null);
   const { addRecentActivity } = useUserPreferences();
   const { showToast } = useToast();
 
-  const handleActivityClick = (activityName: string) => {
-    addRecentActivity(activityName);
-    showToast(`Added "${activityName}" to recent activities`, "success");
+  useEffect(() => {
+    if (lastCategoryView.current === categorySlug) return;
+    lastCategoryView.current = categorySlug;
+    posthog.capture("category_viewed", {
+      category_name: categoryName,
+      category_slug: categorySlug,
+      activity_type: kind,
+      activity_count: activities.length,
+      source: "category_list",
+    });
+  }, [categoryName, categorySlug, kind, activities.length]);
+
+  const activityTrackingData = (activity: ActivitySummary) => ({
+    name: activity.name,
+    slug: activity.slug,
+    categoryName,
+    categorySlug,
+    kind,
+  });
+
+  const handleActivityClick = (activity: ActivitySummary) => {
+    addRecentActivity(activity.name);
+    showToast(`Added "${activity.name}" to recent activities`, "success");
+    trackActivity("activity_started", activityTrackingData(activity), "category_list");
+  };
+
+  const handleGuideClick = (activity: ActivitySummary) => {
+    trackActivity("activity_selected", activityTrackingData(activity), "category_list");
+  };
+
+  const handleSearch = (query: string) => {
+    setSearchQuery(query);
+    posthog.capture("activities_searched", {
+      result_count: activities.filter((activity) =>
+        activity.name.toLowerCase().includes(query.toLowerCase())
+      ).length,
+      category_name: categoryName,
+      category_slug: categorySlug,
+      activity_type: kind,
+      source: "category_list",
+    });
   };
 
   const visible = activities.filter((activity) =>
@@ -70,7 +111,7 @@ export function CategoryView({
       }}
     >
       <Navigation
-        onSearch={setSearchQuery}
+        onSearch={handleSearch}
         breadcrumb={[{ name: "Activities", href: "/activities" }, { name: categoryName }]}
       />
 
@@ -104,7 +145,13 @@ export function CategoryView({
                 >
                   <CardContent className="p-0">
                     <div className="flex flex-col md:flex-row">
-                      <Link href={href} className="md:w-48 md:shrink-0 relative h-40 md:h-auto">
+                      <Link
+                        href={href}
+                        onClick={() => handleGuideClick(activity)}
+                        data-ph-event="activity_selected"
+                        data-ph-source="category_list"
+                        className="md:w-48 md:shrink-0 relative h-40 md:h-auto"
+                      >
                         {activity.image ? (
                           <Image
                             src={activity.image}
@@ -125,7 +172,13 @@ export function CategoryView({
                         <div className="flex items-center justify-between gap-4">
                           <div className="flex-1">
                             <h2 className="text-lg font-medium">
-                              <Link href={href} className="hover:text-blue-600 transition-colors">
+                              <Link
+                                href={href}
+                                onClick={() => handleGuideClick(activity)}
+                                data-ph-event="activity_selected"
+                                data-ph-source="category_list"
+                                className="hover:text-blue-600 transition-colors"
+                              >
                                 {activity.name}
                               </Link>
                             </h2>
@@ -134,6 +187,9 @@ export function CategoryView({
                             )}
                             <Link
                               href={href}
+                              onClick={() => handleGuideClick(activity)}
+                              data-ph-event="activity_selected"
+                              data-ph-source="category_list"
                               className="text-sm text-blue-600 hover:underline mt-2 inline-block"
                             >
                               Read the full guide &rarr;
@@ -141,7 +197,9 @@ export function CategoryView({
                           </div>
                           <div className="flex items-center gap-2 shrink-0">
                             <Button
-                              onClick={() => handleActivityClick(activity.name)}
+                              onClick={() => handleActivityClick(activity)}
+                              data-ph-event="activity_started"
+                              data-ph-source="category_list"
                               size="sm"
                               variant="outline"
                             >

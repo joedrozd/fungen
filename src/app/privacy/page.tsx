@@ -58,13 +58,18 @@ export default function PrivacyPage() {
                   the user experience.
                 </p>
                 <p className="mt-2">
-                  We also use PostHog to measure pages viewed and left, and when an activity is generated
-                  or copied. Generation events include the catalogue activity name and how it was selected,
-                  with the activity type and category filter for category-based generation.
-                  PostHog uses random visitor and session identifiers stored in your
-                  browser to associate these events. We do not identify visitors by name or email, send
-                  saved favourites, ratings, search text, or location search values to PostHog, or enable
-                  session recordings or automatic capture of clicks and form input.
+                  We also use PostHog to measure pages and activity guides viewed, generated ideas,
+                  activity selections, starting an activity, copying it, and using category filters or
+                  activity search. These events include catalogue activity names and identifiers,
+                  category, activity type, selection source, or search result count. Selecting a
+                  catalogue activity from favourites or recent history records that individual selection;
+                  we do not upload your saved lists or ratings. Nearby recommendation events record the
+                  request method, result count, error category, and the position of a result you open,
+                  without place names or product identifiers.
+                  PostHog uses random visitor and session identifiers stored in your browser to associate
+                  these events. We do not identify visitors by name or email, send search text or location
+                  search values to PostHog, or enable session recordings or automatic capture of clicks
+                  and form input.
                 </p>
               </section>
 

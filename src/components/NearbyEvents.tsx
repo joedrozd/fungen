@@ -2,12 +2,14 @@
 
 import { FormEvent, KeyboardEvent, useEffect, useState } from "react";
 import Image from "next/image";
+import posthog from "posthog-js";
 import { ExternalLink, LocateFixed, MapPin, Search, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import type { NearbyEvent, NearbyEventsResponse } from "@/lib/nearby-events";
 
 type SearchState = "idle" | "locating" | "loading" | "success" | "error";
+type SearchSource = "manual_location" | "location_suggestion" | "geolocation";
 
 type LocationSuggestion = {
   id: string;
@@ -44,6 +46,7 @@ export function NearbyEvents() {
   const [activeSuggestion, setActiveSuggestion] = useState(-1);
   const [resolvedLocation, setResolvedLocation] = useState("");
   const [events, setEvents] = useState<NearbyEvent[]>([]);
+  const [eventsSource, setEventsSource] = useState<SearchSource>("manual_location");
   const [state, setState] = useState<SearchState>("idle");
   const [error, setError] = useState("");
   const busy = state === "locating" || state === "loading";
@@ -120,52 +123,91 @@ export function NearbyEvents() {
     }
   };
 
-  const fetchEvents = async (body: Record<string, string | number>) => {
+  const fetchEvents = async (
+    body: Record<string, string | number>,
+    source: SearchSource
+  ) => {
     setState("loading");
     setError("");
     setEvents([]);
 
+    let statusCode: number | undefined;
     try {
       const response = await fetch("/api/nearby-events", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
       });
+      statusCode = response.status;
       const data = (await response.json()) as NearbyEventsResponse & { error?: string };
       if (!response.ok) throw new Error(data.error || "Nearby event search failed.");
 
       setResolvedLocation(data.location);
       setEvents(data.events);
+      setEventsSource(source);
       setState("success");
+      posthog.capture("nearby_events_completed", {
+        provider: "viator",
+        source,
+        result_count: data.events.length,
+      });
     } catch (caught) {
       setError(caught instanceof Error ? caught.message : "Nearby event search failed.");
       setState("error");
+      posthog.capture("nearby_events_failed", {
+        provider: "viator",
+        source,
+        reason: statusCode === undefined ? "network_error" : "response_error",
+        ...(statusCode === undefined ? {} : { status_code: statusCode }),
+      });
     }
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const trimmed = location.trim();
+    const source: SearchSource =
+      selectedCoordinates && trimmed === selectedLocation
+        ? "location_suggestion"
+        : "manual_location";
+    posthog.capture("nearby_events_requested", { provider: "viator", source });
     if (!trimmed) {
       setError("Enter a town, city, or postcode.");
       setState("error");
+      posthog.capture("nearby_events_failed", {
+        provider: "viator",
+        source,
+        reason: "missing_location",
+      });
       return;
     }
     const trimmedCountry = country.trim();
     if (selectedCoordinates && trimmed === selectedLocation) {
-      void fetchEvents(selectedCoordinates);
+      void fetchEvents(selectedCoordinates, source);
       return;
     }
-    void fetchEvents({
-      location: trimmed,
-      ...(trimmedCountry ? { country: trimmedCountry } : {}),
-    });
+    void fetchEvents(
+      {
+        location: trimmed,
+        ...(trimmedCountry ? { country: trimmedCountry } : {}),
+      },
+      source
+    );
   };
 
   const handleUseLocation = () => {
+    posthog.capture("nearby_events_requested", {
+      provider: "viator",
+      source: "geolocation",
+    });
     if (!navigator.geolocation) {
       setError("Location services aren't supported by this browser. Enter a place instead.");
       setState("error");
+      posthog.capture("nearby_events_failed", {
+        provider: "viator",
+        source: "geolocation",
+        reason: "geolocation_unsupported",
+      });
       return;
     }
 
@@ -173,7 +215,10 @@ export function NearbyEvents() {
     setError("");
     navigator.geolocation.getCurrentPosition(
       ({ coords }) => {
-        void fetchEvents({ latitude: coords.latitude, longitude: coords.longitude });
+        void fetchEvents(
+          { latitude: coords.latitude, longitude: coords.longitude },
+          "geolocation"
+        );
       },
       (geolocationError) => {
         const denied = geolocationError.code === geolocationError.PERMISSION_DENIED;
@@ -183,6 +228,15 @@ export function NearbyEvents() {
             : "We couldn't get your location. Enter it manually instead."
         );
         setState("error");
+        posthog.capture("nearby_events_failed", {
+          provider: "viator",
+          source: "geolocation",
+          reason: denied
+            ? "geolocation_denied"
+            : geolocationError.code === geolocationError.TIMEOUT
+              ? "geolocation_timeout"
+              : "geolocation_unavailable",
+        });
       },
       { enableHighAccuracy: false, timeout: 10_000, maximumAge: 10 * 60 * 1000 }
     );
@@ -297,11 +351,27 @@ export function NearbyEvents() {
             />
           </div>
           <div className="flex flex-col justify-center gap-2 sm:flex-row">
-            <Button type="submit" disabled={busy}>
+            <Button
+              type="submit"
+              disabled={busy}
+              data-ph-event="nearby_events_requested"
+              data-ph-source={
+                selectedCoordinates && location.trim() === selectedLocation
+                  ? "location_suggestion"
+                  : "manual_location"
+              }
+            >
               <Search aria-hidden="true" />
               Search
             </Button>
-            <Button type="button" variant="outline" onClick={handleUseLocation} disabled={busy}>
+            <Button
+              type="button"
+              variant="outline"
+              onClick={handleUseLocation}
+              disabled={busy}
+              data-ph-event="nearby_events_requested"
+              data-ph-source="geolocation"
+            >
               <LocateFixed aria-hidden="true" />
               Use my location
             </Button>
@@ -323,7 +393,7 @@ export function NearbyEvents() {
 
         {events.length > 0 && (
           <ul className="mt-3 grid gap-4 md:grid-cols-3" aria-label={`Events near ${resolvedLocation}`}>
-            {events.map((event) => {
+            {events.map((event, index) => {
               const price = formatPrice(event);
               return (
                 <li key={event.id} className="overflow-hidden rounded-xl border bg-white shadow-sm">
@@ -365,7 +435,20 @@ export function NearbyEvents() {
                         {price && <span className="font-semibold text-gray-900">From {price}</span>}
                       </div>
                       <Button asChild className="w-full" size="sm">
-                        <a href={event.productUrl} target="_blank" rel="noopener noreferrer sponsored">
+                        <a
+                          href={event.productUrl}
+                          target="_blank"
+                          rel="noopener noreferrer sponsored"
+                          data-ph-event="nearby_event_clicked"
+                          data-ph-source={eventsSource}
+                          onClick={() => {
+                            posthog.capture("nearby_event_clicked", {
+                              provider: "viator",
+                              source: eventsSource,
+                              rank: index + 1,
+                            });
+                          }}
+                        >
                           View on Viator
                           <ExternalLink aria-hidden="true" />
                         </a>

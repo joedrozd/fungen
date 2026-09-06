@@ -17,10 +17,14 @@ import { Footer } from "@/components/Footer";
 import { NearbyEvents } from "@/components/NearbyEvents";
 import { useToast } from "@/components/Toast";
 import { useUserPreferences } from "@/hooks/useUserPreferences";
+import { trackActivity, type ActivityTrackingData } from "@/lib/activity-analytics";
+
+type ActivityChoice = ActivityTrackingData & { description?: string; image?: string };
 
 type Category = {
   name: string;
-  activities: Array<{ name: string; description?: string; image?: string } | string>;
+  slug?: string;
+  activities: Array<{ name: string; slug?: string; description?: string; image?: string } | string>;
 };
 
 export default function Home() {
@@ -33,6 +37,7 @@ export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [loading, setLoading] = useState(true);
   const [searchResults, setSearchResults] = useState<string[] | null>(null);
+  const [displayedActivity, setDisplayedActivity] = useState<ActivityChoice | null>(null);
 
   const { preferences, addRecentActivity } = useUserPreferences();
   const { showToast } = useToast();
@@ -77,35 +82,44 @@ export default function Home() {
     }
   }, [preferences.defaultActivityType]);
 
+  const activityCatalog = useMemo<ActivityChoice[]>(() => {
+    const withContext = (categories: Category[], kind: "leisure" | "productive") =>
+      categories.flatMap((category) => category.activities.map((item) => ({
+        ...(typeof item === "string" ? { name: item } : item),
+        kind,
+        categoryName: category.name,
+        categorySlug: category.slug,
+      })));
+    return [...withContext(leisureCategories, "leisure"), ...withContext(productiveCategories, "productive")];
+  }, [leisureCategories, productiveCategories]);
+
+  const displayActivity = useCallback((selected: ActivityChoice, source: string) => {
+    setActivity(selected.name);
+    setActivityImage(selected.image || null);
+    setActivityDescription(selected.description || null);
+    setDisplayedActivity(selected);
+    trackActivity("activity_viewed", selected, source);
+  }, []);
+
   const handleGenerateActivity = useCallback(() => {
-    let categories: Category[] = [];
-    
     if (searchResults) {
       if (searchResults.length === 0) return;
 
       // Use search results if available
       const randomIndex = Math.floor(Math.random() * searchResults.length);
-      const selectedActivity = searchResults[randomIndex];
-      setActivity(selectedActivity);
-      setActivityImage(null);
-      setActivityDescription(null);
-      addRecentActivity(selectedActivity);
+      const selected = activityCatalog.find((item) => item.name === searchResults[randomIndex]);
+      if (!selected) return;
+      trackActivity("activity_generated", selected, "search_results");
+      displayActivity(selected, "search_results");
+      addRecentActivity(selected.name);
       setSearchResults(null);
-      posthog.capture("activity_generated", {
-        activity_name: selectedActivity,
-        source: "search_results",
-      });
       return;
     }
 
     // Use current activeType, narrowed to the selected category if one is chosen
-    categories = activeType === "leisure" ? leisureCategories : productiveCategories;
-    if (selectedCategory !== "all") {
-      categories = categories.filter((c) => c.name === selectedCategory);
-    }
-
-    // Get all activities from filtered categories
-    const activities = categories.flatMap((c) => c.activities);
+    const activities = activityCatalog.filter((item) =>
+      item.kind === activeType && (selectedCategory === "all" || item.categoryName === selectedCategory)
+    );
 
     // Fallback activities if none found
     if (activities.length === 0) {
@@ -113,89 +127,84 @@ export default function Home() {
         ? ["Take a walk", "Read a book", "Try a recipe"]
         : ["Organize workspace", "Update resume", "Learn new skill"];
       const randomFallback = fallback[Math.floor(Math.random() * fallback.length)];
-      setActivity(randomFallback);
-      setActivityImage(null);
-      setActivityDescription(null);
+      const selected = { name: randomFallback, kind: activeType };
+      trackActivity("activity_generated", selected, "fallback", { category_filter: selectedCategory });
+      displayActivity(selected, "fallback");
       addRecentActivity(randomFallback);
-      posthog.capture("activity_generated", {
-        activity_name: randomFallback,
-        activity_type: activeType,
-        category_filter: selectedCategory,
-        source: "fallback",
-      });
     } else {
       const randomIndex = Math.floor(Math.random() * activities.length);
-      const selectedActivity = activities[randomIndex];
-      const activityName = typeof selectedActivity === 'string' ? selectedActivity : selectedActivity.name;
-      const activityImageUrl = typeof selectedActivity === 'string' ? null : selectedActivity.image;
-      const activityDesc = typeof selectedActivity === 'string' ? null : selectedActivity.description;
-      setActivity(activityName);
-      setActivityImage(activityImageUrl || null);
-      setActivityDescription(activityDesc || null);
-      addRecentActivity(activityName);
-      posthog.capture("activity_generated", {
-        activity_name: activityName,
-        activity_type: activeType,
-        category_filter: selectedCategory,
-        source: "generator",
-      });
+      const selected = activities[randomIndex];
+      const source = selected.categoryName === "Default" ? "fallback" : "generator";
+      trackActivity("activity_generated", selected, source, { category_filter: selectedCategory });
+      displayActivity(selected, source);
+      addRecentActivity(selected.name);
     }
-  }, [activeType, selectedCategory, leisureCategories, productiveCategories, searchResults, addRecentActivity]);
+  }, [activeType, selectedCategory, activityCatalog, searchResults, addRecentActivity, displayActivity]);
 
   // Deterministic daily pick from the full activity pool
   const activityOfTheDay = useMemo(() => {
-    const all = [...leisureCategories, ...productiveCategories].flatMap((c) => c.activities);
-    if (all.length === 0) return null;
+    if (activityCatalog.length === 0) return null;
     const now = new Date();
     const seed = now.getFullYear() * 372 + now.getMonth() * 31 + now.getDate();
-    const picked = all[seed % all.length];
-    return typeof picked === "string"
-      ? { name: picked, description: undefined, image: undefined }
-      : picked;
-  }, [leisureCategories, productiveCategories]);
+    return activityCatalog[seed % activityCatalog.length];
+  }, [activityCatalog]);
 
   const handleSelectActivity = useCallback(
-    (selected: { name: string; description?: string; image?: string }) => {
-      setActivity(selected.name);
-      setActivityImage(selected.image || null);
-      setActivityDescription(selected.description || null);
+    (selected: ActivityChoice) => {
+      trackActivity("activity_selected", selected, "daily_pick");
+      displayActivity(selected, "daily_pick");
       addRecentActivity(selected.name);
     },
-    [addRecentActivity]
+    [addRecentActivity, displayActivity]
   );
 
   const handleCopyActivity = useCallback(async () => {
     try {
       await navigator.clipboard.writeText(activity);
       showToast("Activity copied to clipboard!", "success");
-      posthog.capture("activity_copied");
+      if (displayedActivity) trackActivity("activity_copied", displayedActivity, "generator");
     } catch {
       showToast("Couldn't copy to clipboard", "error");
     }
-  }, [activity, showToast]);
+  }, [activity, displayedActivity, showToast]);
 
   const handleSearch = useCallback(
     (query: string) => {
-      const allActivities = [
-        ...leisureCategories.flatMap((c) => c.activities.map(a => typeof a === 'string' ? a : a.name)),
-        ...productiveCategories.flatMap((c) => c.activities.map(a => typeof a === 'string' ? a : a.name)),
-      ];
-      const results = allActivities.filter((a) =>
-        a.toLowerCase().includes(query.toLowerCase())
+      const results = activityCatalog.filter((item) =>
+        item.name.toLowerCase().includes(query.toLowerCase())
       );
-      setSearchResults(results);
+      setSearchResults(results.map((item) => item.name));
+      posthog.capture("activities_searched", { source: "generator", result_count: results.length });
       if (results.length > 0) {
-        setActivity(`Search: ${results[0]}`);
+        displayActivity(results[0], "search_preview");
+        setActivity(`Search: ${results[0].name}`);
       } else {
         setActivity("No activities found matching your search");
+        setActivityImage(null);
+        setActivityDescription(null);
+        setDisplayedActivity(null);
       }
     },
-    [leisureCategories, productiveCategories]
+    [activityCatalog, displayActivity]
   );
 
+  const handleSelectSaved = useCallback((name: string, source: "favorites" | "recent_activity") => {
+    const selected = activityCatalog.find((item) => item.name === name);
+    if (selected) {
+      trackActivity("activity_selected", selected, source);
+      displayActivity(selected, source);
+    } else {
+      // Older saved entries may no longer exist in the catalog. Keep them local.
+      setActivity(name);
+      setActivityImage(null);
+      setActivityDescription(null);
+      setDisplayedActivity(null);
+    }
+  }, [activityCatalog, displayActivity]);
+
   const handleSelectFavorite = useCallback((favorite: string) => {
-    setActivity(favorite);
-  }, []);
+    handleSelectSaved(favorite, "favorites");
+  }, [handleSelectSaved]);
 
   const formatCategorySlug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
@@ -247,9 +256,12 @@ export default function Home() {
             {/* Activity type toggle */}
             <div className="flex justify-center gap-2 mb-4" role="radiogroup" aria-label="Activity type">
               <Button
+                data-ph-event="activity_type_changed"
+                data-ph-source="generator"
                 onClick={() => {
                   setActiveType("leisure");
                   setSelectedCategory("all");
+                  posthog.capture("activity_type_changed", { activity_type: "leisure", source: "generator" });
                 }}
                 variant={activeType === "leisure" ? "default" : "outline"}
                 size="sm"
@@ -259,9 +271,12 @@ export default function Home() {
                 Leisure
               </Button>
               <Button
+                data-ph-event="activity_type_changed"
+                data-ph-source="generator"
                 onClick={() => {
                   setActiveType("productive");
                   setSelectedCategory("all");
+                  posthog.capture("activity_type_changed", { activity_type: "productive", source: "generator" });
                 }}
                 variant={activeType === "productive" ? "destructive" : "outline"}
                 size="sm"
@@ -280,7 +295,16 @@ export default function Home() {
               <select
                 id="category-filter"
                 value={selectedCategory}
-                onChange={(e) => setSelectedCategory(e.target.value)}
+                onChange={(e) => {
+                  setSelectedCategory(e.target.value);
+                  posthog.capture("activity_category_changed", {
+                    category_filter: e.target.value,
+                    activity_type: activeType,
+                    source: "generator",
+                  });
+                }}
+                data-ph-event="activity_category_changed"
+                data-ph-source="generator"
                 className="text-sm border rounded-md px-2 py-1.5 bg-white hover:border-gray-400 transition-colors"
                 aria-label="Filter generator by category"
               >
@@ -312,6 +336,8 @@ export default function Home() {
                 {activity && activity !== "Click a button for an idea!" && activity !== "No activities found matching your search" && (
                   <button
                     onClick={handleCopyActivity}
+                    data-ph-event="activity_copied"
+                    data-ph-source="generator"
                     className="shrink-0 mt-1 p-1 text-gray-400 hover:text-gray-700 transition-colors"
                     aria-label="Copy activity to clipboard"
                     title="Copy to clipboard"
@@ -345,6 +371,8 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <Button
                 onClick={handleGenerateActivity}
+                data-ph-event="activity_generated"
+                data-ph-source={searchResults ? "search_results" : "generator"}
                 className="w-full"
                 size="lg"
                 aria-label="Generate new activity idea"
@@ -396,7 +424,9 @@ export default function Home() {
                   {preferences.recentActivities.slice(0, 5).map((recent) => (
                     <button
                       key={recent}
-                      onClick={() => setActivity(recent)}
+                      onClick={() => handleSelectSaved(recent, "recent_activity")}
+                      data-ph-event="activity_selected"
+                      data-ph-source="recent_activity"
                       className="text-xs px-2.5 py-1 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-full transition-colors max-w-full truncate"
                       title={recent}
                     >
@@ -435,6 +465,8 @@ export default function Home() {
               </div>
               <Button
                 onClick={() => handleSelectActivity(activityOfTheDay)}
+                data-ph-event="activity_selected"
+                data-ph-source="daily_pick"
                 size="sm"
                 variant="outline"
                 className="shrink-0"

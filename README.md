@@ -26,10 +26,34 @@ changing them. Analytics stay disabled when the key is missing.
 
 Following the [PostHog Next.js setup](https://posthog.com/docs/libraries/next-js),
 `src/instrumentation-client.ts` initializes the SDK before the app renders.
-It captures initial page views, client-side navigation, page leaves, generated
-activities (`activity_generated`), and successful copies (`activity_copied`).
-Generation events include the catalog activity name, generation source, and,
-for category-based generation, the activity type and category filter.
+It captures initial page views, client-side navigation, and page leaves. Explicit
+events cover the following activity flows:
+
+| Event | When it fires |
+| --- | --- |
+| `activity_generated` | Each successful random, filtered, search-result, or fallback generation |
+| `activity_viewed` | An activity is displayed in the generator or its guide is opened |
+| `activity_selected` | Daily pick, recent activity, favourite, or category guide is selected |
+| `activity_started` | Category **Try it** or guide **I'm doing this** is clicked |
+| `activity_copied` | The displayed catalog activity is successfully copied |
+| `category_viewed` | A category page is opened |
+| `activities_searched` | An activity search is submitted; records result count |
+| `activity_type_changed`, `activity_category_changed` | Generator filters are selected |
+| `nearby_events_requested`, `nearby_events_completed`, `nearby_events_failed` | A nearby recommendation request starts, succeeds, or fails |
+| `nearby_event_clicked` | A visitor opens a Viator result |
+
+Activity events share `activity_name`, `activity_slug`, `category_name`,
+`category_slug`, `activity_type`, and `source`. `category_filter` records the
+generator filter separately from the selected activity's actual category.
+Fallback ideas use `null` for metadata they do not have. Saved entries are tracked
+only when they still match a catalog activity; saved lists are never uploaded.
+Guide views fire once per visit, including direct loads and client navigation,
+without counting prefetched links or every card in a list as an activity view.
+
+Nearby events contain only provider, request source, result count, stable failure
+reason/status, or result rank. They exclude place names and product identifiers.
+`data-ph-event` and `data-ph-source` mark action controls for inspection; event
+handlers perform the actual captures because autocapture is disabled.
 PostHog stores analytics identifiers in localStorage. Autocapture and session
 recording are disabled; search text and location values are not added to events.
 
