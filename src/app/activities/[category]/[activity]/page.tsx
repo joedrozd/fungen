@@ -9,6 +9,7 @@ import { ActivityActions } from "@/components/ActivityActions";
 import { ActivityViewTracker } from "@/components/ActivityViewTracker";
 import { ActivityHeroFallback } from "@/components/ActivityHeroFallback";
 import { JsonLd } from "@/components/JsonLd";
+import { ContextualLinks } from "@/components/ContextualLinks";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   BASE_URL,
@@ -133,13 +134,7 @@ export default async function ActivityPage({ params }: PageProps) {
 
   return (
     <div
-      className="min-h-screen flex flex-col"
-      style={{
-        backgroundImage: "url('/background.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
-      }}
+      className="min-h-screen flex flex-col site-scenic"
     >
       <JsonLd data={structuredData} />
       <ActivityViewTracker activity={activityTrackingData} source="activity_guide" />
@@ -151,10 +146,10 @@ export default async function ActivityPage({ params }: PageProps) {
         ]}
       />
 
-      <main className="flex-1 p-4 md:p-8 pt-24 md:pt-24">
+      <main className="flex-1 p-4 md:p-8 pt-36 md:pt-36">
         <article className="max-w-3xl mx-auto">
           {/* Hero */}
-          <header className="bg-white/90 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl border border-white/20 mb-8">
+          <header className="bg-card rounded-2xl overflow-hidden shadow-none border border-border mb-8">
             <div className="relative w-full h-56 md:h-72">
               {activity.image ? (
                 <Image
@@ -172,65 +167,43 @@ export default async function ActivityPage({ params }: PageProps) {
                   className="absolute inset-0 w-full h-full"
                 />
               )}
-              {activity.credit && (
-                <p className="absolute bottom-0 right-0 px-2 py-1 text-[11px] leading-none text-white/90 bg-black/40 rounded-tl-md">
-                  Photo by{" "}
-                  <a
-                    href={creditUrl(activity.credit.photographerUrl)}
-                    target="_blank"
-                    rel="nofollow noopener"
-                    className="underline"
-                  >
-                    {activity.credit.photographer}
-                  </a>{" "}
-                  on{" "}
-                  <a
-                    href={creditUrl(activity.credit.photoUrl)}
-                    target="_blank"
-                    rel="nofollow noopener"
-                    className="underline"
-                  >
-                    {activity.credit.source}
-                  </a>
-                </p>
-              )}
             </div>
             <div className="p-6 md:p-8">
               <Link
                 href={`/activities/${category.slug}`}
-                className="text-sm font-semibold text-indigo-600 hover:underline"
+                className="text-sm font-semibold text-primary hover:underline"
               >
                 {category.name}
               </Link>
-              <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-4">
-                {activity.name}
+              <h1 className="text-3xl md:text-4xl font-semibold text-primary mt-2 mb-4">
+                {content?.heading ?? activity.name}
               </h1>
               {activity.description && (
-                <p className="text-lg text-gray-700 leading-relaxed">{activity.description}</p>
+                <p className="text-lg text-muted-foreground leading-relaxed">{activity.description}</p>
               )}
 
               {activity.meta && (
                 <dl className="flex flex-wrap gap-2 mt-5 text-sm">
-                  <div className="px-3 py-1 bg-gray-100 rounded-full">
-                    <dt className="inline text-gray-500">Time: </dt>
+                  <div className="px-3 py-1 bg-muted rounded-full">
+                    <dt className="inline text-muted-foreground">Time: </dt>
                     <dd className="inline font-medium">{activity.meta.timeMinutes} min</dd>
                   </div>
-                  <div className="px-3 py-1 bg-gray-100 rounded-full">
-                    <dt className="inline text-gray-500">Cost: </dt>
+                  <div className="px-3 py-1 bg-muted rounded-full">
+                    <dt className="inline text-muted-foreground">Cost: </dt>
                     <dd className="inline font-medium capitalize">{activity.meta.cost}</dd>
                   </div>
-                  <div className="px-3 py-1 bg-gray-100 rounded-full">
-                    <dt className="inline text-gray-500">Difficulty: </dt>
+                  <div className="px-3 py-1 bg-muted rounded-full">
+                    <dt className="inline text-muted-foreground">Difficulty: </dt>
                     <dd className="inline font-medium capitalize">{activity.meta.difficulty}</dd>
                   </div>
-                  <div className="px-3 py-1 bg-gray-100 rounded-full">
-                    <dt className="inline text-gray-500">Where: </dt>
+                  <div className="px-3 py-1 bg-muted rounded-full">
+                    <dt className="inline text-muted-foreground">Where: </dt>
                     <dd className="inline font-medium">
                       {activity.meta.indoor ? "Indoors" : "Outdoors"}
                     </dd>
                   </div>
-                  <div className="px-3 py-1 bg-gray-100 rounded-full">
-                    <dt className="inline text-gray-500">Best: </dt>
+                  <div className="px-3 py-1 bg-muted rounded-full">
+                    <dt className="inline text-muted-foreground">Best: </dt>
                     <dd className="inline font-medium">
                       {activity.meta.solo ? "Solo" : "With others"}
                     </dd>
@@ -241,60 +214,78 @@ export default async function ActivityPage({ params }: PageProps) {
           </header>
 
           {content ? (
-            <div className="bg-white/90 backdrop-blur-md rounded-2xl p-6 md:p-8 shadow-xl border border-white/20 mb-8">
-              <p className="text-lg text-gray-800 leading-relaxed mb-8">{content.intro}</p>
+            <div className="bg-card rounded-2xl p-6 md:p-8 shadow-none border border-border mb-8">
+              <p className="text-lg text-foreground leading-relaxed mb-8">{content.intro}</p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-3">
+              <h2 className="text-2xl font-semibold text-primary mb-3">
                 Why {lowerFirst(activity.name)} is worth an hour
               </h2>
-              <p className="text-gray-800 leading-relaxed mb-8">{content.whyItWorks}</p>
+              <p className="text-foreground leading-relaxed mb-8">{content.whyItWorks}</p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-3">
+              {content.resources && (
+                <section className="mb-8" aria-labelledby="resources-heading">
+                  <h2 id="resources-heading" className="text-2xl font-semibold text-primary mb-3">{content.resources.heading}</h2>
+                  <p className="text-foreground mb-4">{content.resources.intro}</p>
+                  <ul className="space-y-4">
+                    {content.resources.links.map((resource) => (
+                      <li key={resource.href}>
+                        <a href={resource.href} className="font-semibold text-primary underline">{resource.label}</a>
+                        <p className="text-muted-foreground leading-relaxed mt-1">{resource.detail}</p>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="text-sm text-muted-foreground mt-4">Directory information checked {content.resources.checkedOn}. Confirm current availability and prices with the organiser.</p>
+                </section>
+              )}
+
+              <h2 className="text-2xl font-semibold text-primary mb-3">
                 How to {lowerFirst(activity.name)} step by step
               </h2>
               <ol className="space-y-4 mb-8">
                 {content.howTo.map((step, index) => (
                   <li key={index} className="flex gap-4">
-                    <span className="shrink-0 w-8 h-8 rounded-full bg-indigo-600 text-white font-bold flex items-center justify-center">
+                    <span className="shrink-0 w-8 h-8 rounded-full bg-primary text-white font-semibold flex items-center justify-center">
                       {index + 1}
                     </span>
                     <div>
-                      <h3 className="font-semibold text-gray-900">{step.step}</h3>
-                      <p className="text-gray-700 leading-relaxed">{step.detail}</p>
+                      <h3 className="font-semibold text-primary">{step.step}</h3>
+                      <p className="text-muted-foreground leading-relaxed">{step.detail}</p>
                     </div>
                   </li>
                 ))}
               </ol>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-3">
+              <h2 className="text-2xl font-semibold text-primary mb-3">
                 Tips to get more out of it
               </h2>
-              <ul className="list-disc pl-5 space-y-2 mb-8 text-gray-800 leading-relaxed">
+              <ul className="list-disc pl-5 space-y-2 mb-8 text-foreground leading-relaxed">
                 {content.tips.map((tip, index) => (
                   <li key={index}>{tip}</li>
                 ))}
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-3">Ways to mix it up</h2>
-              <p className="text-gray-800 leading-relaxed mb-8">{content.variations}</p>
+              <h2 className="text-2xl font-semibold text-primary mb-3">Ways to mix it up</h2>
+              <p className="text-foreground leading-relaxed mb-8">{content.variations}</p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-3">
+              <ContextualLinks links={content.nextIdeas} />
+
+              <h2 className="text-2xl font-semibold text-primary mb-3">
                 {activity.name}: frequently asked questions
               </h2>
               <div className="space-y-5">
                 {content.faq.map((item, index) => (
                   <div key={index}>
-                    <h3 className="font-semibold text-gray-900">{item.q}</h3>
-                    <p className="text-gray-700 leading-relaxed">{item.a}</p>
+                    <h3 className="font-semibold text-primary">{item.q}</h3>
+                    <p className="text-muted-foreground leading-relaxed">{item.a}</p>
                   </div>
                 ))}
               </div>
 
               {needsDisclaimer && (
-                <p className="mt-8 pt-6 border-t text-sm text-gray-500">
+                <p className="mt-8 pt-6 border-t text-sm text-muted-foreground">
                   This guide is general information, not professional{" "}
                   {category.slug === "financial" ? "financial" : "medical"} advice. See our{" "}
-                  <Link href="/disclaimer" className="underline hover:text-blue-600">
+                  <Link href="/disclaimer" className="underline hover:text-primary">
                     disclaimer
                   </Link>
                   .
@@ -302,13 +293,13 @@ export default async function ActivityPage({ params }: PageProps) {
               )}
             </div>
           ) : (
-            <div className="bg-white/90 backdrop-blur-md rounded-2xl p-6 md:p-8 shadow-xl border border-white/20 mb-8">
-              <p className="text-gray-700">
+            <div className="bg-card rounded-2xl p-6 md:p-8 shadow-none border border-border mb-8">
+              <p className="text-muted-foreground">
                 The full guide for this activity is being written. In the meantime, browse the rest
                 of{" "}
                 <Link
                   href={`/activities/${category.slug}`}
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   {category.name}
                 </Link>
@@ -323,7 +314,7 @@ export default async function ActivityPage({ params }: PageProps) {
 
           {related.length > 0 && (
             <section className="mb-8">
-              <h2 className="text-2xl font-bold mb-4 text-white bg-black/30 px-4 py-2 rounded-lg inline-block">
+              <h2 className="text-2xl font-semibold mb-4 text-primary bg-card/95 px-4 py-2 rounded-lg inline-block">
                 Related activities
               </h2>
               <div className="grid sm:grid-cols-2 gap-4">
@@ -333,16 +324,16 @@ export default async function ActivityPage({ params }: PageProps) {
                     href={`/activities/${relCat.slug}/${rel.slug}`}
                     className="block group"
                   >
-                    <Card className="h-full bg-white/90 hover:shadow-xl transition-all">
+                    <Card className="h-full bg-card hover:shadow-none transition-all">
                       <CardContent className="p-4">
-                        <p className="text-xs uppercase tracking-wide text-gray-500">
+                        <p className="text-xs uppercase tracking-wide text-muted-foreground">
                           {relCat.name}
                         </p>
-                        <h3 className="font-medium group-hover:text-blue-600 transition-colors">
+                        <h3 className="font-medium group-hover:text-primary transition-colors">
                           {rel.name}
                         </h3>
                         {rel.description && (
-                          <p className="text-sm text-gray-600 mt-1 line-clamp-2">
+                          <p className="text-sm text-muted-foreground mt-1 line-clamp-2">
                             {rel.description}
                           </p>
                         )}
@@ -360,15 +351,6 @@ export default async function ActivityPage({ params }: PageProps) {
       <Footer />
     </div>
   );
-}
-
-/**
- * Stock libraries ask that attribution links carry referral parameters so they
- * can credit the traffic back to the photographer. Links are nofollow: two
- * outbound links on every one of these pages is not equity we want to pass.
- */
-function creditUrl(url: string): string {
-  return `${url}${url.includes("?") ? "&" : "?"}utm_source=fungen&utm_medium=referral`;
 }
 
 /**

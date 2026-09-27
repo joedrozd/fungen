@@ -7,7 +7,6 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { RatingWidget } from "@/components/RatingWidget";
-import { FavoritesList } from "@/components/FavoritesList";
 import { SocialShare } from "@/components/SocialShare";
 import { BackToTop } from "@/components/BackToTop";
 import { Navigation } from "@/components/Navigation";
@@ -102,20 +101,14 @@ export function CategoryView({
 
   return (
     <div
-      className="min-h-screen flex flex-col"
-      style={{
-        backgroundImage: "url('/background.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
-      }}
+      className="min-h-screen flex flex-col site-scenic"
     >
       <Navigation
         onSearch={handleSearch}
         breadcrumb={[{ name: "Activities", href: "/activities" }, { name: categoryName }]}
       />
 
-      <main className="flex-1 p-8 pt-24">
+      <main className="flex-1 p-8 pt-36">
         <div className="max-w-4xl mx-auto">
           {children}
 
@@ -127,7 +120,7 @@ export function CategoryView({
               </Button>
             </Link>
             <Link href="/activities">
-              <Button variant={kind === "productive" ? "destructive" : "outline"} size="sm">
+              <Button variant={kind === "productive" ? "default" : "outline"} size="sm">
                 Productive
               </Button>
             </Link>
@@ -141,7 +134,7 @@ export function CategoryView({
               return (
                 <Card
                   key={activity.slug}
-                  className="hover:shadow-md transition-shadow overflow-hidden"
+                  className="hover:border-primary/30 transition-shadow overflow-hidden"
                 >
                   <CardContent className="p-0">
                     <div className="flex flex-col md:flex-row">
@@ -177,20 +170,20 @@ export function CategoryView({
                                 onClick={() => handleGuideClick(activity)}
                                 data-ph-event="activity_selected"
                                 data-ph-source="category_list"
-                                className="hover:text-blue-600 transition-colors"
+                                className="hover:text-primary transition-colors"
                               >
                                 {activity.name}
                               </Link>
                             </h2>
                             {activity.description && (
-                              <p className="text-sm text-gray-500 mt-1">{activity.description}</p>
+                              <p className="text-sm text-muted-foreground mt-1">{activity.description}</p>
                             )}
                             <Link
                               href={href}
                               onClick={() => handleGuideClick(activity)}
                               data-ph-event="activity_selected"
                               data-ph-source="category_list"
-                              className="text-sm text-blue-600 hover:underline mt-2 inline-block"
+                              className="text-sm text-primary hover:underline mt-2 inline-block"
                             >
                               Read the full guide &rarr;
                             </Link>
@@ -209,7 +202,6 @@ export function CategoryView({
                         </div>
                         <div className="mt-3 pt-3 border-t">
                           <RatingWidget activity={activity.name} />
-                          <FavoritesList currentActivity={activity.name} onSelectFavorite={() => {}} />
                           <SocialShare activity={activity.name} />
                         </div>
                       </div>
@@ -221,23 +213,23 @@ export function CategoryView({
           </div>
 
           {visible.length === 0 && (
-            <p className="text-center text-white bg-black/40 rounded-lg py-4">
+            <p className="text-center text-muted-foreground bg-muted rounded-lg py-4">
               No activities match &ldquo;{searchQuery}&rdquo;.
             </p>
           )}
 
           {/* Other categories */}
           <div className="mt-12">
-            <h2 className="text-2xl font-bold mb-4 text-white bg-black/30 px-4 py-2 rounded-lg inline-block">
+            <h2 className="text-2xl font-semibold mb-4 text-primary bg-card/95 px-4 py-2 rounded-lg inline-block">
               Other Categories
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
               {otherCategories.map((cat) => (
                 <Link key={cat.slug} href={`/activities/${cat.slug}`} className="block">
-                  <Card className="hover:shadow-md transition-shadow h-full bg-white/90">
+                  <Card className="hover:border-primary/30 transition-shadow h-full bg-card">
                     <CardContent className="p-4 text-center">
                       <h3 className="font-medium">{cat.name}</h3>
-                      <p className="text-sm text-gray-500">{cat.count} activities</p>
+                      <p className="text-sm text-muted-foreground">{cat.count} activities</p>
                     </CardContent>
                   </Card>
                 </Link>

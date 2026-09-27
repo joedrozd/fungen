@@ -2,7 +2,6 @@
 
 import { Button } from "@/components/ui/button";
 import { RatingWidget } from "@/components/RatingWidget";
-import { FavoritesList } from "@/components/FavoritesList";
 import { SocialShare } from "@/components/SocialShare";
 import { useToast } from "@/components/Toast";
 import { useUserPreferences } from "@/hooks/useUserPreferences";
@@ -27,7 +26,6 @@ export function ActivityActions({ activity }: { activity: ActivityTrackingData }
         I&rsquo;m doing this
       </Button>
       <RatingWidget activity={activity.name} />
-      <FavoritesList currentActivity={activity.name} onSelectFavorite={() => {}} />
       <SocialShare activity={activity.name} />
     </div>
   );

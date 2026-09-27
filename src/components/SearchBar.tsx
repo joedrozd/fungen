@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import { ArrowRight, Search, X } from "lucide-react";
 
 interface SearchBarProps {
   onSearch: (query: string) => void;
@@ -11,91 +12,36 @@ export function SearchBar({ onSearch, placeholder = "Search activities..." }: Se
   const [query, setQuery] = useState("");
   const [isOpen, setIsOpen] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  const triggerRef = useRef<HTMLButtonElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (isOpen && inputRef.current) {
-      inputRef.current.focus();
-    }
+    if (isOpen) inputRef.current?.focus();
   }, [isOpen]);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (query.trim()) {
-      onSearch(query.trim());
-      setIsOpen(false);
+  useEffect(() => {
+    function closeOutside(event: MouseEvent) {
+      if (!containerRef.current?.contains(event.target as Node)) setIsOpen(false);
     }
-  };
+    document.addEventListener("mousedown", closeOutside);
+    return () => document.removeEventListener("mousedown", closeOutside);
+  }, []);
 
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === "Escape") {
-      setIsOpen(false);
-      setQuery("");
-    }
-  };
+  function close() {
+    setIsOpen(false);
+    triggerRef.current?.focus();
+  }
 
   return (
-    <div className="relative">
-      {!isOpen ? (
-        <button
-          onClick={() => setIsOpen(true)}
-          className="p-2 rounded-lg hover:bg-gray-100 transition-colors"
-          aria-label="Open search"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
-            aria-hidden="true"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-            />
-          </svg>
-        </button>
-      ) : (
-        <form onSubmit={handleSubmit} className="flex items-center gap-2" role="search">
-          <input
-            ref={inputRef}
-            type="search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            onKeyDown={handleKeyDown}
-            placeholder={placeholder}
-            className="px-3 py-1.5 text-sm border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 w-48"
-            aria-label="Search activities"
-          />
-          <button
-            type="button"
-            onClick={() => {
-              setIsOpen(false);
-              setQuery("");
-            }}
-            className="p-1.5 rounded hover:bg-gray-100"
-            aria-label="Close search"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-4 w-4"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2}
-              aria-hidden="true"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          </button>
-        </form>
-      )}
+    <div className="site-search" ref={containerRef}>
+      <button type="button" ref={triggerRef} onClick={() => setIsOpen(!isOpen)} className="site-icon-button" aria-label="Open search" aria-expanded={isOpen}><Search size={16} /></button>
+      {isOpen && <form role="search" className="site-search-form" onSubmit={(event) => {
+        event.preventDefault(); onSearch(query.trim()); close();
+      }} onKeyDown={(event) => { if (event.key === "Escape") close(); }}>
+        <input ref={inputRef} type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder={placeholder} aria-label="Search activities" />
+        <button type="submit" aria-label="Search"><ArrowRight size={18} /></button>
+        <button type="button" onClick={close} aria-label="Close search"><X size={18} /></button>
+      </form>}
     </div>
   );
 }

@@ -6,6 +6,8 @@ export const BASE_URL = "https://fungen.app";
 export type HowToStep = { step: string; detail: string };
 export type FaqItem = { q: string; a: string };
 
+export type ContextualLink = { before: string; href: string; label: string; after: string };
+
 export type ActivitySeo = {
   title: string;
   metaDescription: string;
@@ -14,12 +16,20 @@ export type ActivitySeo = {
 };
 
 export type ActivityContent = {
+  heading?: string;
   intro: string;
   whyItWorks: string;
   howTo: HowToStep[];
   tips: string[];
   variations: string;
   faq: FaqItem[];
+  resources?: {
+    heading: string;
+    intro: string;
+    checkedOn: string;
+    links: { label: string; href: string; detail: string }[];
+  };
+  nextIdeas?: ContextualLink[];
 };
 
 export type ActivityMeta = {
@@ -32,9 +42,8 @@ export type ActivityMeta = {
 };
 
 /**
- * Photo attribution. Present only on images sourced from a stock library that
- * asks for credit; the older in-house images carry none, so the caption is
- * rendered conditionally rather than site-wide.
+ * Photo source records retained with the catalog for provenance.
+ * These records are not rendered as links or sent to the home generator.
  */
 export type ActivityCredit = {
   photographer: string;
@@ -58,6 +67,7 @@ export type Activity = {
 export type CategoryContent = {
   intro: string;
   body: string;
+  nextIdeas?: ContextualLink[];
 };
 
 export type Category = {

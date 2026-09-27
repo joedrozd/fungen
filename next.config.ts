@@ -11,6 +11,10 @@ const nextConfig: NextConfig = {
   
   // Security and performance headers
   async headers() {
+    // Development bundles reuse URLs as the source changes. Keep Next's
+    // no-cache defaults so a reload cannot restore an older version of the UI.
+    if (process.env.NODE_ENV !== "production") return [];
+
     return [
       {
         // HTML documents must stay revalidatable — an `immutable` blanket rule

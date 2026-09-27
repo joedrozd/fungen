@@ -12,27 +12,21 @@ export const metadata: Metadata = {
 export default function DisclaimerPage() {
   return (
     <div
-      className="min-h-screen flex flex-col"
-      style={{
-        backgroundImage: "url('/background.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
-      }}
+      className="min-h-screen flex flex-col site-scenic"
     >
       <Navigation breadcrumb={[{ name: "Disclaimer" }]} />
 
-      <main className="flex-1 p-8 pt-24">
+      <main className="flex-1 p-8 pt-36">
         <div className="max-w-3xl mx-auto space-y-8">
-          <div className="bg-white/80 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-white/20 text-center">
-            <h1 className="text-4xl font-bold mb-3 text-gray-900">Disclaimer</h1>
-            <p className="text-sm text-gray-500">Last updated: July 5, 2026</p>
+          <div className="bg-card rounded-2xl p-8 shadow-none border border-border text-center">
+            <h1 className="text-4xl font-semibold mb-3 text-primary">Disclaimer</h1>
+            <p className="text-sm text-muted-foreground">Last updated: July 5, 2026</p>
           </div>
 
-          <Card className="bg-white/90">
-            <CardContent className="space-y-6 text-gray-700 text-sm leading-relaxed pt-6">
+          <Card className="bg-card">
+            <CardContent className="space-y-6 text-muted-foreground text-sm leading-relaxed pt-6">
               <section>
-                <h2 className="text-lg font-semibold text-gray-900 mb-2">1. General Information</h2>
+                <h2 className="text-lg font-semibold text-primary mb-2">1. General Information</h2>
                 <p>
                   The Activity Generator provides activity suggestions for entertainment and informational
                   purposes only. The suggestions are general ideas and should not be taken as professional
@@ -42,7 +36,7 @@ export default function DisclaimerPage() {
               </section>
 
               <section>
-                <h2 className="text-lg font-semibold text-gray-900 mb-2">2. No Professional Advice</h2>
+                <h2 className="text-lg font-semibold text-primary mb-2">2. No Professional Advice</h2>
                 <p>
                   The activity suggestions provided by the Service are not a substitute for professional
                   advice. You should exercise your own judgement and, where appropriate, consult with
@@ -52,7 +46,7 @@ export default function DisclaimerPage() {
               </section>
 
               <section>
-                <h2 className="text-lg font-semibold text-gray-900 mb-2">3. Personal Responsibility</h2>
+                <h2 className="text-lg font-semibold text-primary mb-2">3. Personal Responsibility</h2>
                 <p>
                   You are solely responsible for any actions you take based on suggestions from the
                   Service. The Activity Generator and its operators accept no liability for any injuries,
@@ -62,7 +56,7 @@ export default function DisclaimerPage() {
               </section>
 
               <section>
-                <h2 className="text-lg font-semibold text-gray-900 mb-2">4. Health & Safety</h2>
+                <h2 className="text-lg font-semibold text-primary mb-2">4. Health & Safety</h2>
                 <p>
                   Some suggested activities may involve physical exertion, the use of tools or equipment,
                   or exposure to outdoor environments. Before attempting any activity, please:
@@ -77,7 +71,7 @@ export default function DisclaimerPage() {
               </section>
 
               <section>
-                <h2 className="text-lg font-semibold text-gray-900 mb-2">5. Third-Party Content</h2>
+                <h2 className="text-lg font-semibold text-primary mb-2">5. Third-Party Content</h2>
                 <p>
                   The Service may link to third-party websites, products, or services. We do not endorse,
                   control, or assume responsibility for the accuracy, completeness, or safety of any
@@ -86,7 +80,7 @@ export default function DisclaimerPage() {
               </section>
 
               <section>
-                <h2 className="text-lg font-semibold text-gray-900 mb-2">6. Accuracy of Information</h2>
+                <h2 className="text-lg font-semibold text-primary mb-2">6. Accuracy of Information</h2>
                 <p>
                   While we strive to keep the activity library accurate and up to date, we make no
                   representations or warranties of any kind about the completeness, accuracy, reliability,
@@ -96,7 +90,7 @@ export default function DisclaimerPage() {
               </section>
 
               <section>
-                <h2 className="text-lg font-semibold text-gray-900 mb-2">7. No Endorsement</h2>
+                <h2 className="text-lg font-semibold text-primary mb-2">7. No Endorsement</h2>
                 <p>
                   The inclusion of any activity, product, service, or link in the Service does not imply
                   endorsement by the Activity Generator. Conversely, the exclusion of any activity,
@@ -105,7 +99,7 @@ export default function DisclaimerPage() {
               </section>
 
               <section>
-                <h2 className="text-lg font-semibold text-gray-900 mb-2">8. Changes</h2>
+                <h2 className="text-lg font-semibold text-primary mb-2">8. Changes</h2>
                 <p>
                   We may update this Disclaimer from time to time. Changes will be posted on this page
                   with an updated &ldquo;Last updated&rdquo; date.
@@ -113,7 +107,7 @@ export default function DisclaimerPage() {
               </section>
 
               <section>
-                <h2 className="text-lg font-semibold text-gray-900 mb-2">9. Contact</h2>
+                <h2 className="text-lg font-semibold text-primary mb-2">9. Contact</h2>
                 <p>
                   If you have any questions about this Disclaimer, please contact us through the channels
                   available on our About page.

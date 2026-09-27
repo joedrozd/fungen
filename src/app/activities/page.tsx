@@ -30,13 +30,13 @@ function CategorySection({
 }) {
   return (
     <section>
-      <h2 className="text-3xl font-bold mb-6 text-white bg-black/30 px-4 py-2 rounded-lg inline-block shadow-sm">
+      <h2 className="text-3xl font-semibold mb-6 text-primary bg-card/95 px-4 py-2 rounded-lg inline-block shadow-sm">
         {heading}
       </h2>
       <div className="grid sm:grid-cols-2 gap-4">
         {categories.map((cat) => (
           <Link key={cat.slug} href={`/activities/${cat.slug}`} className="block group">
-            <Card className="h-full hover:shadow-xl transition-all duration-300 transform group-hover:-translate-y-1 bg-white/90">
+            <Card className="h-full hover:shadow-none transition-all duration-300  bg-card">
               <CardHeader className="p-4">
                 <CardTitle className={`text-xl transition-colors ${hoverClass}`}>
                   {cat.name}
@@ -44,9 +44,9 @@ function CategorySection({
               </CardHeader>
               <CardContent className="p-4 pt-0">
                 {cat.description && (
-                  <p className="text-sm text-gray-600 mb-3 line-clamp-3">{cat.description}</p>
+                  <p className="text-sm text-muted-foreground mb-3 line-clamp-3">{cat.description}</p>
                 )}
-                <p className="text-sm text-gray-400">{cat.activities.length} activities</p>
+                <p className="text-sm text-muted-foreground">{cat.activities.length} activities</p>
                 <Button className="mt-4 w-full" variant="outline" size="sm">
                   Browse
                 </Button>
@@ -88,22 +88,16 @@ export default function ActivitiesPage() {
 
   return (
     <div
-      className="min-h-screen flex flex-col"
-      style={{
-        backgroundImage: "url('/background.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
-      }}
+      className="min-h-screen flex flex-col site-scenic"
     >
       <JsonLd data={[breadcrumbLd, collectionLd]} />
       <Navigation breadcrumb={[{ name: "Activities" }]} />
 
-      <main className="flex-1 p-8 pt-24">
+      <main className="flex-1 p-8 pt-36">
         <div className="max-w-6xl mx-auto">
-          <header className="bg-white/85 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-white/20 mb-12 text-center">
-            <h1 className="text-4xl font-bold text-gray-900 mb-3">Browse All Activities</h1>
-            <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+          <header className="bg-card rounded-2xl p-8 shadow-none border border-border mb-12 text-center">
+            <h1 className="text-4xl font-semibold text-primary mb-3">Browse All Activities</h1>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               {total} activities across {leisureCategories.length + productiveCategories.length}{" "}
               categories, split between leisure ideas for when you want to enjoy an hour and
               productive ones for when you want to use it. Every activity has its own step-by-step
@@ -115,7 +109,7 @@ export default function ActivitiesPage() {
             <CategorySection
               heading="Leisure"
               categories={leisureCategories}
-              hoverClass="group-hover:text-blue-600"
+              hoverClass="group-hover:text-primary"
             />
             <CategorySection
               heading="Productive"

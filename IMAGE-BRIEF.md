@@ -10,7 +10,7 @@ spec for activities added later.
 - **Format:** JPEG for photographs, PNG only if the image has flat color or transparency.
 - **Filename:** must match the slug exactly, e.g. `start-a-jigsaw-puzzle.jpg`.
 - **Location:** `public/images/activities/`.
-- **Then set** `"image": "/images/activities/<slug>.<ext>"` on that activity in the JSON. If the image needs credit, set `credit` alongside it (see below); the caption renders itself.
+- **Then set** `"image": "/images/activities/<slug>.<ext>"` on that activity in the JSON. Keep source records in `credit` alongside it (see below); the UI does not render photographer or stock-library links.
 - **Alt text** is generated from the activity name and primary keyword; no manual alt is needed.
 - **Licensing:** must be owned or licensed for commercial use. The site runs AdSense.
 
@@ -31,8 +31,16 @@ breaks in the meantime.
 }
 ```
 
-`credit` is optional — omit it for images we own. The 222 original images carry
-none, which is why the caption is conditional rather than site-wide.
+`credit` is optional — omit it for images we own. It is retained as source
+metadata; activity images are served from local files without attribution links.
+
+## Checking local assets
+
+With the local app running on port 3000, run `node scratch/verify-images.cjs`.
+It checks that every activity references a local image, decodes the files to
+detect corrupt images, and verifies that the server returns them successfully.
+Live Viator search results use provider-supplied photos and show a location
+placeholder when a photo cannot load.
 
 ## Sourcing in bulk from Unsplash
 

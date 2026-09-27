@@ -2155,6 +2155,20 @@
                 "q": "How do I make a collage look intentional?",
                 "a": "Cut far more material than you need, then arrange without gluing until the composition works. Volume enables the good pairings."
               }
+            ],
+            "nextIdeas": [
+              {
+                "before": "Want to keep working with found words and pictures? Try",
+                "href": "/activities/creative/try-blackout-poetry-with-an-old-newspaper",
+                "label": "blackout poetry with an old newspaper",
+                "after": ", or reuse the remaining pages for your next collage."
+              },
+              {
+                "before": "For another small project, browse our",
+                "href": "/activities/creative",
+                "label": "creative activities for a spare hour",
+                "after": "."
+              }
             ]
           },
           "meta": {
@@ -3045,6 +3059,14 @@
                 "q": "What text works best?",
                 "a": "Dense body text from newspapers or old books. Headlines and advertising have too few words to choose between."
               }
+            ],
+            "nextIdeas": [
+              {
+                "before": "If you prefer images to words, use the same paper pile to",
+                "href": "/activities/creative/create-a-collage-from-magazine-cutouts",
+                "label": "create a collage from magazine cutouts",
+                "after": "."
+              }
             ]
           },
           "meta": {
@@ -3246,7 +3268,21 @@
       ],
       "content": {
         "intro": "Creative activities carry a barrier that most other categories do not: the belief that you are not creative, usually formed at school and never revisited. Almost every activity here is designed around that, either by removing the skill threshold entirely or by making the first attempt explicitly disposable. The output is not the point, which is easy to say and harder to believe until you have tried it. Nearly everything here can be started with materials already in your house, which removes the shopping trip that quietly postpones creative intentions.",
-        "body": "These suit you when you have been consuming rather than making, when you want an hour that produces something physical, or when you need an activity that occupies your hands and part of your attention without demanding all of it. Several are unexpectedly settling for that reason. Others are genuinely challenging and will produce something you want to keep, though rarely on the first attempt.\n\nTo choose, start with whether you want to make something or simply do something. Collage, blackout poetry and mindful coloring remove almost every decision and produce a result regardless of skill. Drawing, calligraphy, pottery and watercolor are real skills with real learning curves and are correspondingly more satisfying when something works. Writing sits apart: the barrier is entirely psychological and the materials cost nothing. The distinction worth holding onto is between making for an outcome and making for the hour itself, since only the second survives a bad result.\n\nWhat you need varies more here than elsewhere. Several activities need only paper and a pen you already own. Others need a specific material that must be bought once: clay, watercolor paper, a brush pen, a bag of stones. None require expensive equipment, and in every case the cheap version is sufficient to find out whether you enjoy it, which is the only question the first session should answer.\n\nStart today with whichever activity needs materials you already have in the house. That constraint eliminates the shopping trip that quietly postpones creative intentions for months. Give the first attempt a fixed short time limit, keep whatever you produce however bad it is, and judge the activity on whether the hour passed quickly rather than on the result. Where a purchase is needed, the cheapest version is genuinely sufficient to answer the only question that matters on a first attempt."
+        "body": "These suit you when you have been consuming rather than making, when you want an hour that produces something physical, or when you need an activity that occupies your hands and part of your attention without demanding all of it. Several are unexpectedly settling for that reason. Others are genuinely challenging and will produce something you want to keep, though rarely on the first attempt.\n\nTo choose, start with whether you want to make something or simply do something. Collage, blackout poetry and mindful coloring remove almost every decision and produce a result regardless of skill. Drawing, calligraphy, pottery and watercolor are real skills with real learning curves and are correspondingly more satisfying when something works. Writing sits apart: the barrier is entirely psychological and the materials cost nothing. The distinction worth holding onto is between making for an outcome and making for the hour itself, since only the second survives a bad result.\n\nWhat you need varies more here than elsewhere. Several activities need only paper and a pen you already own. Others need a specific material that must be bought once: clay, watercolor paper, a brush pen, a bag of stones. None require expensive equipment, and in every case the cheap version is sufficient to find out whether you enjoy it, which is the only question the first session should answer.\n\nStart today with whichever activity needs materials you already have in the house. That constraint eliminates the shopping trip that quietly postpones creative intentions for months. Give the first attempt a fixed short time limit, keep whatever you produce however bad it is, and judge the activity on whether the hour passed quickly rather than on the result. Where a purchase is needed, the cheapest version is genuinely sufficient to answer the only question that matters on a first attempt.",
+        "nextIdeas": [
+          {
+            "before": "For an easy starting point using paper you already have, try",
+            "href": "/activities/creative/create-a-collage-from-magazine-cutouts",
+            "label": "making a magazine collage",
+            "after": "."
+          },
+          {
+            "before": "If you want to gather inspiration outside the house first, use the",
+            "href": "/solo-day-out-generator",
+            "label": "solo outing generator",
+            "after": " to find a short gallery visit or sketching break."
+          }
+        ]
       }
     },
     {
@@ -8311,6 +8347,14 @@
                 "q": "How do I find groups near me?",
                 "a": "Meetup listings, library and community centre noticeboards, local social media groups, and sports club websites."
               }
+            ],
+            "nextIdeas": [
+              {
+                "before": "If you would enjoy meeting the same people through regular games, read",
+                "href": "/activities/social/join-a-recreational-sports-league",
+                "label": "how to join a local sports league as a beginner",
+                "after": "."
+              }
             ]
           },
           "meta": {
@@ -8724,12 +8768,12 @@
         {
           "name": "Join a recreational sports league",
           "slug": "join-a-recreational-sports-league",
-          "description": "Sign up for a casual league—football, basketball, or volleyball—to stay active, have fun, and make new friends.",
+          "description": "Use a spare hour to find a beginner-friendly local sports league, check the costs and contact an organiser. Your first game comes after registration is confirmed.",
           "image": "/images/activities/join-a-recreational-sports-league.png",
           "seo": {
-            "title": "Join a Recreational Sports League as a Complete Beginner",
-            "metaDescription": "Social leagues exist specifically for people who are not good at the sport. Find the beginner division, join as an individual, and expect to be bad initially.",
-            "primaryKeyword": "join a recreational sports league",
+            "title": "How to Join a Local Sports League as a Beginner",
+            "metaDescription": "Find UK sports leagues and clubs, join as an individual, and ask about fees, beginner levels and trial sessions before committing to a season.",
+            "primaryKeyword": "how to join local sports leagues",
             "secondaryKeywords": [
               "social sports leagues near me",
               "beginner adult sports",
@@ -8737,48 +8781,109 @@
             ]
           },
           "content": {
-            "intro": "Recreational leagues exist specifically for adults who are not good at the sport, which is the thing that stops most people joining one. To join a recreational sports league you rarely need any experience, and most explicitly run beginner or social divisions where nobody is keeping serious score.",
-            "whyItWorks": "Team sport solves two problems at once: exercise you will actually turn up for, because other people are relying on you, and a social group built around a shared activity. The attendance effect is the underrated one. A gym session is easy to skip; a fixture where five people are expecting you is considerably harder to skip.",
+            "heading": "How to Join a Local Sports League as a Beginner",
+            "intro": "To join a local sports league as a beginner, find a nearby club or social league, check that it welcomes your experience level, and ask how to register as an individual. You do not always need a ready-made team, but availability and entry rules vary. Use this hour to shortlist options and make contact; a match or trial may happen on another day.",
+            "whyItWorks": "A regular fixture gives you a reason to get out and see the same people again. Choosing a convenient venue and a suitable level makes it easier to return. Social leagues can still keep scores and expect a season-long commitment, so ask what beginner-friendly means in practice.",
+            "resources": {
+              "heading": "Where to find UK leagues, clubs and beginner sessions",
+              "intro": "These starting points cover different sports and areas. A club directory helps you find someone to contact; a session finder may offer coaching or casual play rather than league membership. Check the location and adult age group before signing up.",
+              "checkedOn": "23 September 2026",
+              "links": [
+                {
+                  "label": "GO Mammoth league finder",
+                  "href": "https://www.gomammoth.co.uk/activity-finder/",
+                  "detail": "Search by sport and postcode or place, then narrow by day and level. Check which venues are available locally; coverage is not universal."
+                },
+                {
+                  "label": "GO Mammoth individual sign-up and trial guidance",
+                  "href": "https://www.gomammoth.co.uk/need-help/",
+                  "detail": "After choosing a league, select Join as Individual. The organiser places individual entrants with teammates. Its help page says leagues are paid for upfront and describes an arranged visit to watch before joining; do not assume a free playing trial is included."
+                },
+                {
+                  "label": "England Football: Find Football",
+                  "href": "https://find.englandfootball.com/",
+                  "detail": "Use the official finder to look for football opportunities in England. Contact the listed organiser to ask about adult beginners, individual places and whether the opportunity is a team, casual session or league."
+                },
+                {
+                  "label": "England Netball session finder",
+                  "href": "https://engage.englandnetball.co.uk/sessionfinder",
+                  "detail": "Look for a local Back to Netball session as a route into the sport. This is a session booking, not an automatic place in a league team. Ask the coach about nearby clubs if you want regular matches."
+                },
+                {
+                  "label": "England Netball booking instructions",
+                  "href": "https://help.centre.englandnetball.co.uk/wiki/spaces/EKC/pages/23592997/How+do+I+book+a+Back+to+Netball+session",
+                  "detail": "Filter the session finder, open More for a venue and choose Register. Follow the account and booking steps, checking the session price before payment. New participants will need an account."
+                },
+                {
+                  "label": "Basketball Wales club directory",
+                  "href": "https://basketball.wales/clubs/",
+                  "detail": "Browse the affiliated club list or map and contact a suitable club. Ask whether it runs adult beginner sessions and which local league, if any, its teams play in; a listing does not guarantee a vacant place."
+                }
+              ]
+            },
             "howTo": [
               {
-                "step": "Look for social or beginner divisions",
-                "detail": "Most leagues run tiers. The bottom tier is explicitly for people who cannot play, which is the point."
+                "step": "Shortlist two realistic options",
+                "detail": "Spend about 15 minutes searching for a sport you want to try. Check the venue, journey home, age group, playing level and weekday. Include a beginner session if league places are full."
               },
               {
-                "step": "Join as a free agent",
-                "detail": "Most leagues place individuals into teams needing players. You do not need to bring anyone."
+                "step": "Find the individual entry route",
+                "detail": "Look for individual registration, a player waiting list or a club contact. If a form only accepts whole teams, ask whether the organiser can introduce you to a team seeking players. Never assume every league offers placement."
               },
               {
-                "step": "Ask what the standard actually is",
-                "detail": "Organisers will tell you honestly. Turning up to the wrong tier is the main way people have a bad first night."
+                "step": "Ask about level and a first visit",
+                "detail": "Explain your experience honestly. Ask whether you can try a session or watch first, whether that costs anything, and who you should meet on arrival. Wait for confirmation before turning up."
               },
               {
-                "step": "Check the equipment requirement",
-                "detail": "Many supply everything for beginners. Buying kit before knowing whether you enjoy it is unnecessary."
+                "step": "Check the total cost and commitment",
+                "detail": "Ask about joining or membership fees, the season price, match fees, venue charges, required kit and any governing-body registration. Confirm payment timing, cancellation terms and what happens if you miss a week."
               },
               {
-                "step": "Commit to a full season",
-                "detail": "You will be bad for several weeks. That is normal, expected, and improves faster than you think."
+                "step": "Register once the details suit you",
+                "detail": "Use the organiser's official registration process. Keep the confirmation, start date and contact details. Ask when fixtures and teammate details will arrive, and buy only the kit you have been told is necessary."
               }
             ],
             "tips": [
-              "Badminton, netball, five-a-side and ultimate all have strong beginner scenes and low equipment costs.",
-              "Go to the drink afterwards if there is one. That is where the social half of a sports league actually happens.",
-              "If you have any health condition or have been inactive for a long time, speak to a doctor before starting."
+              "A useful first message: “I am an adult beginner looking to join on my own. Do you have a suitable session or team place? What is the full cost, can I try or watch first, and what should I bring?”",
+              "Ask whether a trial is a playing session or a visit to watch, and whether booking is required. A free trial is not guaranteed.",
+              "Check whether kit can be borrowed, what footwear the surface needs and whether accessibility arrangements are available.",
+              "Ask if game times change each week and whether you need to arrange a substitute when absent."
             ],
-            "variations": "If team sport is not appealing, running clubs and climbing walls give similar regularity with less pressure. If you played something years ago, veterans and masters leagues exist for most sports and are considerably more forgiving than the open ones.",
+            "variations": "If a league feels like too much commitment, start with a casual session or beginner course and ask about the next step when you feel ready. If there is no local listing, try your council leisure centre or the sport's national governing body for your part of the UK.",
+            "nextIdeas": [
+              {
+                "before": "For other ways to meet people regularly, explore our",
+                "href": "/activities/social",
+                "label": "social activity ideas",
+                "after": "."
+              },
+              {
+                "before": "If you would rather meet around a shared interest first, use the guide to",
+                "href": "/activities/social/join-a-local-meetup-group",
+                "label": "joining a local meetup group",
+                "after": "."
+              }
+            ],
             "faq": [
               {
-                "q": "Can I join without any experience?",
-                "a": "Yes. Most recreational leagues run explicit beginner or social divisions for people who have never played."
+                "q": "Can I join a local sports league without a team?",
+                "a": "Some organisers accept individual entries and put players together; others require you to contact an existing club or join a waiting list. GO Mammoth publishes an individual entry route. Check the specific league before paying."
               },
               {
-                "q": "What if I do not know anyone?",
-                "a": "Join as a free agent. Leagues routinely place individuals into teams that are short of players."
+                "q": "Do beginner leagues require experience?",
+                "a": "Entry standards vary. Ask what a typical session looks like and whether coaching or an introductory session is available. A social division can still include experienced players."
               },
               {
-                "q": "Do I need to buy equipment first?",
-                "a": "Usually not. Many leagues supply what beginners need, so wait until you know you will continue."
+                "q": "How much does joining cost?",
+                "a": "There is no single UK price. Ask for the full season or session cost, membership and registration charges, kit requirements, and any extra match fees. Confirm whether payment is upfront or per session."
+              },
+              {
+                "q": "Can I have a free trial?",
+                "a": "Ask the organiser. Some clubs may offer a taster, while others allow a visit to watch or require a paid booking. GO Mammoth describes contacting it to arrange a visit to watch before committing, rather than promising a free playing trial."
+              },
+              {
+                "q": "Can I complete this in an hour?",
+                "a": "You can use the hour to compare options and send an enquiry or registration. A confirmed team place, trial or first match depends on the organiser's schedule and availability."
               }
             ]
           },
@@ -9383,7 +9488,21 @@
       ],
       "content": {
         "intro": "Social activities are the ones people most want to do and most reliably postpone, because every one of them requires contacting somebody. That single step is the whole barrier. Almost everything here is easy once the message is sent, and the anticipated awkwardness consistently exceeds the actual awkwardness by a wide margin. The activities also differ sharply in how much organizing they need, from a single message to coordinating an evening for eight people.",
-        "body": "These suit you when you have noticed that a friendship has gone quiet, when your week has contained no unscheduled conversation, or when you want an hour that benefits somebody else as well as you. Several also address a specific modern problem, which is that adult friendships need deliberate maintenance in a way that school and workplace friendships never did. Reciprocity matters here in a way it does not elsewhere, since the other person has to want the same thing.\n\nTo choose, start with how much initiative you are prepared to take today. Writing a note, calling a friend or complimenting somebody requires reaching out to one person. Hosting a potluck, running a game night or organizing a clean-up means coordinating several, which is more work and more reward. Joining a meetup, a league or a community event requires the least organizing and the most nerve, since you arrive somewhere new alone. Several of these benefit somebody else as much as they benefit you, which makes them easier to justify spending an hour on.\n\nWhat you need is mostly a phone and a willingness to send the first message. A few need materials: paper and a stamp, food for a table, a game everyone can learn quickly. One needs nothing but attention: interviewing an older relative requires only a voice recorder, and it is the single activity here with a genuine deadline attached. Cash is worth carrying for community events, since small venues frequently cannot take card payments at all.\n\nStart today by sending one message. Not planning an event, not researching groups, just one message to one person, which is the step everything else depends on. If reaching out to someone you know feels harder than meeting strangers, that is common, and joining an activity-based group is a legitimate way in that supplies the conversation for you. Timing is the one resource that matters: most of these work far better when the other person is not already stretched."
+        "body": "These suit you when you have noticed that a friendship has gone quiet, when your week has contained no unscheduled conversation, or when you want an hour that benefits somebody else as well as you. Several also address a specific modern problem, which is that adult friendships need deliberate maintenance in a way that school and workplace friendships never did. Reciprocity matters here in a way it does not elsewhere, since the other person has to want the same thing.\n\nTo choose, start with how much initiative you are prepared to take today. Writing a note, calling a friend or complimenting somebody requires reaching out to one person. Hosting a potluck, running a game night or organizing a clean-up means coordinating several, which is more work and more reward. Joining a meetup, a league or a community event requires the least organizing and the most nerve, since you arrive somewhere new alone. Several of these benefit somebody else as much as they benefit you, which makes them easier to justify spending an hour on.\n\nWhat you need is mostly a phone and a willingness to send the first message. A few need materials: paper and a stamp, food for a table, a game everyone can learn quickly. One needs nothing but attention: interviewing an older relative requires only a voice recorder, and it is the single activity here with a genuine deadline attached. Cash is worth carrying for community events, since small venues frequently cannot take card payments at all.\n\nStart today by sending one message. Not planning an event, not researching groups, just one message to one person, which is the step everything else depends on. If reaching out to someone you know feels harder than meeting strangers, that is common, and joining an activity-based group is a legitimate way in that supplies the conversation for you. Timing is the one resource that matters: most of these work far better when the other person is not already stretched.",
+        "nextIdeas": [
+          {
+            "before": "For regular company around a shared activity, start with",
+            "href": "/activities/social/join-a-recreational-sports-league",
+            "label": "how to join a local sports league as a beginner",
+            "after": ". The guide includes places to search and questions about fees and trials."
+          },
+          {
+            "before": "Prefer some time to yourself today? Try the",
+            "href": "/solo-day-out-generator",
+            "label": "solo outing generator",
+            "after": " for a short indoor or outdoor break."
+          }
+        ]
       }
     },
     {

@@ -2,6 +2,8 @@
 
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { ChevronDown, Menu, X, Zap } from "lucide-react";
 import { SearchBar } from "./SearchBar";
 
 interface NavigationProps {
@@ -9,207 +11,66 @@ interface NavigationProps {
   breadcrumb?: { name: string; href?: string }[];
 }
 
+const categoryGroups = {
+  Leisure: [["Outdoor", "outdoor"], ["Creative", "creative"], ["Learning", "learning"], ["Food & Drink", "food-drink"], ["Mindfulness", "mindfulness"], ["Social", "social"], ["Games", "games"]],
+  Productive: [["Career Development", "career-development"], ["Organization", "organization"], ["Skills", "skills"], ["Financial", "financial"], ["Personal Growth", "personal-growth"], ["Home Improvement", "home-improvement"], ["Health & Fitness", "health-fitness"]],
+};
+
 export function Navigation({ onSearch, breadcrumb }: NavigationProps) {
-  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-  const dropdownRef = useRef<HTMLDivElement>(null);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+  const categoryButtonRef = useRef<HTMLButtonElement | null>(null);
+  const navigationRef = useRef<HTMLElement>(null);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
+  const pathname = usePathname();
 
-  // Close dropdown when clicking outside
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setActiveDropdown(null);
-      }
+    const closeOutside = (event: MouseEvent) => {
+      if (!navigationRef.current?.contains(event.target as Node)) { setMenuOpen(false); setActiveCategory(null); }
     };
-
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
+    document.addEventListener("mousedown", closeOutside);
+    return () => document.removeEventListener("mousedown", closeOutside);
   }, []);
 
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === "Escape") {
-      setActiveDropdown(null);
-    }
-  };
-
-  const dropdownItems = {
-    leisure: [
-      { name: "Outdoor", slug: "outdoor", description: "Parks, hiking, nature" },
-      { name: "Creative", slug: "creative", description: "Art, writing, crafts" },
-      { name: "Learning", slug: "learning", description: "Skills, languages, knowledge" },
-      { name: "Food & Drink", slug: "food-drink", description: "Cooking, tasting, recipes" },
-      { name: "Mindfulness", slug: "mindfulness", description: "Meditation, relaxation" },
-      { name: "Social", slug: "social", description: "Friends, community" },
-      { name: "Games", slug: "games", description: "Board games, puzzles" },
-    ],
-    productive: [
-      { name: "Career Development", slug: "career-development", description: "Professional growth" },
-      { name: "Organization", slug: "organization", description: "Workspace & home" },
-      { name: "Skills", slug: "skills", description: "Learn new abilities" },
-      { name: "Financial", slug: "financial", description: "Money management" },
-      { name: "Personal Growth", slug: "personal-growth", description: "Self-improvement" },
-      { name: "Home Improvement", slug: "home-improvement", description: "Home maintenance" },
-      { name: "Health & Fitness", slug: "health-fitness", description: "Wellness & exercise" },
-    ],
-  };
-
   return (
-    <nav
-      ref={dropdownRef}
-      className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50"
-      role="navigation"
-      aria-label="Main navigation"
-      onKeyDown={handleKeyDown}
-    >
-      <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
-        {/* Logo / Home */}
-        <Link
-          href="/"
-          className="flex items-center gap-2 font-bold text-lg hover:text-blue-600 transition-colors"
-          aria-label="Activity Generator Home"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
-            aria-hidden="true"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M13 10V3L4 14h7v7l9-11h-7z"
-            />
-          </svg>
-          <span>Activity Generator</span>
+    <header ref={navigationRef} className="site-header" onKeyDown={(event) => {
+      if (event.key === "Escape" && menuOpen) { setMenuOpen(false); menuButtonRef.current?.focus(); }
+      if (event.key === "Escape" && activeCategory) { setActiveCategory(null); categoryButtonRef.current?.focus(); }
+    }}>
+      <div className="site-nav">
+        <Link href="/" className="site-brand" aria-label="Fungen — Activity Generator home">
+          <Zap size={18} strokeWidth={1.5} aria-hidden="true" />
+          <span>Fungen <span aria-hidden="true">{"//"}</span> <span className="site-brand-descriptor">Activity generator</span></span>
         </Link>
-
-        {/* Breadcrumb */}
-        <nav aria-label="Breadcrumb" className="hidden md:flex items-center text-sm text-gray-500">
-          <ol className="flex items-center gap-1">
-            <li>
-              <Link href="/" className="hover:text-blue-600">Home</Link>
-            </li>
-            {breadcrumb ? (
-              breadcrumb.map((item, index) => (
-                <div key={index} className="flex items-center gap-1">
-                  <li aria-hidden="true">/</li>
-                  <li>
-                    {item.href ? (
-                      <Link href={item.href} className="hover:text-blue-600">
-                        {item.name}
-                      </Link>
-                    ) : (
-                      <span className="text-gray-700 font-medium">{item.name}</span>
-                    )}
-                  </li>
-                </div>
-              ))
-            ) : (
-              <>
-                <li aria-hidden="true">/</li>
-                <li>
-                  <span className="text-gray-700 font-medium">Generator</span>
-                </li>
-              </>
-            )}
-          </ol>
+        <nav className="site-nav-links" aria-label="Main navigation">
+          <Link href="/" aria-current={pathname === "/" ? "page" : undefined}>Generate</Link>
+          <Link href="/activities" aria-current={pathname.startsWith("/activities") ? "page" : undefined}>Discover</Link>
+          {Object.entries(categoryGroups).map(([name, categories]) => <div className="site-category-menu" key={name}>
+            <button type="button" aria-expanded={activeCategory === name} aria-controls={`categories-${name}`} onClick={(event) => {
+              categoryButtonRef.current = event.currentTarget;
+              setActiveCategory(activeCategory === name ? null : name);
+            }}>{name}<ChevronDown size={12} aria-hidden="true" /></button>
+            {activeCategory === name && <div className="site-category-dropdown" id={`categories-${name}`}>
+              <p>{name} activities</p>
+              {categories.map(([label, slug]) => <Link href={`/activities/${slug}`} key={slug} onClick={() => setActiveCategory(null)}>{label}</Link>)}
+            </div>}
+          </div>)}
         </nav>
-
-        {/* Navigation items */}
-        <div className="flex items-center gap-2">
-          {/* Search */}
+        <div className="site-nav-tools">
           {onSearch && <SearchBar onSearch={onSearch} />}
-
-          {/* Dropdown menus */}
-          <div className="relative">
-            <button
-              onClick={() => setActiveDropdown(activeDropdown === "leisure" ? null : "leisure")}
-              className="px-3 py-1.5 text-sm rounded-lg hover:bg-gray-100 transition-colors flex items-center gap-1"
-              aria-expanded={activeDropdown === "leisure"}
-              aria-haspopup="true"
-            >
-              Leisure Activities
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className={`h-4 w-4 transition-transform ${activeDropdown === "leisure" ? "rotate-180" : ""}`}
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-                aria-hidden="true"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-              </svg>
-            </button>
-
-            {activeDropdown === "leisure" && (
-              <div
-                className="absolute top-full right-0 mt-1 w-56 bg-white rounded-lg shadow-xl border p-2 z-50"
-                role="menu"
-                aria-label="Leisure categories"
-              >
-                {dropdownItems.leisure.map((item) => (
-                  <Link
-                    key={item.name}
-                    href={`/activities/${item.slug}`}
-                    onClick={() => setActiveDropdown(null)}
-                    className="block w-full text-left px-3 py-2 rounded hover:bg-gray-100 transition-colors"
-                    role="menuitem"
-                  >
-                    <div className="font-medium text-sm">{item.name}</div>
-                    <div className="text-xs text-gray-500">{item.description}</div>
-                  </Link>
-                ))}
-              </div>
-            )}
-          </div>
-
-          <div className="relative">
-            <button
-              onClick={() => setActiveDropdown(activeDropdown === "productive" ? null : "productive")}
-              className="px-3 py-1.5 text-sm rounded-lg hover:bg-gray-100 transition-colors flex items-center gap-1"
-              aria-expanded={activeDropdown === "productive"}
-              aria-haspopup="true"
-            >
-              Productive Activities
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className={`h-4 w-4 transition-transform ${activeDropdown === "productive" ? "rotate-180" : ""}`}
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-                aria-hidden="true"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-              </svg>
-            </button>
-
-            {activeDropdown === "productive" && (
-              <div
-                className="absolute top-full right-0 mt-1 w-56 bg-white rounded-lg shadow-xl border p-2 z-50"
-                role="menu"
-                aria-label="Productive categories"
-              >
-                {dropdownItems.productive.map((item) => (
-                  <Link
-                    key={item.name}
-                    href={`/activities/${item.slug}`}
-                    onClick={() => setActiveDropdown(null)}
-                    className="block w-full text-left px-3 py-2 rounded hover:bg-gray-100 transition-colors"
-                    role="menuitem"
-                  >
-                    <div className="font-medium text-sm">{item.name}</div>
-                    <div className="text-xs text-gray-500">{item.description}</div>
-                  </Link>
-                ))}
-              </div>
-            )}
-          </div>
+          <button ref={menuButtonRef} type="button" className="site-icon-button site-menu-button" aria-label={menuOpen ? "Close navigation" : "Open navigation"} aria-expanded={menuOpen} aria-controls="mobile-navigation" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X size={18} /> : <Menu size={18} />}</button>
         </div>
       </div>
-    </nav>
+      {menuOpen && <nav id="mobile-navigation" className="site-mobile-nav" aria-label="Mobile navigation">
+        <Link href="/" onClick={() => setMenuOpen(false)}>Generate an idea</Link>
+        <Link href="/activities" onClick={() => setMenuOpen(false)}>Discover all activities</Link>
+        <Link href="/solo-day-out-generator" onClick={() => setMenuOpen(false)}>Plan a solo day out</Link>
+        {Object.entries(categoryGroups).map(([name, categories]) => <details key={name} className="site-mobile-categories"><summary>{name} categories</summary><div>{categories.map(([label, slug]) => <Link href={`/activities/${slug}`} key={slug} onClick={() => setMenuOpen(false)}>{label}</Link>)}</div></details>)}
+      </nav>}
+      {breadcrumb && <nav className="site-breadcrumb" aria-label="Breadcrumb"><ol>
+        <li><Link href="/">Home</Link></li>
+        {breadcrumb.map((item, index) => <li key={`${item.name}-${index}`}><span aria-hidden="true">/</span>{item.href ? <Link href={item.href}>{item.name}</Link> : <span aria-current="page">{item.name}</span>}</li>)}
+      </ol></nav>}
+    </header>
   );
 }

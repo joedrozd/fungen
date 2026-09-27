@@ -39,6 +39,7 @@ events cover the following activity flows:
 | `category_viewed` | A category page is opened |
 | `activities_searched` | An activity search is submitted; records result count |
 | `activity_type_changed`, `activity_category_changed` | Generator filters are selected |
+| `solo_outing_generated` | The solo outing pilot generates an idea; records outing ID, setting/budget filters and result count |
 | `nearby_events_requested`, `nearby_events_completed`, `nearby_events_failed` | A nearby recommendation request starts, succeeds, or fails |
 | `nearby_event_clicked` | A visitor opens a Viator result |
 
@@ -56,6 +57,20 @@ reason/status, or result rank. They exclude place names and product identifiers.
 handlers perform the actual captures because autocapture is disabled.
 PostHog stores analytics identifiers in localStorage. Autocapture and session
 recording are disabled; search text and location values are not added to events.
+
+## SEO experiments
+
+The homepage renders its generator controls and a compact link to
+`/find-your-next-activity` in the initial HTML. That page offers guidance on
+choosing an activity, first steps and links to the five featured pages.
+The solo pilot at `/solo-day-out-generator` offers curated 30–60 minute
+outings with indoor/outdoor and free/broader-budget filters.
+
+See [the September SEO measurement note](docs/seo-priorities-2026-09.md) for
+baselines, working goals, source verification and pending Search Console checks.
+After a production build, run `node scratch/verify-seo.cjs` to check the homepage
+and the inspiration page plus five priority pages for initial HTML content,
+canonical URLs, contextual links and new page sitemap entries.
 
 ## Nearby events
 

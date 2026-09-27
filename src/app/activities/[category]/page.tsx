@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ContextualLinks } from "@/components/ContextualLinks";
 import { notFound } from "next/navigation";
 import { CategoryView } from "@/components/CategoryView";
 import { JsonLd } from "@/components/JsonLd";
@@ -89,25 +90,26 @@ export default async function CategoryPage({ params }: PageProps) {
         activities={activities}
         otherCategories={otherCategories}
       >
-        <header className="mb-8 bg-white/85 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-white/20">
+        <header className="mb-8 bg-card rounded-2xl p-8 shadow-none border border-border">
           <div className="text-center">
-            <h1 className="text-4xl font-bold mb-3 text-gray-900">{category.name}</h1>
+            <h1 className="text-4xl font-semibold mb-3 text-primary">{category.name}</h1>
             {category.description && (
-              <p className="text-xl text-gray-800 max-w-2xl mx-auto mb-4 leading-relaxed">
+              <p className="text-xl text-foreground max-w-2xl mx-auto mb-4 leading-relaxed">
                 {category.description}
               </p>
             )}
-            <div className="inline-block px-4 py-1.5 bg-indigo-100 text-indigo-700 rounded-full text-sm font-semibold">
+            <div className="inline-block px-4 py-1.5 bg-secondary text-primary rounded-full text-sm font-semibold">
               {category.activities.length} activities in this category
             </div>
           </div>
 
           {category.content && (
-            <div className="mt-8 prose prose-slate max-w-none text-gray-800 leading-relaxed space-y-4 text-left">
+            <div className="mt-8 prose prose-slate max-w-none text-foreground leading-relaxed space-y-4 text-left">
               <p className="text-lg">{category.content.intro}</p>
               {category.content.body.split("\n\n").map((paragraph, index) => (
                 <p key={index}>{paragraph}</p>
               ))}
+              <ContextualLinks links={category.content.nextIdeas} />
             </div>
           )}
         </header>

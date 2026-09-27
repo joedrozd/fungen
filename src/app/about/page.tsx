@@ -57,13 +57,7 @@ export default function AboutPage() {
 
   return (
     <div
-      className="min-h-screen flex flex-col"
-      style={{
-        backgroundImage: "url('/background.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
-      }}
+      className="min-h-screen flex flex-col site-scenic"
     >
       <script
         type="application/ld+json"
@@ -72,12 +66,12 @@ export default function AboutPage() {
 
       <Navigation breadcrumb={[{ name: "About" }]} />
 
-      <main className="flex-1 p-8 pt-24">
+      <main className="flex-1 p-8 pt-36">
         <div className="max-w-3xl mx-auto space-y-8">
           {/* Hero */}
-          <div className="bg-white/80 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-white/20 text-center">
-            <h1 className="text-4xl font-bold mb-3 text-gray-900">About the Activity Generator</h1>
-            <p className="text-lg text-gray-800 leading-relaxed">
+          <div className="bg-card rounded-2xl p-8 shadow-none border border-border text-center">
+            <h1 className="text-4xl font-semibold mb-3 text-primary">About the Activity Generator</h1>
+            <p className="text-lg text-foreground leading-relaxed">
               Ever finished work, sat down, and thought &ldquo;I have an hour free… now what?&rdquo;
               That&apos;s exactly the moment this site is built for. One click gives you a fun or
               productive idea you can actually do — no scrolling, no decision fatigue.
@@ -85,11 +79,11 @@ export default function AboutPage() {
           </div>
 
           {/* How it works */}
-          <Card className="bg-white/90">
+          <Card className="bg-card">
             <CardHeader>
               <CardTitle className="text-2xl">How it works</CardTitle>
             </CardHeader>
-            <CardContent className="space-y-3 text-gray-700">
+            <CardContent className="space-y-3 text-muted-foreground">
               <ol className="list-decimal list-inside space-y-2">
                 <li>
                   <span className="font-medium">Pick a mood</span> — choose Leisure when you want to
@@ -112,7 +106,7 @@ export default function AboutPage() {
           </Card>
 
           {/* FAQ */}
-          <Card className="bg-white/90">
+          <Card className="bg-card">
             <CardHeader>
               <CardTitle className="text-2xl">Frequently asked questions</CardTitle>
             </CardHeader>
@@ -120,8 +114,8 @@ export default function AboutPage() {
               <div className="space-y-5">
                 {faqs.map((faq) => (
                   <div key={faq.question}>
-                    <h3 className="font-semibold text-gray-900 mb-1">{faq.question}</h3>
-                    <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                    <h3 className="font-semibold text-primary mb-1">{faq.question}</h3>
+                    <p className="text-muted-foreground leading-relaxed">{faq.answer}</p>
                   </div>
                 ))}
               </div>

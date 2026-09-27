@@ -37,7 +37,7 @@ export function GET() {
 
   const body = `# fungen.app
 
-> One-Hour Activity Generator — ${all.length} things to do in an hour, each with a full step-by-step guide.
+> Random Activity Generator — ${all.length} things to do with a spare hour, each with a full step-by-step guide.
 
 ## What is this?
 
@@ -51,6 +51,8 @@ information only and are not professional advice.
 ## Key pages
 
 - [Home](${BASE_URL}/) — random activity generator
+- [Find your next activity](${BASE_URL}/find-your-next-activity) — practical starting points for creative, social and solo activities
+- [Solo outing generator](${BASE_URL}/solo-day-out-generator) — indoor and outdoor ideas for 30–60 minutes, with free options
 - [All Activities](${BASE_URL}/activities) — every category
 - [About](${BASE_URL}/about)
 - [Disclaimer](${BASE_URL}/disclaimer)

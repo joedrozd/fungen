@@ -21,19 +21,15 @@ const TUTORIAL_STEPS: TutorialStep[] = [
   },
   {
     title: "Filter by Category",
-    content: "Use the category buttons to filter activities. Click a category to see only that type of activity.",
+    content: "Choose a category, time window, and setting to find an activity that fits your day.",
   },
   {
     title: "View All Activities",
-    content: "Click 'Show All Activities' to see a complete list organized by category.",
-  },
-  {
-    title: "Save Favorites",
-    content: "Click the heart icon to save activities you like to your personal 'My List' for quick access.",
+    content: "Open 'Discover' in the navigation to see a complete list organized by category.",
   },
   {
     title: "Rate Activities",
-    content: "Help us improve by rating activities with thumbs up or down. Your feedback makes recommendations better!",
+    content: "Use the thumbs below an activity to rate it. Your feedback helps us improve the suggestions!",
   },
 ];
 
@@ -48,13 +44,12 @@ export function Tutorial() {
   useEffect(() => {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (!stored) {
-      // First visit - show tutorial automatically after a short delay
-      setTimeout(() => setIsOpen(true), 500);
+      // Keep the generator visible on arrival; visitors can open help themselves.
       setHasSeenTutorial(false);
     } else {
       const progress = JSON.parse(stored);
       setHasSeenTutorial(progress.completed || false);
-      setCurrentStep(progress.step || 0);
+      setCurrentStep(Math.min(progress.step || 0, TUTORIAL_STEPS.length - 1));
     }
   }, []);
 
@@ -110,7 +105,7 @@ export function Tutorial() {
         onClick={handleRestart}
         variant="outline"
         size="sm"
-        className="fixed top-4 left-4 z-40"
+        className="fixed bottom-4 left-4 z-40"
         aria-label="Restart tutorial"
       >
         <svg
@@ -139,7 +134,7 @@ export function Tutorial() {
         onClick={() => setIsOpen(true)}
         variant="outline"
         size="sm"
-        className="fixed top-4 left-4 z-40"
+        className="fixed bottom-4 left-4 z-40"
         aria-label="Start tutorial"
       >
         <svg
@@ -177,7 +172,7 @@ export function Tutorial() {
         <div className="mb-4" role="progressbar" aria-valuenow={progress} aria-valuemin={0} aria-valuemax={100}>
           <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
             <div
-              className="h-full bg-blue-500 transition-all duration-300"
+              className="h-full bg-primary transition-all duration-300"
               style={{ width: `${progress}%` }}
             />
           </div>

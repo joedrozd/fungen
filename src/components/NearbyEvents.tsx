@@ -46,6 +46,7 @@ export function NearbyEvents() {
   const [activeSuggestion, setActiveSuggestion] = useState(-1);
   const [resolvedLocation, setResolvedLocation] = useState("");
   const [events, setEvents] = useState<NearbyEvent[]>([]);
+  const [failedImageUrls, setFailedImageUrls] = useState<string[]>([]);
   const [eventsSource, setEventsSource] = useState<SearchSource>("manual_location");
   const [state, setState] = useState<SearchState>("idle");
   const [error, setError] = useState("");
@@ -397,13 +398,17 @@ export function NearbyEvents() {
               const price = formatPrice(event);
               return (
                 <li key={event.id} className="overflow-hidden rounded-xl border bg-white shadow-sm">
-                  {event.imageUrl ? (
+                  {event.imageUrl && !failedImageUrls.includes(event.imageUrl) ? (
                     <Image
                       src={event.imageUrl}
                       alt=""
                       width={600}
                       height={400}
                       unoptimized
+                      onError={() => {
+                        const imageUrl = event.imageUrl;
+                        if (imageUrl) setFailedImageUrls((previous) => previous.includes(imageUrl) ? previous : [...previous, imageUrl]);
+                      }}
                       className="h-40 w-full object-cover"
                     />
                   ) : (

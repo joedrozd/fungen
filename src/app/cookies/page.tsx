@@ -12,27 +12,21 @@ export const metadata: Metadata = {
 export default function CookiesPage() {
   return (
     <div
-      className="min-h-screen flex flex-col"
-      style={{
-        backgroundImage: "url('/background.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
-      }}
+      className="min-h-screen flex flex-col site-scenic"
     >
       <Navigation breadcrumb={[{ name: "Cookie Policy" }]} />
 
-      <main className="flex-1 p-8 pt-24">
+      <main className="flex-1 p-8 pt-36">
         <div className="max-w-3xl mx-auto space-y-8">
-          <div className="bg-white/80 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-white/20 text-center">
-            <h1 className="text-4xl font-bold mb-3 text-gray-900">Cookie Policy</h1>
-            <p className="text-sm text-gray-500">Last updated: September 6, 2026</p>
+          <div className="bg-card rounded-2xl p-8 shadow-none border border-border text-center">
+            <h1 className="text-4xl font-semibold mb-3 text-primary">Cookie Policy</h1>
+            <p className="text-sm text-muted-foreground">Last updated: September 6, 2026</p>
           </div>
 
-          <Card className="bg-white/90">
-            <CardContent className="space-y-6 text-gray-700 text-sm leading-relaxed pt-6">
+          <Card className="bg-card">
+            <CardContent className="space-y-6 text-muted-foreground text-sm leading-relaxed pt-6">
               <section>
-                <h2 className="text-lg font-semibold text-gray-900 mb-2">What Are Cookies?</h2>
+                <h2 className="text-lg font-semibold text-primary mb-2">What Are Cookies?</h2>
                 <p>
                   Cookies are small text files that are stored on your browser or device when you visit a
                   website. They are widely used to make websites work more efficiently, provide a better
@@ -41,7 +35,7 @@ export default function CookiesPage() {
               </section>
 
               <section>
-                <h2 className="text-lg font-semibold text-gray-900 mb-2">How We Use Cookies</h2>
+                <h2 className="text-lg font-semibold text-primary mb-2">How We Use Cookies</h2>
                 <p>We use cookies for the following purposes:</p>
                 <ul className="list-disc list-inside space-y-1 mt-2">
                   <li>
@@ -63,15 +57,15 @@ export default function CookiesPage() {
               </section>
 
               <section>
-                <h2 className="text-lg font-semibold text-gray-900 mb-2">Cookies We Set</h2>
+                <h2 className="text-lg font-semibold text-primary mb-2">Cookies We Set</h2>
                 <div className="overflow-x-auto">
                   <table className="w-full text-left text-sm border-collapse">
                     <thead>
                       <tr className="border-b border-gray-200">
-                        <th className="py-2 pr-4 font-semibold text-gray-900">Cookie</th>
-                        <th className="py-2 pr-4 font-semibold text-gray-900">Provider</th>
-                        <th className="py-2 pr-4 font-semibold text-gray-900">Purpose</th>
-                        <th className="py-2 font-semibold text-gray-900">Duration</th>
+                        <th className="py-2 pr-4 font-semibold text-primary">Cookie</th>
+                        <th className="py-2 pr-4 font-semibold text-primary">Provider</th>
+                        <th className="py-2 pr-4 font-semibold text-primary">Purpose</th>
+                        <th className="py-2 font-semibold text-primary">Duration</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -105,7 +99,7 @@ export default function CookiesPage() {
               </section>
 
               <section>
-                <h2 className="text-lg font-semibold text-gray-900 mb-2">Local Storage</h2>
+                <h2 className="text-lg font-semibold text-primary mb-2">Local Storage</h2>
                 <p>
                   In addition to cookies, we use your browser&#39;s localStorage to store your preferences,
                   saved activities (favourites), and ratings. This data stays on your device and is never
@@ -126,7 +120,7 @@ export default function CookiesPage() {
                     href="https://posthog.com/privacy"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     PostHog&#39;s Privacy Policy
                   </a>.
@@ -134,7 +128,7 @@ export default function CookiesPage() {
               </section>
 
               <section>
-                <h2 className="text-lg font-semibold text-gray-900 mb-2">Managing Cookies</h2>
+                <h2 className="text-lg font-semibold text-primary mb-2">Managing Cookies</h2>
                 <p>
                   Most web browsers allow you to control and manage cookies through their settings. You can
                   typically choose to block all cookies, delete existing cookies, or receive a notification
@@ -151,7 +145,7 @@ export default function CookiesPage() {
                       href="https://support.google.com/chrome/answer/95647"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Google Chrome
                     </a>
@@ -161,7 +155,7 @@ export default function CookiesPage() {
                       href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Mozilla Firefox
                     </a>
@@ -171,7 +165,7 @@ export default function CookiesPage() {
                       href="https://support.apple.com/en-gb/guide/safari/sfri11471/mac"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Safari
                     </a>
@@ -181,7 +175,7 @@ export default function CookiesPage() {
                       href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Microsoft Edge
                     </a>
@@ -193,7 +187,7 @@ export default function CookiesPage() {
                     href="https://tools.google.com/dlpage/gaoptout"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Google Analytics Opt-Out Browser Add-On
                   </a>.
@@ -201,7 +195,7 @@ export default function CookiesPage() {
               </section>
 
               <section>
-                <h2 className="text-lg font-semibold text-gray-900 mb-2">Changes</h2>
+                <h2 className="text-lg font-semibold text-primary mb-2">Changes</h2>
                 <p>
                   We may update this Cookie Policy from time to time. Changes will be posted on this page
                   with an updated &ldquo;Last updated&rdquo; date.
@@ -209,7 +203,7 @@ export default function CookiesPage() {
               </section>
 
               <section>
-                <h2 className="text-lg font-semibold text-gray-900 mb-2">Contact</h2>
+                <h2 className="text-lg font-semibold text-primary mb-2">Contact</h2>
                 <p>
                   If you have any questions about our use of cookies, please contact us through the channels
                   available on our About page.

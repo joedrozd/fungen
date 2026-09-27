@@ -22,6 +22,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     { url: BASE_URL, lastModified, changeFrequency: "daily", priority: 1 },
+    { url: `${BASE_URL}/find-your-next-activity`, lastModified, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/solo-day-out-generator`, lastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/activities`, lastModified, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/about`, lastModified, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/terms`, lastModified, changeFrequency: "monthly", priority: 0.3 },
