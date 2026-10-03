@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, KeyboardEvent, useEffect, useState } from "react";
+import { FormEvent, KeyboardEvent, useEffect, useId, useState } from "react";
 import Image from "next/image";
 import posthog from "posthog-js";
 import { ExternalLink, LocateFixed, MapPin, Search, Star } from "lucide-react";
@@ -32,7 +32,12 @@ const formatPrice = (event: NearbyEvent) => {
   }
 };
 
-export function NearbyEvents() {
+export function NearbyEvents({ outing }: { outing?: { id: string; title: string } } = {}) {
+  const instanceId = useId();
+  const titleId = `${instanceId}-nearby-events-title`;
+  const locationId = `${instanceId}-event-location`;
+  const countryId = `${instanceId}-event-country`;
+  const suggestionsId = `${instanceId}-location-suggestions`;
   const [location, setLocation] = useState("");
   const [country, setCountry] = useState("");
   const [selectedLocation, setSelectedLocation] = useState("");
@@ -137,7 +142,7 @@ export function NearbyEvents() {
       const response = await fetch("/api/nearby-events", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(body),
+        body: JSON.stringify({ ...body, ...(outing ? { outingId: outing.id } : {}) }),
       });
       statusCode = response.status;
       const data = (await response.json()) as NearbyEventsResponse & { error?: string };
@@ -173,7 +178,7 @@ export function NearbyEvents() {
         : "manual_location";
     posthog.capture("nearby_events_requested", { provider: "viator", source });
     if (!trimmed) {
-      setError("Enter a town, city, or postcode.");
+      setError(outing ? "Enter a postcode or town." : "Enter a town, city, or postcode.");
       setState("error");
       posthog.capture("nearby_events_failed", {
         provider: "viator",
@@ -244,23 +249,23 @@ export function NearbyEvents() {
   };
 
   return (
-    <Card className="w-full max-w-4xl bg-white/95" aria-labelledby="nearby-events-title">
+    <Card className={outing ? "w-full bg-white/95" : "w-full max-w-4xl bg-white/95"} aria-labelledby={titleId}>
       <CardHeader className="text-center">
         <div className="mx-auto mb-1 flex size-11 items-center justify-center rounded-full bg-emerald-100 text-emerald-700">
           <MapPin aria-hidden="true" className="size-5" />
         </div>
-        <CardTitle id="nearby-events-title" className="text-2xl">
-          Discover events near you
+        <CardTitle id={titleId} className="text-2xl">
+          {outing ? "Find a guided experience by postcode" : "Discover events near you"}
         </CardTitle>
         <p className="text-sm text-muted-foreground">
-          Share your location or enter a place to get three nearby experiences.
+          {outing ? `Enter a postcode or town to find bookable experiences related to “${outing.title}”. Tours may cost more or take longer than the self-guided plan.` : "Share your location or enter a place to get three nearby experiences."}
         </p>
       </CardHeader>
       <CardContent>
         <form onSubmit={handleSubmit} className="mx-auto max-w-2xl space-y-2">
           <div className="flex flex-col gap-2 sm:flex-row">
-            <label htmlFor="event-location" className="sr-only">
-              Town, city, or postcode
+            <label htmlFor={locationId} className="sr-only">
+              {outing ? "Postcode or town" : "Town, city, or postcode"}
             </label>
             <div
               className="relative min-w-0 flex-1 sm:w-1/2"
@@ -275,7 +280,7 @@ export function NearbyEvents() {
                 className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-gray-400"
               />
               <input
-                id="event-location"
+                id={locationId}
                 value={location}
                 onChange={(event) => {
                   setLocation(event.target.value);
@@ -286,17 +291,17 @@ export function NearbyEvents() {
                   if (suggestions.length) setShowSuggestions(true);
                 }}
                 onKeyDown={handleLocationKeyDown}
-                placeholder="Town, city, or postcode"
+                placeholder={outing ? "Enter postcode or town" : "Town, city, or postcode"}
                 autoComplete="postal-code"
                 maxLength={120}
                 disabled={busy}
                 role="combobox"
                 aria-autocomplete="list"
                 aria-expanded={showSuggestions}
-                aria-controls="location-suggestions"
+                aria-controls={suggestionsId}
                 aria-activedescendant={
                   activeSuggestion >= 0
-                    ? `location-suggestion-${suggestions[activeSuggestion]?.id}`
+                    ? `${instanceId}-location-suggestion-${activeSuggestion}`
                     : undefined
                 }
                 className="h-10 w-full rounded-md border bg-white py-2 pl-9 pr-3 text-sm outline-none transition focus:border-gray-500 focus:ring-2 focus:ring-gray-200 disabled:opacity-60"
@@ -308,14 +313,14 @@ export function NearbyEvents() {
               )}
               {showSuggestions && (
                 <ul
-                  id="location-suggestions"
+                  id={suggestionsId}
                   role="listbox"
                   className="absolute z-20 mt-1 max-h-64 w-full overflow-auto rounded-md border bg-white py-1 text-left shadow-lg"
                 >
                   {suggestions.map((suggestion, index) => (
                     <li
                       key={suggestion.id}
-                      id={`location-suggestion-${suggestion.id}`}
+                      id={`${instanceId}-location-suggestion-${index}`}
                       role="option"
                       aria-selected={index === activeSuggestion}
                     >
@@ -333,11 +338,11 @@ export function NearbyEvents() {
                 </ul>
               )}
             </div>
-            <label htmlFor="event-country" className="sr-only">
+            <label htmlFor={countryId} className="sr-only">
               Country (optional)
             </label>
             <input
-              id="event-country"
+              id={countryId}
               value={country}
               onChange={(event) => {
                 setCountry(event.target.value);
@@ -363,7 +368,7 @@ export function NearbyEvents() {
               }
             >
               <Search aria-hidden="true" />
-              Search
+              {outing ? "Find experiences" : "Search"}
             </Button>
             <Button
               type="button"
@@ -381,13 +386,13 @@ export function NearbyEvents() {
 
         <div className="mt-4 min-h-6 text-center text-sm" aria-live="polite">
           {state === "locating" && <p>Requesting your location…</p>}
-          {state === "loading" && <p>Finding nearby experiences…</p>}
+          {state === "loading" && <p>Finding related experiences…</p>}
           {state === "error" && <p className="text-red-700">{error}</p>}
           {state === "success" && (
             <p className="text-gray-600">
               {events.length
-                ? `Top picks around ${resolvedLocation}`
-                : `No experiences found around ${resolvedLocation}. Try a nearby city.`}
+                ? outing ? `Bookable experiences around ${resolvedLocation}` : `Top picks around ${resolvedLocation}`
+                : `No ${outing ? "related " : ""}experiences found around ${resolvedLocation}. Try a nearby city.`}
             </p>
           )}
         </div>
@@ -467,7 +472,7 @@ export function NearbyEvents() {
         )}
 
         <p className="mt-4 text-center text-[11px] text-gray-500">
-          Experiences and prices supplied by Viator. Location is used only for this search.
+          Experiences and prices supplied by Viator. Check availability, duration and total price before booking. Location is used only for this search.
         </p>
       </CardContent>
     </Card>

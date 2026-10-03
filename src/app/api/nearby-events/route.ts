@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import type { NearbyEvent } from "@/lib/nearby-events";
+import { soloOutings } from "@/lib/solo-outings";
 
 export const dynamic = "force-dynamic";
 
@@ -13,6 +14,7 @@ type SearchRequest = {
   country?: unknown;
   latitude?: unknown;
   longitude?: unknown;
+  outingId?: unknown;
 };
 
 type JsonRecord = Record<string, unknown>;
@@ -329,7 +331,30 @@ async function findViatorDestination(location: string): Promise<string | undefin
   return ranked[0]?.score ? ranked[0].id : undefined;
 }
 
-async function searchViator(location: string): Promise<NearbyEvent[]> {
+async function searchViator(location: string, experienceQuery?: string): Promise<NearbyEvent[]> {
+  if (experienceQuery) {
+    // Resolve the geocoded postcode area to a Viator destination, then constrain
+    // the activity search to that destination instead of relying on place words.
+    const destinationId = await findViatorDestination(location);
+    const data = await viatorPost("/search/freetext", {
+      searchTerm: destinationId ? experienceQuery : `${experienceQuery} in ${location}`,
+      productFiltering: {
+        ...(destinationId ? { destination: destinationId } : {}),
+        includeAutomaticTranslations: true,
+      },
+      productSorting: { sort: "DEFAULT" },
+      searchTypes: [
+        { searchType: "PRODUCTS", pagination: { start: 1, count: 3 } },
+      ],
+      currency: VIATOR_CURRENCY,
+    });
+
+    return findProductResults(data)
+      .map(normalizeProduct)
+      .filter((event): event is NearbyEvent => event !== null)
+      .slice(0, 3);
+  }
+
   const destinationId = await findViatorDestination(location);
   if (destinationId) {
     const data = await viatorPost("/products/search", {
@@ -371,6 +396,11 @@ export async function POST(request: Request) {
     const body: SearchRequest = await request.json();
     const typedLocation = text(body.location)?.slice(0, 120);
     const country = text(body.country)?.slice(0, 80);
+    const outingId = text(body.outingId);
+    const outing = outingId ? soloOutings.find((item) => item.id === outingId && item.viatorQuery) : undefined;
+    if (outingId && !outing) {
+      return NextResponse.json({ error: "This outing has no bookable search." }, { status: 400, headers: noStoreHeaders });
+    }
     const latitude = number(body.latitude);
     const longitude = number(body.longitude);
 
@@ -392,12 +422,14 @@ export async function POST(request: Request) {
         const resolved = await geocodeEnteredLocation(enteredLocation);
         location = resolved.displayName;
         searchTerms = resolved.searchTerms;
-      } catch {
+      } catch (lookupError) {
         // Named destinations can still be useful to Viator when the geocoder
         // has no match. Explicit postcodes/countries should not silently
         // search a potentially unrelated place.
         if (/\d/.test(typedLocation) || country) {
-          throw new Error("Could not identify this location");
+          throw lookupError instanceof Error && lookupError.message === "Could not identify this location"
+            ? lookupError
+            : new Error("Location lookup unavailable");
         }
       }
     } else if (
@@ -420,7 +452,7 @@ export async function POST(request: Request) {
 
     let events: NearbyEvent[] = [];
     for (const searchTerm of searchTerms) {
-      events = await searchViator(searchTerm);
+      events = await searchViator(searchTerm, outing?.viatorQuery);
       if (events.length) break;
     }
 
@@ -432,7 +464,7 @@ export async function POST(request: Request) {
         location = resolved.displayName;
         for (const searchTerm of resolved.searchTerms) {
           if (searchTerms.includes(searchTerm)) continue;
-          events = await searchViator(searchTerm);
+          events = await searchViator(searchTerm, outing?.viatorQuery);
           if (events.length) break;
         }
       } catch {
@@ -442,16 +474,20 @@ export async function POST(request: Request) {
 
     return NextResponse.json({ location, events }, { headers: noStoreHeaders });
   } catch (error) {
-    console.error("Nearby events search failed:", error);
     const missingKey =
       error instanceof Error && error.message === "VIATOR_API_KEY_NOT_CONFIGURED";
+    const invalidLocation =
+      error instanceof Error && error.message === "Could not identify this location";
+    const locationUnavailable =
+      error instanceof Error && error.message === "Location lookup unavailable";
+    if (!invalidLocation) console.error("Nearby events search failed:", error);
+    let message = "We couldn't find nearby events right now. Please try another location.";
+    if (missingKey) message = "Nearby events are not configured yet. Add the Viator API key to enable them.";
+    else if (invalidLocation) message = "We couldn't identify that postcode or place. Check it and try again.";
+    else if (locationUnavailable) message = "We couldn't check that postcode right now. Please try again later.";
     return NextResponse.json(
-      {
-        error: missingKey
-          ? "Nearby events are not configured yet. Add the Viator API key to enable them."
-          : "We couldn't find nearby events right now. Please try another location.",
-      },
-      { status: missingKey ? 503 : 502, headers: noStoreHeaders }
+      { error: message },
+      { status: invalidLocation ? 400 : missingKey ? 503 : 502, headers: noStoreHeaders }
     );
   }
 }

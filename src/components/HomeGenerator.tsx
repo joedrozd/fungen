@@ -1,11 +1,13 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
 import { Analytics } from "@vercel/analytics/next";
 import posthog from "posthog-js";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Coffee, Copy, RotateCw, Sparkles, X } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import { ArrowRight, Coffee, Compass, Copy, Leaf, MapPinned, RotateCw, Sparkles, Target, X } from "lucide-react";
 import { Tutorial } from "@/components/Tutorial";
 import { RatingWidget } from "@/components/RatingWidget";
 import { SocialShare } from "@/components/SocialShare";
@@ -14,6 +16,7 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { NearbyEvents } from "@/components/NearbyEvents";
 import { ActivityHeroFallback } from "@/components/ActivityHeroFallback";
+import { MagneticDock } from "@/components/ui/magnetic-dock";
 import { useToast } from "@/components/Toast";
 import { useUserPreferences } from "@/hooks/useUserPreferences";
 import { trackActivity, type ActivityTrackingData } from "@/lib/activity-analytics";
@@ -46,6 +49,9 @@ export function HomeGenerator({ leisureCategories, productiveCategories }: {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedActivity, setSelectedActivity] = useState<ActivityChoice | null>(null);
   const [activityOfTheDay, setActivityOfTheDay] = useState<ActivityChoice | null>(null);
+  const resultRef = useRef<HTMLDivElement>(null);
+  const router = useRouter();
+  const reducedMotion = useReducedMotion();
   const { preferences, addRecentActivity } = useUserPreferences();
   const { showToast } = useToast();
 
@@ -101,6 +107,22 @@ export function HomeGenerator({ leisureCategories, productiveCategories }: {
     addRecentActivity(selected.name);
   }
 
+  function quickPick(kind?: "leisure" | "productive") {
+    const pool = kind ? activityCatalog.filter((item) => item.kind === kind) : activityCatalog;
+    if (!pool.length) return;
+    const alternatives = pool.filter((item) => item.name !== activity?.name);
+    const choices = alternatives.length ? alternatives : pool;
+    const selected = choices[Math.floor(Math.random() * choices.length)];
+    setActiveType(selected.kind === "productive" ? "productive" : "leisure");
+    setSelectedCategory("all");
+    setTimeWindow("any");
+    setSetting("any");
+    setSearchQuery("");
+    selectActivity(selected, "quick_start");
+    trackActivity("activity_generated", selected, "quick_start");
+    requestAnimationFrame(() => resultRef.current?.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" }));
+  }
+
   function resetSelection() {
     setSelectedActivity(null);
     setSearchQuery("");
@@ -138,10 +160,35 @@ export function HomeGenerator({ leisureCategories, productiveCategories }: {
       <Navigation onSearch={handleSearch} />
       <main className={styles.main} id="main-content">
         <header className={styles.intro}>
-          <p className={styles.eyebrow}>Make room for something new.</p>
-          <h1>Random Activity Generator</h1>
-          <p>Find something to do with your next hour. A quiet moment, a creative detour,
-            or a small step forward — let curiosity lead the way.</p>
+          <div className={styles.introCopy}>
+            <p className={styles.eyebrow}><span aria-hidden="true" /> Make room for something new</p>
+            <h1>Random Activity <span>Generator</span></h1>
+            <p className={styles.introDescription}>Find something to do with your next hour. A quiet moment, a creative detour,
+              or a small step forward — let curiosity lead the way.</p>
+            <div className={styles.heroStat}><span>{activityCatalog.length.toLocaleString()}</span> ideas waiting to be discovered <ArrowRight size={15} aria-hidden="true" /></div>
+          </div>
+          <div className={styles.quickStart} aria-label="Quick start">
+            <span className={styles.quickStartLabel}>A shortcut to your next idea</span>
+            <MagneticDock
+              className={styles.quickDock}
+              iconSize={46}
+              maxScale={1.28}
+              magneticDistance={105}
+              variant="transparent"
+              items={[
+                { id: "surprise", label: "Surprise me", icon: <Sparkles />, onClick: () => quickPick() },
+                { id: "leisure", label: "Take a break", icon: <Leaf />, onClick: () => quickPick("leisure"), isActive: activeType === "leisure" },
+                { id: "productive", label: "Make progress", icon: <Target />, onClick: () => quickPick("productive"), isActive: activeType === "productive" },
+                { id: "discover", label: "Browse activities", icon: <Compass />, onClick: () => router.push("/activities") },
+                { id: "outing", label: "Plan a solo outing", icon: <MapPinned />, onClick: () => router.push("/solo-day-out-generator") },
+              ]}
+            />
+            <div className={styles.quickMobile}>
+              <button type="button" onClick={() => quickPick()}><Sparkles size={17} /> Surprise me</button>
+              <button type="button" onClick={() => router.push("/activities")}><Compass size={17} /> Browse ideas</button>
+            </div>
+            <p>Start anywhere. See where it takes you.</p>
+          </div>
         </header>
 
         <div className={styles.workspace}>
@@ -215,14 +262,19 @@ export function HomeGenerator({ leisureCategories, productiveCategories }: {
             </section>}
           </aside>
 
-          <div className={styles.resultColumn}>
+          <div ref={resultRef} className={styles.resultColumn}>
             {searchQuery && (
               <div className={styles.searchNotice}>
                 <p>{matches.length} results for “{searchQuery}” <span>across all categories</span></p>
                 <button type="button" onClick={resetSelection} aria-label="Clear search"><X size={17} /></button>
               </div>
             )}
-            <article className={styles.result} aria-label="Suggested activity">
+            <AnimatePresence mode="wait" initial={false}>
+            <motion.article key={activity?.slug ?? activity?.name ?? "empty"} className={styles.result} aria-label="Suggested activity"
+              initial={reducedMotion ? false : { opacity: 0, y: 16, scale: 0.985 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={reducedMotion ? { opacity: 0 } : { opacity: 0, y: -10, scale: 0.99 }}
+              transition={{ duration: reducedMotion ? 0 : 0.24, ease: [0.22, 1, 0.36, 1] }}>
               {activity ? (
                 <>
                   <div className={styles.metadata}>
@@ -282,7 +334,8 @@ export function HomeGenerator({ leisureCategories, productiveCategories }: {
                   <SocialShare activity={activity.name} />
                 </div>
               </section>}
-            </article>
+            </motion.article>
+            </AnimatePresence>
           </div>
         </div>
 

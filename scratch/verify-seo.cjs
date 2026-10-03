@@ -22,7 +22,8 @@ for (const [route, heading, text] of routes) {
   const withoutScripts = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '');
   const headings = [...withoutScripts.matchAll(/<h1\b[^>]*>([\s\S]*?)<\/h1>/g)];
   assert.equal(headings.length, 1, `${route}: expected exactly one H1`);
-  assert.ok(headings[0][1].includes(heading), `${route}: H1 text missing`);
+  const headingText = headings[0][1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+  assert.ok(headingText.includes(heading), `${route}: H1 text missing`);
   assert.ok(withoutScripts.includes(text), `${route}: content only in scripts or absent`);
   const canonical = route === '/' ? 'https://fungen.app' : `https://fungen.app${route}`;
   assert.ok(withoutScripts.includes(`rel="canonical" href="${canonical}"`), `${route}: wrong canonical`);
@@ -30,7 +31,6 @@ for (const [route, heading, text] of routes) {
   if (route === '/') {
     assert.ok(withoutScripts.includes('<title>Random Activity Generator | Free Things to Do</title>'));
     assert.ok(!withoutScripts.includes('Loading activities...'));
-    assert.ok(!withoutScripts.includes('href="/find-your-next-activity"'), 'Removed homepage inspiration link is still present');
     assert.ok(!withoutScripts.includes('id="featured-heading"'), 'Featured section still on homepage');
   }
   if (route === '/find-your-next-activity') {

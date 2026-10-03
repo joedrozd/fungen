@@ -16,6 +16,20 @@ const categoryGroups = {
   Productive: [["Career Development", "career-development"], ["Organization", "organization"], ["Skills", "skills"], ["Financial", "financial"], ["Personal Growth", "personal-growth"], ["Home Improvement", "home-improvement"], ["Health & Fitness", "health-fitness"]],
 };
 
+const primaryPages = [
+  { href: "/", label: "Generate", mobileLabel: "Generate an idea" },
+  { href: "/activities", label: "Discover", mobileLabel: "Discover all activities" },
+  { href: "/solo-day-out-generator", label: "Solo day out", mobileLabel: "Plan a solo day out" },
+  { href: "/find-your-next-activity", label: "Inspiration", mobileLabel: "Find your next activity" },
+  { href: "/about", label: "About", mobileLabel: "About & FAQ" },
+];
+
+function isCurrentPage(pathname: string, href: string) {
+  if (href === "/") return pathname === "/";
+  if (href === "/activities") return pathname.startsWith(href);
+  return pathname === href;
+}
+
 export function Navigation({ onSearch, breadcrumb }: NavigationProps) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
@@ -43,18 +57,21 @@ export function Navigation({ onSearch, breadcrumb }: NavigationProps) {
           <span>Fungen <span aria-hidden="true">{"//"}</span> <span className="site-brand-descriptor">Activity generator</span></span>
         </Link>
         <nav className="site-nav-links" aria-label="Main navigation">
-          <Link href="/" aria-current={pathname === "/" ? "page" : undefined}>Generate</Link>
-          <Link href="/activities" aria-current={pathname.startsWith("/activities") ? "page" : undefined}>Discover</Link>
-          {Object.entries(categoryGroups).map(([name, categories]) => <div className="site-category-menu" key={name}>
-            <button type="button" aria-expanded={activeCategory === name} aria-controls={`categories-${name}`} onClick={(event) => {
+          {primaryPages.map(({ href, label }) => <Link href={href} key={href}
+            onClick={() => setActiveCategory(null)}
+            aria-current={isCurrentPage(pathname, href) ? "page" : undefined}>{label}</Link>)}
+          <div className="site-category-menu">
+            <button type="button" aria-expanded={activeCategory === "Categories"} aria-controls="categories-all" onClick={(event) => {
               categoryButtonRef.current = event.currentTarget;
-              setActiveCategory(activeCategory === name ? null : name);
-            }}>{name}<ChevronDown size={12} aria-hidden="true" /></button>
-            {activeCategory === name && <div className="site-category-dropdown" id={`categories-${name}`}>
-              <p>{name} activities</p>
-              {categories.map(([label, slug]) => <Link href={`/activities/${slug}`} key={slug} onClick={() => setActiveCategory(null)}>{label}</Link>)}
+              setActiveCategory(activeCategory === "Categories" ? null : "Categories");
+            }}>Categories<ChevronDown size={12} aria-hidden="true" /></button>
+            {activeCategory === "Categories" && <div className="site-category-dropdown" id="categories-all">
+              {Object.entries(categoryGroups).map(([name, categories]) => <div key={name}>
+                <p>{name} activities</p>
+                {categories.map(([label, slug]) => <Link href={`/activities/${slug}`} key={slug} onClick={() => setActiveCategory(null)}>{label}</Link>)}
+              </div>)}
             </div>}
-          </div>)}
+          </div>
         </nav>
         <div className="site-nav-tools">
           {onSearch && <SearchBar onSearch={onSearch} />}
@@ -62,9 +79,10 @@ export function Navigation({ onSearch, breadcrumb }: NavigationProps) {
         </div>
       </div>
       {menuOpen && <nav id="mobile-navigation" className="site-mobile-nav" aria-label="Mobile navigation">
-        <Link href="/" onClick={() => setMenuOpen(false)}>Generate an idea</Link>
-        <Link href="/activities" onClick={() => setMenuOpen(false)}>Discover all activities</Link>
-        <Link href="/solo-day-out-generator" onClick={() => setMenuOpen(false)}>Plan a solo day out</Link>
+        {primaryPages.map(({ href, mobileLabel }) => <Link href={href} key={href}
+          aria-current={isCurrentPage(pathname, href) ? "page" : undefined}
+          onClick={() => setMenuOpen(false)}>{mobileLabel}</Link>)}
+        <p className="site-mobile-section-label">Explore by category</p>
         {Object.entries(categoryGroups).map(([name, categories]) => <details key={name} className="site-mobile-categories"><summary>{name} categories</summary><div>{categories.map(([label, slug]) => <Link href={`/activities/${slug}`} key={slug} onClick={() => setMenuOpen(false)}>{label}</Link>)}</div></details>)}
       </nav>}
       {breadcrumb && <nav className="site-breadcrumb" aria-label="Breadcrumb"><ol>

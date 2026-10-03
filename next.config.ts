@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Keep the live preview intact when a production build runs at the same time.
+  distDir: process.env.NODE_ENV === "development" ? ".next-dev" : ".next",
   // Enable compression (Brotli by default in production)
   compress: true,
   

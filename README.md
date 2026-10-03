@@ -39,7 +39,7 @@ events cover the following activity flows:
 | `category_viewed` | A category page is opened |
 | `activities_searched` | An activity search is submitted; records result count |
 | `activity_type_changed`, `activity_category_changed` | Generator filters are selected |
-| `solo_outing_generated` | The solo outing pilot generates an idea; records outing ID, setting/budget filters and result count |
+| `solo_outing_generated` | The solo outing generator picks an idea; records outing ID, theme/setting/budget filters and result count |
 | `nearby_events_requested`, `nearby_events_completed`, `nearby_events_failed` | A nearby recommendation request starts, succeeds, or fails |
 | `nearby_event_clicked` | A visitor opens a Viator result |
 
@@ -57,6 +57,17 @@ reason/status, or result rank. They exclude place names and product identifiers.
 handlers perform the actual captures because autocapture is disabled.
 PostHog stores analytics identifiers in localStorage. Autocapture and session
 recording are disabled; search text and location values are not added to events.
+
+## Solo outing ideas
+
+`src/lib/solo-outings.ts` contains 48 short outing plans across six themes. The
+solo day out page renders the full collection and lets visitors filter the random
+generator by theme, indoor/outdoor setting and free or low-cost budget. Each idea
+includes a local-access check because hours, fees and route conditions vary.
+Sixteen ideas offer an inline postcode or town search for optional Viator guided
+experiences. The server resolves a postcode to an area, then filters Viator's
+activity search to the matching destination when available. These bookable
+experiences may have a different price or duration from the self-guided plan.
 
 ## SEO experiments
 
