@@ -228,7 +228,7 @@ async function reverseGeocode(
     headers: {
       Accept: "application/json",
       "Accept-Language": VIATOR_LOCALE,
-      "User-Agent": "FunGen nearby events (https://fungen.app)",
+      "User-Agent": "FunGen nearby events (https://www.activitygenerator.co.uk)",
     },
     signal: AbortSignal.timeout(8_000),
     cache: "no-store",
@@ -253,7 +253,7 @@ async function geocodeEnteredLocation(query: string): Promise<ResolvedLocation> 
     headers: {
       Accept: "application/json",
       "Accept-Language": VIATOR_LOCALE,
-      "User-Agent": "FunGen nearby events (https://fungen.app)",
+      "User-Agent": "FunGen nearby events (https://www.activitygenerator.co.uk)",
     },
     signal: AbortSignal.timeout(8_000),
     cache: "no-store",

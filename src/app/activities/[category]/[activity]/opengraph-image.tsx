@@ -55,7 +55,7 @@ export default async function Image({ params }: Props) {
         </div>
 
         <div style={{ display: "flex", justifyContent: "space-between", fontSize: 28 }}>
-          <div style={{ display: "flex", color: palette.ink }}>fungen.app</div>
+          <div style={{ display: "flex", color: palette.ink }}>activitygenerator.co.uk</div>
           {minutes ? (
             <div style={{ display: "flex", color: palette.ink }}>{minutes} minutes</div>
           ) : null}

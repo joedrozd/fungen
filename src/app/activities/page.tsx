@@ -8,9 +8,9 @@ import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
 import { BASE_URL, getAllActivities, getCategoriesByKind, type CategoryWithKind } from "@/lib/activities";
 
-const title = "All Activities — 264 Things to Do in the Next Hour";
+const title = "Activity Ideas: Things to Do With Your Next Hour";
 const description =
-  "Browse every leisure and productive activity, sorted into 14 categories. Each one comes with a full step-by-step guide you can start in under an hour.";
+  "Find activity ideas for home, outdoors, friends or a productive hour. Browse practical guides and choose a small first step that fits your time and budget.";
 
 export const metadata: Metadata = {
   title,
@@ -96,7 +96,7 @@ export default function ActivitiesPage() {
       <main className="flex-1 p-8 pt-36">
         <div className="max-w-6xl mx-auto">
           <header className="bg-card rounded-2xl p-8 shadow-none border border-border mb-12 text-center">
-            <h1 className="text-4xl font-semibold text-primary mb-3">Browse All Activities</h1>
+            <h1 className="text-4xl font-semibold text-primary mb-3">Activity Ideas for Your Next Hour</h1>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               {total} activities across {leisureCategories.length + productiveCategories.length}{" "}
               categories, split between leisure ideas for when you want to enjoy an hour and
@@ -104,6 +104,19 @@ export default function ActivitiesPage() {
               guide.
             </p>
           </header>
+
+          <section className="bg-card rounded-2xl p-6 md:p-8 border border-border mb-8">
+            <h2 className="text-2xl font-semibold text-primary mb-3">What can you do in an hour?</h2>
+            <p className="leading-relaxed mb-4">At home, try a short writing exercise, a small drawing or one folder of document scanning. Outdoors, plan a local walk or a short nature visit, allowing travel separately. With friends, try a word game or arrange a catch-up. For a productive hour, choose one task with a clear stopping point rather than a whole project.</p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              <p><Link className="text-primary underline" href="/activities/creative">Creative activities at home</Link> give you a small project to start with materials you already have.</p>
+              <p><Link className="text-primary underline" href="/activities/social">Social activities for adults</Link> include games, conversations, group ideas and plans for meeting people.</p>
+              <p><Link className="text-primary underline" href="/activities/outdoor/visit-a-nature-reserve">Plan a nature outing</Link> by checking local access, paths and the time you have.</p>
+              <p><Link className="text-primary underline" href="/activities/skills/practice-typing-speed-exercises">Practise a useful skill</Link> with a focused typing drill and a way to review your progress.</p>
+            </div>
+            <h2 className="text-2xl font-semibold text-primary mt-6 mb-3">Prefer a random activity?</h2>
+            <p className="leading-relaxed">Use the <Link className="text-primary underline" href="/">random activity generator</Link> to pick an idea, or the <Link className="text-primary underline" href="/solo-day-out-generator">solo day out generator</Link> for an outing. The guide describes a starting session; trips, events and longer projects may need more time or advance booking.</p>
+          </section>
 
           <div className="grid md:grid-cols-2 gap-12">
             <CategorySection

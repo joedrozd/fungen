@@ -35,7 +35,7 @@ export async function GET(request: Request) {
       headers: {
         Accept: "application/json",
         "Accept-Language": process.env.VIATOR_LOCALE ?? "en-GB",
-        "User-Agent": "FunGen location search (https://fungen.app)",
+        "User-Agent": "FunGen location search (https://www.activitygenerator.co.uk)",
       },
       signal: AbortSignal.timeout(8_000),
       cache: "no-store",

@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { getAllCategories, getCategory } from "@/lib/activities";
 import { HERO_PALETTES, FALLBACK_PALETTE } from "@/lib/heroPalettes";
 
-export const alt = "Activity category on fungen.app";
+export const alt = "Activity category on activitygenerator.co.uk";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -49,7 +49,7 @@ export default async function Image({ params }: Props) {
           )}
         </div>
 
-        <div style={{ display: "flex", fontSize: 28, color: palette.ink }}>fungen.app</div>
+        <div style={{ display: "flex", fontSize: 28, color: palette.ink }}>activitygenerator.co.uk</div>
       </div>
     ),
     size

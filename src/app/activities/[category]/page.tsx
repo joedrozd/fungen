@@ -20,9 +20,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const category = getCategory(slug);
   if (!category) return {};
 
-  const title = `${category.name} Activities — ${category.activities.length} Ideas for Your Next Hour`;
+  const title = category.seo?.title ?? `${category.name} Activities — ${category.activities.length} Ideas for Your Next Hour`;
   const description =
-    category.description?.slice(0, 158) ??
+    category.seo?.metaDescription ?? category.description?.slice(0, 158) ??
     `Browse ${category.activities.length} ${category.name.toLowerCase()} activities you can start in the next hour.`;
   const url = `${BASE_URL}/activities/${category.slug}`;
 
@@ -92,7 +92,7 @@ export default async function CategoryPage({ params }: PageProps) {
       >
         <header className="mb-8 bg-card rounded-2xl p-8 shadow-none border border-border">
           <div className="text-center">
-            <h1 className="text-4xl font-semibold mb-3 text-primary">{category.name}</h1>
+            <h1 className="text-4xl font-semibold mb-3 text-primary">{category.content?.heading ?? category.name}</h1>
             {category.description && (
               <p className="text-xl text-foreground max-w-2xl mx-auto mb-4 leading-relaxed">
                 {category.description}
@@ -109,6 +109,23 @@ export default async function CategoryPage({ params }: PageProps) {
               {category.content.body.split("\n\n").map((paragraph, index) => (
                 <p key={index}>{paragraph}</p>
               ))}
+              {category.content.sections?.map((section) => (
+                <section key={section.heading}>
+                  <h2 className="text-2xl font-semibold text-primary mb-3">{section.heading}</h2>
+                  {section.paragraphs.map((paragraph, index) => <p key={index} className="mb-3">{paragraph}</p>)}
+                </section>
+              ))}
+              {category.content.faq?.length ? (
+                <section>
+                  <h2 className="text-2xl font-semibold text-primary mb-3">Social activity questions</h2>
+                  {category.content.faq.map((item) => (
+                    <div key={item.q} className="mb-4">
+                      <h3 className="font-semibold">{item.q}</h3>
+                      <p>{item.a}</p>
+                    </div>
+                  ))}
+                </section>
+              ) : null}
               <ContextualLinks links={category.content.nextIdeas} />
             </div>
           )}

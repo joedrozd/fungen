@@ -477,11 +477,11 @@
         {
           "name": "Practice answering common interview questions",
           "slug": "practice-answering-common-interview-questions",
-          "description": "Rehearse your answers to classic interview questions out loud so the real thing feels familiar.",
+          "description": "Practise interview questions by matching real examples to the role’s requirements.",
           "image": "/activities/career-growth.png",
           "seo": {
-            "title": "How to Practice Interview Questions Out Loud",
-            "metaDescription": "Rehearse interview answers the way that actually transfers: out loud, recorded, timed, and built from stories rather than memorised scripts.",
+            "title": "Practise Interview Questions With Specific Examples",
+            "metaDescription": "Practise interview questions by matching real examples to the role’s requirements. Prepare a brief introduction, a reason for applying and two examples of…",
             "primaryKeyword": "practice interview questions",
             "secondaryKeywords": [
               "STAR method examples",
@@ -490,7 +490,7 @@
             ]
           },
           "content": {
-            "intro": "Reading a list of questions and thinking \"I could answer that\" is not preparation. When you practice interview questions out loud, the gap between knowing a story and telling it well becomes obvious within thirty seconds. That gap is what an hour of rehearsal closes, and it is the only part that transfers to the room.",
+            "intro": "Practise interview questions by matching real examples to the role’s requirements. Prepare a brief introduction, a reason for applying and two examples of relevant work. Rehearse aloud without memorising every word so you can answer the actual question rather than delivering a fixed speech.",
             "whyItWorks": "Interviews test retrieval under mild stress, not knowledge. Speaking an answer aloud builds a motor pattern that survives nerves; silently approving of an answer builds nothing. Recording yourself adds the second half, because the filler words, the rambling middle, and the answer that never reaches a point are all invisible from the inside.",
             "howTo": [
               {
@@ -522,6 +522,10 @@
             "variations": "If you have a friend available, swap roles and interview each other, since unexpected follow-up questions are the part solo practice cannot simulate. If you are interviewing soon for a specific role, spend the hour instead on the three questions that role is guaranteed to ask.",
             "faq": [
               {
+                "q": "Should I memorise interview answers?",
+                "a": "Prepare the key facts and structure rather than every sentence. Flexible practice makes it easier to respond to a different wording or follow-up question."
+              },
+              {
                 "q": "Should I memorise my answers word for word?",
                 "a": "No. Memorised answers sound memorised and collapse when the question is phrased differently. Learn the story, improvise the telling."
               },
@@ -532,6 +536,30 @@
               {
                 "q": "How long should an interview answer be?",
                 "a": "Ninety seconds to two minutes for most behavioral questions. Beyond that you are usually explaining context nobody asked about."
+              }
+            ],
+            "heading": "Practise Interview Questions With Specific Examples",
+            "sections": [
+              {
+                "heading": "Four questions for a practice session",
+                "paragraphs": [
+                  "Try: “Tell me about yourself”, “Why this role?”, “Describe a problem you solved”, and “Tell me about working with someone who disagreed with you”. For an example question, describe the situation, your task, the action you took and the result. Be clear about your own contribution and avoid invented metrics.",
+                  "Ask a friend to vary the follow-up questions or record yourself if comfortable. Review whether the answer addressed the question, gave enough context and explained the outcome. Keep confidential employer or customer details out of examples. Finish by preparing questions you want to ask the interviewer."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/career-development",
+                "label": "career development activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/career-development/learn-about-salary-negotiation-techniques",
+                "label": "learn about salary negotiation techniques",
+                "after": "."
               }
             ]
           },
@@ -555,12 +583,12 @@
         {
           "name": "Attend a virtual networking event",
           "slug": "attend-a-virtual-networking-event",
-          "description": "Join an online industry meetup or webinar and aim to make at least one genuine new connection.",
+          "description": "A virtual networking event lets you meet people around a shared profession or interest without travelling.",
           "image": "/activities/career-growth.png",
           "seo": {
-            "title": "Get Something Real Out of a Virtual Networking Event",
-            "metaDescription": "How to attend a virtual networking event without wasting the hour: pick the right format, prepare two questions, and aim for one real conversation.",
-            "primaryKeyword": "virtual networking event",
+            "title": "Virtual Networking Events: Prepare and Start a Conversation",
+            "metaDescription": "A virtual networking event lets you meet people around a shared profession or interest without travelling. Choose an event with a clear organiser, topic…",
+            "primaryKeyword": "virtual networking events",
             "secondaryKeywords": [
               "online networking tips",
               "how to network remotely",
@@ -568,7 +596,7 @@
             ]
           },
           "content": {
-            "intro": "A virtual networking event is easy to attend badly. You join, keep the camera off, half-listen while answering email, and leave with nothing. The format is not the problem. The hour only pays off if you go in with a target, and the target should be one genuine conversation rather than a dozen connection requests.",
+            "intro": "A virtual networking event lets you meet people around a shared profession or interest without travelling. Choose an event with a clear organiser, topic and format. Check the current date, time zone, joining instructions and any fee before registering.",
             "whyItWorks": "Online events lower the cost of showing up, which means the people who do engage stand out sharply. A single specific question in the chat gets noticed in a way it never would in a crowded room. And because everyone is already at a keyboard, following up takes seconds instead of the days it takes after a physical event.",
             "howTo": [
               {
@@ -600,6 +628,10 @@
             "variations": "If large events drain you, look for structured one-to-one formats where a facilitator pairs people off, which removes the mingling entirely. If you already know the field well, offer to speak at one instead of attending; being on the panel is a shortcut past the networking.",
             "faq": [
               {
+                "q": "How can I start a conversation at an online networking event?",
+                "a": "Introduce yourself briefly, mention the shared event topic and ask an open question. Listen to the answer and ask a relevant follow-up instead of immediately pitching yourself."
+              },
+              {
                 "q": "Where do I find good virtual networking events?",
                 "a": "Professional association calendars, Meetup, Eventbrite, and industry newsletters. Ask a peer where they go; the best ones are rarely advertised widely."
               },
@@ -610,6 +642,30 @@
               {
                 "q": "Is virtual networking as useful as in person?",
                 "a": "Different rather than worse. Weaker for chance encounters, stronger for reaching people geographically out of range and for following up quickly."
+              }
+            ],
+            "heading": "Virtual Networking Events: Prepare and Start a Conversation",
+            "sections": [
+              {
+                "heading": "Prepare an introduction and two questions",
+                "paragraphs": [
+                  "Write a brief introduction with your name, area of work or interest and what you hope to learn. Prepare questions such as “What are you working on at the moment?” or “Which part of this topic interests you most?” Test the meeting link, audio and display name before the event starts.",
+                  "Use the organiser’s turn-taking and chat rules. In a breakout room, invite others to speak rather than delivering a long pitch. If you want to stay in touch, ask which channel they prefer and follow up only with their agreement. Do not treat a participant list as permission for unsolicited messages."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/career-development",
+                "label": "career development activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/career-development/research-companies-you-d-like-to-work-for",
+                "label": "research companies you'd like to work for",
+                "after": "."
               }
             ]
           },
@@ -1178,11 +1234,11 @@
         {
           "name": "Write a brag document of your achievements",
           "slug": "write-a-brag-document-of-your-achievements",
-          "description": "Start a running list of your wins, big and small — gold dust for reviews, resumes, and confidence dips.",
+          "description": "A brag document is a private record of work you contributed to, evidence of the result and what you learned.",
           "image": "/activities/work-planning.png",
           "seo": {
-            "title": "Start a Brag Document Before You Forget Everything",
-            "metaDescription": "A brag document is a running record of what you actually did. Start one in an hour and stop losing half your year to memory before review season.",
+            "title": "Write a Brag Document: Achievements Template and Examples",
+            "metaDescription": "A brag document is a private record of work you contributed to, evidence of the result and what you learned. It can help when preparing a review,…",
             "primaryKeyword": "brag document",
             "secondaryKeywords": [
               "track your work accomplishments",
@@ -1191,7 +1247,7 @@
             ]
           },
           "content": {
-            "intro": "Ask anyone what they achieved eight months ago and you will get a vague shrug. That is a memory problem, not a performance problem, and it costs people promotions every review cycle. A brag document is a running record you add to as things happen, so the evidence exists when you finally need it. Setting one up takes an hour.",
+            "intro": "A brag document is a private record of work you contributed to, evidence of the result and what you learned. It can help when preparing a review, application or conversation with your manager. Record specific contributions while the details are fresh, and separate your role from the team’s overall result.",
             "whyItWorks": "Memory is heavily biased toward the last few weeks, which is precisely why reviews written from recall over-weight recent work and lose the difficult project from February. Writing entries as they happen also captures the details that make an achievement credible: the number, the constraint, the person who said it helped. Those specifics are gone within a month.",
             "howTo": [
               {
@@ -1223,6 +1279,10 @@
             "variations": "If monthly feels like too much, do it quarterly with the calendar as your prompt, which still beats reconstructing a year from nothing. If you are preparing for a promotion specifically, restructure the existing document around your organization's published criteria instead of chronologically.",
             "faq": [
               {
+                "q": "What belongs in a brag document?",
+                "a": "Specific contributions, dates, outcomes, feedback and links to permitted evidence. Include learning and teamwork, and be clear about which results were shared rather than claiming the entire project as your own."
+              },
+              {
                 "q": "What exactly goes in a brag document?",
                 "a": "Anything you did that had an effect: shipped work, problems prevented, people helped, processes improved. Include the evidence alongside each entry."
               },
@@ -1233,6 +1293,30 @@
               {
                 "q": "How often should I update it?",
                 "a": "Monthly is the sweet spot. Weekly becomes a chore people abandon, and yearly is indistinguishable from not having one."
+              }
+            ],
+            "heading": "Write a Brag Document: Achievements Template and Examples",
+            "sections": [
+              {
+                "heading": "An achievement entry you can copy",
+                "paragraphs": [
+                  "Use these fields: date, project, problem, my contribution, outcome, evidence and lesson. Example: “Updated the support guide after reviewing recurring questions; drafted the new steps and coordinated review; published the approved guide; evidence: version history and reviewer feedback.” Add a measured result only when you can support it.",
+                  "Include collaboration, maintenance and learning as well as launches. A short monthly update is easier than rebuilding a year from memory. Link to evidence you are allowed to keep and avoid copying confidential customer details into a personal document. Later, choose the entries relevant to the role or review."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/career-development",
+                "label": "career development activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/career-development/review-and-update-your-resume",
+                "label": "review and update your resume",
+                "after": "."
               }
             ]
           },
@@ -1333,11 +1417,11 @@
         {
           "name": "Reconnect with a former colleague",
           "slug": "reconnect-with-a-former-colleague",
-          "description": "Send a genuine catch-up message to someone you enjoyed working with — networks are built one message at a time.",
+          "description": "To reconnect with a former colleague, send a short message that explains why you thought of them and gives them an easy way to respond.",
           "image": "/activities/office-building.png",
           "seo": {
-            "title": "Reconnect With a Former Colleague Without It Being Weird",
-            "metaDescription": "Reach out to someone you used to work with after years of silence, without the message reading as a favour request. A short, specific note is all it takes.",
+            "title": "Reconnect With a Former Colleague: Message Examples",
+            "metaDescription": "To reconnect with a former colleague, send a short message that explains why you thought of them and gives them an easy way to respond. Mention a shared…",
             "primaryKeyword": "reconnect with a former colleague",
             "secondaryKeywords": [
               "how to reach out after years",
@@ -1346,7 +1430,7 @@
             ]
           },
           "content": {
-            "intro": "The awkwardness of reaching out after three years of silence is almost entirely on your side. When you reconnect with a former colleague, they are usually pleased to hear from you and mildly flattered that you remembered. The message only lands badly when it is transparently a favour request dressed up as a catch-up, which is easy to avoid.",
+            "intro": "To reconnect with a former colleague, send a short message that explains why you thought of them and gives them an easy way to respond. Mention a shared project or an update, then offer a brief catch-up if you want one. Keep the invitation low pressure and avoid making your first message a list of requests.",
             "whyItWorks": "Dormant connections are unusually valuable precisely because you have drifted into different circles. Your close network mostly knows what you know; someone you worked with five years ago has since moved through companies and roles you have no visibility into. Reactivating that link costs one message and reopens a channel that took years to build.",
             "howTo": [
               {
@@ -1378,6 +1462,10 @@
             "variations": "If you are actively job hunting, reconnect with several people over a few weeks and mention your search only once the conversation is genuinely running. If you want to make this a habit, schedule one reconnection message per month; twelve a year quietly rebuilds a network.",
             "faq": [
               {
+                "q": "What if a former colleague does not reply?",
+                "a": "They may be busy or prefer not to reconnect. You can send one brief follow-up after a reasonable interval, then leave the invitation open without repeatedly chasing."
+              },
+              {
                 "q": "Is it too late to reach out after years of silence?",
                 "a": "Almost never. Professional relationships tolerate long gaps far better than people expect, particularly when the message is warm and specific."
               },
@@ -1388,6 +1476,30 @@
               {
                 "q": "What should the message actually say?",
                 "a": "A shared memory, why they came to mind now, a question about what they are doing. Six sentences at most, no request attached."
+              }
+            ],
+            "heading": "Reconnect With a Former Colleague: Message Examples",
+            "sections": [
+              {
+                "heading": "A message you can adapt",
+                "paragraphs": [
+                  "Try: “Hi Sam, I saw something that reminded me of the launch we worked on together. How have you been? I have moved into a new role and would enjoy hearing what you are working on. Would you fancy a short catch-up sometime?” Replace the details with something true and use an existing contact channel.",
+                  "If you need advice, say so clearly rather than hiding the request in small talk. Suggest a couple of times only after they show interest. One polite follow-up can be reasonable, but let silence stand. Avoid sharing confidential details from your old workplace or using contact information you are not entitled to use."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/career-development",
+                "label": "career development activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/social/call-an-old-friend-you-haven-t-spoken-to-in-a-while",
+                "label": "call an old friend you haven't spoken to in a while",
+                "after": "."
               }
             ]
           },
@@ -2201,12 +2313,12 @@
         {
           "name": "Organize your browser bookmarks",
           "slug": "organize-your-browser-bookmarks",
-          "description": "Prune dead links and sort your bookmarks into folders you'll actually use.",
+          "description": "Organise browser bookmarks around the pages you actually return to.",
           "image": "/activities/coding.png",
           "seo": {
-            "title": "Organize Your Browser Bookmarks by Deleting Most",
-            "metaDescription": "Organize your browser bookmarks by keeping only what you open regularly. Reading-list items belong in a read-later tool, not a folder you never revisit.",
-            "primaryKeyword": "organize your browser bookmarks",
+            "title": "Organise Browser Bookmarks: A Small Folder System",
+            "metaDescription": "Organise browser bookmarks around the pages you actually return to. Start with a few folders such as Work, Learning, Travel and Read Later, then remove…",
+            "primaryKeyword": "organizing browser bookmarks",
             "secondaryKeywords": [
               "bookmark folder structure",
               "dead link cleanup",
@@ -2214,7 +2326,7 @@
             ]
           },
           "content": {
-            "intro": "Most bookmark collections contain two incompatible things: a small number of sites you open constantly, and a large archive of articles you intended to read in 2019. To organize your browser bookmarks usefully means separating those, because keeping them together makes the useful ones impossible to find.",
+            "intro": "Organise browser bookmarks around the pages you actually return to. Start with a few folders such as Work, Learning, Travel and Read Later, then remove duplicates and outdated links. Bookmark organisation is easier when you review one folder at a time rather than rebuilding the whole collection in one session.",
             "whyItWorks": "A bookmark bar works when it holds few enough items to scan instantly. Every reading-list entry mixed in makes the frequent ones harder to spot, which is the whole failure mode. Moving intended reading to a tool designed for it, or accepting that you will never read it, restores the bar to something you actually use.",
             "howTo": [
               {
@@ -2246,6 +2358,10 @@
             "variations": "If you research heavily, a dedicated tool with tags and notes handles that far better than bookmarks, which were never designed for it. If you share a computer, browser profiles keep separate bookmark sets without any folder gymnastics.",
             "faq": [
               {
+                "q": "What folders should I use for browser bookmarks?",
+                "a": "Use task-based names you recognise, such as Work, Reference, Travel and Read Later. Keep the top level small and add subfolders only when they help you find a page faster."
+              },
+              {
                 "q": "How many bookmarks should I keep on the bar?",
                 "a": "Ten or fewer, with short names. The bar works by being instantly scannable, and volume destroys that immediately."
               },
@@ -2256,6 +2372,30 @@
               {
                 "q": "How do I find broken bookmarks?",
                 "a": "Use a dead link checker extension. A significant proportion of bookmarks more than a few years old point at pages that are gone."
+              }
+            ],
+            "heading": "Organise Browser Bookmarks: A Small Folder System",
+            "sections": [
+              {
+                "heading": "A bookmark cleanup in three passes",
+                "paragraphs": [
+                  "First, back up or export bookmarks using your browser’s current instructions. Next, review one folder, open unfamiliar links cautiously and rename useful bookmarks so the title explains the page. Finally, put frequently used pages on the bookmarks bar and move occasional references into folders.",
+                  "Keep Read Later small by giving it a regular review date. Delete an obsolete bookmark only after checking that it is not your only record of something important. If you use browser sync, understand which profile and devices receive changes before making a large cleanup."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/organization",
+                "label": "organization activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/organization/clean-up-your-computer-files",
+                "label": "clean up your computer files",
+                "after": "."
               }
             ]
           },
@@ -2355,12 +2495,12 @@
         {
           "name": "Digitize important paper documents",
           "slug": "digitize-important-paper-documents",
-          "description": "Scan key documents and store them safely in the cloud so they're backed up and easy to find.",
+          "description": "To digitise paper documents, scan readable copies, give them consistent names and store them somewhere you can back up and search.",
           "image": "/activities/organization.png",
           "seo": {
-            "title": "Digitize Important Paper Documents Safely",
-            "metaDescription": "Scan the paperwork worth keeping, name it so you can find it, encrypt what is sensitive, and know which originals must still exist on paper.",
-            "primaryKeyword": "digitize important paper documents",
+            "title": "Digitise Paper Documents: Scan, Name and Back Up",
+            "metaDescription": "To digitise paper documents, scan readable copies, give them consistent names and store them somewhere you can back up and search. Start with one small…",
+            "primaryKeyword": "digitize paper documents",
             "secondaryKeywords": [
               "scanning documents with a phone",
               "which original documents to keep",
@@ -2368,7 +2508,7 @@
             ]
           },
           "content": {
-            "intro": "To digitize important paper documents solves a specific problem: paperwork you need is currently in one physical place that could flood, burn, or simply be somewhere else when you need it. A scan in cloud storage is available anywhere. The important caveat is that some originals must still exist, and scanning does not replace them.",
+            "intro": "To digitise paper documents, scan readable copies, give them consistent names and store them somewhere you can back up and search. Start with one small folder. A scan is a convenient working copy, but it does not automatically replace an original document where an organisation requires the original.",
             "whyItWorks": "A phone scanning app produces perfectly adequate results for records, so the equipment barrier no longer exists. The benefit is redundancy: a document that exists in two places, one of them off-site, survives events that destroy the other. Naming files consistently at scan time is what makes them retrievable, which is otherwise where this falls down.",
             "howTo": [
               {
@@ -2400,6 +2540,10 @@
             "variations": "If the pile is large, do it in fifteen-minute sessions by category rather than in one sitting, since scanning is tedious enough to abandon. If you have a scanner with a document feeder, batch by category so the naming stays consistent within each run.",
             "faq": [
               {
+                "q": "Should I keep paper originals after scanning?",
+                "a": "Keep originals where legal, administrative or personal needs require them. Ask the organisation receiving a document whether it accepts a scan. Backups and readable scans do not establish that an original can be discarded."
+              },
+              {
                 "q": "Are scanned documents legally valid?",
                 "a": "It varies by document type and jurisdiction. Certificates, deeds and identity documents generally require the original, so keep those on paper."
               },
@@ -2410,6 +2554,30 @@
               {
                 "q": "Where should I store the scans?",
                 "a": "Cloud storage with encryption for anything sensitive, plus a local copy. Two locations is the point of the exercise."
+              }
+            ],
+            "heading": "Digitise Paper Documents: Scan, Name and Back Up",
+            "sections": [
+              {
+                "heading": "A scanning workflow for important paperwork",
+                "paragraphs": [
+                  "Sort pages into documents and remove anything you do not want to scan. Use a scanner or phone document-scanning feature in good light. Check every page for cropped edges, blur and missing backs before saving. Text recognition can help searching, but review the recognised text rather than assuming it is accurate.",
+                  "Use filenames such as “2026-10-13_provider_policy-renewal.pdf” and folders for categories you understand. Keep sensitive documents in protected storage with appropriate account access, and maintain a separate backup. Test opening a few files from that backup. Do not destroy originals until you have checked retention and acceptance requirements."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/organization",
+                "label": "organization activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/organization/set-up-a-filing-system",
+                "label": "set up a filing system",
+                "after": "."
               }
             ]
           },
@@ -2512,12 +2680,12 @@
         {
           "name": "Organize your phone apps into folders",
           "slug": "organize-your-phone-apps-into-folders",
-          "description": "Group your apps by purpose, delete the ones you never open, and tidy up your home screen.",
+          "description": "Organise phone apps by the jobs you use them for, such as Travel, Money, Messages, Photos and Everyday Tools.",
           "image": "/activities/organization.png",
           "seo": {
-            "title": "Organize Your Phone Apps to Reduce Aimless Opening",
-            "metaDescription": "Organize your phone apps by putting only intentional tools on the home screen and burying the ones you open without deciding to. Friction is the point.",
-            "primaryKeyword": "organize your phone apps",
+            "title": "Phone Folder Categories: Organise Your Apps Simply",
+            "metaDescription": "Organise phone apps by the jobs you use them for, such as Travel, Money, Messages, Photos and Everyday Tools. Keep your most-used apps easy to reach and…",
+            "primaryKeyword": "phone folder categories",
             "secondaryKeywords": [
               "reduce phone screen time",
               "home screen setup",
@@ -2525,7 +2693,7 @@
             ]
           },
           "content": {
-            "intro": "Most people organize your phone apps for tidiness, arranging things by color or category. A more useful goal is reducing the apps you open without having decided to. The home screen is prime real estate, and whatever sits there gets opened reflexively dozens of times a day.",
+            "intro": "Organise phone apps by the jobs you use them for, such as Travel, Money, Messages, Photos and Everyday Tools. Keep your most-used apps easy to reach and move the rest into a small number of clear groups. You can start with one screen rather than reorganising your whole phone at once.",
             "whyItWorks": "A meaningful share of phone use is habitual rather than intentional: unlock, tap whatever is in the familiar position, look up ten minutes later. Adding two steps between unlocking and opening interrupts that loop, because the pause is enough for the intention to become conscious. This works better than willpower and better than screen-time limits.",
             "howTo": [
               {
@@ -2557,6 +2725,10 @@
             "variations": "If your goal is purely finding things faster, ignore the friction advice and put your most-used apps in thumb reach instead. If you share a phone with a child, a separate profile or guided access is more effective than any arrangement of icons.",
             "faq": [
               {
+                "q": "Should I automatically arrange my apps?",
+                "a": "An automatic layout can be a starting point, but it may not match your habits. Keep frequently used apps reachable and use names that help you find an app without guessing."
+              },
+              {
                 "q": "Do app folders actually reduce screen time?",
                 "a": "Moving reflexively opened apps off the home screen does help, because much phone use is positional habit rather than deliberate choice."
               },
@@ -2567,6 +2739,30 @@
               {
                 "q": "Is it worth deleting apps I rarely use?",
                 "a": "Yes. Most can be reinstalled in a minute, and the reduced visual noise makes the useful ones easier to find."
+              }
+            ],
+            "heading": "Phone Folder Categories: Organise Your Apps Simply",
+            "sections": [
+              {
+                "heading": "Useful app folder categories and a first-screen plan",
+                "paragraphs": [
+                  "Try Travel for maps and tickets, Money for banking and budgeting, Health for appointments and exercise, and Media for music and video. A Work folder can hold tools you want to keep separate from your personal day. Merge folders with only one app if the extra tap adds no value.",
+                  "Before moving anything, note where essential apps are and how to search for them. Folder creation and automatic layout options vary between phones and launchers: use your device’s current instructions. Remove unused apps only after checking their stored data and account access. Revisit the layout after a week of normal use."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/organization",
+                "label": "organization activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/mindfulness/do-a-digital-detox-for-one-hour",
+                "label": "do a digital detox for one hour",
+                "after": "."
               }
             ]
           },
@@ -3221,12 +3417,12 @@
         {
           "name": "Learn a new Excel/Google Sheets function",
           "slug": "learn-a-new-excel-google-sheets-function",
-          "description": "Pick a function like VLOOKUP or pivot tables and practice it on real data until it clicks.",
+          "description": "Learn one spreadsheet function by applying it to a small table you understand.",
           "image": "/activities/work-planning.png",
           "seo": {
-            "title": "Learn a New Excel Function on Your Own Data",
-            "metaDescription": "Pick one spreadsheet function and learn it on your own data in an hour. XLOOKUP, pivot tables or INDEX MATCH, practiced until it stops needing a search.",
-            "primaryKeyword": "learn a new Excel function",
+            "title": "Learn a Spreadsheet Function: SUM, IF and COUNTIF",
+            "metaDescription": "Learn one spreadsheet function by applying it to a small table you understand. SUM adds values, IF chooses between results based on a condition, and…",
+            "primaryKeyword": "learn a spreadsheet function",
             "secondaryKeywords": [
               "XLOOKUP tutorial",
               "pivot table basics",
@@ -3234,48 +3430,54 @@
             ]
           },
           "content": {
-            "intro": "Almost everyone who uses spreadsheets daily knows about eight functions and searches for the rest every single time. Choosing to learn a new Excel function properly, on real data you care about, converts one of those searches into something automatic. An hour on a single function is worth more than a day of tutorial videos.",
-            "whyItWorks": "Spreadsheet skills transfer badly from demonstration data because tutorial datasets are clean and yours is not. Practicing on your own messy file forces you through the actual failure modes: mismatched types, trailing spaces, ranges that shift when you copy. Those are the things that make a function feel unreliable until you have hit them once.",
+            "intro": "Learn one spreadsheet function by applying it to a small table you understand. SUM adds values, IF chooses between results based on a condition, and COUNTIF counts cells matching a criterion. Start in a disposable practice sheet so you can change inputs and see what the formula does.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Pick the function you keep searching for",
-                "detail": "Whatever you look up repeatedly is the highest-value target. Repeated searching is a precise measure of what you actually need."
+                "step": "Prepare",
+                "detail": "Create a small practice table with known values."
               },
               {
-                "step": "Open a real file, not an example",
-                "detail": "Duplicate something you genuinely use. Real data has the inconsistencies that tutorials carefully avoid showing you."
+                "step": "Try the practical steps",
+                "detail": "Enter one example formula and predict the result before checking it."
               },
               {
-                "step": "Type it manually every time",
-                "detail": "Do not copy formulas from a tutorial. The muscle memory of typing the arguments is most of what you are building."
-              },
-              {
-                "step": "Break it deliberately",
-                "detail": "Feed it a missing value, a wrong type, a shifted range. Understanding the errors is what makes you trust it later."
-              },
-              {
-                "step": "Use it once for real work",
-                "detail": "Apply it to something you actually needed to do today. Unused learning fades within about a week."
+                "step": "Review and follow up",
+                "detail": "Change an input and verify that the result updates as expected."
               }
             ],
             "tips": [
-              "Learn absolute and relative references early. Most formula bugs people blame on the function are really reference bugs.",
-              "XLOOKUP has largely replaced VLOOKUP where it is available, and handles missing values far more gracefully.",
-              "Keep a personal file of formulas that worked, with a note on what each was for."
+              "SUM is a useful first choice because you can check it by adding a few values yourself. Add IF or COUNTIF when you need a condition or a count."
             ],
-            "variations": "If you already know the common lookups, spend the hour on pivot tables, which compress more analysis into less effort than any other feature. If you work in Google Sheets specifically, learn QUERY, which has no real Excel equivalent and replaces several functions at once.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "Which spreadsheet function should I learn first?",
-                "a": "Whichever you search for most often. After that, pivot tables and a lookup function cover the majority of everyday analysis."
+                "q": "Which spreadsheet function should a beginner learn first?",
+                "a": "SUM is a useful first choice because you can check it by adding a few values yourself. Add IF or COUNTIF when you need a condition or a count."
+              }
+            ],
+            "heading": "Learn a Spreadsheet Function: SUM, IF and COUNTIF",
+            "sections": [
+              {
+                "heading": "A small spreadsheet function exercise",
+                "paragraphs": [
+                  "Put the numbers 10, 20 and 30 in B2:B4. Enter “=SUM(B2:B4)” elsewhere; the result is 60. Try “=IF(B2>15,\"Over\",\"Within\")”, which returns Within for 10. Then try “=COUNTIF(B2:B4,\">15\")”, which counts two values. The quoted words and criterion are part of the formula.",
+                  "Change B2 to 25 and predict the result before checking it. Some regional settings use semicolons in place of commas. If a formula appears as text, check the leading equals sign and cell format. Apply the function to your real sheet only after the example behaves as expected."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/skills",
+                "label": "skills activities",
+                "after": "."
               },
               {
-                "q": "Are Excel and Google Sheets formulas the same?",
-                "a": "Mostly, for common functions. Sheets adds a few of its own like QUERY and ARRAYFORMULA, and some Excel functions are missing."
-              },
-              {
-                "q": "How long until it sticks?",
-                "a": "Usually three or four real uses. Practicing on tutorial data does not count; the transfer to your own files is where it fixes."
+                "before": "Another activity to try is",
+                "href": "/activities/skills/learn-keyboard-shortcuts-for-your-os",
+                "label": "learn keyboard shortcuts for your os",
+                "after": "."
               }
             ]
           },
@@ -3299,12 +3501,12 @@
         {
           "name": "Practice typing speed exercises",
           "slug": "practice-typing-speed-exercises",
-          "description": "Spend time on a typing trainer and watch your words-per-minute climb.",
+          "description": "Typing speed exercises work best when they give you something specific to practise: awkward keys, punctuation, numbers or copying real sentences.",
           "image": "/activities/work-planning.png",
           "seo": {
-            "title": "Practice Typing Speed and Actually Get Faster",
-            "metaDescription": "Typing speed improves through accuracy drills, not racing. Fix your weakest keys, stop looking down, and measure progress properly over a few weeks.",
-            "primaryKeyword": "practice typing speed",
+            "title": "Typing Speed Drills: A Practical 15-Minute Routine",
+            "metaDescription": "Typing speed exercises work best when they give you something specific to practise: awkward keys, punctuation, numbers or copying real sentences. Start…",
+            "primaryKeyword": "typing speed drills",
             "secondaryKeywords": [
               "improve typing accuracy",
               "touch typing exercises",
@@ -3312,48 +3514,54 @@
             ]
           },
           "content": {
-            "intro": "Most people who practice typing speed do it by taking the same test repeatedly and hoping. That produces a plateau within days. Real improvement comes from a slightly counterintuitive place: slowing down until accuracy is near perfect, then letting speed follow. An hour set up correctly beats weeks of racing.",
-            "whyItWorks": "Errors cost far more time than slow keystrokes, because correcting one costs several keystrokes plus the attention to notice it. Drilling accuracy first removes that tax. Targeting your specific weak keys works for the same reason a musician practices the difficult bar rather than replaying the whole piece: the improvement is concentrated where the problem is.",
+            "intro": "Typing speed exercises work best when they give you something specific to practise: awkward keys, punctuation, numbers or copying real sentences. Start with a short baseline test, then practise at a pace where you can notice errors. Track words per minute and accuracy together rather than treating a faster score as the only goal.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Measure a baseline honestly",
-                "detail": "Take one test and record both speed and accuracy. Accuracy is the number that matters; note it without judgement."
+                "step": "Prepare",
+                "detail": "Take a short baseline test and record both speed and accuracy."
               },
               {
-                "step": "Slow down until accuracy passes ninety-eight percent",
-                "detail": "Deliberately type below your comfortable pace. This feels wrong and is the single most effective change available."
+                "step": "Try the practical steps",
+                "detail": "Practise weak keys, punctuation and a real passage in short blocks."
               },
               {
-                "step": "Find your problem keys",
-                "detail": "Most typing sites report per-key error rates. Usually a handful of keys account for most mistakes."
-              },
-              {
-                "step": "Drill those keys specifically",
-                "detail": "Custom drills on your worst five or six keys. Fifteen focused minutes beats an hour of general practice."
-              },
-              {
-                "step": "Stop looking at the keyboard",
-                "detail": "Cover your hands if necessary. Looking down caps your ceiling permanently, however fast you currently are."
+                "step": "Review and follow up",
+                "detail": "Repeat a comparable test later and check which errors still need attention."
               }
             ],
             "tips": [
-              "Practice in short daily sessions rather than long weekly ones. Motor learning consolidates with sleep between sessions.",
-              "Check your posture and wrist position. Typing faster with bad ergonomics scales the problem rather than the skill.",
-              "Learn the shortcuts for word and line deletion. Correcting efficiently matters as much as typing accurately."
+              "Use both measurements. Slow down when mistakes prevent fluent typing, practise the troublesome keys, and compare later results using the same test conditions. There is no guaranteed improvement timetable."
             ],
-            "variations": "If you already type quickly, shift the hour to numeric keypad or symbol accuracy, which most people never drill and which matters enormously for spreadsheet and code work. If you write prose all day, practice on real text rather than random words, since punctuation and capitalisation carry their own error rates.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "What is a good typing speed?",
-                "a": "Around forty words per minute is average, sixty to eighty is comfortably fast. Accuracy above ninety-eight percent matters more than raw speed."
+                "q": "Should typing practice focus on speed or accuracy?",
+                "a": "Use both measurements. Slow down when mistakes prevent fluent typing, practise the troublesome keys, and compare later results using the same test conditions. There is no guaranteed improvement timetable."
+              }
+            ],
+            "heading": "Typing Speed Drills: A Practical 15-Minute Routine",
+            "sections": [
+              {
+                "heading": "Three typing drills to try today",
+                "paragraphs": [
+                  "For five minutes, type short words containing keys you often miss. For another five, copy a paragraph with capitals and punctuation. For the last five, practise a real task such as an email or a row of numbers. Example practice text: “Please send 12 copies by Friday, 16 October.” Repeat carefully, then swap in your own sentence.",
+                  "Record the passage, test duration, words per minute and accuracy so later tests are comparable. A different text or autocorrection setting can change your score. Keep your hands comfortable and take breaks; shorten the practice if you feel discomfort. Regular short sessions give you more opportunities to review recurring mistakes."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/skills",
+                "label": "skills activities",
+                "after": "."
               },
               {
-                "q": "Should I learn proper touch typing technique?",
-                "a": "If you look at the keyboard, yes. Relearning is frustrating for a two weeks and then permanently better than a self-taught hunt."
-              },
-              {
-                "q": "How long does it take to improve?",
-                "a": "Noticeable gains in two to three weeks of short daily practice. Speed follows accuracy rather than the other way round."
+                "before": "Another activity to try is",
+                "href": "/activities/skills/learn-keyboard-shortcuts-for-your-os",
+                "label": "learn keyboard shortcuts for your os",
+                "after": "."
               }
             ]
           },
@@ -3687,12 +3895,12 @@
         {
           "name": "Improve your writing skills with exercises",
           "slug": "improve-your-writing-skills-with-exercises",
-          "description": "Try short writing drills that sharpen clarity, cut filler, and strengthen your style.",
+          "description": "Writing practice is easier to review when each drill has a clear constraint.",
           "image": "/activities/skills-learning.png",
           "seo": {
-            "title": "Improve Your Writing Skills With Four Exercises",
-            "metaDescription": "Improve your writing skills with drills that target specific weaknesses: cutting length, varying sentences, replacing abstraction, and writing for one reader.",
-            "primaryKeyword": "improve your writing skills",
+            "title": "Writing Practice Exercises: Five Short Drills",
+            "metaDescription": "Writing practice is easier to review when each drill has a clear constraint. Try describing an object, explaining a process, writing a short scene,…",
+            "primaryKeyword": "writing practice exercises",
             "secondaryKeywords": [
               "writing exercises for clarity",
               "how to write more concisely",
@@ -3700,7 +3908,7 @@
             ]
           },
           "content": {
-            "intro": "Advice to read more and write more is true and unhelpfully slow. If you want to improve your writing skills inside an hour, targeted drills work better, because each one attacks a specific weakness that general practice would take months to erode. Four exercises, fifteen minutes each, on text you have already written.",
+            "intro": "Writing practice is easier to review when each drill has a clear constraint. Try describing an object, explaining a process, writing a short scene, changing the audience and editing a paragraph. You can complete one exercise in ten minutes or spend an hour on a draft and revision.",
             "whyItWorks": "Most bad writing shares a small number of causes: too long, uniform sentence rhythm, abstraction where a concrete noun would do, and no clear reader in mind. Each has a corresponding drill, and drills produce faster improvement than volume because they isolate the problem rather than averaging over it.",
             "howTo": [
               {
@@ -3732,6 +3940,10 @@
             "variations": "If you write technical documentation, add an exercise on ordering: put the conclusion first and see how much context turns out to be unnecessary. If you write persuasively, practice arguing the opposing position convincingly, which exposes the weak points in your own case.",
             "faq": [
               {
+                "q": "Does speed writing help improve writing?",
+                "a": "A short timer can help you start a draft. Leave a separate editing period to check meaning, structure and grammar; producing more words quickly does not by itself make them clearer."
+              },
+              {
                 "q": "How do I write more concisely?",
                 "a": "Cut a finished paragraph by half as a deliberate exercise. The constraint forces you to identify which words were carrying meaning."
               },
@@ -3742,6 +3954,30 @@
               {
                 "q": "Should I use AI to improve my writing?",
                 "a": "As an editor that flags problems, it can help. As a replacement for drafting, it prevents you developing judgement about your own prose."
+              }
+            ],
+            "heading": "Writing Practice Exercises: Five Short Drills",
+            "sections": [
+              {
+                "heading": "Five exercises for clearer English writing",
+                "paragraphs": [
+                  "Describe a mug in fifty words without using “nice” or “interesting”. Explain making a sandwich to someone who has never made one. Write six lines of dialogue where a character wants something but does not ask directly. Rewrite a work update for a friend. Finally, cut a paragraph by a quarter while preserving its meaning.",
+                  "Read the result aloud and mark places where you lose the thread. Replace vague words with something observable, check that pronouns have clear references and put steps in order. Keep the original and revised versions so you can see what changed. These are practice prompts, not a timed test of writing quality."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/skills",
+                "label": "skills activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/skills/learn-to-take-better-meeting-notes",
+                "label": "learn to take better meeting notes",
+                "after": "."
               }
             ]
           },
@@ -3843,12 +4079,12 @@
         {
           "name": "Practice active listening techniques",
           "slug": "practice-active-listening-techniques",
-          "description": "Practice summarizing, clarifying, and asking open questions in your next conversation.",
+          "description": "Active listening practice means giving someone room to speak, checking what you understood and asking a useful follow-up question.",
           "image": "/activities/skills-learning.png",
           "seo": {
-            "title": "Active Listening Techniques That Sound Human",
-            "metaDescription": "Active listening techniques that work in real conversations: hold the silence, ask one more question, and check you understood before you respond.",
-            "primaryKeyword": "active listening techniques",
+            "title": "Active Listening Exercises for Adults: Partner Practice",
+            "metaDescription": "Active listening practice means giving someone room to speak, checking what you understood and asking a useful follow-up question. Try a short partner…",
+            "primaryKeyword": "active listening exercises for adults",
             "secondaryKeywords": [
               "how to listen better",
               "listening skills at work",
@@ -3856,48 +4092,54 @@
             ]
           },
           "content": {
-            "intro": "Most active listening techniques taught in workshops make people sound like a customer service script. The versions that work are quieter: stop constructing your reply while they are still speaking, tolerate a pause, and ask one more question before responding. An hour of deliberate practice on those three changes conversations noticeably.",
-            "whyItWorks": "The main obstacle to listening is that formulating a response consumes the attention required to hear. Once you notice yourself doing it, the habit is interruptible. The pause matters for a related reason: people rarely say the important thing first, and the two seconds after they appear to finish is frequently where it arrives.",
+            "intro": "Active listening practice means giving someone room to speak, checking what you understood and asking a useful follow-up question. Try a short partner exercise about an everyday topic. Agree that either person can skip a topic, and practise understanding before giving advice or preparing your own story.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Notice when you start composing a reply",
-                "detail": "That moment is the whole skill. Catching it, even after the fact, is what builds the awareness to interrupt it."
+                "step": "Prepare",
+                "detail": "Agree an everyday topic and who will speak first."
               },
               {
-                "step": "Wait two seconds after they stop",
-                "detail": "Count silently. The most important sentence often arrives in that gap, and rushing in closes it permanently."
+                "step": "Try the practical steps",
+                "detail": "Listen, summarise in your own words and invite correction."
               },
               {
-                "step": "Ask one more question first",
-                "detail": "Before offering your view, ask something that goes deeper. Almost nobody does this and it is immediately noticeable."
-              },
-              {
-                "step": "Reflect back in your own words",
-                "detail": "\"So the real problem is the timeline, not the budget?\" Paraphrasing checks understanding; repeating verbatim just sounds strange."
-              },
-              {
-                "step": "Resist solving immediately",
-                "detail": "Ask whether they want help or a hearing. Solving an unfinished problem is the most common listening failure at work."
+                "step": "Review and follow up",
+                "detail": "Ask an open follow-up question, then swap roles and discuss what helped."
               }
             ],
             "tips": [
-              "Take notes in meetings but not during emotional conversations. Writing signals attention in one context and detachment in the other.",
-              "Watch for the second explanation. When someone rephrases something unprompted, it usually matters more than the first version.",
-              "Practice on low-stakes conversations first. Trying this during a conflict is difficult and the results are hard to read."
+              "Listen to a short talk, pause it and write a summary and follow-up question. Replay to check your interpretation. Partner practice adds the important step of letting the speaker correct you."
             ],
-            "variations": "If you manage people, practice specifically on the pause in one-to-ones, where seniority makes others yield the floor early. If you work in a customer-facing role, focus on the reflecting-back step, which reduces misunderstandings that are expensive to unwind later.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "What is active listening?",
-                "a": "Listening to understand rather than to reply, and demonstrating that understanding well enough that the speaker can correct you."
+                "q": "How can I practise active listening alone?",
+                "a": "Listen to a short talk, pause it and write a summary and follow-up question. Replay to check your interpretation. Partner practice adds the important step of letting the speaker correct you."
+              }
+            ],
+            "heading": "Active Listening Exercises for Adults: Partner Practice",
+            "sections": [
+              {
+                "heading": "A ten-minute active listening activity",
+                "paragraphs": [
+                  "One person speaks for two minutes about a hobby, a plan or a small challenge. The listener avoids interrupting, then summarises: “What I heard was…” The speaker corrects anything missed. Ask one open question, such as “Which part mattered most to you?” Swap roles and repeat.",
+                  "For a group, work in pairs and discuss which questions invited a fuller answer. A playful alternative is to describe an imaginary holiday while the listener records three details and checks them back. Keep the exercise voluntary; it is practice in conversation, not therapy or a way to press someone for personal information."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/skills",
+                "label": "skills activities",
+                "after": "."
               },
               {
-                "q": "Doesn't paraphrasing sound artificial?",
-                "a": "Repeating verbatim does. Restating the substance in your own words sounds like ordinary attentive conversation, because it is."
-              },
-              {
-                "q": "How do I stop interrupting?",
-                "a": "Count two seconds after the other person stops. It feels excessive, is imperceptible to them, and prevents most interruptions."
+                "before": "Another activity to try is",
+                "href": "/activities/career-development/ask-a-colleague-or-mentor-for-feedback",
+                "label": "ask a colleague or mentor for feedback",
+                "after": "."
               }
             ]
           },
@@ -4077,12 +4319,12 @@
         {
           "name": "Practice speed reading techniques",
           "slug": "practice-speed-reading-techniques",
-          "description": "Try techniques like chunking and pacing to read faster without losing comprehension.",
+          "description": "A useful speed reading exercise measures what you understood as well as how quickly you read.",
           "image": "/activities/skills-learning.png",
           "seo": {
-            "title": "Speed Reading Techniques: What Works and What Doesn't",
-            "metaDescription": "Most speed reading claims do not survive scrutiny. Learn the techniques that genuinely help, the tradeoff with comprehension, and when skimming is right.",
-            "primaryKeyword": "speed reading techniques",
+            "title": "Speed Reading Practice: Measure Understanding First",
+            "metaDescription": "A useful speed reading exercise measures what you understood as well as how quickly you read. Skimming can help you find a passage, while close reading is…",
+            "primaryKeyword": "speed reading exercises",
             "secondaryKeywords": [
               "how to read faster",
               "subvocalization",
@@ -4090,48 +4332,54 @@
             ]
           },
           "content": {
-            "intro": "Speed reading techniques are heavily oversold. The claims about thousands of words per minute with full comprehension do not hold up, and it is worth knowing that before spending money. What does work is more modest: better skimming, less regression, and choosing your reading speed deliberately rather than reading everything identically.",
-            "whyItWorks": "The largest realistic gains come from deciding what not to read closely. Most non-fiction contains a great deal of restatement, and a structured skim captures the argument at a fraction of the cost. Reducing regression, the habit of unconsciously re-reading the previous line, also gives a real improvement, and both are learnable in an hour.",
+            "intro": "A useful speed reading exercise measures what you understood as well as how quickly you read. Skimming can help you find a passage, while close reading is better for unfamiliar or important details. Use a short article to practise choosing the right approach rather than promising yourself a fixed reading speed.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Preview before reading",
-                "detail": "Read the contents, headings, first and last paragraphs. You often learn enough to skip large sections entirely."
+                "step": "Prepare",
+                "detail": "Choose a short passage and record your normal reading time."
               },
               {
-                "step": "Use a pointer to stop regression",
-                "detail": "Guide your eye with a finger or cursor. This reliably reduces unconscious re-reading, which costs more time than slow reading."
+                "step": "Try the practical steps",
+                "detail": "Summarise it without looking, then check the main points against the original."
               },
               {
-                "step": "Read in chunks, not words",
-                "detail": "Take in three or four words per fixation. This is trainable and produces a genuine, if modest, improvement."
-              },
-              {
-                "step": "Match speed to purpose",
-                "detail": "Skim for gist, read closely for argument, study slowly for technical material. One speed for everything is the actual problem."
-              },
-              {
-                "step": "Test comprehension honestly",
-                "detail": "Summarise what you read from memory. Speed gains that destroy comprehension are not gains at all."
+                "step": "Review and follow up",
+                "detail": "Try previewing a comparable passage and compare understanding as well as time."
               }
             ],
             "tips": [
-              "Eliminating subvocalisation is often oversold and can hurt comprehension on difficult text. Reduce it, do not fight it.",
-              "Reading speed is heavily topic-dependent. Familiar material reads several times faster than an unfamiliar field.",
-              "For dense technical material, slow reading with notes beats any speed technique available."
+              "Previewing and purposeful reading may help you navigate a text, but going faster can reduce understanding. Test yourself with a summary and factual questions rather than relying only on words per minute."
             ],
-            "variations": "If your problem is volume rather than speed, spend the hour on triage instead: deciding what deserves reading at all is a larger lever than reading faster. If you read academic material, learn the structured skim used for papers, which is a specific and highly effective sequence.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "Does speed reading actually work?",
-                "a": "Modest improvements are real, particularly from better skimming and less regression. Claims of very high speeds with full comprehension do not hold up."
+                "q": "Can speed reading improve comprehension?",
+                "a": "Previewing and purposeful reading may help you navigate a text, but going faster can reduce understanding. Test yourself with a summary and factual questions rather than relying only on words per minute."
+              }
+            ],
+            "heading": "Speed Reading Practice: Measure Understanding First",
+            "sections": [
+              {
+                "heading": "A reading drill with a comprehension check",
+                "paragraphs": [
+                  "Choose a passage of roughly five hundred words. Read it at your normal pace and note the time. Close it and write the main claim, two supporting points and one question. Check those notes against the text. With a similar passage, preview headings first and compare both time and understanding.",
+                  "Practise skimming separately: give yourself a minute to locate one named fact or section, then read that part carefully. If faster reading causes you to miss qualifications or details, slow down. Contracts, safety instructions and technical material deserve careful reading; pace is useful only when it serves the task."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/skills",
+                "label": "skills activities",
+                "after": "."
               },
               {
-                "q": "What is subvocalization?",
-                "a": "Silently pronouncing words as you read. Reducing it can help slightly, but suppressing it entirely tends to damage comprehension on hard text."
-              },
-              {
-                "q": "How fast should I read?",
-                "a": "It depends entirely on the material and your purpose. Reading everything at one speed is the more common and more costly mistake."
+                "before": "Another activity to try is",
+                "href": "/activities/skills/improve-your-writing-skills-with-exercises",
+                "label": "improve your writing skills with exercises",
+                "after": "."
               }
             ]
           },
@@ -4940,11 +5188,11 @@
         {
           "name": "Create a budget spreadsheet",
           "slug": "create-a-budget-spreadsheet",
-          "description": "Build a simple budget that shows what's coming in, what's going out, and where you can save.",
+          "description": "Create a budget spreadsheet by listing income, essential spending, other spending and planned saving over the same period.",
           "image": "/activities/finance-planning.png",
           "seo": {
-            "title": "Create a Budget Spreadsheet That Survives Month Two",
-            "metaDescription": "Build a budget spreadsheet from your actual bank statements rather than guesses, with categories coarse enough that you will still be using it in March.",
+            "title": "Create a Budget Spreadsheet: Columns and Worked Example",
+            "metaDescription": "Create a budget spreadsheet by listing income, essential spending, other spending and planned saving over the same period. Keep planned and actual amounts…",
             "primaryKeyword": "create a budget spreadsheet",
             "secondaryKeywords": [
               "simple budget template",
@@ -4953,50 +5201,68 @@
             ]
           },
           "content": {
-            "intro": "Most attempts to create a budget spreadsheet die in week three. The usual cause is not laziness but resolution: thirty categories, each needing a decision every time you buy a coffee. An hour spent building something deliberately coarse, from real statement data rather than optimistic estimates, produces a budget you might still be using next year.",
-            "whyItWorks": "Working backwards from three months of statements removes the guesswork that sinks most budgets. Your estimate of what you spend on food is reliably wrong; your bank's record is not. Coarse categories then keep the maintenance cost low enough that the habit survives, and a budget you actually maintain at low precision beats a perfect one you abandon.",
+            "intro": "Create a budget spreadsheet by listing income, essential spending, other spending and planned saving over the same period. Keep planned and actual amounts separate so you can review what changed. Start with one month and use recent statements rather than guessing every expense.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Export three months of transactions",
-                "detail": "Most banks offer CSV download. Three months smooths out the odd month with a holiday or an annual renewal in it."
+                "step": "Prepare",
+                "detail": "Choose a reporting period and collect income and expense records."
               },
               {
-                "step": "Sort into six or seven categories",
-                "detail": "Housing, food, transport, bills, debt, everything else. Resist splitting further; granularity is what kills budgets."
+                "step": "Try the practical steps",
+                "detail": "Create planned and actual columns, checking totals and transfers."
               },
               {
-                "step": "Average each category",
-                "detail": "Divide by three. That average is your real baseline, and it is usually higher than the number you would have guessed."
-              },
-              {
-                "step": "Subtract from income and look at the gap",
-                "detail": "Whatever remains is what is genuinely available to save or redirect. This figure surprises almost everyone the first time."
-              },
-              {
-                "step": "Add one forward month and stop",
-                "detail": "Build next month's column with target numbers. Do not build twelve; you will change the design after the first month anyway."
+                "step": "Review and follow up",
+                "detail": "Review remaining money and adjust the plan to fit your real commitments."
               }
             ],
             "tips": [
-              "Include annual costs as monthly twelfths. Insurance and car tax wreck budgets that only think in months.",
-              "Add a line called unallocated and fund it. Budgets with no slack break the first time something unexpected happens.",
-              "Review for ten minutes monthly, not daily. Daily checking produces anxiety without improving decisions."
+              "Separate confirmed income from estimates and review the budget when money arrives. Plan essential commitments carefully and seek money guidance if income uncertainty makes bills difficult to cover."
             ],
-            "variations": "If a spreadsheet feels like too much friction, the same hour works on a budgeting app that categorizes automatically, at the cost of connecting your accounts. If you share finances, build it together in one sitting; separately built budgets rarely reconcile.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "How many budget categories should I use?",
-                "a": "Six or seven. Enough to see where money goes, few enough that categorizing a transaction never requires thought."
-              },
-              {
-                "q": "What is the 50/30/20 rule?",
-                "a": "A guideline splitting income into needs, wants and savings. Useful as a sanity check, though it fits high-rent cities poorly."
-              },
-              {
-                "q": "Should I get professional advice?",
-                "a": "This is general information, not financial advice. For debt, tax or investment decisions specific to you, speak to a qualified adviser."
+                "q": "How should I budget with irregular income?",
+                "a": "Separate confirmed income from estimates and review the budget when money arrives. Plan essential commitments carefully and seek money guidance if income uncertainty makes bills difficult to cover."
               }
-            ]
+            ],
+            "heading": "Create a Budget Spreadsheet: Columns and Worked Example",
+            "sections": [
+              {
+                "heading": "A simple budget spreadsheet layout",
+                "paragraphs": [
+                  "Use columns for Category, Planned, Actual and Difference. Put income in its own section, then list housing, utilities, food, transport, debt payments and optional spending. With planned amounts in B and actual amounts in C, a spending difference can be “=B2-C2”: a positive value means you spent less than planned.",
+                  "Calculate money remaining as total income minus total spending and saving allocations. For example, £1,800 income minus £1,500 spending minus £100 planned saving leaves £200. This is an illustration, not a typical budget. Add irregular costs as appropriate and do not count an internal account transfer twice as spending."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/financial",
+                "label": "financial activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/financial/create-an-emergency-fund-savings-plan",
+                "label": "create an emergency fund savings plan",
+                "after": "."
+              }
+            ],
+            "resources": {
+              "heading": "Further guidance",
+              "intro": "Use these sources to check details and plan your next step.",
+              "checkedOn": "13 October 2026",
+              "links": [
+                {
+                  "label": "MoneyHelper budgeting guidance",
+                  "href": "https://www.moneyhelper.org.uk/en/everyday-money/budgeting/beginners-guide-to-managing-your-money",
+                  "detail": "A starting point for checking income and spending."
+                }
+              ]
+            }
           },
           "meta": {
             "timeMinutes": 60,
@@ -5253,12 +5519,12 @@
         {
           "name": "Set up automatic bill payments",
           "slug": "set-up-automatic-bill-payments",
-          "description": "Automate your regular bills so you never pay a late fee again.",
+          "description": "To automate bill payments, list the amount, due date and payment method for each regular bill.",
           "image": "/activities/finance-planning.png",
           "seo": {
-            "title": "Set Up Automatic Bill Payments Without Losing Control",
-            "metaDescription": "Automate the bills that never change, keep manual control of the ones that do, and build the one safeguard that stops automation causing overdraft fees.",
-            "primaryKeyword": "set up automatic bill payments",
+            "title": "Automate Bill Payments: Direct Debit or Standing Order?",
+            "metaDescription": "To automate bill payments, list the amount, due date and payment method for each regular bill. In the UK, a Direct Debit lets an organisation collect…",
+            "primaryKeyword": "how to automate bill payments",
             "secondaryKeywords": [
               "autopay pros and cons",
               "direct debit setup",
@@ -5266,50 +5532,68 @@
             ]
           },
           "content": {
-            "intro": "Late payment fees are almost entirely an attention problem rather than a money problem. When you set up automatic bill payments you remove the attention requirement, which is why it is one of the highest-return hours in personal finance. The caveat is that automating the wrong bills replaces late fees with overdraft fees.",
-            "whyItWorks": "Fixed, predictable bills are ideal candidates because there is no decision to make each month; the payment is pure administrative overhead. Variable bills are different, because automation removes the moment where you would have noticed a charge doubling. Splitting your bills along that line captures the benefit without the failure mode.",
+            "intro": "To automate bill payments, list the amount, due date and payment method for each regular bill. In the UK, a Direct Debit lets an organisation collect agreed payments, while a standing order sends a fixed amount on your instructions. Check the provider’s accepted methods before setting up either.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "List every recurring bill",
-                "detail": "Amount, due date, and whether it is fixed or variable. Three columns; this list is most of the work."
+                "step": "Prepare",
+                "detail": "List due dates, amounts and the payment methods the provider accepts."
               },
               {
-                "step": "Automate only the fixed ones",
-                "detail": "Rent, insurance, subscriptions with stable pricing. These have no decision attached, so nothing is lost by automating them."
+                "step": "Try the practical steps",
+                "detail": "Confirm the new arrangement through the provider or bank before cancelling an old one."
               },
               {
-                "step": "Keep variable bills manual or capped",
-                "detail": "Utilities and anything usage-based. Reviewing these monthly is how you catch a meter fault or a price rise."
-              },
-              {
-                "step": "Cluster the dates after payday",
-                "detail": "Move due dates to the days following your income arriving. Most providers will change a payment date on request."
-              },
-              {
-                "step": "Leave a deliberate buffer",
-                "detail": "Keep one month of bills sitting in the account. Automation without a buffer converts a timing slip into a fee."
+                "step": "Review and follow up",
+                "detail": "Check the first payment and keep reviewing the account balance and variable bills."
               }
             ],
             "tips": [
-              "Set a low-balance alert on the account bills leave from. It is the single safeguard that makes automation safe.",
-              "Review automated payments quarterly. Automation is exactly how subscriptions survive long after you stopped using them.",
-              "Prefer direct debit where consumer protection schemes apply, since disputed payments are easier to reclaim. This is general information and not financial advice."
+              "No. A standing order sends a fixed amount you instruct your bank to pay. A Direct Debit allows the organisation to collect payments under the agreed arrangement, which can suit variable bills."
             ],
-            "variations": "If your income is irregular, automate only the essentials and keep a manual pass for the rest, since fixed outgoings against variable income is where automation hurts most. If your bills are already automated, spend the hour auditing what is actually leaving the account instead.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "Is autopay safe?",
-                "a": "For fixed bills, generally yes, provided you keep a buffer and a low-balance alert. The risk is an unexpected charge hitting an empty account."
-              },
-              {
-                "q": "Which bills should I not automate?",
-                "a": "Variable ones, and anything you might want to cancel. Automating those removes the moment you would have noticed a problem."
-              },
-              {
-                "q": "Can I change when a bill is due?",
-                "a": "Usually yes, by asking the provider. Aligning due dates with payday removes most timing problems in one call."
+                "q": "Is a standing order the same as a Direct Debit?",
+                "a": "No. A standing order sends a fixed amount you instruct your bank to pay. A Direct Debit allows the organisation to collect payments under the agreed arrangement, which can suit variable bills."
               }
-            ]
+            ],
+            "heading": "Automate Bill Payments: Direct Debit or Standing Order?",
+            "sections": [
+              {
+                "heading": "Set up one bill and check the first payment",
+                "paragraphs": [
+                  "Use the provider’s official account or your bank’s normal process. Confirm the payment date, account details and how you will be told about amount changes. Leave enough money available and check what happens if the date falls near payday. Do not cancel an existing payment until the replacement arrangement is confirmed.",
+                  "Record the bill, method, due date and first expected payment. Set a reminder to check the first transaction and review variable bills regularly. Automation reduces repeated admin but does not remove the need to notice errors or keep sufficient funds available."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/financial",
+                "label": "financial activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/organization/create-a-system-for-tracking-important-dates",
+                "label": "create a system for tracking important dates",
+                "after": "."
+              }
+            ],
+            "resources": {
+              "heading": "Further guidance",
+              "intro": "Use these sources to check details and plan your next step.",
+              "checkedOn": "13 October 2026",
+              "links": [
+                {
+                  "label": "MoneyHelper payment guidance",
+                  "href": "https://www.moneyhelper.org.uk/en/family-and-care/illness-and-disability/make-your-money-easier-to-manage-by-yourself",
+                  "detail": "Guidance on managing money and arranging regular bill payments."
+                }
+              ]
+            }
           },
           "meta": {
             "timeMinutes": 45,
@@ -5490,12 +5774,12 @@
         {
           "name": "Create an emergency fund savings plan",
           "slug": "create-an-emergency-fund-savings-plan",
-          "description": "Work out your target emergency fund and set up an automatic transfer to start building it.",
+          "description": "An emergency fund is money set aside for unexpected essential costs.",
           "image": "/activities/finance-planning.png",
           "seo": {
-            "title": "Build an Emergency Fund Savings Plan That Works",
-            "metaDescription": "Work out what an emergency fund needs to cover in your situation, where to keep it, and how to reach the first month, which is the hardest part.",
-            "primaryKeyword": "emergency fund savings plan",
+            "title": "Emergency Fund Savings Plan: Start With an Affordable Goal",
+            "metaDescription": "An emergency fund is money set aside for unexpected essential costs. Start by understanding your essential spending, choosing an affordable contribution…",
+            "primaryKeyword": "emergency fund savings goals",
             "secondaryKeywords": [
               "how much emergency fund",
               "where to keep emergency savings",
@@ -5503,50 +5787,68 @@
             ]
           },
           "content": {
-            "intro": "The standard advice to hold three to six months of expenses is unhelpful when you have none, because the gap is so large it reads as impossible. A useful emergency fund savings plan starts from a much smaller and more achievable target, because the difference between zero and one month is where nearly all the benefit lives.",
-            "whyItWorks": "A small buffer changes the category of problem a broken boiler represents. With nothing saved, it becomes debt at a punitive rate; with one month saved, it is an annoyance. That first threshold delivers most of the practical protection, and reaching it is achievable in a timeframe short enough to stay motivating.",
+            "intro": "An emergency fund is money set aside for unexpected essential costs. Start by understanding your essential spending, choosing an affordable contribution and identifying where the money will be accessible. A small first milestone can be useful, but it is not a guarantee that every emergency will be covered.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Calculate essential spending only",
-                "detail": "Housing, food, utilities, transport, minimum debt payments. Not your full budget; emergencies are lived at a reduced standard."
+                "step": "Prepare",
+                "detail": "List essential costs and choose a first affordable milestone."
               },
               {
-                "step": "Set one month as the first target",
-                "detail": "Not six. The first month delivers most of the protection and is reachable soon enough to sustain the effort."
+                "step": "Try the practical steps",
+                "detail": "Check access conditions and distinguish the buffer from other purchase savings."
               },
               {
-                "step": "Pick where it lives",
-                "detail": "Separate from your current account, accessible within a day or two, earning some interest. Not invested; this money must not fluctuate."
-              },
-              {
-                "step": "Automate a transfer on payday",
-                "detail": "Any amount, same day the income lands. Consistency matters more than the size of each transfer."
-              },
-              {
-                "step": "Define what counts as an emergency",
-                "detail": "Write it down now, while calm. Undefined emergency funds quietly become holiday funds without anyone deciding they should."
+                "step": "Review and follow up",
+                "detail": "Review the contribution when your income or commitments change."
               }
             ],
             "tips": [
-              "Keep it far enough from daily spending to require a deliberate act, but not so far that a genuine emergency has to wait days.",
-              "Refill it immediately after use, before resuming other savings. The fund only works if it is there next time.",
-              "Increase the target if your income is irregular or you are a single earner. Three months is a floor, not a rule."
+              "The amount depends on your essential costs, circumstances and what you can afford. Start with a manageable milestone and review it. MoneyHelper provides guidance on emergency savings and competing debt commitments."
             ],
-            "variations": "If you have high-interest debt, most guidance suggests a small buffer of a few hundred first, then debt, then the fuller fund; the arithmetic favours clearing expensive interest. If you already hold six months, consider whether some of it is over-provisioned and could work harder elsewhere.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "How much should be in an emergency fund?",
-                "a": "Three to six months of essential spending is the common range, more if your income is irregular. Start with one month."
-              },
-              {
-                "q": "Where should I keep it?",
-                "a": "An easy-access savings account separate from daily banking. It should not be invested, since it must hold its value when needed."
-              },
-              {
-                "q": "Emergency fund or pay off debt first?",
-                "a": "Commonly a small buffer, then high-interest debt, then the fuller fund. This is general information rather than financial advice for your situation."
+                "q": "How much should I save in an emergency fund?",
+                "a": "The amount depends on your essential costs, circumstances and what you can afford. Start with a manageable milestone and review it. MoneyHelper provides guidance on emergency savings and competing debt commitments."
               }
-            ]
+            ],
+            "heading": "Emergency Fund Savings Plan: Start With an Affordable Goal",
+            "sections": [
+              {
+                "heading": "Set a first milestone and review the budget",
+                "paragraphs": [
+                  "List essential monthly costs and consider the kinds of unexpected expense you need to cover. Choose a first milestone you can work towards without missing priority bills. Divide the amount still needed by an affordable regular contribution to estimate how many saving periods it may take, ignoring interest.",
+                  "Keep the buffer distinguishable from holiday or purchase savings and check account access conditions. Review the plan after income, housing or family circumstances change. MoneyHelper explains emergency savings and considerations around debt; use that guidance if competing commitments make it difficult to decide what to prioritise."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/financial",
+                "label": "financial activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/financial/create-a-budget-spreadsheet",
+                "label": "create a budget spreadsheet",
+                "after": "."
+              }
+            ],
+            "resources": {
+              "heading": "Further guidance",
+              "intro": "Use these sources to check details and plan your next step.",
+              "checkedOn": "13 October 2026",
+              "links": [
+                {
+                  "label": "MoneyHelper emergency savings",
+                  "href": "https://www.moneyhelper.org.uk/en/savings/types-of-savings/emergency-savings-how-much-is-enough",
+                  "detail": "Guidance on affordable saving and considerations around debt."
+                }
+              ]
+            }
           },
           "meta": {
             "timeMinutes": 45,
@@ -5958,12 +6260,12 @@
         {
           "name": "Set a savings goal for something specific",
           "slug": "set-a-savings-goal-for-something-specific",
-          "description": "Pick a concrete goal — a trip, a gadget, a buffer — work out the monthly amount, and automate it.",
+          "description": "Saving for a specific purpose starts with a target amount, a realistic deadline and an affordable regular contribution.",
           "image": "/activities/finance-planning.png",
           "seo": {
-            "title": "Set a Savings Goal Specific Enough to Actually Work",
-            "metaDescription": "Vague saving fails. Set a savings goal with a named thing, a real number and a date, then automate it so willpower stops being the mechanism.",
-            "primaryKeyword": "set a savings goal",
+            "title": "Set a Savings Goal: Amount, Deadline and Monthly Plan",
+            "metaDescription": "Saving for a specific purpose starts with a target amount, a realistic deadline and an affordable regular contribution. Name the goal so you can…",
+            "primaryKeyword": "saving for a specific purpose",
             "secondaryKeywords": [
               "how to save for a specific purchase",
               "sinking fund",
@@ -5971,50 +6273,68 @@
             ]
           },
           "content": {
-            "intro": "\"Save more\" is not a goal, which is why it never happens. When you set a savings goal attached to a specific thing, a real price and a date, the monthly amount falls out as arithmetic rather than aspiration. That shift, from a vague intention to a named number, is most of what makes saving work.",
-            "whyItWorks": "A named goal competes successfully against present-day spending in a way that an abstract balance cannot. It also converts the question from \"should I save?\" to \"do I want this more than that?\", which is a much easier decision to make consistently. Naming the account after the goal turns out to matter more than it reasonably should.",
+            "intro": "Saving for a specific purpose starts with a target amount, a realistic deadline and an affordable regular contribution. Name the goal so you can distinguish it from everyday spending and emergency savings. Use this session to calculate an example and check it against your budget before arranging a transfer.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Name the thing precisely",
-                "detail": "Not a holiday, but a specific trip. Not a car, but a model and a condition. Vagueness is what erodes the goal later."
+                "step": "Prepare",
+                "detail": "Write the goal amount, existing savings and deadline."
               },
               {
-                "step": "Find the real total cost",
-                "detail": "Including the parts people forget: insurance, delivery, deposits, the first year of running costs. Underestimating guarantees failure."
+                "step": "Try the practical steps",
+                "detail": "Calculate the required contribution and compare it with your available budget."
               },
               {
-                "step": "Divide by the months available",
-                "detail": "That figure is the monthly requirement. If it is impossible, move the date rather than abandoning the goal."
-              },
-              {
-                "step": "Open a separate named account",
-                "detail": "Most banks allow sub-accounts or pots. Money labelled for a purpose is measurably less likely to be spent on something else."
-              },
-              {
-                "step": "Automate the transfer on payday",
-                "detail": "Same day as income arrives. Saving what remains at month end reliably produces nothing remaining at month end."
+                "step": "Review and follow up",
+                "detail": "Adjust the goal if needed and arrange only an affordable saving plan."
               }
             ],
             "tips": [
-              "One goal at a time, or two at most. Parallel goals split the money and none of them arrive.",
-              "Route windfalls straight in: refunds, bonuses, cashback. Money you never budgeted for is the easiest to save.",
-              "Track it somewhere visible. Progress you can see is what keeps the goal alive through the boring middle."
+              "Change the amount or deadline rather than setting a transfer that leaves essential bills uncovered. Even a smaller affordable contribution can be useful. Seek money guidance if debts or missed bills are affecting the plan."
             ],
-            "variations": "If the goal is years away, split it into an annual milestone so progress stays visible, since multi-year targets lose their motivating power quickly. If you are saving for a recurring cost rather than a one-off, set up a sinking fund that refills automatically after each use.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "Where should I keep savings for a specific goal?",
-                "a": "An easy-access account separate from daily spending. For goals more than five years out, other options may suit better; a qualified adviser can help."
-              },
-              {
-                "q": "How many savings goals can I run at once?",
-                "a": "One or two. More than that splits contributions so thinly that nothing reaches completion, which is corrosive to the habit."
-              },
-              {
-                "q": "What if I cannot afford the monthly amount?",
-                "a": "Extend the deadline rather than dropping the goal. A slower goal is achievable; an abandoned one is not."
+                "q": "What if I cannot afford the monthly savings target?",
+                "a": "Change the amount or deadline rather than setting a transfer that leaves essential bills uncovered. Even a smaller affordable contribution can be useful. Seek money guidance if debts or missed bills are affecting the plan."
               }
-            ]
+            ],
+            "heading": "Set a Savings Goal: Amount, Deadline and Monthly Plan",
+            "sections": [
+              {
+                "heading": "Calculate a savings goal with a worked example",
+                "paragraphs": [
+                  "Subtract money already set aside from the target, then divide by the number of saving periods. For example, a £600 goal with £120 already saved leaves £480. Over eight months, that is £60 a month, ignoring interest. Include known costs such as delivery or booking fees in the target.",
+                  "Compare the contribution with what remains after essential bills and other commitments. If it does not fit, extend the date, reduce the purchase cost or review optional spending. A separate labelled savings pot can make progress easier to see. Check account access conditions before choosing where short-term savings will sit."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/financial",
+                "label": "financial activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/financial/create-a-budget-spreadsheet",
+                "label": "create a budget spreadsheet",
+                "after": "."
+              }
+            ],
+            "resources": {
+              "heading": "Further guidance",
+              "intro": "Use these sources to check details and plan your next step.",
+              "checkedOn": "13 October 2026",
+              "links": [
+                {
+                  "label": "MoneyHelper budgeting guidance",
+                  "href": "https://www.moneyhelper.org.uk/en/everyday-money/budgeting/beginners-guide-to-managing-your-money",
+                  "detail": "Guidance on budgeting and setting savings goals."
+                }
+              ]
+            }
           },
           "meta": {
             "timeMinutes": 30,
@@ -7054,12 +7374,12 @@
         {
           "name": "Learn time blocking techniques",
           "slug": "learn-time-blocking-techniques",
-          "description": "Plan tomorrow in focused blocks and discover how much more you finish with fewer context switches.",
+          "description": "Time blocking means reserving a period in your calendar for a particular task or type of work.",
           "image": "/activities/growth-zen.png",
           "seo": {
-            "title": "Time Blocking Techniques: Where the Day Goes",
-            "metaDescription": "Time blocking turns a task list into a schedule and exposes how few hours you really have. Block by type of work, and leave more slack than feels right.",
-            "primaryKeyword": "time blocking techniques",
+            "title": "Time Blocking: A Simple Calendar Example",
+            "metaDescription": "Time blocking means reserving a period in your calendar for a particular task or type of work. Instead of keeping only a to-do list, decide when a few…",
+            "primaryKeyword": "time blocking",
             "secondaryKeywords": [
               "how to time block your day",
               "calendar blocking method",
@@ -7067,7 +7387,7 @@
             ]
           },
           "content": {
-            "intro": "Time blocking techniques assign your tasks to specific hours rather than leaving them on a list. The immediate effect is uncomfortable and useful: a list of twelve things becomes visibly impossible once each has a duration attached and the calendar runs out at four in the afternoon.",
+            "intro": "Time blocking means reserving a period in your calendar for a particular task or type of work. Instead of keeping only a to-do list, decide when a few priorities will happen. Start with one realistic day and include breaks and space for tasks that run longer than expected.",
             "whyItWorks": "A task list hides duration, which is why it grows without limit. A calendar cannot, because the day has a fixed size. Blocking by type of work adds a second benefit: switching between different kinds of thinking carries a real cost, and grouping similar work reduces how often you pay it.",
             "howTo": [
               {
@@ -7099,6 +7419,10 @@
             "variations": "If your day is heavily interrupted, block only the first two hours and leave the rest reactive, which is realistic rather than a compromise. If you work on long projects, block by project rather than by task so context switching stays low.",
             "faq": [
               {
+                "q": "What is the difference between time blocking and a to-do list?",
+                "a": "A list records what you want to do. Time blocking allocates a place for selected tasks in your day. Keep both if a calendar alone makes it difficult to track unfinished work."
+              },
+              {
                 "q": "How do I start time blocking?",
                 "a": "Block fixed commitments first, then place estimated tasks into what remains. The gap between list and calendar is the insight."
               },
@@ -7109,6 +7433,30 @@
               {
                 "q": "Should I block personal time too?",
                 "a": "Blocking exercise, meals and finishing time helps them survive contact with work, which otherwise expands to fill everything."
+              }
+            ],
+            "heading": "Time Blocking: A Simple Calendar Example",
+            "sections": [
+              {
+                "heading": "A time-blocking example you can copy",
+                "paragraphs": [
+                  "Example: 09:00–09:15 choose priorities; 09:15–10:00 draft a report; 10:00–10:15 break; 10:15–10:45 reply to messages; 10:45–11:15 finish the draft. Add appointments first, then place focused work around them. These are sample blocks, not a schedule everyone should follow.",
+                  "For a spare hour, use ten minutes to list work, forty minutes on the most useful task and ten minutes to review or handle overflow. Treat estimates as experiments. If a block is interrupted, move or shorten it rather than quietly planning two tasks in the same time slot."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/personal-growth",
+                "label": "personal growth activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/organization/create-a-to-do-list-for-the-week",
+                "label": "create a to-do list for the week",
+                "after": "."
               }
             ]
           },
@@ -7364,12 +7712,12 @@
         {
           "name": "Write down your top five personal values",
           "slug": "write-down-your-top-five-personal-values",
-          "description": "Identify the five values that matter most to you and check whether your week actually reflects them.",
+          "description": "Your top five personal values are priorities you want to use when making decisions.",
           "image": "/activities/growth-zen.png",
           "seo": {
-            "title": "Write Down Your Top Five Personal Values and Test Them",
-            "metaDescription": "Naming your personal values only helps if the list is honest rather than admirable. Test each one against a real decision where holding it cost you something.",
-            "primaryKeyword": "top five personal values",
+            "title": "Find Your Top Five Personal Values: A Simple Exercise",
+            "metaDescription": "Your top five personal values are priorities you want to use when making decisions. There is no correct universal list. Start with experiences that felt…",
+            "primaryKeyword": "top 5 values",
             "secondaryKeywords": [
               "how to identify your values",
               "values based decision making",
@@ -7377,7 +7725,7 @@
             ]
           },
           "content": {
-            "intro": "Writing down your top five personal values produces something useless if the list is aspirational. Everyone selects integrity and family from a list of admirable words. The version that helps is tested against decisions you actually made, particularly the ones where holding the value cost you something.",
+            "intro": "Your top five personal values are priorities you want to use when making decisions. There is no correct universal list. Start with experiences that felt meaningful, choose words that describe why they mattered and turn those words into practical examples of how you want to behave.",
             "whyItWorks": "Values become useful only as a decision-making shortcut, and that requires them to be genuinely yours rather than admirable. The test of a real value is that it has cost you something: money declined, a relationship strained, an easier path not taken. Values that have never cost anything are usually preferences.",
             "howTo": [
               {
@@ -7409,6 +7757,10 @@
             "variations": "If five feels arbitrary, three is better still, since a shorter list is more decisive when two values conflict. If you are facing a specific decision now, work backwards from it: which values are actually in tension here, and which wins?",
             "faq": [
               {
+                "q": "What are examples of personal values?",
+                "a": "Examples include fairness, curiosity, kindness, independence and reliability. Choose words that describe your own priorities and write a behaviour for each, rather than adopting a list simply because it sounds admirable."
+              },
+              {
                 "q": "How do I know if a value is really mine?",
                 "a": "Ask when it last cost you something. Genuine values show up in decisions where holding them was inconvenient."
               },
@@ -7419,6 +7771,30 @@
               {
                 "q": "What if my behavior does not match my values?",
                 "a": "That gap is normal and worth examining rather than hiding. It usually indicates either an aspiration or a constraint worth naming."
+              }
+            ],
+            "heading": "Find Your Top Five Personal Values: A Simple Exercise",
+            "sections": [
+              {
+                "heading": "Turn a values list into useful decisions",
+                "paragraphs": [
+                  "Write down ten possibilities, such as kindness, independence, curiosity, fairness, security, creativity, family, courage, learning and reliability. Choose five, then define each in your own words. “Reliability” might mean telling someone early if you cannot meet a commitment, rather than always agreeing to help.",
+                  "Test the list against a decision you face. If independence and security conflict, write what each option gives you and what you would sacrifice. Rank values only for that decision if a permanent order feels misleading. Revisit your examples later; values can stay meaningful while the way you express them changes."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/personal-growth",
+                "label": "personal growth activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/career-development/develop-your-personal-brand-statement",
+                "label": "develop your personal brand statement",
+                "after": "."
               }
             ]
           },
@@ -7595,12 +7971,12 @@
         {
           "name": "Write a letter to your future self",
           "slug": "write-a-letter-to-your-future-self",
-          "description": "Write to yourself one year from now — your hopes, worries, and predictions — and seal it for later.",
+          "description": "A letter to your future self records what matters to you now and gives you something to revisit later.",
           "image": "/activities/growth-zen.png",
           "seo": {
-            "title": "Write a Letter to Your Future Self and Actually Send It",
-            "metaDescription": "Write to yourself a year out: what you are worried about now, what you hope has changed, and what you want to remember. Then schedule it to arrive.",
-            "primaryKeyword": "write a letter to your future self",
+            "title": "Write a Letter to Your Future Self: Prompts and Template",
+            "metaDescription": "A letter to your future self records what matters to you now and gives you something to revisit later. Write the date, choose a future opening date and…",
+            "primaryKeyword": "letter to my future self",
             "secondaryKeywords": [
               "future self letter prompts",
               "time capsule letter",
@@ -7608,7 +7984,7 @@
             ]
           },
           "content": {
-            "intro": "When you write a letter to your future self, the interesting part is not the writing. It is reading it a year later and discovering how much of what dominated your attention turned out not to matter, and how completely you had forgotten the things that did. Both observations are only available if you wrote them down.",
+            "intro": "A letter to your future self records what matters to you now and gives you something to revisit later. Write the date, choose a future opening date and describe your present life honestly. A paper envelope or a private file works; you do not need a paid delivery service.",
             "whyItWorks": "Memory reconstructs the past to fit the present, so your recollection of what you worried about a year ago is unreliable in a specific direction: you remember it as more reasonable than it was. A letter is a fixed record that resists that editing. It also functions as a soft commitment, since writing to a future reader makes vague intentions feel more accountable.",
             "howTo": [
               {
@@ -7640,6 +8016,10 @@
             "variations": "If a year feels far off, write to yourself in three months about something specific you are deciding now. If you have children, write one to them at a future age instead; the same mechanism produces something considerably more valuable to keep.",
             "faq": [
               {
+                "q": "Can I send a letter to my future self for free?",
+                "a": "You can write it on paper or save a private digital file and set a calendar reminder at no extra cost if you already have the materials. Online services may have changing fees and terms."
+              },
+              {
                 "q": "How far in the future should I set it?",
                 "a": "A year is the common choice. Long enough for meaningful change, short enough that you still remember the context."
               },
@@ -7650,6 +8030,30 @@
               {
                 "q": "How do I make sure I actually read it?",
                 "a": "Schedule the delivery now, using a future-email service or a dated calendar reminder with the file attached."
+              }
+            ],
+            "heading": "Write a Letter to Your Future Self: Prompts and Template",
+            "sections": [
+              {
+                "heading": "A future-self letter template",
+                "paragraphs": [
+                  "Start: “Today is… At the moment I spend my time… I am proud of… Something I find difficult is… Over the next year I hope to… One small step I can take this week is… When you read this, remember…” Add a question you would like your future self to answer.",
+                  "Seal the letter and put a reminder in your calendar, or save it in a private folder with the opening date in the filename. If you use an online service, check its current cost, delivery method and privacy terms, and keep your own copy. Avoid including passwords or information you would not want held by that service."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/personal-growth",
+                "label": "personal growth activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/creative/write-a-letter-to-a-friend-by-hand",
+                "label": "write a letter to a friend by hand",
+                "after": "."
               }
             ]
           },
@@ -9026,12 +9430,12 @@
         {
           "name": "Learn to re-seal a bath or sink",
           "slug": "learn-to-re-seal-a-bath-or-sink",
-          "description": "Watch a tutorial on removing tired sealant and applying a clean new bead — a satisfying skill for life.",
+          "description": "To reseal a bath, remove the failed sealant, prepare a clean and dry joint, apply suitable bathroom silicone and leave it to cure for the product’s stated time.",
           "image": "/activities/home-diy.png",
           "seo": {
-            "title": "Re-seal a Bath or Sink and Get a Clean Silicone Line",
-            "metaDescription": "Mouldy sealant is a water ingress problem, not a cosmetic one. Remove the old silicone completely, prepare the gap properly, and lay one continuous bead.",
-            "primaryKeyword": "re-seal a bath or sink",
+            "title": "How to Reseal a Bath: Preparation, Silicone and Curing",
+            "metaDescription": "To reseal a bath, remove the failed sealant, prepare a clean and dry joint, apply suitable bathroom silicone and leave it to cure for the product’s stated…",
+            "primaryKeyword": "how to reseal a bath",
             "secondaryKeywords": [
               "how to apply silicone sealant neatly",
               "removing old bathroom sealant",
@@ -9039,50 +9443,68 @@
             ]
           },
           "content": {
-            "intro": "Black mould along a bath edge is not a cosmetic problem. It means water is getting behind the seal, and behind the seal is usually a floor. To re-seal a bath or sink properly takes an hour of work plus curing time, and the entire outcome depends on a step people skip: removing every trace of the old silicone.",
-            "whyItWorks": "New silicone does not bond to old silicone, so any residue left in the joint becomes a channel for water. The second determinant is dryness, because silicone applied to a damp gap will not adhere. Both are unglamorous preparation, and together they account for the difference between a seal lasting five years and one failing in six months.",
+            "intro": "To reseal a bath, remove the failed sealant, prepare a clean and dry joint, apply suitable bathroom silicone and leave it to cure for the product’s stated time. Use this hour to learn the process and check your materials. Removal, drying and curing can make the full job longer than an hour.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Remove all the old sealant",
-                "detail": "A sharp blade and a plastic scraper. Every trace, including the thin film. New silicone will not bond over old."
+                "step": "Prepare",
+                "detail": "Check for underlying faults and read the exact sealant and bath instructions."
               },
               {
-                "step": "Clean and dry the joint completely",
-                "detail": "Remove mould with a cleaner, then let it dry fully. A damp gap guarantees failure regardless of technique."
+                "step": "Try the practical steps",
+                "detail": "Remove failed sealant carefully and prepare the joint as the product requires."
               },
               {
-                "step": "Fill the bath before sealing",
-                "detail": "Water weight spreads the joint to its widest. Sealing an empty bath means the bead tears the first time it is used."
-              },
-              {
-                "step": "Lay one continuous bead",
-                "detail": "Cut the nozzle at forty-five degrees, keep steady pressure, and do not stop mid-run. Joins are where seals fail."
-              },
-              {
-                "step": "Tool it once and leave it",
-                "detail": "Smooth with a wet finger or shaping tool in a single pass. Repeated fiddling ruins the surface and traps air."
+                "step": "Review and follow up",
+                "detail": "Apply and tool the bead according to the instructions, then keep it dry for the stated cure period."
               }
             ],
             "tips": [
-              "Use sanitary-grade silicone containing a fungicide for bathrooms and kitchens. Standard silicone will go mouldy far sooner.",
-              "Masking tape either side of the joint gives a sharp line. Remove it while the silicone is still wet.",
-              "Respect the full curing time before letting water touch it, usually around twenty-four hours. Rushing this wastes the whole job."
+              "Only after the sealant manufacturer’s specified water-exposure or cure time. Products and conditions differ, so do not assume a universal drying time or rely on the surface feeling dry."
             ],
-            "variations": "If the gap is wider than about a centimeter, fit a backer rod or a plastic sealing strip first, since silicone alone will sag and split across a large span. If mould keeps returning quickly despite good sealant, the underlying issue is usually ventilation rather than the seal.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "Can I apply new silicone over the old?",
-                "a": "No. New silicone does not bond to cured silicone, so the seal will fail. All of the old material must be removed."
-              },
-              {
-                "q": "Why should the bath be full when sealing?",
-                "a": "The weight of water widens the joint to its maximum. Sealing empty means the bead is stretched and tears on first use."
-              },
-              {
-                "q": "How long before I can use the shower?",
-                "a": "Usually around twenty-four hours, though it varies by product. Check the tube and do not shorten it; the cure is what makes it waterproof."
+                "q": "Can I shower straight after resealing a bath?",
+                "a": "Only after the sealant manufacturer’s specified water-exposure or cure time. Products and conditions differ, so do not assume a universal drying time or rely on the surface feeling dry."
               }
-            ]
+            ],
+            "heading": "How to Reseal a Bath: Preparation, Silicone and Curing",
+            "sections": [
+              {
+                "heading": "Before you start resealing a bath",
+                "paragraphs": [
+                  "Check for a loose bath, damaged surfaces or an active leak first; a fresh surface bead does not repair those faults. Mould on a bead alone does not prove that water has reached the floor. Read the sealant instructions for compatibility with your bath, tiles or stone, required joint size and when the bath can be used again.",
+                  "Use a suitable removal tool without scratching the bath. Follow cleaner instructions, ventilate the room and do not mix cleaning products. Remove residue and let the joint dry before applying silicone. Follow the bath and sealant manufacturer’s instructions about loading the bath during application. Tool the bead within the stated working time, then keep it dry for the full cure period."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/home-improvement",
+                "label": "home improvement activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/home-improvement/deep-clean-one-room-in-your-home",
+                "label": "deep clean one room in your home",
+                "after": "."
+              }
+            ],
+            "resources": {
+              "heading": "Further guidance",
+              "intro": "Use these sources to check details and plan your next step.",
+              "checkedOn": "13 October 2026",
+              "links": [
+                {
+                  "label": "Soudal bath sealing guidance",
+                  "href": "https://www.soudal.co.uk/diy/applications/sealing-bathroom",
+                  "detail": "Manufacturer guidance on preparation and bathroom sealant application. Check the instructions for your exact product."
+                }
+              ]
+            }
           },
           "meta": {
             "timeMinutes": 60,
@@ -9118,11 +9540,11 @@
         {
           "name": "Create a weekly workout plan",
           "slug": "create-a-weekly-workout-plan",
-          "description": "Design a realistic week of exercise that fits your schedule and fitness level.",
+          "description": "A weekly workout plan should fit your current activity, available time and recovery needs.",
           "image": "/activities/fitness-health.png",
           "seo": {
-            "title": "Create a Weekly Workout Plan You Will Actually Do",
-            "metaDescription": "Build a weekly workout plan around the days you genuinely have free, with progression built in and a minimum version for weeks that fall apart.",
+            "title": "Create a Weekly Workout Plan You Can Adjust",
+            "metaDescription": "A weekly workout plan should fit your current activity, available time and recovery needs. Start by mapping the week you actually have, then choose…",
             "primaryKeyword": "weekly workout plan",
             "secondaryKeywords": [
               "how many days a week to train",
@@ -9131,50 +9553,68 @@
             ]
           },
           "content": {
-            "intro": "Most people design a weekly workout plan for an imaginary version of themselves with five free evenings. It survives ten days. A plan built around the days you actually have, with a deliberately smaller fallback version, survives considerably longer, and consistency matters far more than optimal programming.",
-            "whyItWorks": "Adherence dominates results at every level below competitive athletics. Three sessions you complete beat five you skip, because training only works when it repeats. Building in a minimum viable week is the part almost everyone omits, and it is what stops one disrupted week turning into a permanent stop. Progression then handles the rest over months.",
+            "intro": "A weekly workout plan should fit your current activity, available time and recovery needs. Start by mapping the week you actually have, then choose manageable movement and strength sessions. NHS activity guidance can help you understand general goals; an individual plan may need adaptation for your health or circumstances.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Count your genuinely free slots",
-                "detail": "Look at a real week, not a good one. Whatever number you land on, plan for one fewer."
+                "step": "Prepare",
+                "detail": "List the times you can realistically use and your current activity level."
               },
               {
-                "step": "Choose a split that fits that number",
-                "detail": "Two or three days suits full-body sessions. Four or more allows splitting upper and lower, or push and pull."
+                "step": "Try the practical steps",
+                "detail": "Place suitable sessions and easier days in the week, including a fallback for each session."
               },
               {
-                "step": "Write the actual exercises and numbers",
-                "detail": "Sets, reps, and starting weight. A plan saying \"legs\" produces a different workout every time and no progression."
-              },
-              {
-                "step": "Build in progression",
-                "detail": "Decide in advance how you add load or reps each week. Without a rule you will train at the same level for months."
-              },
-              {
-                "step": "Define your minimum week",
-                "detail": "One session and a walk. Having a floor stops a bad week ending the habit entirely."
+                "step": "Review and follow up",
+                "detail": "Review the week before gradually changing the plan."
               }
             ],
             "tips": [
-              "Schedule rest days deliberately rather than letting them happen. Recovery is when adaptation occurs, not a gap in the plan.",
-              "Track what you lifted or ran. Memory is unreliable and progression needs a record to work from.",
-              "Talk to a doctor before starting if you have any existing condition or have been inactive for a long time."
+              "Resume with the next suitable session or move it if recovery and timing allow. Avoid doubling a demanding session simply to repair the calendar. Review whether the original plan was realistic."
             ],
-            "variations": "If you have very little time, two full-body sessions a week maintain and slowly build strength, which is far from nothing. If you already train consistently, spend the hour on programming progression properly rather than on the schedule, since that is usually the binding constraint.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "How many days a week should I work out?",
-                "a": "Three is a good target for most people starting out. Two done consistently beats five planned and abandoned by February."
-              },
-              {
-                "q": "Do I need rest days?",
-                "a": "Yes. Adaptation happens during recovery, not during the session. Training every day without planned rest tends to stall progress."
-              },
-              {
-                "q": "Should I check with a doctor first?",
-                "a": "This is general information and not medical advice. If you have a health condition or have been inactive for a long period, speak to a doctor before starting."
+                "q": "What if I miss a workout?",
+                "a": "Resume with the next suitable session or move it if recovery and timing allow. Avoid doubling a demanding session simply to repair the calendar. Review whether the original plan was realistic."
               }
-            ]
+            ],
+            "heading": "Create a Weekly Workout Plan You Can Adjust",
+            "sections": [
+              {
+                "heading": "Build a week from realistic starting points",
+                "paragraphs": [
+                  "Write down fixed commitments and the times you are most likely to move. For a beginner example, place a short walk on a few days and two suitable strength sessions on separate days, with easier days between demanding sessions. This is a scheduling example, not a prescription or a guarantee that it meets all activity guidelines.",
+                  "Record the planned activity, duration, location and an easier alternative. After a week, note what you completed and how you felt. Increase gradually rather than making every session longer at once. If you are returning after illness or injury, ask what is suitable before adding demanding exercise."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/health-fitness",
+                "label": "health & fitness activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/health-fitness/create-a-sleep-improvement-plan",
+                "label": "create a sleep improvement plan",
+                "after": "."
+              }
+            ],
+            "resources": {
+              "heading": "Further guidance",
+              "intro": "Use these sources to check details and plan your next step.",
+              "checkedOn": "13 October 2026",
+              "links": [
+                {
+                  "label": "NHS exercise guidance",
+                  "href": "https://www.nhs.uk/live-well/exercise/",
+                  "detail": "Activity guidance and exercise resources to help choose a suitable starting point."
+                }
+              ]
+            }
           },
           "meta": {
             "timeMinutes": 45,
@@ -9275,12 +9715,12 @@
         {
           "name": "Learn proper stretching techniques",
           "slug": "learn-proper-stretching-techniques",
-          "description": "Learn safe stretching form for the muscle groups you use (and neglect) most.",
+          "description": "Static stretching means gently holding a position; dynamic movement means moving through a comfortable range.",
           "image": "/activities/fitness-health.png",
           "seo": {
-            "title": "Proper Stretching Technique: Static vs Dynamic",
-            "metaDescription": "Learn proper stretching technique, including when static stretching helps and when it hinders, how long to hold, and why bouncing is a bad idea.",
-            "primaryKeyword": "proper stretching technique",
+            "title": "Static Stretching and Dynamic Movement: Beginner Guide",
+            "metaDescription": "Static stretching means gently holding a position; dynamic movement means moving through a comfortable range. Learn the difference before choosing a…",
+            "primaryKeyword": "static stretching",
             "secondaryKeywords": [
               "static vs dynamic stretching",
               "how long to hold a stretch",
@@ -9288,50 +9728,68 @@
             ]
           },
           "content": {
-            "intro": "Proper stretching technique is mostly a question of timing rather than form. The research on stretching has shifted considerably, and much of what people were taught at school is now understood differently. An hour spent learning what to do before exercise versus after is more useful than learning another dozen stretches.",
-            "whyItWorks": "Static holds before strength or power work can temporarily reduce force output, which is the opposite of what a warm-up is for. Dynamic movement raises tissue temperature and rehearses the range you are about to use. Knowing which category a given stretch falls into, and when each is appropriate, resolves most of the confusion in one sitting.",
+            "intro": "Static stretching means gently holding a position; dynamic movement means moving through a comfortable range. Learn the difference before choosing a stretching routine. Follow the instructions for a specific exercise, breathe normally and avoid forcing a joint into pain. The NHS flexibility exercises are a useful starting point for gentle home practice.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Learn the two categories",
-                "detail": "Dynamic means moving through a range repeatedly. Static means holding a position at the end of range."
+                "step": "Prepare",
+                "detail": "Choose one exercise and read its starting position and instructions."
               },
               {
-                "step": "Put dynamic work before activity",
-                "detail": "Leg swings, arm circles, controlled lunges. The aim is warming tissue and rehearsing movement, not lengthening it."
+                "step": "Try the practical steps",
+                "detail": "Move gently, breathe normally and use the specified hold or repetition guidance."
               },
               {
-                "step": "Save static holds for afterwards",
-                "detail": "Or as a separate session. This is where longer-term range of motion changes actually come from."
-              },
-              {
-                "step": "Hold for thirty seconds or so",
-                "detail": "Long enough for the tissue to settle. Very brief holds do little, and there is no benefit to holding until it hurts."
-              },
-              {
-                "step": "Never bounce into a stretch",
-                "detail": "Ballistic bouncing risks strain and triggers a reflex that tightens the muscle, which defeats the purpose entirely."
+                "step": "Review and follow up",
+                "detail": "Stop for pain or unusual symptoms; choose an easier version or ask for advice."
               }
             ],
             "tips": [
-              "Stretch to mild tension, never to pain. Pain is a signal to stop, not a measure of effectiveness.",
-              "Breathe normally throughout. Holding your breath increases tension in exactly the tissue you are trying to relax.",
-              "If a stretch reproduces a specific pain or numbness, stop and speak to a doctor or physiotherapist."
+              "It is a position held gently for a period of time rather than repeatedly moving through the range. Use the hold time in the exercise instructions and avoid bouncing or forcing the movement."
             ],
-            "variations": "If your goal is a specific position such as a full squat or overhead reach, work on that pattern under light load rather than passively stretching, since strength through range transfers better. If you sit all day, prioritize hips and chest, which is where most desk-related restriction accumulates.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "Should I stretch before or after exercise?",
-                "a": "Dynamic movement before, static holds afterwards. Static stretching immediately before strength or sprint work can briefly reduce performance."
-              },
-              {
-                "q": "How long should I hold a stretch?",
-                "a": "Around thirty seconds is a reasonable target. There is little benefit to shorter holds and no need to push into pain."
-              },
-              {
-                "q": "Does stretching prevent injury?",
-                "a": "The evidence is more mixed than commonly assumed. This is general information, not medical advice; ask a physiotherapist about your situation."
+                "q": "What is a static stretch?",
+                "a": "It is a position held gently for a period of time rather than repeatedly moving through the range. Use the hold time in the exercise instructions and avoid bouncing or forcing the movement."
               }
-            ]
+            ],
+            "heading": "Static Stretching and Dynamic Movement: Beginner Guide",
+            "sections": [
+              {
+                "heading": "Choose a stretch and learn its technique",
+                "paragraphs": [
+                  "Pick one exercise from the NHS flexibility guidance and read its starting position, movement and suggested repetitions or hold. Set up a stable support if the instructions require one. Try a small range first, keeping the movement controlled. Mild tension is different from pain; stop if you get pain, tingling or dizziness.",
+                  "A warm-up should suit the activity you are about to do. Gentle marching or controlled arm movements are examples of dynamic movement; a held calf position is an example of a static stretch. Avoid copying advanced flexibility positions simply because they look impressive. If you have an injury or a condition affecting movement, ask about appropriate exercises."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/health-fitness",
+                "label": "health & fitness activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/health-fitness/research-posture-correction-exercises",
+                "label": "research posture correction exercises",
+                "after": "."
+              }
+            ],
+            "resources": {
+              "heading": "Further guidance",
+              "intro": "Use these sources to check details and plan your next step.",
+              "checkedOn": "13 October 2026",
+              "links": [
+                {
+                  "label": "NHS flexibility exercises",
+                  "href": "https://www.nhs.uk/live-well/exercise/flexibility-exercises/",
+                  "detail": "Follow the instructions for individual flexibility movements."
+                }
+              ]
+            }
           },
           "meta": {
             "timeMinutes": 45,
@@ -9587,11 +10045,11 @@
         {
           "name": "Research posture correction exercises",
           "slug": "research-posture-correction-exercises",
-          "description": "Find simple daily exercises that counteract hours of sitting and screen time.",
+          "description": "A useful posture exercise routine starts with comfortable movement, manageable strength exercises and breaks from staying in one position.",
           "image": "/activities/fitness-health.png",
           "seo": {
-            "title": "Posture Correction Exercises: Strength Beats Reminders",
-            "metaDescription": "Posture correction exercises work better than sitting up straight because posture is largely a strength and endurance issue, not a discipline problem.",
+            "title": "Posture Exercises: Choose a Gentle Movement Routine",
+            "metaDescription": "A useful posture exercise routine starts with comfortable movement, manageable strength exercises and breaks from staying in one position. Use this hour…",
             "primaryKeyword": "posture correction exercises",
             "secondaryKeywords": [
               "exercises for rounded shoulders",
@@ -9600,50 +10058,68 @@
             ]
           },
           "content": {
-            "intro": "Posture correction exercises exist because reminding yourself to sit up straight does not work for more than about ninety seconds. Holding a position requires muscular endurance you may not have, which is why the useful hour goes on building that endurance rather than on willpower or on buying a posture brace.",
-            "whyItWorks": "The muscles that hold you upright are endurance muscles, and they fatigue. Strengthening the upper back and hips increases how long you can maintain a position before slumping, which is a physical capacity rather than a habit. Frequent position changes address the remainder, since even excellent posture becomes uncomfortable when sustained.",
+            "intro": "A useful posture exercise routine starts with comfortable movement, manageable strength exercises and breaks from staying in one position. Use this hour to explore NHS exercise guidance and choose a few movements you can do comfortably. A general online routine cannot diagnose pain or promise to permanently correct your posture.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Identify your actual pattern",
-                "detail": "Photograph yourself sideways while working, unposed. Most people are surprised, and it tells you what to target."
+                "step": "Prepare",
+                "detail": "Read the setup instructions for one NHS sitting exercise."
               },
               {
-                "step": "Strengthen the upper back",
-                "detail": "Rows and band pull-aparts. Rounded shoulders are usually a weakness pattern rather than a positioning habit."
+                "step": "Try the practical steps",
+                "detail": "Try the movement gently in a comfortable range and stop if symptoms develop."
               },
               {
-                "step": "Open the front",
-                "detail": "Chest and hip flexor mobility work. Sitting shortens both, and strengthening the back alone leaves them fighting each other."
-              },
-              {
-                "step": "Add movement breaks",
-                "detail": "Stand and move every half hour. This does more than any exercise for how you feel at the end of a day."
-              },
-              {
-                "step": "Give it several weeks",
-                "detail": "Strength changes take time. Anything promising a fix in days is selling something rather than describing physiology."
+                "step": "Review and follow up",
+                "detail": "Choose a manageable movement break to repeat, or seek individual advice for persistent symptoms."
               }
             ],
             "tips": [
-              "Skip posture braces. They substitute for the muscles you are trying to strengthen, which is the opposite of helpful.",
-              "There is no single correct posture. Varied positions throughout the day beat one perfect one held rigidly.",
-              "Pain, numbness or tingling down an arm or leg needs a doctor rather than an exercise video."
+              "There is no universal routine or guaranteed permanent fix. Exercises can support strength and mobility, but the right approach depends on your symptoms and needs. Seek individual advice for persistent problems."
             ],
-            "variations": "If your discomfort is specifically neck and shoulder, fix the screen height first, since no amount of exercise compensates for looking down at a laptop all day. If you already train, add pulling volume rather than a separate posture routine; it is the same muscles either way.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "Can bad posture be corrected?",
-                "a": "Positioning generally improves with strength and movement variety. Structural changes are different, which is why persistent problems deserve professional assessment."
-              },
-              {
-                "q": "Do posture correctors work?",
-                "a": "They provide a reminder while worn but do the work your muscles should be doing, so they rarely produce lasting change."
-              },
-              {
-                "q": "How long until posture improves?",
-                "a": "Several weeks of consistent strength work and movement breaks. Anything promising results in days is not describing how muscle adapts."
+                "q": "Can exercises permanently fix poor posture?",
+                "a": "There is no universal routine or guaranteed permanent fix. Exercises can support strength and mobility, but the right approach depends on your symptoms and needs. Seek individual advice for persistent problems."
               }
-            ]
+            ],
+            "heading": "Posture Exercises: Choose a Gentle Movement Routine",
+            "sections": [
+              {
+                "heading": "Build a posture support routine you can repeat",
+                "paragraphs": [
+                  "Start with the NHS sitting exercises, which include a chest stretch and upper-body movements. Read the instructions and choose a stable chair where required. Try one movement gently before adding more; you can write down the exercises you found comfortable rather than completing every exercise immediately.",
+                  "Check your daily setup as well: whether you can reach your keyboard comfortably, put your feet on a stable surface and change position regularly. Choose a short movement break you can repeat. Persistent pain, symptoms after an injury, numbness or weakness need professional assessment rather than a harder “correction” workout."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/health-fitness",
+                "label": "health & fitness activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/health-fitness/learn-proper-stretching-techniques",
+                "label": "learn proper stretching techniques",
+                "after": "."
+              }
+            ],
+            "resources": {
+              "heading": "Further guidance",
+              "intro": "Use these sources to check details and plan your next step.",
+              "checkedOn": "13 October 2026",
+              "links": [
+                {
+                  "label": "NHS sitting exercises",
+                  "href": "https://www.nhs.uk/live-well/exercise/sitting-exercises/",
+                  "detail": "Gentle seated exercises and setup instructions."
+                }
+              ]
+            }
           },
           "meta": {
             "timeMinutes": 45,
@@ -9742,12 +10218,12 @@
         {
           "name": "Learn about heart rate zone training",
           "slug": "learn-about-heart-rate-zone-training",
-          "description": "Learn what the zones mean and how training in each one changes your fitness.",
+          "description": "Heart rate zones describe ranges of exercise intensity, but zone systems and individual heart rates differ.",
           "image": "/activities/fitness-health.png",
           "seo": {
-            "title": "Heart Rate Zone Training Explained Without a Lab",
-            "metaDescription": "Understand heart rate zone training: what the zones mean, why the 220-minus-age formula is unreliable, and how to find your zones by feel instead.",
-            "primaryKeyword": "heart rate zone training",
+            "title": "Heart Rate Zones: Understand Exercise Intensity",
+            "metaDescription": "Heart rate zones describe ranges of exercise intensity, but zone systems and individual heart rates differ. An age-based estimate is not a personal…",
+            "primaryKeyword": "heart rate zone",
             "secondaryKeywords": [
               "max heart rate formula accuracy",
               "zone 2 training",
@@ -9755,50 +10231,68 @@
             ]
           },
           "content": {
-            "intro": "Heart rate zone training is a way of describing exercise intensity rather than a training method in itself. The zones map to different physiological demands, which is genuinely useful. The complication is that the standard formula for finding them is far less accurate than the precision of the resulting numbers implies.",
-            "whyItWorks": "Most people train everything at a moderate middle intensity, too hard to build an aerobic base and too easy to develop speed. Zones make that visible and push you toward genuine easy and genuine hard days. The talk test achieves much the same result without any device, which is why it remains the most practical approach.",
+            "intro": "Heart rate zones describe ranges of exercise intensity, but zone systems and individual heart rates differ. An age-based estimate is not a personal measurement or a precise threshold. Use this session to understand the display on your device and compare it with how the activity feels.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Learn what the zones represent",
-                "detail": "Roughly: easy aerobic, steady, threshold, and hard. Each stresses a different system and produces a different adaptation."
+                "step": "Prepare",
+                "detail": "Find out which zone method your device or plan uses."
               },
               {
-                "step": "Understand the formula's limits",
-                "detail": "Two-twenty minus age has a wide error range across individuals. Treat any zone derived from it as approximate."
+                "step": "Try the practical steps",
+                "detail": "Compare its estimate with your sense of effort without treating it as a measured threshold."
               },
               {
-                "step": "Use the talk test instead",
-                "detail": "Easy means full sentences comfortably. Threshold means a few words. Hard means none. This is remarkably reliable."
-              },
-              {
-                "step": "Make easy days genuinely easy",
-                "detail": "Most people's easy runs are too hard. Slowing down is the change that improves aerobic fitness most."
-              },
-              {
-                "step": "Keep hard days few",
-                "detail": "One or two per week at most. The adaptation comes from recovering between them, not from accumulating them."
+                "step": "Review and follow up",
+                "detail": "Get individual guidance if health conditions or medication affect exercise limits."
               }
             ],
             "tips": [
-              "Chest strap monitors are considerably more accurate than wrist optical sensors, particularly at higher intensities.",
-              "Heart rate drifts upward in heat and with dehydration, so the same effort reads higher on a hot day.",
-              "Talk to a doctor before starting structured intensity work if you have any cardiovascular condition."
+              "No. It gives a practical sense of effort, but does not measure a precise threshold or assign a universal numbered zone. Zone definitions and individual responses differ."
             ],
-            "variations": "If you have no monitor at all, use the talk test exclusively; it captures most of the benefit for free. If you train seriously and want accurate zones, a field test or a lab assessment gives real numbers, which the age formula fundamentally cannot.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "Is 220 minus age accurate?",
-                "a": "Only as a rough population average. Individual maximum heart rates vary widely, so zones built on it are approximate at best."
-              },
-              {
-                "q": "What is zone 2 training?",
-                "a": "Easy aerobic work where you can hold a conversation comfortably. It builds an aerobic base and is where many people train too hard."
-              },
-              {
-                "q": "Do I need a heart rate monitor?",
-                "a": "No. The talk test approximates zones well for most purposes. This is general information rather than medical advice."
+                "q": "Does the talk test tell me my exact heart rate zone?",
+                "a": "No. It gives a practical sense of effort, but does not measure a precise threshold or assign a universal numbered zone. Zone definitions and individual responses differ."
               }
-            ]
+            ],
+            "heading": "Heart Rate Zones: Understand Exercise Intensity",
+            "sections": [
+              {
+                "heading": "Use zones as estimates rather than exact limits",
+                "paragraphs": [
+                  "Check whether your device uses maximum heart rate, heart rate reserve or another method. Two devices can assign different labels to the same effort. The aerobic and threshold labels you see describe a training model; a formula alone does not measure your individual threshold.",
+                  "The BHF describes a talk test as another way to judge moderate effort: breathing increases while conversation remains possible. This does not assign an exact numbered zone. Medication, health conditions and other factors can affect heart rate. Ask your clinician or exercise professional for individual guidance if you have a heart condition or specific restrictions."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/health-fitness",
+                "label": "health & fitness activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/health-fitness/create-a-weekly-workout-plan",
+                "label": "create a weekly workout plan",
+                "after": "."
+              }
+            ],
+            "resources": {
+              "heading": "Further guidance",
+              "intro": "Use these sources to check details and plan your next step.",
+              "checkedOn": "13 October 2026",
+              "links": [
+                {
+                  "label": "BHF exercise heart rate guidance",
+                  "href": "https://www.bhf.org.uk/informationsupport/heart-matters-magazine/medical/ask-the-experts/heart-rate-exercise",
+                  "detail": "Explains heart rate during exercise and the talk test."
+                }
+              ]
+            }
           },
           "meta": {
             "timeMinutes": 45,
@@ -9896,12 +10390,12 @@
         {
           "name": "Do a 20-minute bodyweight workout",
           "slug": "do-a-20-minute-bodyweight-workout",
-          "description": "No equipment needed: squats, push-ups, lunges, and planks in your living room.",
+          "description": "A beginner bodyweight workout can use a few familiar movements, comfortable repetitions and regular rests.",
           "image": "/activities/fitness-health.png",
           "seo": {
-            "title": "Do a 20-Minute Bodyweight Workout With No Equipment",
-            "metaDescription": "A 20-minute bodyweight workout covering push, pull, legs and core, with regressions for every movement so you can start wherever you actually are.",
-            "primaryKeyword": "20-minute bodyweight workout",
+            "title": "Plan a 20-Minute Bodyweight Workout for Beginners",
+            "metaDescription": "A beginner bodyweight workout can use a few familiar movements, comfortable repetitions and regular rests. Use a clear space and stable equipment where…",
+            "primaryKeyword": "20 minute bodyweight workout",
             "secondaryKeywords": [
               "no equipment home workout",
               "push up progression",
@@ -9909,50 +10403,68 @@
             ]
           },
           "content": {
-            "intro": "A 20-minute bodyweight workout is enough to be worth doing, which is the main thing standing between most people and exercising at all. Covering a push, a hinge, a squat and a core movement hits nearly everything. The equipment problem disappears and so does the excuse about not having time to get to a gym.",
-            "whyItWorks": "Movement patterns matter more than specific exercises, and four patterns cover the body adequately. Bodyweight work also scales in both directions through leverage: an incline push-up and a decline push-up are the same movement at different difficulties. That makes the same twenty minutes appropriate whether it is your first session or your hundredth.",
+            "intro": "A beginner bodyweight workout can use a few familiar movements, comfortable repetitions and regular rests. Use a clear space and stable equipment where needed. Choose exercises you already know how to perform, or learn them from an NHS guide before making a timed circuit.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Warm up for three minutes",
-                "detail": "Marching on the spot, arm circles, bodyweight squats. Enough to raise your temperature and rehearse the movements you are about to do under load."
+                "step": "Prepare",
+                "detail": "Choose familiar exercises and prepare a clear space with stable support if needed."
               },
               {
-                "step": "Pick one movement per pattern",
-                "detail": "Push-up, glute bridge, squat, plank. Four exercises is genuinely sufficient for a full-body session."
+                "step": "Try the practical steps",
+                "detail": "Alternate comfortable repetitions with rest rather than exercising continuously for the timer."
               },
               {
-                "step": "Scale to your current level",
-                "detail": "Push-ups on a wall, a counter, or the floor. Choose the version where the last rep is hard but controlled."
-              },
-              {
-                "step": "Do three rounds with short rests",
-                "detail": "Eight to twelve reps each, forty-five seconds between rounds. That structure fills roughly fifteen minutes."
-              },
-              {
-                "step": "Finish with two minutes of stretching",
-                "detail": "Static holds are appropriate here, after the work rather than before it."
+                "step": "Review and follow up",
+                "detail": "Finish with easier movement and review whether the choices were suitable."
               }
             ],
             "tips": [
-              "Control the lowering phase rather than dropping into each rep. Slow eccentrics build more strength than rushing through repetitions.",
-              "Progress by changing leverage or adding reps, not by adding exercises. Four patterns remain enough for a long time.",
-              "Stop if you feel chest pain, dizziness or unusual breathlessness, and speak to a doctor."
+              "Some exercises use only your body, while others need a stable chair or wall. Choose a clear area and follow the setup instructions. Avoid using unstable furniture as exercise equipment."
             ],
-            "variations": "If twenty minutes is too much today, do one round; a single round completed beats three planned. If you find the movements easy, slow the tempo to a three-second lowering phase before adding difficulty, which is harder than most people expect.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "Can bodyweight training build real strength?",
-                "a": "Yes, particularly for beginners and through harder leverage variations. Progression eventually needs added load for lower body strength."
-              },
-              {
-                "q": "What if I cannot do a push-up?",
-                "a": "Start against a wall, then a counter, then a bench. It is the same movement at reducing difficulty, and progress comes quickly."
-              },
-              {
-                "q": "Is 20 minutes long enough?",
-                "a": "For general fitness, yes, especially done consistently. This is general information and not medical advice."
+                "q": "Do I need equipment for a bodyweight workout?",
+                "a": "Some exercises use only your body, while others need a stable chair or wall. Choose a clear area and follow the setup instructions. Avoid using unstable furniture as exercise equipment."
               }
-            ]
+            ],
+            "heading": "Plan a 20-Minute Bodyweight Workout for Beginners",
+            "sections": [
+              {
+                "heading": "A 20-minute session structure",
+                "paragraphs": [
+                  "An example structure is four minutes of easy movement, twelve minutes alternating suitable strength exercises with rest, and four minutes slowing down. Options to explore include a supported sit-to-stand, a wall press-up and a calf raise using stable support. Check each exercise’s instructions and adjust repetitions to your ability.",
+                  "The timer describes the session length, not a demand to keep working continuously. Rest when needed and stop for pain, dizziness or unusual breathlessness. If these movements are unfamiliar, spend the session learning one or two instead. A shorter comfortable session is a useful starting point."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/health-fitness",
+                "label": "health & fitness activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/health-fitness/create-a-weekly-workout-plan",
+                "label": "create a weekly workout plan",
+                "after": "."
+              }
+            ],
+            "resources": {
+              "heading": "Further guidance",
+              "intro": "Use these sources to check details and plan your next step.",
+              "checkedOn": "13 October 2026",
+              "links": [
+                {
+                  "label": "NHS strength and flexibility guidance",
+                  "href": "https://www.nhs.uk/live-well/exercise/how-to-improve-strength-flexibility/",
+                  "detail": "General guidance and routes to strength exercises."
+                }
+              ]
+            }
           },
           "meta": {
             "timeMinutes": 20,
@@ -9974,12 +10486,12 @@
         {
           "name": "Take a brisk 30-minute walk",
           "slug": "take-a-brisk-30-minute-walk",
-          "description": "Get your heart rate up with a purposeful walk — one of the most underrated workouts there is.",
+          "description": "Brisk walking means walking at a pace that makes you breathe faster while still being able to talk.",
           "image": "/activities/fitness-health.png",
           "seo": {
-            "title": "Take a Brisk 30-Minute Walk and Make It Count",
-            "metaDescription": "A brisk 30-minute walk is one of the best-supported health habits there is. Get the pace right, pick a route that removes decisions, and go today.",
-            "primaryKeyword": "brisk 30-minute walk",
+            "title": "What Is Brisk Walking? A 30-Minute Walk Plan",
+            "metaDescription": "Brisk walking means walking at a pace that makes you breathe faster while still being able to talk. The NHS describes moderate effort as being able to…",
+            "primaryKeyword": "brisk walking",
             "secondaryKeywords": [
               "what counts as brisk walking",
               "walking for health benefits",
@@ -9987,50 +10499,68 @@
             ]
           },
           "content": {
-            "intro": "A brisk 30-minute walk is unglamorous and extremely well supported by evidence, which is an unusual combination. It requires nothing, suits almost every fitness level, and the effects on cardiovascular health, mood and sleep are consistent across a large body of research. The main obstacle is that it sounds too simple to bother with.",
-            "whyItWorks": "Brisk means raising your heart rate and breathing while still being able to hold a conversation, which is enough to produce genuine cardiovascular adaptation. Because the intensity is low, recovery is quick and it can be done daily. That repeatability is why walking accumulates more total benefit than harder exercise done occasionally.",
+            "intro": "Brisk walking means walking at a pace that makes you breathe faster while still being able to talk. The NHS describes moderate effort as being able to talk but not sing. Your useful pace depends on your fitness, terrain and circumstances, so a brisk walk does not require one fixed speed or distance.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Set the pace by breathing",
-                "detail": "You should be able to talk but not sing. That is the whole definition of brisk, and it needs no device."
+                "step": "Prepare",
+                "detail": "Choose a familiar route and a duration you can manage."
               },
               {
-                "step": "Choose the route in advance",
-                "detail": "A fixed loop removes the decision, which is the point at which most walks fail to happen."
+                "step": "Try the practical steps",
+                "detail": "Begin easily, then use comfortable breathing and conversation to judge a brisk effort."
               },
               {
-                "step": "Attach it to something fixed",
-                "detail": "After lunch, before a meeting, straight after work. Anchored habits survive; floating intentions do not."
-              },
-              {
-                "step": "Walk outside if you can",
-                "detail": "Daylight supports sleep timing and mood, adding a second benefit to the same half hour."
-              },
-              {
-                "step": "Add hills or pace to progress",
-                "detail": "Once it feels easy, increase pace or find an incline rather than simply walking further."
+                "step": "Review and follow up",
+                "detail": "Slow down to finish and note whether the route and duration suited you."
               }
             ],
             "tips": [
-              "Split it into two fifteen-minute walks if that fits better. The benefits accumulate across the day.",
-              "Leave the podcast off occasionally. Walking without input is a different and often more useful experience.",
-              "Build up gradually if you have been inactive, and speak to a doctor if you have any cardiovascular condition."
+              "It lasts half an hour, but the distance varies. For example, a steady 4 km/h gives 2 km in thirty minutes. Stops and slower sections reduce the distance."
             ],
-            "variations": "If thirty minutes is not available, ten minutes still counts and is meaningfully better than nothing. If you want more from the same time, add a weighted backpack or find a hilly route, both of which raise the intensity without requiring you to move faster.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "What counts as brisk walking?",
-                "a": "A pace where you can talk in sentences but not sing. Breathing should be noticeably raised without becoming laboured."
-              },
-              {
-                "q": "Is walking enough exercise on its own?",
-                "a": "It covers cardiovascular health well. Adding some resistance work addresses strength and bone density, which walking does not."
-              },
-              {
-                "q": "Does it have to be thirty minutes at once?",
-                "a": "No. Shorter walks accumulate. Three ten-minute walks appear to deliver much of the same benefit as one longer one."
+                "q": "How long is a 30-minute walk?",
+                "a": "It lasts half an hour, but the distance varies. For example, a steady 4 km/h gives 2 km in thirty minutes. Stops and slower sections reduce the distance."
               }
-            ]
+            ],
+            "heading": "What Is Brisk Walking? A 30-Minute Walk Plan",
+            "sections": [
+              {
+                "heading": "A flexible 30-minute brisk walk",
+                "paragraphs": [
+                  "Choose a familiar route with a safe surface and crossing points. A sample outing is five minutes at an easy pace, up to twenty minutes at a comfortable brisk effort, then five easy minutes. This is a planning example: shorten it, take breaks or use a gentler pace to suit you.",
+                  "Distance equals speed multiplied by time. At an illustrative 4 km/h, thirty minutes covers 2 km; at 5 km/h it covers 2.5 km. Crossings, rests and slopes change the result. You do not need to reach either distance. Use breathing and comfort to judge your effort rather than chasing another person’s pace."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/health-fitness",
+                "label": "health & fitness activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/outdoor/take-a-walk-in-a-nearby-park-and-observe-nature",
+                "label": "take a walk in a nearby park and observe nature",
+                "after": "."
+              }
+            ],
+            "resources": {
+              "heading": "Further guidance",
+              "intro": "Use these sources to check details and plan your next step.",
+              "checkedOn": "13 October 2026",
+              "links": [
+                {
+                  "label": "NHS walking for health",
+                  "href": "https://www.nhs.uk/live-well/exercise/walking-for-health/",
+                  "detail": "Guidance on brisk walking and judging moderate effort."
+                }
+              ]
+            }
           },
           "meta": {
             "timeMinutes": 30,

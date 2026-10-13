@@ -35,13 +35,13 @@ export function GET() {
   const all = getAllActivities();
   const written = all.filter(({ activity }) => hasLongForm(activity)).length;
 
-  const body = `# fungen.app
+  const body = `# activitygenerator.co.uk
 
 > Random Activity Generator — ${all.length} things to do with a spare hour, each with a full step-by-step guide.
 
 ## What is this?
 
-fungen.app helps people find something to do with a spare hour. Activities are split
+activitygenerator.co.uk helps people find something to do with a spare hour. Activities are split
 into leisure and productive, across ${leisure.length + productive.length} categories.
 ${written} of the ${all.length} activities have a dedicated guide covering why the
 activity works, how to do it step by step, tips, variations and frequently asked

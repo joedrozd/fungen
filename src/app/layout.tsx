@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { ToastProvider } from "@/components/Toast";
+import { BASE_URL } from "@/lib/activities";
 
 const jakartaSans = localFont({
   src: "./fonts/plus-jakarta-sans-latin.woff2",
@@ -22,7 +23,7 @@ const spaceMono = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://fungen.app"),
+  metadataBase: new URL(BASE_URL),
   title: "Random Activity Generator | Free Things to Do",
   description:
     "Get random ideas for leisure or productive activities. Discover outdoor adventures, creative projects, mindfulness exercises, and more.",

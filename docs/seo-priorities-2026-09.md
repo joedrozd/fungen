@@ -43,7 +43,7 @@ These are two 13-day windows. Clicks were flat while impressions more than doubl
 
 ## Pending GSC performance checks
 
-1. Open the correct fungen.app property and use **Web** search results. Set a custom comparison: **27 August–8 September 2026** versus **9–21 September 2026**, inclusive. Keep all other filters identical, and show clicks, impressions, CTR and position. Export or save the exact filter state with the report. Google documents these dimensions in its [Performance report guidance](https://support.google.com/webmasters/answer/7576553).
+1. Open the correct activitygenerator.co.uk property and use **Web** search results. Set a custom comparison: **27 August–8 September 2026** versus **9–21 September 2026**, inclusive. Keep all other filters identical, and show clicks, impressions, CTR and position. Export or save the exact filter state with the report. Google documents these dimensions in its [Performance report guidance](https://support.google.com/webmasters/answer/7576553).
 2. Inspect query rows for the established general-generator searches separately from newly appearing searches. Define established as visible in the earlier window; label later-only rows “newly observed”, since an absent row need not mean literally zero demand. Compare the same queries in both periods and rank by impression change, then click change. Keep the reported total and any unaccounted difference visible; page and property aggregation differ, and query reporting may omit rows.
 3. Repeat by page. For each leading contributor, apply that exact page filter and inspect its queries. Then split that page/query combination by country and device. Produce a table with query, page, country, device, clicks/impressions/CTR/position in each period and the differences. Calculate combined CTR from summed clicks divided by summed impressions; do not average CTR percentages.
 4. To confirm sports pairing, filter the exact query **how to join local sports leagues**, then open **Pages**. Record whether `/activities/social/join-a-recreational-sports-league` is the receiving URL and whether other pages compete. Reverse the check with the exact page filter and inspect its queries. Preserve the evidence before claiming the sports experiment matches that demand.
@@ -65,13 +65,13 @@ Run these after the revision is publicly deployed. The solo page needs deploymen
 
 | URL | Text and links to check in tested HTML | GSC result |
 | --- | --- | --- |
-| https://fungen.app/ | Random Activity Generator H1; spare-hour introduction; Generate Idea; compact inspiration page link. | Pending |
-| https://fungen.app/find-your-next-activity | Find your next activity H1; choice guidance; creative, social and solo sections; all five featured page links. | Pending |
-| https://fungen.app/activities/social/join-a-recreational-sports-league | Beginner H1; directory links; individual registration steps; fee/trial questions; social and meetup links. | Pending |
-| https://fungen.app/activities/social | Introduction; prominent sports and solo links; activity guide links. | Pending |
-| https://fungen.app/activities/creative/create-a-collage-from-magazine-cutouts | Full collage instructions; blackout-poetry and creative-hub links. | Pending |
-| https://fungen.app/activities/creative | Category text; prominent collage and solo links; activity guide links. | Pending |
-| https://fungen.app/solo-day-out-generator | Solo H1; 30–60 minute scope; initial outing and examples; controls; homepage and guide links. | Pending |
+| https://www.activitygenerator.co.uk/ | Random Activity Generator H1; spare-hour introduction; Generate Idea; compact inspiration page link. | Pending |
+| https://www.activitygenerator.co.uk/find-your-next-activity | Find your next activity H1; choice guidance; creative, social and solo sections; all five featured page links. | Pending |
+| https://www.activitygenerator.co.uk/activities/social/join-a-recreational-sports-league | Beginner H1; directory links; individual registration steps; fee/trial questions; social and meetup links. | Pending |
+| https://www.activitygenerator.co.uk/activities/social | Introduction; prominent sports and solo links; activity guide links. | Pending |
+| https://www.activitygenerator.co.uk/activities/creative/create-a-collage-from-magazine-cutouts | Full collage instructions; blackout-poetry and creative-hub links. | Pending |
+| https://www.activitygenerator.co.uk/activities/creative | Category text; prominent collage and solo links; activity guide links. | Pending |
+| https://www.activitygenerator.co.uk/solo-day-out-generator | Solo H1; 30–60 minute scope; initial outing and examples; controls; homepage and guide links. | Pending |
 
 For each URL, record indexed status, last crawl, fetch outcome, crawl/index permission, user-declared canonical and Google-selected canonical. Run **Test live URL**, then open **View tested page** to check HTML, screenshot and resource/JavaScript issues. Verify real `<a href>` links as well as text. The live test does not establish Google's selected canonical or guarantee indexing; inspect the indexed report separately. See [Google’s URL Inspection documentation](https://support.google.com/webmasters/answer/9012289).
 

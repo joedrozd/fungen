@@ -1,10 +1,11 @@
 import { readFileSync } from "fs";
 import { join } from "path";
 
-export const BASE_URL = "https://fungen.app";
+export const BASE_URL = "https://www.activitygenerator.co.uk";
 
 export type HowToStep = { step: string; detail: string };
 export type FaqItem = { q: string; a: string };
+export type ContentSection = { heading: string; paragraphs: string[] };
 
 export type ContextualLink = { before: string; href: string; label: string; after: string };
 
@@ -17,6 +18,7 @@ export type ActivitySeo = {
 
 export type ActivityContent = {
   heading?: string;
+  sections?: ContentSection[];
   intro: string;
   whyItWorks: string;
   howTo: HowToStep[];
@@ -65,6 +67,9 @@ export type Activity = {
 };
 
 export type CategoryContent = {
+  heading?: string;
+  sections?: ContentSection[];
+  faq?: FaqItem[];
   intro: string;
   body: string;
   nextIdeas?: ContextualLink[];
@@ -74,6 +79,7 @@ export type Category = {
   name: string;
   slug: string;
   description?: string;
+  seo?: ActivitySeo;
   content?: CategoryContent;
   activities: Activity[];
 };

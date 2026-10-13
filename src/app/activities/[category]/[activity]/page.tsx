@@ -217,6 +217,15 @@ export default async function ActivityPage({ params }: PageProps) {
             <div className="bg-card rounded-2xl p-6 md:p-8 shadow-none border border-border mb-8">
               <p className="text-lg text-foreground leading-relaxed mb-8">{content.intro}</p>
 
+              {content.sections?.map((section) => (
+                <section key={section.heading} className="mb-8">
+                  <h2 className="text-2xl font-semibold text-primary mb-3">{section.heading}</h2>
+                  {section.paragraphs.map((paragraph, index) => (
+                    <p key={index} className="text-foreground leading-relaxed mb-3">{paragraph}</p>
+                  ))}
+                </section>
+              ))}
+
               <h2 className="text-2xl font-semibold text-primary mb-3">
                 Why {lowerFirst(activity.name)} is worth an hour
               </h2>
@@ -234,7 +243,7 @@ export default async function ActivityPage({ params }: PageProps) {
                       </li>
                     ))}
                   </ul>
-                  <p className="text-sm text-muted-foreground mt-4">Directory information checked {content.resources.checkedOn}. Confirm current availability and prices with the organiser.</p>
+                  <p className="text-sm text-muted-foreground mt-4">Sources checked {content.resources.checkedOn}. Check the linked source for current details.</p>
                 </section>
               )}
 

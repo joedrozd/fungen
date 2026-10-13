@@ -85,12 +85,12 @@
         {
           "name": "Visit a local park you've never been to",
           "slug": "visit-a-local-park-you-ve-never-been-to",
-          "description": "Explore a new green space in your area—you might discover hidden trails, playgrounds, or peaceful spots to relax.",
+          "description": "A visit to a new local park can be a short nature outing without a long journey.",
           "image": "/images/activities/visit-a-local-park-you-ve-never-been-to.jpg",
           "seo": {
-            "title": "Visit a Local Park You Have Never Been To Before",
-            "metaDescription": "Most people use one park out of pure habit. Find the ones you have never visited using satellite view, pick the odd-looking one, and go this week.",
-            "primaryKeyword": "visit a local park you have never been to",
+            "title": "Visit a New Local Park: Plan a Short Outing",
+            "metaDescription": "A visit to a new local park can be a short nature outing without a long journey. Find a public entrance, check opening information and choose a route…",
+            "primaryKeyword": "local park outing",
             "secondaryKeywords": [
               "finding green spaces near me",
               "hidden parks in your area",
@@ -98,7 +98,7 @@
             ]
           },
           "content": {
-            "intro": "Nearly everyone uses one park, the nearest or the most obvious, and has never set foot in the others. To visit a local park you have never been to takes fifteen minutes of map browsing and one trip, and the odds are good that something within a couple of miles is better than your default.",
+            "intro": "A visit to a new local park can be a short nature outing without a long journey. Find a public entrance, check opening information and choose a route suited to your mobility and the weather. Allow travel separately from the time you want to spend there.",
             "whyItWorks": "Familiarity is doing all the choosing, and it is not choosing on quality. Map view reveals green space that is invisible from the road, particularly small parks tucked behind housing and linear parks following old railway lines or rivers. Those are exactly the ones that never get discovered by accident, because no route passes them.",
             "howTo": [
               {
@@ -130,6 +130,10 @@
             "variations": "If your area is genuinely short of parks, look at cemeteries and churchyards, which are often the oldest and richest habitat in a town. If you drive, widen the radius to twenty minutes and treat it as a short outing rather than a walk.",
             "faq": [
               {
+                "q": "How do I find an accessible local park?",
+                "a": "Check official access information for surfaces, gradients, entrances, toilets and parking. Contact the operator if the details do not answer your needs; map distance alone does not establish accessibility."
+              },
+              {
                 "q": "How do I find parks near me I do not know about?",
                 "a": "Satellite map view, plus your local council's parks listing. Small and awkwardly shaped green spaces rarely appear otherwise."
               },
@@ -140,6 +144,30 @@
               {
                 "q": "Are cemeteries worth visiting for green space?",
                 "a": "Often, yes. Older cemeteries and churchyards are frequently the most undisturbed habitat in a built-up area."
+              }
+            ],
+            "heading": "Visit a New Local Park: Plan a Short Outing",
+            "sections": [
+              {
+                "heading": "Choose one thing to notice in the park",
+                "paragraphs": [
+                  "Check the council or park operator’s visitor page for paths, toilets, parking and current closures. Decide whether you want a quiet bench, a short walk or a place to take photographs. A large green area on a map may have limited entrances or private sections.",
+                  "Once there, follow a marked path and notice three details: a plant shape, a sound and a change in light. Use a bench break if you want a gentler outing. Leave wildlife and plants undisturbed and follow local dog and cycling rules."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/outdoor",
+                "label": "outdoor activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/outdoor/take-a-walk-in-a-nearby-park-and-observe-nature",
+                "label": "take a walk in a nearby park and observe nature",
+                "after": "."
               }
             ]
           },
@@ -637,12 +665,12 @@
         {
           "name": "Watch the sunrise or sunset outdoors",
           "slug": "watch-the-sunrise-or-sunset-outdoors",
-          "description": "Find a clear vantage point and take in the stunning colors as the sun rises or sets—a simple, unforgettable experience.",
+          "description": "A sunrise or sunset outing needs a suitable viewing spot, the local time for your chosen date and a safe way home.",
           "image": "/images/activities/watch-the-sunrise-or-sunset-outdoors.jpg",
           "seo": {
-            "title": "Watch the Sunrise or Sunset Outdoors Properly",
-            "metaDescription": "The best color comes twenty minutes after sunset and before sunrise, when most people have already left. Arrive early, stay late, face the right way.",
-            "primaryKeyword": "watch the sunrise or sunset outdoors",
+            "title": "Plan a Sunrise or Sunset Outing Safely",
+            "metaDescription": "A sunrise or sunset outing needs a suitable viewing spot, the local time for your chosen date and a safe way home. Choose somewhere you know and check…",
+            "primaryKeyword": "sunrise sunset outing",
             "secondaryKeywords": [
               "golden hour timing",
               "blue hour photography",
@@ -650,7 +678,7 @@
             ]
           },
           "content": {
-            "intro": "Almost everyone who goes to watch the sunrise or sunset outdoors leaves at the wrong moment. The sun itself is not the best part. The twenty minutes after it drops below the horizon, and the twenty before it appears, produce far more color, and by then most people have already packed up and gone.",
+            "intro": "A sunrise or sunset outing needs a suitable viewing spot, the local time for your chosen date and a safe way home. Choose somewhere you know and check access hours. Cloud and terrain affect what you see, so treat the outing as time outdoors rather than a guaranteed photograph.",
             "whyItWorks": "When the sun is below the horizon its light passes through much more atmosphere and reaches clouds from underneath, which is what produces the intense color. That requires clouds: a completely clear sky gives a clean but muted result, while high broken cloud gives the spectacular version. Knowing this lets you predict whether an evening is worth the trip.",
             "howTo": [
               {
@@ -682,6 +710,10 @@
             "variations": "If you want the photographic version, arrive an hour early and shoot through the whole transition rather than only at the peak. If you want the calm rather than the spectacle, sunrise is dramatically quieter than sunset almost everywhere.",
             "faq": [
               {
+                "q": "Does a sunset outing need clear weather?",
+                "a": "Clear weather is not essential for enjoying time outside, but cloud can obscure the sunset. Check the forecast and choose a safe nearby spot with an easy return route."
+              },
+              {
                 "q": "When is the best color, before or after sunset?",
                 "a": "Usually about twenty minutes after, when light passes through more atmosphere and lights clouds from below."
               },
@@ -692,6 +724,30 @@
               {
                 "q": "Is sunrise or sunset better?",
                 "a": "Similar light, very different atmosphere. Sunrise is quieter and colder; sunset is warmer and considerably busier."
+              }
+            ],
+            "heading": "Plan a Sunrise or Sunset Outing Safely",
+            "sections": [
+              {
+                "heading": "Prepare for changing light",
+                "paragraphs": [
+                  "Check the sunrise or sunset time for the location and date using a current weather or astronomy source. Arrive with enough time to settle without rushing. For sunset, plan the route back before darkness; for sunrise, think about the journey while it is still dark.",
+                  "Take suitable clothing and a torch if the return route needs one. Use public paths and avoid cliff edges, exposed viewpoints or places with uncertain access. Never look directly at the sun, including through a camera or binoculars. A sheltered nearby viewpoint can be a better choice than a remote site."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/outdoor",
+                "label": "outdoor activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/outdoor/have-a-picnic-in-a-scenic-spot",
+                "label": "have a picnic in a scenic spot",
+                "after": "."
               }
             ]
           },
@@ -953,12 +1009,12 @@
         {
           "name": "Visit a nature reserve",
           "slug": "visit-a-nature-reserve",
-          "description": "Explore protected habitats, spot wildlife in their natural environment, and learn about local conservation efforts.",
+          "description": "To find a nature reserve near you, start with a UK reserve directory, then check the individual site’s access information.",
           "image": "/images/activities/visit-a-nature-reserve.jpg",
           "seo": {
-            "title": "Visit a Nature Reserve and Time It for the Wildlife",
-            "metaDescription": "Reserves are managed for specific species and seasons. Check what is there this month, use the hides properly, and arrive when the animals are active.",
-            "primaryKeyword": "visit a nature reserve",
+            "title": "Nature Reserves Near You: Plan a Short Wildlife Visit",
+            "metaDescription": "To find a nature reserve near you, start with a UK reserve directory, then check the individual site’s access information. Choose a short marked route or…",
+            "primaryKeyword": "nature reserve near me",
             "secondaryKeywords": [
               "how to use a bird hide",
               "wildlife reserve etiquette",
@@ -966,50 +1022,73 @@
             ]
           },
           "content": {
-            "intro": "A nature reserve differs from a park in that it is managed for particular species rather than for people, which means timing matters far more. To visit a nature reserve well, check what is actually present this month before going, because the same site can be spectacular in one season and quiet in another.",
-            "whyItWorks": "Reserves publish sightings, often updated daily, and that information turns a hopeful wander into a targeted visit. Hides work because they conceal you completely, which lets animals behave normally at close range. Both are free advantages that most casual visitors ignore, arriving at midday and walking loudly past the hide.",
+            "intro": "To find a nature reserve near you, start with a UK reserve directory, then check the individual site’s access information. Choose a short marked route or viewing point that fits your available time. A reserve is managed to protect habitats and wildlife; some welcome visitors freely, while others have restricted access, opening hours or charges.",
+            "whyItWorks": "Choosing a route from the official visitor information helps you spend your outing observing habitat rather than searching for an entrance. Wildlife sightings vary by species, season and conditions; a visit can be worthwhile without seeing a particular animal.",
             "howTo": [
               {
-                "step": "Check the recent sightings board",
-                "detail": "Online before you go, and at the visitor centre on arrival. It tells you where to spend your time."
+                "step": "Prepare",
+                "detail": "Choose a nearby site from the reserve finder and check the official entrance."
               },
               {
-                "step": "Go early or late",
-                "detail": "Most wildlife is active at dawn and dusk. Midday visits are pleasant walks with little to see."
+                "step": "Try the practical steps",
+                "detail": "Confirm access, route length, charges and current closures before travelling."
               },
               {
-                "step": "Use the hides properly",
-                "detail": "Enter quietly, close the door, sit still for ten minutes before expecting anything. Movement is what animals detect."
-              },
-              {
-                "step": "Stay on the paths",
-                "detail": "Reserves are managed habitat and off-path walking causes real damage, particularly in breeding season."
-              },
-              {
-                "step": "Ask staff or volunteers",
-                "detail": "They know exactly what has been seen this week and where. It is the fastest possible shortcut."
+                "step": "Review and follow up",
+                "detail": "Follow permitted paths and spend time observing; leave wildlife and plants undisturbed."
               }
             ],
             "tips": [
-              "Wear dull colors and avoid noisily rustling waterproofs where you can. Both matter considerably more than most visitors expect.",
-              "Check for seasonal path closures during nesting season, which are there for good reason.",
-              "Many reserves are free or run by membership organizations where a year's access costs little."
+              "Some are free; others charge admission or parking, require booking, or restrict public access. Check the specific reserve’s visitor information before leaving."
             ],
-            "variations": "If you have limited time, spend the entire visit in one hide rather than walking the whole site; sitting still for an hour usually beats covering ground. If you visit the same reserve regularly, keep a record by month, which quickly shows you its rhythm.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "When is the best time to visit a nature reserve?",
-                "a": "Dawn or dusk, when most wildlife is active. Check the reserve's recent sightings first, since seasons vary enormously."
-              },
-              {
-                "q": "How do I use a bird hide?",
-                "a": "Enter quietly, close the door behind you, and sit still for ten minutes. Movement, not presence, is what disturbs wildlife."
-              },
-              {
-                "q": "Why must I stay on the paths?",
-                "a": "Reserves are actively managed habitat, and off-path walking damages it, particularly during nesting and breeding seasons."
+                "q": "Are nature reserves free to visit?",
+                "a": "Some are free; others charge admission or parking, require booking, or restrict public access. Check the specific reserve’s visitor information before leaving."
               }
-            ]
+            ],
+            "heading": "Nature Reserves Near You: Plan a Short Wildlife Visit",
+            "sections": [
+              {
+                "heading": "How to choose a nature day out near you",
+                "paragraphs": [
+                  "Search The Wildlife Trusts reserve finder by your location, or use the GOV.UK links to national nature reserves. Compare two sites by journey time, public transport, parking, paths and facilities. A result close on a map may have its visitor entrance on the other side, so use the official entrance directions.",
+                  "For a one-hour outing, allow for travel separately and pick one short trail or hide. Check seasonal closures, step-free access, dog rules and admission or parking charges on the reserve’s own page. You can look for birds, insects, plants or habitat features without needing binoculars or a guaranteed sighting. Leave plants and wildlife undisturbed."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/outdoor",
+                "label": "outdoor activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/outdoor/visit-a-botanical-garden",
+                "label": "visit a botanical garden",
+                "after": "."
+              }
+            ],
+            "resources": {
+              "heading": "Further guidance",
+              "intro": "Use these sources to check details and plan your next step.",
+              "checkedOn": "13 October 2026",
+              "links": [
+                {
+                  "label": "The Wildlife Trusts nature reserve finder",
+                  "href": "https://www.wildlifetrusts.org/nature-reserves",
+                  "detail": "Find UK reserves and follow through to site-specific visitor information."
+                },
+                {
+                  "label": "GOV.UK green spaces and nature reserves",
+                  "href": "https://www.gov.uk/find-nature-reserves-national-parks-and-greenspaces",
+                  "detail": "Starting points for national nature reserves and public green spaces."
+                }
+              ]
+            }
           },
           "meta": {
             "timeMinutes": 60,
@@ -1018,9 +1097,10 @@
             "indoor": false,
             "solo": true,
             "equipment": [
-              "binoculars",
-              "quiet clothing",
-              "waterproofs"
+              "suitable footwear",
+              "weather-appropriate clothing",
+              "water",
+              "binoculars (optional)"
             ]
           },
           "related": [
@@ -1531,11 +1611,11 @@
         {
           "name": "Collect natural treasures for a display",
           "slug": "collect-natural-treasures-for-a-display",
-          "description": "Gather interesting leaves, stones, or shells on a walk and arrange them into a little display at home.",
+          "description": "A nature display can use photographs, drawings and a few fallen objects collected where permission allows.",
           "seo": {
-            "title": "Collect Natural Treasures for a Display",
-            "metaDescription": "Collect responsibly, dry things properly, and record where each came from. A labelled collection is far more interesting than a bowl of anonymous objects.",
-            "primaryKeyword": "collect natural treasures for a display",
+            "title": "Make a Nature Display Without Disturbing Wildlife",
+            "metaDescription": "A nature display can use photographs, drawings and a few fallen objects collected where permission allows. Look for shapes, colours and textures on a…",
+            "primaryKeyword": "nature display ideas",
             "secondaryKeywords": [
               "nature collecting rules",
               "how to press leaves",
@@ -1543,7 +1623,7 @@
             ]
           },
           "content": {
-            "intro": "To collect natural treasures for a display well, the important step happens at the moment of picking something up, not afterwards. Noting where and when you found it turns an anonymous pretty object into a record, and it is the difference between a collection and a bowl of things nobody can remember the origin of.",
+            "intro": "A nature display can use photographs, drawings and a few fallen objects collected where permission allows. Look for shapes, colours and textures on a short walk. Protected sites may prohibit collecting, and wildlife uses fallen material, so observing an object is often the better choice.",
             "whyItWorks": "Provenance is what makes a natural history collection interesting, which is why museum specimens carry a location and date. It also compounds: a shelf of shells means little, but shells labelled by beach and month starts showing you patterns. Drying properly matters for the plain reason that undried material rots and ruins whatever it is stored with.",
             "howTo": [
               {
@@ -1575,6 +1655,10 @@
             "variations": "If you would rather not remove anything, photograph and catalogue instead, which builds the same record with no impact. If you have children, a small labelled tray per outing works better than one large accumulating collection.",
             "faq": [
               {
+                "q": "Can I collect things from a nature reserve?",
+                "a": "Check the site’s rules; many protected areas prohibit removing material. Photographs and sketches let you create a display while leaving plants, habitat and wildlife undisturbed."
+              },
+              {
                 "q": "Is it legal to collect things from nature?",
                 "a": "It depends where and what. Nature reserves, protected species and some beaches restrict collecting, so check locally first."
               },
@@ -1585,6 +1669,30 @@
               {
                 "q": "Why record where I found something?",
                 "a": "Provenance is what makes a collection interesting rather than decorative, and it reveals patterns across places and seasons."
+              }
+            ],
+            "heading": "Make a Nature Display Without Disturbing Wildlife",
+            "sections": [
+              {
+                "heading": "A small nature display with clear labels",
+                "paragraphs": [
+                  "Choose a theme such as leaf shapes, autumn colours or patterns in bark. Photograph three examples and note where you saw them. If collection is allowed, take only a small amount of common fallen material and leave anything occupied by insects or attached to a living plant.",
+                  "Arrange your finds on a tray or use printed photographs. Add a date and a short observation to each label. Do not bring unknown berries, fungi or animal remains into the display. Wash your hands afterwards and keep small or sharp pieces away from children and pets."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/outdoor",
+                "label": "outdoor activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/outdoor/take-a-walk-in-a-nearby-park-and-observe-nature",
+                "label": "take a walk in a nearby park and observe nature",
+                "after": "."
               }
             ]
           },
@@ -1706,12 +1814,12 @@
         {
           "name": "Do some finger painting",
           "slug": "do-some-finger-painting",
-          "description": "Get messy and embrace playful creativity by painting with your hands—a fun, tactile way to create colorful art.",
+          "description": "Finger painting for adults can be a simple way to explore colour and marks without a brush.",
           "image": "/images/activities/do-some-finger-painting.jpg",
           "seo": {
-            "title": "Do Some Finger Painting as an Adult, Deliberately",
-            "metaDescription": "Finger painting removes the tool between you and the paint. Cover the table, use cheap paper, and work without any plan about what it will become.",
-            "primaryKeyword": "do some finger painting",
+            "title": "Finger Painting for Adults: Easy Ideas and Setup",
+            "metaDescription": "Finger painting for adults can be a simple way to explore colour and marks without a brush. Use paint labelled for finger painting and suitable for skin…",
+            "primaryKeyword": "finger painting for adults",
             "secondaryKeywords": [
               "finger painting for adults",
               "process art",
@@ -1719,7 +1827,7 @@
             ]
           },
           "content": {
-            "intro": "To do some finger painting as an adult sounds faintly ridiculous, which is roughly the point. Removing the brush removes the technique, and removing technique removes the standard you would otherwise be failing to meet. What is left is color, texture and the direct physical contact that makes it unlike any other painting.",
+            "intro": "Finger painting for adults can be a simple way to explore colour and marks without a brush. Use paint labelled for finger painting and suitable for skin contact, protect the table and choose sturdy paper. Start with abstract shapes or a small landscape rather than expecting a polished picture.",
             "whyItWorks": "The absence of a tool changes what you make. Fingers cannot produce fine detail, so the work stays gestural and large, and the immediate tactile feedback keeps attention on the process rather than on evaluating the result. This is why it is used in art therapy contexts and why it remains genuinely absorbing for adults who set up for it properly.",
             "howTo": [
               {
@@ -1751,6 +1859,10 @@
             "variations": "If mess is genuinely impractical, put the paint inside a sealed freezer bag and press through the plastic, which gives the same movement with none of the cleanup. If you want structure, work to a single limited palette across six sheets and see how far one color combination stretches.",
             "faq": [
               {
+                "q": "What paint should adults use for finger painting?",
+                "a": "Choose paint specifically labelled for finger painting and appropriate skin contact. Follow the label, avoid eyes and broken skin, and check ingredients if you have sensitivities."
+              },
+              {
                 "q": "Is finger painting worthwhile for adults?",
                 "a": "As process rather than product, yes. Removing the tool removes technique, and with it most of the self-criticism."
               },
@@ -1761,6 +1873,30 @@
               {
                 "q": "How do I stop everything turning brown?",
                 "a": "Limit yourself to three related colors. All colors meeting on one page reliably produces brown."
+              }
+            ],
+            "heading": "Finger Painting for Adults: Easy Ideas and Setup",
+            "sections": [
+              {
+                "heading": "Three adult finger-painting ideas",
+                "paragraphs": [
+                  "Make a colour grid by mixing two colours in each square. Build a landscape with broad horizontal strokes for sky and land. Or make an abstract picture using only dots, swirls and one colour. Leave some blank paper to keep the marks distinct and test your paint on a spare sheet first.",
+                  "Keep a cloth and washing water nearby and follow the paint label’s cleanup and allergy guidance. Avoid using household paint or pigments not intended for skin. Photograph the finished work before changing it, then try a second version with fewer colours. You can use gloves or a sponge if direct contact is uncomfortable."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/creative",
+                "label": "creative activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/creative/try-your-hand-at-watercolor-painting",
+                "label": "try your hand at watercolor painting",
+                "after": "."
               }
             ]
           },
@@ -1786,12 +1922,12 @@
         {
           "name": "Do some origami",
           "slug": "do-some-origami",
-          "description": "Fold a sheet of paper into intricate shapes like cranes, flowers, or boxes using step-by-step origami guides.",
+          "description": "The two basic origami folds are the valley fold, which closes the paper towards you, and the mountain fold, which closes it away from you.",
           "image": "/images/activities/do-some-origami.jpg",
           "seo": {
-            "title": "Do Some Origami and Learn the Two Base Folds",
-            "metaDescription": "Origami rewards precision over dexterity. Learn a couple of standard bases, crease sharply, and most traditional models become approachable.",
-            "primaryKeyword": "do some origami",
+            "title": "Basic Origami Folds: Valley, Mountain and a First Model",
+            "metaDescription": "The two basic origami folds are the valley fold, which closes the paper towards you, and the mountain fold, which closes it away from you. Start with a…",
+            "primaryKeyword": "basic origami folds",
             "secondaryKeywords": [
               "origami for beginners",
               "origami bases explained",
@@ -1799,7 +1935,7 @@
             ]
           },
           "content": {
-            "intro": "Origami looks like a dexterity skill and is really an accuracy skill. To do some origami successfully you need sharp creases and folds that land exactly on their landmarks, because every small error compounds through the sequence until the final model refuses to close. Slowing down is the entire technique.",
+            "intro": "The two basic origami folds are the valley fold, which closes the paper towards you, and the mountain fold, which closes it away from you. Start with a square sheet and practise matching edges before pressing a crease. Learn one simple model from a clear diagram rather than rushing through many folds.",
             "whyItWorks": "Most traditional models begin from one of a handful of standard starting shapes called bases. Learning two of them means a large portion of the classic repertoire opens up at once, because you are then only learning the last few steps of each model rather than the whole thing. That is why experienced folders can attempt an unfamiliar diagram confidently.",
             "howTo": [
               {
@@ -1831,16 +1967,40 @@
             "variations": "If traditional models frustrate you, modular origami builds larger shapes from many identical simple units, which suits people who prefer repetition to sequence. If you enjoy the geometry, tessellations are a completely different branch that rewards precision even more heavily.",
             "faq": [
               {
+                "q": "What is an origami base?",
+                "a": "A base is a standard folded starting shape used in several models. A kite base is one example. Learn the crease directions and paper orientation before moving on to more complicated models."
+              },
+              {
                 "q": "What paper is best for origami?",
                 "a": "Thin, precisely square paper. Ordinary printer paper is too thick for models with many layers and is rarely truly square."
               },
               {
                 "q": "Why will my model not close at the end?",
                 "a": "Accumulated small misalignments earlier in the sequence. Check your landmarks two or three steps before the failure."
+              }
+            ],
+            "heading": "Basic Origami Folds: Valley, Mountain and a First Model",
+            "sections": [
+              {
+                "heading": "Practise the folds and a simple base",
+                "paragraphs": [
+                  "Fold a square in half to make a rectangle, unfold it, then fold corner to corner to make a triangle. These practise straight and diagonal creases. A valley crease looks like a V from the side; turning the paper over makes that same crease a mountain. Keep edges aligned before firming the fold.",
+                  "To explore a kite base, rotate the square so a corner points up, make a vertical diagonal crease, then bring the two upper side edges to that centre line. Unfold and try again if the paper twists. Larger paper is often easier for a beginner; scrap paper works for practice if it folds cleanly."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/creative",
+                "label": "creative activities",
+                "after": "."
               },
               {
-                "q": "What is an origami base?",
-                "a": "A standard starting shape shared by many models. Learning the bird base alone opens up a large part of the traditional repertoire."
+                "before": "Another activity to try is",
+                "href": "/activities/creative/learn-basic-calligraphy",
+                "label": "learn basic calligraphy",
+                "after": "."
               }
             ]
           },
@@ -1943,12 +2103,12 @@
         {
           "name": "Do some people sketching in a public place",
           "slug": "do-some-people-sketching-in-a-public-place",
-          "description": "Sit in a café or park and quickly sketch passersby to improve your drawing speed and observational skills.",
+          "description": "People sketching is a chance to practise posture, movement and simple shapes.",
           "image": "/images/activities/do-some-people-sketching-in-a-public-place.jpg",
           "seo": {
-            "title": "Sketch People in Public Without Anyone Noticing",
-            "metaDescription": "People move, which is exactly the point. Capture the gesture in thirty seconds, sit where you have a natural view, and be discreet about who you draw.",
-            "primaryKeyword": "people sketching in a public place",
+            "title": "People Sketching in Public: Quick Gesture Exercises",
+            "metaDescription": "People sketching is a chance to practise posture, movement and simple shapes. Choose a public place where you can sit without blocking anyone, use a small…",
+            "primaryKeyword": "people sketching",
             "secondaryKeywords": [
               "gesture drawing practice",
               "urban sketching tips",
@@ -1956,7 +2116,7 @@
             ]
           },
           "content": {
-            "intro": "People sketching in a public place is uncomfortable for about ten minutes and then becomes absorbing. Your subjects will not hold still, which sounds like a problem and is actually the training: it forces you to capture the essential gesture in seconds rather than fussing over detail that would not survive anyway.",
+            "intro": "People sketching is a chance to practise posture, movement and simple shapes. Choose a public place where you can sit without blocking anyone, use a small sketchbook and draw brief gestures rather than detailed portraits. Respect anyone who asks not to be drawn and avoid intruding into a private moment.",
             "whyItWorks": "Thirty-second sketches teach you to see the line of action, the overall tilt and balance of a pose, which is the thing that makes a figure look alive. Detail cannot rescue a drawing that got the gesture wrong, and gesture alone often reads convincingly with no detail at all. The time pressure is doing the teaching.",
             "howTo": [
               {
@@ -1988,6 +2148,10 @@
             "variations": "If public sketching feels too exposed, start from a window at home or from video paused briefly, which builds the same skill privately. If you already draw figures, restrict yourself to five lines per person, which forces ruthless prioritization.",
             "faq": [
               {
+                "q": "How do I sketch people who keep moving?",
+                "a": "Capture the main pose quickly and leave out details. Complete the gesture from memory when the person moves, or practise with a willing friend who can hold a pose."
+              },
+              {
                 "q": "How do I draw people who keep moving?",
                 "a": "Work in thirty-second gestures and accept that nothing gets finished. Capturing the line of action is the goal."
               },
@@ -1998,6 +2162,30 @@
               {
                 "q": "What is a line of action?",
                 "a": "A single sweeping curve through the pose that captures its tilt and energy. Everything else is built around it."
+              }
+            ],
+            "heading": "People Sketching in Public: Quick Gesture Exercises",
+            "sections": [
+              {
+                "heading": "A short gesture-sketching session",
+                "paragraphs": [
+                  "Spend a minute noticing the overall pose, then use a few lines for the head, spine, shoulders and legs. Try ten sketches of around a minute each. If someone moves away, finish from memory or begin a new sketch; there is no need to follow them.",
+                  "For a longer drawing, ask a friend to pose or choose an appropriate reference photograph you have permission to use. Compare the angle of shoulders and hips before adding clothing details. Keep anonymous practice drawings private if sharing them could embarrass or identify the subject."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/creative",
+                "label": "creative activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/creative/sketch-or-doodle-something-creative",
+                "label": "sketch or doodle something creative",
+                "after": "."
               }
             ]
           },
@@ -2434,12 +2622,12 @@
         {
           "name": "Try pottery or clay sculpting",
           "slug": "try-pottery-or-clay-sculpting",
-          "description": "Shape clay into bowls, figures, or abstract forms—a tactile, meditative craft that produces tangible keepsakes.",
+          "description": "For a first clay-sculpting session, make a small pinch pot or decorative shape from air-dry clay.",
           "image": "/images/activities/try-pottery-or-clay-sculpting.jpg",
           "seo": {
-            "title": "Try Pottery or Clay Sculpting With Air-Dry Clay First",
-            "metaDescription": "Air-dry clay needs no kiln and teaches the same hand-building techniques. Learn pinch and coil methods, and keep the walls an even thickness.",
-            "primaryKeyword": "try pottery or clay sculpting",
+            "title": "Air-Dry Clay Sculpting: A Small Beginner Project",
+            "metaDescription": "For a first clay-sculpting session, make a small pinch pot or decorative shape from air-dry clay. Read the clay instructions for working, drying and…",
+            "primaryKeyword": "sculpting with air dry clay",
             "secondaryKeywords": [
               "air dry clay projects",
               "pinch pot technique",
@@ -2447,48 +2635,54 @@
             ]
           },
           "content": {
-            "intro": "You do not need a wheel or a kiln to try pottery or clay sculpting. Hand-building with air-dry clay teaches the same fundamentals for the price of a bag of material, and pinch pots and coil building are how most pottery was made for thousands of years before wheels existed.",
-            "whyItWorks": "Even wall thickness is the principle underlying almost everything. Clay shrinks as it dries, and thick sections shrink more slowly than thin ones, which is what tears a piece apart. Keeping walls consistent prevents most cracking, and drying slowly under plastic gives the moisture time to leave evenly rather than from the surface first.",
+            "intro": "For a first clay-sculpting session, make a small pinch pot or decorative shape from air-dry clay. Read the clay instructions for working, drying and finishing. Air-dry clay avoids a kiln, but an ordinary decorative project is not automatically waterproof or suitable for food.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Start with a pinch pot",
-                "detail": "A ball of clay, thumb pressed in, walls pinched outward. It is the oldest technique and teaches wall thickness."
+                "step": "Prepare",
+                "detail": "Read the clay instructions and protect the work surface."
               },
               {
-                "step": "Keep walls an even thickness",
-                "detail": "Around a centimeter throughout. Uneven walls dry at different rates, which is what causes cracking."
+                "step": "Try the practical steps",
+                "detail": "Shape a small pinch pot with even walls and smooth cracks while workable."
               },
               {
-                "step": "Score and slip every join",
-                "detail": "Scratch both surfaces and wet them before pressing together. Joins made without this separate as they dry."
-              },
-              {
-                "step": "Try coil building for height",
-                "detail": "Rolled ropes stacked and smoothed together. It builds taller forms than pinching can manage."
-              },
-              {
-                "step": "Dry slowly under plastic",
-                "detail": "Loosely covered for the first day or two. Fast drying is the second major cause of cracks."
+                "step": "Review and follow up",
+                "detail": "Follow the drying and finishing guidance, keeping the piece decorative unless its materials permit other uses."
               }
             ],
             "tips": [
-              "Keep hands only slightly damp. Too much water weakens the clay and makes the surface slump.",
-              "Air-dry clay is not waterproof or food safe. Seal it if it needs to hold anything, and keep it decorative.",
-              "Wrap unused clay tightly and double-bag it. Air-dry clay hardens in an opened bag considerably faster than you would expect."
+              "Do not assume so. Many air-dry clay projects are decorative and remain sensitive to water. Check the clay and finish instructions, and use a separate waterproof container for flowers if needed."
             ],
-            "variations": "If you want the real thing, many studios run single taster sessions on a wheel, which is a completely different and much harder skill. If you want sculpture rather than vessels, oil-based modelling clay never dries and can be reworked indefinitely.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "Do I need a kiln to start pottery?",
-                "a": "No. Air-dry clay teaches the same hand-building techniques and needs nothing but a table and a bag of clay."
+                "q": "Can an air-dry clay pot hold water?",
+                "a": "Do not assume so. Many air-dry clay projects are decorative and remain sensitive to water. Check the clay and finish instructions, and use a separate waterproof container for flowers if needed."
+              }
+            ],
+            "heading": "Air-Dry Clay Sculpting: A Small Beginner Project",
+            "sections": [
+              {
+                "heading": "Make a simple pinch pot",
+                "paragraphs": [
+                  "Protect the table, take a small piece of clay and roll it into a ball. Press a thumb into the centre without going through the base. Rotate it while gently pinching the walls to an even thickness. Use only the amount of water recommended for your clay and smooth small cracks while it is workable.",
+                  "Place the piece on a suitable surface to dry according to the packet. Avoid promising a drying time based only on session length: thickness and conditions matter. Paint or seal only with compatible products after drying. Keep the finished pot for decorative use unless the material and finish explicitly permit another use."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/creative",
+                "label": "creative activities",
+                "after": "."
               },
               {
-                "q": "Why did my clay crack while drying?",
-                "a": "Uneven wall thickness or drying too fast. Keep walls consistent and cover the piece loosely for the first day or two."
-              },
-              {
-                "q": "Is air-dry clay food safe?",
-                "a": "No. It is not waterproof or food safe even when sealed, so keep air-dried pieces decorative."
+                "before": "Another activity to try is",
+                "href": "/activities/creative/do-some-finger-painting",
+                "label": "do some finger painting",
+                "after": "."
               }
             ]
           },
@@ -2671,12 +2865,12 @@
         {
           "name": "Try digital art on your phone/tablet",
           "slug": "try-digital-art-on-your-phone-tablet",
-          "description": "Use a free drawing app like Procreate Pocket or Sketchbook to create illustrations with just your fingertip or stylus.",
+          "description": "Start digital art on a phone or tablet with a small drawing using a brush, an eraser and a few colours.",
           "image": "/images/activities/try-digital-art-on-your-phone-tablet.jpg",
           "seo": {
-            "title": "Try Digital Art on Your Phone or Tablet Today",
-            "metaDescription": "Learn layers first, since they are the one thing digital drawing does that paper cannot. A finger works fine, and a cheap stylus works considerably better.",
-            "primaryKeyword": "try digital art on your phone or tablet",
+            "title": "Digital Art on a Phone or Tablet: Your First Sketch",
+            "metaDescription": "Start digital art on a phone or tablet with a small drawing using a brush, an eraser and a few colours. You can use a finger or a compatible stylus.…",
+            "primaryKeyword": "digital art on your phone",
             "secondaryKeywords": [
               "digital art for beginners",
               "understanding layers",
@@ -2684,7 +2878,7 @@
             ]
           },
           "content": {
-            "intro": "To try digital art on your phone or tablet needs no new hardware and no expensive software. The one concept genuinely worth an hour is layers, because that is the capability paper does not have and the thing that makes digital work forgiving in a way traditional media never is.",
+            "intro": "Start digital art on a phone or tablet with a small drawing using a brush, an eraser and a few colours. You can use a finger or a compatible stylus. Choose a drawing app you can access, check its current terms and spend the first session learning a few controls rather than every feature.",
             "whyItWorks": "Layers separate decisions. Sketch on one, ink on another, color underneath, and each can be changed without touching the others. That means a color choice is no longer permanent and a line can be redrawn without losing the shading. Learning that structure early is what prevents people from treating a drawing app as a slippery pencil.",
             "howTo": [
               {
@@ -2716,6 +2910,10 @@
             "variations": "If you already draw on paper, photograph a sketch and color it digitally, which combines the strengths of both. If you want to learn one thing well, spend the hour entirely on layer masks, which is the technique that unlocks most intermediate tutorials.",
             "faq": [
               {
+                "q": "Do I need a stylus for digital art?",
+                "a": "No. You can begin with a finger, especially for broad shapes. A compatible stylus may give more control, but test your interest before buying equipment."
+              },
+              {
                 "q": "Do I need a drawing tablet?",
                 "a": "No. A phone or tablet with a free app is enough to learn on, and a cheap stylus improves control considerably."
               },
@@ -2726,6 +2924,30 @@
               {
                 "q": "Which app should I use?",
                 "a": "Any capable free one. Choosing between apps is where beginners lose the hour they meant to spend drawing."
+              }
+            ],
+            "heading": "Digital Art on a Phone or Tablet: Your First Sketch",
+            "sections": [
+              {
+                "heading": "Make and export a simple digital picture",
+                "paragraphs": [
+                  "Open a new canvas, select one brush and draw three objects as basic shapes. If layers are available, keep the outline and colour separate. Try undo, brush size and zoom before spending time on details. Use a reference you made or have permission to copy.",
+                  "Save the editable project, then export a standard image format such as PNG if the app supports it. Reopen the exported file to check it looks right. Keep a backup of artwork you want to retain; an image export may not preserve editable layers."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/creative",
+                "label": "creative activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/creative/sketch-or-doodle-something-creative",
+                "label": "sketch or doodle something creative",
+                "after": "."
               }
             ]
           },
@@ -3685,12 +3907,12 @@
         {
           "name": "Learn basic photography composition",
           "slug": "learn-basic-photography-composition",
-          "description": "Study the rule of thirds, leading lines, and framing techniques to instantly improve the quality of your photos.",
+          "description": "Photography composition is how you arrange a subject and the surrounding space in the frame.",
           "image": "/images/activities/learn-basic-photography-composition.jpg",
           "seo": {
-            "title": "Learn Photography Composition With Four Simple Rules",
-            "metaDescription": "Photography composition improves fastest through subtraction. Learn to fill the frame, find leading lines, watch the background and use light direction.",
-            "primaryKeyword": "photography composition",
+            "title": "Photography Composition: Three Beginner Exercises",
+            "metaDescription": "Photography composition is how you arrange a subject and the surrounding space in the frame. Practise with a phone or camera you already have. Take…",
+            "primaryKeyword": "basic photography composition",
             "secondaryKeywords": [
               "rule of thirds",
               "leading lines photography",
@@ -3698,7 +3920,7 @@
             ]
           },
           "content": {
-            "intro": "Photography composition is the part that improves your pictures without any equipment at all, which is why it is worth an hour before anything else. The most useful rules are about removal rather than arrangement: most weak photographs contain too much, and cropping the world before you press the shutter fixes more than any setting.",
+            "intro": "Photography composition is how you arrange a subject and the surrounding space in the frame. Practise with a phone or camera you already have. Take several versions of one scene so you can compare framing choices rather than relying on a single rule for every photograph.",
             "whyItWorks": "A photograph flattens three dimensions into two, which is why backgrounds that your eye ignored in the moment become prominent in the picture. Learning to see the frame rather than the scene addresses that directly. The remaining rules work because they direct attention: leading lines and framing tell the viewer where to look, which is what separates a photo from a snapshot.",
             "howTo": [
               {
@@ -3730,6 +3952,10 @@
             "variations": "If you photograph people, spend the hour on where they look and how you frame hands, which affects portraits more than any geometric rule. If you shoot landscapes, work on foreground interest, since empty foregrounds are the commonest weakness in that genre.",
             "faq": [
               {
+                "q": "Do I need a camera to learn composition?",
+                "a": "No. A phone is enough to practise framing, backgrounds and viewpoints. Compare multiple versions of the same subject before buying equipment."
+              },
+              {
                 "q": "What is the rule of thirds?",
                 "a": "Dividing the frame into a three by three grid and placing key elements along the lines or intersections rather than dead centre."
               },
@@ -3740,6 +3966,30 @@
               {
                 "q": "How do I improve my photos quickly?",
                 "a": "Get closer, check the background, and pay attention to light direction. Those three fix most amateur photographs."
+              }
+            ],
+            "heading": "Photography Composition: Three Beginner Exercises",
+            "sections": [
+              {
+                "heading": "Try framing, background and viewpoint",
+                "paragraphs": [
+                  "Photograph an ordinary object centrally, then near one side of the frame. Next, move to simplify the background without changing the subject. Finally, try a lower or higher viewpoint where it is safe. Compare what draws your attention first in each image.",
+                  "Lines, symmetry and the rule of thirds can be useful prompts, but none guarantees a stronger image. Check edges for distractions and avoid cutting off important details accidentally. Ask permission when photographing people and respect location rules. Save the variants together with a note about the choice you prefer."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/learning",
+                "label": "learning activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/outdoor/try-outdoor-photography",
+                "label": "try outdoor photography",
+                "after": "."
               }
             ]
           },
@@ -4309,11 +4559,11 @@
         {
           "name": "Learn basic car maintenance",
           "slug": "learn-basic-car-maintenance",
-          "description": "Understand how to check oil, change a tyre, and top up fluids to keep your vehicle running and save on mechanic visits.",
+          "description": "Basic car maintenance starts with your vehicle’s own handbook.",
           "image": "/images/activities/learn-basic-car-maintenance.png",
           "seo": {
-            "title": "Learn Basic Car Maintenance and the Weekly Checks",
-            "metaDescription": "Learn the car checks that prevent breakdowns: tyre pressure and tread, oil and coolant levels, lights and wipers. All free, all under fifteen minutes.",
+            "title": "Basic Car Maintenance: Checks to Learn From Your Manual",
+            "metaDescription": "Basic car maintenance starts with your vehicle’s own handbook. Use a spare hour to learn the recommended checks for tyres, lights and fluid levels rather…",
             "primaryKeyword": "basic car maintenance",
             "secondaryKeywords": [
               "how to check tyre pressure",
@@ -4322,48 +4572,54 @@
             ]
           },
           "content": {
-            "intro": "Basic car maintenance that genuinely matters takes about fifteen minutes a month and requires no tools. Tyre pressure and tread, oil and coolant levels, lights and wipers. These are the checks that prevent the roadside breakdowns and the failed inspections, and almost nobody does them.",
-            "whyItWorks": "Tyres are the highest-value item by a wide margin: pressure affects braking distance, fuel consumption and wear simultaneously, and tread depth is what determines whether the car stops in the wet. Fluid levels catch developing problems while they are still cheap. The checks are worth doing precisely because the failures they prevent are expensive and sudden.",
+            "intro": "Basic car maintenance starts with your vehicle’s own handbook. Use a spare hour to learn the recommended checks for tyres, lights and fluid levels rather than attempting a repair you have not been shown. Vehicle designs differ, so a generic checklist cannot replace the model’s instructions.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Find your handbook first",
-                "detail": "Correct tyre pressures, oil type and service intervals are all in it. Generic advice is frequently wrong for your car."
+                "step": "Prepare",
+                "detail": "Find the handbook instructions for your exact vehicle."
               },
               {
-                "step": "Check tyre pressure cold",
-                "detail": "Before driving, or at least three hours after. Warm tyres read high and lead you to underinflate."
+                "step": "Try the practical steps",
+                "detail": "Make only the checks you can safely perform using those instructions."
               },
               {
-                "step": "Check tread depth across the width",
-                "detail": "Wear on one edge indicates alignment problems. The legal minimum is a limit, not a target."
-              },
-              {
-                "step": "Check oil and coolant when cold",
-                "detail": "Level ground, engine off and cool. Never open a hot coolant cap; the system is pressurized and will scald."
-              },
-              {
-                "step": "Walk round the lights",
-                "detail": "Get someone to press the brake. A failed bulb is invisible from the driving seat and is a common stop."
+                "step": "Review and follow up",
+                "detail": "Record findings and arrange qualified help for damage, leaks or unclear instructions."
               }
             ],
             "tips": [
-              "Do not skip the spare, if you have one. A flat spare is discovered at the worst possible moment.",
-              "Top up screenwash with proper fluid rather than water, which freezes and does not clear grease.",
-              "Anything involving brakes, steering or suspension belongs with a qualified mechanic rather than a video."
+              "Start with the handbook’s tyre, light and fluid checks and how to recognise when qualified help is needed. Avoid repairs or lifting the vehicle without suitable knowledge and equipment."
             ],
-            "variations": "If you are about to drive a long distance, the same checks plus a look at wiper condition are worth doing the day before rather than at the services. If your car is electric, tyres and brake fluid still apply while the engine checks do not.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "How often should I check tyre pressure?",
-                "a": "Monthly and before long journeys, always when the tyres are cold. Warm tyres read high and lead to underinflation."
+                "q": "What should a beginner learn about car maintenance?",
+                "a": "Start with the handbook’s tyre, light and fluid checks and how to recognise when qualified help is needed. Avoid repairs or lifting the vehicle without suitable knowledge and equipment."
+              }
+            ],
+            "heading": "Basic Car Maintenance: Checks to Learn From Your Manual",
+            "sections": [
+              {
+                "heading": "A beginner vehicle-check checklist",
+                "paragraphs": [
+                  "Park safely, secure the vehicle and follow handbook instructions about when checks can be made. Locate the specified tyre pressures and inspect tyres for obvious damage. Ask someone to help check lights if needed. Learn where the handbook identifies oil, washer fluid and other checks for your model.",
+                  "Do not open a hot cooling system or work beneath a vehicle without appropriate equipment and training. Stop if you find a leak, damage, warning light or an unclear instruction and arrange qualified help. Record what you checked and any follow-up instead of assuming a visual check proves the vehicle is safe."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/learning",
+                "label": "learning activities",
+                "after": "."
               },
               {
-                "q": "When should I check the oil?",
-                "a": "With the engine cold and the car on level ground. Checking a hot or tilted engine gives an unreliable reading."
-              },
-              {
-                "q": "Which jobs should I leave to a mechanic?",
-                "a": "Anything involving brakes, steering, suspension or the fuel system. These carry real safety consequences if done wrong."
+                "before": "Another activity to try is",
+                "href": "/activities/learning/learn-to-tie-different-knots",
+                "label": "learn to tie different knots",
+                "after": "."
               }
             ]
           },
@@ -4639,11 +4895,11 @@
         {
           "name": "Explore your family tree online",
           "slug": "explore-your-family-tree-online",
-          "description": "Dig into family records and stories — you might be one search away from a fascinating ancestor.",
+          "description": "Start a family tree with information you already know, then look for records that support it.",
           "seo": {
-            "title": "Explore Your Family Tree Online Starting From Home",
-            "metaDescription": "Start your family tree with what relatives already know, then work backwards through census and civil records. Verify each generation before going further.",
-            "primaryKeyword": "explore your family tree online",
+            "title": "Start Your Family Tree Online: Records and Questions",
+            "metaDescription": "Start a family tree with information you already know, then look for records that support it. Write names, approximate dates and places, keeping…",
+            "primaryKeyword": "start a family tree",
             "secondaryKeywords": [
               "genealogy research for beginners",
               "census records search",
@@ -4651,7 +4907,7 @@
             ]
           },
           "content": {
-            "intro": "The mistake people make when they explore your family tree online is starting on a subscription site and clicking suggested matches until they have a tree stretching to the fifteenth century that belongs to somebody else entirely. Start at home instead, with what living relatives actually know, and work backwards one verified generation at a time.",
+            "intro": "Start a family tree with information you already know, then look for records that support it. Write names, approximate dates and places, keeping uncertainty visible. Ask relatives only about information they are comfortable sharing, and keep details about living people private unless they consent to publication.",
             "whyItWorks": "Genealogy is a chain, and one wrong link invalidates everything beyond it. Verifying each generation against a primary record before moving to the next is slower and produces a tree that is actually yours. Starting with relatives also captures information that exists nowhere else and disappears permanently, which makes it the genuinely urgent part.",
             "howTo": [
               {
@@ -4683,6 +4939,10 @@
             "variations": "If your family emigrated, focus the hour on passenger lists and naturalization records, which are often the hardest link and the most rewarding. If relatives are elderly, prioritize recording their memories over any archival research; the archives will still be there.",
             "faq": [
               {
+                "q": "Can I research a family tree for free?",
+                "a": "You can begin with family information and freely accessible records, but some services and copies charge fees. Check access terms and use local archive or library guidance for the records you need."
+              },
+              {
                 "q": "Where should I start with genealogy?",
                 "a": "With yourself and living relatives, working backwards. Starting from a distant famous ancestor almost always produces someone else's tree."
               },
@@ -4693,6 +4953,30 @@
               {
                 "q": "Can I trust other people's online trees?",
                 "a": "Treat them as hints requiring verification. Many contain errors that have been copied between trees for years."
+              }
+            ],
+            "heading": "Start Your Family Tree Online: Records and Questions",
+            "sections": [
+              {
+                "heading": "Research one person rather than a whole tree",
+                "paragraphs": [
+                  "Choose a relative and list what you know and where each detail came from. Search an archive or family-history service for a matching record, checking its current access terms. Compare names, dates, addresses and family relationships: a similar name is not enough to establish a match.",
+                  "Record the source title, reference and what it actually says. Label tentative connections instead of silently adding them as fact. If a record conflicts with family memory, keep both versions and investigate. Save permitted copies and avoid publishing sensitive personal details."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/learning",
+                "label": "learning activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/learning/learn-about-local-history",
+                "label": "learn about local history",
+                "after": "."
               }
             ]
           },
@@ -8130,7 +8414,7 @@
     {
       "name": "Social",
       "slug": "social",
-      "description": "Strengthen your connections and create lasting memories. These activities are best enjoyed with friends, family, or new people who share your interests and energy.",
+      "description": "Social activities for adults, from a short catch-up to groups, games and outings. Find an idea that suits your time, budget and company.",
       "activities": [
         {
           "name": "Call an old friend you haven't spoken to in a while",
@@ -8885,6 +9169,15 @@
                 "q": "Can I complete this in an hour?",
                 "a": "You can use the hour to compare options and send an enquiry or registration. A confirmed team place, trial or first match depends on the organiser's schedule and availability."
               }
+            ],
+            "sections": [
+              {
+                "heading": "Your first enquiry: copy and adapt this checklist",
+                "paragraphs": [
+                  "“I would like to join as an adult beginner and do not have a team. Do you accept individuals? Which level would suit me? Is there a confirmed place or a waiting list? Can I book a taster or visit to watch?” Mention your preferred day and area so the organiser can point you towards a realistic option.",
+                  "Before paying, confirm the venue, start date, full cost, kit, attendance expectations and cancellation terms. If a league is full, ask about casual sessions or the next registration period. A beginner class, social session and league membership can have different entry processes."
+                ]
+              }
             ]
           },
           "meta": {
@@ -8907,12 +9200,12 @@
         {
           "name": "Attend a cultural festival",
           "slug": "attend-a-cultural-festival",
-          "description": "Experience music, food, dance, and traditions from different cultures at a local festival—a vibrant way to broaden your worldview.",
+          "description": "A cultural festival can offer music, food, performances or workshops in one outing.",
           "image": "/images/activities/attend-a-cultural-festival.jpg",
           "seo": {
-            "title": "Attend a Cultural Festival and Do More Than Eat",
-            "metaDescription": "Read the programme before you go, arrive for something scheduled, and talk to people running the stalls. Festivals reward slight preparation.",
-            "primaryKeyword": "attend a cultural festival",
+            "title": "Plan a Cultural Festival Visit: What to Check First",
+            "metaDescription": "A cultural festival can offer music, food, performances or workshops in one outing. Choose a specific event and check its official programme before making…",
+            "primaryKeyword": "cultural festival visit",
             "secondaryKeywords": [
               "local festival etiquette",
               "what to do at a cultural festival",
@@ -8920,7 +9213,7 @@
             ]
           },
           "content": {
-            "intro": "Most people attend a cultural festival by wandering in, eating something, and leaving. That is a perfectly good afternoon and it misses most of what is there. Reading the programme beforehand and arriving for one scheduled thing changes the visit entirely, because the performances and demonstrations are where the actual content is.",
+            "intro": "A cultural festival can offer music, food, performances or workshops in one outing. Choose a specific event and check its official programme before making travel plans. A short visit works best when you select one performance or area instead of trying to see the whole festival.",
             "whyItWorks": "Festivals run to a timetable that almost nobody reads, so the scheduled music, dance and demonstrations happen to whoever happened to be standing nearby. Arriving deliberately for one of them means you see the thing the festival was organized around. Talking to stallholders adds the other half, since most are pleased to explain what they are selling and why.",
             "howTo": [
               {
@@ -8952,6 +9245,10 @@
             "variations": "If large crowds are difficult, arrive at opening time, which is consistently the quietest and most relaxed hour. If you want depth rather than breadth, pick one strand, the music or the food or the craft, and follow only that.",
             "faq": [
               {
+                "q": "Can I visit a festival for only an hour?",
+                "a": "Often you can plan a short visit, but check session times, entry queues and ticket conditions. Pick one activity and allow travel separately rather than assuming a festival fits a fixed hour."
+              },
+              {
                 "q": "How do I get more out of a festival?",
                 "a": "Read the programme beforehand and arrive for one scheduled performance. The timetabled content is what most visitors miss."
               },
@@ -8962,6 +9259,30 @@
               {
                 "q": "How do I find festivals near me?",
                 "a": "Council event listings, community centre noticeboards, cultural association websites and local social media groups."
+              }
+            ],
+            "heading": "Plan a Cultural Festival Visit: What to Check First",
+            "sections": [
+              {
+                "heading": "A festival checklist for a short visit",
+                "paragraphs": [
+                  "Confirm the date, venue, entry rules, ticket price and whether individual activities require booking. Check travel home, accessibility information and any restrictions on bags or food. Save the programme and ticket somewhere you can access without a reliable signal.",
+                  "Choose a main activity and a fallback in case it is full or delayed. Arrive with enough time to find the entrance and ask staff where to go. Follow photography rules and treat unfamiliar customs with curiosity and respect. Buying food or taking a workshop may be optional extras rather than included in admission."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/social",
+                "label": "social activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/outdoor/visit-a-farmers-market",
+                "label": "visit a farmers market",
+                "after": "."
               }
             ]
           },
@@ -9070,11 +9391,11 @@
         {
           "name": "Plan a surprise for a friend or family member",
           "slug": "plan-a-surprise-for-a-friend-or-family-member",
-          "description": "Cook up a small surprise — a treat, a visit, a memory book — for someone who deserves it.",
+          "description": "A thoughtful surprise suits the recipient’s preferences and leaves them free to enjoy it.",
           "seo": {
-            "title": "Plan a Surprise Around What They Actually Enjoy",
-            "metaDescription": "Good surprises are small and specific rather than large and generic. Consider whether they even like surprises before planning anything elaborate.",
-            "primaryKeyword": "plan a surprise for a friend or family member",
+            "title": "Plan a Thoughtful Surprise: Simple Ideas and Checklist",
+            "metaDescription": "A thoughtful surprise suits the recipient’s preferences and leaves them free to enjoy it. Try a favourite snack, a handwritten note, a small shared…",
+            "primaryKeyword": "surprise ideas for a friend",
             "secondaryKeywords": [
               "thoughtful surprise ideas",
               "do people like surprise parties",
@@ -9082,7 +9403,7 @@
             ]
           },
           "content": {
-            "intro": "To plan a surprise for a friend or family member well, start with an uncomfortable question: do they actually like surprises? A significant number of people do not, and a surprise party for someone who hates being the centre of attention is a gift to the organizer rather than the recipient.",
+            "intro": "A thoughtful surprise suits the recipient’s preferences and leaves them free to enjoy it. Try a favourite snack, a handwritten note, a small shared activity or help with a task they welcome. Keep the plan simple enough that it does not create extra work, expense or embarrassment for them.",
             "whyItWorks": "Small specific surprises consistently land better than large generic ones, because specificity demonstrates that you paid attention. Remembering that someone mentioned a book six months ago and turning up with it says something that an expensive generic gesture does not. Effort of attention beats effort of budget almost every time.",
             "howTo": [
               {
@@ -9114,6 +9435,10 @@
             "variations": "If a surprise feels risky, do a low-key version: turn up with the specific thing rather than staging an event. If it is for a couple or family, surprising them with time rather than an object, offering to take the children for an afternoon, is frequently the most valuable option available.",
             "faq": [
               {
+                "q": "What is a good low-cost surprise?",
+                "a": "A sincere note, a small favourite treat or time spent on an activity they enjoy can work. Use what you know about the person and check preferences where a surprise could be inconvenient."
+              },
+              {
                 "q": "Does everyone enjoy surprises?",
                 "a": "No. A meaningful number of people dislike them, particularly being made the centre of attention. Check before planning anything large."
               },
@@ -9124,6 +9449,30 @@
               {
                 "q": "How elaborate should it be?",
                 "a": "Usually less than you were planning. Small and precisely chosen consistently beats large and generic."
+              }
+            ],
+            "heading": "Plan a Thoughtful Surprise: Simple Ideas and Checklist",
+            "sections": [
+              {
+                "heading": "Choose a surprise that is easy to accept",
+                "paragraphs": [
+                  "List three things the person likes and any boundaries you already know. Someone who dislikes attention might prefer a private note to a public gathering. Check dietary needs before choosing food and availability before booking an outing. When uncertain, ask a broad preference question without promising an event.",
+                  "Set a spending limit and choose one action you can finish today. For a gathering, confirm guests and practical details without sharing private information. Avoid surprises that depend on taking someone away from commitments or inviting people they might not want to see."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/social",
+                "label": "social activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/creative/design-your-own-greeting-card",
+                "label": "design your own greeting card",
+                "after": "."
               }
             ]
           },
@@ -9321,11 +9670,11 @@
         {
           "name": "Plan a weekend trip with friends",
           "slug": "plan-a-weekend-trip-with-friends",
-          "description": "Get the group chat buzzing: pick dates, compare destinations, and turn 'we should' into 'we are'.",
+          "description": "Planning a weekend trip with friends starts with dates, a shared budget range and an idea of the trip everyone wants.",
           "seo": {
-            "title": "Plan a Weekend Trip With Friends and Book Something Early",
-            "metaDescription": "Group trips die in the discussion phase. Fix the dates, book one refundable thing immediately, and agree how money works before anyone spends any.",
-            "primaryKeyword": "plan a weekend trip with friends",
+            "title": "Plan a Weekend Trip With Friends: Budget and Booking Steps",
+            "metaDescription": "Planning a weekend trip with friends starts with dates, a shared budget range and an idea of the trip everyone wants. Use an hour to agree those basics…",
+            "primaryKeyword": "overnight plans with friends",
             "secondaryKeywords": [
               "group trip planning tips",
               "splitting costs on holiday",
@@ -9333,7 +9682,7 @@
             ]
           },
           "content": {
-            "intro": "Group trips die in the discussion phase, where everyone agrees it would be great and nobody books anything. To plan a weekend trip with friends, the decisive move is fixing the dates and booking one refundable thing immediately, which converts an idea into a commitment other plans have to work around.",
+            "intro": "Planning a weekend trip with friends starts with dates, a shared budget range and an idea of the trip everyone wants. Use an hour to agree those basics and shortlist a destination. Final prices, bookings and travel depend on availability and the group’s decisions.",
             "whyItWorks": "A booking creates a reference point that makes the trip real, and refundable options mean that costs nothing if it collapses anyway. Agreeing how money works before anybody spends any is the other essential step, because unspoken assumptions about splitting costs are what turns a good weekend into a quiet resentment afterwards.",
             "howTo": [
               {
@@ -9365,6 +9714,10 @@
             "variations": "If schedules never align, propose a single overnight rather than a full weekend; it is far easier to say yes to. If the group is large, split accommodation booking by household, which removes most of the coordination burden from one person.",
             "faq": [
               {
+                "q": "How do friends split trip costs fairly?",
+                "a": "Agree the method before booking, record shared expenses and distinguish optional purchases from group costs. Confirm who is paying deposits and what happens if someone cancels."
+              },
+              {
                 "q": "How do I stop a group trip from stalling?",
                 "a": "Fix the dates and book one refundable thing immediately. Discussion without a booking continues indefinitely."
               },
@@ -9375,6 +9728,30 @@
               {
                 "q": "How much should we plan in advance?",
                 "a": "Two fixed things per day at most. Over-scheduled group trips are exhausting and leave no room for anything."
+              }
+            ],
+            "heading": "Plan a Weekend Trip With Friends: Budget and Booking Steps",
+            "sections": [
+              {
+                "heading": "Agree the essentials before booking",
+                "paragraphs": [
+                  "Ask who is interested, which dates work, and the maximum each person can comfortably spend. Separate transport, accommodation, food and optional activities in the budget. Choose a destination that suits the least flexible traveller and check accessibility or dietary needs privately where appropriate.",
+                  "Share one clear proposal with costs, payment deadlines and cancellation terms. Agree who will book and how others will reimburse them before anyone commits money. An overnight plan can be as simple as one shared meal and a walk; leave time unplanned rather than filling the whole weekend."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/social",
+                "label": "social activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/social/organize-a-game-night-with-friends",
+                "label": "organize a game night with friends",
+                "after": "."
               }
             ]
           },
@@ -9487,21 +9864,81 @@
         }
       ],
       "content": {
-        "intro": "Social activities are the ones people most want to do and most reliably postpone, because every one of them requires contacting somebody. That single step is the whole barrier. Almost everything here is easy once the message is sent, and the anticipated awkwardness consistently exceeds the actual awkwardness by a wide margin. The activities also differ sharply in how much organizing they need, from a single message to coordinating an evening for eight people.",
-        "body": "These suit you when you have noticed that a friendship has gone quiet, when your week has contained no unscheduled conversation, or when you want an hour that benefits somebody else as well as you. Several also address a specific modern problem, which is that adult friendships need deliberate maintenance in a way that school and workplace friendships never did. Reciprocity matters here in a way it does not elsewhere, since the other person has to want the same thing.\n\nTo choose, start with how much initiative you are prepared to take today. Writing a note, calling a friend or complimenting somebody requires reaching out to one person. Hosting a potluck, running a game night or organizing a clean-up means coordinating several, which is more work and more reward. Joining a meetup, a league or a community event requires the least organizing and the most nerve, since you arrive somewhere new alone. Several of these benefit somebody else as much as they benefit you, which makes them easier to justify spending an hour on.\n\nWhat you need is mostly a phone and a willingness to send the first message. A few need materials: paper and a stamp, food for a table, a game everyone can learn quickly. One needs nothing but attention: interviewing an older relative requires only a voice recorder, and it is the single activity here with a genuine deadline attached. Cash is worth carrying for community events, since small venues frequently cannot take card payments at all.\n\nStart today by sending one message. Not planning an event, not researching groups, just one message to one person, which is the step everything else depends on. If reaching out to someone you know feels harder than meeting strangers, that is common, and joining an activity-based group is a legitimate way in that supplies the conversation for you. Timing is the one resource that matters: most of these work far better when the other person is not already stretched.",
-        "nextIdeas": [
+        "heading": "Social Activities for Adults: Ideas to Meet and Keep in Touch",
+        "intro": "Social activities are things you do with other people to spend time together, share an interest or make a connection. Examples include walking with a friend, playing a game, joining a sports group, volunteering and attending a cultural event. Choose something you enjoy rather than treating every gathering as a test of confidence.",
+        "body": "For a spare hour, start with a call, a shared walk or a short game. Events and group activities may need booking or take place on another day; you can use today’s hour to find an option and contact the organiser.\n\nIf you want to make friends, look for activities you can attend repeatedly, where conversation can grow around a shared interest. Check the age group, access needs, location, schedule and any fees before committing.",
+        "sections": [
           {
-            "before": "For regular company around a shared activity, start with",
-            "href": "/activities/social/join-a-recreational-sports-league",
-            "label": "how to join a local sports league as a beginner",
-            "after": ". The guide includes places to search and questions about fees and trials."
+            "heading": "Social activity examples for different situations",
+            "paragraphs": [
+              "For two people: catch up by phone, play twenty questions or meet for a walk. For a small group: try charades, a board game or a shared meal. For meeting new people: explore a local meetup, a beginner sports session or a community event. Free options can include a call, a walk or a game using materials you already have.",
+              "For social activities near you, check council and library event listings, community centres and the organiser’s official page. Confirm what is happening and whether you need to register. This collection suggests types of activity; it does not claim a particular event is available near your location."
+            ]
           },
           {
-            "before": "Prefer some time to yourself today? Try the",
-            "href": "/solo-day-out-generator",
-            "label": "solo outing generator",
-            "after": " for a short indoor or outdoor break."
+            "heading": "Work social ideas that leave room for choice",
+            "paragraphs": [
+              "Try an optional lunchtime walk, a short quiz, a bring-your-own lunch chat or a game with clear rules. For remote teams, a brief interest-sharing session can work without requiring everyone to disclose personal details. Ask colleagues what they would enjoy before booking.",
+              "Offer an option that avoids alcohol, check accessibility and dietary requirements where relevant, and keep costs clear. Choose a time that does not exclude people with caring commitments. An invitation should be easy to decline; attendance is not a measure of someone’s commitment to the team."
+            ]
+          },
+          {
+            "heading": "Plan a social event in five decisions",
+            "paragraphs": [
+              "Decide who it is for, what you will do, when and where it happens, what it costs, and how people can reply. Example: “Would you like a half-hour walk in the park on Saturday at 11? We can meet at the main entrance; no need to buy anything.”",
+              "For a larger gathering, check capacity, booking and cancellation terms, and offer clear directions. Leave enough space for conversation instead of packing every minute. Share only the participant details needed to organise the event."
+            ]
           }
+        ],
+        "faq": [
+          {
+            "q": "What are social activities?",
+            "a": "Activities involving other people, such as games, shared walks, conversations, clubs, volunteering and outings. They can be organised events or informal time together."
+          },
+          {
+            "q": "What social activities can help adults make friends?",
+            "a": "Consider a recurring activity you enjoy, such as a meetup, beginner sports session or volunteering opportunity. Check whether newcomers are welcome and choose a schedule you can realistically attend."
+          },
+          {
+            "q": "What are simple social event ideas?",
+            "a": "A shared walk, games evening, short quiz or informal meal can be a starting point. Ask about preferences, make costs clear and let people decline comfortably."
+          }
+        ],
+        "nextIdeas": [
+          {
+            "before": "For regular activity with other people, explore",
+            "href": "/activities/social/join-a-recreational-sports-league",
+            "label": "how to join local sports leagues",
+            "after": "."
+          },
+          {
+            "before": "To meet around a shared interest, read about",
+            "href": "/activities/social/join-a-local-meetup-group",
+            "label": "joining a local meetup group",
+            "after": "."
+          },
+          {
+            "before": "For a trip with an existing group, use the",
+            "href": "/activities/social/plan-a-weekend-trip-with-friends",
+            "label": "weekend trip planning guide",
+            "after": "."
+          },
+          {
+            "before": "For a quick game, try",
+            "href": "/activities/games/play-word-association-games",
+            "label": "word association rules and examples",
+            "after": "."
+          }
+        ]
+      },
+      "seo": {
+        "title": "Social Activities for Adults: Ideas to Meet and Keep in Touch",
+        "metaDescription": "Explore social activities for adults, low-cost ways to meet people, work social ideas and simple plans with friends. Choose an idea and use its guide.",
+        "primaryKeyword": "social activities",
+        "secondaryKeywords": [
+          "socialising activities",
+          "social events ideas",
+          "social activities examples"
         ]
       }
     },
@@ -9669,12 +10106,12 @@
         {
           "name": "Play chess against a computer",
           "slug": "play-chess-against-a-computer",
-          "description": "Sharpen your strategic thinking by playing chess online at your level—analyse your moves afterwards to improve.",
+          "description": "Playing chess against a computer gives you a partner for a short practice game.",
           "image": "/images/activities/play-chess-against-a-computer.jpg",
           "seo": {
-            "title": "Play Chess Against a Computer at the Right Difficulty",
-            "metaDescription": "Set the engine so it loses sometimes, and always use the post-game analysis. Playing a maximum-strength engine teaches nothing except that you lost.",
-            "primaryKeyword": "play chess against a computer",
+            "title": "Play Chess Against a Computer: Beginner Practice",
+            "metaDescription": "Playing chess against a computer gives you a partner for a short practice game. Choose an accessible chess app or site, check its current access terms and…",
+            "primaryKeyword": "play chess against computer",
             "secondaryKeywords": [
               "chess engine difficulty settings",
               "how to improve at chess",
@@ -9682,7 +10119,7 @@
             ]
           },
           "content": {
-            "intro": "To play chess against a computer usefully, the setting matters more than the playing. A maximum-strength engine beats you in a way that teaches nothing, while an engine set to lose roughly half the time produces games where your decisions actually determine the outcome, which is the only condition under which you learn anything.",
+            "intro": "Playing chess against a computer gives you a partner for a short practice game. Choose an accessible chess app or site, check its current access terms and select a level that lets you think through moves. Use the game to practise one habit, such as checking what your opponent threatens.",
             "whyItWorks": "The post-game analysis is what makes computer chess genuinely instructive rather than merely convenient. It identifies the exact move where your position deteriorated, which is information no human opponent can give you reliably. Most improvement at beginner level comes from eliminating blunders rather than from learning openings, and analysis shows you precisely which ones you make.",
             "howTo": [
               {
@@ -9714,6 +10151,10 @@
             "variations": "If you are entirely new, play against a very weak setting first to learn how the pieces interact without pressure. If you already play, using the engine only to analyse your human games is more valuable than playing it directly.",
             "faq": [
               {
+                "q": "What computer difficulty should a beginner choose?",
+                "a": "Choose a level that gives you time to practise and understand mistakes. Adjust it after a few games; the aim is useful decisions, not winning every game or facing the strongest engine."
+              },
+              {
                 "q": "What difficulty should I set the engine to?",
                 "a": "One where you win roughly half the time. An engine you never beat produces losses without any usable information."
               },
@@ -9724,6 +10165,30 @@
               {
                 "q": "Is playing a computer better than playing people?",
                 "a": "Computers give instant analysis, which humans cannot. Human games are better once your basic blunders have stopped."
+              }
+            ],
+            "heading": "Play Chess Against a Computer: Beginner Practice",
+            "sections": [
+              {
+                "heading": "A computer-chess session with a review",
+                "paragraphs": [
+                  "Choose an untimed game or a comfortable time limit. Before moving, check whether your king is in check, whether a piece is attacked and what your move leaves undefended. If the opponent is consistently overwhelming, reduce the difficulty if that option is available.",
+                  "After the game, pick one turning point and replay it. Look for an alternative that protects a piece or answers a threat. An engine evaluation can suggest stronger moves, but first try to explain the position in your own words. Take one lesson into the next game rather than reviewing every move at once."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/games",
+                "label": "games activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/games/learn-a-new-card-game",
+                "label": "learn a new card game",
+                "after": "."
               }
             ]
           },
@@ -9823,12 +10288,12 @@
         {
           "name": "Play word association games",
           "slug": "play-word-association-games",
-          "description": "Challenge friends to rapid-fire word connections—a quick, screen-free game that sparks laughter and creative thinking.",
+          "description": "In a word association game, one player says a word and the next responds with a related word.",
           "image": "/images/activities/play-word-association-games.jpg",
           "seo": {
-            "title": "Play Word Association Games That Need Nothing at All",
-            "metaDescription": "Word games need no equipment at all and work in a car, a queue or around a table. Learn three formats, then add a constraint when they get too easy.",
-            "primaryKeyword": "play word association games",
+            "title": "How to Play Word Association: Rules and Examples",
+            "metaDescription": "In a word association game, one player says a word and the next responds with a related word. For example: beach, sand, castle, king, crown. There is no…",
+            "primaryKeyword": "how to play word association game",
             "secondaryKeywords": [
               "word games without equipment",
               "car journey games",
@@ -9836,7 +10301,7 @@
             ]
           },
           "content": {
-            "intro": "Word association games need nothing: no board, no cards, no screen. To play word association games you need two people and a shared language, which makes them the default entertainment for car journeys, queues and waiting rooms, and considerably better company than four people looking at separate phones.",
+            "intro": "In a word association game, one player says a word and the next responds with a related word. For example: beach, sand, castle, king, crown. There is no single correct chain. Agree how you will handle repeats and explanations, then keep the game moving without making every connection a debate.",
             "whyItWorks": "The formats scale to any group and any age because difficulty is adjustable through added rules rather than through the base game. Adding a category restriction or a letter constraint takes a game that adults find trivial and makes it genuinely challenging, which is why the same three formats work for a five-year-old and a table of adults.",
             "howTo": [
               {
@@ -9868,6 +10333,10 @@
             "variations": "If you want something more structured, twenty questions and category games use the same zero-equipment principle with a defined ending. If you are alone, playing against a timer with a category still works surprisingly well as a mental warm-up.",
             "faq": [
               {
+                "q": "Can you play word association alone?",
+                "a": "Yes. Write a starting word, build a chain for two minutes, then use one surprising connection as a writing or drawing prompt. With others, taking turns adds unexpected links."
+              },
+              {
                 "q": "What word games need no equipment?",
                 "a": "Word association, chain-letter word games, categories, twenty questions. All need only people and a shared language."
               },
@@ -9878,6 +10347,30 @@
               {
                 "q": "How long should a round last?",
                 "a": "Under five minutes. Word games are best in short bursts, and long rounds become a slog in any format."
+              }
+            ],
+            "heading": "How to Play Word Association: Rules and Examples",
+            "sections": [
+              {
+                "heading": "Word association rules for two people or a group",
+                "paragraphs": [
+                  "Choose a starting word and take turns in a fixed order. Allow several seconds to respond and ask for an explanation only when a link is unclear. For a relaxed game, let people pass and continue. For a scored version, agree a time limit and whether a repeated word ends the round before you begin.",
+                  "Try a theme such as food, films or places, or write a chain together in a shared chat. Example: apple, pie, oven, heat, summer. Online play only needs a call or message thread; there is no need for a dedicated game site. Keep words suitable for the group and let participants skip uncomfortable topics."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/games",
+                "label": "games activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/games/play-charades-with-friends",
+                "label": "play charades with friends",
+                "after": "."
               }
             ]
           },
@@ -10135,12 +10628,12 @@
         {
           "name": "Play brain-training games",
           "slug": "play-brain-training-games",
-          "description": "Use apps like Lumosity or Peak to challenge your memory, attention, and problem-solving skills with short daily games.",
+          "description": "Brain training games can be an enjoyable way to spend time on a puzzle, memory task or logic challenge.",
           "image": "/images/activities/play-brain-training-games.jpg",
           "seo": {
-            "title": "Play Brain Training Games With Realistic Expectations",
-            "metaDescription": "Brain training mostly makes you better at the training. Enjoy it as a game, and know that learning a real skill has better evidence behind it.",
-            "primaryKeyword": "play brain training games",
+            "title": "Brain Training Games: A Short Puzzle Session",
+            "metaDescription": "Brain training games can be an enjoyable way to spend time on a puzzle, memory task or logic challenge. Choose something you like and set a short session…",
+            "primaryKeyword": "brain training games",
             "secondaryKeywords": [
               "do brain training apps work",
               "cognitive training evidence",
@@ -10148,48 +10641,54 @@
             ]
           },
           "content": {
-            "intro": "Play brain training games by all means, but the marketing around them oversells considerably. The consistent finding is that you get better at the trained task, with limited evidence that improvement transfers to general cognitive ability or everyday function. That is worth knowing before paying a subscription, and it does not stop the games being fun.",
-            "whyItWorks": "Near transfer, improving at things closely resembling the exercise, is well established. Far transfer to general reasoning or memory in daily life is where the evidence weakens substantially. Learning a genuinely new complex skill, an instrument or a language, has better support as cognitively demanding activity, and happens to produce something you can use.",
+            "intro": "Brain training games can be an enjoyable way to spend time on a puzzle, memory task or logic challenge. Choose something you like and set a short session limit. Treat improvements in a game score as progress in that game rather than proof of a general cognitive benefit.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Treat them as games, not treatment",
-                "detail": "Play them because you enjoy them. The framing as brain health is precisely where the marketing claims outrun the actual evidence."
+                "step": "Prepare",
+                "detail": "Choose a puzzle whose rules and difficulty you understand."
               },
               {
-                "step": "Use free versions first",
-                "detail": "Subscriptions are rarely justified by the evidence. Free versions cover the same exercises."
+                "step": "Try the practical steps",
+                "detail": "Work through a small session, using a hint to learn when you get stuck."
               },
               {
-                "step": "Notice what actually improves",
-                "detail": "Your score on that specific game, almost certainly. Whether anything else changes is the honest question."
-              },
-              {
-                "step": "Compare against learning something real",
-                "detail": "An instrument, a language, a craft. Similar cognitive demand, better evidence, and a usable skill at the end."
-              },
-              {
-                "step": "Keep sessions short",
-                "detail": "Fifteen minutes is plenty. These apps are built with engagement mechanics that will happily consume an entire hour."
+                "step": "Review and follow up",
+                "detail": "Review one helpful strategy and treat score gains as task-specific progress."
               }
             ],
             "tips": [
-              "Physical exercise and adequate sleep both have stronger evidence for cognitive function than any commercial training app does.",
-              "Be wary of any app making specific medical claims about preventing cognitive decline. Several have faced regulatory action over exactly that.",
-              "Puzzles, chess and card games provide equally good cognitive engagement and are generally free."
+              "A higher score shows improvement on the task you practised. This guide does not claim that a game increases general intelligence or prevents a health condition. Choose it for enjoyment and puzzle practice."
             ],
-            "variations": "If cognitive challenge is the goal, learning a language or an instrument gives similar demand with better-supported benefits. If you simply enjoy the format, crosswords, sudoku and chess puzzles offer the same pleasure without the subscription.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "Do brain training games actually work?",
-                "a": "You reliably improve at the trained task. Evidence for transfer to general cognitive ability or daily function is much weaker."
+                "q": "Do brain training games make you smarter?",
+                "a": "A higher score shows improvement on the task you practised. This guide does not claim that a game increases general intelligence or prevents a health condition. Choose it for enjoyment and puzzle practice."
+              }
+            ],
+            "heading": "Brain Training Games: A Short Puzzle Session",
+            "sections": [
+              {
+                "heading": "Choose a puzzle and review your approach",
+                "paragraphs": [
+                  "Try a word puzzle, number puzzle or matching task at a level where you can work through the rules. Before looking at a hint, write down what you know and try one next step. If you are stuck, use a hint to learn the method instead of repeatedly guessing.",
+                  "Afterwards, note one strategy that helped. You can play alongside a friend and compare approaches without turning the session into a test. Check fees and privacy terms if an app is involved. Keep the activity enjoyable and take a break when it becomes tiring."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/games",
+                "label": "games activities",
+                "after": "."
               },
               {
-                "q": "Are paid brain training apps worth it?",
-                "a": "Generally not, given the evidence. Free puzzles, chess and card games provide the same cognitive engagement at no cost."
-              },
-              {
-                "q": "What is better for cognitive health?",
-                "a": "Physical exercise, sleep and learning genuinely new complex skills all have stronger support than training apps do."
+                "before": "Another activity to try is",
+                "href": "/activities/learning/learn-basic-phrases-in-a-new-language",
+                "label": "learn basic phrases in a new language",
+                "after": "."
               }
             ]
           },
@@ -10212,12 +10711,12 @@
         {
           "name": "Try geoguessr online",
           "slug": "try-geoguessr-online",
-          "description": "Guess your location on a map using Google Street View clues—a fun, addictive way to test your geography knowledge.",
+          "description": "A location guessing game shows you a scene and asks you to place it on a map.",
           "image": "/images/activities/try-geoguessr-online.jpg",
           "seo": {
-            "title": "Try GeoGuessr and Learn to Read the Landscape",
-            "metaDescription": "Guessing a location from street view rewards a small set of specific observations: road markings, bollards, vegetation and which side cars drive on.",
-            "primaryKeyword": "try geoguessr online",
+            "title": "Try a Location Guessing Game: A Beginner Practice Plan",
+            "metaDescription": "A location guessing game shows you a scene and asks you to place it on a map. Use a short session to practise noticing road layouts, signs, landscape and…",
+            "primaryKeyword": "guess where you are game",
             "secondaryKeywords": [
               "geoguessr tips for beginners",
               "identifying countries from street view",
@@ -10225,48 +10724,54 @@
             ]
           },
           "content": {
-            "intro": "GeoGuessr drops you into a random street view and asks where in the world you are. To try geoguessr online is entertaining immediately and becomes genuinely interesting once you realize the guessing is not guessing at all: experienced players read a small set of reliable visual signals.",
-            "whyItWorks": "Certain clues are close to definitive. Which side of the road cars drive on halves the world instantly. Bollard design, road marking color, utility pole construction and licence plate shape narrow it much further, and vegetation and soil color fix the latitude and climate. Learning five of these transforms your accuracy in a single session.",
+            "intro": "A location guessing game shows you a scene and asks you to place it on a map. Use a short session to practise noticing road layouts, signs, landscape and buildings. If you choose GeoGuessr, check its current modes and access terms before starting; this guide does not assume that a particular mode is free.",
+            "whyItWorks": "A manageable first session lets you check the instructions, try an appropriate starting point and decide what to do next. Review what suited your circumstances before increasing the scope or committing to a longer plan.",
             "howTo": [
               {
-                "step": "Check the driving side first",
-                "detail": "Look for oncoming traffic or road markings. This single observation eliminates most of the world immediately."
+                "step": "Prepare",
+                "detail": "Check the current game access terms or choose a photograph-based alternative."
               },
               {
-                "step": "Read the road markings",
-                "detail": "Line color, dashes, centre line style. These are standardised nationally and are visible in almost every image."
+                "step": "Try the practical steps",
+                "detail": "Write down several visible clues and explain the reasoning behind your guess."
               },
               {
-                "step": "Look at bollards and poles",
-                "detail": "Bollard design and utility pole construction are remarkably country-specific, and experienced players rely on them more than anything else."
-              },
-              {
-                "step": "Use vegetation and soil",
-                "detail": "Tree species, grass color and soil tone place the climate band even when there is no infrastructure visible."
-              },
-              {
-                "step": "Follow the road to a sign",
-                "detail": "Language and script settle the question immediately. Moving a few hundred meters is usually faster than deducing anything from scenery."
+                "step": "Review and follow up",
+                "detail": "Review the revealed location and keep a note of one useful or misleading clue."
               }
             ],
             "tips": [
-              "Learn one country's signature features per session rather than attempting to absorb the whole world at once.",
-              "Country-streak mode is considerably more instructive than distance scoring when you are building up recognition.",
-              "The camera vehicle itself is sometimes visible and differs by region, which is a well-known advanced tell."
+              "Review a small number of rounds carefully. Record the visible clues, your initial guess and the revealed location. Learning why a guess was wrong is more useful than repeatedly clicking at speed."
             ],
-            "variations": "If the full game is overwhelming, play in a single-country mode until the local features become familiar. If you enjoy the deduction more than the competition, no-move modes force you to read one static scene properly rather than driving to a sign.",
+            "variations": "You can use the session to read the linked guidance and plan a suitable next step. If the suggested activity does not fit today, choose a smaller version or ask for individual advice where needed.",
             "faq": [
               {
-                "q": "How do people guess locations so accurately?",
-                "a": "They read specific standardised details: driving side, road markings, bollards, utility poles, vegetation and licence plates."
+                "q": "How can I get better at a location guessing game?",
+                "a": "Review a small number of rounds carefully. Record the visible clues, your initial guess and the revealed location. Learning why a guess was wrong is more useful than repeatedly clicking at speed."
+              }
+            ],
+            "heading": "Try a Location Guessing Game: A Beginner Practice Plan",
+            "sections": [
+              {
+                "heading": "How to practise location clues without rushing",
+                "paragraphs": [
+                  "For each round, write down three visible clues before choosing a country or region. Separate a clue you can read, such as a place name, from a guess based on scenery. Road signs and language can narrow your choices, but one clue rarely identifies a place on its own.",
+                  "After the answer appears, compare your reasoning with the location. Keep a note of what helped and what misled you. For a version without a game account, ask a friend to choose a public landmark photograph and take turns guessing its location, crediting the photograph and avoiding private addresses."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/games",
+                "label": "games activities",
+                "after": "."
               },
               {
-                "q": "What should a beginner look for first?",
-                "a": "Which side of the road traffic drives on. That one observation eliminates a large majority of possible countries."
-              },
-              {
-                "q": "Is it worth moving around the map?",
-                "a": "Usually yes. Following the road to a sign gives you language and script, which settles the country far faster than deduction."
+                "before": "Another activity to try is",
+                "href": "/activities/outdoor/try-geocaching-in-your-area",
+                "label": "try geocaching in your area",
+                "after": "."
               }
             ]
           },
@@ -10373,10 +10878,10 @@
         {
           "name": "Start a jigsaw puzzle",
           "slug": "start-a-jigsaw-puzzle",
-          "description": "Tip out the pieces, find the corners, and lose yourself in a satisfying slow-burn challenge.",
+          "description": "Start a jigsaw puzzle by choosing a size that fits your space and available time.",
           "seo": {
-            "title": "Start a Jigsaw Puzzle and Sort Before You Search",
-            "metaDescription": "Sorting by edge and color first is what turns a jigsaw from frustrating into absorbing. Use good light, a board you can move, and work in sections.",
+            "title": "Start a Jigsaw Puzzle: Sorting and Small Sections",
+            "metaDescription": "Start a jigsaw puzzle by choosing a size that fits your space and available time. A spare hour can be enough to sort pieces and finish one small area even…",
             "primaryKeyword": "start a jigsaw puzzle",
             "secondaryKeywords": [
               "jigsaw puzzle technique",
@@ -10385,7 +10890,7 @@
             ]
           },
           "content": {
-            "intro": "The difference between a jigsaw that absorbs you and one that becomes frustrating is almost entirely the sorting. To start a jigsaw puzzle well, spend the first twenty minutes turning every piece face up and sorting into groups before attempting to place anything at all.",
+            "intro": "Start a jigsaw puzzle by choosing a size that fits your space and available time. A spare hour can be enough to sort pieces and finish one small area even when the whole puzzle takes longer. Keep the box picture nearby and use a surface where unfinished work can stay safely.",
             "whyItWorks": "Searching a heap of a thousand face-down pieces for one shape is a slow linear scan. Sorting converts that into looking through a group of forty, which is the whole gain. Working in sections rather than across the whole picture compounds it further, since a section keeps the search space small and gives you visible progress rather than scattered fragments.",
             "howTo": [
               {
@@ -10417,6 +10922,10 @@
             "variations": "If a thousand pieces is daunting, five hundred is a genuinely enjoyable evening rather than a two weeks of commitment. If you want it harder, puzzles with large areas of uniform color, sky or water, remove the color-sorting advantage entirely.",
             "faq": [
               {
+                "q": "Can I complete a jigsaw puzzle in an hour?",
+                "a": "It depends on the size and difficulty. Choose a small puzzle for a full session, or define progress as sorting pieces and building one section of a larger puzzle."
+              },
+              {
                 "q": "What is the best way to start a jigsaw?",
                 "a": "Turn every piece face up, separate the edges, then sort the rest by color and pattern before placing anything."
               },
@@ -10427,6 +10936,30 @@
               {
                 "q": "How do I store an unfinished puzzle?",
                 "a": "A puzzle mat or board that can be moved off the table. That is what makes larger puzzles practical in a shared space."
+              }
+            ],
+            "heading": "Start a Jigsaw Puzzle: Sorting and Small Sections",
+            "sections": [
+              {
+                "heading": "Make progress without sorting every piece",
+                "paragraphs": [
+                  "Turn pieces face up, put obvious edge pieces aside and choose one distinctive colour or feature. Build a small section around that feature, checking the image and piece shapes together. Edges can help establish the layout, but you do not have to complete the border first.",
+                  "Use trays for loose groups and keep pieces away from pets or small children. Stop before frustration makes you force pieces together. Photograph the work if you need to move it, and store unfinished sections on a suitable board or mat."
+                ]
+              }
+            ],
+            "nextIdeas": [
+              {
+                "before": "For more ideas, browse",
+                "href": "/activities/games",
+                "label": "games activities",
+                "after": "."
+              },
+              {
+                "before": "Another activity to try is",
+                "href": "/activities/mindfulness/try-mindful-coloring",
+                "label": "try mindful coloring",
+                "after": "."
               }
             ]
           },
