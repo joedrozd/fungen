@@ -19,6 +19,7 @@ const categoryGroups = {
 const primaryPages = [
   { href: "/", label: "Generate", mobileLabel: "Generate an idea" },
   { href: "/activities", label: "Discover", mobileLabel: "Discover all activities" },
+  { href: "/how-to", label: "How-to", mobileLabel: "DIY & home guides" },
   { href: "/solo-day-out-generator", label: "Solo day out", mobileLabel: "Plan a solo day out" },
   { href: "/find-your-next-activity", label: "Inspiration", mobileLabel: "Find your next activity" },
   { href: "/about", label: "About", mobileLabel: "About & FAQ" },
@@ -27,6 +28,7 @@ const primaryPages = [
 function isCurrentPage(pathname: string, href: string) {
   if (href === "/") return pathname === "/";
   if (href === "/activities") return pathname.startsWith(href);
+  if (href === "/how-to") return pathname === href || pathname.startsWith(`${href}/`);
   return pathname === href;
 }
 

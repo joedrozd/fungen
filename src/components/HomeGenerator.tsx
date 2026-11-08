@@ -253,6 +253,7 @@ export function HomeGenerator({ leisureCategories, productiveCategories }: {
               </div>
             </div>
             <Link href="/activities" className={styles.browse}>Browse all activity guides <ArrowRight size={15} aria-hidden="true" /></Link>
+            <Link href="/how-to" className={styles.browse}>Explore DIY and home how-to guides <ArrowRight size={15} aria-hidden="true" /></Link>
             {activityOfTheDay && <button type="button" className={styles.dailyPick} onClick={() => {
               selectActivity(activityOfTheDay, "daily_pick"); window.scrollTo({ top: 0, behavior: "smooth" });
             }}><span className={styles.label}><Sparkles size={14} aria-hidden="true" /> Activity of the Day</span><span>{activityOfTheDay.name}</span><ArrowRight size={16} aria-hidden="true" /></button>}

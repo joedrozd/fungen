@@ -54,6 +54,7 @@ information only and are not professional advice.
 - [Find your next activity](${BASE_URL}/find-your-next-activity) — practical starting points for creative, social and solo activities
 - [Solo outing generator](${BASE_URL}/solo-day-out-generator) — indoor and outdoor ideas for 30–60 minutes, with free options
 - [All Activities](${BASE_URL}/activities) — every category
+- [DIY and home how-to guides](${BASE_URL}/how-to) — repairs, cleaning, laundry, crafts, growing and longer builds
 - [About](${BASE_URL}/about)
 - [Disclaimer](${BASE_URL}/disclaimer)
 
@@ -61,6 +62,7 @@ information only and are not professional advice.
 
 - Category: \`${BASE_URL}/activities/{category-slug}\`
 - Activity: \`${BASE_URL}/activities/{category-slug}/{activity-slug}\`
+- Home guide: \`${BASE_URL}/how-to/{project-slug}\`
 
 ## Activities
 

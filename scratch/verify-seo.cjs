@@ -6,7 +6,7 @@ const path = require('node:path');
 const routes = [
   ['/', 'Random Activity Generator', 'Generate Idea'],
   ['/activities/social/join-a-recreational-sports-league', 'How to Join a Local Sports League as a Beginner', 'Where to find UK leagues'],
-  ['/activities/social', 'Social', 'how to join a local sports league as a beginner'],
+  ['/activities/social', 'Social', 'how to join local sports leagues'],
   ['/activities/creative/create-a-collage-from-magazine-cutouts', 'Create a collage from magazine cutouts', 'blackout poetry with an old newspaper'],
   ['/activities/creative', 'Creative', 'making a magazine collage'],
   ['/solo-day-out-generator', 'Solo Day Out Generator', 'Browse a library shelf you usually skip'],
@@ -25,7 +25,7 @@ for (const [route, heading, text] of routes) {
   const headingText = headings[0][1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
   assert.ok(headingText.includes(heading), `${route}: H1 text missing`);
   assert.ok(withoutScripts.includes(text), `${route}: content only in scripts or absent`);
-  const canonical = route === '/' ? 'https://fungen.app' : `https://fungen.app${route}`;
+  const canonical = route === '/' ? 'https://www.activitygenerator.co.uk' : `https://www.activitygenerator.co.uk${route}`;
   assert.ok(withoutScripts.includes(`rel="canonical" href="${canonical}"`), `${route}: wrong canonical`);
   assert.ok(!/<meta[^>]*content="[^"]*noindex/.test(withoutScripts), `${route}: noindex found`);
   if (route === '/') {
@@ -59,6 +59,6 @@ for (const category of categories) {
   }
 }
 const sitemap = fs.readFileSync('.next/server/app/sitemap.xml.body', 'utf8');
-assert.ok(sitemap.includes('https://fungen.app/solo-day-out-generator'), 'Solo pilot missing from sitemap');
-assert.ok(sitemap.includes('https://fungen.app/find-your-next-activity'), 'Inspiration page missing from sitemap');
+assert.ok(sitemap.includes('https://www.activitygenerator.co.uk/solo-day-out-generator'), 'Solo pilot missing from sitemap');
+assert.ok(sitemap.includes('https://www.activitygenerator.co.uk/find-your-next-activity'), 'Inspiration page missing from sitemap');
 console.log(`PASS ${checked} contextual links and new page sitemap entries`);

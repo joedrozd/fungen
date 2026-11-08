@@ -5,7 +5,12 @@ export function Footer() {
     <footer className="site-footer">
       <div className="site-footer-main">
         <Link href="/" className="site-footer-brand">Fungen // Everyday possibility</Link>
-        <nav aria-label="Footer"><Link href="/activities">All activities</Link><Link href="/about">About & FAQ</Link><a href="https://paypal.me/JDrozd?country.x=GB&locale.x=en_GB" target="_blank" rel="noopener noreferrer">Buy me a coffee ↗</a></nav>
+        <nav aria-label="Footer">
+          <Link href="/activities">All activities</Link>
+          <Link href="/how-to">DIY &amp; home guides</Link>
+          <Link href="/about">About &amp; FAQ</Link>
+          <a href="https://paypal.me/JDrozd?country.x=GB&locale.x=en_GB" target="_blank" rel="noopener noreferrer">Buy me a coffee ↗</a>
+        </nav>
       </div>
       <div className="site-footer-legal">
         <p>© {new Date().getFullYear()} Activity Generator</p>

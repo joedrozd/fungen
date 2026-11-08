@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { ContextualLinks } from "@/components/ContextualLinks";
 import { notFound } from "next/navigation";
 import { CategoryView } from "@/components/CategoryView";
@@ -128,6 +129,15 @@ export default async function CategoryPage({ params }: PageProps) {
               ) : null}
               <ContextualLinks links={category.content.nextIdeas} />
             </div>
+          )}
+          {category.slug === "home-improvement" && (
+            <p className="mt-6 leading-relaxed">
+              Ready to fix something specific?{" "}
+              <Link href="/how-to#small-repairs" className="text-primary underline underline-offset-4">
+                Browse step-by-step home repair guides
+              </Link>{" "}
+              for loose handles, sticking drawers and other everyday fixes.
+            </p>
           )}
         </header>
       </CategoryView>
